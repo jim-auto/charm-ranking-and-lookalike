@@ -1,6 +1,6 @@
 # 魅力度ランキング & 似ている芸能人診断
 
-https://jim-auto.github.io/face-ranking-and-lookalike/
+https://jim-auto.github.io/charm-ranking-and-lookalike/
 
 芸能人の魅力度ランキング表示と、自分の顔写真から似ている芸能人を診断できるサイトです。
 画像はすべてブラウザ内で処理され、サーバーには送信されません。
