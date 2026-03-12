@@ -15,6 +15,7 @@ const categories = [
   { value: 'actress', label: '女優' },
   { value: 'idol', label: 'アイドル' },
   { value: 'influencer', label: 'インフルエンサー' },
+  { value: 'artist', label: 'アーティスト' },
 ];
 
 function getScore(c: Celebrity, age: boolean, sns: boolean): number {
@@ -37,6 +38,7 @@ export default function RankingPage() {
   const [categoryFilter, setCategoryFilter] = useState('');
   const [useAge, setUseAge] = useState(false);
   const [useSns, setUseSns] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -51,12 +53,29 @@ export default function RankingPage() {
     let list = [...celebrities];
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      list = list.filter((c) =>
+        c.name.toLowerCase().includes(q) ||
+        (c.group && c.group.toLowerCase().includes(q))
+      );
+    }
     list.sort((a, b) => getScore(b, useAge, useSns) - getScore(a, useAge, useSns));
     return list;
-  }, [celebrities, genderFilter, categoryFilter, useAge, useSns]);
+  }, [celebrities, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
 
   return (
     <div>
+      <div className="mb-3">
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="名前・グループで検索..."
+          className="w-full px-4 py-2 rounded-lg bg-slate-800 text-white placeholder-slate-500 border border-slate-700 focus:border-indigo-500 focus:outline-none text-sm"
+        />
+      </div>
+
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <span className="text-sm text-slate-400 mr-1">性別:</span>
         {genderFilters.map((g) => (

@@ -14,6 +14,7 @@ const categoryLabel: Record<string, string> = {
   actress: '女優',
   idol: 'アイドル',
   influencer: 'インフルエンサー',
+  artist: 'アーティスト',
 };
 
 function medalColor(rank: number): string {
