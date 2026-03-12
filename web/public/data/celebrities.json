@@ -146,7 +146,15 @@
       0.07282138615846634
     ],
     "id": "celeb_001",
-    "thumbnail": "data/thumbnails/celeb_001.jpg"
+    "thumbnail": "data/thumbnails/celeb_001.jpg",
+    "sns": {
+      "instagram": 14200000,
+      "twitter": 0,
+      "tiktok": 8500000,
+      "youtube": 0
+    },
+    "totalFollowers": 22700000,
+    "scoreCharm": 77.2
   },
   {
     "id": "celeb_002",
@@ -295,7 +303,15 @@
     "thumbnail": "data/thumbnails/celeb_002.jpg",
     "age": 27,
     "scoreWithAge": 78.1,
-    "gender": "female"
+    "gender": "female",
+    "sns": {
+      "instagram": 4200000,
+      "twitter": 3800000,
+      "tiktok": 1500000,
+      "youtube": 800000
+    },
+    "totalFollowers": 10300000,
+    "scoreCharm": 75.3
   },
   {
     "id": "celeb_003",
@@ -444,7 +460,15 @@
     "thumbnail": "data/thumbnails/celeb_003.jpg",
     "age": 39,
     "scoreWithAge": 63.6,
-    "gender": "female"
+    "gender": "female",
+    "sns": {
+      "instagram": 1200000,
+      "twitter": 0,
+      "tiktok": 0,
+      "youtube": 0
+    },
+    "totalFollowers": 1200000,
+    "scoreCharm": 68.8
   },
   {
     "id": "celeb_004",
@@ -593,7 +617,15 @@
     "thumbnail": "data/thumbnails/celeb_004.jpg",
     "age": 41,
     "scoreWithAge": 60.9,
-    "gender": "female"
+    "gender": "female",
+    "sns": {
+      "instagram": 800000,
+      "twitter": 0,
+      "tiktok": 0,
+      "youtube": 0
+    },
+    "totalFollowers": 800000,
+    "scoreCharm": 67.8
   },
   {
     "id": "celeb_005",
@@ -742,7 +774,15 @@
     "thumbnail": "data/thumbnails/celeb_005.jpg",
     "age": 24,
     "scoreWithAge": 79,
-    "gender": "female"
+    "gender": "female",
+    "sns": {
+      "instagram": 5100000,
+      "twitter": 2900000,
+      "tiktok": 1200000,
+      "youtube": 0
+    },
+    "totalFollowers": 9200000,
+    "scoreCharm": 72.3
   },
   {
     "id": "celeb_006",
@@ -891,7 +931,15 @@
     "thumbnail": "data/thumbnails/celeb_006.jpg",
     "age": 28,
     "scoreWithAge": 70,
-    "gender": "female"
+    "gender": "female",
+    "sns": {
+      "instagram": 3800000,
+      "twitter": 2100000,
+      "tiktok": 0,
+      "youtube": 0
+    },
+    "totalFollowers": 5900000,
+    "scoreCharm": 68.9
   },
   {
     "id": "celeb_007",
@@ -1040,7 +1088,15 @@
     "thumbnail": "data/thumbnails/celeb_007.jpg",
     "age": 38,
     "scoreWithAge": 59.8,
-    "gender": "female"
+    "gender": "female",
+    "sns": {
+      "instagram": 1500000,
+      "twitter": 0,
+      "tiktok": 0,
+      "youtube": 0
+    },
+    "totalFollowers": 1500000,
+    "scoreCharm": 65.8
   },
   {
     "id": "celeb_008",
@@ -1189,7 +1245,15 @@
     "thumbnail": "data/thumbnails/celeb_008.jpg",
     "age": 37,
     "scoreWithAge": 60.8,
-    "gender": "male"
+    "gender": "male",
+    "sns": {
+      "instagram": 4800000,
+      "twitter": 3200000,
+      "tiktok": 2000000,
+      "youtube": 1500000
+    },
+    "totalFollowers": 11500000,
+    "scoreCharm": 70.1
   },
   {
     "id": "celeb_009",
@@ -1338,7 +1402,15 @@
     "thumbnail": "data/thumbnails/celeb_009.jpg",
     "age": 32,
     "scoreWithAge": 64.2,
-    "gender": "male"
+    "gender": "male",
+    "sns": {
+      "instagram": 3500000,
+      "twitter": 1800000,
+      "tiktok": 500000,
+      "youtube": 0
+    },
+    "totalFollowers": 5800000,
+    "scoreCharm": 67.1
   },
   {
     "name": "齋藤飛鳥",
@@ -1487,7 +1559,15 @@
       -0.020289259031414986
     ],
     "id": "celeb_010",
-    "thumbnail": "data/thumbnails/celeb_010.jpg"
+    "thumbnail": "data/thumbnails/celeb_010.jpg",
+    "sns": {
+      "instagram": 3200000,
+      "twitter": 2500000,
+      "tiktok": 800000,
+      "youtube": 0
+    },
+    "totalFollowers": 6500000,
+    "scoreCharm": 62.1
   },
   {
     "name": "はじめしゃちょー",
@@ -1636,6 +1716,14 @@
       0.02776164375245571
     ],
     "id": "celeb_011",
-    "thumbnail": "data/thumbnails/celeb_011.jpg"
+    "thumbnail": "data/thumbnails/celeb_011.jpg",
+    "sns": {
+      "instagram": 700000,
+      "twitter": 8500000,
+      "tiktok": 4000000,
+      "youtube": 10500000
+    },
+    "totalFollowers": 23700000,
+    "scoreCharm": 62.4
   }
 ]

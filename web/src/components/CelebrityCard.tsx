@@ -1,10 +1,11 @@
-import type { Celebrity } from '../types/celebrity';
+import type { Celebrity, ScoreMode } from '../types/celebrity';
 import ScoreRadar from './ScoreRadar';
 
 interface Props {
   celebrity: Celebrity;
   rank: number;
-  useAge?: boolean;
+  scoreMode?: ScoreMode;
+  formatFollowers?: (n: number) => string;
 }
 
 const categoryLabel: Record<string, string> = {
@@ -21,8 +22,19 @@ function medalColor(rank: number): string {
   return 'text-slate-500';
 }
 
-export default function CelebrityCard({ celebrity, rank, useAge = false }: Props) {
-  const displayScore = useAge ? celebrity.scoreWithAge : celebrity.score;
+function getDisplayScore(c: Celebrity, mode: ScoreMode): number {
+  if (mode === 'age') return c.scoreWithAge;
+  if (mode === 'charm') return c.scoreCharm;
+  return c.score;
+}
+
+export default function CelebrityCard({
+  celebrity,
+  rank,
+  scoreMode = 'face',
+  formatFollowers,
+}: Props) {
+  const displayScore = getDisplayScore(celebrity, scoreMode);
 
   return (
     <div className="bg-slate-800 rounded-xl p-3 sm:p-4">
@@ -40,11 +52,16 @@ export default function CelebrityCard({ celebrity, rank, useAge = false }: Props
 
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-base sm:text-lg leading-tight">{celebrity.name}</h3>
-          <div className="flex items-center gap-2 mt-0.5">
+          <div className="flex items-center gap-2 mt-0.5 flex-wrap">
             <span className="text-xs px-1.5 py-0.5 rounded-full bg-indigo-900 text-indigo-300">
               {categoryLabel[celebrity.category] ?? celebrity.category}
             </span>
             <span className="text-xs text-slate-500">{celebrity.age}歳</span>
+            {scoreMode === 'charm' && celebrity.totalFollowers > 0 && formatFollowers && (
+              <span className="text-xs text-emerald-400">
+                SNS {formatFollowers(celebrity.totalFollowers)}
+              </span>
+            )}
           </div>
         </div>
 
@@ -52,9 +69,9 @@ export default function CelebrityCard({ celebrity, rank, useAge = false }: Props
           <div className="text-indigo-400 text-2xl sm:text-3xl font-bold">
             {displayScore}
           </div>
-          {useAge && (
+          {scoreMode !== 'face' && (
             <div className="text-xs text-slate-500">
-              素点 {celebrity.score}
+              顔 {celebrity.score}
             </div>
           )}
         </div>

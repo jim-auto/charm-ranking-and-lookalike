@@ -8,6 +8,13 @@ export interface ScoreDetails {
   skin: number;
 }
 
+export interface SnsFollowers {
+  instagram?: number;
+  twitter?: number;
+  tiktok?: number;
+  youtube?: number;
+}
+
 export interface Celebrity {
   id: string;
   name: string;
@@ -15,8 +22,13 @@ export interface Celebrity {
   gender: 'male' | 'female';
   score: number;
   scoreWithAge: number;
+  scoreCharm: number;
   age: number;
+  sns: SnsFollowers;
+  totalFollowers: number;
   details: ScoreDetails;
   embedding: number[];
   thumbnail: string;
 }
+
+export type ScoreMode = 'face' | 'age' | 'charm';

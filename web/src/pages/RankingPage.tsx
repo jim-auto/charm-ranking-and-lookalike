@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import type { Celebrity } from '../types/celebrity';
+import type { Celebrity, ScoreMode } from '../types/celebrity';
 import CelebrityCard from '../components/CelebrityCard';
 
 const genderFilters = [
@@ -16,11 +16,29 @@ const categories = [
   { value: 'influencer', label: 'インフルエンサー' },
 ];
 
+const scoreModes: { value: ScoreMode; label: string; desc: string }[] = [
+  { value: 'face', label: '顔面偏差値', desc: '顔の比率のみ' },
+  { value: 'age', label: '年齢考慮', desc: '20代前半ピークで補正' },
+  { value: 'charm', label: '魅力度', desc: '顔 70% + SNS影響力 30%' },
+];
+
+function getScore(c: Celebrity, mode: ScoreMode): number {
+  if (mode === 'age') return c.scoreWithAge;
+  if (mode === 'charm') return c.scoreCharm;
+  return c.score;
+}
+
+function formatFollowers(n: number): string {
+  if (n >= 10000000) return (n / 10000000).toFixed(1) + '千万';
+  if (n >= 10000) return Math.round(n / 10000) + '万';
+  return String(n);
+}
+
 export default function RankingPage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [genderFilter, setGenderFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
-  const [useAge, setUseAge] = useState(false);
+  const [scoreMode, setScoreMode] = useState<ScoreMode>('face');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -35,15 +53,12 @@ export default function RankingPage() {
     let list = [...celebrities];
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
-    list.sort((a, b) =>
-      useAge ? b.scoreWithAge - a.scoreWithAge : b.score - a.score,
-    );
+    list.sort((a, b) => getScore(b, scoreMode) - getScore(a, scoreMode));
     return list;
-  }, [celebrities, genderFilter, categoryFilter, useAge]);
+  }, [celebrities, genderFilter, categoryFilter, scoreMode]);
 
   return (
     <div>
-      {/* Gender filter */}
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <span className="text-sm text-slate-400 mr-1">性別:</span>
         {genderFilters.map((g) => (
@@ -61,7 +76,6 @@ export default function RankingPage() {
         ))}
       </div>
 
-      {/* Category filter */}
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <span className="text-sm text-slate-400 mr-1">ジャンル:</span>
         {categories.map((cat) => (
@@ -79,32 +93,24 @@ export default function RankingPage() {
         ))}
       </div>
 
-      {/* Score mode */}
-      <div className="flex items-center gap-3 mb-6 p-3 bg-slate-800/50 rounded-lg">
-        <span className="text-sm text-slate-400">モード:</span>
-        <button
-          onClick={() => setUseAge(false)}
-          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-            !useAge
-              ? 'bg-indigo-600 text-white'
-              : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
-          }`}
-        >
-          顔面偏差値
-        </button>
-        <button
-          onClick={() => setUseAge(true)}
-          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-            useAge
-              ? 'bg-indigo-600 text-white'
-              : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
-          }`}
-        >
-          年齢考慮
-        </button>
-        {useAge && (
-          <span className="text-xs text-slate-500">※ 20代前半をピークに年齢で補正</span>
-        )}
+      <div className="flex flex-wrap items-center gap-2 mb-6 p-3 bg-slate-800/50 rounded-lg">
+        <span className="text-sm text-slate-400 mr-1">モード:</span>
+        {scoreModes.map((m) => (
+          <button
+            key={m.value}
+            onClick={() => setScoreMode(m.value)}
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              scoreMode === m.value
+                ? 'bg-indigo-600 text-white'
+                : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+            }`}
+          >
+            {m.label}
+          </button>
+        ))}
+        <span className="text-xs text-slate-500 ml-1">
+          {scoreModes.find((m) => m.value === scoreMode)?.desc}
+        </span>
       </div>
 
       {loading ? (
@@ -118,7 +124,8 @@ export default function RankingPage() {
               key={celeb.id}
               celebrity={celeb}
               rank={i + 1}
-              useAge={useAge}
+              scoreMode={scoreMode}
+              formatFollowers={formatFollowers}
             />
           ))}
         </div>
