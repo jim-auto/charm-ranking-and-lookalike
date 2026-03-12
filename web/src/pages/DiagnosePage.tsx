@@ -80,9 +80,9 @@ export default function DiagnosePage() {
   return (
     <div className="max-w-2xl mx-auto">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold mb-2">顔診断</h2>
+        <h2 className="text-2xl font-bold mb-2">顔面偏差値診断</h2>
         <p className="text-slate-400">
-          あなたの顔写真からスコアを算出し、似ている芸能人を見つけます。
+          あなたの顔写真から偏差値を算出し、似ている芸能人を見つけます。
         </p>
       </div>
 
@@ -115,7 +115,7 @@ export default function DiagnosePage() {
 
       <div className="mt-8 p-4 bg-slate-800/50 rounded-lg text-sm text-slate-500">
         <p>
-          ※ スコアは顔の数学的比率に基づく指標であり、美の絶対評価ではありません。
+          ※ 偏差値は顔の数学的比率に基づく指標であり、美の絶対評価ではありません。
         </p>
         <p>
           ※ アップロードした画像はブラウザ内のみで処理され、サーバーには送信されません。

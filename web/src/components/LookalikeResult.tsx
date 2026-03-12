@@ -11,10 +11,9 @@ export default function LookalikeResult({ score, details, lookalikes }: Props) {
   return (
     <div className="space-y-6">
       <div className="bg-slate-800 rounded-xl p-6 text-center">
-        <h3 className="text-lg text-slate-300 mb-2">あなたのスコア</h3>
+        <h3 className="text-lg text-slate-300 mb-2">あなたの顔面偏差値</h3>
         <div className="text-5xl font-bold text-indigo-400 mb-4">
           {score}
-          <span className="text-xl text-slate-400 ml-1">点</span>
         </div>
         <div className="flex justify-center">
           <ScoreRadar details={details} size="md" />
@@ -35,7 +34,7 @@ export default function LookalikeResult({ score, details, lookalikes }: Props) {
                 />
                 <div className="flex-1">
                   <div className="font-medium">{celebrity.name}</div>
-                  <div className="text-sm text-slate-400">スコア: {celebrity.score}点</div>
+                  <div className="text-sm text-slate-400">偏差値: {celebrity.score}</div>
                 </div>
                 <div className="text-indigo-400 font-bold">
                   {Math.round(similarity * 100)}% 一致
