@@ -242,6 +242,86 @@ const META = {
   // イコラブ追加
   '音嶋莉沙': { age: 22, gender: 'female', sns: { twitter: 100000 }, totalFollowers: 100000 },
   '瀧脇笙古': { age: 25, gender: 'female', sns: { twitter: 100000 }, totalFollowers: 100000 },
+
+  // アーティスト追加
+  '星野源': { age: 45, gender: 'male', sns: { instagram: 3000000, twitter: 3500000, youtube: 1500000 }, totalFollowers: 8000000 },
+  'YUKI': { age: 54, gender: 'female', sns: {}, totalFollowers: 0 },
+  '椎名林檎': { age: 48, gender: 'female', sns: {}, totalFollowers: 0 },
+  '宇多田ヒカル': { age: 43, gender: 'female', sns: { instagram: 3500000, twitter: 4000000 }, totalFollowers: 7500000 },
+  '三浦大知': { age: 38, gender: 'male', sns: { instagram: 800000, twitter: 600000, youtube: 500000 }, totalFollowers: 1900000 },
+  'Vaundy': { age: 26, gender: 'male', sns: { instagram: 1000000, youtube: 2000000 }, totalFollowers: 3000000 },
+  'MISIA': { age: 48, gender: 'female', sns: { instagram: 500000 }, totalFollowers: 500000 },
+  'JUJU': { age: 50, gender: 'female', sns: { instagram: 300000 }, totalFollowers: 300000 },
+  'Nissy西島隆弘': { age: 38, gender: 'male', sns: { instagram: 2500000, youtube: 1000000 }, totalFollowers: 3500000 },
+  'きゃりーぱみゅぱみゅ': { age: 33, gender: 'female', sns: { instagram: 5500000, twitter: 5000000 }, totalFollowers: 10500000 },
+  'miwa': { age: 36, gender: 'female', sns: { instagram: 500000, twitter: 800000 }, totalFollowers: 1300000 },
+  '家入レオ': { age: 32, gender: 'female', sns: { instagram: 300000, twitter: 400000 }, totalFollowers: 700000 },
+
+  // インフルエンサー追加
+  '渡辺直美': { age: 38, gender: 'female', sns: { instagram: 9500000, youtube: 1500000, twitter: 2000000 }, totalFollowers: 13000000 },
+  'フワちゃん': { age: 31, gender: 'female', sns: { instagram: 1500000, twitter: 1000000, youtube: 1200000 }, totalFollowers: 3700000 },
+  'コムドット やまと': { age: 28, gender: 'male', sns: { youtube: 4000000, instagram: 2000000 }, totalFollowers: 6000000 },
+  '東海オンエア てつや': { age: 33, gender: 'male', sns: { youtube: 7000000, twitter: 2000000 }, totalFollowers: 9000000 },
+  '水溜りボンド カンタ': { age: 32, gender: 'male', sns: { youtube: 4000000 }, totalFollowers: 4000000 },
+  'ヒカル': { age: 33, gender: 'male', sns: { youtube: 5000000, twitter: 2000000, instagram: 1500000 }, totalFollowers: 8500000 },
+  '朝倉未来': { age: 33, gender: 'male', sns: { youtube: 4000000, instagram: 2000000, twitter: 1500000 }, totalFollowers: 7500000 },
+  '朝倉海': { age: 32, gender: 'male', sns: { youtube: 2500000, instagram: 1500000 }, totalFollowers: 4000000 },
+
+  // 俳優追加
+  '窪田正孝': { age: 37, gender: 'male', sns: { instagram: 1500000 }, totalFollowers: 1500000 },
+  '岡田将生': { age: 37, gender: 'male', sns: {}, totalFollowers: 0 },
+  '三浦春馬': { age: 30, gender: 'male', sns: {}, totalFollowers: 0 },
+  '福山雅治': { age: 57, gender: 'male', sns: { instagram: 2000000, twitter: 1500000 }, totalFollowers: 3500000 },
+  '木村拓哉': { age: 53, gender: 'male', sns: { instagram: 4000000, youtube: 2000000 }, totalFollowers: 6000000 },
+  '妻夫木聡': { age: 45, gender: 'male', sns: {}, totalFollowers: 0 },
+  '小栗旬': { age: 43, gender: 'male', sns: { instagram: 2000000 }, totalFollowers: 2000000 },
+  '藤原竜也': { age: 44, gender: 'male', sns: {}, totalFollowers: 0 },
+  '長瀬智也': { age: 47, gender: 'male', sns: {}, totalFollowers: 0 },
+
+  // 女優追加
+  '石田ゆり子': { age: 57, gender: 'female', sns: { instagram: 4500000 }, totalFollowers: 4500000 },
+  '天海祐希': { age: 58, gender: 'female', sns: {}, totalFollowers: 0 },
+  '仲間由紀恵': { age: 46, gender: 'female', sns: {}, totalFollowers: 0 },
+  '宮崎あおい': { age: 41, gender: 'female', sns: {}, totalFollowers: 0 },
+  '蒼井優': { age: 40, gender: 'female', sns: {}, totalFollowers: 0 },
+  '多部未華子': { age: 37, gender: 'female', sns: {}, totalFollowers: 0 },
+  '戸田恵梨香': { age: 38, gender: 'female', sns: { instagram: 2000000 }, totalFollowers: 2000000 },
+  '満島ひかり': { age: 40, gender: 'female', sns: {}, totalFollowers: 0 },
+  '鬼頭明里': { age: 31, gender: 'female', sns: { twitter: 800000, youtube: 300000 }, totalFollowers: 1100000 },
+
+  // アイドル追加
+  '松井珠理奈': { age: 29, gender: 'female', sns: { instagram: 500000, twitter: 1000000 }, totalFollowers: 1500000 },
+  '宮脇咲良': { age: 28, gender: 'female', sns: { instagram: 5000000, twitter: 2000000 }, totalFollowers: 7000000 },
+  '渡邉理佐': { age: 28, gender: 'female', sns: { instagram: 800000 }, totalFollowers: 800000 },
+  '菅井友香': { age: 30, gender: 'female', sns: { instagram: 500000 }, totalFollowers: 500000 },
+  '佐藤勝利': { age: 30, gender: 'male', sns: {}, totalFollowers: 0 },
+  '中島健人': { age: 31, gender: 'male', sns: { instagram: 2000000 }, totalFollowers: 2000000 },
+  'King Prince神宮寺勇太': { age: 28, gender: 'male', sns: {}, totalFollowers: 0 },
+  '向井康二': { age: 30, gender: 'male', sns: {}, totalFollowers: 0 },
+  '阿部亮平': { age: 33, gender: 'male', sns: {}, totalFollowers: 0 },
+  '大園玲': { age: 23, gender: 'female', sns: {}, totalFollowers: 0 },
+  '藤吉夏鈴': { age: 23, gender: 'female', sns: {}, totalFollowers: 0 },
+  '森田ひかる': { age: 23, gender: 'female', sns: {}, totalFollowers: 0 },
+  '上村ひなの': { age: 21, gender: 'female', sns: {}, totalFollowers: 0 },
+  '丹生明里': { age: 24, gender: 'female', sns: {}, totalFollowers: 0 },
+
+  // FRUITS ZIPPER
+  '月足天音': { age: 24, gender: 'female', sns: { instagram: 300000, tiktok: 500000 }, totalFollowers: 800000 },
+  '鉢嶺杏奈': { age: 24, gender: 'female', sns: { instagram: 200000, tiktok: 300000 }, totalFollowers: 500000 },
+  '仲川瑠夏': { age: 24, gender: 'female', sns: { instagram: 200000, tiktok: 400000 }, totalFollowers: 600000 },
+  '松本かれん': { age: 24, gender: 'female', sns: { instagram: 200000 }, totalFollowers: 200000 },
+  '真中まな': { age: 21, gender: 'female', sns: { instagram: 200000, tiktok: 300000 }, totalFollowers: 500000 },
+  '早瀬ノエル': { age: 22, gender: 'female', sns: { instagram: 200000 }, totalFollowers: 200000 },
+  '櫻井優衣': { age: 24, gender: 'female', sns: { instagram: 200000 }, totalFollowers: 200000 },
+
+  // CANDY TUNE
+  '堀内まり菜': { age: 25, gender: 'female', sns: { instagram: 100000 }, totalFollowers: 100000 },
+  '蒔田真望': { age: 20, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
+  '秋山美旺': { age: 19, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
+  '清水唯菜': { age: 20, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
+  '浅香鈴花': { age: 19, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
+  '白濱優凪': { age: 20, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
+  '佐藤ゆきな': { age: 21, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
 };
 
 // Group name mapping
@@ -263,6 +343,20 @@ const GROUPS = {
   '幾田りら': 'YOASOBI', '大森元貴': 'Mrs. GREEN APPLE',
   'Official髭男dism藤原聡': 'Official髭男dism', 'King Gnu井口理': 'King Gnu',
   'back number清水依与吏': 'back number', 'LISA': 'LiSA',
+  '星野源': 'シンガーソングライター', 'Nissy西島隆弘': 'AAA',
+  '松井珠理奈': 'SKE48', '宮脇咲良': 'LE SSERAFIM',
+  '渡邉理佐': '欅坂46', '菅井友香': '櫻坂46',
+  '佐藤勝利': 'timelesz', '中島健人': 'timelesz',
+  'King Prince神宮寺勇太': 'King & Prince',
+  '向井康二': 'Snow Man', '阿部亮平': 'Snow Man',
+  '大園玲': '櫻坂46', '藤吉夏鈴': '櫻坂46', '森田ひかる': '櫻坂46',
+  '上村ひなの': '日向坂46', '丹生明里': '日向坂46',
+  '月足天音': 'FRUITS ZIPPER', '鉢嶺杏奈': 'FRUITS ZIPPER',
+  '仲川瑠夏': 'FRUITS ZIPPER', '松本かれん': 'FRUITS ZIPPER',
+  '真中まな': 'FRUITS ZIPPER', '早瀬ノエル': 'FRUITS ZIPPER', '櫻井優衣': 'FRUITS ZIPPER',
+  '堀内まり菜': 'CANDY TUNE', '蒔田真望': 'CANDY TUNE',
+  '秋山美旺': 'CANDY TUNE', '清水唯菜': 'CANDY TUNE',
+  '浅香鈴花': 'CANDY TUNE', '白濱優凪': 'CANDY TUNE', '佐藤ゆきな': 'CANDY TUNE',
 };
 
 async function main() {
