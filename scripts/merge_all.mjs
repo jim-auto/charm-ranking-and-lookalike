@@ -450,18 +450,15 @@ async function main() {
     try {
       const buf = fs.readFileSync(c._imgPath);
       const img = await canvas.loadImage(buf);
-      const cvs = canvas.createCanvas(img.width, img.height);
-      cvs.getContext('2d').drawImage(img, 0, 0);
-      const det = await faceapi.detectSingleFace(cvs);
+      const box = c._det.detection.box;
 
-      if (det) {
-        const box = det.box;
+      if (box) {
         const padding = Math.max(box.width, box.height) * 0.4;
         const cropX = Math.max(0, Math.round(box.x - padding));
         const cropY = Math.max(0, Math.round(box.y - padding));
         const cropW = Math.min(img.width - cropX, Math.round(box.width + padding * 2));
         const cropH = Math.min(img.height - cropY, Math.round(box.height + padding * 2));
-        await sharp(buf).extract({ left: cropX, top: cropY, width: cropW, height: cropH })
+        await sharp(buf).extract({ left: cropX, top: cropY, width: Math.max(1, cropW), height: Math.max(1, cropH) })
           .resize(200, 200, { fit: 'cover' }).jpeg({ quality: 85 })
           .toFile(path.join(THUMB_DIR, id + '.jpg'));
       } else {
