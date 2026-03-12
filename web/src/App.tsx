@@ -9,7 +9,7 @@ export default function App() {
         <header className="border-b border-slate-800">
           <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
             <h1 className="text-base sm:text-xl font-bold text-white">
-              顔面偏差値ランキング
+              魅力度ランキング
             </h1>
             <nav className="flex gap-1">
               <NavLink
