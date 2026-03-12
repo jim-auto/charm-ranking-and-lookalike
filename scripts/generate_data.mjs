@@ -43,7 +43,7 @@ function clamp(value, min = 0, max = 100) {
 
 function ratioScore(actual, ideal) {
   const deviation = Math.abs(actual - ideal) / ideal;
-  return clamp((1 - deviation * 2) * 100);
+  return clamp((1 - deviation) * 100);
 }
 
 function calculateSymmetry(landmarks, faceWidth) {
@@ -77,8 +77,8 @@ function calculateGoldenRatio(landmarks) {
   const eyeDistance = distance(leftEye, rightEye);
   const eyeRatio = eyeDistance / faceWidth;
 
-  const score1 = ratioScore(faceRatio, GOLDEN_RATIO);
-  const score2 = ratioScore(eyeRatio, 1 / GOLDEN_RATIO);
+  const score1 = ratioScore(faceRatio, 1.46);
+  const score2 = ratioScore(eyeRatio, 0.44);
   return (score1 + score2) / 2;
 }
 
