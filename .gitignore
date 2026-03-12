@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Build
+web/dist/
+*.pyc
+__pycache__/
+
+# Environment
+.env
+.env.local
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+venv/
+.venv/
+*.egg-info/
+
+# face-api.js models (large files - download separately)
+# web/public/models/
+
+# Local data / work in progress
+scripts/images/
+scripts/output/
+
+# EXIF-containing originals
+scripts/raw_images/
