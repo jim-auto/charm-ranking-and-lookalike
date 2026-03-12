@@ -57,13 +57,14 @@ function calcScore(lm) {
   const contour = clamp((1 - s / (jaw.length - 2) * 8) * 100);
 
   const details = {
-    symmetry: Math.round(symmetry), golden_ratio: Math.round(golden_ratio),
-    eyes: Math.round(eyes), nose: Math.round(nose),
+    symmetry: Math.round(Math.min(symmetry, 95)), golden_ratio: Math.round(golden_ratio),
+    eyes: Math.round(Math.min(eyes, 90)), nose: Math.round(nose),
     mouth: Math.round(mouth), contour: Math.round(contour), skin: 75,
   };
 
-  const total = details.symmetry * 0.2 + details.golden_ratio * 0.25 + details.eyes * 0.15 +
-    details.nose * 0.1 + details.mouth * 0.1 + details.contour * 0.1 + details.skin * 0.1;
+  // symmetry 20%→10%, golden_ratio 25%→30%, eyes cap at 90
+  const total = details.symmetry * 0.10 + details.golden_ratio * 0.30 + details.eyes * 0.15 +
+    details.nose * 0.10 + details.mouth * 0.10 + details.contour * 0.15 + details.skin * 0.10;
 
   return { details, score: Math.round(total * 10) / 10 };
 }
