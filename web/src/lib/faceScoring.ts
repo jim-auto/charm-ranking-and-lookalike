@@ -21,7 +21,7 @@ function clamp(value: number, min = 0, max = 100): number {
 
 function ratioScore(actual: number, ideal: number): number {
   const deviation = Math.abs(actual - ideal) / ideal;
-  return clamp((1 - deviation * 2) * 100);
+  return clamp((1 - deviation) * 100);
 }
 
 export function calculateSymmetry(landmarks: Point[], faceWidth: number): number {
@@ -55,8 +55,8 @@ export function calculateGoldenRatio(landmarks: Point[]): number {
   const eyeDistance = distance(leftEye, rightEye);
   const eyeRatio = eyeDistance / faceWidth;
 
-  const score1 = ratioScore(faceRatio, GOLDEN_RATIO);
-  const score2 = ratioScore(eyeRatio, 1 / GOLDEN_RATIO);
+  const score1 = ratioScore(faceRatio, 1.46); // 日本人の理想比率（やや縦長）
+  const score2 = ratioScore(eyeRatio, 0.44); // 日本人の平均的な目間距離/顔幅
 
   return (score1 + score2) / 2;
 }
