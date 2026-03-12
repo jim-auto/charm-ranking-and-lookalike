@@ -1,3 +1,4 @@
+import { Component, type ReactNode } from 'react';
 import {
   Chart as ChartJS,
   RadialLinearScale,
@@ -21,7 +22,16 @@ const keys: (keyof ScoreDetails)[] = [
   'symmetry', 'golden_ratio', 'eyes', 'nose', 'mouth', 'contour', 'skin',
 ];
 
-export default function ScoreRadar({ details, size = 'md' }: Props) {
+class RadarErrorBoundary extends Component<
+  { children: ReactNode; fallback: ReactNode },
+  { hasError: boolean }
+> {
+  state = { hasError: false };
+  static getDerivedStateFromError() { return { hasError: true }; }
+  render() { return this.state.hasError ? this.props.fallback : this.props.children; }
+}
+
+function RadarChart({ details, size = 'md' }: Props) {
   const data = {
     labels,
     datasets: [
@@ -39,6 +49,7 @@ export default function ScoreRadar({ details, size = 'md' }: Props) {
   const options = {
     responsive: true,
     maintainAspectRatio: true,
+    animation: false as const,
     scales: {
       r: {
         beginAtZero: true,
@@ -66,5 +77,13 @@ export default function ScoreRadar({ details, size = 'md' }: Props) {
     <div className={wrapperClass}>
       <Radar data={data} options={options} />
     </div>
+  );
+}
+
+export default function ScoreRadar(props: Props) {
+  return (
+    <RadarErrorBoundary fallback={<div className="text-xs text-slate-500">チャート読込エラー</div>}>
+      <RadarChart {...props} />
+    </RadarErrorBoundary>
   );
 }

@@ -24,6 +24,7 @@ function medalColor(rank: number): string {
 }
 
 function getScore(c: Celebrity, age: boolean, sns: boolean): number {
+  if (!c.scores) return c.score ?? 0;
   if (age && sns) return c.scores.faceAgeSns;
   if (age) return c.scores.faceAge;
   if (sns) return c.scores.faceSns;
