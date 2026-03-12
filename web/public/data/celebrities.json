@@ -322,7 +322,8 @@
       0.07282138615846634
     ],
     "thumbnail": "data/thumbnails/celeb_002.jpg",
-    "id": "celeb_002"
+    "id": "celeb_002",
+    "group": "TWICE"
   },
   {
     "name": "橋本環奈",
@@ -963,7 +964,8 @@
       -0.0012477836571633816
     ],
     "thumbnail": "data/thumbnails/celeb_006.jpg",
-    "id": "celeb_006"
+    "id": "celeb_006",
+    "group": "乃木坂46"
   },
   {
     "name": "二階堂ふみ",
@@ -1762,7 +1764,8 @@
       0.04647884890437126
     ],
     "thumbnail": "data/thumbnails/celeb_011.jpg",
-    "id": "celeb_011"
+    "id": "celeb_011",
+    "group": "Snow Man"
   },
   {
     "name": "長澤まさみ",
@@ -2722,7 +2725,8 @@
       0.010299147106707096
     ],
     "thumbnail": "data/thumbnails/celeb_017.jpg",
-    "id": "celeb_017"
+    "id": "celeb_017",
+    "group": "なにわ男子"
   },
   {
     "name": "池田エライザ",
@@ -4969,7 +4973,8 @@
       0.015309015288949013
     ],
     "thumbnail": "data/thumbnails/celeb_031.jpg",
-    "id": "celeb_031"
+    "id": "celeb_031",
+    "group": "HKT48"
   },
   {
     "name": "竹内涼真",
@@ -5288,7 +5293,8 @@
       -0.041504282504320145
     ],
     "thumbnail": "data/thumbnails/celeb_033.jpg",
-    "id": "celeb_033"
+    "id": "celeb_033",
+    "group": "日向坂46"
   },
   {
     "name": "南沙良",
@@ -6407,7 +6413,8 @@
       0.044631339609622955
     ],
     "thumbnail": "data/thumbnails/celeb_040.jpg",
-    "id": "celeb_040"
+    "id": "celeb_040",
+    "group": "Snow Man"
   },
   {
     "name": "りゅうちぇる",
@@ -6726,7 +6733,8 @@
       -0.01066882349550724
     ],
     "thumbnail": "data/thumbnails/celeb_042.jpg",
-    "id": "celeb_042"
+    "id": "celeb_042",
+    "group": "日向坂46"
   },
   {
     "name": "吉岡里帆",
@@ -7526,7 +7534,8 @@
       -0.021434033289551735
     ],
     "thumbnail": "data/thumbnails/celeb_047.jpg",
-    "id": "celeb_047"
+    "id": "celeb_047",
+    "group": "乃木坂46"
   },
   {
     "name": "坂口健太郎",
@@ -8642,7 +8651,8 @@
       -0.030151179060339928
     ],
     "thumbnail": "data/thumbnails/celeb_054.jpg",
-    "id": "celeb_054"
+    "id": "celeb_054",
+    "group": "乃木坂46"
   },
   {
     "name": "松本まりか",
@@ -9122,7 +9132,8 @@
       0.07420909404754639
     ],
     "thumbnail": "data/thumbnails/celeb_057.jpg",
-    "id": "celeb_057"
+    "id": "celeb_057",
+    "group": "SixTONES"
   },
   {
     "name": "齋藤飛鳥",
@@ -9283,7 +9294,8 @@
       -0.020289259031414986
     ],
     "thumbnail": "data/thumbnails/celeb_058.jpg",
-    "id": "celeb_058"
+    "id": "celeb_058",
+    "group": "乃木坂46"
   },
   {
     "name": "賀喜遥香",
@@ -9441,7 +9453,8 @@
       0.009265480563044548
     ],
     "thumbnail": "data/thumbnails/celeb_059.jpg",
-    "id": "celeb_059"
+    "id": "celeb_059",
+    "group": "乃木坂46"
   },
   {
     "name": "MOMO(TWICE)",
@@ -9601,7 +9614,8 @@
       0.005967465229332447
     ],
     "thumbnail": "data/thumbnails/celeb_060.jpg",
-    "id": "celeb_060"
+    "id": "celeb_060",
+    "group": "TWICE"
   },
   {
     "name": "上白石萌歌",
@@ -10243,7 +10257,8 @@
       0.0689559280872345
     ],
     "thumbnail": "data/thumbnails/celeb_064.jpg",
-    "id": "celeb_064"
+    "id": "celeb_064",
+    "group": "Snow Man"
   },
   {
     "name": "磯村勇斗",
@@ -10561,7 +10576,8 @@
       0.021695714443922043
     ],
     "thumbnail": "data/thumbnails/celeb_066.jpg",
-    "id": "celeb_066"
+    "id": "celeb_066",
+    "group": "日向坂46"
   },
   {
     "name": "大谷映美里",
@@ -10721,7 +10737,8 @@
       -0.0023153219372034073
     ],
     "thumbnail": "data/thumbnails/celeb_067.jpg",
-    "id": "celeb_067"
+    "id": "celeb_067",
+    "group": "=LOVE"
   },
   {
     "name": "玉木宏",
@@ -11037,7 +11054,8 @@
       0.05503169819712639
     ],
     "thumbnail": "data/thumbnails/celeb_069.jpg",
-    "id": "celeb_069"
+    "id": "celeb_069",
+    "group": "乃木坂46"
   },
   {
     "name": "生田絵梨花",
@@ -11198,7 +11216,8 @@
       0.006392443086951971
     ],
     "thumbnail": "data/thumbnails/celeb_070.jpg",
-    "id": "celeb_070"
+    "id": "celeb_070",
+    "group": "乃木坂46"
   },
   {
     "name": "高畑充希",
@@ -11519,7 +11538,8 @@
       -0.016238942742347717
     ],
     "thumbnail": "data/thumbnails/celeb_072.jpg",
-    "id": "celeb_072"
+    "id": "celeb_072",
+    "group": "乃木坂46"
   },
   {
     "name": "はじめしゃちょー",
@@ -12484,7 +12504,8 @@
       0.011691123247146606
     ],
     "thumbnail": "data/thumbnails/celeb_078.jpg",
-    "id": "celeb_078"
+    "id": "celeb_078",
+    "group": "乃木坂46"
   },
   {
     "name": "赤楚衛二",

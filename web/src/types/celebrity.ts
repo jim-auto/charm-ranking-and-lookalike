@@ -35,6 +35,7 @@ export interface Celebrity {
   sns: SnsFollowers;
   totalFollowers: number;
   details: ScoreDetails;
+  group?: string;
   embedding: number[];
   thumbnail: string;
 }

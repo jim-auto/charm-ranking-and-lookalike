@@ -59,7 +59,7 @@ export default function CelebrityCard({
           <h3 className="font-semibold text-base sm:text-lg leading-tight">{celebrity.name}</h3>
           <div className="flex items-center gap-2 mt-0.5 flex-wrap">
             <span className="text-xs px-1.5 py-0.5 rounded-full bg-indigo-900 text-indigo-300">
-              {categoryLabel[celebrity.category] ?? celebrity.category}
+              {celebrity.group ?? (categoryLabel[celebrity.category] ?? celebrity.category)}
             </span>
             <span className="text-xs text-slate-500">{celebrity.age}歳</span>
             {useSns && celebrity.totalFollowers > 0 && formatFollowers && (
