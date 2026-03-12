@@ -1,10 +1,11 @@
-import type { Celebrity, ScoreMode } from '../types/celebrity';
+import type { Celebrity } from '../types/celebrity';
 import ScoreRadar from './ScoreRadar';
 
 interface Props {
   celebrity: Celebrity;
   rank: number;
-  scoreMode?: ScoreMode;
+  useAge?: boolean;
+  useSns?: boolean;
   formatFollowers?: (n: number) => string;
 }
 
@@ -22,19 +23,22 @@ function medalColor(rank: number): string {
   return 'text-slate-500';
 }
 
-function getDisplayScore(c: Celebrity, mode: ScoreMode): number {
-  if (mode === 'age') return c.scoreWithAge;
-  if (mode === 'charm') return c.scoreCharm;
-  return c.score;
+function getScore(c: Celebrity, age: boolean, sns: boolean): number {
+  if (age && sns) return c.scores.faceAgeSns;
+  if (age) return c.scores.faceAge;
+  if (sns) return c.scores.faceSns;
+  return c.scores.face;
 }
 
 export default function CelebrityCard({
   celebrity,
   rank,
-  scoreMode = 'face',
+  useAge = false,
+  useSns = false,
   formatFollowers,
 }: Props) {
-  const displayScore = getDisplayScore(celebrity, scoreMode);
+  const displayScore = getScore(celebrity, useAge, useSns);
+  const hasModifier = useAge || useSns;
 
   return (
     <div className="bg-slate-800 rounded-xl p-3 sm:p-4">
@@ -57,7 +61,7 @@ export default function CelebrityCard({
               {categoryLabel[celebrity.category] ?? celebrity.category}
             </span>
             <span className="text-xs text-slate-500">{celebrity.age}歳</span>
-            {scoreMode === 'charm' && celebrity.totalFollowers > 0 && formatFollowers && (
+            {useSns && celebrity.totalFollowers > 0 && formatFollowers && (
               <span className="text-xs text-emerald-400">
                 SNS {formatFollowers(celebrity.totalFollowers)}
               </span>
@@ -69,9 +73,9 @@ export default function CelebrityCard({
           <div className="text-indigo-400 text-2xl sm:text-3xl font-bold">
             {displayScore}
           </div>
-          {scoreMode !== 'face' && (
+          {hasModifier && (
             <div className="text-xs text-slate-500">
-              顔 {celebrity.score}
+              顔 {celebrity.scores.face}
             </div>
           )}
         </div>

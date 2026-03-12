@@ -15,6 +15,13 @@ export interface SnsFollowers {
   youtube?: number;
 }
 
+export interface ScoreSet {
+  face: number;
+  faceAge: number;
+  faceSns: number;
+  faceAgeSns: number;
+}
+
 export interface Celebrity {
   id: string;
   name: string;
@@ -23,6 +30,7 @@ export interface Celebrity {
   score: number;
   scoreWithAge: number;
   scoreCharm: number;
+  scores: ScoreSet;
   age: number;
   sns: SnsFollowers;
   totalFollowers: number;
@@ -30,5 +38,3 @@ export interface Celebrity {
   embedding: number[];
   thumbnail: string;
 }
-
-export type ScoreMode = 'face' | 'age' | 'charm';

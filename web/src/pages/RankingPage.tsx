@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import type { Celebrity, ScoreMode } from '../types/celebrity';
+import type { Celebrity } from '../types/celebrity';
 import CelebrityCard from '../components/CelebrityCard';
 
 const genderFilters = [
@@ -16,16 +16,11 @@ const categories = [
   { value: 'influencer', label: 'インフルエンサー' },
 ];
 
-const scoreModes: { value: ScoreMode; label: string; desc: string }[] = [
-  { value: 'face', label: '顔面偏差値', desc: '顔の比率のみ' },
-  { value: 'age', label: '年齢考慮', desc: '20代前半ピークで補正' },
-  { value: 'charm', label: '魅力度', desc: '顔 70% + SNS影響力 30%' },
-];
-
-function getScore(c: Celebrity, mode: ScoreMode): number {
-  if (mode === 'age') return c.scoreWithAge;
-  if (mode === 'charm') return c.scoreCharm;
-  return c.score;
+function getScore(c: Celebrity, age: boolean, sns: boolean): number {
+  if (age && sns) return c.scores.faceAgeSns;
+  if (age) return c.scores.faceAge;
+  if (sns) return c.scores.faceSns;
+  return c.scores.face;
 }
 
 function formatFollowers(n: number): string {
@@ -38,7 +33,8 @@ export default function RankingPage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [genderFilter, setGenderFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
-  const [scoreMode, setScoreMode] = useState<ScoreMode>('face');
+  const [useAge, setUseAge] = useState(false);
+  const [useSns, setUseSns] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -53,9 +49,9 @@ export default function RankingPage() {
     let list = [...celebrities];
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
-    list.sort((a, b) => getScore(b, scoreMode) - getScore(a, scoreMode));
+    list.sort((a, b) => getScore(b, useAge, useSns) - getScore(a, useAge, useSns));
     return list;
-  }, [celebrities, genderFilter, categoryFilter, scoreMode]);
+  }, [celebrities, genderFilter, categoryFilter, useAge, useSns]);
 
   return (
     <div>
@@ -93,23 +89,42 @@ export default function RankingPage() {
         ))}
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 mb-6 p-3 bg-slate-800/50 rounded-lg">
-        <span className="text-sm text-slate-400 mr-1">モード:</span>
-        {scoreModes.map((m) => (
-          <button
-            key={m.value}
-            onClick={() => setScoreMode(m.value)}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-              scoreMode === m.value
-                ? 'bg-indigo-600 text-white'
-                : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
-            }`}
-          >
-            {m.label}
-          </button>
-        ))}
-        <span className="text-xs text-slate-500 ml-1">
-          {scoreModes.find((m) => m.value === scoreMode)?.desc}
+      <div className="flex flex-wrap items-center gap-3 mb-6 p-3 bg-slate-800/50 rounded-lg">
+        <span className="text-sm text-slate-400">補正:</span>
+
+        <button
+          onClick={() => setUseAge(!useAge)}
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${
+            useAge
+              ? 'bg-amber-600 text-white'
+              : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+          }`}
+        >
+          <span className={`inline-block w-3 h-3 rounded-sm border ${useAge ? 'bg-white border-white' : 'border-slate-500'}`}>
+            {useAge && <span className="block text-amber-600 text-xs leading-3 text-center font-bold">✓</span>}
+          </span>
+          年齢
+        </button>
+
+        <button
+          onClick={() => setUseSns(!useSns)}
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${
+            useSns
+              ? 'bg-emerald-600 text-white'
+              : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+          }`}
+        >
+          <span className={`inline-block w-3 h-3 rounded-sm border ${useSns ? 'bg-white border-white' : 'border-slate-500'}`}>
+            {useSns && <span className="block text-emerald-600 text-xs leading-3 text-center font-bold">✓</span>}
+          </span>
+          SNS影響力
+        </button>
+
+        <span className="text-xs text-slate-500">
+          {!useAge && !useSns && '顔の比率のみ'}
+          {useAge && !useSns && '20代前半ピークで年齢補正'}
+          {!useAge && useSns && '顔 70% + SNS 30%'}
+          {useAge && useSns && '顔 70% + SNS 30% + 年齢補正'}
         </span>
       </div>
 
@@ -124,7 +139,8 @@ export default function RankingPage() {
               key={celeb.id}
               celebrity={celeb}
               rank={i + 1}
-              scoreMode={scoreMode}
+              useAge={useAge}
+              useSns={useSns}
               formatFollowers={formatFollowers}
             />
           ))}

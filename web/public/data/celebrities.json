@@ -154,7 +154,13 @@
       "youtube": 0
     },
     "totalFollowers": 22700000,
-    "scoreCharm": 77.2
+    "scoreCharm": 77.2,
+    "scores": {
+      "face": 79.2,
+      "faceAge": 76.8,
+      "faceSns": 77.2,
+      "faceAgeSns": 75.5
+    }
   },
   {
     "id": "celeb_002",
@@ -311,7 +317,13 @@
       "youtube": 800000
     },
     "totalFollowers": 10300000,
-    "scoreCharm": 75.3
+    "scoreCharm": 75.3,
+    "scores": {
+      "face": 78.9,
+      "faceAge": 78.1,
+      "faceSns": 75.3,
+      "faceAgeSns": 74.7
+    }
   },
   {
     "id": "celeb_003",
@@ -468,7 +480,13 @@
       "youtube": 0
     },
     "totalFollowers": 1200000,
-    "scoreCharm": 68.8
+    "scoreCharm": 68.8,
+    "scores": {
+      "face": 76.4,
+      "faceAge": 63.6,
+      "faceSns": 68.8,
+      "faceAgeSns": 59.9
+    }
   },
   {
     "id": "celeb_004",
@@ -625,7 +643,13 @@
       "youtube": 0
     },
     "totalFollowers": 800000,
-    "scoreCharm": 67.8
+    "scoreCharm": 67.8,
+    "scores": {
+      "face": 76.1,
+      "faceAge": 60.9,
+      "faceSns": 67.8,
+      "faceAgeSns": 57.1
+    }
   },
   {
     "id": "celeb_005",
@@ -782,7 +806,13 @@
       "youtube": 0
     },
     "totalFollowers": 9200000,
-    "scoreCharm": 72.3
+    "scoreCharm": 72.3,
+    "scores": {
+      "face": 75,
+      "faceAge": 79,
+      "faceSns": 72.3,
+      "faceAgeSns": 75.1
+    }
   },
   {
     "id": "celeb_006",
@@ -939,7 +969,13 @@
       "youtube": 0
     },
     "totalFollowers": 5900000,
-    "scoreCharm": 68.9
+    "scoreCharm": 68.9,
+    "scores": {
+      "face": 71.6,
+      "faceAge": 70,
+      "faceSns": 68.9,
+      "faceAgeSns": 67.8
+    }
   },
   {
     "id": "celeb_007",
@@ -1096,7 +1132,13 @@
       "youtube": 0
     },
     "totalFollowers": 1500000,
-    "scoreCharm": 65.8
+    "scoreCharm": 65.8,
+    "scores": {
+      "face": 71.4,
+      "faceAge": 59.8,
+      "faceSns": 65.8,
+      "faceAgeSns": 57.7
+    }
   },
   {
     "id": "celeb_008",
@@ -1253,7 +1295,13 @@
       "youtube": 1500000
     },
     "totalFollowers": 11500000,
-    "scoreCharm": 70.1
+    "scoreCharm": 70.1,
+    "scores": {
+      "face": 71.2,
+      "faceAge": 60.8,
+      "faceSns": 70.1,
+      "faceAgeSns": 62.8
+    }
   },
   {
     "id": "celeb_009",
@@ -1410,7 +1458,13 @@
       "youtube": 0
     },
     "totalFollowers": 5800000,
-    "scoreCharm": 67.1
+    "scoreCharm": 67.1,
+    "scores": {
+      "face": 69,
+      "faceAge": 64.2,
+      "faceSns": 67.1,
+      "faceAgeSns": 63.7
+    }
   },
   {
     "name": "齋藤飛鳥",
@@ -1567,7 +1621,13 @@
       "youtube": 0
     },
     "totalFollowers": 6500000,
-    "scoreCharm": 62.1
+    "scoreCharm": 62.1,
+    "scores": {
+      "face": 61.5,
+      "faceAge": 59.9,
+      "faceSns": 62.1,
+      "faceAgeSns": 61
+    }
   },
   {
     "name": "はじめしゃちょー",
@@ -1724,6 +1784,12 @@
       "youtube": 10500000
     },
     "totalFollowers": 23700000,
-    "scoreCharm": 62.4
+    "scoreCharm": 62.4,
+    "scores": {
+      "face": 57.9,
+      "faceAge": 52.3,
+      "faceSns": 62.4,
+      "faceAgeSns": 58.4
+    }
   }
 ]
