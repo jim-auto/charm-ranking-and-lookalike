@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import CelebrityCard from '../components/CelebrityCard';
 
@@ -13,31 +13,35 @@ const categories = [
 export default function RankingPage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [filter, setFilter] = useState('');
+  const [useAge, setUseAge] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/celebrities.json`)
       .then((res) => res.json())
-      .then((data: Celebrity[]) => {
-        data.sort((a, b) => b.score - a.score);
-        setCelebrities(data);
-      })
+      .then((data: Celebrity[]) => setCelebrities(data))
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
 
-  const filtered = filter
-    ? celebrities.filter((c) => c.category === filter)
-    : celebrities;
+  const sorted = useMemo(() => {
+    let list = filter
+      ? celebrities.filter((c) => c.category === filter)
+      : [...celebrities];
+    list.sort((a, b) =>
+      useAge ? b.scoreWithAge - a.scoreWithAge : b.score - a.score,
+    );
+    return list;
+  }, [celebrities, filter, useAge]);
 
   return (
     <div>
-      <div className="flex flex-wrap gap-2 mb-6">
+      <div className="flex flex-wrap items-center gap-2 mb-4">
         {categories.map((cat) => (
           <button
             key={cat.value}
             onClick={() => setFilter(cat.value)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
               filter === cat.value
                 ? 'bg-indigo-600 text-white'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
@@ -48,14 +52,46 @@ export default function RankingPage() {
         ))}
       </div>
 
+      <div className="flex items-center gap-3 mb-6 p-3 bg-slate-800/50 rounded-lg">
+        <span className="text-sm text-slate-400">モード:</span>
+        <button
+          onClick={() => setUseAge(false)}
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+            !useAge
+              ? 'bg-indigo-600 text-white'
+              : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+          }`}
+        >
+          顔面偏差値
+        </button>
+        <button
+          onClick={() => setUseAge(true)}
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+            useAge
+              ? 'bg-indigo-600 text-white'
+              : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+          }`}
+        >
+          年齢考慮
+        </button>
+        {useAge && (
+          <span className="text-xs text-slate-500">※ 20代前半をピークに年齢で補正</span>
+        )}
+      </div>
+
       {loading ? (
         <div className="text-center py-12 text-slate-400">読み込み中...</div>
-      ) : filtered.length === 0 ? (
+      ) : sorted.length === 0 ? (
         <div className="text-center py-12 text-slate-400">データがありません</div>
       ) : (
         <div className="space-y-3">
-          {filtered.map((celeb, i) => (
-            <CelebrityCard key={celeb.id} celebrity={celeb} rank={i + 1} />
+          {sorted.map((celeb, i) => (
+            <CelebrityCard
+              key={celeb.id}
+              celebrity={celeb}
+              rank={i + 1}
+              useAge={useAge}
+            />
           ))}
         </div>
       )}

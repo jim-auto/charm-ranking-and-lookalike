@@ -13,6 +13,8 @@ export interface Celebrity {
   name: string;
   category: 'actor' | 'actress' | 'idol' | 'influencer';
   score: number;
+  scoreWithAge: number;
+  age: number;
   details: ScoreDetails;
   embedding: number[];
   thumbnail: string;

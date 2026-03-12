@@ -4,6 +4,7 @@ import ScoreRadar from './ScoreRadar';
 interface Props {
   celebrity: Celebrity;
   rank: number;
+  useAge?: boolean;
 }
 
 const categoryLabel: Record<string, string> = {
@@ -20,7 +21,9 @@ function medalColor(rank: number): string {
   return 'text-slate-500';
 }
 
-export default function CelebrityCard({ celebrity, rank }: Props) {
+export default function CelebrityCard({ celebrity, rank, useAge = false }: Props) {
+  const displayScore = useAge ? celebrity.scoreWithAge : celebrity.score;
+
   return (
     <div className="bg-slate-800 rounded-xl p-3 sm:p-4">
       <div className="flex items-center gap-3">
@@ -41,13 +44,19 @@ export default function CelebrityCard({ celebrity, rank }: Props) {
             <span className="text-xs px-1.5 py-0.5 rounded-full bg-indigo-900 text-indigo-300">
               {categoryLabel[celebrity.category] ?? celebrity.category}
             </span>
+            <span className="text-xs text-slate-500">{celebrity.age}歳</span>
           </div>
         </div>
 
         <div className="text-right shrink-0">
           <div className="text-indigo-400 text-2xl sm:text-3xl font-bold">
-            {celebrity.score}
+            {displayScore}
           </div>
+          {useAge && (
+            <div className="text-xs text-slate-500">
+              素点 {celebrity.score}
+            </div>
+          )}
         </div>
       </div>
 

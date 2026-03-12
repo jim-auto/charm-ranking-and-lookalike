@@ -1,6 +1,5 @@
 import type { ScoreDetails } from '../types/celebrity';
 
-const GOLDEN_RATIO = 1.618;
 
 interface Point {
   x: number;
@@ -140,4 +139,24 @@ export function totalScore(details: ScoreDetails): number {
     details.contour * 0.1 +
     details.skin * 0.1;
   return Math.round(score * 10) / 10;
+}
+
+/**
+ * 年齢を考慮したスコア補正
+ * 20代前半をピーク(+5)とし、離れるほど減点
+ */
+export function ageAdjustedScore(baseScore: number, age: number): number {
+  const peakAge = 23;
+  const diff = Math.abs(age - peakAge);
+  let adjustment: number;
+
+  if (diff <= 3) {
+    adjustment = 5 - diff;        // 20-26歳: +2 ~ +5
+  } else if (diff <= 10) {
+    adjustment = -(diff - 3) * 0.8; // 13-19, 27-33歳: -0.8 ~ -5.6
+  } else {
+    adjustment = -5.6 - (diff - 10) * 1.2; // それ以上: さらに減点
+  }
+
+  return Math.round((baseScore + adjustment) * 10) / 10;
 }
