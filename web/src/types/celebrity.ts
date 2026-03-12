@@ -25,7 +25,7 @@ export interface ScoreSet {
 export interface Celebrity {
   id: string;
   name: string;
-  category: 'actor' | 'actress' | 'idol' | 'influencer';
+  category: 'actor' | 'actress' | 'idol' | 'influencer' | 'artist';
   gender: 'male' | 'female';
   score: number;
   scoreWithAge: number;

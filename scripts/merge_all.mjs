@@ -224,6 +224,45 @@ const META = {
   'ローラ': { age: 36, gender: 'female', sns: { instagram: 7500000, twitter: 3500000 }, totalFollowers: 11000000 },
   'みちょぱ': { age: 28, gender: 'female', sns: { instagram: 2000000, twitter: 1200000 }, totalFollowers: 3200000 },
   '越智ゆらの': { age: 24, gender: 'female', sns: { instagram: 200000 }, totalFollowers: 200000 },
+
+  // アーティスト
+  '幾田りら': { age: 25, gender: 'female', sns: { instagram: 2000000, twitter: 1500000, youtube: 800000 }, totalFollowers: 4300000 },
+  'あいみょん': { age: 31, gender: 'female', sns: { instagram: 2500000, twitter: 2000000, youtube: 1500000 }, totalFollowers: 6000000 },
+  '大森元貴': { age: 28, gender: 'male', sns: { instagram: 1000000, twitter: 800000 }, totalFollowers: 1800000 },
+  '優里': { age: 30, gender: 'male', sns: { instagram: 1500000, twitter: 800000, youtube: 2000000, tiktok: 1500000 }, totalFollowers: 5800000 },
+  'Ado': { age: 24, gender: 'female', sns: { youtube: 5000000, twitter: 3000000 }, totalFollowers: 8000000 },
+  '米津玄師': { age: 35, gender: 'male', sns: { youtube: 5000000, twitter: 4000000, instagram: 2000000 }, totalFollowers: 11000000 },
+  '藤井風': { age: 28, gender: 'male', sns: { youtube: 3000000, instagram: 2500000, twitter: 1000000 }, totalFollowers: 6500000 },
+  'LISA': { age: 39, gender: 'female', sns: { instagram: 3500000, twitter: 3000000, youtube: 2000000 }, totalFollowers: 8500000 },
+  'Aimer': { age: 36, gender: 'female', sns: { youtube: 1500000, twitter: 800000 }, totalFollowers: 2300000 },
+  'Official髭男dism藤原聡': { age: 35, gender: 'male', sns: {}, totalFollowers: 0 },
+  'King Gnu井口理': { age: 33, gender: 'male', sns: { instagram: 500000 }, totalFollowers: 500000 },
+  'back number清水依与吏': { age: 38, gender: 'male', sns: {}, totalFollowers: 0 },
+
+  // イコラブ追加
+  '音嶋莉沙': { age: 22, gender: 'female', sns: { twitter: 100000 }, totalFollowers: 100000 },
+  '瀧脇笙古': { age: 25, gender: 'female', sns: { twitter: 100000 }, totalFollowers: 100000 },
+};
+
+// Group name mapping
+const GROUPS = {
+  'SANA(TWICE)': 'TWICE', 'MOMO(TWICE)': 'TWICE',
+  '白石麻衣': '乃木坂46', '齋藤飛鳥': '乃木坂46', '与田祐希': '乃木坂46',
+  '賀喜遥香': '乃木坂46', '遠藤さくら': '乃木坂46', '山下美月': '乃木坂46',
+  '生田絵梨花': '乃木坂46', '西野七瀬': '乃木坂46', '橋本奈々未': '乃木坂46',
+  'ラウール': 'Snow Man', '渡辺翔太': 'Snow Man', '目黒蓮': 'Snow Man',
+  '道枝駿佑': 'なにわ男子', '松村北斗': 'SixTONES',
+  '指原莉乃': 'HKT48', '田中美久': 'HKT48',
+  '加藤史帆': '日向坂46', '松田好花': '日向坂46', '金村美玖': '日向坂46', '小坂菜緒': '日向坂46',
+  '大谷映美里': '=LOVE', '齊藤なぎさ': '=LOVE', '野口衣織': '=LOVE',
+  '佐々木舞香': '=LOVE', '髙松瞳': '=LOVE', '音嶋莉沙': '=LOVE', '瀧脇笙古': '=LOVE',
+  '冨田菜々風': '≠ME', '蟹沢萌子': '≠ME', '鈴木瞳美': '≠ME',
+  '櫻井もも': '≠ME', '谷崎早耶': '≠ME', '河口夏音': '≠ME', '尾木波菜': '≠ME',
+  '平野紫耀': 'Number_i', '髙橋海人': 'King & Prince', '永瀬廉': 'King & Prince', '岸優太': 'Number_i',
+  '本田仁美': 'AKB48',
+  '幾田りら': 'YOASOBI', '大森元貴': 'Mrs. GREEN APPLE',
+  'Official髭男dism藤原聡': 'Official髭男dism', 'King Gnu井口理': 'King Gnu',
+  'back number清水依与吏': 'back number', 'LISA': 'LiSA',
 };
 
 async function main() {
@@ -273,7 +312,7 @@ async function main() {
       const { details, score } = calcScore(lm);
       const scores = calcScoreSet(score, meta.age, meta.totalFollowers);
 
-      all.push({
+      const entry = {
         name,
         category,
         age: meta.age,
@@ -289,7 +328,9 @@ async function main() {
         thumbnail: '',
         _imgPath: imgPath,
         _det: det,
-      });
+      };
+      if (GROUPS[name]) entry.group = GROUPS[name];
+      all.push(entry);
 
       console.log(`  face=${score} age-adj=${scores.faceAge} sym=${details.symmetry} golden=${details.golden_ratio}`);
       processed++;
