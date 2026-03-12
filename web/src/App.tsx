@@ -1,12 +1,10 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter, Routes, Route, NavLink } from 'react-router-dom';
 import RankingPage from './pages/RankingPage';
 import DiagnosePage from './pages/DiagnosePage';
 
 export default function App() {
-  const base = import.meta.env.BASE_URL;
-
   return (
-    <BrowserRouter basename={base}>
+    <HashRouter>
       <div className="min-h-screen">
         <header className="border-b border-slate-800">
           <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -54,6 +52,6 @@ export default function App() {
           <p>偏差値は顔の数学的比率に基づく指標であり、美の絶対評価ではありません。</p>
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
