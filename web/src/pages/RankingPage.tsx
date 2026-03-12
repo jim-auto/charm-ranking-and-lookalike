@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import CelebrityCard from '../components/CelebrityCard';
+import ScoreBreakdown from '../components/ScoreBreakdown';
 
 const genderFilters = [
   { value: '', label: 'すべて' },
@@ -147,6 +148,8 @@ export default function RankingPage() {
           ))}
         </div>
       )}
+
+      <ScoreBreakdown />
     </div>
   );
 }
