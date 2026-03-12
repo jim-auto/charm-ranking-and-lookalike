@@ -12,6 +12,7 @@ export interface Celebrity {
   id: string;
   name: string;
   category: 'actor' | 'actress' | 'idol' | 'influencer';
+  gender: 'male' | 'female';
   score: number;
   scoreWithAge: number;
   age: number;

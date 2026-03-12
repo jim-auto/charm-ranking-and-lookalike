@@ -2,6 +2,12 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import CelebrityCard from '../components/CelebrityCard';
 
+const genderFilters = [
+  { value: '', label: 'すべて' },
+  { value: 'male', label: '男性' },
+  { value: 'female', label: '女性' },
+];
+
 const categories = [
   { value: '', label: 'すべて' },
   { value: 'actor', label: '俳優' },
@@ -12,7 +18,8 @@ const categories = [
 
 export default function RankingPage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
-  const [filter, setFilter] = useState('');
+  const [genderFilter, setGenderFilter] = useState('');
+  const [categoryFilter, setCategoryFilter] = useState('');
   const [useAge, setUseAge] = useState(false);
   const [loading, setLoading] = useState(true);
 
@@ -25,24 +32,44 @@ export default function RankingPage() {
   }, []);
 
   const sorted = useMemo(() => {
-    let list = filter
-      ? celebrities.filter((c) => c.category === filter)
-      : [...celebrities];
+    let list = [...celebrities];
+    if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
+    if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
     list.sort((a, b) =>
       useAge ? b.scoreWithAge - a.scoreWithAge : b.score - a.score,
     );
     return list;
-  }, [celebrities, filter, useAge]);
+  }, [celebrities, genderFilter, categoryFilter, useAge]);
 
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-2 mb-4">
+      {/* Gender filter */}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="text-sm text-slate-400 mr-1">性別:</span>
+        {genderFilters.map((g) => (
+          <button
+            key={g.value}
+            onClick={() => setGenderFilter(g.value)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              genderFilter === g.value
+                ? 'bg-indigo-600 text-white'
+                : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+            }`}
+          >
+            {g.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Category filter */}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="text-sm text-slate-400 mr-1">ジャンル:</span>
         {categories.map((cat) => (
           <button
             key={cat.value}
-            onClick={() => setFilter(cat.value)}
+            onClick={() => setCategoryFilter(cat.value)}
             className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-              filter === cat.value
+              categoryFilter === cat.value
                 ? 'bg-indigo-600 text-white'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
@@ -52,6 +79,7 @@ export default function RankingPage() {
         ))}
       </div>
 
+      {/* Score mode */}
       <div className="flex items-center gap-3 mb-6 p-3 bg-slate-800/50 rounded-lg">
         <span className="text-sm text-slate-400">モード:</span>
         <button
