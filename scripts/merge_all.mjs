@@ -528,9 +528,12 @@ async function main() {
   fs.mkdirSync(THUMB_DIR, { recursive: true });
   fs.readdirSync(THUMB_DIR).forEach(f => fs.unlinkSync(path.join(THUMB_DIR, f)));
 
+  // Use name-based IDs so thumbnails don't shuffle when rankings change
+  const crypto = await import('crypto');
   for (let i = 0; i < all.length; i++) {
     const c = all[i];
-    const id = 'celeb_' + String(i + 1).padStart(3, '0');
+    const hash = crypto.createHash('md5').update(c.name).digest('hex').slice(0, 8);
+    const id = 'celeb_' + hash;
     c.id = id;
     c.thumbnail = 'data/thumbnails/' + id + '.jpg';
 
