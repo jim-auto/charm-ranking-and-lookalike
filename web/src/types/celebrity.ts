@@ -5,7 +5,6 @@ export interface ScoreDetails {
   nose: number;
   mouth: number;
   contour: number;
-  skin: number;
 }
 
 export interface SnsFollowers {

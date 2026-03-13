@@ -125,19 +125,17 @@ export function calculateFaceScore(landmarks: Point[]): ScoreDetails {
     nose: Math.round(calculateNoseScore(landmarks)),
     mouth: Math.round(calculateMouthScore(landmarks)),
     contour: Math.round(calculateContourScore(landmarks)),
-    skin: 75,
   };
 }
 
 export function totalScore(details: ScoreDetails): number {
   const score =
-    details.symmetry * 0.2 +
-    details.golden_ratio * 0.25 +
+    details.symmetry * 0.10 +
+    details.golden_ratio * 0.30 +
     details.eyes * 0.15 +
-    details.nose * 0.1 +
-    details.mouth * 0.1 +
-    details.contour * 0.1 +
-    details.skin * 0.1;
+    details.nose * 0.15 +
+    details.mouth * 0.15 +
+    details.contour * 0.15;
   return Math.round(score * 10) / 10;
 }
 
