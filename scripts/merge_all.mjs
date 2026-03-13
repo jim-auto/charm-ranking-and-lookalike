@@ -428,21 +428,44 @@ async function main() {
       const cvs = canvas.createCanvas(img.width, img.height);
       cvs.getContext('2d').drawImage(img, 0, 0);
 
-      const det = await faceapi.detectSingleFace(cvs).withFaceLandmarks().withFaceDescriptor();
-      if (!det) {
+      const allDets = await faceapi.detectAllFaces(cvs).withFaceLandmarks().withFaceDescriptors();
+      if (!allDets.length) {
         console.log(`  No face detected - skipping`);
         skipped++;
         continue;
       }
 
-      const lm = det.landmarks.positions.map(pt => ({ x: pt.x, y: pt.y }));
-      const frontal = checkFrontal(lm);
-      if (!frontal.frontal) {
-        console.log(`  ⚠ NOT FRONTAL: yaw=${frontal.yaw.toFixed(2)} eyeRatio=${frontal.eyeRatio} pitchRatio=${frontal.pitchRatio} - SKIPPING ${name}`);
+      // Pick best face: frontal + largest bounding box
+      let bestDet = null, bestSize = 0, bestLm = null, bestFrontal = null;
+      for (const det of allDets) {
+        const lm = det.landmarks.positions.map(pt => ({ x: pt.x, y: pt.y }));
+        const frontal = checkFrontal(lm);
+        if (!frontal.frontal) continue;
+        const box = det.detection.box;
+        const size = box.width * box.height;
+        if (size > bestSize) {
+          bestDet = det;
+          bestSize = size;
+          bestLm = lm;
+          bestFrontal = frontal;
+        }
+      }
+
+      if (!bestDet) {
+        // No frontal face found among all detections
+        const lm0 = allDets[0].landmarks.positions.map(pt => ({ x: pt.x, y: pt.y }));
+        const f0 = checkFrontal(lm0);
+        console.log(`  ⚠ NOT FRONTAL (${allDets.length} faces, none frontal): yaw=${f0.yaw.toFixed(2)} eyeRatio=${f0.eyeRatio} - SKIPPING ${name}`);
         skipped++;
         continue;
       }
-      const embedding = Array.from(det.descriptor);
+
+      if (allDets.length > 1) {
+        console.log(`  ${allDets.length} faces detected, picked largest frontal face`);
+      }
+
+      const lm = bestLm;
+      const embedding = Array.from(bestDet.descriptor);
       const { details, score } = calcScore(lm);
       const scores = calcScoreSet(score, meta.age, meta.totalFollowers);
 
@@ -461,7 +484,7 @@ async function main() {
         embedding,
         thumbnail: '',
         _imgPath: imgPath,
-        _det: det,
+        _det: bestDet,
       };
       if (GROUPS[name]) entry.group = GROUPS[name];
       all.push(entry);
