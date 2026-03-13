@@ -130,10 +130,10 @@ export function calculateFaceScore(landmarks: Point[]): ScoreDetails {
 
 export function totalScore(details: ScoreDetails): number {
   const score =
-    details.symmetry * 0.10 +
+    details.symmetry * 0.05 +
     details.golden_ratio * 0.30 +
     details.eyes * 0.15 +
-    details.nose * 0.15 +
+    details.nose * 0.20 +
     details.mouth * 0.15 +
     details.contour * 0.15;
   return Math.round(score * 10) / 10;

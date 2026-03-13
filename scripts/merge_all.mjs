@@ -190,7 +190,7 @@ const META = {
   '玉木宏': { age: 46, gender: 'male', sns: {}, totalFollowers: 0 },
   '三浦翔平': { age: 38, gender: 'male', sns: { instagram: 1500000 }, totalFollowers: 1500000 },
   '千葉雄大': { age: 37, gender: 'male', sns: { instagram: 1200000, twitter: 600000 }, totalFollowers: 1800000 },
-  '瀬戸康史': { age: 38, gender: 'male', sns: { instagram: 800000 }, totalFollowers: 800000 },
+  // '瀬戸康史': removed — no solo photo available on Wikimedia (only 瀬戸弘司)
   '岩田剛典': { age: 37, gender: 'male', sns: { instagram: 2500000, twitter: 1000000 }, totalFollowers: 3500000 },
   '間宮祥太朗': { age: 33, gender: 'male', sns: { instagram: 1500000 }, totalFollowers: 1500000 },
   '磯村勇斗': { age: 33, gender: 'male', sns: { instagram: 800000 }, totalFollowers: 800000 },
@@ -500,10 +500,10 @@ async function main() {
   // === Z-score normalization across all people ===
   const METRICS = ['symmetry', 'golden_ratio', 'eyes', 'nose', 'mouth', 'contour'];
   const WEIGHTS = {
-    symmetry: 0.10,      // photo-dependent, low weight
+    symmetry: 0.05,      // photo-dependent + glasses inflate this
     golden_ratio: 0.30,  // structural, stable across photos
     eyes: 0.15,          // proportional, moderately stable
-    nose: 0.15,          // proportional, stable
+    nose: 0.20,          // proportional, stable — increased weight
     mouth: 0.15,         // proportional, stable
     contour: 0.15,       // structural
   };
