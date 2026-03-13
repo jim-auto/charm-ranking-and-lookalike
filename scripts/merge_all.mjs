@@ -57,16 +57,13 @@ function calcScore(lm) {
   const contour = clamp((1 - s / (jaw.length - 2) * 8) * 100);
 
   const details = {
-    symmetry: Math.round(Math.min(symmetry, 95)), golden_ratio: Math.round(golden_ratio),
-    eyes: Math.round(Math.min(eyes, 90)), nose: Math.round(nose),
-    mouth: Math.round(mouth), contour: Math.round(contour), skin: 75,
+    symmetry: Math.round(symmetry), golden_ratio: Math.round(golden_ratio),
+    eyes: Math.round(eyes), nose: Math.round(nose),
+    mouth: Math.round(mouth), contour: Math.round(contour),
   };
 
-  // symmetry 20%→10%, golden_ratio 25%→30%, eyes cap at 90
-  const total = details.symmetry * 0.10 + details.golden_ratio * 0.30 + details.eyes * 0.15 +
-    details.nose * 0.10 + details.mouth * 0.10 + details.contour * 0.15 + details.skin * 0.10;
-
-  return { details, score: Math.round(total * 10) / 10 };
+  // Raw score returned; final scoring uses z-score normalization across all people
+  return { details, score: 0 };
 }
 
 function ageAdj(base, age) {
@@ -427,13 +424,60 @@ async function main() {
       if (GROUPS[name]) entry.group = GROUPS[name];
       all.push(entry);
 
-      console.log(`  face=${score} age-adj=${scores.faceAge} sym=${details.symmetry} golden=${details.golden_ratio}`);
+      console.log(`  raw sym=${details.symmetry} golden=${details.golden_ratio} eyes=${details.eyes} nose=${details.nose} mouth=${details.mouth} cont=${details.contour}`);
       processed++;
     } catch (e) {
       console.log(`  Error: ${e.message}`);
       skipped++;
     }
   }
+
+  // === Z-score normalization across all people ===
+  const METRICS = ['symmetry', 'golden_ratio', 'eyes', 'nose', 'mouth', 'contour'];
+  const WEIGHTS = {
+    symmetry: 0.10,      // photo-dependent, low weight
+    golden_ratio: 0.30,  // structural, stable across photos
+    eyes: 0.15,          // proportional, moderately stable
+    nose: 0.15,          // proportional, stable
+    mouth: 0.15,         // proportional, stable
+    contour: 0.15,       // structural
+  };
+
+  // Step 1: Fix symmetry=0 (detection failure) with median of valid values
+  const validSym = all.map(c => c.details.symmetry).filter(v => v > 0).sort((a, b) => a - b);
+  const medianSym = validSym[Math.floor(validSym.length / 2)] || 50;
+  for (const c of all) {
+    if (c.details.symmetry === 0) c.details.symmetry = medianSym;
+  }
+
+  // Step 2: Compute mean & std for each metric
+  const stats = {};
+  for (const m of METRICS) {
+    const vals = all.map(c => c.details[m]);
+    const mean = vals.reduce((s, v) => s + v, 0) / vals.length;
+    const std = Math.sqrt(vals.reduce((s, v) => s + (v - mean) ** 2, 0) / vals.length) || 1;
+    stats[m] = { mean, std };
+  }
+
+  // Step 3: Convert to 偏差値 (mean=50, std=10) and compute weighted score
+  for (const c of all) {
+    let total = 0;
+    for (const m of METRICS) {
+      const z = (c.details[m] - stats[m].mean) / stats[m].std;
+      const tScore = 50 + 10 * z; // 偏差値
+      total += tScore * WEIGHTS[m];
+    }
+    // Scale to ~40-80 range for display: total is around 50 (mean), spread ±15
+    c.score = Math.round(total * 10) / 10;
+    c.scores = calcScoreSet(c.score, c.age, c.totalFollowers);
+    c.scoreWithAge = c.scores.faceAge;
+    c.scoreCharm = c.scores.faceSns;
+  }
+
+  console.log('\n--- Score stats ---');
+  console.log('Mean:', stats);
+  const finalScores = all.map(c => c.score).sort((a, b) => a - b);
+  console.log(`Score range: ${finalScores[0]} - ${finalScores[finalScores.length - 1]}`);
 
   // Sort by face score descending
   all.sort((a, b) => b.score - a.score);
