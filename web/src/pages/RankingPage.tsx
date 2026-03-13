@@ -40,6 +40,8 @@ export default function RankingPage() {
   const [useSns, setUseSns] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(1);
+  const perPage = 30;
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/celebrities.json`)
@@ -61,8 +63,14 @@ export default function RankingPage() {
       );
     }
     list.sort((a, b) => getScore(b, useAge, useSns) - getScore(a, useAge, useSns));
+    setPage(1);
     return list;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [celebrities, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+
+  const totalPages = Math.ceil(sorted.length / perPage);
+  const paged = sorted.slice((page - 1) * perPage, page * perPage);
+  const rankOffset = (page - 1) * perPage;
 
   return (
     <div>
@@ -154,18 +162,52 @@ export default function RankingPage() {
       ) : sorted.length === 0 ? (
         <div className="text-center py-12 text-slate-400">データがありません</div>
       ) : (
-        <div className="space-y-3">
-          {sorted.map((celeb, i) => (
-            <CelebrityCard
-              key={celeb.id}
-              celebrity={celeb}
-              rank={i + 1}
-              useAge={useAge}
-              useSns={useSns}
-              formatFollowers={formatFollowers}
-            />
-          ))}
-        </div>
+        <>
+          <div className="space-y-3">
+            {paged.map((celeb, i) => (
+              <CelebrityCard
+                key={celeb.id}
+                celebrity={celeb}
+                rank={rankOffset + i + 1}
+                useAge={useAge}
+                useSns={useSns}
+                formatFollowers={formatFollowers}
+              />
+            ))}
+          </div>
+
+          {totalPages > 1 && (
+            <div className="flex justify-center items-center gap-2 mt-6">
+              <button
+                onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo(0, 0); }}
+                disabled={page === 1}
+                className="px-3 py-1.5 rounded text-sm bg-slate-800 text-slate-300 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed"
+              >
+                {'<'}
+              </button>
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                <button
+                  key={p}
+                  onClick={() => { setPage(p); window.scrollTo(0, 0); }}
+                  className={`w-9 h-9 rounded text-sm font-medium transition-colors ${
+                    page === p
+                      ? 'bg-indigo-600 text-white'
+                      : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                  }`}
+                >
+                  {p}
+                </button>
+              ))}
+              <button
+                onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo(0, 0); }}
+                disabled={page === totalPages}
+                className="px-3 py-1.5 rounded text-sm bg-slate-800 text-slate-300 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed"
+              >
+                {'>'}
+              </button>
+            </div>
+          )}
+        </>
       )}
 
       <ScoreBreakdown />
