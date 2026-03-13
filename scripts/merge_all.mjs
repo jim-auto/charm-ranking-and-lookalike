@@ -25,6 +25,42 @@ function midpoint(a, b) { return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; }
 function clamp(v, min = 0, max = 100) { return Math.max(min, Math.min(max, v)); }
 function ratioScore(actual, ideal) { return clamp((1 - Math.abs(actual - ideal) / ideal) * 100); }
 
+// Check if face is roughly frontal using landmarks
+// Returns { frontal: bool, yaw: number (-1=left, 1=right), pitch: number (negative=down) }
+function checkFrontal(lm) {
+  const noseTop = lm[27], noseTip = lm[30];
+  const leftJaw = lm[0], rightJaw = lm[16];
+  const fw = distance(leftJaw, rightJaw);
+  const leftEye = midpoint(lm[36], lm[39]);
+  const rightEye = midpoint(lm[42], lm[45]);
+
+  // Yaw: nose tip position relative to face center
+  const faceCenterX = (leftJaw.x + rightJaw.x) / 2;
+  const noseOffsetX = (noseTip.x - faceCenterX) / fw; // -0.5 to 0.5
+
+  // Also check eye width ratio (profile = one eye much smaller)
+  const leftEyeW = distance(lm[36], lm[39]);
+  const rightEyeW = distance(lm[42], lm[45]);
+  const eyeRatio = Math.min(leftEyeW, rightEyeW) / Math.max(leftEyeW, rightEyeW);
+
+  // Pitch: vertical nose angle
+  const fh = distance(noseTop, lm[8]);
+  const noseLen = distance(noseTop, noseTip);
+  const pitchRatio = noseLen / fh; // small = looking down
+
+  // Frontal criteria:
+  // - nose not too far from center (|offset| < 0.25)
+  // - both eyes roughly same width (ratio > 0.50) — profile makes one eye tiny
+  const isFrontal = Math.abs(noseOffsetX) < 0.25 && eyeRatio > 0.50;
+
+  return {
+    frontal: isFrontal,
+    yaw: noseOffsetX,
+    eyeRatio: Math.round(eyeRatio * 100) / 100,
+    pitchRatio: Math.round(pitchRatio * 100) / 100,
+  };
+}
+
 function calcScore(lm) {
   const fw = distance(lm[0], lm[16]);
   const jl = lm.slice(0, 8), jr = lm.slice(9, 17).reverse(), nb = lm[27];
@@ -400,6 +436,12 @@ async function main() {
       }
 
       const lm = det.landmarks.positions.map(pt => ({ x: pt.x, y: pt.y }));
+      const frontal = checkFrontal(lm);
+      if (!frontal.frontal) {
+        console.log(`  ⚠ NOT FRONTAL: yaw=${frontal.yaw.toFixed(2)} eyeRatio=${frontal.eyeRatio} pitchRatio=${frontal.pitchRatio} - SKIPPING ${name}`);
+        skipped++;
+        continue;
+      }
       const embedding = Array.from(det.descriptor);
       const { details, score } = calcScore(lm);
       const scores = calcScoreSet(score, meta.age, meta.totalFollowers);
