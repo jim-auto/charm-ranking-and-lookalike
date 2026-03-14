@@ -531,12 +531,12 @@ async function main() {
   // === Z-score normalization across all people ===
   const METRICS = ['symmetry', 'golden_ratio', 'eyes', 'nose', 'mouth', 'contour'];
   const WEIGHTS = {
-    symmetry: 0.05,      // photo-dependent + glasses inflate this
-    golden_ratio: 0.30,  // structural, stable across photos
+    symmetry: 0.00,      // removed: too photo-dependent (lighting, angle, makeup)
+    golden_ratio: 0.35,  // structural, most stable across photos
     eyes: 0.15,          // proportional, moderately stable
-    nose: 0.20,          // proportional, stable — increased weight
+    nose: 0.15,          // proportional, stable
     mouth: 0.15,         // proportional, stable
-    contour: 0.15,       // structural
+    contour: 0.20,       // structural, stable
   };
 
   // Step 1: Fix symmetry=0 (detection failure) with median of valid values
