@@ -116,8 +116,6 @@ export function calculateContourScore(landmarks: Point[]): number {
 }
 
 export function calculateFaceScore(landmarks: Point[]): ScoreDetails {
-  const faceWidth = distance(landmarks[0], landmarks[16]);
-
   return {
     golden_ratio: Math.round(calculateGoldenRatio(landmarks)),
     eyes: Math.round(calculateEyeScore(landmarks)),
