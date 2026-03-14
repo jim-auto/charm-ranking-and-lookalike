@@ -356,6 +356,32 @@ const META = {
   '浅香鈴花': { age: 19, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
   '白濱優凪': { age: 20, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
   '佐藤ゆきな': { age: 21, gender: 'female', sns: { instagram: 50000 }, totalFollowers: 50000 },
+
+  // 新規追加 アイドル
+  '柏木由紀': { age: 33, gender: 'female', sns: { instagram: 2000000, twitter: 1500000, youtube: 800000 }, totalFollowers: 4300000 },
+  '秋元真夏': { age: 32, gender: 'female', sns: { instagram: 1000000 }, totalFollowers: 1000000 },
+  '高山一実': { age: 32, gender: 'female', sns: { instagram: 800000 }, totalFollowers: 800000 },
+  '久保史緒里': { age: 23, gender: 'female', sns: {}, totalFollowers: 0 },
+  '前田敦子': { age: 34, gender: 'female', sns: { instagram: 2000000 }, totalFollowers: 2000000 },
+  '大島優子': { age: 37, gender: 'female', sns: { instagram: 2500000 }, totalFollowers: 2500000 },
+  '高橋みなみ': { age: 34, gender: 'female', sns: { instagram: 500000, twitter: 2000000 }, totalFollowers: 2500000 },
+  '板野友美': { age: 33, gender: 'female', sns: { instagram: 2000000, twitter: 1000000 }, totalFollowers: 3000000 },
+  '島崎遥香': { age: 30, gender: 'female', sns: { instagram: 1500000, twitter: 800000 }, totalFollowers: 2300000 },
+
+  // 新規追加 インフルエンサー
+  'ゆきりぬ': { age: 31, gender: 'female', sns: { youtube: 1500000, instagram: 500000 }, totalFollowers: 2000000 },
+
+  // 新規追加 アーティスト
+  'Taka(ONE OK ROCK)': { age: 38, gender: 'male', sns: { instagram: 3000000, twitter: 1500000 }, totalFollowers: 4500000 },
+  '浜崎あゆみ': { age: 47, gender: 'female', sns: { instagram: 2500000, twitter: 3000000 }, totalFollowers: 5500000 },
+  '西野カナ': { age: 37, gender: 'female', sns: { instagram: 1500000, twitter: 2000000 }, totalFollowers: 3500000 },
+  '中島美嘉': { age: 43, gender: 'female', sns: { instagram: 500000 }, totalFollowers: 500000 },
+  'EXILE TAKAHIRO': { age: 40, gender: 'male', sns: { instagram: 1500000 }, totalFollowers: 1500000 },
+  'Crystal Kay': { age: 40, gender: 'female', sns: { instagram: 300000, twitter: 200000 }, totalFollowers: 500000 },
+  'DAIGO': { age: 47, gender: 'male', sns: { instagram: 500000, twitter: 1500000 }, totalFollowers: 2000000 },
+  '川谷絵音': { age: 36, gender: 'male', sns: { instagram: 500000, twitter: 300000 }, totalFollowers: 800000 },
+  '加藤ミリヤ': { age: 37, gender: 'female', sns: { instagram: 800000, twitter: 500000 }, totalFollowers: 1300000 },
+  '安室奈美恵': { age: 48, gender: 'female', sns: {}, totalFollowers: 0 },
 };
 
 // Group name mapping
@@ -391,6 +417,11 @@ const GROUPS = {
   '堀内まり菜': 'CANDY TUNE', '蒔田真望': 'CANDY TUNE',
   '秋山美旺': 'CANDY TUNE', '清水唯菜': 'CANDY TUNE',
   '浅香鈴花': 'CANDY TUNE', '白濱優凪': 'CANDY TUNE', '佐藤ゆきな': 'CANDY TUNE',
+  '柏木由紀': 'AKB48', '前田敦子': '元AKB48', '大島優子': '元AKB48',
+  '高橋みなみ': '元AKB48', '板野友美': '元AKB48', '島崎遥香': '元AKB48',
+  '秋元真夏': '乃木坂46', '高山一実': '元乃木坂46', '久保史緒里': '乃木坂46',
+  'Taka(ONE OK ROCK)': 'ONE OK ROCK', '川谷絵音': 'ゲスの極み乙女。',
+  'EXILE TAKAHIRO': 'EXILE', 'DAIGO': 'BREAKERZ',
 };
 
 async function main() {
