@@ -19,6 +19,7 @@ export default function DiagnosePage() {
   const [processing, setProcessing] = useState(false);
   const [result, setResult] = useState<DiagnoseResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [gender, setGender] = useState<'male' | 'female'>('male');
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -60,9 +61,10 @@ export default function DiagnosePage() {
         const details = calculateFaceScore(detection.landmarks);
         const score = totalScore(details);
 
-        const similar = findSimilarCelebrities(detection.embedding, celebrities, 5);
+        const filtered = celebrities.filter((c) => c.gender === gender);
+        const similar = findSimilarCelebrities(detection.embedding, filtered, 5);
         const lookalikes = similar.map(({ index, similarity }) => ({
-          celebrity: celebrities[index],
+          celebrity: filtered[index],
           similarity,
         }));
 
@@ -74,7 +76,7 @@ export default function DiagnosePage() {
         setProcessing(false);
       }
     },
-    [modelsReady, celebrities],
+    [modelsReady, celebrities, gender],
   );
 
   return (
@@ -84,6 +86,23 @@ export default function DiagnosePage() {
         <p className="text-slate-400">
           あなたの顔写真から偏差値を算出し、似ている芸能人を見つけます。
         </p>
+      </div>
+
+      <div className="flex items-center gap-3 mb-6">
+        <span className="text-sm text-slate-400">性別:</span>
+        {([['male', '男性'], ['female', '女性']] as const).map(([val, label]) => (
+          <button
+            key={val}
+            onClick={() => setGender(val)}
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+              gender === val
+                ? 'bg-indigo-600 text-white'
+                : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
       {!modelsReady && !error && (
