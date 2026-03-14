@@ -17,9 +17,9 @@ interface Props {
   size?: 'sm' | 'md';
 }
 
-const labels = ['対称性', '黄金比', '目', '鼻', '口', '輪郭'];
+const labels = ['黄金比', '目', '鼻', '口', '輪郭'];
 const keys: (keyof ScoreDetails)[] = [
-  'symmetry', 'golden_ratio', 'eyes', 'nose', 'mouth', 'contour',
+  'golden_ratio', 'eyes', 'nose', 'mouth', 'contour',
 ];
 
 class RadarErrorBoundary extends Component<

@@ -119,7 +119,6 @@ export function calculateFaceScore(landmarks: Point[]): ScoreDetails {
   const faceWidth = distance(landmarks[0], landmarks[16]);
 
   return {
-    symmetry: Math.round(calculateSymmetry(landmarks, faceWidth)),
     golden_ratio: Math.round(calculateGoldenRatio(landmarks)),
     eyes: Math.round(calculateEyeScore(landmarks)),
     nose: Math.round(calculateNoseScore(landmarks)),
@@ -130,7 +129,6 @@ export function calculateFaceScore(landmarks: Point[]): ScoreDetails {
 
 export function totalScore(details: ScoreDetails): number {
   const score =
-    details.symmetry * 0.00 +
     details.golden_ratio * 0.35 +
     details.eyes * 0.15 +
     details.nose * 0.15 +

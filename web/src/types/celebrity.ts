@@ -1,5 +1,4 @@
 export interface ScoreDetails {
-  symmetry: number;
   golden_ratio: number;
   eyes: number;
   nose: number;

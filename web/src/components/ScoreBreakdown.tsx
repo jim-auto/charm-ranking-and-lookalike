@@ -1,13 +1,11 @@
 import { useState } from 'react';
 
 const weights = [
-  { label: '黄金比', pct: 25, color: 'bg-amber-500', desc: '顔の縦横比・目の間隔が理想比率にどれだけ近いか' },
-  { label: '対称性', pct: 20, color: 'bg-blue-500', desc: '顔の左右対称度（顎ライン基準）' },
+  { label: '黄金比', pct: 35, color: 'bg-amber-500', desc: '顔の縦横比・目の間隔が理想比率にどれだけ近いか' },
   { label: '目', pct: 15, color: 'bg-purple-500', desc: '目の開き具合・左右バランス' },
-  { label: '鼻', pct: 10, color: 'bg-green-500', desc: '鼻の幅と長さの比率' },
-  { label: '口', pct: 10, color: 'bg-pink-500', desc: '口幅と唇の上下比率' },
-  { label: '輪郭', pct: 10, color: 'bg-cyan-500', desc: '顎ラインの滑らかさ' },
-  { label: '肌', pct: 10, color: 'bg-orange-500', desc: '固定値（写真品質に依存するため）' },
+  { label: '鼻', pct: 15, color: 'bg-green-500', desc: '鼻の幅と長さの比率' },
+  { label: '口', pct: 15, color: 'bg-pink-500', desc: '口幅と唇の上下比率' },
+  { label: '輪郭', pct: 20, color: 'bg-cyan-500', desc: '顎ラインの滑らかさ' },
 ];
 
 export default function ScoreBreakdown() {
