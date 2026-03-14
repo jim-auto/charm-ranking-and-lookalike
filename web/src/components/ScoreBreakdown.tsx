@@ -48,6 +48,9 @@ export default function ScoreBreakdown() {
                 <div key={w.label} className={`${w.color}`} style={{ width: `${w.pct}%` }} />
               ))}
             </div>
+            <p className="mt-3 text-xs text-slate-500">
+              ※ 肌質・対称性は写真の撮影条件（照明・角度・加工）に大きく依存するため、スコアには含めていません。
+            </p>
           </section>
 
           <section>
