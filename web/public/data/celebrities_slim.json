@@ -64,20 +64,20 @@
     "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg"
   },
   {
-    "id": "celeb_4b21992f",
-    "name": "河野太郎",
+    "id": "celeb_c6742188",
+    "name": "加藤綾子",
     "category": "actor",
-    "score": 63.0,
+    "score": 63.2,
     "details": {
-      "symmetry": 95,
+      "symmetry": 77,
       "golden_ratio": 35,
-      "eyes": 68,
-      "nose": 84,
-      "mouth": 35,
-      "contour": 56,
+      "eyes": 94,
+      "nose": 67,
+      "mouth": 59,
+      "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4b21992f.jpg"
+    "thumbnail": "data/thumbnails/celeb_c6742188.jpg"
   },
   {
     "id": "celeb_10323a2d",
@@ -224,6 +224,22 @@
     "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg"
   },
   {
+    "id": "celeb_fbf39237",
+    "name": "室伏広治",
+    "category": "actor",
+    "score": 60.2,
+    "details": {
+      "symmetry": 89,
+      "golden_ratio": 41,
+      "eyes": 57,
+      "nose": 61,
+      "mouth": 43,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_fbf39237.jpg"
+  },
+  {
     "id": "celeb_685a067b",
     "name": "玉木宏",
     "category": "actor",
@@ -318,6 +334,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg"
+  },
+  {
+    "id": "celeb_c62f821e",
+    "name": "ダウンタウン浜田",
+    "category": "actor",
+    "score": 58.6,
+    "details": {
+      "symmetry": 75,
+      "golden_ratio": 32,
+      "eyes": 52,
+      "nose": 62,
+      "mouth": 85,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c62f821e.jpg"
   },
   {
     "id": "celeb_708c9315",
@@ -448,6 +480,22 @@
     "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg"
   },
   {
+    "id": "celeb_febd48a6",
+    "name": "とにかく明るい安村",
+    "category": "actor",
+    "score": 56.6,
+    "details": {
+      "symmetry": 73,
+      "golden_ratio": 27,
+      "eyes": 67,
+      "nose": 60,
+      "mouth": 60,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_febd48a6.jpg"
+  },
+  {
     "id": "celeb_ef0e4ead",
     "name": "松田好花",
     "category": "actor",
@@ -560,22 +608,6 @@
     "thumbnail": "data/thumbnails/celeb_f5977b60.jpg"
   },
   {
-    "id": "celeb_dffd6122",
-    "name": "安倍晋三",
-    "category": "actor",
-    "score": 54.9,
-    "details": {
-      "symmetry": 58,
-      "golden_ratio": 32,
-      "eyes": 99,
-      "nose": 49,
-      "mouth": 22,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_dffd6122.jpg"
-  },
-  {
     "id": "celeb_96872d3c",
     "name": "二階堂ふみ",
     "category": "actor",
@@ -590,6 +622,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_96872d3c.jpg"
+  },
+  {
+    "id": "celeb_1278ef8f",
+    "name": "秋元康",
+    "category": "actor",
+    "score": 54.5,
+    "details": {
+      "symmetry": 66,
+      "golden_ratio": 37,
+      "eyes": 63,
+      "nose": 62,
+      "mouth": 31,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg"
   },
   {
     "id": "celeb_5edc166e",
@@ -814,6 +862,38 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_51f05250.jpg"
+  },
+  {
+    "id": "celeb_79de5e14",
+    "name": "渡辺雄太",
+    "category": "actor",
+    "score": 51.8,
+    "details": {
+      "symmetry": 75,
+      "golden_ratio": 33,
+      "eyes": 40,
+      "nose": 42,
+      "mouth": 54,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_79de5e14.jpg"
+  },
+  {
+    "id": "celeb_34ea398f",
+    "name": "北野武",
+    "category": "actor",
+    "score": 51.6,
+    "details": {
+      "symmetry": 16,
+      "golden_ratio": 26,
+      "eyes": 92,
+      "nose": 79,
+      "mouth": 74,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_34ea398f.jpg"
   },
   {
     "id": "celeb_afed590f",
@@ -1056,6 +1136,22 @@
     "thumbnail": "data/thumbnails/celeb_34c4561b.jpg"
   },
   {
+    "id": "celeb_b03f6a89",
+    "name": "香川真司",
+    "category": "actor",
+    "score": 48.4,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 37,
+      "eyes": 79,
+      "nose": 54,
+      "mouth": 91,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_b03f6a89.jpg"
+  },
+  {
     "id": "celeb_3b910309",
     "name": "竹内涼真",
     "category": "actor",
@@ -1102,6 +1198,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg"
+  },
+  {
+    "id": "celeb_8f7c1428",
+    "name": "ヒロシ",
+    "category": "actor",
+    "score": 46.8,
+    "details": {
+      "symmetry": 14,
+      "golden_ratio": 33,
+      "eyes": 74,
+      "nose": 53,
+      "mouth": 61,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8f7c1428.jpg"
   },
   {
     "id": "celeb_2267bb69",
@@ -1296,6 +1408,22 @@
     "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg"
   },
   {
+    "id": "celeb_df5afd63",
+    "name": "本田圭佑",
+    "category": "actor",
+    "score": 44.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 41,
+      "eyes": 77,
+      "nose": 51,
+      "mouth": 38,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_df5afd63.jpg"
+  },
+  {
     "id": "celeb_4f811f29",
     "name": "齊藤なぎさ",
     "category": "actor",
@@ -1406,6 +1534,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a6a7558e.jpg"
+  },
+  {
+    "id": "celeb_00573e3e",
+    "name": "宇野昌磨",
+    "category": "actor",
+    "score": 41.9,
+    "details": {
+      "symmetry": 1,
+      "golden_ratio": 34,
+      "eyes": 80,
+      "nose": 34,
+      "mouth": 48,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_00573e3e.jpg"
   },
   {
     "id": "celeb_3ba08e03",
@@ -1520,6 +1664,22 @@
     "thumbnail": "data/thumbnails/celeb_823e1d4c.jpg"
   },
   {
+    "id": "celeb_9df49b86",
+    "name": "石川佳純",
+    "category": "actor",
+    "score": 40.8,
+    "details": {
+      "symmetry": 12,
+      "golden_ratio": 42,
+      "eyes": 66,
+      "nose": 35,
+      "mouth": 16,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_9df49b86.jpg"
+  },
+  {
     "id": "celeb_39b9baef",
     "name": "金村美玖",
     "category": "actor",
@@ -1534,22 +1694,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_39b9baef.jpg"
-  },
-  {
-    "id": "celeb_637d35e1",
-    "name": "蓮舫",
-    "category": "actor",
-    "score": 40.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 26,
-      "eyes": 76,
-      "nose": 49,
-      "mouth": 49,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_637d35e1.jpg"
   },
   {
     "id": "celeb_6cf416f9",
@@ -1582,6 +1726,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg"
+  },
+  {
+    "id": "celeb_e9dd0ad7",
+    "name": "羽生結弦",
+    "category": "actor",
+    "score": 40.4,
+    "details": {
+      "symmetry": 1,
+      "golden_ratio": 31,
+      "eyes": 86,
+      "nose": 16,
+      "mouth": 51,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_e9dd0ad7.jpg"
   },
   {
     "id": "celeb_5f2d3df0",
@@ -1630,6 +1790,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_059f9821.jpg"
+  },
+  {
+    "id": "celeb_a86f6d4b",
+    "name": "小島よしお",
+    "category": "actor",
+    "score": 40.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 31,
+      "eyes": 75,
+      "nose": 35,
+      "mouth": 57,
+      "contour": 43,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_a86f6d4b.jpg"
   },
   {
     "id": "celeb_fad5b2a1",
@@ -1710,22 +1886,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg"
-  },
-  {
-    "id": "celeb_cfe34ca2",
-    "name": "麻生太郎",
-    "category": "actor",
-    "score": 37.8,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 27,
-      "eyes": 69,
-      "nose": 29,
-      "mouth": 48,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_cfe34ca2.jpg"
   },
   {
     "id": "celeb_ac7524e2",
@@ -1904,6 +2064,22 @@
     "thumbnail": "data/thumbnails/celeb_dc2a13db.jpg"
   },
   {
+    "id": "celeb_6d9f436e",
+    "name": "錦鯉渡辺",
+    "category": "actor",
+    "score": 36.2,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 48,
+      "nose": 43,
+      "mouth": 44,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_6d9f436e.jpg"
+  },
+  {
     "id": "celeb_86612318",
     "name": "遠藤さくら",
     "category": "actor",
@@ -1950,6 +2126,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_9244cc06.jpg"
+  },
+  {
+    "id": "celeb_a0d9aa25",
+    "name": "サンシャイン池崎",
+    "category": "actor",
+    "score": 35.8,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 32,
+      "eyes": 55,
+      "nose": 47,
+      "mouth": 21,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_a0d9aa25.jpg"
   },
   {
     "id": "celeb_0bb271b9",
@@ -2000,6 +2192,22 @@
     "thumbnail": "data/thumbnails/celeb_58f675db.jpg"
   },
   {
+    "id": "celeb_696f51ce",
+    "name": "紀平梨花",
+    "category": "actor",
+    "score": 35.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 15,
+      "eyes": 75,
+      "nose": 33,
+      "mouth": 41,
+      "contour": 51,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_696f51ce.jpg"
+  },
+  {
     "id": "celeb_08fa3955",
     "name": "土屋太鳳",
     "category": "actor",
@@ -2030,6 +2238,22 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_00d06037.jpg"
+  },
+  {
+    "id": "celeb_bb0cc261",
+    "name": "前田健太",
+    "category": "actor",
+    "score": 34.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 31,
+      "eyes": 50,
+      "nose": 37,
+      "mouth": 19,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_bb0cc261.jpg"
   },
   {
     "id": "celeb_5e662c06",
