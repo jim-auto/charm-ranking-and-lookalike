@@ -5,9 +5,10 @@ interface Props {
   score: number;
   details: ScoreDetails;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
+  toDeviation?: (rawScore: number) => number;
 }
 
-export default function LookalikeResult({ score, details, lookalikes }: Props) {
+export default function LookalikeResult({ score, details, lookalikes, toDeviation }: Props) {
   return (
     <div className="space-y-6">
       <div className="bg-slate-800 rounded-xl p-6 text-center">
@@ -34,7 +35,7 @@ export default function LookalikeResult({ score, details, lookalikes }: Props) {
                 />
                 <div className="flex-1">
                   <div className="font-medium">{celebrity.name}</div>
-                  <div className="text-sm text-slate-400">偏差値: {celebrity.score}</div>
+                  <div className="text-sm text-slate-400">偏差値: {toDeviation ? toDeviation(celebrity.scores?.face ?? celebrity.score) : celebrity.score}</div>
                 </div>
                 <div className="text-indigo-400 font-bold">
                   {Math.round(similarity * 100)}% 一致

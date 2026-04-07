@@ -7,6 +7,7 @@ interface Props {
   useAge?: boolean;
   useSns?: boolean;
   formatFollowers?: (n: number) => string;
+  toDeviation?: (score: number, age: boolean, sns: boolean) => number;
 }
 
 const categoryLabel: Record<string, string> = {
@@ -38,8 +39,11 @@ export default function CelebrityCard({
   useAge = false,
   useSns = false,
   formatFollowers,
+  toDeviation,
 }: Props) {
-  const displayScore = getScore(celebrity, useAge, useSns);
+  const rawScore = getScore(celebrity, useAge, useSns);
+  const displayScore = toDeviation ? toDeviation(rawScore, useAge, useSns) : rawScore;
+  const rawFaceDeviation = toDeviation ? toDeviation(celebrity.scores.face, false, false) : celebrity.scores.face;
   const hasModifier = useAge || useSns;
 
   return (
@@ -77,7 +81,7 @@ export default function CelebrityCard({
           </div>
           {hasModifier && (
             <div className="text-xs text-slate-500">
-              顔 {celebrity.scores.face}
+              顔 {rawFaceDeviation}
             </div>
           )}
         </div>

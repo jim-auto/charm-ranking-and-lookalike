@@ -136,6 +136,25 @@ export function totalScore(details: ScoreDetails): number {
 }
 
 /**
+ * 偏差値計算ユーティリティ
+ * 芸能人データの指定スコアキーから平均・標準偏差を求め、
+ * 任意のスコアを偏差値に変換する関数を返す。
+ */
+export function createDeviationConverter(
+  celebrities: { scores: { face: number; faceAge: number; faceSns: number; faceAgeSns: number }; score?: number }[],
+  key: 'face' | 'faceAge' | 'faceSns' | 'faceAgeSns',
+): (rawScore: number) => number {
+  const values = celebrities.map((c) => c.scores?.[key] ?? (c as any).score ?? 0);
+  const n = values.length;
+  if (n === 0) return (s) => s;
+  const mean = values.reduce((a, b) => a + b, 0) / n;
+  const variance = values.reduce((a, v) => a + (v - mean) ** 2, 0) / n;
+  const stdev = Math.sqrt(variance);
+  if (stdev === 0) return () => 50;
+  return (rawScore: number) => Math.round((50 + 10 * (rawScore - mean) / stdev) * 10) / 10;
+}
+
+/**
  * 年齢を考慮したスコア補正
  * 20代前半をピーク(+5)とし、離れるほど減点
  */

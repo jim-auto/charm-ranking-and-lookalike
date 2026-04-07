@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
-import { calculateFaceScore, totalScore } from '../lib/faceScoring';
+import { calculateFaceScore, totalScore, createDeviationConverter } from '../lib/faceScoring';
 import { findSimilarCelebrities } from '../lib/embedding';
 import ImageUploader from '../components/ImageUploader';
 import LookalikeResult from '../components/LookalikeResult';
@@ -11,6 +11,7 @@ interface DiagnoseResult {
   score: number;
   details: ScoreDetails;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
+  toDeviation: (rawScore: number) => number;
 }
 
 export default function DiagnosePage() {
@@ -59,7 +60,9 @@ export default function DiagnosePage() {
         }
 
         const details = calculateFaceScore(detection.landmarks);
-        const score = totalScore(details);
+        const rawScore = totalScore(details);
+        const toDeviation = createDeviationConverter(celebrities, 'face');
+        const score = toDeviation(rawScore);
 
         const filtered = celebrities.filter((c) => c.gender === gender);
         const similar = findSimilarCelebrities(detection.embedding, filtered, 5);
@@ -68,7 +71,7 @@ export default function DiagnosePage() {
           similarity,
         }));
 
-        setResult({ score, details, lookalikes });
+        setResult({ score, details, lookalikes, toDeviation });
       } catch (err) {
         console.error(err);
         setError('処理中にエラーが発生しました。');
@@ -126,6 +129,7 @@ export default function DiagnosePage() {
             score={result.score}
             details={result.details}
             lookalikes={result.lookalikes}
+            toDeviation={result.toDeviation}
           />
         </div>
       )}

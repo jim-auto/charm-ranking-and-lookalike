@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
+import { createDeviationConverter } from '../lib/faceScoring';
 import CelebrityCard from '../components/CelebrityCard';
 import ScoreBreakdown from '../components/ScoreBreakdown';
 
@@ -50,6 +51,20 @@ export default function RankingPage() {
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
+
+  const toDeviation = useMemo(() => {
+    if (celebrities.length === 0) return (_score: number, _age: boolean, _sns: boolean) => 0;
+    const convFace = createDeviationConverter(celebrities, 'face');
+    const convFaceAge = createDeviationConverter(celebrities, 'faceAge');
+    const convFaceSns = createDeviationConverter(celebrities, 'faceSns');
+    const convFaceAgeSns = createDeviationConverter(celebrities, 'faceAgeSns');
+    return (score: number, age: boolean, sns: boolean) => {
+      if (age && sns) return convFaceAgeSns(score);
+      if (age) return convFaceAge(score);
+      if (sns) return convFaceSns(score);
+      return convFace(score);
+    };
+  }, [celebrities]);
 
   const sorted = useMemo(() => {
     let list = [...celebrities];
@@ -172,6 +187,7 @@ export default function RankingPage() {
                 useAge={useAge}
                 useSns={useSns}
                 formatFollowers={formatFollowers}
+                toDeviation={toDeviation}
               />
             ))}
           </div>
