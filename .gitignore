@@ -26,7 +26,14 @@ Desktop.ini
 # Python
 venv/
 .venv/
+.venv312/
 *.egg-info/
+
+# MediaPipe model
+scripts/face_landmarker.task
+
+# Temp processing files
+scripts/meta_backup.json
 
 # face-api.js models (large files - download separately)
 # web/public/models/

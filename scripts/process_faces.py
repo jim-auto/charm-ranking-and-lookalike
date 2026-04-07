@@ -241,7 +241,9 @@ def process_person(
 
     for img_path in image_paths:
         print(f"  Processing {img_path.name} ...", end=" ")
-        bgr = cv2.imread(str(img_path))
+        # Use numpy to handle non-ASCII file paths (cv2.imread fails on Windows)
+        buf = np.fromfile(str(img_path), dtype=np.uint8)
+        bgr = cv2.imdecode(buf, cv2.IMREAD_COLOR)
         if bgr is None:
             print("SKIP (cannot read)")
             continue
