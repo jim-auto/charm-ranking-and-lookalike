@@ -205,7 +205,9 @@ def generate_thumbnail(
 # ---------------------------------------------------------------------------
 
 def name_to_id(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", name.strip().lower()).strip("-")
+    import hashlib
+    h = hashlib.md5(name.encode("utf-8")).hexdigest()[:8]
+    return f"celeb_{h}"
 
 
 def guess_category(name: str) -> str:

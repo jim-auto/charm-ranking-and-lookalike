@@ -1,6 +1,6 @@
 [
   {
-    "id": "koki",
+    "id": "celeb_8b3df7b8",
     "name": "Koki",
     "category": "actor",
     "score": 66.6,
@@ -13,10 +13,10 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/koki.jpg"
+    "thumbnail": "data/thumbnails/celeb_8b3df7b8.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_04bb2177",
     "name": "橋本環奈",
     "category": "actor",
     "score": 66.4,
@@ -29,10 +29,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_04bb2177.jpg"
   },
   {
-    "id": "misia",
+    "id": "celeb_3060094d",
     "name": "MISIA",
     "category": "actor",
     "score": 65.3,
@@ -45,10 +45,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/misia.jpg"
+    "thumbnail": "data/thumbnails/celeb_3060094d.jpg"
   },
   {
-    "id": "sana-twice",
+    "id": "celeb_5af63ed2",
     "name": "SANA(TWICE)",
     "category": "actor",
     "score": 65.2,
@@ -61,10 +61,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/sana-twice.jpg"
+    "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_4b21992f",
     "name": "河野太郎",
     "category": "actor",
     "score": 63.0,
@@ -77,10 +77,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_4b21992f.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_10323a2d",
     "name": "浜崎あゆみ",
     "category": "actor",
     "score": 61.8,
@@ -93,10 +93,10 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_10323a2d.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_9ccb3b96",
     "name": "小松菜奈",
     "category": "actor",
     "score": 61.2,
@@ -109,10 +109,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_9ccb3b96.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a9977480",
     "name": "松坂桃李",
     "category": "actor",
     "score": 61.0,
@@ -125,10 +125,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a9977480.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_1c82bee3",
     "name": "白石麻衣",
     "category": "actor",
     "score": 61.0,
@@ -141,10 +141,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_e564607e",
     "name": "松本かれん",
     "category": "actor",
     "score": 60.8,
@@ -157,10 +157,10 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_e564607e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a347c13c",
     "name": "宮迫博之",
     "category": "actor",
     "score": 60.7,
@@ -173,10 +173,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a347c13c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_8fc71b5e",
     "name": "指原莉乃",
     "category": "actor",
     "score": 60.4,
@@ -189,10 +189,10 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_5a27f5fc",
     "name": "松山英樹",
     "category": "actor",
     "score": 60.3,
@@ -205,10 +205,10 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_5a27f5fc.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_90d4aec0",
     "name": "大森元貴",
     "category": "actor",
     "score": 60.2,
@@ -221,10 +221,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_685a067b",
     "name": "玉木宏",
     "category": "actor",
     "score": 60.0,
@@ -237,10 +237,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_685a067b.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_8c89a925",
     "name": "音嶋莉沙",
     "category": "actor",
     "score": 60.0,
@@ -253,10 +253,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_8c89a925.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_7e883dd6",
     "name": "道枝駿佑",
     "category": "actor",
     "score": 59.8,
@@ -269,10 +269,10 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_7e883dd6.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_67595c9c",
     "name": "川口春奈",
     "category": "actor",
     "score": 59.6,
@@ -285,10 +285,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_67595c9c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_d45b0ee1",
     "name": "綾瀬はるか",
     "category": "actor",
     "score": 59.2,
@@ -301,10 +301,10 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_b4a8a800",
     "name": "深田恭子",
     "category": "actor",
     "score": 59.0,
@@ -317,10 +317,10 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_708c9315",
     "name": "ローラ",
     "category": "actor",
     "score": 58.0,
@@ -333,10 +333,10 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_708c9315.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_40c3c413",
     "name": "横浜流星",
     "category": "actor",
     "score": 57.8,
@@ -349,10 +349,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_40c3c413.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_837ebdf5",
     "name": "オードリー春日",
     "category": "actor",
     "score": 57.6,
@@ -365,10 +365,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_303ba9cb",
     "name": "松岡茉優",
     "category": "actor",
     "score": 57.6,
@@ -381,10 +381,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_303ba9cb.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_69e73e58",
     "name": "菅田将暉",
     "category": "actor",
     "score": 57.6,
@@ -397,10 +397,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_69e73e58.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_7dfa2df4",
     "name": "浜辺美波",
     "category": "actor",
     "score": 57.4,
@@ -413,10 +413,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_7dfa2df4.jpg"
   },
   {
-    "id": "daigo",
+    "id": "celeb_cec17988",
     "name": "DAIGO",
     "category": "actor",
     "score": 57.2,
@@ -429,10 +429,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/daigo.jpg"
+    "thumbnail": "data/thumbnails/celeb_cec17988.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_4ff5e7f3",
     "name": "柏木由紀",
     "category": "actor",
     "score": 56.8,
@@ -445,10 +445,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_ef0e4ead",
     "name": "松田好花",
     "category": "actor",
     "score": 56.0,
@@ -461,10 +461,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_ef0e4ead.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_31154454",
     "name": "福山雅治",
     "category": "actor",
     "score": 56.0,
@@ -477,10 +477,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_31154454.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_0677d652",
     "name": "福士蒼汰",
     "category": "actor",
     "score": 55.8,
@@ -493,10 +493,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_0677d652.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_8a939d4b",
     "name": "長澤まさみ",
     "category": "actor",
     "score": 55.8,
@@ -509,10 +509,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_8a939d4b.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_da9144e2",
     "name": "秋元真夏",
     "category": "actor",
     "score": 55.6,
@@ -525,10 +525,10 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_da9144e2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c3f23293",
     "name": "奈緒",
     "category": "actor",
     "score": 55.4,
@@ -541,10 +541,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c3f23293.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_f5977b60",
     "name": "杉咲花",
     "category": "actor",
     "score": 55.3,
@@ -557,10 +557,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_f5977b60.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_dffd6122",
     "name": "安倍晋三",
     "category": "actor",
     "score": 54.9,
@@ -573,10 +573,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_dffd6122.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_96872d3c",
     "name": "二階堂ふみ",
     "category": "actor",
     "score": 54.8,
@@ -589,10 +589,10 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_96872d3c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_5edc166e",
     "name": "妻夫木聡",
     "category": "actor",
     "score": 54.4,
@@ -605,10 +605,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_5edc166e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a969f119",
     "name": "南沙良",
     "category": "actor",
     "score": 53.8,
@@ -621,10 +621,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a969f119.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_36eae98d",
     "name": "広瀬すず",
     "category": "actor",
     "score": 53.8,
@@ -637,10 +637,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_36eae98d.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c2e1fedf",
     "name": "山本舞香",
     "category": "actor",
     "score": 53.6,
@@ -653,10 +653,10 @@
       "contour": 60,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c2e1fedf.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_23ffcc74",
     "name": "浅田真央",
     "category": "actor",
     "score": 53.6,
@@ -669,10 +669,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_23ffcc74.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_f089f98e",
     "name": "ゆきりぬ",
     "category": "actor",
     "score": 53.4,
@@ -685,10 +685,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_f089f98e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a07f8182",
     "name": "加藤史帆",
     "category": "actor",
     "score": 53.4,
@@ -701,10 +701,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a07f8182.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_4b9b9245",
     "name": "桐谷美玲",
     "category": "actor",
     "score": 53.2,
@@ -717,10 +717,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_4b9b9245.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_f59368b4",
     "name": "吉高由里子",
     "category": "actor",
     "score": 53.1,
@@ -733,10 +733,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_f59368b4.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_e78f15a0",
     "name": "山崎賢人",
     "category": "actor",
     "score": 53.0,
@@ -749,10 +749,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c60afb96",
     "name": "山田杏奈",
     "category": "actor",
     "score": 52.7,
@@ -765,10 +765,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c60afb96.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c96c2edf",
     "name": "りゅうちぇる",
     "category": "actor",
     "score": 52.2,
@@ -781,10 +781,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c96c2edf.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_38127b4e",
     "name": "新垣結衣",
     "category": "actor",
     "score": 52.2,
@@ -797,10 +797,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_38127b4e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_51f05250",
     "name": "吉岡里帆",
     "category": "actor",
     "score": 52.0,
@@ -813,10 +813,10 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_51f05250.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_afed590f",
     "name": "佐藤健",
     "category": "actor",
     "score": 51.4,
@@ -829,10 +829,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_afed590f.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_db8672b9",
     "name": "安室奈美恵",
     "category": "actor",
     "score": 51.4,
@@ -845,10 +845,10 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg"
   },
   {
-    "id": "king-gnu",
+    "id": "celeb_d3709fe1",
     "name": "King Gnu井口理",
     "category": "actor",
     "score": 51.1,
@@ -861,10 +861,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/king-gnu.jpg"
+    "thumbnail": "data/thumbnails/celeb_d3709fe1.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_d7f00a60",
     "name": "イチロー",
     "category": "actor",
     "score": 51.0,
@@ -877,10 +877,10 @@
       "contour": 41,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_d7f00a60.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_60cf46c4",
     "name": "清原果耶",
     "category": "actor",
     "score": 51.0,
@@ -893,10 +893,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_211afab2",
     "name": "三浦大知",
     "category": "actor",
     "score": 50.8,
@@ -909,10 +909,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_211afab2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_8393c080",
     "name": "板野友美",
     "category": "actor",
     "score": 50.7,
@@ -925,10 +925,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_8393c080.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_abf4a056",
     "name": "北川景子",
     "category": "actor",
     "score": 50.3,
@@ -941,10 +941,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_abf4a056.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_d9e3f630",
     "name": "みちょぱ",
     "category": "actor",
     "score": 49.6,
@@ -957,10 +957,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_4e17f725",
     "name": "黒木華",
     "category": "actor",
     "score": 49.4,
@@ -973,10 +973,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_4e17f725.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_03d21e14",
     "name": "加藤ミリヤ",
     "category": "actor",
     "score": 49.2,
@@ -989,10 +989,10 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_03d21e14.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_e7588c0f",
     "name": "宇多田ヒカル",
     "category": "actor",
     "score": 49.2,
@@ -1005,10 +1005,10 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_d1e9ea37",
     "name": "窪田正孝",
     "category": "actor",
     "score": 49.0,
@@ -1021,10 +1021,10 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_d1e9ea37.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_e6f89634",
     "name": "蒼井優",
     "category": "actor",
     "score": 48.9,
@@ -1037,10 +1037,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_e6f89634.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_34c4561b",
     "name": "岩田剛典",
     "category": "actor",
     "score": 48.4,
@@ -1053,10 +1053,10 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_34c4561b.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_3b910309",
     "name": "竹内涼真",
     "category": "actor",
     "score": 48.1,
@@ -1069,10 +1069,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_3b910309.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_db711d1c",
     "name": "ケンドーコバヤシ",
     "category": "actor",
     "score": 47.8,
@@ -1085,10 +1085,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_db711d1c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_e9ce073c",
     "name": "神木隆之介",
     "category": "actor",
     "score": 47.8,
@@ -1101,10 +1101,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_2267bb69",
     "name": "松井珠理奈",
     "category": "actor",
     "score": 46.4,
@@ -1117,10 +1117,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_2267bb69.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a63002f1",
     "name": "池上彰",
     "category": "actor",
     "score": 46.4,
@@ -1133,10 +1133,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a63002f1.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_06f73f76",
     "name": "飯豊まりえ",
     "category": "actor",
     "score": 46.4,
@@ -1149,10 +1149,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_06f73f76.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_72d8d22d",
     "name": "長友佑都",
     "category": "actor",
     "score": 46.1,
@@ -1165,10 +1165,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_72d8d22d.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_6eb00b9d",
     "name": "有村架純",
     "category": "actor",
     "score": 45.6,
@@ -1181,10 +1181,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_6eb00b9d.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_42b5c774",
     "name": "松本まりか",
     "category": "actor",
     "score": 45.4,
@@ -1197,10 +1197,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_42b5c774.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_5df0cbf8",
     "name": "早瀬ノエル",
     "category": "actor",
     "score": 45.2,
@@ -1213,10 +1213,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_5df0cbf8.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_f2ad96f0",
     "name": "佐々木希",
     "category": "actor",
     "score": 44.9,
@@ -1229,10 +1229,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_f2ad96f0.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_8c15652f",
     "name": "椎名林檎",
     "category": "actor",
     "score": 44.8,
@@ -1245,10 +1245,10 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_8c15652f.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_2b4426ce",
     "name": "松村北斗",
     "category": "actor",
     "score": 44.5,
@@ -1261,10 +1261,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_2b4426ce.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_5ed737d9",
     "name": "真中まな",
     "category": "actor",
     "score": 44.2,
@@ -1277,10 +1277,10 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_5ed737d9.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c95f4e59",
     "name": "張本智和",
     "category": "actor",
     "score": 44.1,
@@ -1293,10 +1293,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_4f811f29",
     "name": "齊藤なぎさ",
     "category": "actor",
     "score": 44.0,
@@ -1309,10 +1309,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_4f811f29.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_2c58976d",
     "name": "はじめしゃちょー",
     "category": "actor",
     "score": 43.7,
@@ -1325,10 +1325,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_2c58976d.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_ae23d472",
     "name": "髙松瞳",
     "category": "actor",
     "score": 43.0,
@@ -1341,10 +1341,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_ae23d472.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_6d979c26",
     "name": "広瀬アリス",
     "category": "actor",
     "score": 42.4,
@@ -1357,10 +1357,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_6d979c26.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_f7b19298",
     "name": "上白石萌歌",
     "category": "actor",
     "score": 42.3,
@@ -1373,10 +1373,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_f7b19298.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_1b300c1e",
     "name": "芦田愛菜",
     "category": "actor",
     "score": 42.3,
@@ -1389,10 +1389,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_1b300c1e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a6a7558e",
     "name": "今田美桜",
     "category": "actor",
     "score": 42.2,
@@ -1405,10 +1405,10 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a6a7558e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_3ba08e03",
     "name": "大島優子",
     "category": "actor",
     "score": 41.6,
@@ -1421,10 +1421,10 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_3ba08e03.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_7a99bc55",
     "name": "橋本奈々未",
     "category": "actor",
     "score": 41.6,
@@ -1437,10 +1437,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_7a99bc55.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_cb723ba9",
     "name": "野口衣織",
     "category": "actor",
     "score": 41.4,
@@ -1453,10 +1453,10 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_cb723ba9.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_d04d3faa",
     "name": "伊藤美誠",
     "category": "actor",
     "score": 41.3,
@@ -1469,10 +1469,10 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_d04d3faa.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_6f7fd76c",
     "name": "満島ひかり",
     "category": "actor",
     "score": 41.3,
@@ -1485,10 +1485,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_6f7fd76c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_ea94fbff",
     "name": "星野源",
     "category": "actor",
     "score": 41.1,
@@ -1501,10 +1501,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_823e1d4c",
     "name": "田中美久",
     "category": "actor",
     "score": 41.0,
@@ -1517,10 +1517,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_823e1d4c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_39b9baef",
     "name": "金村美玖",
     "category": "actor",
     "score": 40.8,
@@ -1533,10 +1533,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_39b9baef.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_637d35e1",
     "name": "蓮舫",
     "category": "actor",
     "score": 40.7,
@@ -1549,10 +1549,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_637d35e1.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_6cf416f9",
     "name": "出川哲朗",
     "category": "actor",
     "score": 40.5,
@@ -1565,10 +1565,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_6cf416f9.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_1d9e9647",
     "name": "鈴木瞳美",
     "category": "actor",
     "score": 40.5,
@@ -1581,10 +1581,10 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_5f2d3df0",
     "name": "きゃりーぱみゅぱみゅ",
     "category": "actor",
     "score": 40.2,
@@ -1597,10 +1597,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_ea5ea927",
     "name": "間宮祥太朗",
     "category": "actor",
     "score": 40.2,
@@ -1613,10 +1613,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_ea5ea927.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_059f9821",
     "name": "齋藤飛鳥",
     "category": "actor",
     "score": 40.2,
@@ -1629,10 +1629,10 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_059f9821.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_fad5b2a1",
     "name": "岡田准一",
     "category": "actor",
     "score": 40.0,
@@ -1645,10 +1645,10 @@
       "contour": 38,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_fad5b2a1.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_7b553a12",
     "name": "吉田沙保里",
     "category": "actor",
     "score": 39.6,
@@ -1661,10 +1661,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_7b553a12.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a477ab4e",
     "name": "高畑充希",
     "category": "actor",
     "score": 38.8,
@@ -1677,10 +1677,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a477ab4e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_77d4c4da",
     "name": "賀喜遥香",
     "category": "actor",
     "score": 38.6,
@@ -1693,10 +1693,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_77d4c4da.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_3f99f4f9",
     "name": "坂口健太郎",
     "category": "actor",
     "score": 37.8,
@@ -1709,10 +1709,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_cfe34ca2",
     "name": "麻生太郎",
     "category": "actor",
     "score": 37.8,
@@ -1725,10 +1725,10 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_cfe34ca2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_ac7524e2",
     "name": "中田敦彦",
     "category": "actor",
     "score": 37.7,
@@ -1741,10 +1741,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_ac7524e2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_93aeea8d",
     "name": "山下美月",
     "category": "actor",
     "score": 37.7,
@@ -1757,10 +1757,10 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_93aeea8d.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_348fba4a",
     "name": "久保史緒里",
     "category": "actor",
     "score": 37.6,
@@ -1773,10 +1773,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_348fba4a.jpg"
   },
   {
-    "id": "crystal-kay",
+    "id": "celeb_1dd830b0",
     "name": "Crystal Kay",
     "category": "actor",
     "score": 37.5,
@@ -1789,10 +1789,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/crystal-kay.jpg"
+    "thumbnail": "data/thumbnails/celeb_1dd830b0.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_3b0aa56c",
     "name": "大谷映美里",
     "category": "actor",
     "score": 37.4,
@@ -1805,10 +1805,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_3b0aa56c.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_b79964f2",
     "name": "眞栄田郷敦",
     "category": "actor",
     "score": 37.1,
@@ -1821,10 +1821,10 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_b79964f2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c3fc78d4",
     "name": "生田絵梨花",
     "category": "actor",
     "score": 37.0,
@@ -1837,10 +1837,10 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c3fc78d4.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_14f44b42",
     "name": "与田祐希",
     "category": "actor",
     "score": 36.8,
@@ -1853,10 +1853,10 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_14f44b42.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_b259d958",
     "name": "宮脇咲良",
     "category": "actor",
     "score": 36.8,
@@ -1869,10 +1869,10 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_b259d958.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_e5a4571e",
     "name": "中島美嘉",
     "category": "actor",
     "score": 36.7,
@@ -1885,10 +1885,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_e5a4571e.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_dc2a13db",
     "name": "永野芽郁",
     "category": "actor",
     "score": 36.4,
@@ -1901,10 +1901,10 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_dc2a13db.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_86612318",
     "name": "遠藤さくら",
     "category": "actor",
     "score": 36.1,
@@ -1917,10 +1917,10 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_86612318.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_3dbe559b",
     "name": "前田敦子",
     "category": "actor",
     "score": 36.0,
@@ -1933,10 +1933,10 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_3dbe559b.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_9244cc06",
     "name": "櫻井優衣",
     "category": "actor",
     "score": 36.0,
@@ -1949,10 +1949,10 @@
       "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_9244cc06.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_0bb271b9",
     "name": "月足天音",
     "category": "actor",
     "score": 35.6,
@@ -1965,10 +1965,10 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_0bb271b9.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_c2719a8f",
     "name": "磯村勇斗",
     "category": "actor",
     "score": 35.2,
@@ -1981,10 +1981,10 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_c2719a8f.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_58f675db",
     "name": "桃田賢斗",
     "category": "actor",
     "score": 35.0,
@@ -1997,10 +1997,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_58f675db.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_08fa3955",
     "name": "土屋太鳳",
     "category": "actor",
     "score": 34.7,
@@ -2013,10 +2013,10 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_08fa3955.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_00d06037",
     "name": "高橋みなみ",
     "category": "actor",
     "score": 34.2,
@@ -2029,10 +2029,10 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_00d06037.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_5e662c06",
     "name": "三浦春馬",
     "category": "actor",
     "score": 33.5,
@@ -2045,10 +2045,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_5e662c06.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_6c91eb8a",
     "name": "仲間由紀恵",
     "category": "actor",
     "score": 33.0,
@@ -2061,10 +2061,10 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_6c91eb8a.jpg"
   },
   {
-    "id": "exile-takahiro",
+    "id": "celeb_414eee3a",
     "name": "EXILE TAKAHIRO",
     "category": "actor",
     "score": 32.5,
@@ -2077,10 +2077,10 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/exile-takahiro.jpg"
+    "thumbnail": "data/thumbnails/celeb_414eee3a.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_a2a8f3a2",
     "name": "戸田恵梨香",
     "category": "actor",
     "score": 31.1,
@@ -2093,10 +2093,10 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_a2a8f3a2.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_8b8d9fc7",
     "name": "高山一実",
     "category": "actor",
     "score": 29.6,
@@ -2109,10 +2109,10 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_8b8d9fc7.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_71929abe",
     "name": "島崎遥香",
     "category": "actor",
     "score": 29.1,
@@ -2125,10 +2125,10 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_71929abe.jpg"
   },
   {
-    "id": "",
+    "id": "celeb_efe22d22",
     "name": "友近",
     "category": "actor",
     "score": 27.2,
@@ -2141,6 +2141,6 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/.jpg"
+    "thumbnail": "data/thumbnails/celeb_efe22d22.jpg"
   }
 ]
