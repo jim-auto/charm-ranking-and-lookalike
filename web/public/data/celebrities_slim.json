@@ -1,21 +1,5 @@
 [
   {
-    "id": "celeb_8b3df7b8",
-    "name": "Koki",
-    "category": "actor",
-    "score": 66.6,
-    "details": {
-      "symmetry": 98,
-      "golden_ratio": 36,
-      "eyes": 83,
-      "nose": 62,
-      "mouth": 64,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_8b3df7b8.jpg"
-  },
-  {
     "id": "celeb_04bb2177",
     "name": "橋本環奈",
     "category": "actor",
