@@ -22,6 +22,21 @@ function ratioScore(actual: number, ideal: number): number {
   return clamp((1 - deviation * 2) * 100);
 }
 
+function shapeRatioScore(actual: number, ideal: number, factor = 2): number {
+  if (actual <= 0 || ideal <= 0) return 0;
+  const deviation = Math.abs(actual - ideal) / ideal;
+  return clamp((1 - deviation * factor) * 100);
+}
+
+function polylineLength(points: Point[]): number {
+  if (points.length < 2) return 0;
+  let total = 0;
+  for (let i = 0; i < points.length - 1; i++) {
+    total += distance(points[i], points[i + 1]);
+  }
+  return total;
+}
+
 function calculateGoldenRatio(landmarks: Point[]): number {
   const jawLeft = landmarks[0];
   const jawRight = landmarks[16];
@@ -83,18 +98,45 @@ function calculateMouthScore(landmarks: Point[]): number {
 }
 
 function calculateContourScore(landmarks: Point[]): number {
-  const jawLine = landmarks.slice(0, 17);
-  let smoothness = 0;
+  const faceWidth = distance(landmarks[0], landmarks[16]);
+  const faceHeight = distance(landmarks[27], landmarks[8]) * 1.3;
+  const upperJawWidth = distance(landmarks[3], landmarks[13]);
+  const midJawWidth = distance(landmarks[5], landmarks[11]);
+  const chinWidth = distance(landmarks[7], landmarks[9]);
+  const chinDepth = distance(midpoint(landmarks[5], landmarks[11]), landmarks[8]);
 
+  const lowerLeftJaw = polylineLength(landmarks.slice(3, 9));
+  const lowerRightJaw = polylineLength([...landmarks.slice(8, 14)].reverse());
+  const lowerJawBalance =
+    lowerLeftJaw > 0 && lowerRightJaw > 0
+      ? Math.min(lowerLeftJaw, lowerRightJaw) / Math.max(lowerLeftJaw, lowerRightJaw)
+      : 0;
+
+  const jawLine = landmarks.slice(3, 14);
+  let smoothness = 0;
   for (let i = 1; i < jawLine.length - 1; i++) {
     const expected = midpoint(jawLine[i - 1], jawLine[i + 1]);
     const deviation = distance(jawLine[i], expected);
     const segmentLength = distance(jawLine[i - 1], jawLine[i + 1]);
     smoothness += segmentLength > 0 ? deviation / segmentLength : 0;
   }
-
   const averageDeviation = smoothness / (jawLine.length - 2);
-  return clamp((1 - averageDeviation * 8) * 100);
+
+  const upperWidthScore = faceWidth > 0 ? shapeRatioScore(upperJawWidth / faceWidth, 0.72) : 0;
+  const taperScore = upperJawWidth > 0 ? shapeRatioScore(midJawWidth / upperJawWidth, 0.65) : 0;
+  const chinWidthScore = midJawWidth > 0 ? shapeRatioScore(chinWidth / midJawWidth, 0.32) : 0;
+  const chinDepthScore = faceHeight > 0 ? shapeRatioScore(chinDepth / faceHeight, 0.065, 1.8) : 0;
+  const balanceScore = shapeRatioScore(lowerJawBalance, 0.96, 1.2);
+  const smoothnessScore = clamp((1 - averageDeviation * 6.5) * 100);
+
+  return (
+    upperWidthScore * 0.18 +
+    taperScore * 0.22 +
+    chinWidthScore * 0.2 +
+    chinDepthScore * 0.18 +
+    balanceScore * 0.12 +
+    smoothnessScore * 0.1
+  );
 }
 
 export function calculateFaceDetails(landmarks: Point[]): ScoreDetails {

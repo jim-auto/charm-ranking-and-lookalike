@@ -5,7 +5,7 @@ const weights = [
   { label: '目', pct: 15, color: 'bg-purple-500', desc: '目の開き方と左右バランス' },
   { label: '鼻', pct: 15, color: 'bg-green-500', desc: '鼻の幅と長さの比率' },
   { label: '口', pct: 15, color: 'bg-pink-500', desc: '口幅と唇バランスの比率' },
-  { label: '輪郭', pct: 20, color: 'bg-cyan-500', desc: 'フェイスラインの滑らかさ' },
+  { label: '輪郭', pct: 20, color: 'bg-cyan-500', desc: '顎幅比、顎先の深さ、左右バランス、フェイスライン' },
 ];
 
 export default function ScoreBreakdown() {

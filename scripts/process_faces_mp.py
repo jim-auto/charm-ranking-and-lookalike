@@ -171,6 +171,19 @@ def ratio_score(actual: float, ideal: float) -> float:
     return clamp((1 - deviation * 2) * 100)
 
 
+def shape_ratio_score(actual: float, ideal: float, factor: float = 2.0) -> float:
+    if actual <= 0 or ideal <= 0:
+        return 0.0
+    deviation = abs(actual - ideal) / ideal
+    return clamp((1 - deviation * factor) * 100)
+
+
+def polyline_length(points: List[Point]) -> float:
+    if len(points) < 2:
+        return 0.0
+    return sum(dist(points[i], points[i + 1]) for i in range(len(points) - 1))
+
+
 # ---------------------------------------------------------------------------
 # Scoring functions – same as process_faces.py
 # ---------------------------------------------------------------------------
@@ -241,7 +254,23 @@ def calculate_mouth_score(lm: List[Point]) -> float:
 
 
 def calculate_contour_score(lm: List[Point]) -> float:
-    jaw_line = lm[0:17]
+    # Treat contour as a lower-face shape proxy rather than smoothness alone.
+    face_width = dist(lm[0], lm[16])
+    face_height = dist(lm[27], lm[8]) * 1.3
+    upper_jaw_width = dist(lm[3], lm[13])
+    mid_jaw_width = dist(lm[5], lm[11])
+    chin_width = dist(lm[7], lm[9])
+    chin_depth = dist(midpoint(lm[5], lm[11]), lm[8])
+
+    lower_left_jaw = polyline_length(lm[3:9])
+    lower_right_jaw = polyline_length(list(reversed(lm[8:14])))
+    lower_jaw_balance = (
+        min(lower_left_jaw, lower_right_jaw) / max(lower_left_jaw, lower_right_jaw)
+        if lower_left_jaw > 0 and lower_right_jaw > 0
+        else 0.0
+    )
+
+    jaw_line = lm[3:14]
     smoothness = 0.0
     for i in range(1, len(jaw_line) - 1):
         expected = midpoint(jaw_line[i - 1], jaw_line[i + 1])
@@ -249,7 +278,24 @@ def calculate_contour_score(lm: List[Point]) -> float:
         segment_len = dist(jaw_line[i - 1], jaw_line[i + 1])
         smoothness += (deviation / segment_len) if segment_len > 0 else 0
     avg_deviation = smoothness / (len(jaw_line) - 2)
-    return clamp((1 - avg_deviation * 8) * 100)
+
+    upper_width_score = shape_ratio_score(upper_jaw_width / face_width, 0.72) if face_width > 0 else 0.0
+    taper_score = shape_ratio_score(mid_jaw_width / upper_jaw_width, 0.65) if upper_jaw_width > 0 else 0.0
+    chin_width_score = shape_ratio_score(chin_width / mid_jaw_width, 0.32) if mid_jaw_width > 0 else 0.0
+    chin_depth_score = (
+        shape_ratio_score(chin_depth / face_height, 0.065, 1.8) if face_height > 0 else 0.0
+    )
+    balance_score = shape_ratio_score(lower_jaw_balance, 0.96, 1.2)
+    smoothness_score = clamp((1 - avg_deviation * 6.5) * 100)
+
+    return (
+        upper_width_score * 0.18
+        + taper_score * 0.22
+        + chin_width_score * 0.20
+        + chin_depth_score * 0.18
+        + balance_score * 0.12
+        + smoothness_score * 0.10
+    )
 
 
 def calculate_face_score(lm: List[Point]) -> dict:

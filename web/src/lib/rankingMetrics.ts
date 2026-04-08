@@ -31,7 +31,7 @@ export const rankingMetricOptions: RankingMetricOption[] = [
   {
     value: 'contour',
     label: '輪郭',
-    description: 'フェイスラインの滑らかさ。角度の影響が残る参考値',
+    description: '顎幅比と顎先バランス、フェイスライン。角度の影響が残る参考値',
     isReference: true,
   },
   {
