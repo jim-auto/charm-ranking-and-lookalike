@@ -32,22 +32,6 @@
     "thumbnail": "data/thumbnails/celeb_71462e30.jpg"
   },
   {
-    "id": "celeb_25011a23",
-    "name": "ジャイアント馬場",
-    "category": "actor",
-    "score": 64.4,
-    "details": {
-      "symmetry": 39,
-      "golden_ratio": 52,
-      "eyes": 88,
-      "nose": 66,
-      "mouth": 78,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_25011a23.jpg"
-  },
-  {
     "id": "celeb_257e099e",
     "name": "松たか子",
     "category": "actor",
@@ -62,22 +46,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_257e099e.jpg"
-  },
-  {
-    "id": "celeb_6d8ba069",
-    "name": "おぎやはぎ小木",
-    "category": "actor",
-    "score": 62.1,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 41,
-      "eyes": 89,
-      "nose": 73,
-      "mouth": 87,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6d8ba069.jpg"
   },
   {
     "id": "celeb_3afafb8b",
@@ -110,22 +78,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg"
-  },
-  {
-    "id": "celeb_ddf534cc",
-    "name": "美輪明宏",
-    "category": "actor",
-    "score": 61.0,
-    "details": {
-      "symmetry": 85,
-      "golden_ratio": 42,
-      "eyes": 79,
-      "nose": 67,
-      "mouth": 84,
-      "contour": 59,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ddf534cc.jpg"
   },
   {
     "id": "celeb_8fc71b5e",
@@ -176,22 +128,6 @@
     "thumbnail": "data/thumbnails/celeb_40796ce8.jpg"
   },
   {
-    "id": "celeb_d10ffb17",
-    "name": "新海誠",
-    "category": "actor",
-    "score": 59.7,
-    "details": {
-      "symmetry": 31,
-      "golden_ratio": 33,
-      "eyes": 96,
-      "nose": 68,
-      "mouth": 80,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d10ffb17.jpg"
-  },
-  {
     "id": "celeb_0025540b",
     "name": "相葉雅紀",
     "category": "actor",
@@ -206,22 +142,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_0025540b.jpg"
-  },
-  {
-    "id": "celeb_7e122fff",
-    "name": "田村亮",
-    "category": "actor",
-    "score": 59.2,
-    "details": {
-      "symmetry": 65,
-      "golden_ratio": 44,
-      "eyes": 87,
-      "nose": 56,
-      "mouth": 72,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_7e122fff.jpg"
   },
   {
     "id": "celeb_c6742188",
@@ -240,22 +160,6 @@
     "thumbnail": "data/thumbnails/celeb_c6742188.jpg"
   },
   {
-    "id": "celeb_34ea398f",
-    "name": "北野武",
-    "category": "actor",
-    "score": 59.0,
-    "details": {
-      "symmetry": 16,
-      "golden_ratio": 26,
-      "eyes": 92,
-      "nose": 79,
-      "mouth": 91,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_34ea398f.jpg"
-  },
-  {
     "id": "celeb_04bb2177",
     "name": "橋本環奈",
     "category": "actor",
@@ -270,22 +174,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_04bb2177.jpg"
-  },
-  {
-    "id": "celeb_99176aee",
-    "name": "田原総一朗",
-    "category": "actor",
-    "score": 58.8,
-    "details": {
-      "symmetry": 72,
-      "golden_ratio": 33,
-      "eyes": 76,
-      "nose": 73,
-      "mouth": 90,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_99176aee.jpg"
   },
   {
     "id": "celeb_c3f23293",
@@ -318,22 +206,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a969f119.jpg"
-  },
-  {
-    "id": "celeb_054ff806",
-    "name": "桑田佳祐",
-    "category": "actor",
-    "score": 58.2,
-    "details": {
-      "symmetry": 56,
-      "golden_ratio": 34,
-      "eyes": 87,
-      "nose": 51,
-      "mouth": 99,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_054ff806.jpg"
   },
   {
     "id": "celeb_bbc712f8",
@@ -400,22 +272,6 @@
     "thumbnail": "data/thumbnails/celeb_8c89a925.jpg"
   },
   {
-    "id": "celeb_d31cb341",
-    "name": "吉井和哉",
-    "category": "actor",
-    "score": 57.6,
-    "details": {
-      "symmetry": 73,
-      "golden_ratio": 41,
-      "eyes": 69,
-      "nose": 65,
-      "mouth": 77,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d31cb341.jpg"
-  },
-  {
     "id": "celeb_1a447011",
     "name": "仲里依紗",
     "category": "actor",
@@ -430,38 +286,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1a447011.jpg"
-  },
-  {
-    "id": "celeb_2bfea100",
-    "name": "古舘伊知郎",
-    "category": "actor",
-    "score": 57.4,
-    "details": {
-      "symmetry": 24,
-      "golden_ratio": 36,
-      "eyes": 90,
-      "nose": 71,
-      "mouth": 76,
-      "contour": 46,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2bfea100.jpg"
-  },
-  {
-    "id": "celeb_caf398bf",
-    "name": "和田アキ子",
-    "category": "actor",
-    "score": 57.4,
-    "details": {
-      "symmetry": 50,
-      "golden_ratio": 37,
-      "eyes": 78,
-      "nose": 53,
-      "mouth": 89,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_caf398bf.jpg"
   },
   {
     "id": "celeb_60cf46c4",
@@ -558,22 +382,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_7008a10d.jpg"
-  },
-  {
-    "id": "celeb_177f294e",
-    "name": "アンタ柴田",
-    "category": "actor",
-    "score": 56.9,
-    "details": {
-      "symmetry": 77,
-      "golden_ratio": 41,
-      "eyes": 62,
-      "nose": 59,
-      "mouth": 84,
-      "contour": 59,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_177f294e.jpg"
   },
   {
     "id": "celeb_3060094d",
@@ -720,22 +528,6 @@
     "thumbnail": "data/thumbnails/celeb_f59368b4.jpg"
   },
   {
-    "id": "celeb_30e5aabb",
-    "name": "小橋建太",
-    "category": "actor",
-    "score": 56.2,
-    "details": {
-      "symmetry": 78,
-      "golden_ratio": 41,
-      "eyes": 83,
-      "nose": 43,
-      "mouth": 76,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_30e5aabb.jpg"
-  },
-  {
     "id": "celeb_7dfa2df4",
     "name": "浜辺美波",
     "category": "actor",
@@ -782,22 +574,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_f2ad96f0.jpg"
-  },
-  {
-    "id": "celeb_ae65b595",
-    "name": "佐田の海貴士",
-    "category": "actor",
-    "score": 56.0,
-    "details": {
-      "symmetry": 81,
-      "golden_ratio": 26,
-      "eyes": 92,
-      "nose": 80,
-      "mouth": 67,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ae65b595.jpg"
   },
   {
     "id": "celeb_617f950b",
@@ -1198,22 +974,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg"
-  },
-  {
-    "id": "celeb_2e31aa04",
-    "name": "栃ノ心剛史",
-    "category": "actor",
-    "score": 55.2,
-    "details": {
-      "symmetry": 55,
-      "golden_ratio": 36,
-      "eyes": 82,
-      "nose": 47,
-      "mouth": 80,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2e31aa04.jpg"
   },
   {
     "id": "celeb_37780a00",
