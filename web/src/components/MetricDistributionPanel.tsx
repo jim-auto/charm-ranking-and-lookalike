@@ -85,7 +85,7 @@ export default function MetricDistributionPanel({ distributions }: Props) {
       <div className="mb-4">
         <h3 className="text-sm font-semibold text-white sm:text-base">各指標の分布</h3>
         <p className="mt-1 text-xs text-slate-400 sm:text-sm">
-          現在の表示条件に絞った raw スコア分布です。総合スコアは全件分布で標準化してから重みづけしています。
+          現在の表示条件に絞った raw スコア分布です。raw の平均は 50 に揃えていないので、比較は偏差値ベースで見る前提です。
         </p>
       </div>
 

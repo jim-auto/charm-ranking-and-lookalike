@@ -62,15 +62,25 @@ export default function CelebrityCard({
       ? overallScoreOverride
       : getRankingMetricValue(celebrity, metric, useAge, useSns);
   const isReference = !isOverallMetric(metric) && isReferenceMetric(metric);
+  const preferDeviationDisplay =
+    !isOverallMetric(metric) && (metric === 'contour' || metric === 'symmetry');
   const displayScore = isOverallMetric(metric)
     ? toDeviation
       ? toDeviation(rawScore, useAge, useSns)
       : rawScore
-    : rawScore;
-  const scoreLabel = isOverallMetric(metric) ? '偏差値' : `${getRankingMetricLabel(metric)}スコア`;
+    : preferDeviationDisplay && metricDeviation != null
+      ? metricDeviation
+      : rawScore;
+  const scoreLabel = isOverallMetric(metric)
+    ? '偏差値'
+    : preferDeviationDisplay
+      ? '偏差値'
+      : `${getRankingMetricLabel(metric)}スコア`;
   const scoreSubLabel = isOverallMetric(metric)
     ? `スコア ${formatScoreValue(rawScore)}`
-    : metricDeviation != null
+    : preferDeviationDisplay
+      ? `${getRankingMetricLabel(metric)}スコア ${formatScoreValue(rawScore)}`
+      : metricDeviation != null
       ? `偏差値 ${metricDeviation.toFixed(1)}`
       : null;
 

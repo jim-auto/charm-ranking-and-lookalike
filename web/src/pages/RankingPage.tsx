@@ -449,9 +449,9 @@ export default function RankingPage() {
           </>
         ) : (
           <>
-            現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。カード内にはスコアと偏差値を併記しています。年齢補正とSNS補正は使いません。
+            現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。カード内には偏差値と raw スコアを併記しています。年齢補正とSNS補正は使いません。
             {selectedMetric.isReference &&
-              ' 鼻・輪郭・左右対称は撮影角度や表情の影響が残るので、単独の優劣ではなく傾向確認用の参考値として見てください。'}
+              ' 鼻・輪郭・左右対称は撮影角度や表情の影響が残るので、raw より偏差値を基準に見るのがおすすめです。'}
             {' '}肌スコアは全員75固定なので対象外です。
           </>
         )}

@@ -32,6 +32,10 @@ function clamp(value: number, min = 0, max = 100): number {
   return Math.max(min, Math.min(max, value));
 }
 
+function calibrateContourRawScore(score: number): number {
+  return clamp((score - 50) * 1.15 + 40);
+}
+
 function ratioScore(actual: number, ideal: number): number {
   const deviation = Math.abs(actual - ideal) / ideal;
   return clamp((1 - deviation * 2) * 100);
@@ -161,7 +165,7 @@ function calculateSymmetry(landmarks: Point[], faceWidth: number): number {
   }
 
   const averageError = totalWeight > 0 ? totalError / totalWeight : 0;
-  return clamp((1 - averageError * 2.4) * 100);
+  return clamp((1 - averageError * 2.8) * 100);
 }
 
 function calculateEyeScore(landmarks: Point[]): number {
@@ -240,14 +244,15 @@ function calculateContourScore(landmarks: Point[]): number {
   const chinDepthScore = shapeRatioScore(chinDepth / faceHeight, 0.065, 1.8);
   const smoothnessScore = clamp((1 - averageDeviation * 5.5) * 100);
 
-  return (
+  const rawScore =
     upperWidthScore * 0.18 +
     taperScore * 0.24 +
     chinWidthScore * 0.22 +
     chinDepthScore * 0.18 +
     curveScore * 0.1 +
-    smoothnessScore * 0.08
-  );
+    smoothnessScore * 0.08;
+
+  return calibrateContourRawScore(rawScore);
 }
 
 export function calculateFaceDetails(landmarks: Point[]): ScoreDetails {

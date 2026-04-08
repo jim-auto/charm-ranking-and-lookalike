@@ -57,6 +57,10 @@ def clamp(value: float, lo: float = 0.0, hi: float = 100.0) -> float:
     return max(lo, min(hi, value))
 
 
+def calibrate_contour_raw_score(score: float) -> float:
+    return clamp((score - 50.0) * 1.15 + 40.0)
+
+
 def ratio_score(actual: float, ideal: float) -> float:
     deviation = abs(actual - ideal) / ideal
     return clamp((1 - deviation * 2) * 100)
@@ -168,7 +172,7 @@ def calculate_symmetry(lm: List[Point], face_width: float) -> float:
         total_weight += weight
 
     avg_error = total_error / total_weight if total_weight > 0 else 0.0
-    return clamp((1 - avg_error * 2.4) * 100)
+    return clamp((1 - avg_error * 2.8) * 100)
 
 
 def calculate_golden_ratio(lm: List[Point]) -> float:
@@ -271,7 +275,7 @@ def calculate_contour_score(lm: List[Point]) -> float:
     chin_depth_score = shape_ratio_score(chin_depth / face_height, 0.065, 1.8)
     smoothness_score = clamp((1 - avg_deviation * 5.5) * 100)
 
-    return (
+    raw_score = (
         upper_width_score * 0.18
         + taper_score * 0.24
         + chin_width_score * 0.22
@@ -279,6 +283,7 @@ def calculate_contour_score(lm: List[Point]) -> float:
         + curve_score * 0.10
         + smoothness_score * 0.08
     )
+    return calibrate_contour_raw_score(raw_score)
 
 
 def calculate_face_score(lm: List[Point]) -> dict:
