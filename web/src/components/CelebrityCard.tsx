@@ -3,7 +3,6 @@ import {
   getRankingMetricLabel,
   getRankingMetricValue,
   isOverallMetric,
-  isReferenceMetric,
   type RankingMetric,
 } from '../lib/rankingMetrics';
 import ScoreRadar from './ScoreRadar';
@@ -12,7 +11,6 @@ interface Props {
   celebrity: Celebrity;
   rank: number;
   metric?: RankingMetric;
-  overallScoreOverride?: number | null;
   metricDeviation?: number | null;
   useAge?: boolean;
   useSns?: boolean;
@@ -50,37 +48,24 @@ export default function CelebrityCard({
   celebrity,
   rank,
   metric = 'overall',
-  overallScoreOverride = null,
   metricDeviation = null,
   useAge = false,
   useSns = false,
   formatFollowers,
   toDeviation,
 }: Props) {
-  const rawScore =
-    isOverallMetric(metric) && overallScoreOverride != null
-      ? overallScoreOverride
-      : getRankingMetricValue(celebrity, metric, useAge, useSns);
-  const isReference = !isOverallMetric(metric) && isReferenceMetric(metric);
-  const preferDeviationDisplay =
-    !isOverallMetric(metric) && (metric === 'contour' || metric === 'symmetry');
+  const rawScore = getRankingMetricValue(celebrity, metric, useAge, useSns);
   const displayScore = isOverallMetric(metric)
     ? toDeviation
       ? toDeviation(rawScore, useAge, useSns)
       : rawScore
-    : preferDeviationDisplay && metricDeviation != null
-      ? metricDeviation
-      : rawScore;
+    : rawScore;
   const scoreLabel = isOverallMetric(metric)
     ? '偏差値'
-    : preferDeviationDisplay
-      ? '偏差値'
-      : `${getRankingMetricLabel(metric)}スコア`;
+    : `${getRankingMetricLabel(metric)}スコア`;
   const scoreSubLabel = isOverallMetric(metric)
     ? `スコア ${formatScoreValue(rawScore)}`
-    : preferDeviationDisplay
-      ? `${getRankingMetricLabel(metric)}スコア ${formatScoreValue(rawScore)}`
-      : metricDeviation != null
+    : metricDeviation != null
       ? `偏差値 ${metricDeviation.toFixed(1)}`
       : null;
 
@@ -129,11 +114,6 @@ export default function CelebrityCard({
               {scoreSubLabel && (
                 <div className="mt-1 text-[10px] leading-none text-slate-500 sm:text-[11px]">
                   {scoreSubLabel}
-                </div>
-              )}
-              {isReference && (
-                <div className="mt-1 text-[10px] font-medium leading-none text-amber-400 sm:text-[11px]">
-                  参考値
                 </div>
               )}
             </div>

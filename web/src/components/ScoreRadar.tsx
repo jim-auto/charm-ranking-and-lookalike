@@ -17,8 +17,8 @@ interface Props {
   size?: 'xs' | 'sm' | 'md';
 }
 
-const labels = ['黄金比', '目', '鼻', '口', '輪郭'];
-const keys: (keyof ScoreDetails)[] = ['golden_ratio', 'eyes', 'nose', 'mouth', 'contour'];
+const labels = ['黄金比', '目', '鼻', '口'];
+const keys: (keyof ScoreDetails)[] = ['golden_ratio', 'eyes', 'nose', 'mouth'];
 
 class RadarErrorBoundary extends Component<
   { children: ReactNode; fallback: ReactNode },
@@ -43,7 +43,7 @@ function RadarChart({ details, size = 'md' }: Props) {
     labels,
     datasets: [
       {
-        data: keys.map((k) => details[k]),
+        data: keys.map((key) => details[key]),
         backgroundColor: 'rgba(99, 102, 241, 0.2)',
         borderColor: 'rgba(99, 102, 241, 0.8)',
         borderWidth: 2,

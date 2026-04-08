@@ -61,8 +61,8 @@ function calcScore(lm) {
     mouth: Math.round(mouth), contour: Math.round(contour), skin: 75,
   };
 
-  const total = details.golden_ratio * 0.35 + details.eyes * 0.15 +
-    details.nose * 0.15 + details.mouth * 0.15 + details.contour * 0.2;
+  const total = details.golden_ratio * 0.4 + details.eyes * 0.2 +
+    details.nose * 0.2 + details.mouth * 0.2;
 
   return { details, score: Math.round(total * 10) / 10 };
 }

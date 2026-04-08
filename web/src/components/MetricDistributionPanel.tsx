@@ -10,8 +10,6 @@ const metricOrder: DetailRankingMetric[] = [
   'eyes',
   'nose',
   'mouth',
-  'contour',
-  'symmetry',
 ];
 
 function describeDistribution(distribution: MetricDistribution): {

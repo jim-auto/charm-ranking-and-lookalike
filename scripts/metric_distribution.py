@@ -7,13 +7,12 @@ import math
 import statistics
 from typing import Mapping, Sequence
 
-METRIC_KEYS = ("golden_ratio", "eyes", "nose", "mouth", "contour")
+METRIC_KEYS = ("golden_ratio", "eyes", "nose", "mouth")
 METRIC_WEIGHTS = {
-    "golden_ratio": 0.35,
-    "eyes": 0.15,
-    "nose": 0.15,
-    "mouth": 0.15,
-    "contour": 0.20,
+    "golden_ratio": 0.40,
+    "eyes": 0.20,
+    "nose": 0.20,
+    "mouth": 0.20,
 }
 DEVIATION_MIN = 20.0
 DEVIATION_MAX = 80.0

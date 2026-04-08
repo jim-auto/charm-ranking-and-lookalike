@@ -26,24 +26,20 @@ const DETAIL_METRICS: DetailRankingMetric[] = [
   'eyes',
   'nose',
   'mouth',
-  'contour',
-  'symmetry',
 ];
 
-const OVERALL_METRICS: Exclude<DetailRankingMetric, 'symmetry'>[] = [
+const OVERALL_METRICS: DetailRankingMetric[] = [
   'golden_ratio',
   'eyes',
   'nose',
   'mouth',
-  'contour',
 ];
 
-const OVERALL_WEIGHTS: Record<Exclude<DetailRankingMetric, 'symmetry'>, number> = {
-  golden_ratio: 0.35,
-  eyes: 0.15,
-  nose: 0.15,
-  mouth: 0.15,
-  contour: 0.20,
+const OVERALL_WEIGHTS: Record<DetailRankingMetric, number> = {
+  golden_ratio: 0.4,
+  eyes: 0.2,
+  nose: 0.2,
+  mouth: 0.2,
 };
 
 const HISTOGRAM_BINS = [
