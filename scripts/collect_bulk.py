@@ -896,7 +896,7 @@ def search_titles(person: Person) -> list[str]:
         url = f"https://ja.wikipedia.org/w/api.php?{urllib.parse.urlencode(params)}"
         try:
             data = request_json(url)
-        except urllib.error.URLError:
+        except Exception:
             continue
         for result in data.get("query", {}).get("search", []):
             title = result.get("title")
