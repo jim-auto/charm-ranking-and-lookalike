@@ -2,7 +2,7 @@
   {
     "id": "celeb_303ba9cb",
     "name": "松岡茉優",
-    "category": "actress",
+    "category": "actor",
     "score": 65.3,
     "details": {
       "symmetry": 30,
@@ -13,12 +13,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_303ba9cb.jpg"
+    "thumbnail": "data/thumbnails/celeb_303ba9cb.jpg",
+    "rank": 1
   },
   {
     "id": "celeb_71462e30",
     "name": "宮沢りえ",
-    "category": "actress",
+    "category": "actor",
     "score": 64.6,
     "details": {
       "symmetry": 56,
@@ -29,12 +30,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_71462e30.jpg"
+    "thumbnail": "data/thumbnails/celeb_71462e30.jpg",
+    "rank": 2
   },
   {
     "id": "celeb_257e099e",
     "name": "松たか子",
-    "category": "actress",
+    "category": "actor",
     "score": 62.6,
     "details": {
       "symmetry": 60,
@@ -45,7 +47,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_257e099e.jpg"
+    "thumbnail": "data/thumbnails/celeb_257e099e.jpg",
+    "rank": 3
   },
   {
     "id": "celeb_3afafb8b",
@@ -61,28 +64,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3afafb8b.jpg"
-  },
-  {
-    "id": "celeb_851895ed",
-    "name": "田中みな実",
-    "category": "actor",
-    "score": 61.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 38,
-      "eyes": 79,
-      "nose": 81,
-      "mouth": 89,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_851895ed.jpg"
+    "thumbnail": "data/thumbnails/celeb_3afafb8b.jpg",
+    "rank": 4
   },
   {
     "id": "celeb_5af63ed2",
     "name": "SANA(TWICE)",
-    "category": "idol",
+    "category": "actor",
     "score": 61.2,
     "details": {
       "symmetry": 81,
@@ -93,12 +81,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg"
+    "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg",
+    "rank": 5
   },
   {
     "id": "celeb_8fc71b5e",
     "name": "指原莉乃",
-    "category": "idol",
+    "category": "actor",
     "score": 60.5,
     "details": {
       "symmetry": 55,
@@ -109,12 +98,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg"
+    "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg",
+    "rank": 6
   },
   {
     "id": "celeb_40796ce8",
     "name": "山本美月",
-    "category": "actress",
+    "category": "actor",
     "score": 59.9,
     "details": {
       "symmetry": 68,
@@ -125,7 +115,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_40796ce8.jpg"
+    "thumbnail": "data/thumbnails/celeb_40796ce8.jpg",
+    "rank": 7
   },
   {
     "id": "celeb_0025540b",
@@ -141,12 +132,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0025540b.jpg"
+    "thumbnail": "data/thumbnails/celeb_0025540b.jpg",
+    "rank": 8
   },
   {
     "id": "celeb_04bb2177",
     "name": "橋本環奈",
-    "category": "actress",
+    "category": "actor",
     "score": 59.0,
     "details": {
       "symmetry": 94,
@@ -157,12 +149,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_04bb2177.jpg"
+    "thumbnail": "data/thumbnails/celeb_04bb2177.jpg",
+    "rank": 9
   },
   {
     "id": "celeb_c3f23293",
     "name": "奈緒",
-    "category": "actress",
+    "category": "actor",
     "score": 58.7,
     "details": {
       "symmetry": 42,
@@ -173,12 +166,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c3f23293.jpg"
+    "thumbnail": "data/thumbnails/celeb_c3f23293.jpg",
+    "rank": 10
   },
   {
     "id": "celeb_a969f119",
     "name": "南沙良",
-    "category": "actress",
+    "category": "actor",
     "score": 58.4,
     "details": {
       "symmetry": 42,
@@ -189,12 +183,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a969f119.jpg"
+    "thumbnail": "data/thumbnails/celeb_a969f119.jpg",
+    "rank": 11
   },
   {
     "id": "celeb_bbc712f8",
     "name": "大坂なおみ",
-    "category": "athlete",
+    "category": "actor",
     "score": 58.1,
     "details": {
       "symmetry": 0,
@@ -205,12 +200,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_bbc712f8.jpg"
+    "thumbnail": "data/thumbnails/celeb_bbc712f8.jpg",
+    "rank": 12
   },
   {
     "id": "celeb_8393c080",
     "name": "板野友美",
-    "category": "idol",
+    "category": "actor",
     "score": 58.1,
     "details": {
       "symmetry": 19,
@@ -221,7 +217,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8393c080.jpg"
+    "thumbnail": "data/thumbnails/celeb_8393c080.jpg",
+    "rank": 13
   },
   {
     "id": "celeb_685a067b",
@@ -237,12 +234,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_685a067b.jpg"
+    "thumbnail": "data/thumbnails/celeb_685a067b.jpg",
+    "rank": 14
   },
   {
     "id": "celeb_8c89a925",
     "name": "音嶋莉沙",
-    "category": "idol",
+    "category": "actor",
     "score": 57.8,
     "details": {
       "symmetry": 67,
@@ -253,12 +251,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8c89a925.jpg"
+    "thumbnail": "data/thumbnails/celeb_8c89a925.jpg",
+    "rank": 15
   },
   {
     "id": "celeb_1a447011",
     "name": "仲里依紗",
-    "category": "actress",
+    "category": "actor",
     "score": 57.5,
     "details": {
       "symmetry": 89,
@@ -269,12 +268,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1a447011.jpg"
+    "thumbnail": "data/thumbnails/celeb_1a447011.jpg",
+    "rank": 16
   },
   {
     "id": "celeb_60cf46c4",
     "name": "清原果耶",
-    "category": "actress",
+    "category": "actor",
     "score": 57.4,
     "details": {
       "symmetry": 27,
@@ -285,12 +285,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg"
+    "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg",
+    "rank": 17
   },
   {
     "id": "celeb_1c82bee3",
     "name": "白石麻衣",
-    "category": "idol",
+    "category": "actor",
     "score": 57.4,
     "details": {
       "symmetry": 79,
@@ -301,7 +302,8 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg"
+    "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg",
+    "rank": 18
   },
   {
     "id": "celeb_e78f15a0",
@@ -317,12 +319,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg"
+    "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg",
+    "rank": 19
   },
   {
     "id": "celeb_5df0cbf8",
     "name": "早瀬ノエル",
-    "category": "idol",
+    "category": "actor",
     "score": 57.2,
     "details": {
       "symmetry": 0,
@@ -333,12 +336,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5df0cbf8.jpg"
+    "thumbnail": "data/thumbnails/celeb_5df0cbf8.jpg",
+    "rank": 20
   },
   {
     "id": "celeb_7008a10d",
     "name": "栗山英樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 57.2,
     "details": {
       "symmetry": 55,
@@ -349,12 +353,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7008a10d.jpg"
+    "thumbnail": "data/thumbnails/celeb_7008a10d.jpg",
+    "rank": 21
   },
   {
     "id": "celeb_3060094d",
     "name": "MISIA",
-    "category": "artist",
+    "category": "actor",
     "score": 56.8,
     "details": {
       "symmetry": 95,
@@ -365,12 +370,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3060094d.jpg"
+    "thumbnail": "data/thumbnails/celeb_3060094d.jpg",
+    "rank": 22
   },
   {
     "id": "celeb_37e98952",
     "name": "桜井日奈子",
-    "category": "actress",
+    "category": "actor",
     "score": 56.8,
     "details": {
       "symmetry": 25,
@@ -381,12 +387,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_37e98952.jpg"
+    "thumbnail": "data/thumbnails/celeb_37e98952.jpg",
+    "rank": 23
   },
   {
     "id": "celeb_db8672b9",
     "name": "安室奈美恵",
-    "category": "artist",
+    "category": "actor",
     "score": 56.6,
     "details": {
       "symmetry": 10,
@@ -397,12 +404,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg"
+    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg",
+    "rank": 24
   },
   {
     "id": "celeb_2267bb69",
     "name": "松井珠理奈",
-    "category": "idol",
+    "category": "actor",
     "score": 56.6,
     "details": {
       "symmetry": 0,
@@ -413,12 +421,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2267bb69.jpg"
+    "thumbnail": "data/thumbnails/celeb_2267bb69.jpg",
+    "rank": 25
   },
   {
     "id": "celeb_04f3a460",
     "name": "堂安律",
-    "category": "athlete",
+    "category": "actor",
     "score": 56.4,
     "details": {
       "symmetry": 73,
@@ -429,12 +438,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_04f3a460.jpg"
+    "thumbnail": "data/thumbnails/celeb_04f3a460.jpg",
+    "rank": 26
   },
   {
     "id": "celeb_f59368b4",
     "name": "吉高由里子",
-    "category": "actress",
+    "category": "actor",
     "score": 56.2,
     "details": {
       "symmetry": 40,
@@ -445,28 +455,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f59368b4.jpg"
-  },
-  {
-    "id": "celeb_2b305788",
-    "name": "吉田正尚",
-    "category": "athlete",
-    "score": 56.2,
-    "details": {
-      "symmetry": 7,
-      "golden_ratio": 33,
-      "eyes": 96,
-      "nose": 74,
-      "mouth": 50,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2b305788.jpg"
+    "thumbnail": "data/thumbnails/celeb_f59368b4.jpg",
+    "rank": 27
   },
   {
     "id": "celeb_7dfa2df4",
     "name": "浜辺美波",
-    "category": "actress",
+    "category": "actor",
     "score": 56.1,
     "details": {
       "symmetry": 67,
@@ -477,12 +472,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7dfa2df4.jpg"
+    "thumbnail": "data/thumbnails/celeb_7dfa2df4.jpg",
+    "rank": 28
   },
   {
     "id": "celeb_d7f00a60",
     "name": "イチロー",
-    "category": "athlete",
+    "category": "actor",
     "score": 56.0,
     "details": {
       "symmetry": 22,
@@ -493,12 +489,13 @@
       "contour": 41,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d7f00a60.jpg"
+    "thumbnail": "data/thumbnails/celeb_d7f00a60.jpg",
+    "rank": 29
   },
   {
     "id": "celeb_f2ad96f0",
     "name": "佐々木希",
-    "category": "actress",
+    "category": "actor",
     "score": 56.0,
     "details": {
       "symmetry": 0,
@@ -509,12 +506,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f2ad96f0.jpg"
+    "thumbnail": "data/thumbnails/celeb_f2ad96f0.jpg",
+    "rank": 30
   },
   {
     "id": "celeb_617f950b",
     "name": "有森裕子",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.8,
     "details": {
       "symmetry": 85,
@@ -525,12 +523,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_617f950b.jpg"
+    "thumbnail": "data/thumbnails/celeb_617f950b.jpg",
+    "rank": 31
   },
   {
     "id": "celeb_a0c08a76",
     "name": "須藤元気",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.8,
     "details": {
       "symmetry": 10,
@@ -541,12 +540,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a0c08a76.jpg"
+    "thumbnail": "data/thumbnails/celeb_a0c08a76.jpg",
+    "rank": 32
   },
   {
     "id": "celeb_b03f6a89",
     "name": "香川真司",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.8,
     "details": {
       "symmetry": 0,
@@ -557,12 +557,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b03f6a89.jpg"
+    "thumbnail": "data/thumbnails/celeb_b03f6a89.jpg",
+    "rank": 33
   },
   {
     "id": "celeb_8a205978",
     "name": "宮原知子",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.7,
     "details": {
       "symmetry": 83,
@@ -573,12 +574,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8a205978.jpg"
+    "thumbnail": "data/thumbnails/celeb_8a205978.jpg",
+    "rank": 34
   },
   {
     "id": "celeb_450d8e3d",
     "name": "中谷美紀",
-    "category": "actress",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 11,
@@ -589,12 +591,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_450d8e3d.jpg"
+    "thumbnail": "data/thumbnails/celeb_450d8e3d.jpg",
+    "rank": 35
   },
   {
     "id": "celeb_1758ebf3",
     "name": "堀米雄斗",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 97,
@@ -605,12 +608,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1758ebf3.jpg"
+    "thumbnail": "data/thumbnails/celeb_1758ebf3.jpg",
+    "rank": 36
   },
   {
     "id": "celeb_fc350043",
     "name": "松井稼頭央",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 88,
@@ -621,12 +625,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fc350043.jpg"
+    "thumbnail": "data/thumbnails/celeb_fc350043.jpg",
+    "rank": 37
   },
   {
     "id": "celeb_6677f238",
     "name": "町田浩樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 69,
@@ -637,7 +642,8 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6677f238.jpg"
+    "thumbnail": "data/thumbnails/celeb_6677f238.jpg",
+    "rank": 38
   },
   {
     "id": "celeb_d1e9ea37",
@@ -653,7 +659,8 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d1e9ea37.jpg"
+    "thumbnail": "data/thumbnails/celeb_d1e9ea37.jpg",
+    "rank": 39
   },
   {
     "id": "celeb_3b910309",
@@ -669,12 +676,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3b910309.jpg"
+    "thumbnail": "data/thumbnails/celeb_3b910309.jpg",
+    "rank": 40
   },
   {
     "id": "celeb_e252bd43",
     "name": "船木和喜",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 12,
@@ -685,12 +693,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e252bd43.jpg"
+    "thumbnail": "data/thumbnails/celeb_e252bd43.jpg",
+    "rank": 41
   },
   {
     "id": "celeb_1eea1fc4",
     "name": "薬師丸ひろ子",
-    "category": "actress",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 58,
@@ -701,12 +710,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1eea1fc4.jpg"
+    "thumbnail": "data/thumbnails/celeb_1eea1fc4.jpg",
+    "rank": 42
   },
   {
     "id": "celeb_b821ec36",
     "name": "藤本敏史",
-    "category": "comedian",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 0,
@@ -717,12 +727,13 @@
       "contour": 60,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b821ec36.jpg"
+    "thumbnail": "data/thumbnails/celeb_b821ec36.jpg",
+    "rank": 43
   },
   {
     "id": "celeb_33977a11",
     "name": "赤星貴文",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.6,
     "details": {
       "symmetry": 45,
@@ -733,23 +744,8 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_33977a11.jpg"
-  },
-  {
-    "id": "celeb_be0b0874",
-    "name": "山田哲人",
-    "category": "athlete",
-    "score": 55.6,
-    "details": {
-      "symmetry": 81,
-      "golden_ratio": 59,
-      "eyes": 36,
-      "nose": 87,
-      "mouth": 45,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_be0b0874.jpg"
+    "thumbnail": "data/thumbnails/celeb_33977a11.jpg",
+    "rank": 44
   },
   {
     "id": "celeb_0677d652",
@@ -765,12 +761,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0677d652.jpg"
+    "thumbnail": "data/thumbnails/celeb_0677d652.jpg",
+    "rank": 45
   },
   {
     "id": "celeb_8c15652f",
     "name": "椎名林檎",
-    "category": "artist",
+    "category": "actor",
     "score": 55.4,
     "details": {
       "symmetry": 0,
@@ -781,7 +778,8 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8c15652f.jpg"
+    "thumbnail": "data/thumbnails/celeb_8c15652f.jpg",
+    "rank": 46
   },
   {
     "id": "celeb_40c3c413",
@@ -797,12 +795,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_40c3c413.jpg"
+    "thumbnail": "data/thumbnails/celeb_40c3c413.jpg",
+    "rank": 47
   },
   {
     "id": "celeb_b4a8a800",
     "name": "深田恭子",
-    "category": "actress",
+    "category": "actor",
     "score": 55.4,
     "details": {
       "symmetry": 69,
@@ -813,12 +812,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg"
+    "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg",
+    "rank": 48
   },
   {
     "id": "celeb_b0b48618",
     "name": "吉田麻也",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.3,
     "details": {
       "symmetry": 90,
@@ -829,7 +829,8 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b0b48618.jpg"
+    "thumbnail": "data/thumbnails/celeb_b0b48618.jpg",
+    "rank": 49
   },
   {
     "id": "celeb_95decd5f",
@@ -845,12 +846,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_95decd5f.jpg"
+    "thumbnail": "data/thumbnails/celeb_95decd5f.jpg",
+    "rank": 50
   },
   {
     "id": "celeb_32ac1701",
     "name": "野村忠宏",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.3,
     "details": {
       "symmetry": 51,
@@ -861,12 +863,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_32ac1701.jpg"
+    "thumbnail": "data/thumbnails/celeb_32ac1701.jpg",
+    "rank": 51
   },
   {
     "id": "celeb_70edd012",
     "name": "古田敦也",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.2,
     "details": {
       "symmetry": 31,
@@ -877,12 +880,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_70edd012.jpg"
+    "thumbnail": "data/thumbnails/celeb_70edd012.jpg",
+    "rank": 52
   },
   {
     "id": "celeb_38127b4e",
     "name": "新垣結衣",
-    "category": "actress",
+    "category": "actor",
     "score": 55.2,
     "details": {
       "symmetry": 45,
@@ -893,12 +897,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_38127b4e.jpg"
+    "thumbnail": "data/thumbnails/celeb_38127b4e.jpg",
+    "rank": 53
   },
   {
     "id": "celeb_5a27f5fc",
     "name": "松山英樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.2,
     "details": {
       "symmetry": 76,
@@ -909,12 +914,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5a27f5fc.jpg"
+    "thumbnail": "data/thumbnails/celeb_5a27f5fc.jpg",
+    "rank": 54
   },
   {
     "id": "celeb_4ff5e7f3",
     "name": "柏木由紀",
-    "category": "idol",
+    "category": "actor",
     "score": 55.2,
     "details": {
       "symmetry": 56,
@@ -925,7 +931,8 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg"
+    "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg",
+    "rank": 55
   },
   {
     "id": "celeb_37780a00",
@@ -941,12 +948,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_37780a00.jpg"
+    "thumbnail": "data/thumbnails/celeb_37780a00.jpg",
+    "rank": 56
   },
   {
     "id": "celeb_1a40e231",
     "name": "タモリ",
-    "category": "comedian",
+    "category": "actor",
     "score": 55.0,
     "details": {
       "symmetry": 16,
@@ -957,12 +965,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1a40e231.jpg"
+    "thumbnail": "data/thumbnails/celeb_1a40e231.jpg",
+    "rank": 57
   },
   {
     "id": "celeb_cb083129",
     "name": "ミルクボーイ駒場",
-    "category": "comedian",
+    "category": "actor",
     "score": 55.0,
     "details": {
       "symmetry": 56,
@@ -973,7 +982,8 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_cb083129.jpg"
+    "thumbnail": "data/thumbnails/celeb_cb083129.jpg",
+    "rank": 58
   },
   {
     "id": "celeb_c3302220",
@@ -989,12 +999,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c3302220.jpg"
+    "thumbnail": "data/thumbnails/celeb_c3302220.jpg",
+    "rank": 59
   },
   {
     "id": "celeb_58883483",
     "name": "金田正一",
-    "category": "athlete",
+    "category": "actor",
     "score": 55.0,
     "details": {
       "symmetry": 55,
@@ -1005,12 +1016,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_58883483.jpg"
+    "thumbnail": "data/thumbnails/celeb_58883483.jpg",
+    "rank": 60
   },
   {
     "id": "celeb_da9144e2",
     "name": "秋元真夏",
-    "category": "idol",
+    "category": "actor",
     "score": 54.9,
     "details": {
       "symmetry": 49,
@@ -1021,12 +1033,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_da9144e2.jpg"
+    "thumbnail": "data/thumbnails/celeb_da9144e2.jpg",
+    "rank": 61
   },
   {
     "id": "celeb_a199a34e",
     "name": "松嶋菜々子",
-    "category": "actress",
+    "category": "actor",
     "score": 54.8,
     "details": {
       "symmetry": 0,
@@ -1037,7 +1050,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a199a34e.jpg"
+    "thumbnail": "data/thumbnails/celeb_a199a34e.jpg",
+    "rank": 62
   },
   {
     "id": "celeb_22213c9f",
@@ -1053,12 +1067,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_22213c9f.jpg"
+    "thumbnail": "data/thumbnails/celeb_22213c9f.jpg",
+    "rank": 63
   },
   {
     "id": "celeb_a07f8182",
     "name": "加藤史帆",
-    "category": "idol",
+    "category": "actor",
     "score": 54.6,
     "details": {
       "symmetry": 49,
@@ -1069,12 +1084,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a07f8182.jpg"
+    "thumbnail": "data/thumbnails/celeb_a07f8182.jpg",
+    "rank": 64
   },
   {
     "id": "celeb_7f88681d",
     "name": "宮崎駿",
-    "category": "cultural",
+    "category": "actor",
     "score": 54.6,
     "details": {
       "symmetry": 20,
@@ -1085,12 +1101,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7f88681d.jpg"
+    "thumbnail": "data/thumbnails/celeb_7f88681d.jpg",
+    "rank": 65
   },
   {
     "id": "celeb_f35f62b3",
     "name": "黒柳徹子",
-    "category": "cultural",
+    "category": "actor",
     "score": 54.6,
     "details": {
       "symmetry": 88,
@@ -1101,12 +1118,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f35f62b3.jpg"
+    "thumbnail": "data/thumbnails/celeb_f35f62b3.jpg",
+    "rank": 66
   },
   {
     "id": "celeb_3ba2f8c2",
     "name": "アンタ山崎",
-    "category": "comedian",
+    "category": "actor",
     "score": 54.4,
     "details": {
       "symmetry": 59,
@@ -1117,12 +1135,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3ba2f8c2.jpg"
+    "thumbnail": "data/thumbnails/celeb_3ba2f8c2.jpg",
+    "rank": 67
   },
   {
     "id": "celeb_f2e3626c",
     "name": "三浦知良",
-    "category": "athlete",
+    "category": "actor",
     "score": 54.4,
     "details": {
       "symmetry": 6,
@@ -1133,12 +1152,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f2e3626c.jpg"
+    "thumbnail": "data/thumbnails/celeb_f2e3626c.jpg",
+    "rank": 68
   },
   {
     "id": "celeb_a17a1fb3",
     "name": "川島永嗣",
-    "category": "athlete",
+    "category": "actor",
     "score": 54.4,
     "details": {
       "symmetry": 87,
@@ -1149,12 +1169,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a17a1fb3.jpg"
+    "thumbnail": "data/thumbnails/celeb_a17a1fb3.jpg",
+    "rank": 69
   },
   {
     "id": "celeb_10323a2d",
     "name": "浜崎あゆみ",
-    "category": "artist",
+    "category": "actor",
     "score": 54.4,
     "details": {
       "symmetry": 82,
@@ -1165,12 +1186,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_10323a2d.jpg"
+    "thumbnail": "data/thumbnails/celeb_10323a2d.jpg",
+    "rank": 70
   },
   {
     "id": "celeb_f8a8075e",
     "name": "錦鯉長谷川",
-    "category": "comedian",
+    "category": "actor",
     "score": 54.4,
     "details": {
       "symmetry": 81,
@@ -1181,28 +1203,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f8a8075e.jpg"
-  },
-  {
-    "id": "celeb_26bcce59",
-    "name": "清原和博",
-    "category": "athlete",
-    "score": 54.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 34,
-      "eyes": 75,
-      "nose": 83,
-      "mouth": 49,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_26bcce59.jpg"
+    "thumbnail": "data/thumbnails/celeb_f8a8075e.jpg",
+    "rank": 71
   },
   {
     "id": "celeb_ef391869",
     "name": "坂本龍一",
-    "category": "cultural",
+    "category": "actor",
     "score": 54.3,
     "details": {
       "symmetry": 52,
@@ -1213,12 +1220,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ef391869.jpg"
+    "thumbnail": "data/thumbnails/celeb_ef391869.jpg",
+    "rank": 72
   },
   {
     "id": "celeb_2b4426ce",
     "name": "松村北斗",
-    "category": "idol",
+    "category": "actor",
     "score": 54.3,
     "details": {
       "symmetry": 0,
@@ -1229,12 +1237,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2b4426ce.jpg"
+    "thumbnail": "data/thumbnails/celeb_2b4426ce.jpg",
+    "rank": 73
   },
   {
     "id": "celeb_8cbea268",
     "name": "横澤夏子",
-    "category": "comedian",
+    "category": "actor",
     "score": 54.2,
     "details": {
       "symmetry": 41,
@@ -1245,12 +1254,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8cbea268.jpg"
+    "thumbnail": "data/thumbnails/celeb_8cbea268.jpg",
+    "rank": 74
   },
   {
     "id": "celeb_b2f26dbc",
     "name": "爆笑問題田中裕二",
-    "category": "comedian",
+    "category": "actor",
     "score": 54.2,
     "details": {
       "symmetry": 16,
@@ -1261,12 +1271,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b2f26dbc.jpg"
+    "thumbnail": "data/thumbnails/celeb_b2f26dbc.jpg",
+    "rank": 75
   },
   {
     "id": "celeb_f02e2de9",
     "name": "長谷川穂積",
-    "category": "athlete",
+    "category": "actor",
     "score": 54.2,
     "details": {
       "symmetry": 52,
@@ -1277,12 +1288,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f02e2de9.jpg"
+    "thumbnail": "data/thumbnails/celeb_f02e2de9.jpg",
+    "rank": 76
   },
   {
     "id": "celeb_d1debf33",
     "name": "アンガ田中",
-    "category": "comedian",
+    "category": "actor",
     "score": 54.1,
     "details": {
       "symmetry": 92,
@@ -1293,12 +1305,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d1debf33.jpg"
+    "thumbnail": "data/thumbnails/celeb_d1debf33.jpg",
+    "rank": 77
   },
   {
     "id": "celeb_a63002f1",
     "name": "池上彰",
-    "category": "cultural",
+    "category": "actor",
     "score": 54.1,
     "details": {
       "symmetry": 0,
@@ -1309,12 +1322,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a63002f1.jpg"
+    "thumbnail": "data/thumbnails/celeb_a63002f1.jpg",
+    "rank": 78
   },
   {
     "id": "celeb_82bad5cb",
     "name": "三谷幸喜",
-    "category": "cultural",
+    "category": "actor",
     "score": 54.0,
     "details": {
       "symmetry": 0,
@@ -1325,12 +1339,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_82bad5cb.jpg"
+    "thumbnail": "data/thumbnails/celeb_82bad5cb.jpg",
+    "rank": 79
   },
   {
     "id": "celeb_99e40f11",
     "name": "中澤佑二",
-    "category": "athlete",
+    "category": "actor",
     "score": 54.0,
     "details": {
       "symmetry": 12,
@@ -1341,12 +1356,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_99e40f11.jpg"
+    "thumbnail": "data/thumbnails/celeb_99e40f11.jpg",
+    "rank": 80
   },
   {
     "id": "celeb_9ccb3b96",
     "name": "小松菜奈",
-    "category": "actress",
+    "category": "actor",
     "score": 54.0,
     "details": {
       "symmetry": 74,
@@ -1357,12 +1373,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9ccb3b96.jpg"
+    "thumbnail": "data/thumbnails/celeb_9ccb3b96.jpg",
+    "rank": 81
   },
   {
     "id": "celeb_d84d9575",
     "name": "阿部一二三",
-    "category": "athlete",
+    "category": "actor",
     "score": 54.0,
     "details": {
       "symmetry": 74,
@@ -1373,12 +1390,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d84d9575.jpg"
+    "thumbnail": "data/thumbnails/celeb_d84d9575.jpg",
+    "rank": 82
   },
   {
     "id": "celeb_5a61a66a",
     "name": "阿部詩",
-    "category": "athlete",
+    "category": "actor",
     "score": 54.0,
     "details": {
       "symmetry": 30,
@@ -1389,12 +1407,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5a61a66a.jpg"
+    "thumbnail": "data/thumbnails/celeb_5a61a66a.jpg",
+    "rank": 83
   },
   {
     "id": "celeb_4b9b9245",
     "name": "桐谷美玲",
-    "category": "actress",
+    "category": "actor",
     "score": 53.9,
     "details": {
       "symmetry": 48,
@@ -1405,12 +1424,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4b9b9245.jpg"
+    "thumbnail": "data/thumbnails/celeb_4b9b9245.jpg",
+    "rank": 84
   },
   {
     "id": "celeb_7b031583",
     "name": "おぎやはぎ矢作",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 82,
@@ -1421,12 +1441,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7b031583.jpg"
+    "thumbnail": "data/thumbnails/celeb_7b031583.jpg",
+    "rank": 85
   },
   {
     "id": "celeb_af3d1d9c",
     "name": "チュート徳井",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 52,
@@ -1437,12 +1458,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_af3d1d9c.jpg"
+    "thumbnail": "data/thumbnails/celeb_af3d1d9c.jpg",
+    "rank": 86
   },
   {
     "id": "celeb_c21d3d98",
     "name": "ヒロミ",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 69,
@@ -1453,12 +1475,13 @@
       "contour": 60,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c21d3d98.jpg"
+    "thumbnail": "data/thumbnails/celeb_c21d3d98.jpg",
+    "rank": 87
   },
   {
     "id": "celeb_eac1e24f",
     "name": "具志堅用高",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 37,
@@ -1469,12 +1492,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_eac1e24f.jpg"
+    "thumbnail": "data/thumbnails/celeb_eac1e24f.jpg",
+    "rank": 88
   },
   {
     "id": "celeb_e44c7c72",
     "name": "山本由伸",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 52,
@@ -1485,12 +1509,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e44c7c72.jpg"
+    "thumbnail": "data/thumbnails/celeb_e44c7c72.jpg",
+    "rank": 89
   },
   {
     "id": "celeb_66fb505f",
     "name": "板倉滉",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 0,
@@ -1501,12 +1526,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_66fb505f.jpg"
+    "thumbnail": "data/thumbnails/celeb_66fb505f.jpg",
+    "rank": 90
   },
   {
     "id": "celeb_e6f89634",
     "name": "蒼井優",
-    "category": "actress",
+    "category": "actor",
     "score": 53.8,
     "details": {
       "symmetry": 23,
@@ -1517,28 +1543,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e6f89634.jpg"
-  },
-  {
-    "id": "celeb_6670b0dd",
-    "name": "西野カナ",
-    "category": "artist",
-    "score": 53.8,
-    "details": {
-      "symmetry": 51,
-      "golden_ratio": 41,
-      "eyes": 63,
-      "nose": 41,
-      "mouth": 87,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6670b0dd.jpg"
+    "thumbnail": "data/thumbnails/celeb_e6f89634.jpg",
+    "rank": 91
   },
   {
     "id": "celeb_91a8582b",
     "name": "竹内まりや",
-    "category": "cultural",
+    "category": "actor",
     "score": 53.7,
     "details": {
       "symmetry": 61,
@@ -1549,12 +1560,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_91a8582b.jpg"
+    "thumbnail": "data/thumbnails/celeb_91a8582b.jpg",
+    "rank": 92
   },
   {
     "id": "celeb_f089f98e",
     "name": "ゆきりぬ",
-    "category": "influencer",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 51,
@@ -1565,12 +1577,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f089f98e.jpg"
+    "thumbnail": "data/thumbnails/celeb_f089f98e.jpg",
+    "rank": 93
   },
   {
     "id": "celeb_708c9315",
     "name": "ローラ",
-    "category": "influencer",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 66,
@@ -1581,12 +1594,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_708c9315.jpg"
+    "thumbnail": "data/thumbnails/celeb_708c9315.jpg",
+    "rank": 94
   },
   {
     "id": "celeb_5874daa2",
     "name": "上野由岐子",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 6,
@@ -1597,7 +1611,8 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5874daa2.jpg"
+    "thumbnail": "data/thumbnails/celeb_5874daa2.jpg",
+    "rank": 95
   },
   {
     "id": "celeb_aab4c683",
@@ -1613,12 +1628,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_aab4c683.jpg"
+    "thumbnail": "data/thumbnails/celeb_aab4c683.jpg",
+    "rank": 96
   },
   {
     "id": "celeb_78894734",
     "name": "前川黛也",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 0,
@@ -1629,12 +1645,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_78894734.jpg"
+    "thumbnail": "data/thumbnails/celeb_78894734.jpg",
+    "rank": 97
   },
   {
     "id": "celeb_43be9905",
     "name": "小久保裕紀",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 81,
@@ -1645,12 +1662,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_43be9905.jpg"
+    "thumbnail": "data/thumbnails/celeb_43be9905.jpg",
+    "rank": 98
   },
   {
     "id": "celeb_c2e1fedf",
     "name": "山本舞香",
-    "category": "actress",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 50,
@@ -1661,12 +1679,13 @@
       "contour": 60,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c2e1fedf.jpg"
+    "thumbnail": "data/thumbnails/celeb_c2e1fedf.jpg",
+    "rank": 99
   },
   {
     "id": "celeb_0d0c4382",
     "name": "爆笑問題太田光",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.6,
     "details": {
       "symmetry": 22,
@@ -1677,28 +1696,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0d0c4382.jpg"
-  },
-  {
-    "id": "celeb_da5888ff",
-    "name": "錦織圭",
-    "category": "athlete",
-    "score": 53.6,
-    "details": {
-      "symmetry": 32,
-      "golden_ratio": 41,
-      "eyes": 99,
-      "nose": 70,
-      "mouth": 21,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_da5888ff.jpg"
+    "thumbnail": "data/thumbnails/celeb_0d0c4382.jpg",
+    "rank": 100
   },
   {
     "id": "celeb_b46d27e1",
     "name": "和牛川西賢志郎",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.5,
     "details": {
       "symmetry": 53,
@@ -1709,7 +1713,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b46d27e1.jpg"
+    "thumbnail": "data/thumbnails/celeb_b46d27e1.jpg",
+    "rank": 101
   },
   {
     "id": "celeb_66c887b0",
@@ -1725,12 +1730,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_66c887b0.jpg"
+    "thumbnail": "data/thumbnails/celeb_66c887b0.jpg",
+    "rank": 102
   },
   {
     "id": "celeb_f4e4b7eb",
     "name": "つんく",
-    "category": "cultural",
+    "category": "actor",
     "score": 53.4,
     "details": {
       "symmetry": 0,
@@ -1741,12 +1747,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f4e4b7eb.jpg"
+    "thumbnail": "data/thumbnails/celeb_f4e4b7eb.jpg",
+    "rank": 103
   },
   {
     "id": "celeb_f5d16040",
     "name": "長州力",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.4,
     "details": {
       "symmetry": 48,
@@ -1757,12 +1764,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f5d16040.jpg"
+    "thumbnail": "data/thumbnails/celeb_f5d16040.jpg",
+    "rank": 104
   },
   {
     "id": "celeb_c62f821e",
     "name": "ダウンタウン浜田",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.2,
     "details": {
       "symmetry": 75,
@@ -1773,12 +1781,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c62f821e.jpg"
+    "thumbnail": "data/thumbnails/celeb_c62f821e.jpg",
+    "rank": 105
   },
   {
     "id": "celeb_211afab2",
     "name": "三浦大知",
-    "category": "artist",
+    "category": "actor",
     "score": 53.2,
     "details": {
       "symmetry": 40,
@@ -1789,12 +1798,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_211afab2.jpg"
+    "thumbnail": "data/thumbnails/celeb_211afab2.jpg",
+    "rank": 106
   },
   {
     "id": "celeb_f3ccac5e",
     "name": "劇団ひとり",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.2,
     "details": {
       "symmetry": 1,
@@ -1805,12 +1815,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f3ccac5e.jpg"
+    "thumbnail": "data/thumbnails/celeb_f3ccac5e.jpg",
+    "rank": 107
   },
   {
     "id": "celeb_710cb7f2",
     "name": "吉永小百合",
-    "category": "actress",
+    "category": "actor",
     "score": 53.2,
     "details": {
       "symmetry": 84,
@@ -1821,7 +1832,8 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_710cb7f2.jpg"
+    "thumbnail": "data/thumbnails/celeb_710cb7f2.jpg",
+    "rank": 108
   },
   {
     "id": "celeb_0d36ecc9",
@@ -1837,12 +1849,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0d36ecc9.jpg"
+    "thumbnail": "data/thumbnails/celeb_0d36ecc9.jpg",
+    "rank": 109
   },
   {
     "id": "celeb_8f7c1428",
     "name": "ヒロシ",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.1,
     "details": {
       "symmetry": 14,
@@ -1853,12 +1866,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8f7c1428.jpg"
+    "thumbnail": "data/thumbnails/celeb_8f7c1428.jpg",
+    "rank": 110
   },
   {
     "id": "celeb_6df4c94b",
     "name": "フット後藤",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.1,
     "details": {
       "symmetry": 86,
@@ -1869,12 +1883,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6df4c94b.jpg"
+    "thumbnail": "data/thumbnails/celeb_6df4c94b.jpg",
+    "rank": 111
   },
   {
     "id": "celeb_cec17988",
     "name": "DAIGO",
-    "category": "artist",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 74,
@@ -1885,12 +1900,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_cec17988.jpg"
+    "thumbnail": "data/thumbnails/celeb_cec17988.jpg",
+    "rank": 112
   },
   {
     "id": "celeb_e3d6dd62",
     "name": "中村俊輔",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 0,
@@ -1901,12 +1917,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e3d6dd62.jpg"
+    "thumbnail": "data/thumbnails/celeb_e3d6dd62.jpg",
+    "rank": 113
   },
   {
     "id": "celeb_dcf7f3fc",
     "name": "児嶋一哉",
-    "category": "comedian",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 0,
@@ -1917,12 +1934,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_dcf7f3fc.jpg"
+    "thumbnail": "data/thumbnails/celeb_dcf7f3fc.jpg",
+    "rank": 114
   },
   {
     "id": "celeb_d88c205c",
     "name": "岡田武史",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 0,
@@ -1933,12 +1951,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d88c205c.jpg"
+    "thumbnail": "data/thumbnails/celeb_d88c205c.jpg",
+    "rank": 115
   },
   {
     "id": "celeb_6d979c26",
     "name": "広瀬アリス",
-    "category": "actress",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 0,
@@ -1949,12 +1968,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6d979c26.jpg"
+    "thumbnail": "data/thumbnails/celeb_6d979c26.jpg",
+    "rank": 116
   },
   {
     "id": "celeb_e564607e",
     "name": "松本かれん",
-    "category": "idol",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 89,
@@ -1965,12 +1985,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e564607e.jpg"
+    "thumbnail": "data/thumbnails/celeb_e564607e.jpg",
+    "rank": 117
   },
   {
     "id": "celeb_d6be1b1c",
     "name": "森保一",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 74,
@@ -1981,7 +2002,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d6be1b1c.jpg"
+    "thumbnail": "data/thumbnails/celeb_d6be1b1c.jpg",
+    "rank": 118
   },
   {
     "id": "celeb_820e672f",
@@ -1997,12 +2019,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_820e672f.jpg"
+    "thumbnail": "data/thumbnails/celeb_820e672f.jpg",
+    "rank": 119
   },
   {
     "id": "celeb_599dd04a",
     "name": "高梨沙羅",
-    "category": "athlete",
+    "category": "actor",
     "score": 53.0,
     "details": {
       "symmetry": 53,
@@ -2013,12 +2036,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_599dd04a.jpg"
+    "thumbnail": "data/thumbnails/celeb_599dd04a.jpg",
+    "rank": 120
   },
   {
     "id": "celeb_f5977b60",
     "name": "杉咲花",
-    "category": "actress",
+    "category": "actor",
     "score": 52.9,
     "details": {
       "symmetry": 68,
@@ -2029,7 +2053,8 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f5977b60.jpg"
+    "thumbnail": "data/thumbnails/celeb_f5977b60.jpg",
+    "rank": 121
   },
   {
     "id": "celeb_a9977480",
@@ -2045,12 +2070,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a9977480.jpg"
+    "thumbnail": "data/thumbnails/celeb_a9977480.jpg",
+    "rank": 122
   },
   {
     "id": "celeb_307cf348",
     "name": "千原ジュニア",
-    "category": "comedian",
+    "category": "actor",
     "score": 52.8,
     "details": {
       "symmetry": 67,
@@ -2061,12 +2087,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_307cf348.jpg"
+    "thumbnail": "data/thumbnails/celeb_307cf348.jpg",
+    "rank": 123
   },
   {
     "id": "celeb_3ba08e03",
     "name": "大島優子",
-    "category": "idol",
+    "category": "actor",
     "score": 52.8,
     "details": {
       "symmetry": 0,
@@ -2077,7 +2104,8 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3ba08e03.jpg"
+    "thumbnail": "data/thumbnails/celeb_3ba08e03.jpg",
+    "rank": 124
   },
   {
     "id": "celeb_8d52f331",
@@ -2093,12 +2121,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8d52f331.jpg"
+    "thumbnail": "data/thumbnails/celeb_8d52f331.jpg",
+    "rank": 125
   },
   {
     "id": "celeb_67595c9c",
     "name": "川口春奈",
-    "category": "actress",
+    "category": "actor",
     "score": 52.8,
     "details": {
       "symmetry": 92,
@@ -2109,12 +2138,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_67595c9c.jpg"
+    "thumbnail": "data/thumbnails/celeb_67595c9c.jpg",
+    "rank": 126
   },
   {
     "id": "celeb_985b0c16",
     "name": "荒川静香",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.8,
     "details": {
       "symmetry": 9,
@@ -2125,12 +2155,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_985b0c16.jpg"
+    "thumbnail": "data/thumbnails/celeb_985b0c16.jpg",
+    "rank": 127
   },
   {
     "id": "celeb_4f811f29",
     "name": "齊藤なぎさ",
-    "category": "idol",
+    "category": "actor",
     "score": 52.8,
     "details": {
       "symmetry": 0,
@@ -2141,12 +2172,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4f811f29.jpg"
+    "thumbnail": "data/thumbnails/celeb_4f811f29.jpg",
+    "rank": 128
   },
   {
     "id": "celeb_d2089ec5",
     "name": "中山雅史",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.7,
     "details": {
       "symmetry": 0,
@@ -2157,12 +2189,13 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d2089ec5.jpg"
+    "thumbnail": "data/thumbnails/celeb_d2089ec5.jpg",
+    "rank": 129
   },
   {
     "id": "celeb_fbf39237",
     "name": "室伏広治",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.7,
     "details": {
       "symmetry": 89,
@@ -2173,12 +2206,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fbf39237.jpg"
+    "thumbnail": "data/thumbnails/celeb_fbf39237.jpg",
+    "rank": 130
   },
   {
     "id": "celeb_28026792",
     "name": "青木宣親",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.7,
     "details": {
       "symmetry": 84,
@@ -2189,12 +2223,13 @@
       "contour": 60,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_28026792.jpg"
+    "thumbnail": "data/thumbnails/celeb_28026792.jpg",
+    "rank": 131
   },
   {
     "id": "celeb_dbb05ca6",
     "name": "上沼恵美子",
-    "category": "comedian",
+    "category": "actor",
     "score": 52.6,
     "details": {
       "symmetry": 75,
@@ -2205,7 +2240,8 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_dbb05ca6.jpg"
+    "thumbnail": "data/thumbnails/celeb_dbb05ca6.jpg",
+    "rank": 132
   },
   {
     "id": "celeb_34c4561b",
@@ -2221,7 +2257,8 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_34c4561b.jpg"
+    "thumbnail": "data/thumbnails/celeb_34c4561b.jpg",
+    "rank": 133
   },
   {
     "id": "celeb_2a1aa1d6",
@@ -2237,12 +2274,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2a1aa1d6.jpg"
+    "thumbnail": "data/thumbnails/celeb_2a1aa1d6.jpg",
+    "rank": 134
   },
   {
     "id": "celeb_783a8bb7",
     "name": "浅野拓磨",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.5,
     "details": {
       "symmetry": 72,
@@ -2253,12 +2291,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_783a8bb7.jpg"
+    "thumbnail": "data/thumbnails/celeb_783a8bb7.jpg",
+    "rank": 135
   },
   {
     "id": "celeb_babcad9f",
     "name": "ブラマヨ吉田",
-    "category": "comedian",
+    "category": "actor",
     "score": 52.4,
     "details": {
       "symmetry": 0,
@@ -2269,44 +2308,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_babcad9f.jpg"
-  },
-  {
-    "id": "celeb_6b081aa4",
-    "name": "柳田悠岐",
-    "category": "athlete",
-    "score": 52.4,
-    "details": {
-      "symmetry": 26,
-      "golden_ratio": 37,
-      "eyes": 78,
-      "nose": 57,
-      "mouth": 55,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6b081aa4.jpg"
-  },
-  {
-    "id": "celeb_4a5fd453",
-    "name": "森田ひかる",
-    "category": "idol",
-    "score": 52.4,
-    "details": {
-      "symmetry": 58,
-      "golden_ratio": 50,
-      "eyes": 50,
-      "nose": 85,
-      "mouth": 35,
-      "contour": 47,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_4a5fd453.jpg"
+    "thumbnail": "data/thumbnails/celeb_babcad9f.jpg",
+    "rank": 136
   },
   {
     "id": "celeb_d9e3f630",
     "name": "みちょぱ",
-    "category": "influencer",
+    "category": "actor",
     "score": 52.3,
     "details": {
       "symmetry": 43,
@@ -2317,12 +2325,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg"
+    "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg",
+    "rank": 137
   },
   {
     "id": "celeb_36eae98d",
     "name": "広瀬すず",
-    "category": "actress",
+    "category": "actor",
     "score": 52.3,
     "details": {
       "symmetry": 54,
@@ -2333,12 +2342,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_36eae98d.jpg"
+    "thumbnail": "data/thumbnails/celeb_36eae98d.jpg",
+    "rank": 138
   },
   {
     "id": "celeb_d0fde418",
     "name": "長谷部誠",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.3,
     "details": {
       "symmetry": 0,
@@ -2349,12 +2359,13 @@
       "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d0fde418.jpg"
+    "thumbnail": "data/thumbnails/celeb_d0fde418.jpg",
+    "rank": 139
   },
   {
     "id": "celeb_932743cd",
     "name": "上原浩治",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.2,
     "details": {
       "symmetry": 0,
@@ -2365,12 +2376,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_932743cd.jpg"
+    "thumbnail": "data/thumbnails/celeb_932743cd.jpg",
+    "rank": 140
   },
   {
     "id": "celeb_e245d548",
     "name": "千代翔馬富士雄",
-    "category": "sumo",
+    "category": "actor",
     "score": 52.2,
     "details": {
       "symmetry": 92,
@@ -2381,12 +2393,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e245d548.jpg"
+    "thumbnail": "data/thumbnails/celeb_e245d548.jpg",
+    "rank": 141
   },
   {
     "id": "celeb_26b24f55",
     "name": "真壁刀義",
-    "category": "athlete",
+    "category": "actor",
     "score": 52.2,
     "details": {
       "symmetry": 0,
@@ -2397,12 +2410,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_26b24f55.jpg"
+    "thumbnail": "data/thumbnails/celeb_26b24f55.jpg",
+    "rank": 142
   },
   {
     "id": "celeb_b9317c7d",
     "name": "加藤浩次",
-    "category": "comedian",
+    "category": "actor",
     "score": 52.1,
     "details": {
       "symmetry": 40,
@@ -2413,28 +2427,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b9317c7d.jpg"
-  },
-  {
-    "id": "celeb_5c4fb252",
-    "name": "大谷翔平",
-    "category": "athlete",
-    "score": 52.0,
-    "details": {
-      "symmetry": 41,
-      "golden_ratio": 36,
-      "eyes": 60,
-      "nose": 95,
-      "mouth": 40,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5c4fb252.jpg"
+    "thumbnail": "data/thumbnails/celeb_b9317c7d.jpg",
+    "rank": 143
   },
   {
     "id": "celeb_e7588c0f",
     "name": "宇多田ヒカル",
-    "category": "artist",
+    "category": "actor",
     "score": 51.9,
     "details": {
       "symmetry": 16,
@@ -2445,12 +2444,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg"
+    "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg",
+    "rank": 144
   },
   {
     "id": "celeb_ebfe09fe",
     "name": "田村淳",
-    "category": "comedian",
+    "category": "actor",
     "score": 51.9,
     "details": {
       "symmetry": 13,
@@ -2461,12 +2461,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ebfe09fe.jpg"
+    "thumbnail": "data/thumbnails/celeb_ebfe09fe.jpg",
+    "rank": 145
   },
   {
     "id": "celeb_267dfe9a",
     "name": "宮城大弥",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.8,
     "details": {
       "symmetry": 0,
@@ -2477,12 +2478,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_267dfe9a.jpg"
+    "thumbnail": "data/thumbnails/celeb_267dfe9a.jpg",
+    "rank": 146
   },
   {
     "id": "celeb_8ffa8614",
     "name": "布袋寅泰",
-    "category": "cultural",
+    "category": "actor",
     "score": 51.8,
     "details": {
       "symmetry": 0,
@@ -2493,12 +2495,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8ffa8614.jpg"
+    "thumbnail": "data/thumbnails/celeb_8ffa8614.jpg",
+    "rank": 147
   },
   {
     "id": "celeb_1278ef8f",
     "name": "秋元康",
-    "category": "cultural",
+    "category": "actor",
     "score": 51.8,
     "details": {
       "symmetry": 66,
@@ -2509,12 +2512,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg"
+    "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg",
+    "rank": 148
   },
   {
     "id": "celeb_5b4eb7b4",
     "name": "青木真也",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.8,
     "details": {
       "symmetry": 81,
@@ -2525,12 +2529,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5b4eb7b4.jpg"
+    "thumbnail": "data/thumbnails/celeb_5b4eb7b4.jpg",
+    "rank": 149
   },
   {
     "id": "celeb_aecfb502",
     "name": "黒田博樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.8,
     "details": {
       "symmetry": 34,
@@ -2541,12 +2546,13 @@
       "contour": 42,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_aecfb502.jpg"
+    "thumbnail": "data/thumbnails/celeb_aecfb502.jpg",
+    "rank": 150
   },
   {
     "id": "celeb_ff08aeb3",
     "name": "三笘薫",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.7,
     "details": {
       "symmetry": 0,
@@ -2557,12 +2563,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ff08aeb3.jpg"
+    "thumbnail": "data/thumbnails/celeb_ff08aeb3.jpg",
+    "rank": 151
   },
   {
     "id": "celeb_fe932ed3",
     "name": "橋本大輝",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.7,
     "details": {
       "symmetry": 15,
@@ -2573,12 +2580,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fe932ed3.jpg"
+    "thumbnail": "data/thumbnails/celeb_fe932ed3.jpg",
+    "rank": 152
   },
   {
     "id": "celeb_96872d3c",
     "name": "二階堂ふみ",
-    "category": "actress",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 68,
@@ -2589,12 +2597,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_96872d3c.jpg"
+    "thumbnail": "data/thumbnails/celeb_96872d3c.jpg",
+    "rank": 153
   },
   {
     "id": "celeb_558dae5f",
     "name": "前田智徳",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 57,
@@ -2605,12 +2614,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_558dae5f.jpg"
+    "thumbnail": "data/thumbnails/celeb_558dae5f.jpg",
+    "rank": 154
   },
   {
     "id": "celeb_e2c9e678",
     "name": "東龍強",
-    "category": "sumo",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 0,
@@ -2621,12 +2631,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e2c9e678.jpg"
+    "thumbnail": "data/thumbnails/celeb_e2c9e678.jpg",
+    "rank": 155
   },
   {
     "id": "celeb_d45b0ee1",
     "name": "綾瀬はるか",
-    "category": "actress",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 90,
@@ -2637,12 +2648,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg"
+    "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg",
+    "rank": 156
   },
   {
     "id": "celeb_1b300c1e",
     "name": "芦田愛菜",
-    "category": "actress",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 6,
@@ -2653,12 +2665,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1b300c1e.jpg"
+    "thumbnail": "data/thumbnails/celeb_1b300c1e.jpg",
+    "rank": 157
   },
   {
     "id": "celeb_f45c2de4",
     "name": "辰吉丈一郎",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 0,
@@ -2669,12 +2682,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f45c2de4.jpg"
+    "thumbnail": "data/thumbnails/celeb_f45c2de4.jpg",
+    "rank": 158
   },
   {
     "id": "celeb_559a1270",
     "name": "馬場雄大",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.6,
     "details": {
       "symmetry": 0,
@@ -2685,12 +2699,13 @@
       "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_559a1270.jpg"
+    "thumbnail": "data/thumbnails/celeb_559a1270.jpg",
+    "rank": 159
   },
   {
     "id": "celeb_51f05250",
     "name": "吉岡里帆",
-    "category": "actress",
+    "category": "actor",
     "score": 51.5,
     "details": {
       "symmetry": 40,
@@ -2701,12 +2716,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_51f05250.jpg"
+    "thumbnail": "data/thumbnails/celeb_51f05250.jpg",
+    "rank": 160
   },
   {
     "id": "celeb_4026384f",
     "name": "今永昇太",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.4,
     "details": {
       "symmetry": 9,
@@ -2717,12 +2733,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4026384f.jpg"
+    "thumbnail": "data/thumbnails/celeb_4026384f.jpg",
+    "rank": 161
   },
   {
     "id": "celeb_90d4aec0",
     "name": "大森元貴",
-    "category": "artist",
+    "category": "actor",
     "score": 51.4,
     "details": {
       "symmetry": 93,
@@ -2733,12 +2750,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg"
+    "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg",
+    "rank": 162
   },
   {
     "id": "celeb_dd1cb774",
     "name": "原辰徳",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.3,
     "details": {
       "symmetry": 78,
@@ -2749,12 +2767,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_dd1cb774.jpg"
+    "thumbnail": "data/thumbnails/celeb_dd1cb774.jpg",
+    "rank": 163
   },
   {
     "id": "celeb_4abd01c6",
     "name": "工藤公康",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.3,
     "details": {
       "symmetry": 73,
@@ -2765,12 +2784,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4abd01c6.jpg"
+    "thumbnail": "data/thumbnails/celeb_4abd01c6.jpg",
+    "rank": 164
   },
   {
     "id": "celeb_39b9baef",
     "name": "金村美玖",
-    "category": "idol",
+    "category": "actor",
     "score": 51.3,
     "details": {
       "symmetry": 0,
@@ -2781,28 +2801,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_39b9baef.jpg"
-  },
-  {
-    "id": "celeb_f64e77b7",
-    "name": "佐々木朗希",
-    "category": "athlete",
-    "score": 51.3,
-    "details": {
-      "symmetry": 33,
-      "golden_ratio": 40,
-      "eyes": 74,
-      "nose": 65,
-      "mouth": 39,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_f64e77b7.jpg"
+    "thumbnail": "data/thumbnails/celeb_39b9baef.jpg",
+    "rank": 165
   },
   {
     "id": "celeb_23652c2f",
     "name": "ナイナイ矢部",
-    "category": "comedian",
+    "category": "actor",
     "score": 51.2,
     "details": {
       "symmetry": 58,
@@ -2813,12 +2818,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_23652c2f.jpg"
+    "thumbnail": "data/thumbnails/celeb_23652c2f.jpg",
+    "rank": 166
   },
   {
     "id": "celeb_8ed3c9ef",
     "name": "吉田輝星",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.2,
     "details": {
       "symmetry": 26,
@@ -2829,12 +2835,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8ed3c9ef.jpg"
+    "thumbnail": "data/thumbnails/celeb_8ed3c9ef.jpg",
+    "rank": 167
   },
   {
     "id": "celeb_febd48a6",
     "name": "とにかく明るい安村",
-    "category": "comedian",
+    "category": "actor",
     "score": 51.0,
     "details": {
       "symmetry": 73,
@@ -2845,12 +2852,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_febd48a6.jpg"
+    "thumbnail": "data/thumbnails/celeb_febd48a6.jpg",
+    "rank": 168
   },
   {
     "id": "celeb_ebf0e695",
     "name": "安村",
-    "category": "comedian",
+    "category": "actor",
     "score": 51.0,
     "details": {
       "symmetry": 73,
@@ -2861,12 +2869,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ebf0e695.jpg"
+    "thumbnail": "data/thumbnails/celeb_ebf0e695.jpg",
+    "rank": 169
   },
   {
     "id": "celeb_b882082b",
     "name": "小平奈緒",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.0,
     "details": {
       "symmetry": 23,
@@ -2877,12 +2886,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b882082b.jpg"
+    "thumbnail": "data/thumbnails/celeb_b882082b.jpg",
+    "rank": 170
   },
   {
     "id": "celeb_5cd2c24c",
     "name": "魔裟斗",
-    "category": "athlete",
+    "category": "actor",
     "score": 51.0,
     "details": {
       "symmetry": 68,
@@ -2893,12 +2903,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5cd2c24c.jpg"
+    "thumbnail": "data/thumbnails/celeb_5cd2c24c.jpg",
+    "rank": 171
   },
   {
     "id": "celeb_d1524fda",
     "name": "笑い飯哲夫",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.9,
     "details": {
       "symmetry": 48,
@@ -2909,12 +2920,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d1524fda.jpg"
+    "thumbnail": "data/thumbnails/celeb_d1524fda.jpg",
+    "rank": 172
   },
   {
     "id": "celeb_5f2d3df0",
     "name": "きゃりーぱみゅぱみゅ",
-    "category": "artist",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 0,
@@ -2925,12 +2937,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg"
+    "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg",
+    "rank": 173
   },
   {
     "id": "celeb_2c58976d",
     "name": "はじめしゃちょー",
-    "category": "influencer",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 0,
@@ -2941,12 +2954,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2c58976d.jpg"
+    "thumbnail": "data/thumbnails/celeb_2c58976d.jpg",
+    "rank": 174
   },
   {
     "id": "celeb_29cd0d51",
     "name": "和牛水田信二",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 0,
@@ -2957,12 +2971,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_29cd0d51.jpg"
+    "thumbnail": "data/thumbnails/celeb_29cd0d51.jpg",
+    "rank": 175
   },
   {
     "id": "celeb_ea94fbff",
     "name": "星野源",
-    "category": "artist",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 0,
@@ -2973,12 +2988,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg"
+    "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg",
+    "rank": 176
   },
   {
     "id": "celeb_dc014b65",
     "name": "白井健三",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 62,
@@ -2989,12 +3005,13 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_dc014b65.jpg"
+    "thumbnail": "data/thumbnails/celeb_dc014b65.jpg",
+    "rank": 177
   },
   {
     "id": "celeb_7e883dd6",
     "name": "道枝駿佑",
-    "category": "idol",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 85,
@@ -3005,12 +3022,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7e883dd6.jpg"
+    "thumbnail": "data/thumbnails/celeb_7e883dd6.jpg",
+    "rank": 178
   },
   {
     "id": "celeb_cb723ba9",
     "name": "野口衣織",
-    "category": "idol",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 0,
@@ -3021,12 +3039,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_cb723ba9.jpg"
+    "thumbnail": "data/thumbnails/celeb_cb723ba9.jpg",
+    "rank": 179
   },
   {
     "id": "celeb_1d9e9647",
     "name": "鈴木瞳美",
-    "category": "idol",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 0,
@@ -3037,12 +3056,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg"
+    "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg",
+    "rank": 180
   },
   {
     "id": "celeb_4e17f725",
     "name": "黒木華",
-    "category": "actress",
+    "category": "actor",
     "score": 50.8,
     "details": {
       "symmetry": 52,
@@ -3053,28 +3073,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4e17f725.jpg"
-  },
-  {
-    "id": "celeb_5185f6ad",
-    "name": "村上春樹",
-    "category": "cultural",
-    "score": 50.8,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 59,
-      "nose": 61,
-      "mouth": 74,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5185f6ad.jpg"
+    "thumbnail": "data/thumbnails/celeb_4e17f725.jpg",
+    "rank": 181
   },
   {
     "id": "celeb_41b1fdad",
     "name": "前田大然",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.7,
     "details": {
       "symmetry": 79,
@@ -3085,12 +3090,13 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_41b1fdad.jpg"
+    "thumbnail": "data/thumbnails/celeb_41b1fdad.jpg",
+    "rank": 182
   },
   {
     "id": "celeb_df5afd63",
     "name": "本田圭佑",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.7,
     "details": {
       "symmetry": 0,
@@ -3101,12 +3107,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_df5afd63.jpg"
+    "thumbnail": "data/thumbnails/celeb_df5afd63.jpg",
+    "rank": 183
   },
   {
     "id": "celeb_7faa8bee",
     "name": "酒井宏樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.7,
     "details": {
       "symmetry": 79,
@@ -3117,12 +3124,13 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7faa8bee.jpg"
+    "thumbnail": "data/thumbnails/celeb_7faa8bee.jpg",
+    "rank": 184
   },
   {
     "id": "celeb_3d3c0a3f",
     "name": "GACKT",
-    "category": "cultural",
+    "category": "actor",
     "score": 50.6,
     "details": {
       "symmetry": 15,
@@ -3133,12 +3141,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3d3c0a3f.jpg"
+    "thumbnail": "data/thumbnails/celeb_3d3c0a3f.jpg",
+    "rank": 185
   },
   {
     "id": "celeb_b63824dd",
     "name": "内山高志",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.6,
     "details": {
       "symmetry": 0,
@@ -3149,12 +3158,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b63824dd.jpg"
+    "thumbnail": "data/thumbnails/celeb_b63824dd.jpg",
+    "rank": 186
   },
   {
     "id": "celeb_a347c13c",
     "name": "宮迫博之",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.6,
     "details": {
       "symmetry": 84,
@@ -3165,12 +3175,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a347c13c.jpg"
+    "thumbnail": "data/thumbnails/celeb_a347c13c.jpg",
+    "rank": 187
   },
   {
     "id": "celeb_732cfdc9",
     "name": "野村克也",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.6,
     "details": {
       "symmetry": 0,
@@ -3181,7 +3192,8 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_732cfdc9.jpg"
+    "thumbnail": "data/thumbnails/celeb_732cfdc9.jpg",
+    "rank": 188
   },
   {
     "id": "celeb_69e73e58",
@@ -3197,12 +3209,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_69e73e58.jpg"
+    "thumbnail": "data/thumbnails/celeb_69e73e58.jpg",
+    "rank": 189
   },
   {
     "id": "celeb_837ebdf5",
     "name": "オードリー春日",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.4,
     "details": {
       "symmetry": 97,
@@ -3213,12 +3226,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg"
+    "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg",
+    "rank": 190
   },
   {
     "id": "celeb_21e7e113",
     "name": "所ジョージ",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.4,
     "details": {
       "symmetry": 0,
@@ -3229,12 +3243,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_21e7e113.jpg"
+    "thumbnail": "data/thumbnails/celeb_21e7e113.jpg",
+    "rank": 191
   },
   {
     "id": "celeb_3d1e3626",
     "name": "本田真凜",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.4,
     "details": {
       "symmetry": 0,
@@ -3245,12 +3260,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3d1e3626.jpg"
+    "thumbnail": "data/thumbnails/celeb_3d1e3626.jpg",
+    "rank": 192
   },
   {
     "id": "celeb_52f3ac8c",
     "name": "棚橋弘至",
-    "category": "prowrestler",
+    "category": "actor",
     "score": 50.4,
     "details": {
       "symmetry": 80,
@@ -3261,7 +3277,8 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg"
+    "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg",
+    "rank": 193
   },
   {
     "id": "celeb_31154454",
@@ -3277,28 +3294,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_31154454.jpg"
-  },
-  {
-    "id": "celeb_f2d774ff",
-    "name": "城島健司",
-    "category": "athlete",
-    "score": 50.4,
-    "details": {
-      "symmetry": 2,
-      "golden_ratio": 53,
-      "eyes": 54,
-      "nose": 46,
-      "mouth": 43,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_f2d774ff.jpg"
+    "thumbnail": "data/thumbnails/celeb_31154454.jpg",
+    "rank": 194
   },
   {
     "id": "celeb_34f69554",
     "name": "入江陵介",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.3,
     "details": {
       "symmetry": 64,
@@ -3309,12 +3311,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_34f69554.jpg"
+    "thumbnail": "data/thumbnails/celeb_34f69554.jpg",
+    "rank": 195
   },
   {
     "id": "celeb_279e22d3",
     "name": "武尊",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.3,
     "details": {
       "symmetry": 85,
@@ -3325,12 +3328,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_279e22d3.jpg"
+    "thumbnail": "data/thumbnails/celeb_279e22d3.jpg",
+    "rank": 196
   },
   {
     "id": "celeb_62dc0df1",
     "name": "鈴木明子",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.2,
     "details": {
       "symmetry": 0,
@@ -3341,12 +3345,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_62dc0df1.jpg"
+    "thumbnail": "data/thumbnails/celeb_62dc0df1.jpg",
+    "rank": 197
   },
   {
     "id": "celeb_a0f20d41",
     "name": "麒麟川島明",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.2,
     "details": {
       "symmetry": 96,
@@ -3357,12 +3362,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a0f20d41.jpg"
+    "thumbnail": "data/thumbnails/celeb_a0f20d41.jpg",
+    "rank": 198
   },
   {
     "id": "celeb_ccecfe2c",
     "name": "ゆりやんレトリィバァ",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.1,
     "details": {
       "symmetry": 56,
@@ -3373,12 +3379,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ccecfe2c.jpg"
+    "thumbnail": "data/thumbnails/celeb_ccecfe2c.jpg",
+    "rank": 199
   },
   {
     "id": "celeb_a15357f2",
     "name": "ダウンタウン松本人志",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.1,
     "details": {
       "symmetry": 14,
@@ -3389,12 +3396,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a15357f2.jpg"
+    "thumbnail": "data/thumbnails/celeb_a15357f2.jpg",
+    "rank": 200
   },
   {
     "id": "celeb_019d01ca",
     "name": "原口元気",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.1,
     "details": {
       "symmetry": 49,
@@ -3405,12 +3413,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_019d01ca.jpg"
+    "thumbnail": "data/thumbnails/celeb_019d01ca.jpg",
+    "rank": 201
   },
   {
     "id": "celeb_edeae298",
     "name": "山川穂高",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.1,
     "details": {
       "symmetry": 41,
@@ -3421,12 +3430,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_edeae298.jpg"
+    "thumbnail": "data/thumbnails/celeb_edeae298.jpg",
+    "rank": 202
   },
   {
     "id": "celeb_7614912c",
     "name": "貴乃花光司",
-    "category": "sumo",
+    "category": "actor",
     "score": 50.1,
     "details": {
       "symmetry": 59,
@@ -3437,12 +3447,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7614912c.jpg"
+    "thumbnail": "data/thumbnails/celeb_7614912c.jpg",
+    "rank": 203
   },
   {
     "id": "celeb_a477ab4e",
     "name": "高畑充希",
-    "category": "actress",
+    "category": "actor",
     "score": 50.1,
     "details": {
       "symmetry": 0,
@@ -3453,12 +3464,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a477ab4e.jpg"
+    "thumbnail": "data/thumbnails/celeb_a477ab4e.jpg",
+    "rank": 204
   },
   {
     "id": "celeb_3627b4a8",
     "name": "是枝裕和",
-    "category": "cultural",
+    "category": "actor",
     "score": 50.0,
     "details": {
       "symmetry": 83,
@@ -3469,12 +3481,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3627b4a8.jpg"
+    "thumbnail": "data/thumbnails/celeb_3627b4a8.jpg",
+    "rank": 205
   },
   {
     "id": "celeb_87212365",
     "name": "村田諒太",
-    "category": "athlete",
+    "category": "actor",
     "score": 50.0,
     "details": {
       "symmetry": 10,
@@ -3485,12 +3498,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_87212365.jpg"
+    "thumbnail": "data/thumbnails/celeb_87212365.jpg",
+    "rank": 206
   },
   {
     "id": "celeb_9058631c",
     "name": "東京03角田晃広",
-    "category": "comedian",
+    "category": "actor",
     "score": 50.0,
     "details": {
       "symmetry": 0,
@@ -3501,23 +3515,8 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9058631c.jpg"
-  },
-  {
-    "id": "celeb_fd437431",
-    "name": "松井秀喜",
-    "category": "athlete",
-    "score": 50.0,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 36,
-      "eyes": 75,
-      "nose": 28,
-      "mouth": 74,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_fd437431.jpg"
+    "thumbnail": "data/thumbnails/celeb_9058631c.jpg",
+    "rank": 207
   },
   {
     "id": "celeb_81ac4847",
@@ -3533,12 +3532,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_81ac4847.jpg"
+    "thumbnail": "data/thumbnails/celeb_81ac4847.jpg",
+    "rank": 208
   },
   {
     "id": "celeb_ef0e4ead",
     "name": "松田好花",
-    "category": "idol",
+    "category": "actor",
     "score": 49.9,
     "details": {
       "symmetry": 67,
@@ -3549,28 +3549,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ef0e4ead.jpg"
-  },
-  {
-    "id": "celeb_6b860644",
-    "name": "岡崎慎司",
-    "category": "athlete",
-    "score": 49.9,
-    "details": {
-      "symmetry": 83,
-      "golden_ratio": 37,
-      "eyes": 60,
-      "nose": 47,
-      "mouth": 74,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6b860644.jpg"
+    "thumbnail": "data/thumbnails/celeb_ef0e4ead.jpg",
+    "rank": 209
   },
   {
     "id": "celeb_c96c2edf",
     "name": "りゅうちぇる",
-    "category": "influencer",
+    "category": "actor",
     "score": 49.8,
     "details": {
       "symmetry": 58,
@@ -3581,12 +3566,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c96c2edf.jpg"
+    "thumbnail": "data/thumbnails/celeb_c96c2edf.jpg",
+    "rank": 210
   },
   {
     "id": "celeb_2995aeed",
     "name": "伊東純也",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.8,
     "details": {
       "symmetry": 0,
@@ -3597,12 +3583,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2995aeed.jpg"
+    "thumbnail": "data/thumbnails/celeb_2995aeed.jpg",
+    "rank": 211
   },
   {
     "id": "celeb_ff51d05d",
     "name": "北青鵬治",
-    "category": "sumo",
+    "category": "actor",
     "score": 49.8,
     "details": {
       "symmetry": 62,
@@ -3613,12 +3600,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ff51d05d.jpg"
+    "thumbnail": "data/thumbnails/celeb_ff51d05d.jpg",
+    "rank": 212
   },
   {
     "id": "celeb_1dbbe00c",
     "name": "把瑠都凱斗",
-    "category": "sumo",
+    "category": "actor",
     "score": 49.8,
     "details": {
       "symmetry": 92,
@@ -3629,12 +3617,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1dbbe00c.jpg"
+    "thumbnail": "data/thumbnails/celeb_1dbbe00c.jpg",
+    "rank": 213
   },
   {
     "id": "celeb_90db6e29",
     "name": "水谷隼",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.8,
     "details": {
       "symmetry": 0,
@@ -3645,12 +3634,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_90db6e29.jpg"
+    "thumbnail": "data/thumbnails/celeb_90db6e29.jpg",
+    "rank": 214
   },
   {
     "id": "celeb_f07f5d9e",
     "name": "福原愛",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.8,
     "details": {
       "symmetry": 28,
@@ -3661,12 +3651,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f07f5d9e.jpg"
+    "thumbnail": "data/thumbnails/celeb_f07f5d9e.jpg",
+    "rank": 215
   },
   {
     "id": "celeb_991b93e0",
     "name": "見取り図盛山",
-    "category": "comedian",
+    "category": "actor",
     "score": 49.7,
     "details": {
       "symmetry": 78,
@@ -3677,12 +3668,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_991b93e0.jpg"
+    "thumbnail": "data/thumbnails/celeb_991b93e0.jpg",
+    "rank": 216
   },
   {
     "id": "celeb_5ebe34be",
     "name": "鈴木敏夫",
-    "category": "cultural",
+    "category": "actor",
     "score": 49.7,
     "details": {
       "symmetry": 0,
@@ -3693,12 +3685,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5ebe34be.jpg"
+    "thumbnail": "data/thumbnails/celeb_5ebe34be.jpg",
+    "rank": 217
   },
   {
     "id": "celeb_d04d3faa",
     "name": "伊藤美誠",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.6,
     "details": {
       "symmetry": 0,
@@ -3709,12 +3702,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d04d3faa.jpg"
+    "thumbnail": "data/thumbnails/celeb_d04d3faa.jpg",
+    "rank": 218
   },
   {
     "id": "celeb_9735df76",
     "name": "山里亮太",
-    "category": "comedian",
+    "category": "actor",
     "score": 49.6,
     "details": {
       "symmetry": 0,
@@ -3725,12 +3719,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9735df76.jpg"
+    "thumbnail": "data/thumbnails/celeb_9735df76.jpg",
+    "rank": 219
   },
   {
     "id": "celeb_823e1d4c",
     "name": "田中美久",
-    "category": "idol",
+    "category": "actor",
     "score": 49.6,
     "details": {
       "symmetry": 3,
@@ -3741,12 +3736,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_823e1d4c.jpg"
+    "thumbnail": "data/thumbnails/celeb_823e1d4c.jpg",
+    "rank": 220
   },
   {
     "id": "celeb_4668c84c",
     "name": "柴咲コウ",
-    "category": "actress",
+    "category": "actor",
     "score": 49.5,
     "details": {
       "symmetry": 0,
@@ -3757,12 +3753,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4668c84c.jpg"
+    "thumbnail": "data/thumbnails/celeb_4668c84c.jpg",
+    "rank": 221
   },
   {
     "id": "celeb_f7f02f46",
     "name": "武藤敬司",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.5,
     "details": {
       "symmetry": 64,
@@ -3773,12 +3770,13 @@
       "contour": 37,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f7f02f46.jpg"
+    "thumbnail": "data/thumbnails/celeb_f7f02f46.jpg",
+    "rank": 222
   },
   {
     "id": "celeb_5fb19187",
     "name": "岩渕真奈",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.4,
     "details": {
       "symmetry": 50,
@@ -3789,12 +3787,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5fb19187.jpg"
+    "thumbnail": "data/thumbnails/celeb_5fb19187.jpg",
+    "rank": 223
   },
   {
     "id": "celeb_c493e8ad",
     "name": "鈴木彩艶",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.4,
     "details": {
       "symmetry": 0,
@@ -3805,12 +3804,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c493e8ad.jpg"
+    "thumbnail": "data/thumbnails/celeb_c493e8ad.jpg",
+    "rank": 224
   },
   {
     "id": "celeb_059f9821",
     "name": "齋藤飛鳥",
-    "category": "idol",
+    "category": "actor",
     "score": 49.4,
     "details": {
       "symmetry": 0,
@@ -3821,12 +3821,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_059f9821.jpg"
+    "thumbnail": "data/thumbnails/celeb_059f9821.jpg",
+    "rank": 225
   },
   {
     "id": "celeb_7e1c007e",
     "name": "小野伸二",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.3,
     "details": {
       "symmetry": 0,
@@ -3837,7 +3838,8 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7e1c007e.jpg"
+    "thumbnail": "data/thumbnails/celeb_7e1c007e.jpg",
+    "rank": 226
   },
   {
     "id": "celeb_e9ce073c",
@@ -3853,12 +3855,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg"
+    "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg",
+    "rank": 227
   },
   {
     "id": "celeb_1f9d8d9a",
     "name": "近藤健介",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.3,
     "details": {
       "symmetry": 16,
@@ -3869,28 +3872,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1f9d8d9a.jpg"
-  },
-  {
-    "id": "celeb_ca87d0c6",
-    "name": "大野将平",
-    "category": "athlete",
-    "score": 49.3,
-    "details": {
-      "symmetry": 12,
-      "golden_ratio": 31,
-      "eyes": 87,
-      "nose": 45,
-      "mouth": 51,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ca87d0c6.jpg"
+    "thumbnail": "data/thumbnails/celeb_1f9d8d9a.jpg",
+    "rank": 228
   },
   {
     "id": "celeb_ac7524e2",
     "name": "中田敦彦",
-    "category": "youtuber",
+    "category": "actor",
     "score": 49.2,
     "details": {
       "symmetry": 0,
@@ -3901,12 +3889,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ac7524e2.jpg"
+    "thumbnail": "data/thumbnails/celeb_ac7524e2.jpg",
+    "rank": 229
   },
   {
     "id": "celeb_6cf416f9",
     "name": "出川哲朗",
-    "category": "comedian",
+    "category": "actor",
     "score": 49.2,
     "details": {
       "symmetry": 0,
@@ -3917,12 +3906,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6cf416f9.jpg"
+    "thumbnail": "data/thumbnails/celeb_6cf416f9.jpg",
+    "rank": 230
   },
   {
     "id": "celeb_66726759",
     "name": "登坂絵莉",
-    "category": "athlete",
+    "category": "actor",
     "score": 49.2,
     "details": {
       "symmetry": 60,
@@ -3933,12 +3923,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_66726759.jpg"
+    "thumbnail": "data/thumbnails/celeb_66726759.jpg",
+    "rank": 231
   },
   {
     "id": "celeb_63486bf4",
     "name": "ウエストランド井口",
-    "category": "comedian",
+    "category": "actor",
     "score": 49.1,
     "details": {
       "symmetry": 26,
@@ -3949,12 +3940,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_63486bf4.jpg"
+    "thumbnail": "data/thumbnails/celeb_63486bf4.jpg",
+    "rank": 232
   },
   {
     "id": "celeb_9475748b",
     "name": "北島康介",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.9,
     "details": {
       "symmetry": 50,
@@ -3965,12 +3957,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9475748b.jpg"
+    "thumbnail": "data/thumbnails/celeb_9475748b.jpg",
+    "rank": 233
   },
   {
     "id": "celeb_1104276d",
     "name": "品川祐",
-    "category": "comedian",
+    "category": "actor",
     "score": 48.8,
     "details": {
       "symmetry": 83,
@@ -3981,12 +3974,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1104276d.jpg"
+    "thumbnail": "data/thumbnails/celeb_1104276d.jpg",
+    "rank": 234
   },
   {
     "id": "celeb_ffd3013a",
     "name": "岡本和真",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.8,
     "details": {
       "symmetry": 37,
@@ -3997,12 +3991,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ffd3013a.jpg"
+    "thumbnail": "data/thumbnails/celeb_ffd3013a.jpg",
+    "rank": 235
   },
   {
     "id": "celeb_6f7fd76c",
     "name": "満島ひかり",
-    "category": "actress",
+    "category": "actor",
     "score": 48.8,
     "details": {
       "symmetry": 0,
@@ -4013,12 +4008,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6f7fd76c.jpg"
+    "thumbnail": "data/thumbnails/celeb_6f7fd76c.jpg",
+    "rank": 236
   },
   {
     "id": "celeb_72b74c02",
     "name": "島田紳助",
-    "category": "comedian",
+    "category": "actor",
     "score": 48.7,
     "details": {
       "symmetry": 0,
@@ -4029,12 +4025,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_72b74c02.jpg"
+    "thumbnail": "data/thumbnails/celeb_72b74c02.jpg",
+    "rank": 237
   },
   {
     "id": "celeb_5394f67c",
     "name": "オカダ・カズチカ",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.6,
     "details": {
       "symmetry": 0,
@@ -4045,12 +4042,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5394f67c.jpg"
+    "thumbnail": "data/thumbnails/celeb_5394f67c.jpg",
+    "rank": 238
   },
   {
     "id": "celeb_db711d1c",
     "name": "ケンドーコバヤシ",
-    "category": "comedian",
+    "category": "actor",
     "score": 48.6,
     "details": {
       "symmetry": 40,
@@ -4061,12 +4059,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_db711d1c.jpg"
+    "thumbnail": "data/thumbnails/celeb_db711d1c.jpg",
+    "rank": 239
   },
   {
     "id": "celeb_7cee5860",
     "name": "マヂカルラブリー村上",
-    "category": "comedian",
+    "category": "actor",
     "score": 48.6,
     "details": {
       "symmetry": 7,
@@ -4077,12 +4076,13 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7cee5860.jpg"
+    "thumbnail": "data/thumbnails/celeb_7cee5860.jpg",
+    "rank": 240
   },
   {
     "id": "celeb_1fbd93fe",
     "name": "久保建英",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.6,
     "details": {
       "symmetry": 26,
@@ -4093,12 +4093,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1fbd93fe.jpg"
+    "thumbnail": "data/thumbnails/celeb_1fbd93fe.jpg",
+    "rank": 241
   },
   {
     "id": "celeb_da152d88",
     "name": "秋田豊",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.6,
     "details": {
       "symmetry": 15,
@@ -4109,12 +4110,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_da152d88.jpg"
+    "thumbnail": "data/thumbnails/celeb_da152d88.jpg",
+    "rank": 242
   },
   {
     "id": "celeb_b378ed24",
     "name": "青木翔大",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.6,
     "details": {
       "symmetry": 60,
@@ -4125,12 +4127,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b378ed24.jpg"
+    "thumbnail": "data/thumbnails/celeb_b378ed24.jpg",
+    "rank": 243
   },
   {
     "id": "celeb_b540e278",
     "name": "デヴィ夫人",
-    "category": "cultural",
+    "category": "actor",
     "score": 48.4,
     "details": {
       "symmetry": 0,
@@ -4141,12 +4144,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b540e278.jpg"
+    "thumbnail": "data/thumbnails/celeb_b540e278.jpg",
+    "rank": 244
   },
   {
     "id": "celeb_00573e3e",
     "name": "宇野昌磨",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.4,
     "details": {
       "symmetry": 1,
@@ -4157,12 +4161,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_00573e3e.jpg"
+    "thumbnail": "data/thumbnails/celeb_00573e3e.jpg",
+    "rank": 245
   },
   {
     "id": "celeb_f3ef5479",
     "name": "藤波辰爾",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.4,
     "details": {
       "symmetry": 0,
@@ -4173,12 +4178,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f3ef5479.jpg"
+    "thumbnail": "data/thumbnails/celeb_f3ef5479.jpg",
+    "rank": 246
   },
   {
     "id": "celeb_5e0f9f69",
     "name": "谷口彰悟",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.4,
     "details": {
       "symmetry": 0,
@@ -4189,7 +4195,8 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5e0f9f69.jpg"
+    "thumbnail": "data/thumbnails/celeb_5e0f9f69.jpg",
+    "rank": 247
   },
   {
     "id": "celeb_afed590f",
@@ -4205,12 +4212,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_afed590f.jpg"
+    "thumbnail": "data/thumbnails/celeb_afed590f.jpg",
+    "rank": 248
   },
   {
     "id": "celeb_7a99bc55",
     "name": "橋本奈々未",
-    "category": "idol",
+    "category": "actor",
     "score": 48.2,
     "details": {
       "symmetry": 0,
@@ -4221,12 +4229,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7a99bc55.jpg"
+    "thumbnail": "data/thumbnails/celeb_7a99bc55.jpg",
+    "rank": 249
   },
   {
     "id": "celeb_841b3e0a",
     "name": "堀口恭司",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.0,
     "details": {
       "symmetry": 0,
@@ -4237,12 +4246,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_841b3e0a.jpg"
+    "thumbnail": "data/thumbnails/celeb_841b3e0a.jpg",
+    "rank": 250
   },
   {
     "id": "celeb_51472794",
     "name": "守田英正",
-    "category": "athlete",
+    "category": "actor",
     "score": 48.0,
     "details": {
       "symmetry": 0,
@@ -4253,12 +4263,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_51472794.jpg"
+    "thumbnail": "data/thumbnails/celeb_51472794.jpg",
+    "rank": 251
   },
   {
     "id": "celeb_45ee45d4",
     "name": "寺尾常史",
-    "category": "sumo",
+    "category": "actor",
     "score": 48.0,
     "details": {
       "symmetry": 0,
@@ -4269,12 +4280,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_45ee45d4.jpg"
+    "thumbnail": "data/thumbnails/celeb_45ee45d4.jpg",
+    "rank": 252
   },
   {
     "id": "celeb_03461ce3",
     "name": "バイきんぐ小峠",
-    "category": "comedian",
+    "category": "actor",
     "score": 47.9,
     "details": {
       "symmetry": 74,
@@ -4285,12 +4297,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_03461ce3.jpg"
+    "thumbnail": "data/thumbnails/celeb_03461ce3.jpg",
+    "rank": 253
   },
   {
     "id": "celeb_b611ec1d",
     "name": "中川家礼二",
-    "category": "comedian",
+    "category": "actor",
     "score": 47.8,
     "details": {
       "symmetry": 0,
@@ -4301,12 +4314,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b611ec1d.jpg"
+    "thumbnail": "data/thumbnails/celeb_b611ec1d.jpg",
+    "rank": 254
   },
   {
     "id": "celeb_03d21e14",
     "name": "加藤ミリヤ",
-    "category": "artist",
+    "category": "actor",
     "score": 47.8,
     "details": {
       "symmetry": 55,
@@ -4317,12 +4331,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_03d21e14.jpg"
+    "thumbnail": "data/thumbnails/celeb_03d21e14.jpg",
+    "rank": 255
   },
   {
     "id": "celeb_3b0aa56c",
     "name": "大谷映美里",
-    "category": "idol",
+    "category": "actor",
     "score": 47.8,
     "details": {
       "symmetry": 0,
@@ -4333,12 +4348,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3b0aa56c.jpg"
+    "thumbnail": "data/thumbnails/celeb_3b0aa56c.jpg",
+    "rank": 256
   },
   {
     "id": "celeb_abca29fe",
     "name": "旭富士正也",
-    "category": "sumo",
+    "category": "actor",
     "score": 47.8,
     "details": {
       "symmetry": 0,
@@ -4349,12 +4365,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_abca29fe.jpg"
+    "thumbnail": "data/thumbnails/celeb_abca29fe.jpg",
+    "rank": 257
   },
   {
     "id": "celeb_ce12edd4",
     "name": "角田夏実",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.8,
     "details": {
       "symmetry": 28,
@@ -4365,12 +4382,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ce12edd4.jpg"
+    "thumbnail": "data/thumbnails/celeb_ce12edd4.jpg",
+    "rank": 258
   },
   {
     "id": "celeb_6ea0542d",
     "name": "田中希実",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.7,
     "details": {
       "symmetry": 0,
@@ -4381,12 +4399,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6ea0542d.jpg"
+    "thumbnail": "data/thumbnails/celeb_6ea0542d.jpg",
+    "rank": 259
   },
   {
     "id": "celeb_9df49b86",
     "name": "石川佳純",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.7,
     "details": {
       "symmetry": 12,
@@ -4397,7 +4416,8 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9df49b86.jpg"
+    "thumbnail": "data/thumbnails/celeb_9df49b86.jpg",
+    "rank": 260
   },
   {
     "id": "celeb_b59422ac",
@@ -4413,12 +4433,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b59422ac.jpg"
+    "thumbnail": "data/thumbnails/celeb_b59422ac.jpg",
+    "rank": 261
   },
   {
     "id": "celeb_8a661ab9",
     "name": "笑福亭鶴瓶",
-    "category": "comedian",
+    "category": "actor",
     "score": 47.7,
     "details": {
       "symmetry": 52,
@@ -4429,12 +4450,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8a661ab9.jpg"
+    "thumbnail": "data/thumbnails/celeb_8a661ab9.jpg",
+    "rank": 262
   },
   {
     "id": "celeb_a2948e70",
     "name": "ザッケローニ",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.6,
     "details": {
       "symmetry": 7,
@@ -4445,12 +4467,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a2948e70.jpg"
+    "thumbnail": "data/thumbnails/celeb_a2948e70.jpg",
+    "rank": 263
   },
   {
     "id": "celeb_b259d958",
     "name": "宮脇咲良",
-    "category": "idol",
+    "category": "actor",
     "score": 47.6,
     "details": {
       "symmetry": 0,
@@ -4461,12 +4484,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b259d958.jpg"
+    "thumbnail": "data/thumbnails/celeb_b259d958.jpg",
+    "rank": 264
   },
   {
     "id": "celeb_20aa5f92",
     "name": "槇原敬之",
-    "category": "musician",
+    "category": "actor",
     "score": 47.6,
     "details": {
       "symmetry": 0,
@@ -4477,12 +4501,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_20aa5f92.jpg"
+    "thumbnail": "data/thumbnails/celeb_20aa5f92.jpg",
+    "rank": 265
   },
   {
     "id": "celeb_23ffcc74",
     "name": "浅田真央",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.6,
     "details": {
       "symmetry": 62,
@@ -4493,12 +4518,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_23ffcc74.jpg"
+    "thumbnail": "data/thumbnails/celeb_23ffcc74.jpg",
+    "rank": 266
   },
   {
     "id": "celeb_8a939d4b",
     "name": "長澤まさみ",
-    "category": "actress",
+    "category": "actor",
     "score": 47.6,
     "details": {
       "symmetry": 94,
@@ -4509,28 +4535,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8a939d4b.jpg"
-  },
-  {
-    "id": "celeb_aaba5ba2",
-    "name": "中田英寿",
-    "category": "athlete",
-    "score": 47.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 34,
-      "eyes": 61,
-      "nose": 60,
-      "mouth": 53,
-      "contour": 48,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_aaba5ba2.jpg"
+    "thumbnail": "data/thumbnails/celeb_8a939d4b.jpg",
+    "rank": 267
   },
   {
     "id": "celeb_4a71e3af",
     "name": "ジャルジャル福徳秀介",
-    "category": "comedian",
+    "category": "actor",
     "score": 47.5,
     "details": {
       "symmetry": 0,
@@ -4541,12 +4552,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4a71e3af.jpg"
+    "thumbnail": "data/thumbnails/celeb_4a71e3af.jpg",
+    "rank": 268
   },
   {
     "id": "celeb_42b5c774",
     "name": "松本まりか",
-    "category": "actress",
+    "category": "actor",
     "score": 47.5,
     "details": {
       "symmetry": 29,
@@ -4557,12 +4569,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_42b5c774.jpg"
+    "thumbnail": "data/thumbnails/celeb_42b5c774.jpg",
+    "rank": 269
   },
   {
     "id": "celeb_26a1c1c0",
     "name": "北口榛花",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.4,
     "details": {
       "symmetry": 38,
@@ -4573,12 +4586,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_26a1c1c0.jpg"
+    "thumbnail": "data/thumbnails/celeb_26a1c1c0.jpg",
+    "rank": 270
   },
   {
     "id": "celeb_86a3749d",
     "name": "宮川大輔",
-    "category": "comedian",
+    "category": "actor",
     "score": 47.4,
     "details": {
       "symmetry": 0,
@@ -4589,12 +4603,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_86a3749d.jpg"
+    "thumbnail": "data/thumbnails/celeb_86a3749d.jpg",
+    "rank": 271
   },
   {
     "id": "celeb_6eb00b9d",
     "name": "有村架純",
-    "category": "actress",
+    "category": "actor",
     "score": 47.4,
     "details": {
       "symmetry": 29,
@@ -4605,12 +4620,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6eb00b9d.jpg"
+    "thumbnail": "data/thumbnails/celeb_6eb00b9d.jpg",
+    "rank": 272
   },
   {
     "id": "celeb_39ed878f",
     "name": "柴崎岳",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.4,
     "details": {
       "symmetry": 0,
@@ -4621,7 +4637,8 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_39ed878f.jpg"
+    "thumbnail": "data/thumbnails/celeb_39ed878f.jpg",
+    "rank": 273
   },
   {
     "id": "celeb_ea5ea927",
@@ -4637,12 +4654,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ea5ea927.jpg"
+    "thumbnail": "data/thumbnails/celeb_ea5ea927.jpg",
+    "rank": 274
   },
   {
     "id": "celeb_b6c6cc16",
     "name": "伊調馨",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.3,
     "details": {
       "symmetry": 0,
@@ -4653,12 +4671,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b6c6cc16.jpg"
+    "thumbnail": "data/thumbnails/celeb_b6c6cc16.jpg",
+    "rank": 275
   },
   {
     "id": "celeb_942645d6",
     "name": "徳勝龍誠",
-    "category": "sumo",
+    "category": "actor",
     "score": 47.3,
     "details": {
       "symmetry": 35,
@@ -4669,12 +4688,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_942645d6.jpg"
+    "thumbnail": "data/thumbnails/celeb_942645d6.jpg",
+    "rank": 276
   },
   {
     "id": "celeb_79de5e14",
     "name": "渡辺雄太",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.3,
     "details": {
       "symmetry": 75,
@@ -4685,12 +4705,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_79de5e14.jpg"
+    "thumbnail": "data/thumbnails/celeb_79de5e14.jpg",
+    "rank": 277
   },
   {
     "id": "celeb_618284cd",
     "name": "豪風旭",
-    "category": "sumo",
+    "category": "actor",
     "score": 47.3,
     "details": {
       "symmetry": 40,
@@ -4701,12 +4722,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_618284cd.jpg"
+    "thumbnail": "data/thumbnails/celeb_618284cd.jpg",
+    "rank": 278
   },
   {
     "id": "celeb_f7b19298",
     "name": "上白石萌歌",
-    "category": "actress",
+    "category": "actor",
     "score": 47.2,
     "details": {
       "symmetry": 0,
@@ -4717,12 +4739,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f7b19298.jpg"
+    "thumbnail": "data/thumbnails/celeb_f7b19298.jpg",
+    "rank": 279
   },
   {
     "id": "celeb_c88b6503",
     "name": "南野拓実",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.2,
     "details": {
       "symmetry": 0,
@@ -4733,7 +4756,8 @@
       "contour": 39,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c88b6503.jpg"
+    "thumbnail": "data/thumbnails/celeb_c88b6503.jpg",
+    "rank": 280
   },
   {
     "id": "celeb_5edc166e",
@@ -4749,12 +4773,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5edc166e.jpg"
+    "thumbnail": "data/thumbnails/celeb_5edc166e.jpg",
+    "rank": 281
   },
   {
     "id": "celeb_a16019e6",
     "name": "富樫勇樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.2,
     "details": {
       "symmetry": 0,
@@ -4765,12 +4790,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a16019e6.jpg"
+    "thumbnail": "data/thumbnails/celeb_a16019e6.jpg",
+    "rank": 282
   },
   {
     "id": "celeb_06f73f76",
     "name": "飯豊まりえ",
-    "category": "actress",
+    "category": "actor",
     "score": 47.2,
     "details": {
       "symmetry": 44,
@@ -4781,12 +4807,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_06f73f76.jpg"
+    "thumbnail": "data/thumbnails/celeb_06f73f76.jpg",
+    "rank": 283
   },
   {
     "id": "celeb_c60afb96",
     "name": "山田杏奈",
-    "category": "actress",
+    "category": "actor",
     "score": 47.1,
     "details": {
       "symmetry": 71,
@@ -4797,12 +4824,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c60afb96.jpg"
+    "thumbnail": "data/thumbnails/celeb_c60afb96.jpg",
+    "rank": 284
   },
   {
     "id": "celeb_db84facb",
     "name": "高橋尚子",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.1,
     "details": {
       "symmetry": 81,
@@ -4813,12 +4841,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_db84facb.jpg"
+    "thumbnail": "data/thumbnails/celeb_db84facb.jpg",
+    "rank": 285
   },
   {
     "id": "celeb_ef17039b",
     "name": "やす子",
-    "category": "comedian",
+    "category": "actor",
     "score": 47.0,
     "details": {
       "symmetry": 0,
@@ -4829,12 +4858,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ef17039b.jpg"
+    "thumbnail": "data/thumbnails/celeb_ef17039b.jpg",
+    "rank": 286
   },
   {
     "id": "celeb_07bafcfd",
     "name": "大迫勇也",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.0,
     "details": {
       "symmetry": 0,
@@ -4845,12 +4875,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_07bafcfd.jpg"
+    "thumbnail": "data/thumbnails/celeb_07bafcfd.jpg",
+    "rank": 287
   },
   {
     "id": "celeb_55e7d430",
     "name": "遠藤航",
-    "category": "athlete",
+    "category": "actor",
     "score": 47.0,
     "details": {
       "symmetry": 34,
@@ -4861,60 +4892,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_55e7d430.jpg"
-  },
-  {
-    "id": "celeb_0b82b226",
-    "name": "石原さとみ",
-    "category": "actress",
-    "score": 47.0,
-    "details": {
-      "symmetry": 61,
-      "golden_ratio": 43,
-      "eyes": 60,
-      "nose": 32,
-      "mouth": 48,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_0b82b226.jpg"
-  },
-  {
-    "id": "celeb_fc267b63",
-    "name": "八村塁",
-    "category": "athlete",
-    "score": 47.0,
-    "details": {
-      "symmetry": 40,
-      "golden_ratio": 36,
-      "eyes": 100,
-      "nose": 62,
-      "mouth": 17,
-      "contour": 38,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_fc267b63.jpg"
-  },
-  {
-    "id": "celeb_87d4980d",
-    "name": "藤井フミヤ",
-    "category": "cultural",
-    "score": 47.0,
-    "details": {
-      "symmetry": 5,
-      "golden_ratio": 31,
-      "eyes": 61,
-      "nose": 39,
-      "mouth": 74,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_87d4980d.jpg"
+    "thumbnail": "data/thumbnails/celeb_55e7d430.jpg",
+    "rank": 288
   },
   {
     "id": "celeb_6b68664d",
     "name": "チョコレートプラネット長田庄平",
-    "category": "comedian",
+    "category": "actor",
     "score": 46.9,
     "details": {
       "symmetry": 0,
@@ -4925,12 +4909,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6b68664d.jpg"
+    "thumbnail": "data/thumbnails/celeb_6b68664d.jpg",
+    "rank": 289
   },
   {
     "id": "celeb_367a801d",
     "name": "亀田大毅",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.8,
     "details": {
       "symmetry": 64,
@@ -4941,12 +4926,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_367a801d.jpg"
+    "thumbnail": "data/thumbnails/celeb_367a801d.jpg",
+    "rank": 290
   },
   {
     "id": "celeb_13324160",
     "name": "細田守",
-    "category": "cultural",
+    "category": "actor",
     "score": 46.8,
     "details": {
       "symmetry": 45,
@@ -4957,12 +4943,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_13324160.jpg"
+    "thumbnail": "data/thumbnails/celeb_13324160.jpg",
+    "rank": 291
   },
   {
     "id": "celeb_c2bfad08",
     "name": "遠藤保仁",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.8,
     "details": {
       "symmetry": 0,
@@ -4973,12 +4960,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c2bfad08.jpg"
+    "thumbnail": "data/thumbnails/celeb_c2bfad08.jpg",
+    "rank": 292
   },
   {
     "id": "celeb_5d64a1bc",
     "name": "鎌田大地",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.8,
     "details": {
       "symmetry": 17,
@@ -4989,12 +4977,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5d64a1bc.jpg"
+    "thumbnail": "data/thumbnails/celeb_5d64a1bc.jpg",
+    "rank": 293
   },
   {
     "id": "celeb_207654ff",
     "name": "伊藤洋輝",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.7,
     "details": {
       "symmetry": 5,
@@ -5005,12 +4994,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_207654ff.jpg"
+    "thumbnail": "data/thumbnails/celeb_207654ff.jpg",
+    "rank": 294
   },
   {
     "id": "celeb_5d448f34",
     "name": "双葉山定次",
-    "category": "sumo",
+    "category": "actor",
     "score": 46.6,
     "details": {
       "symmetry": 0,
@@ -5021,12 +5011,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5d448f34.jpg"
+    "thumbnail": "data/thumbnails/celeb_5d448f34.jpg",
+    "rank": 295
   },
   {
     "id": "celeb_6078eafb",
     "name": "照強翔輝",
-    "category": "sumo",
+    "category": "actor",
     "score": 46.6,
     "details": {
       "symmetry": 44,
@@ -5037,12 +5028,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6078eafb.jpg"
+    "thumbnail": "data/thumbnails/celeb_6078eafb.jpg",
+    "rank": 296
   },
   {
     "id": "celeb_5ed737d9",
     "name": "真中まな",
-    "category": "idol",
+    "category": "actor",
     "score": 46.6,
     "details": {
       "symmetry": 21,
@@ -5053,12 +5045,13 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5ed737d9.jpg"
+    "thumbnail": "data/thumbnails/celeb_5ed737d9.jpg",
+    "rank": 297
   },
   {
     "id": "celeb_6f0bad34",
     "name": "村上佳菜子",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.5,
     "details": {
       "symmetry": 44,
@@ -5069,12 +5062,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6f0bad34.jpg"
+    "thumbnail": "data/thumbnails/celeb_6f0bad34.jpg",
+    "rank": 298
   },
   {
     "id": "celeb_1a37ab4a",
     "name": "植田直通",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.5,
     "details": {
       "symmetry": 49,
@@ -5085,12 +5079,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1a37ab4a.jpg"
+    "thumbnail": "data/thumbnails/celeb_1a37ab4a.jpg",
+    "rank": 299
   },
   {
     "id": "celeb_72d8d22d",
     "name": "長友佑都",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.5,
     "details": {
       "symmetry": 42,
@@ -5101,12 +5096,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_72d8d22d.jpg"
+    "thumbnail": "data/thumbnails/celeb_72d8d22d.jpg",
+    "rank": 300
   },
   {
     "id": "celeb_1dd830b0",
     "name": "Crystal Kay",
-    "category": "artist",
+    "category": "actor",
     "score": 46.4,
     "details": {
       "symmetry": 0,
@@ -5117,12 +5113,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1dd830b0.jpg"
+    "thumbnail": "data/thumbnails/celeb_1dd830b0.jpg",
+    "rank": 301
   },
   {
     "id": "celeb_00977ab0",
     "name": "北勝富士大輝",
-    "category": "sumo",
+    "category": "actor",
     "score": 46.4,
     "details": {
       "symmetry": 87,
@@ -5133,12 +5130,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_00977ab0.jpg"
+    "thumbnail": "data/thumbnails/celeb_00977ab0.jpg",
+    "rank": 302
   },
   {
     "id": "celeb_49db2096",
     "name": "秋山翔吾",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.4,
     "details": {
       "symmetry": 46,
@@ -5149,12 +5147,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_49db2096.jpg"
+    "thumbnail": "data/thumbnails/celeb_49db2096.jpg",
+    "rank": 303
   },
   {
     "id": "celeb_fa7bc9b7",
     "name": "萩本欽一",
-    "category": "comedian",
+    "category": "actor",
     "score": 46.4,
     "details": {
       "symmetry": 46,
@@ -5165,12 +5164,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fa7bc9b7.jpg"
+    "thumbnail": "data/thumbnails/celeb_fa7bc9b7.jpg",
+    "rank": 304
   },
   {
     "id": "celeb_b54011ee",
     "name": "長嶋茂雄",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.4,
     "details": {
       "symmetry": 58,
@@ -5181,7 +5181,8 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b54011ee.jpg"
+    "thumbnail": "data/thumbnails/celeb_b54011ee.jpg",
+    "rank": 305
   },
   {
     "id": "celeb_3f99f4f9",
@@ -5197,12 +5198,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg"
+    "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg",
+    "rank": 306
   },
   {
     "id": "celeb_c95f4e59",
     "name": "張本智和",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.3,
     "details": {
       "symmetry": 10,
@@ -5213,12 +5215,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg"
+    "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg",
+    "rank": 307
   },
   {
     "id": "celeb_2783f349",
     "name": "永瀬貴規",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.3,
     "details": {
       "symmetry": 0,
@@ -5229,12 +5232,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2783f349.jpg"
+    "thumbnail": "data/thumbnails/celeb_2783f349.jpg",
+    "rank": 308
   },
   {
     "id": "celeb_77d4c4da",
     "name": "賀喜遥香",
-    "category": "idol",
+    "category": "actor",
     "score": 46.2,
     "details": {
       "symmetry": 0,
@@ -5245,12 +5249,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_77d4c4da.jpg"
+    "thumbnail": "data/thumbnails/celeb_77d4c4da.jpg",
+    "rank": 309
   },
   {
     "id": "celeb_7690920c",
     "name": "松中信彦",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.1,
     "details": {
       "symmetry": 65,
@@ -5261,12 +5266,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7690920c.jpg"
+    "thumbnail": "data/thumbnails/celeb_7690920c.jpg",
+    "rank": 310
   },
   {
     "id": "celeb_d5ed8178",
     "name": "浜口京子",
-    "category": "athlete",
+    "category": "actor",
     "score": 46.0,
     "details": {
       "symmetry": 49,
@@ -5277,12 +5283,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d5ed8178.jpg"
+    "thumbnail": "data/thumbnails/celeb_d5ed8178.jpg",
+    "rank": 311
   },
   {
     "id": "celeb_85b14d12",
     "name": "隠岐の海歩",
-    "category": "sumo",
+    "category": "actor",
     "score": 46.0,
     "details": {
       "symmetry": 0,
@@ -5293,12 +5300,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_85b14d12.jpg"
+    "thumbnail": "data/thumbnails/celeb_85b14d12.jpg",
+    "rank": 312
   },
   {
     "id": "celeb_3dbe559b",
     "name": "前田敦子",
-    "category": "idol",
+    "category": "actor",
     "score": 45.9,
     "details": {
       "symmetry": 0,
@@ -5309,12 +5317,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3dbe559b.jpg"
+    "thumbnail": "data/thumbnails/celeb_3dbe559b.jpg",
+    "rank": 313
   },
   {
     "id": "celeb_7ac63d35",
     "name": "権田修一",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.8,
     "details": {
       "symmetry": 13,
@@ -5325,12 +5334,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7ac63d35.jpg"
+    "thumbnail": "data/thumbnails/celeb_7ac63d35.jpg",
+    "rank": 314
   },
   {
     "id": "celeb_7f4bad0e",
     "name": "北の湖敏満",
-    "category": "sumo",
+    "category": "actor",
     "score": 45.6,
     "details": {
       "symmetry": 0,
@@ -5341,12 +5351,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7f4bad0e.jpg"
+    "thumbnail": "data/thumbnails/celeb_7f4bad0e.jpg",
+    "rank": 315
   },
   {
     "id": "celeb_94cd0899",
     "name": "永田裕志",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.6,
     "details": {
       "symmetry": 0,
@@ -5357,12 +5368,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_94cd0899.jpg"
+    "thumbnail": "data/thumbnails/celeb_94cd0899.jpg",
+    "rank": 316
   },
   {
     "id": "celeb_9f1cbcdf",
     "name": "熊谷紗希",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.6,
     "details": {
       "symmetry": 0,
@@ -5373,12 +5385,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9f1cbcdf.jpg"
+    "thumbnail": "data/thumbnails/celeb_9f1cbcdf.jpg",
+    "rank": 317
   },
   {
     "id": "celeb_98636319",
     "name": "平本蓮",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.5,
     "details": {
       "symmetry": 52,
@@ -5389,28 +5402,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_98636319.jpg"
-  },
-  {
-    "id": "celeb_849ec837",
-    "name": "藤浪晋太郎",
-    "category": "athlete",
-    "score": 45.5,
-    "details": {
-      "symmetry": 28,
-      "golden_ratio": 32,
-      "eyes": 61,
-      "nose": 53,
-      "mouth": 44,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_849ec837.jpg"
+    "thumbnail": "data/thumbnails/celeb_98636319.jpg",
+    "rank": 318
   },
   {
     "id": "celeb_255fb357",
     "name": "カンニング竹山",
-    "category": "comedian",
+    "category": "actor",
     "score": 45.4,
     "details": {
       "symmetry": 19,
@@ -5421,12 +5419,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_255fb357.jpg"
+    "thumbnail": "data/thumbnails/celeb_255fb357.jpg",
+    "rank": 319
   },
   {
     "id": "celeb_8798b78a",
     "name": "千代の富士貢",
-    "category": "sumo",
+    "category": "actor",
     "score": 45.4,
     "details": {
       "symmetry": 45,
@@ -5437,12 +5436,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8798b78a.jpg"
+    "thumbnail": "data/thumbnails/celeb_8798b78a.jpg",
+    "rank": 320
   },
   {
     "id": "celeb_0bb271b9",
     "name": "月足天音",
-    "category": "idol",
+    "category": "actor",
     "score": 45.4,
     "details": {
       "symmetry": 0,
@@ -5453,12 +5453,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0bb271b9.jpg"
+    "thumbnail": "data/thumbnails/celeb_0bb271b9.jpg",
+    "rank": 321
   },
   {
     "id": "celeb_eb6aed2c",
     "name": "葛西紀明",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.4,
     "details": {
       "symmetry": 20,
@@ -5469,44 +5470,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_eb6aed2c.jpg"
-  },
-  {
-    "id": "celeb_aa0493c3",
-    "name": "西野七瀬",
-    "category": "idol",
-    "score": 45.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 29,
-      "eyes": 58,
-      "nose": 33,
-      "mouth": 73,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_aa0493c3.jpg"
-  },
-  {
-    "id": "celeb_9faffbec",
-    "name": "宮里藍",
-    "category": "athlete",
-    "score": 45.4,
-    "details": {
-      "symmetry": 27,
-      "golden_ratio": 23,
-      "eyes": 64,
-      "nose": 52,
-      "mouth": 58,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_9faffbec.jpg"
+    "thumbnail": "data/thumbnails/celeb_eb6aed2c.jpg",
+    "rank": 322
   },
   {
     "id": "celeb_b554f29d",
     "name": "毎熊晟矢",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.3,
     "details": {
       "symmetry": 0,
@@ -5517,12 +5487,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b554f29d.jpg"
+    "thumbnail": "data/thumbnails/celeb_b554f29d.jpg",
+    "rank": 323
   },
   {
     "id": "celeb_f1490cc6",
     "name": "乾貴士",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.2,
     "details": {
       "symmetry": 78,
@@ -5533,12 +5504,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f1490cc6.jpg"
+    "thumbnail": "data/thumbnails/celeb_f1490cc6.jpg",
+    "rank": 324
   },
   {
     "id": "celeb_952d9a6b",
     "name": "五味隆典",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.2,
     "details": {
       "symmetry": 0,
@@ -5549,12 +5521,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_952d9a6b.jpg"
+    "thumbnail": "data/thumbnails/celeb_952d9a6b.jpg",
+    "rank": 325
   },
   {
     "id": "celeb_93aeea8d",
     "name": "山下美月",
-    "category": "idol",
+    "category": "actor",
     "score": 45.2,
     "details": {
       "symmetry": 0,
@@ -5565,12 +5538,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_93aeea8d.jpg"
+    "thumbnail": "data/thumbnails/celeb_93aeea8d.jpg",
+    "rank": 326
   },
   {
     "id": "celeb_1434465b",
     "name": "落合博満",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.2,
     "details": {
       "symmetry": 0,
@@ -5581,7 +5555,8 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1434465b.jpg"
+    "thumbnail": "data/thumbnails/celeb_1434465b.jpg",
+    "rank": 327
   },
   {
     "id": "celeb_b79964f2",
@@ -5597,12 +5572,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b79964f2.jpg"
+    "thumbnail": "data/thumbnails/celeb_b79964f2.jpg",
+    "rank": 328
   },
   {
     "id": "celeb_d3aae772",
     "name": "雅山哲士",
-    "category": "sumo",
+    "category": "actor",
     "score": 45.1,
     "details": {
       "symmetry": 45,
@@ -5613,12 +5589,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d3aae772.jpg"
+    "thumbnail": "data/thumbnails/celeb_d3aae772.jpg",
+    "rank": 329
   },
   {
     "id": "celeb_e6388a21",
     "name": "岩瀬仁紀",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.0,
     "details": {
       "symmetry": 54,
@@ -5629,12 +5606,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e6388a21.jpg"
+    "thumbnail": "data/thumbnails/celeb_e6388a21.jpg",
+    "rank": 330
   },
   {
     "id": "celeb_39005004",
     "name": "志村けん",
-    "category": "comedian",
+    "category": "actor",
     "score": 45.0,
     "details": {
       "symmetry": 25,
@@ -5645,12 +5623,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_39005004.jpg"
+    "thumbnail": "data/thumbnails/celeb_39005004.jpg",
+    "rank": 331
   },
   {
     "id": "celeb_72bdf24e",
     "name": "玉鷲一朗",
-    "category": "sumo",
+    "category": "actor",
     "score": 45.0,
     "details": {
       "symmetry": 85,
@@ -5661,12 +5640,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_72bdf24e.jpg"
+    "thumbnail": "data/thumbnails/celeb_72bdf24e.jpg",
+    "rank": 332
   },
   {
     "id": "celeb_0605fdd5",
     "name": "鈴木誠也",
-    "category": "athlete",
+    "category": "actor",
     "score": 45.0,
     "details": {
       "symmetry": 4,
@@ -5677,12 +5657,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0605fdd5.jpg"
+    "thumbnail": "data/thumbnails/celeb_0605fdd5.jpg",
+    "rank": 333
   },
   {
     "id": "celeb_70717d55",
     "name": "大竹しのぶ",
-    "category": "actress",
+    "category": "actor",
     "score": 44.9,
     "details": {
       "symmetry": 0,
@@ -5693,12 +5674,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_70717d55.jpg"
+    "thumbnail": "data/thumbnails/celeb_70717d55.jpg",
+    "rank": 334
   },
   {
     "id": "celeb_04112379",
     "name": "豊昇龍智勝",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.9,
     "details": {
       "symmetry": 56,
@@ -5709,12 +5691,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_04112379.jpg"
+    "thumbnail": "data/thumbnails/celeb_04112379.jpg",
+    "rank": 335
   },
   {
     "id": "celeb_57f329f0",
     "name": "豪栄道豪太郎",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.9,
     "details": {
       "symmetry": 56,
@@ -5725,12 +5708,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_57f329f0.jpg"
+    "thumbnail": "data/thumbnails/celeb_57f329f0.jpg",
+    "rank": 336
   },
   {
     "id": "celeb_77650e94",
     "name": "阿炎政竜",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.9,
     "details": {
       "symmetry": 0,
@@ -5741,12 +5725,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_77650e94.jpg"
+    "thumbnail": "data/thumbnails/celeb_77650e94.jpg",
+    "rank": 337
   },
   {
     "id": "celeb_704a9262",
     "name": "上田綺世",
-    "category": "athlete",
+    "category": "actor",
     "score": 44.8,
     "details": {
       "symmetry": 0,
@@ -5757,12 +5742,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_704a9262.jpg"
+    "thumbnail": "data/thumbnails/celeb_704a9262.jpg",
+    "rank": 338
   },
   {
     "id": "celeb_80faf70b",
     "name": "庵野秀明",
-    "category": "cultural",
+    "category": "actor",
     "score": 44.8,
     "details": {
       "symmetry": 52,
@@ -5773,28 +5759,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_80faf70b.jpg"
-  },
-  {
-    "id": "celeb_6146c8e7",
-    "name": "山本浩二",
-    "category": "athlete",
-    "score": 44.7,
-    "details": {
-      "symmetry": 45,
-      "golden_ratio": 23,
-      "eyes": 80,
-      "nose": 31,
-      "mouth": 64,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6146c8e7.jpg"
+    "thumbnail": "data/thumbnails/celeb_80faf70b.jpg",
+    "rank": 339
   },
   {
     "id": "celeb_48a6fc56",
     "name": "嘉風雅継",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.6,
     "details": {
       "symmetry": 21,
@@ -5805,12 +5776,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_48a6fc56.jpg"
+    "thumbnail": "data/thumbnails/celeb_48a6fc56.jpg",
+    "rank": 340
   },
   {
     "id": "celeb_c57c40c8",
     "name": "臥牙丸勝",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.6,
     "details": {
       "symmetry": 6,
@@ -5821,28 +5793,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c57c40c8.jpg"
-  },
-  {
-    "id": "celeb_570e9a84",
-    "name": "柳原可奈子",
-    "category": "comedian",
-    "score": 44.6,
-    "details": {
-      "symmetry": 43,
-      "golden_ratio": 19,
-      "eyes": 54,
-      "nose": 62,
-      "mouth": 66,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_570e9a84.jpg"
+    "thumbnail": "data/thumbnails/celeb_c57c40c8.jpg",
+    "rank": 341
   },
   {
     "id": "celeb_d3709fe1",
     "name": "King Gnu井口理",
-    "category": "artist",
+    "category": "actor",
     "score": 44.5,
     "details": {
       "symmetry": 68,
@@ -5853,12 +5810,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d3709fe1.jpg"
+    "thumbnail": "data/thumbnails/celeb_d3709fe1.jpg",
+    "rank": 342
   },
   {
     "id": "celeb_03a90585",
     "name": "栃煌山雄一郎",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.5,
     "details": {
       "symmetry": 0,
@@ -5869,28 +5827,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_03a90585.jpg"
-  },
-  {
-    "id": "celeb_6e9f6e79",
-    "name": "畑岡奈紗",
-    "category": "athlete",
-    "score": 44.5,
-    "details": {
-      "symmetry": 43,
-      "golden_ratio": 29,
-      "eyes": 63,
-      "nose": 47,
-      "mouth": 51,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6e9f6e79.jpg"
+    "thumbnail": "data/thumbnails/celeb_03a90585.jpg",
+    "rank": 343
   },
   {
     "id": "celeb_348fba4a",
     "name": "久保史緒里",
-    "category": "idol",
+    "category": "actor",
     "score": 44.4,
     "details": {
       "symmetry": 0,
@@ -5901,12 +5844,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_348fba4a.jpg"
+    "thumbnail": "data/thumbnails/celeb_348fba4a.jpg",
+    "rank": 344
   },
   {
     "id": "celeb_61d8bb60",
     "name": "佐藤輝明",
-    "category": "athlete",
+    "category": "actor",
     "score": 44.4,
     "details": {
       "symmetry": 0,
@@ -5917,12 +5861,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_61d8bb60.jpg"
+    "thumbnail": "data/thumbnails/celeb_61d8bb60.jpg",
+    "rank": 345
   },
   {
     "id": "celeb_9244cc06",
     "name": "櫻井優衣",
-    "category": "idol",
+    "category": "actor",
     "score": 44.4,
     "details": {
       "symmetry": 0,
@@ -5933,12 +5878,13 @@
       "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9244cc06.jpg"
+    "thumbnail": "data/thumbnails/celeb_9244cc06.jpg",
+    "rank": 346
   },
   {
     "id": "celeb_14352dde",
     "name": "長谷川唯",
-    "category": "athlete",
+    "category": "actor",
     "score": 44.3,
     "details": {
       "symmetry": 36,
@@ -5949,12 +5895,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_14352dde.jpg"
+    "thumbnail": "data/thumbnails/celeb_14352dde.jpg",
+    "rank": 347
   },
   {
     "id": "celeb_4b3b4015",
     "name": "朝乃山英樹",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.2,
     "details": {
       "symmetry": 66,
@@ -5965,12 +5912,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4b3b4015.jpg"
+    "thumbnail": "data/thumbnails/celeb_4b3b4015.jpg",
+    "rank": 348
   },
   {
     "id": "celeb_440ab0ee",
     "name": "欧勝馬出気",
-    "category": "sumo",
+    "category": "actor",
     "score": 44.1,
     "details": {
       "symmetry": 43,
@@ -5981,12 +5929,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_440ab0ee.jpg"
+    "thumbnail": "data/thumbnails/celeb_440ab0ee.jpg",
+    "rank": 349
   },
   {
     "id": "celeb_86612318",
     "name": "遠藤さくら",
-    "category": "idol",
+    "category": "actor",
     "score": 44.1,
     "details": {
       "symmetry": 0,
@@ -5997,12 +5946,13 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_86612318.jpg"
+    "thumbnail": "data/thumbnails/celeb_86612318.jpg",
+    "rank": 350
   },
   {
     "id": "celeb_ef7c51ee",
     "name": "YOSHIKI",
-    "category": "cultural",
+    "category": "actor",
     "score": 44.0,
     "details": {
       "symmetry": 19,
@@ -6013,12 +5963,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ef7c51ee.jpg"
+    "thumbnail": "data/thumbnails/celeb_ef7c51ee.jpg",
+    "rank": 351
   },
   {
     "id": "celeb_a6a7558e",
     "name": "今田美桜",
-    "category": "actress",
+    "category": "actor",
     "score": 44.0,
     "details": {
       "symmetry": 30,
@@ -6029,12 +5980,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a6a7558e.jpg"
+    "thumbnail": "data/thumbnails/celeb_a6a7558e.jpg",
+    "rank": 352
   },
   {
     "id": "celeb_4f0039cd",
     "name": "坂本花織",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.9,
     "details": {
       "symmetry": 0,
@@ -6045,12 +5997,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4f0039cd.jpg"
+    "thumbnail": "data/thumbnails/celeb_4f0039cd.jpg",
+    "rank": 353
   },
   {
     "id": "celeb_9d78d26e",
     "name": "三四郎小宮",
-    "category": "comedian",
+    "category": "actor",
     "score": 43.8,
     "details": {
       "symmetry": 79,
@@ -6061,7 +6014,8 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9d78d26e.jpg"
+    "thumbnail": "data/thumbnails/celeb_9d78d26e.jpg",
+    "rank": 354
   },
   {
     "id": "celeb_56c2f4d9",
@@ -6077,12 +6031,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_56c2f4d9.jpg"
+    "thumbnail": "data/thumbnails/celeb_56c2f4d9.jpg",
+    "rank": 355
   },
   {
     "id": "celeb_ab524fef",
     "name": "旗手怜央",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.8,
     "details": {
       "symmetry": 0,
@@ -6093,12 +6048,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ab524fef.jpg"
+    "thumbnail": "data/thumbnails/celeb_ab524fef.jpg",
+    "rank": 356
   },
   {
     "id": "celeb_d299c6ba",
     "name": "琴勇輝一巖",
-    "category": "sumo",
+    "category": "actor",
     "score": 43.8,
     "details": {
       "symmetry": 39,
@@ -6109,12 +6065,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d299c6ba.jpg"
+    "thumbnail": "data/thumbnails/celeb_d299c6ba.jpg",
+    "rank": 357
   },
   {
     "id": "celeb_1a834022",
     "name": "若元春港",
-    "category": "sumo",
+    "category": "actor",
     "score": 43.8,
     "details": {
       "symmetry": 63,
@@ -6125,12 +6082,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1a834022.jpg"
+    "thumbnail": "data/thumbnails/celeb_1a834022.jpg",
+    "rank": 358
   },
   {
     "id": "celeb_bf14a0ea",
     "name": "冨安健洋",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.7,
     "details": {
       "symmetry": 0,
@@ -6141,12 +6099,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_bf14a0ea.jpg"
+    "thumbnail": "data/thumbnails/celeb_bf14a0ea.jpg",
+    "rank": 359
   },
   {
     "id": "celeb_a0d9aa25",
     "name": "サンシャイン池崎",
-    "category": "comedian",
+    "category": "actor",
     "score": 43.6,
     "details": {
       "symmetry": 0,
@@ -6157,12 +6116,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a0d9aa25.jpg"
+    "thumbnail": "data/thumbnails/celeb_a0d9aa25.jpg",
+    "rank": 360
   },
   {
     "id": "celeb_e9dd0ad7",
     "name": "羽生結弦",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.6,
     "details": {
       "symmetry": 1,
@@ -6173,12 +6133,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e9dd0ad7.jpg"
+    "thumbnail": "data/thumbnails/celeb_e9dd0ad7.jpg",
+    "rank": 361
   },
   {
     "id": "celeb_d9960803",
     "name": "青山直晃",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.6,
     "details": {
       "symmetry": 0,
@@ -6189,12 +6150,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d9960803.jpg"
+    "thumbnail": "data/thumbnails/celeb_d9960803.jpg",
+    "rank": 362
   },
   {
     "id": "celeb_f8425f32",
     "name": "リリー・フランキー",
-    "category": "cultural",
+    "category": "actor",
     "score": 43.5,
     "details": {
       "symmetry": 65,
@@ -6205,12 +6167,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f8425f32.jpg"
+    "thumbnail": "data/thumbnails/celeb_f8425f32.jpg",
+    "rank": 363
   },
   {
     "id": "celeb_45712eae",
     "name": "桐生祥秀",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.5,
     "details": {
       "symmetry": 0,
@@ -6221,12 +6184,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_45712eae.jpg"
+    "thumbnail": "data/thumbnails/celeb_45712eae.jpg",
+    "rank": 364
   },
   {
     "id": "celeb_4f321bae",
     "name": "秋山成勲",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.5,
     "details": {
       "symmetry": 0,
@@ -6237,12 +6201,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4f321bae.jpg"
+    "thumbnail": "data/thumbnails/celeb_4f321bae.jpg",
+    "rank": 365
   },
   {
     "id": "celeb_1dbc59d5",
     "name": "竜電剛至",
-    "category": "sumo",
+    "category": "actor",
     "score": 43.5,
     "details": {
       "symmetry": 88,
@@ -6253,12 +6218,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1dbc59d5.jpg"
+    "thumbnail": "data/thumbnails/celeb_1dbc59d5.jpg",
+    "rank": 366
   },
   {
     "id": "celeb_14f44b42",
     "name": "与田祐希",
-    "category": "idol",
+    "category": "actor",
     "score": 43.4,
     "details": {
       "symmetry": 0,
@@ -6269,12 +6235,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_14f44b42.jpg"
+    "thumbnail": "data/thumbnails/celeb_14f44b42.jpg",
+    "rank": 367
   },
   {
     "id": "celeb_007dcfcc",
     "name": "旭秀鵬滉規",
-    "category": "sumo",
+    "category": "actor",
     "score": 43.4,
     "details": {
       "symmetry": 6,
@@ -6285,12 +6252,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_007dcfcc.jpg"
+    "thumbnail": "data/thumbnails/celeb_007dcfcc.jpg",
+    "rank": 368
   },
   {
     "id": "celeb_b30d70a3",
     "name": "丹羽孝希",
-    "category": "athlete",
+    "category": "actor",
     "score": 43.3,
     "details": {
       "symmetry": 0,
@@ -6301,12 +6269,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b30d70a3.jpg"
+    "thumbnail": "data/thumbnails/celeb_b30d70a3.jpg",
+    "rank": 369
   },
   {
     "id": "celeb_abf4a056",
     "name": "北川景子",
-    "category": "actress",
+    "category": "actor",
     "score": 43.2,
     "details": {
       "symmetry": 73,
@@ -6317,12 +6286,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_abf4a056.jpg"
+    "thumbnail": "data/thumbnails/celeb_abf4a056.jpg",
+    "rank": 370
   },
   {
     "id": "celeb_babf01e7",
     "name": "旭天鵬勝",
-    "category": "sumo",
+    "category": "actor",
     "score": 43.2,
     "details": {
       "symmetry": 65,
@@ -6333,12 +6303,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_babf01e7.jpg"
+    "thumbnail": "data/thumbnails/celeb_babf01e7.jpg",
+    "rank": 371
   },
   {
     "id": "celeb_dff994bc",
     "name": "マヂカルラブリー野田クリスタル",
-    "category": "comedian",
+    "category": "actor",
     "score": 43.0,
     "details": {
       "symmetry": 0,
@@ -6349,12 +6320,13 @@
       "contour": 41,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_dff994bc.jpg"
+    "thumbnail": "data/thumbnails/celeb_dff994bc.jpg",
+    "rank": 372
   },
   {
     "id": "celeb_08fa3955",
     "name": "土屋太鳳",
-    "category": "actress",
+    "category": "actor",
     "score": 43.0,
     "details": {
       "symmetry": 0,
@@ -6365,12 +6337,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_08fa3955.jpg"
+    "thumbnail": "data/thumbnails/celeb_08fa3955.jpg",
+    "rank": 373
   },
   {
     "id": "celeb_ecadb56e",
     "name": "松本孝弘",
-    "category": "cultural",
+    "category": "actor",
     "score": 43.0,
     "details": {
       "symmetry": 0,
@@ -6381,12 +6354,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ecadb56e.jpg"
+    "thumbnail": "data/thumbnails/celeb_ecadb56e.jpg",
+    "rank": 374
   },
   {
     "id": "celeb_25241b7c",
     "name": "栃乃洋泰一",
-    "category": "sumo",
+    "category": "actor",
     "score": 43.0,
     "details": {
       "symmetry": 43,
@@ -6397,12 +6371,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_25241b7c.jpg"
+    "thumbnail": "data/thumbnails/celeb_25241b7c.jpg",
+    "rank": 375
   },
   {
     "id": "celeb_0518b155",
     "name": "渡部建",
-    "category": "comedian",
+    "category": "actor",
     "score": 43.0,
     "details": {
       "symmetry": 0,
@@ -6413,44 +6388,13 @@
       "contour": 59,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0518b155.jpg"
-  },
-  {
-    "id": "celeb_baa27e56",
-    "name": "内村航平",
-    "category": "athlete",
-    "score": 43.0,
-    "details": {
-      "symmetry": 54,
-      "golden_ratio": 22,
-      "eyes": 99,
-      "nose": 28,
-      "mouth": 35,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_baa27e56.jpg"
-  },
-  {
-    "id": "celeb_2a288efa",
-    "name": "山本昌",
-    "category": "athlete",
-    "score": 43.0,
-    "details": {
-      "symmetry": 37,
-      "golden_ratio": 34,
-      "eyes": 61,
-      "nose": 31,
-      "mouth": 46,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2a288efa.jpg"
+    "thumbnail": "data/thumbnails/celeb_0518b155.jpg",
+    "rank": 376
   },
   {
     "id": "celeb_5f3ff983",
     "name": "妙義龍泰成",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 21,
@@ -6461,12 +6405,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5f3ff983.jpg"
+    "thumbnail": "data/thumbnails/celeb_5f3ff983.jpg",
+    "rank": 377
   },
   {
     "id": "celeb_e2014d4e",
     "name": "川田利明",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 0,
@@ -6477,12 +6422,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e2014d4e.jpg"
+    "thumbnail": "data/thumbnails/celeb_e2014d4e.jpg",
+    "rank": 378
   },
   {
     "id": "celeb_4634a03e",
     "name": "栃東大裕",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 0,
@@ -6493,12 +6439,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4634a03e.jpg"
+    "thumbnail": "data/thumbnails/celeb_4634a03e.jpg",
+    "rank": 379
   },
   {
     "id": "celeb_0bd5ba07",
     "name": "涌井秀章",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 7,
@@ -6509,12 +6456,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0bd5ba07.jpg"
+    "thumbnail": "data/thumbnails/celeb_0bd5ba07.jpg",
+    "rank": 380
   },
   {
     "id": "celeb_31e9dcef",
     "name": "狼雅外喜義",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 0,
@@ -6525,12 +6473,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_31e9dcef.jpg"
+    "thumbnail": "data/thumbnails/celeb_31e9dcef.jpg",
+    "rank": 381
   },
   {
     "id": "celeb_8580af3e",
     "name": "相馬勇紀",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 85,
@@ -6541,12 +6490,13 @@
       "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8580af3e.jpg"
+    "thumbnail": "data/thumbnails/celeb_8580af3e.jpg",
+    "rank": 382
   },
   {
     "id": "celeb_8751c58a",
     "name": "菅原由勢",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.8,
     "details": {
       "symmetry": 0,
@@ -6557,12 +6507,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8751c58a.jpg"
+    "thumbnail": "data/thumbnails/celeb_8751c58a.jpg",
+    "rank": 383
   },
   {
     "id": "celeb_86977554",
     "name": "小室哲哉",
-    "category": "musician",
+    "category": "actor",
     "score": 42.7,
     "details": {
       "symmetry": 0,
@@ -6573,12 +6524,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_86977554.jpg"
+    "thumbnail": "data/thumbnails/celeb_86977554.jpg",
+    "rank": 384
   },
   {
     "id": "celeb_5edbc880",
     "name": "NON STYLE井上",
-    "category": "comedian",
+    "category": "actor",
     "score": 42.6,
     "details": {
       "symmetry": 58,
@@ -6589,12 +6541,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5edbc880.jpg"
+    "thumbnail": "data/thumbnails/celeb_5edbc880.jpg",
+    "rank": 385
   },
   {
     "id": "celeb_c14f326c",
     "name": "小籔千豊",
-    "category": "comedian",
+    "category": "actor",
     "score": 42.6,
     "details": {
       "symmetry": 51,
@@ -6605,12 +6558,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c14f326c.jpg"
+    "thumbnail": "data/thumbnails/celeb_c14f326c.jpg",
+    "rank": 386
   },
   {
     "id": "celeb_e5a4571e",
     "name": "中島美嘉",
-    "category": "artist",
+    "category": "actor",
     "score": 42.5,
     "details": {
       "symmetry": 0,
@@ -6621,12 +6575,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e5a4571e.jpg"
+    "thumbnail": "data/thumbnails/celeb_e5a4571e.jpg",
+    "rank": 387
   },
   {
     "id": "celeb_68ae0027",
     "name": "若の里忍",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.5,
     "details": {
       "symmetry": 0,
@@ -6637,12 +6592,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_68ae0027.jpg"
+    "thumbnail": "data/thumbnails/celeb_68ae0027.jpg",
+    "rank": 388
   },
   {
     "id": "celeb_bb0cc261",
     "name": "前田健太",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.3,
     "details": {
       "symmetry": 0,
@@ -6653,12 +6609,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_bb0cc261.jpg"
+    "thumbnail": "data/thumbnails/celeb_bb0cc261.jpg",
+    "rank": 389
   },
   {
     "id": "celeb_e0521573",
     "name": "北勝海信芳",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.2,
     "details": {
       "symmetry": 20,
@@ -6669,12 +6626,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e0521573.jpg"
+    "thumbnail": "data/thumbnails/celeb_e0521573.jpg",
+    "rank": 390
   },
   {
     "id": "celeb_b4809349",
     "name": "玉乃島新",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.2,
     "details": {
       "symmetry": 28,
@@ -6685,12 +6643,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b4809349.jpg"
+    "thumbnail": "data/thumbnails/celeb_b4809349.jpg",
+    "rank": 391
   },
   {
     "id": "celeb_ad40f3ba",
     "name": "白井空良",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.2,
     "details": {
       "symmetry": 5,
@@ -6701,12 +6660,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ad40f3ba.jpg"
+    "thumbnail": "data/thumbnails/celeb_ad40f3ba.jpg",
+    "rank": 392
   },
   {
     "id": "celeb_492325bc",
     "name": "井上康生",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.0,
     "details": {
       "symmetry": 0,
@@ -6717,12 +6677,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_492325bc.jpg"
+    "thumbnail": "data/thumbnails/celeb_492325bc.jpg",
+    "rank": 393
   },
   {
     "id": "celeb_7e249402",
     "name": "村上宗隆",
-    "category": "athlete",
+    "category": "actor",
     "score": 42.0,
     "details": {
       "symmetry": 35,
@@ -6733,12 +6694,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7e249402.jpg"
+    "thumbnail": "data/thumbnails/celeb_7e249402.jpg",
+    "rank": 394
   },
   {
     "id": "celeb_37fbcbe3",
     "name": "豊ノ島大樹",
-    "category": "sumo",
+    "category": "actor",
     "score": 42.0,
     "details": {
       "symmetry": 0,
@@ -6749,7 +6711,8 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_37fbcbe3.jpg"
+    "thumbnail": "data/thumbnails/celeb_37fbcbe3.jpg",
+    "rank": 395
   },
   {
     "id": "celeb_5e662c06",
@@ -6765,12 +6728,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5e662c06.jpg"
+    "thumbnail": "data/thumbnails/celeb_5e662c06.jpg",
+    "rank": 396
   },
   {
     "id": "celeb_478a0fcd",
     "name": "比江島慎",
-    "category": "athlete",
+    "category": "actor",
     "score": 41.6,
     "details": {
       "symmetry": 0,
@@ -6781,12 +6745,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_478a0fcd.jpg"
+    "thumbnail": "data/thumbnails/celeb_478a0fcd.jpg",
+    "rank": 397
   },
   {
     "id": "celeb_375eb4ac",
     "name": "土性沙羅",
-    "category": "athlete",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 0,
@@ -6797,12 +6762,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_375eb4ac.jpg"
+    "thumbnail": "data/thumbnails/celeb_375eb4ac.jpg",
+    "rank": 398
   },
   {
     "id": "celeb_e56806ae",
     "name": "尊富士弥輝也",
-    "category": "sumo",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 0,
@@ -6813,12 +6779,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e56806ae.jpg"
+    "thumbnail": "data/thumbnails/celeb_e56806ae.jpg",
+    "rank": 399
   },
   {
     "id": "celeb_a86f6d4b",
     "name": "小島よしお",
-    "category": "comedian",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 0,
@@ -6829,12 +6796,13 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a86f6d4b.jpg"
+    "thumbnail": "data/thumbnails/celeb_a86f6d4b.jpg",
+    "rank": 400
   },
   {
     "id": "celeb_8862ff63",
     "name": "河村勇輝",
-    "category": "athlete",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 0,
@@ -6845,12 +6813,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8862ff63.jpg"
+    "thumbnail": "data/thumbnails/celeb_8862ff63.jpg",
+    "rank": 401
   },
   {
     "id": "celeb_30d4d2e7",
     "name": "翔猿正也",
-    "category": "sumo",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 0,
@@ -6861,12 +6830,13 @@
       "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_30d4d2e7.jpg"
+    "thumbnail": "data/thumbnails/celeb_30d4d2e7.jpg",
+    "rank": 402
   },
   {
     "id": "celeb_8d3c8c0c",
     "name": "遠藤聖大",
-    "category": "sumo",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 33,
@@ -6877,12 +6847,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8d3c8c0c.jpg"
+    "thumbnail": "data/thumbnails/celeb_8d3c8c0c.jpg",
+    "rank": 403
   },
   {
     "id": "celeb_c724b1b4",
     "name": "錦富士隆聖",
-    "category": "sumo",
+    "category": "actor",
     "score": 41.4,
     "details": {
       "symmetry": 71,
@@ -6893,28 +6864,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c724b1b4.jpg"
-  },
-  {
-    "id": "celeb_a66df788",
-    "name": "菅野智之",
-    "category": "athlete",
-    "score": 41.4,
-    "details": {
-      "symmetry": 62,
-      "golden_ratio": 18,
-      "eyes": 57,
-      "nose": 53,
-      "mouth": 56,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_a66df788.jpg"
+    "thumbnail": "data/thumbnails/celeb_c724b1b4.jpg",
+    "rank": 404
   },
   {
     "id": "celeb_5310b684",
     "name": "普天王水",
-    "category": "sumo",
+    "category": "actor",
     "score": 41.2,
     "details": {
       "symmetry": 64,
@@ -6925,12 +6881,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5310b684.jpg"
+    "thumbnail": "data/thumbnails/celeb_5310b684.jpg",
+    "rank": 405
   },
   {
     "id": "celeb_d048f7be",
     "name": "琴光喜啓司",
-    "category": "sumo",
+    "category": "actor",
     "score": 41.2,
     "details": {
       "symmetry": 71,
@@ -6941,12 +6898,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d048f7be.jpg"
+    "thumbnail": "data/thumbnails/celeb_d048f7be.jpg",
+    "rank": 406
   },
   {
     "id": "celeb_af52eb32",
     "name": "那須川天心",
-    "category": "athlete",
+    "category": "actor",
     "score": 41.1,
     "details": {
       "symmetry": 9,
@@ -6957,12 +6915,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_af52eb32.jpg"
+    "thumbnail": "data/thumbnails/celeb_af52eb32.jpg",
+    "rank": 407
   },
   {
     "id": "celeb_deb24806",
     "name": "錦木徹也",
-    "category": "sumo",
+    "category": "actor",
     "score": 40.7,
     "details": {
       "symmetry": 0,
@@ -6973,28 +6932,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_deb24806.jpg"
-  },
-  {
-    "id": "celeb_c6d9faa6",
-    "name": "ダルビッシュ有",
-    "category": "athlete",
-    "score": 40.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 25,
-      "eyes": 88,
-      "nose": 22,
-      "mouth": 35,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c6d9faa6.jpg"
+    "thumbnail": "data/thumbnails/celeb_deb24806.jpg",
+    "rank": 408
   },
   {
     "id": "celeb_343a5326",
     "name": "小川航基",
-    "category": "athlete",
+    "category": "actor",
     "score": 40.6,
     "details": {
       "symmetry": 88,
@@ -7005,12 +6949,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_343a5326.jpg"
+    "thumbnail": "data/thumbnails/celeb_343a5326.jpg",
+    "rank": 409
   },
   {
     "id": "celeb_c5b713ef",
     "name": "琴ノ若傑太",
-    "category": "sumo",
+    "category": "actor",
     "score": 40.6,
     "details": {
       "symmetry": 54,
@@ -7021,12 +6966,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c5b713ef.jpg"
+    "thumbnail": "data/thumbnails/celeb_c5b713ef.jpg",
+    "rank": 410
   },
   {
     "id": "celeb_62072a2d",
     "name": "早田ひな",
-    "category": "athlete",
+    "category": "actor",
     "score": 40.5,
     "details": {
       "symmetry": 0,
@@ -7037,28 +6983,13 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_62072a2d.jpg"
-  },
-  {
-    "id": "celeb_5720a9fc",
-    "name": "高橋由伸",
-    "category": "athlete",
-    "score": 40.5,
-    "details": {
-      "symmetry": 15,
-      "golden_ratio": 22,
-      "eyes": 75,
-      "nose": 35,
-      "mouth": 34,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5720a9fc.jpg"
+    "thumbnail": "data/thumbnails/celeb_62072a2d.jpg",
+    "rank": 411
   },
   {
     "id": "celeb_c3fc78d4",
     "name": "生田絵梨花",
-    "category": "idol",
+    "category": "actor",
     "score": 40.4,
     "details": {
       "symmetry": 0,
@@ -7069,12 +7000,13 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c3fc78d4.jpg"
+    "thumbnail": "data/thumbnails/celeb_c3fc78d4.jpg",
+    "rank": 412
   },
   {
     "id": "celeb_388d73fe",
     "name": "阿炎政虎",
-    "category": "sumo",
+    "category": "actor",
     "score": 40.4,
     "details": {
       "symmetry": 4,
@@ -7085,12 +7017,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_388d73fe.jpg"
+    "thumbnail": "data/thumbnails/celeb_388d73fe.jpg",
+    "rank": 413
   },
   {
     "id": "celeb_cff3b39b",
     "name": "城彰二",
-    "category": "athlete",
+    "category": "actor",
     "score": 40.2,
     "details": {
       "symmetry": 0,
@@ -7101,12 +7034,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_cff3b39b.jpg"
+    "thumbnail": "data/thumbnails/celeb_cff3b39b.jpg",
+    "rank": 414
   },
   {
     "id": "celeb_38af7091",
     "name": "谷亮子",
-    "category": "athlete",
+    "category": "actor",
     "score": 40.2,
     "details": {
       "symmetry": 0,
@@ -7117,12 +7051,13 @@
       "contour": 43,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_38af7091.jpg"
+    "thumbnail": "data/thumbnails/celeb_38af7091.jpg",
+    "rank": 415
   },
   {
     "id": "celeb_e056c42f",
     "name": "阿部慎之助",
-    "category": "athlete",
+    "category": "actor",
     "score": 40.2,
     "details": {
       "symmetry": 0,
@@ -7133,28 +7068,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e056c42f.jpg"
-  },
-  {
-    "id": "celeb_eacaad7c",
-    "name": "星奈津美",
-    "category": "athlete",
-    "score": 40.2,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 21,
-      "eyes": 80,
-      "nose": 36,
-      "mouth": 35,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_eacaad7c.jpg"
+    "thumbnail": "data/thumbnails/celeb_e056c42f.jpg",
+    "rank": 416
   },
   {
     "id": "celeb_7b553a12",
     "name": "吉田沙保里",
-    "category": "athlete",
+    "category": "actor",
     "score": 40.1,
     "details": {
       "symmetry": 23,
@@ -7165,12 +7085,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7b553a12.jpg"
+    "thumbnail": "data/thumbnails/celeb_7b553a12.jpg",
+    "rank": 417
   },
   {
     "id": "celeb_1e06a224",
     "name": "ブラマヨ小杉",
-    "category": "comedian",
+    "category": "actor",
     "score": 40.0,
     "details": {
       "symmetry": 0,
@@ -7181,12 +7102,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_1e06a224.jpg"
+    "thumbnail": "data/thumbnails/celeb_1e06a224.jpg",
+    "rank": 418
   },
   {
     "id": "celeb_0171a423",
     "name": "蒼国来栄吉",
-    "category": "sumo",
+    "category": "actor",
     "score": 40.0,
     "details": {
       "symmetry": 0,
@@ -7197,28 +7119,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0171a423.jpg"
-  },
-  {
-    "id": "celeb_ec71587d",
-    "name": "秦基博",
-    "category": "cultural",
-    "score": 39.9,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 26,
-      "eyes": 73,
-      "nose": 27,
-      "mouth": 36,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ec71587d.jpg"
+    "thumbnail": "data/thumbnails/celeb_0171a423.jpg",
+    "rank": 419
   },
   {
     "id": "celeb_6d9f436e",
     "name": "錦鯉渡辺",
-    "category": "comedian",
+    "category": "actor",
     "score": 39.7,
     "details": {
       "symmetry": 0,
@@ -7229,12 +7136,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6d9f436e.jpg"
+    "thumbnail": "data/thumbnails/celeb_6d9f436e.jpg",
+    "rank": 420
   },
   {
     "id": "celeb_f059fc5d",
     "name": "平野美宇",
-    "category": "athlete",
+    "category": "actor",
     "score": 39.2,
     "details": {
       "symmetry": 0,
@@ -7245,12 +7153,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f059fc5d.jpg"
+    "thumbnail": "data/thumbnails/celeb_f059fc5d.jpg",
+    "rank": 421
   },
   {
     "id": "celeb_5420fbe2",
     "name": "舞の海秀平",
-    "category": "sumo",
+    "category": "actor",
     "score": 39.2,
     "details": {
       "symmetry": 0,
@@ -7261,12 +7170,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_5420fbe2.jpg"
+    "thumbnail": "data/thumbnails/celeb_5420fbe2.jpg",
+    "rank": 422
   },
   {
     "id": "celeb_2e00e8e6",
     "name": "千代鳳祐樹",
-    "category": "sumo",
+    "category": "actor",
     "score": 38.8,
     "details": {
       "symmetry": 0,
@@ -7277,12 +7187,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_2e00e8e6.jpg"
+    "thumbnail": "data/thumbnails/celeb_2e00e8e6.jpg",
+    "rank": 423
   },
   {
     "id": "celeb_ecb23943",
     "name": "魁聖一郎",
-    "category": "sumo",
+    "category": "actor",
     "score": 38.8,
     "details": {
       "symmetry": 0,
@@ -7293,12 +7204,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ecb23943.jpg"
+    "thumbnail": "data/thumbnails/celeb_ecb23943.jpg",
+    "rank": 424
   },
   {
     "id": "celeb_3807068b",
     "name": "千代大龍秀政",
-    "category": "sumo",
+    "category": "actor",
     "score": 38.6,
     "details": {
       "symmetry": 39,
@@ -7309,12 +7221,13 @@
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_3807068b.jpg"
+    "thumbnail": "data/thumbnails/celeb_3807068b.jpg",
+    "rank": 425
   },
   {
     "id": "celeb_8d3be736",
     "name": "千賀滉大",
-    "category": "athlete",
+    "category": "actor",
     "score": 38.4,
     "details": {
       "symmetry": 13,
@@ -7325,12 +7238,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8d3be736.jpg"
+    "thumbnail": "data/thumbnails/celeb_8d3be736.jpg",
+    "rank": 426
   },
   {
     "id": "celeb_fb0e9003",
     "name": "斎藤佑樹",
-    "category": "athlete",
+    "category": "actor",
     "score": 38.4,
     "details": {
       "symmetry": 60,
@@ -7341,12 +7255,13 @@
       "contour": 36,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fb0e9003.jpg"
+    "thumbnail": "data/thumbnails/celeb_fb0e9003.jpg",
+    "rank": 427
   },
   {
     "id": "celeb_fdce1bd9",
     "name": "絢香",
-    "category": "cultural",
+    "category": "actor",
     "score": 38.4,
     "details": {
       "symmetry": 0,
@@ -7357,12 +7272,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fdce1bd9.jpg"
+    "thumbnail": "data/thumbnails/celeb_fdce1bd9.jpg",
+    "rank": 428
   },
   {
     "id": "celeb_6f5ef28c",
     "name": "三沢光晴",
-    "category": "athlete",
+    "category": "actor",
     "score": 38.1,
     "details": {
       "symmetry": 0,
@@ -7373,12 +7289,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6f5ef28c.jpg"
+    "thumbnail": "data/thumbnails/celeb_6f5ef28c.jpg",
+    "rank": 429
   },
   {
     "id": "celeb_a2a8f3a2",
     "name": "戸田恵梨香",
-    "category": "actress",
+    "category": "actor",
     "score": 38.1,
     "details": {
       "symmetry": 0,
@@ -7389,12 +7306,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a2a8f3a2.jpg"
+    "thumbnail": "data/thumbnails/celeb_a2a8f3a2.jpg",
+    "rank": 430
   },
   {
     "id": "celeb_81887b90",
     "name": "千代の国憲輝",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.9,
     "details": {
       "symmetry": 0,
@@ -7405,12 +7323,13 @@
       "contour": 32,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_81887b90.jpg"
+    "thumbnail": "data/thumbnails/celeb_81887b90.jpg",
+    "rank": 431
   },
   {
     "id": "celeb_614b0acb",
     "name": "稲葉篤紀",
-    "category": "athlete",
+    "category": "actor",
     "score": 37.8,
     "details": {
       "symmetry": 0,
@@ -7421,12 +7340,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_614b0acb.jpg"
+    "thumbnail": "data/thumbnails/celeb_614b0acb.jpg",
+    "rank": 432
   },
   {
     "id": "celeb_cfccbcf1",
     "name": "衣笠祥雄",
-    "category": "athlete",
+    "category": "actor",
     "score": 37.8,
     "details": {
       "symmetry": 0,
@@ -7437,12 +7357,13 @@
       "contour": 42,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_cfccbcf1.jpg"
+    "thumbnail": "data/thumbnails/celeb_cfccbcf1.jpg",
+    "rank": 433
   },
   {
     "id": "celeb_38f27583",
     "name": "金峰山晴樹",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.8,
     "details": {
       "symmetry": 77,
@@ -7453,12 +7374,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_38f27583.jpg"
+    "thumbnail": "data/thumbnails/celeb_38f27583.jpg",
+    "rank": 434
   },
   {
     "id": "celeb_d64e0fd0",
     "name": "高安晃",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.8,
     "details": {
       "symmetry": 76,
@@ -7469,12 +7391,13 @@
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d64e0fd0.jpg"
+    "thumbnail": "data/thumbnails/celeb_d64e0fd0.jpg",
+    "rank": 435
   },
   {
     "id": "celeb_6c91eb8a",
     "name": "仲間由紀恵",
-    "category": "actress",
+    "category": "actor",
     "score": 37.7,
     "details": {
       "symmetry": 0,
@@ -7485,12 +7408,13 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6c91eb8a.jpg"
+    "thumbnail": "data/thumbnails/celeb_6c91eb8a.jpg",
+    "rank": 436
   },
   {
     "id": "celeb_db1dd352",
     "name": "大鵬幸喜",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.7,
     "details": {
       "symmetry": 0,
@@ -7501,12 +7425,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_db1dd352.jpg"
+    "thumbnail": "data/thumbnails/celeb_db1dd352.jpg",
+    "rank": 437
   },
   {
     "id": "celeb_d7707c7b",
     "name": "渋野日向子",
-    "category": "athlete",
+    "category": "actor",
     "score": 37.7,
     "details": {
       "symmetry": 0,
@@ -7517,12 +7442,13 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_d7707c7b.jpg"
+    "thumbnail": "data/thumbnails/celeb_d7707c7b.jpg",
+    "rank": 438
   },
   {
     "id": "celeb_4c61d395",
     "name": "出島武春",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.3,
     "details": {
       "symmetry": 0,
@@ -7533,12 +7459,13 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4c61d395.jpg"
+    "thumbnail": "data/thumbnails/celeb_4c61d395.jpg",
+    "rank": 439
   },
   {
     "id": "celeb_c56489c7",
     "name": "正代直也",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.2,
     "details": {
       "symmetry": 9,
@@ -7549,12 +7476,13 @@
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c56489c7.jpg"
+    "thumbnail": "data/thumbnails/celeb_c56489c7.jpg",
+    "rank": 440
   },
   {
     "id": "celeb_9e880113",
     "name": "碧山亘右",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.2,
     "details": {
       "symmetry": 0,
@@ -7565,12 +7493,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_9e880113.jpg"
+    "thumbnail": "data/thumbnails/celeb_9e880113.jpg",
+    "rank": 441
   },
   {
     "id": "celeb_80f9b882",
     "name": "若荒雄匡也",
-    "category": "sumo",
+    "category": "actor",
     "score": 37.1,
     "details": {
       "symmetry": 0,
@@ -7581,7 +7510,8 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_80f9b882.jpg"
+    "thumbnail": "data/thumbnails/celeb_80f9b882.jpg",
+    "rank": 442
   },
   {
     "id": "celeb_c2719a8f",
@@ -7597,12 +7527,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c2719a8f.jpg"
+    "thumbnail": "data/thumbnails/celeb_c2719a8f.jpg",
+    "rank": 443
   },
   {
     "id": "celeb_29dedd36",
     "name": "英乃海拓也",
-    "category": "sumo",
+    "category": "actor",
     "score": 36.8,
     "details": {
       "symmetry": 0,
@@ -7613,12 +7544,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_29dedd36.jpg"
+    "thumbnail": "data/thumbnails/celeb_29dedd36.jpg",
+    "rank": 444
   },
   {
     "id": "celeb_ae23d472",
     "name": "髙松瞳",
-    "category": "idol",
+    "category": "actor",
     "score": 36.8,
     "details": {
       "symmetry": 30,
@@ -7629,12 +7561,13 @@
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ae23d472.jpg"
+    "thumbnail": "data/thumbnails/celeb_ae23d472.jpg",
+    "rank": 445
   },
   {
     "id": "celeb_b7e756ac",
     "name": "浅利悟",
-    "category": "athlete",
+    "category": "actor",
     "score": 36.6,
     "details": {
       "symmetry": 0,
@@ -7645,12 +7578,13 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b7e756ac.jpg"
+    "thumbnail": "data/thumbnails/celeb_b7e756ac.jpg",
+    "rank": 446
   },
   {
     "id": "celeb_b8d4f4cc",
     "name": "内藤哲也",
-    "category": "athlete",
+    "category": "actor",
     "score": 36.4,
     "details": {
       "symmetry": 0,
@@ -7661,12 +7595,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_b8d4f4cc.jpg"
+    "thumbnail": "data/thumbnails/celeb_b8d4f4cc.jpg",
+    "rank": 447
   },
   {
     "id": "celeb_63a03d75",
     "name": "大翔鵬清洋",
-    "category": "sumo",
+    "category": "actor",
     "score": 36.4,
     "details": {
       "symmetry": 0,
@@ -7677,12 +7612,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_63a03d75.jpg"
+    "thumbnail": "data/thumbnails/celeb_63a03d75.jpg",
+    "rank": 448
   },
   {
     "id": "celeb_0507b90a",
     "name": "高見盛精彦",
-    "category": "sumo",
+    "category": "actor",
     "score": 36.3,
     "details": {
       "symmetry": 0,
@@ -7693,12 +7629,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0507b90a.jpg"
+    "thumbnail": "data/thumbnails/celeb_0507b90a.jpg",
+    "rank": 449
   },
   {
     "id": "celeb_dc2a13db",
     "name": "永野芽郁",
-    "category": "actress",
+    "category": "actor",
     "score": 36.0,
     "details": {
       "symmetry": 27,
@@ -7709,12 +7646,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_dc2a13db.jpg"
+    "thumbnail": "data/thumbnails/celeb_dc2a13db.jpg",
+    "rank": 450
   },
   {
     "id": "celeb_7d9f8ed1",
     "name": "糸井重里",
-    "category": "cultural",
+    "category": "actor",
     "score": 35.7,
     "details": {
       "symmetry": 0,
@@ -7725,12 +7663,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7d9f8ed1.jpg"
+    "thumbnail": "data/thumbnails/celeb_7d9f8ed1.jpg",
+    "rank": 451
   },
   {
     "id": "celeb_58f675db",
     "name": "桃田賢斗",
-    "category": "athlete",
+    "category": "actor",
     "score": 35.3,
     "details": {
       "symmetry": 0,
@@ -7741,12 +7680,13 @@
       "contour": 52,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_58f675db.jpg"
+    "thumbnail": "data/thumbnails/celeb_58f675db.jpg",
+    "rank": 452
   },
   {
     "id": "celeb_0309b455",
     "name": "牧秀悟",
-    "category": "athlete",
+    "category": "actor",
     "score": 35.2,
     "details": {
       "symmetry": 0,
@@ -7757,12 +7697,13 @@
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_0309b455.jpg"
+    "thumbnail": "data/thumbnails/celeb_0309b455.jpg",
+    "rank": 453
   },
   {
     "id": "celeb_265b40f4",
     "name": "天龍源一郎",
-    "category": "athlete",
+    "category": "actor",
     "score": 34.9,
     "details": {
       "symmetry": 0,
@@ -7773,12 +7714,13 @@
       "contour": 36,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_265b40f4.jpg"
+    "thumbnail": "data/thumbnails/celeb_265b40f4.jpg",
+    "rank": 454
   },
   {
     "id": "celeb_57bcf34b",
     "name": "美ノ海義久",
-    "category": "sumo",
+    "category": "actor",
     "score": 34.9,
     "details": {
       "symmetry": 0,
@@ -7789,12 +7731,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_57bcf34b.jpg"
+    "thumbnail": "data/thumbnails/celeb_57bcf34b.jpg",
+    "rank": 455
   },
   {
     "id": "celeb_c24ea848",
     "name": "千原せいじ",
-    "category": "comedian",
+    "category": "actor",
     "score": 34.7,
     "details": {
       "symmetry": 0,
@@ -7805,12 +7748,13 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c24ea848.jpg"
+    "thumbnail": "data/thumbnails/celeb_c24ea848.jpg",
+    "rank": 456
   },
   {
     "id": "celeb_838a399a",
     "name": "琴恵光充憲",
-    "category": "sumo",
+    "category": "actor",
     "score": 34.6,
     "details": {
       "symmetry": 0,
@@ -7821,12 +7765,13 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_838a399a.jpg"
+    "thumbnail": "data/thumbnails/celeb_838a399a.jpg",
+    "rank": 457
   },
   {
     "id": "celeb_414eee3a",
     "name": "EXILE TAKAHIRO",
-    "category": "artist",
+    "category": "actor",
     "score": 34.5,
     "details": {
       "symmetry": 0,
@@ -7837,12 +7782,13 @@
       "contour": 44,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_414eee3a.jpg"
+    "thumbnail": "data/thumbnails/celeb_414eee3a.jpg",
+    "rank": 458
   },
   {
     "id": "celeb_880c6779",
     "name": "稲葉浩志",
-    "category": "cultural",
+    "category": "actor",
     "score": 34.4,
     "details": {
       "symmetry": 0,
@@ -7853,12 +7799,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_880c6779.jpg"
+    "thumbnail": "data/thumbnails/celeb_880c6779.jpg",
+    "rank": 459
   },
   {
     "id": "celeb_a9ef87f9",
     "name": "琴錦功宗",
-    "category": "sumo",
+    "category": "actor",
     "score": 34.0,
     "details": {
       "symmetry": 0,
@@ -7869,12 +7816,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a9ef87f9.jpg"
+    "thumbnail": "data/thumbnails/celeb_a9ef87f9.jpg",
+    "rank": 460
   },
   {
     "id": "celeb_696f51ce",
     "name": "紀平梨花",
-    "category": "athlete",
+    "category": "actor",
     "score": 33.9,
     "details": {
       "symmetry": 0,
@@ -7885,12 +7833,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_696f51ce.jpg"
+    "thumbnail": "data/thumbnails/celeb_696f51ce.jpg",
+    "rank": 461
   },
   {
     "id": "celeb_8b8d9fc7",
     "name": "高山一実",
-    "category": "idol",
+    "category": "actor",
     "score": 33.6,
     "details": {
       "symmetry": 0,
@@ -7901,12 +7850,13 @@
       "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8b8d9fc7.jpg"
+    "thumbnail": "data/thumbnails/celeb_8b8d9fc7.jpg",
+    "rank": 462
   },
   {
     "id": "celeb_00d06037",
     "name": "高橋みなみ",
-    "category": "idol",
+    "category": "actor",
     "score": 33.6,
     "details": {
       "symmetry": 0,
@@ -7917,28 +7867,13 @@
       "contour": 48,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_00d06037.jpg"
-  },
-  {
-    "id": "celeb_ecf8db9b",
-    "name": "坂本勇人",
-    "category": "athlete",
-    "score": 33.5,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 17,
-      "eyes": 82,
-      "nose": 39,
-      "mouth": 28,
-      "contour": 26,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ecf8db9b.jpg"
+    "thumbnail": "data/thumbnails/celeb_00d06037.jpg",
+    "rank": 463
   },
   {
     "id": "celeb_6453e632",
     "name": "阿武咲奎也",
-    "category": "sumo",
+    "category": "actor",
     "score": 32.6,
     "details": {
       "symmetry": 0,
@@ -7949,12 +7884,13 @@
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6453e632.jpg"
+    "thumbnail": "data/thumbnails/celeb_6453e632.jpg",
+    "rank": 464
   },
   {
     "id": "celeb_62e5564f",
     "name": "松鳳山裕也",
-    "category": "sumo",
+    "category": "actor",
     "score": 32.1,
     "details": {
       "symmetry": 8,
@@ -7965,12 +7901,13 @@
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_62e5564f.jpg"
+    "thumbnail": "data/thumbnails/celeb_62e5564f.jpg",
+    "rank": 465
   },
   {
     "id": "celeb_71929abe",
     "name": "島崎遥香",
-    "category": "idol",
+    "category": "actor",
     "score": 32.0,
     "details": {
       "symmetry": 0,
@@ -7981,12 +7918,13 @@
       "contour": 49,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_71929abe.jpg"
+    "thumbnail": "data/thumbnails/celeb_71929abe.jpg",
+    "rank": 466
   },
   {
     "id": "celeb_f8bbbc4e",
     "name": "安藤美姫",
-    "category": "athlete",
+    "category": "actor",
     "score": 29.7,
     "details": {
       "symmetry": 0,
@@ -7997,7 +7935,8 @@
       "contour": 47,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f8bbbc4e.jpg"
+    "thumbnail": "data/thumbnails/celeb_f8bbbc4e.jpg",
+    "rank": 467
   },
   {
     "id": "celeb_fad5b2a1",
@@ -8013,12 +7952,13 @@
       "contour": 38,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_fad5b2a1.jpg"
+    "thumbnail": "data/thumbnails/celeb_fad5b2a1.jpg",
+    "rank": 468
   },
   {
     "id": "celeb_efe22d22",
     "name": "友近",
-    "category": "comedian",
+    "category": "actor",
     "score": 26.6,
     "details": {
       "symmetry": 0,
@@ -8029,6 +7969,7 @@
       "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_efe22d22.jpg"
+    "thumbnail": "data/thumbnails/celeb_efe22d22.jpg",
+    "rank": 469
   }
 ]

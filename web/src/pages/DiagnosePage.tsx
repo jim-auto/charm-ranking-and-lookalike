@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
 import { calculateFaceScore, totalScore, createDeviationConverter } from '../lib/faceScoring';
-import { findSimilarCelebrities } from '../lib/embedding';
+import { findSimilarCelebrities, loadEmbeddingStore } from '../lib/embedding';
 import ImageUploader from '../components/ImageUploader';
 import LookalikeResult from '../components/LookalikeResult';
 import type { ScoreDetails } from '../types/celebrity';
@@ -65,7 +65,8 @@ export default function DiagnosePage() {
         const score = toDeviation(rawScore);
 
         const filtered = celebrities.filter((c) => c.gender === gender);
-        const similar = findSimilarCelebrities(detection.embedding, filtered, 5);
+        const embeddingStore = await loadEmbeddingStore(`${import.meta.env.BASE_URL}data`);
+        const similar = findSimilarCelebrities(detection.embedding, filtered, embeddingStore, 5);
         const lookalikes = similar.map(({ index, similarity }) => ({
           celebrity: filtered[index],
           similarity,

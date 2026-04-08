@@ -23,6 +23,68 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_INPUT = SCRIPT_DIR / "input_images"
 DEFAULT_OUTPUT = SCRIPT_DIR.parent / "web" / "public" / "data"
+PUBLIC_CELEBRITIES_JSON = "celebrities.json"
+
+
+def load_json(path: Path) -> list[dict]:
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def has_embeddings(celebrities: list[dict]) -> bool:
+    return bool(celebrities) and all("embedding" in cel for cel in celebrities)
+
+
+def strip_embeddings(celebrities: list[dict]) -> list[dict]:
+    return [
+        {key: value for key, value in cel.items() if key != "embedding"}
+        for cel in celebrities
+    ]
+
+
+def inflate_embeddings(
+    celebrities: list[dict],
+    embeddings_bin_path: Path,
+    embeddings_index_path: Path,
+) -> list[dict]:
+    if not celebrities:
+        return []
+
+    index = load_json(embeddings_index_path)
+
+    with open(embeddings_bin_path, "rb") as f:
+        header = f.read(8)
+        if len(header) != 8:
+            raise ValueError(f"{embeddings_bin_path} is too small")
+        count, dim = struct.unpack("<II", header)
+        payload = f.read()
+
+    expected_size = count * dim * 4
+    if len(payload) != expected_size:
+        raise ValueError(
+            f"{embeddings_bin_path} has {len(payload)} payload bytes, expected {expected_size}"
+        )
+
+    values = struct.unpack(f"<{count * dim}f", payload)
+    inflated = []
+
+    for cel in celebrities:
+        entry = index.get(cel["id"])
+        if entry is None:
+            raise KeyError(f"Missing embedding index for {cel['id']}")
+
+        start = entry["index"] * dim
+        end = start + dim
+        embedding = values[start:end]
+        if len(embedding) != dim:
+            raise ValueError(f"Embedding slice for {cel['id']} is incomplete")
+
+        inflated.append({
+            **cel,
+            "embedding": list(embedding),
+        })
+
+    return inflated
 
 
 def write_binary_embeddings(celebrities: list[dict], out_path: Path) -> None:
@@ -104,7 +166,10 @@ def main() -> None:
     parser.add_argument(
         "--skip-processing",
         action="store_true",
-        help="Skip face processing; only regenerate binary embeddings from existing celebrities.json",
+        help=(
+            "Skip face processing; regenerate public JSON and embedding files from "
+            "existing celebrities.json plus embeddings.bin/index"
+        ),
     )
     args = parser.parse_args()
 
@@ -112,8 +177,7 @@ def main() -> None:
     output_dir = Path(args.output_dir).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    celebrities_json = output_dir / "celebrities.json"
-
+    celebrities_json = output_dir / PUBLIC_CELEBRITIES_JSON
     # ---------------------------------------------------------------
     # Step 1: Run process_faces.py (unless skipped)
     # ---------------------------------------------------------------
@@ -147,10 +211,35 @@ def main() -> None:
         print(f"Error: {celebrities_json} not found.", file=sys.stderr)
         sys.exit(1)
 
-    with open(celebrities_json, "r", encoding="utf-8") as f:
-        celebrities = json.load(f)
+    loaded_celebrities = load_json(celebrities_json)
 
-    print(f"\nLoaded {len(celebrities)} celebrities from {celebrities_json}")
+    if has_embeddings(loaded_celebrities):
+        celebrities = loaded_celebrities
+        source_label = str(celebrities_json)
+    elif args.skip_processing:
+        embeddings_bin = output_dir / "embeddings.bin"
+        embeddings_index = output_dir / "embeddings_index.json"
+        if not embeddings_bin.is_file() or not embeddings_index.is_file():
+            print(
+                "Error: skip-processing requires existing embeddings.bin and "
+                "embeddings_index.json when celebrities.json has no embeddings.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        celebrities = inflate_embeddings(
+            loaded_celebrities,
+            embeddings_bin,
+            embeddings_index,
+        )
+        source_label = f"{celebrities_json} + {embeddings_bin} + {embeddings_index}"
+    else:
+        print(
+            f"Error: {celebrities_json} does not contain embeddings after processing.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    print(f"\nLoaded {len(celebrities)} celebrities from {source_label}")
 
     embeddings_bin = output_dir / "embeddings.bin"
     write_binary_embeddings(celebrities, embeddings_bin)
@@ -161,20 +250,15 @@ def main() -> None:
     # ---------------------------------------------------------------
     # Step 3: Write a slim version without embeddings for fast loading
     # ---------------------------------------------------------------
-    slim = []
-    for cel in celebrities:
-        slim.append({
-            "id": cel["id"],
-            "name": cel["name"],
-            "category": cel.get("category", "actor"),
-            "score": cel["score"],
-            "details": cel["details"],
-            "thumbnail": cel["thumbnail"],
-        })
+    public_celebrities = strip_embeddings(celebrities)
+
+    with open(celebrities_json, "w", encoding="utf-8") as f:
+        json.dump(public_celebrities, f, ensure_ascii=False, indent=2)
+    print(f"Public JSON (no embeddings) written: {celebrities_json}")
 
     slim_path = output_dir / "celebrities_slim.json"
     with open(slim_path, "w", encoding="utf-8") as f:
-        json.dump(slim, f, ensure_ascii=False, indent=2)
+        json.dump(public_celebrities, f, ensure_ascii=False, indent=2)
     print(f"Slim JSON (no embeddings) written: {slim_path}")
 
     print("\nAll done.")

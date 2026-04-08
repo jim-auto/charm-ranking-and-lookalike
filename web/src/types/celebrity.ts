@@ -34,6 +34,5 @@ export interface Celebrity {
   totalFollowers: number;
   details: ScoreDetails;
   group?: string;
-  embedding: number[];
   thumbnail: string;
 }
