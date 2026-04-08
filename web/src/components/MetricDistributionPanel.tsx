@@ -1,8 +1,4 @@
-import {
-  getMetricDistributionGuide,
-  getRankingMetricLabel,
-  type DetailRankingMetric,
-} from '../lib/rankingMetrics';
+import { getRankingMetricLabel, type DetailRankingMetric } from '../lib/rankingMetrics';
 import type { MetricDistribution } from '../lib/metricDistribution';
 
 interface Props {
@@ -91,15 +87,11 @@ export default function MetricDistributionPanel({ distributions }: Props) {
     <section className="mb-6 rounded-xl border border-slate-800 bg-slate-900/60 p-4">
       <div className="mb-4">
         <h3 className="text-sm font-semibold text-white sm:text-base">各指標の分布</h3>
-        <p className="mt-1 text-xs text-slate-400 sm:text-sm">
-          今の表示条件での生点分布。細かい比較は偏差値向き。
-        </p>
       </div>
 
       <div className="grid gap-3 lg:grid-cols-2 xl:grid-cols-3">
         {metrics.map(({ metric, distribution }) => {
           const status = describeDistribution(distribution);
-          const guide = getMetricDistributionGuide(metric);
           const maxCount = Math.max(...distribution.histogram.map((bin) => bin.count), 1);
 
           return (
@@ -149,15 +141,6 @@ export default function MetricDistributionPanel({ distributions }: Props) {
                     {formatValue(distribution.skew)}
                   </div>
                 </div>
-              </div>
-
-              <div className="mb-3 rounded-lg border border-slate-800 bg-slate-900/80 p-2.5 text-[11px] leading-5 text-slate-300">
-                <div className="font-medium text-slate-100">分布メモ</div>
-                <div className="mt-0.5 text-slate-400">{status.summary}</div>
-                <div className="mt-2 font-medium text-slate-100">原因</div>
-                <div className="mt-0.5 text-slate-400">{guide.cause}</div>
-                <div className="mt-2 font-medium text-slate-100">見方</div>
-                <div className="mt-0.5 text-slate-400">{guide.readingHint}</div>
               </div>
 
               <div className="space-y-1.5">

@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import {
   type DetailRankingMetric,
-  getRankingMetricLabel,
   getRankingMetricValue,
   getOverallScore,
   isOverallMetric,
@@ -236,49 +235,6 @@ export default function RankingPage() {
   const usesSymmetryOverall = usesOverallScore && useSymmetry;
   const usesStrictReferenceRecommendedFilter =
     rankingScope === 'recommended' && !usesOverallScore && selectedMetric.isReference === true;
-  const recommendedExcludedCount = useMemo(() => {
-    let allList = celebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
-    let visibleList = filterRecommendedEntries(celebrities, usesStrictReferenceRecommendedFilter);
-
-    if (genderFilter) {
-      allList = allList.filter((celebrity) => celebrity.gender === genderFilter);
-      visibleList = visibleList.filter((celebrity) => celebrity.gender === genderFilter);
-    }
-    if (categoryFilter) {
-      allList = allList.filter((celebrity) => celebrity.category === categoryFilter);
-      visibleList = visibleList.filter((celebrity) => celebrity.category === categoryFilter);
-    }
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      const matchesQuery = (celebrity: Celebrity) =>
-        celebrity.name.toLowerCase().includes(q) ||
-        (celebrity.group && celebrity.group.toLowerCase().includes(q));
-      allList = allList.filter(matchesQuery);
-      visibleList = visibleList.filter(matchesQuery);
-    }
-    if (!usesOverallScore) {
-      const hasMetric = (celebrity: Celebrity) =>
-        typeof celebrity.details?.[rankingMetric] === 'number';
-      allList = allList.filter(hasMetric);
-      visibleList = visibleList.filter(hasMetric);
-    }
-    if (usesSymmetryOverall) {
-      const hasSymmetry = (celebrity: Celebrity) =>
-        typeof celebrity.details?.symmetry === 'number';
-      visibleList = visibleList.filter(hasSymmetry);
-    }
-
-    return allList.length - visibleList.length;
-  }, [
-    celebrities,
-    usesStrictReferenceRecommendedFilter,
-    genderFilter,
-    categoryFilter,
-    searchQuery,
-    usesOverallScore,
-    usesSymmetryOverall,
-    rankingMetric,
-  ]);
 
   const sorted = useMemo(() => {
     let list =
@@ -377,16 +333,6 @@ export default function RankingPage() {
         ))}
       </div>
 
-      {rankingScope === 'recommended' && recommendedExcludedCount > 0 && (
-        <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
-          {recommendedExcludedCount}件をこの表示から外しています。「全カテゴリ」で全件表示。
-          {usesStrictReferenceRecommendedFilter &&
-            ' 参考値タブはさらに絞っています。'}
-          {usesSymmetryOverall &&
-            ' 左右対称ありは算出できた人だけ。'}
-        </div>
-      )}
-
       <div className="mb-3 flex flex-wrap items-center gap-2">
         <span className="mr-1 text-sm text-slate-400">性別:</span>
         {genderFilters.map((g) => (
@@ -439,21 +385,6 @@ export default function RankingPage() {
             {metric.label}
           </button>
         ))}
-      </div>
-
-      <div className="mb-2 rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-400">
-        {usesOverallScore ? (
-          <>
-            総合は偏差値順。左右対称は初期OFF。ONで少し反映。肌は対象外。
-          </>
-        ) : (
-          <>
-            このタブは「{getRankingMetricLabel(rankingMetric)}」の生点順。カード下に偏差値も表示。年齢補正とSNS補正なし。
-            {selectedMetric.isReference &&
-              ' 鼻・輪郭・左右対称は写真差が出やすめ。'}
-            {' '}肌は対象外。
-          </>
-        )}
       </div>
 
       <div className="mb-6 flex flex-wrap items-center gap-3 rounded-lg bg-slate-800/50 p-3">

@@ -169,16 +169,6 @@ export default function DiagnosePage() {
       )}
 
       <canvas ref={canvasRef} className="hidden" />
-
-      <div className="mt-8 p-4 bg-slate-800/50 rounded-lg text-sm text-slate-500 space-y-2">
-        <p>
-          ※ 数値は参考スコアです。
-        </p>
-        <p>
-          ※ 画像はブラウザ内だけで処理。
-        </p>
-        <p>※ 左右対称は正面寄りの写真向き。</p>
-      </div>
     </div>
   );
 }

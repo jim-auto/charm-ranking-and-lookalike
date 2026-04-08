@@ -17,11 +17,6 @@ export interface RankingMetricOption {
   isReference?: boolean;
 }
 
-interface MetricDistributionGuide {
-  cause: string;
-  readingHint: string;
-}
-
 export const rankingMetricOptions: RankingMetricOption[] = [
   { value: 'overall', label: '総合', description: '総合スコア順' },
   { value: 'golden_ratio', label: '黄金比', description: '縦横比と配置' },
@@ -47,33 +42,6 @@ export const rankingMetricOptions: RankingMetricOption[] = [
   },
 ];
 
-const metricDistributionGuides: Record<DetailRankingMetric, MetricDistributionGuide> = {
-  golden_ratio: {
-    cause: '複数比率の合成で中間に集まりやすい',
-    readingHint: '細かい点差より帯で見る',
-  },
-  eyes: {
-    cause: '表情、前髪、影で動きやすい',
-    readingHint: '笑顔や伏し目も混ざる',
-  },
-  nose: {
-    cause: '角度と光で見え方が変わる',
-    readingHint: '単独順位より傾向を見る',
-  },
-  mouth: {
-    cause: '真顔か笑顔かでかなり動く',
-    readingHint: '真顔と笑顔が混ざる',
-  },
-  contour: {
-    cause: '骨格そのものではなく下顔面の写りを見る',
-    readingHint: '単独順位より目安向き',
-  },
-  symmetry: {
-    cause: '正面度と表情の影響が大きい',
-    readingHint: '正面写真向けの参考値',
-  },
-};
-
 export function isOverallMetric(metric: RankingMetric): metric is 'overall' {
   return metric === 'overall';
 }
@@ -84,10 +52,6 @@ export function isReferenceMetric(metric: RankingMetric): boolean {
 
 export function getRankingMetricLabel(metric: RankingMetric): string {
   return rankingMetricOptions.find((option) => option.value === metric)?.label ?? metric;
-}
-
-export function getMetricDistributionGuide(metric: DetailRankingMetric): MetricDistributionGuide {
-  return metricDistributionGuides[metric];
 }
 
 export function getOverallScore(celebrity: Celebrity, useAge: boolean, useSns: boolean): number {
