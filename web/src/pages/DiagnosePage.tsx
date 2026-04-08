@@ -85,7 +85,7 @@ export default function DiagnosePage() {
   return (
     <div className="max-w-2xl mx-auto">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold mb-2">顔面偏差値診断</h2>
+        <h2 className="text-2xl font-bold mb-2">AIスト値診断</h2>
         <p className="text-slate-400">
           あなたの顔写真から偏差値を算出し、似ている芸能人を見つけます。
         </p>
