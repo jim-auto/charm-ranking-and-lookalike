@@ -12,6 +12,7 @@ interface Props {
   celebrity: Celebrity;
   rank: number;
   metric?: RankingMetric;
+  overallScoreOverride?: number | null;
   metricDeviation?: number | null;
   useAge?: boolean;
   useSns?: boolean;
@@ -49,13 +50,17 @@ export default function CelebrityCard({
   celebrity,
   rank,
   metric = 'overall',
+  overallScoreOverride = null,
   metricDeviation = null,
   useAge = false,
   useSns = false,
   formatFollowers,
   toDeviation,
 }: Props) {
-  const rawScore = getRankingMetricValue(celebrity, metric, useAge, useSns);
+  const rawScore =
+    isOverallMetric(metric) && overallScoreOverride != null
+      ? overallScoreOverride
+      : getRankingMetricValue(celebrity, metric, useAge, useSns);
   const isReference = !isOverallMetric(metric) && isReferenceMetric(metric);
   const displayScore = isOverallMetric(metric)
     ? toDeviation

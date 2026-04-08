@@ -90,6 +90,12 @@ function createDeviationConverter(values: number[]): (rawValue: number) => numbe
   return (rawValue: number) => round1(50 + 10 * ((rawValue - mean) / stdev));
 }
 
+export function createDeviationConverterFromValues(
+  values: number[],
+): (rawValue: number) => number {
+  return createDeviationConverter(values);
+}
+
 function buildHistogram(values: number[]): HistogramBin[] {
   return HISTOGRAM_BINS.map((bin) => ({
     label: bin.label,

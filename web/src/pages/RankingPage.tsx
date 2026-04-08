@@ -4,6 +4,7 @@ import {
   type DetailRankingMetric,
   getRankingMetricLabel,
   getRankingMetricValue,
+  getOverallScore,
   isOverallMetric,
   rankingMetricOptions,
   type RankingMetric,
@@ -15,6 +16,7 @@ import {
   calculateMetricDeviation,
   calculateMetricDistributions,
   createCelebrityScoreDeviationConverter,
+  createDeviationConverterFromValues,
 } from '../lib/metricDistribution';
 
 const genderFilters = [
@@ -67,6 +69,7 @@ const categoryOrder = [
 ];
 
 type RankingScope = (typeof rankingScopes)[number]['value'];
+const SYMMETRY_REFERENCE_WEIGHT = 0.1;
 
 function filterRecommendedEntries(
   celebrities: Celebrity[],
@@ -101,6 +104,26 @@ function formatAgeStat(value: number | null): string {
   return `${value.toFixed(1)}歳`;
 }
 
+function round1(value: number): number {
+  return Math.round(value * 10) / 10;
+}
+
+function getSymmetryAdjustedOverallScore(
+  celebrity: Celebrity,
+  useAge: boolean,
+  useSns: boolean,
+  distributions: ReturnType<typeof calculateMetricDistributions>
+): number {
+  const baseScore = getOverallScore(celebrity, useAge, useSns);
+  const symmetry = celebrity.details?.symmetry;
+  if (typeof symmetry !== 'number') return baseScore;
+
+  const symmetryDeviation = calculateMetricDeviation(symmetry, distributions.symmetry);
+  if (symmetryDeviation == null) return baseScore;
+
+  return round1(baseScore + (symmetryDeviation - 50) * SYMMETRY_REFERENCE_WEIGHT);
+}
+
 function sortCategoryValues(a: string, b: string): number {
   const ai = categoryOrder.indexOf(a);
   const bi = categoryOrder.indexOf(b);
@@ -118,6 +141,7 @@ export default function RankingPage() {
   const [categoryFilter, setCategoryFilter] = useState('');
   const [useAge, setUseAge] = useState(true);
   const [useSns, setUseSns] = useState(false);
+  const [useSymmetry, setUseSymmetry] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
@@ -133,26 +157,60 @@ export default function RankingPage() {
 
   useEffect(() => {
     setPage(1);
-  }, [rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+  }, [rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, useAge, useSns, useSymmetry]);
+
+  const allMetricDistributions = useMemo(
+    () => calculateMetricDistributions(celebrities),
+    [celebrities]
+  );
 
   const toDeviation = useMemo(() => {
     if (celebrities.length === 0) return (_score: number, _age: boolean, _sns: boolean) => 0;
-    const convFace = createCelebrityScoreDeviationConverter(celebrities, 'face');
-    const convFaceAge = createCelebrityScoreDeviationConverter(celebrities, 'faceAge');
-    const convFaceSns = createCelebrityScoreDeviationConverter(celebrities, 'faceSns');
-    const convFaceAgeSns = createCelebrityScoreDeviationConverter(celebrities, 'faceAgeSns');
+    if (!useSymmetry) {
+      const convFace = createCelebrityScoreDeviationConverter(celebrities, 'face');
+      const convFaceAge = createCelebrityScoreDeviationConverter(celebrities, 'faceAge');
+      const convFaceSns = createCelebrityScoreDeviationConverter(celebrities, 'faceSns');
+      const convFaceAgeSns = createCelebrityScoreDeviationConverter(celebrities, 'faceAgeSns');
+      return (score: number, age: boolean, sns: boolean) => {
+        if (age && sns) return convFaceAgeSns(score);
+        if (age) return convFaceAge(score);
+        if (sns) return convFaceSns(score);
+        return convFace(score);
+      };
+    }
+
+    const symmetryReadyCelebrities = celebrities.filter(
+      (celebrity) =>
+        celebrity.faceValidationStatus !== 'rejected' &&
+        typeof celebrity.details?.symmetry === 'number'
+    );
+    const convFace = createDeviationConverterFromValues(
+      symmetryReadyCelebrities.map((celebrity) =>
+        getSymmetryAdjustedOverallScore(celebrity, false, false, allMetricDistributions)
+      )
+    );
+    const convFaceAge = createDeviationConverterFromValues(
+      symmetryReadyCelebrities.map((celebrity) =>
+        getSymmetryAdjustedOverallScore(celebrity, true, false, allMetricDistributions)
+      )
+    );
+    const convFaceSns = createDeviationConverterFromValues(
+      symmetryReadyCelebrities.map((celebrity) =>
+        getSymmetryAdjustedOverallScore(celebrity, false, true, allMetricDistributions)
+      )
+    );
+    const convFaceAgeSns = createDeviationConverterFromValues(
+      symmetryReadyCelebrities.map((celebrity) =>
+        getSymmetryAdjustedOverallScore(celebrity, true, true, allMetricDistributions)
+      )
+    );
     return (score: number, age: boolean, sns: boolean) => {
       if (age && sns) return convFaceAgeSns(score);
       if (age) return convFaceAge(score);
       if (sns) return convFaceSns(score);
       return convFace(score);
     };
-  }, [celebrities]);
-
-  const allMetricDistributions = useMemo(
-    () => calculateMetricDistributions(celebrities),
-    [celebrities]
-  );
+  }, [celebrities, useSymmetry, allMetricDistributions]);
 
   const toMetricDeviation = useMemo(() => {
     return (metric: DetailRankingMetric, rawValue: number) =>
@@ -175,6 +233,7 @@ export default function RankingPage() {
     [rankingMetric]
   );
   const usesOverallScore = isOverallMetric(rankingMetric);
+  const usesSymmetryOverall = usesOverallScore && useSymmetry;
   const usesStrictReferenceRecommendedFilter =
     rankingScope === 'recommended' && !usesOverallScore && selectedMetric.isReference === true;
   const recommendedExcludedCount = useMemo(() => {
@@ -203,6 +262,11 @@ export default function RankingPage() {
       allList = allList.filter(hasMetric);
       visibleList = visibleList.filter(hasMetric);
     }
+    if (usesSymmetryOverall) {
+      const hasSymmetry = (celebrity: Celebrity) =>
+        typeof celebrity.details?.symmetry === 'number';
+      visibleList = visibleList.filter(hasSymmetry);
+    }
 
     return allList.length - visibleList.length;
   }, [
@@ -212,6 +276,7 @@ export default function RankingPage() {
     categoryFilter,
     searchQuery,
     usesOverallScore,
+    usesSymmetryOverall,
     rankingMetric,
   ]);
 
@@ -232,11 +297,18 @@ export default function RankingPage() {
     if (!usesOverallScore) {
       list = list.filter((celebrity) => typeof celebrity.details?.[rankingMetric] === 'number');
     }
-    list.sort(
-      (a, b) =>
-        getRankingMetricValue(b, rankingMetric, useAge, useSns) -
-        getRankingMetricValue(a, rankingMetric, useAge, useSns)
-    );
+    if (usesSymmetryOverall) {
+      list = list.filter((celebrity) => typeof celebrity.details?.symmetry === 'number');
+    }
+    list.sort((a, b) => {
+      const aValue = usesSymmetryOverall
+        ? getSymmetryAdjustedOverallScore(a, useAge, useSns, allMetricDistributions)
+        : getRankingMetricValue(a, rankingMetric, useAge, useSns);
+      const bValue = usesSymmetryOverall
+        ? getSymmetryAdjustedOverallScore(b, useAge, useSns, allMetricDistributions)
+        : getRankingMetricValue(b, rankingMetric, useAge, useSns);
+      return bValue - aValue;
+    });
     return list;
   }, [
     celebrities,
@@ -247,7 +319,9 @@ export default function RankingPage() {
     searchQuery,
     useAge,
     useSns,
+    usesSymmetryOverall,
     usesStrictReferenceRecommendedFilter,
+    allMetricDistributions,
   ]);
 
   const summary = useMemo(() => {
@@ -308,6 +382,8 @@ export default function RankingPage() {
           写真バイアスやカテゴリ調整のため {recommendedExcludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
           {usesStrictReferenceRecommendedFilter &&
             ' 参考値タブでは直感とズレやすいカテゴリをさらに外しています。'}
+          {usesSymmetryOverall &&
+            ' 左右対称ありでは、左右対称が算出できた人だけを対象にしています。'}
         </div>
       )}
 
@@ -367,7 +443,10 @@ export default function RankingPage() {
 
       <div className="mb-2 rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-400">
         {usesOverallScore ? (
-          <>総合ランキングは偏差値ベースで並べています。肌スコアは全員75固定なのでランキング対象から外しています。</>
+          <>
+            総合ランキングは偏差値ベースで並べています。既定では左右対称を入れず、
+            ON にすると算出済みデータだけを対象に参考値として軽く補正します。肌スコアは全員75固定なのでランキング対象から外しています。
+          </>
         ) : (
           <>
             現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。カード内にはスコアと偏差値を併記しています。年齢補正とSNS補正は使いません。
@@ -423,12 +502,37 @@ export default function RankingPage() {
           SNS影響力
         </button>
 
+        <button
+          onClick={() => setUseSymmetry(!useSymmetry)}
+          disabled={!usesOverallScore}
+          className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
+            usesOverallScore
+              ? useSymmetry
+                ? 'bg-cyan-600 text-white'
+                : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+              : 'cursor-not-allowed bg-slate-800 text-slate-600'
+          }`}
+        >
+          <span className={`inline-block h-3 w-3 rounded-sm border ${
+            usesOverallScore && useSymmetry ? 'border-white bg-white' : 'border-slate-500'
+          }`}>
+            {usesOverallScore && useSymmetry && (
+              <span className="block text-center text-xs font-bold leading-3 text-cyan-600">✓</span>
+            )}
+          </span>
+          左右対称も考慮
+        </button>
+
         <span className="text-xs text-slate-500">
           {!usesOverallScore && `${selectedMetric.label}の単体ランキング`}
-          {usesOverallScore && !useAge && !useSns && '顔の比率のみ'}
-          {usesOverallScore && useAge && !useSns && '20代前半ピークで年齢補正'}
-          {usesOverallScore && !useAge && useSns && '顔 70% + SNS 30%'}
-          {usesOverallScore && useAge && useSns && '顔 70% + SNS 30% + 年齢補正'}
+          {usesOverallScore && !useAge && !useSns && !useSymmetry && '顔の比率のみ'}
+          {usesOverallScore && useAge && !useSns && !useSymmetry && '20代前半ピークで年齢補正'}
+          {usesOverallScore && !useAge && useSns && !useSymmetry && '顔 70% + SNS 30%'}
+          {usesOverallScore && useAge && useSns && !useSymmetry && '顔 70% + SNS 30% + 年齢補正'}
+          {usesOverallScore && !useAge && !useSns && useSymmetry && '顔の比率 + 左右対称の参考補正'}
+          {usesOverallScore && useAge && !useSns && useSymmetry && '年齢補正 + 左右対称の参考補正'}
+          {usesOverallScore && !useAge && useSns && useSymmetry && '顔 70% + SNS 30% + 左右対称の参考補正'}
+          {usesOverallScore && useAge && useSns && useSymmetry && '顔 70% + SNS 30% + 年齢補正 + 左右対称の参考補正'}
         </span>
       </div>
 
@@ -474,6 +578,11 @@ export default function RankingPage() {
                 celebrity={celeb}
                 rank={rankOffset + i + 1}
                 metric={rankingMetric}
+                overallScoreOverride={
+                  usesSymmetryOverall
+                    ? getSymmetryAdjustedOverallScore(celeb, useAge, useSns, allMetricDistributions)
+                    : null
+                }
                 metricDeviation={
                   isOverallMetric(rankingMetric)
                     ? null
