@@ -49,7 +49,7 @@ export default function App() {
         </main>
 
         <footer className="border-t border-slate-800 py-6 text-center text-sm text-slate-500">
-          <p>偏差値は顔の数学的比率に基づく指標であり、美の絶対評価ではありません。</p>
+          <p>数値は顔の比率ベースの目安です。</p>
         </footer>
       </div>
     </HashRouter>

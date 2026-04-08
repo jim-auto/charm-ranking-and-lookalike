@@ -120,7 +120,7 @@ export default function DiagnosePage() {
       <div className="mb-6">
         <h2 className="text-2xl font-bold mb-2">AIスト値診断</h2>
         <p className="text-slate-400">
-          あなたの顔写真から偏差値を算出し、似ている芸能人を見つけます。
+          写真からスコアを出して、近い芸能人を探します。
         </p>
       </div>
 
@@ -144,7 +144,7 @@ export default function DiagnosePage() {
       {!modelsReady && !error && (
         <div className="text-center py-12 text-slate-400">
           <div className="animate-spin w-8 h-8 border-2 border-indigo-400 border-t-transparent rounded-full mx-auto mb-3" />
-          AIモデルを読み込んでいます...
+          診断モデルを読み込み中...
         </div>
       )}
 
@@ -172,12 +172,12 @@ export default function DiagnosePage() {
 
       <div className="mt-8 p-4 bg-slate-800/50 rounded-lg text-sm text-slate-500 space-y-2">
         <p>
-          ※ 偏差値は顔の数学的比率に基づく指標であり、美の絶対評価ではありません。
+          ※ 数値は顔の比率ベースの目安です。
         </p>
         <p>
-          ※ アップロードした画像はブラウザ内のみで処理され、サーバーには送信されません。
+          ※ 画像はブラウザ内だけで処理します。
         </p>
-        <p>※ 左右対称は正面度が足りない写真では参考外として扱います。</p>
+        <p>※ 左右対称は正面に近い写真のときだけ見ます。</p>
       </div>
     </div>
   );

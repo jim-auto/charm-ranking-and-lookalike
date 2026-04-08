@@ -31,7 +31,7 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: '低得点側に偏り',
       tone: 'border-amber-800/70 bg-amber-950/30 text-amber-200',
-      summary: '低得点帯が厚く、撮影条件が悪い写真や崩れた表情の影響を受けやすい分布です。',
+      summary: '低めに寄っています。表情や写真条件の影響が出やすい形です。',
     };
   }
 
@@ -39,7 +39,7 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: 'レンジ圧縮',
       tone: 'border-orange-800/70 bg-orange-950/30 text-orange-200',
-      summary: '多くの顔が近い点数に集まっていて、raw だけでは差がつきにくい分布です。',
+      summary: '点が近く、細かい差はあまり付きません。',
     };
   }
 
@@ -47,7 +47,7 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: '高得点側に裾',
       tone: 'border-emerald-800/70 bg-emerald-950/30 text-emerald-200',
-      summary: '一部の写真条件で伸びた高得点が尾を引いていて、少数の突出値が混ざっています。',
+      summary: '一部だけ高く伸びています。',
     };
   }
 
@@ -55,14 +55,14 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: '低得点側に裾',
       tone: 'border-sky-800/70 bg-sky-950/30 text-sky-200',
-      summary: '低得点側に外れ値があり、斜め顔や表情差の影響が少し残っている分布です。',
+      summary: '一部だけ低く落ちています。',
     };
   }
 
   return {
-    label: '比較的安定',
+    label: '安定寄り',
     tone: 'border-slate-700 bg-slate-900/80 text-slate-300',
-    summary: '大きな偏りは比較的小さく、中間帯で見比べやすい分布です。',
+    summary: '大きな偏りは少なめです。',
   };
 }
 
@@ -92,7 +92,7 @@ export default function MetricDistributionPanel({ distributions }: Props) {
       <div className="mb-4">
         <h3 className="text-sm font-semibold text-white sm:text-base">各指標の分布</h3>
         <p className="mt-1 text-xs text-slate-400 sm:text-sm">
-          現在の表示条件に絞った raw スコア分布です。単写真の 2D 特徴量なので一部の歪みは残ります。raw の平均は 50 に揃えていないので、比較は偏差値ベースで見る前提です。
+          今の表示条件での生点分布です。細かい比較は偏差値のほうが見やすいです。
         </p>
       </div>
 
@@ -152,11 +152,11 @@ export default function MetricDistributionPanel({ distributions }: Props) {
               </div>
 
               <div className="mb-3 rounded-lg border border-slate-800 bg-slate-900/80 p-2.5 text-[11px] leading-5 text-slate-300">
-                <div className="font-medium text-slate-100">今回の見え方</div>
+                <div className="font-medium text-slate-100">分布メモ</div>
                 <div className="mt-0.5 text-slate-400">{status.summary}</div>
-                <div className="mt-2 font-medium text-slate-100">主な原因</div>
+                <div className="mt-2 font-medium text-slate-100">原因</div>
                 <div className="mt-0.5 text-slate-400">{guide.cause}</div>
-                <div className="mt-2 font-medium text-slate-100">読み方</div>
+                <div className="mt-2 font-medium text-slate-100">見方</div>
                 <div className="mt-0.5 text-slate-400">{guide.readingHint}</div>
               </div>
 

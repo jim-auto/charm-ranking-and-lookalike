@@ -241,12 +241,12 @@ export function calculatePhotoQuality(
   const contourReliable = frontalScore >= 58 && cropScore >= 30;
 
   const notes: string[] = [];
-  if (yawScore < 68) notes.push('横向きが強めです。正面写真だと左右対称の精度が上がります。');
+  if (yawScore < 68) notes.push('横向きが強めです。正面の写真だと左右対称を見やすくなります。');
   if (pitchScore < 58) notes.push('顎の上げ下げが強めです。目線の高さで撮ると安定します。');
-  if (Math.abs(rollDegrees) > 9) notes.push('顔の傾きが大きめです。水平に近い写真がおすすめです。');
-  if (cropScore < 35) notes.push('顔まわりの余白が少なく、輪郭の推定が不安定です。');
-  if (sharpnessScore < 22) notes.push('少しぼけています。明るい場所で撮ると精度が上がります。');
-  if (notes.length === 0) notes.push('この写真は診断向きです。左右対称も比較的安定して見られます。');
+  if (Math.abs(rollDegrees) > 9) notes.push('顔の傾きが大きめです。まっすぐに近い写真だと見やすいです。');
+  if (cropScore < 35) notes.push('顔まわりが詰まり気味で、輪郭が取りにくいです。');
+  if (sharpnessScore < 22) notes.push('少しぼけています。明るい場所だと安定します。');
+  if (notes.length === 0) notes.push('この写真ならかなり見やすいです。');
 
   return {
     overallScore,

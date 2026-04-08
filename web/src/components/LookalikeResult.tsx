@@ -65,7 +65,7 @@ export default function LookalikeResult({
     <div className="space-y-6">
       <div className="bg-slate-800 rounded-xl p-6">
         <div className="text-center">
-          <h3 className="text-lg text-slate-300 mb-2">あなたの顔面偏差値</h3>
+          <h3 className="text-lg text-slate-300 mb-2">診断スコア</h3>
           <div className="text-5xl font-bold text-indigo-400 mb-4">{score}</div>
           <div className="flex justify-center">
             <ScoreRadar details={details} size="md" />
@@ -73,12 +73,12 @@ export default function LookalikeResult({
         </div>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-3">
-          <QualityMetric label="写真品質" value={photoQuality.overallScore} hint="アップロード画像の総合安定度" />
+          <QualityMetric label="写真品質" value={photoQuality.overallScore} hint="この写真の安定度" />
           <QualityMetric label="正面度" value={photoQuality.frontalScore} hint="左右対称の見やすさ" />
-          <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ぼけの少なさ" />
+          <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ピント" />
           <QualityMetric label="顔の収まり" value={photoQuality.cropScore} hint="輪郭の取りやすさ" />
           <QualityMetric label="傾き" value={`${photoQuality.rollDegrees}°`} hint="0°に近いほど安定" />
-          <QualityMetric label="横向き耐性" value={photoQuality.yawScore} hint="正面に近いほど高評価" />
+          <QualityMetric label="横向き耐性" value={photoQuality.yawScore} hint="正面寄りほど安定" />
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -90,7 +90,7 @@ export default function LookalikeResult({
           </div>
           {!photoQuality.symmetryReliable && (
             <div className="rounded-full border border-slate-600/50 bg-slate-700/40 px-3 py-1 text-sm text-slate-300">
-              正面写真を追加すると左右対称の精度が上がります
+              正面の写真があると左右対称は見やすくなります
             </div>
           )}
         </div>

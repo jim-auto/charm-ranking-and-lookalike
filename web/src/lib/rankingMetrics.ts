@@ -23,26 +23,26 @@ interface MetricDistributionGuide {
 }
 
 export const rankingMetricOptions: RankingMetricOption[] = [
-  { value: 'overall', label: '総合', description: '分布補正後の総合ランキング' },
-  { value: 'golden_ratio', label: '黄金比', description: '顔の縦横比と目の配置' },
-  { value: 'eyes', label: '目', description: '目の開き方と左右バランス' },
+  { value: 'overall', label: '総合', description: '総合スコア順' },
+  { value: 'golden_ratio', label: '黄金比', description: '縦横比と配置' },
+  { value: 'eyes', label: '目', description: '目の形と開き' },
   {
     value: 'nose',
     label: '鼻',
-    description: '鼻の幅と長さの比率。写真条件の影響が残る参考値',
+    description: '鼻の比率',
     isReference: true,
   },
-  { value: 'mouth', label: '口', description: '口幅と唇バランスの比率' },
+  { value: 'mouth', label: '口', description: '口元の比率' },
   {
     value: 'contour',
     label: '輪郭',
-    description: '顎幅比と顎先バランス、フェイスライン。角度の影響が残る参考値',
+    description: '輪郭の形',
     isReference: true,
   },
   {
     value: 'symmetry',
     label: '左右対称',
-    description: '写真条件の影響が強い参考値',
+    description: '左右のそろい方',
     isReference: true,
   },
 ];
@@ -50,39 +50,39 @@ export const rankingMetricOptions: RankingMetricOption[] = [
 const metricDistributionGuides: Record<DetailRankingMetric, MetricDistributionGuide> = {
   golden_ratio: {
     cause:
-      '複数の比率を合成しているので、中間帯に集まりやすく、極端に崩れた写真だけが低得点側へ外れやすいです。',
+      'いくつかの比率をまとめているので、中間に集まりやすいです。',
     readingHint:
-      '総合との整合は比較的高めですが、数点差よりも上位帯と下位帯の大きな差を見るのが安全です。',
+      '細かい点差より、上位と下位の差を見ます。',
   },
   eyes: {
     cause:
-      '目の開き、笑顔、片目の細まり、前髪や影のかかり方で数値が動くので、閉じ気味の写真が混じると低得点側に裾が出やすいです。',
+      '表情、前髪、影で動きやすい指標です。',
     readingHint:
-      '一瞬の表情差を拾いやすいので、単写真の数点差は過信せず、偏差値ベースで見るのが向いています。',
+      '笑顔や伏し目も混ざるので、そのつもりで見ます。',
   },
   nose: {
     cause:
-      '鼻は2D写真だと角度、陰影、レンズ距離で幅と長さの見え方が変わるので、斜め顔が混じると分布がぶれやすいです。',
+      '角度と光で見え方が変わりやすいです。',
     readingHint:
-      '生点は写真条件の影響が残るので、単独の優劣より傾向確認用として使うのが安全です。',
+      '単独順位より、だいたいの傾向を見る指標です。',
   },
   mouth: {
     cause:
-      '口幅、口角、唇の厚みは真顔か笑顔かで動くので、表情差が大きいデータでは分布が広がりやすいです。',
+      '真顔か笑顔かでかなり動きます。',
     readingHint:
-      '笑顔写真が混じる前提で、上位下位の大きな差を見る用途に寄せるのが妥当です。',
+      '真顔と笑顔が混ざるので、そのつもりで見ます。',
   },
   contour: {
     cause:
-      '輪郭は骨格そのものではなく下顔面の2D proxy なので、顎の上げ下げ、顔の向き、髪のかかり方で分布が歪みやすいです。',
+      '骨格そのものではなく、写真に写った下顔面を見ています。',
     readingHint:
-      'raw は写真依存が残るので、偏差値主表示で見つつ、単独ランキングは参考値として読むのが妥当です。',
+      '単独順位より、目安として見るのが合っています。',
   },
   symmetry: {
     cause:
-      '左右対称は正面度、表情、片目の開き差、影の入り方に強く引っ張られるので、単写真では最も歪みが出やすい指標です。',
+      '正面度と表情の影響がかなり大きいです。',
     readingHint:
-      '正面寄りで accepted の写真だけを対象にしても写真依存は残るので、参考値として扱うのが前提です。',
+      '正面写真向けの参考値です。',
   },
 };
 

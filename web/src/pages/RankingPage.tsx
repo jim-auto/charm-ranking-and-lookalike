@@ -379,11 +379,11 @@ export default function RankingPage() {
 
       {rankingScope === 'recommended' && recommendedExcludedCount > 0 && (
         <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
-          写真バイアスやカテゴリ調整のため {recommendedExcludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
+          写真違いやカテゴリの偏りを避けるため、{recommendedExcludedCount} 件はこの表示から外しています。「全カテゴリ」で全部見られます。
           {usesStrictReferenceRecommendedFilter &&
-            ' 参考値タブでは直感とズレやすいカテゴリをさらに外しています。'}
+            ' 参考値タブでは、クセの強いカテゴリをもう少し絞っています。'}
           {usesSymmetryOverall &&
-            ' 左右対称ありでは、左右対称が算出できた人だけを対象にしています。'}
+            ' 左右対称ありは、算出できた人だけが対象です。'}
         </div>
       )}
 
@@ -444,15 +444,14 @@ export default function RankingPage() {
       <div className="mb-2 rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-400">
         {usesOverallScore ? (
           <>
-            総合ランキングは偏差値ベースで並べています。既定では左右対称を入れず、
-            ON にすると算出済みデータだけを対象に参考値として軽く補正します。肌スコアは全員75固定なのでランキング対象から外しています。
+            総合は偏差値順です。左右対称は初期設定では入れていません。ON にすると、算出できた人だけ少し反映します。肌は全員同点なので外しています。
           </>
         ) : (
           <>
-            現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。カード内には偏差値と raw スコアを併記しています。年齢補正とSNS補正は使いません。
+            このタブは「{getRankingMetricLabel(rankingMetric)}」の生点順です。カードには偏差値も併記しています。年齢補正とSNS補正は使いません。
             {selectedMetric.isReference &&
-              ' 鼻・輪郭・左右対称は撮影角度や表情の影響が残るので、raw より偏差値を基準に見るのがおすすめです。'}
-            {' '}肌スコアは全員75固定なので対象外です。
+              ' 鼻・輪郭・左右対称は写真の影響が強めです。'}
+            {' '}肌は全員同点なので外しています。
           </>
         )}
       </div>
