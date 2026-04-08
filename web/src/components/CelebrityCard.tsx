@@ -1,6 +1,5 @@
 import type { Celebrity } from '../types/celebrity';
 import {
-  getOverallScore,
   getRankingMetricLabel,
   getRankingMetricValue,
   isOverallMetric,
@@ -12,6 +11,7 @@ interface Props {
   celebrity: Celebrity;
   rank: number;
   metric?: RankingMetric;
+  metricDeviation?: number | null;
   useAge?: boolean;
   useSns?: boolean;
   formatFollowers?: (n: number) => string;
@@ -40,26 +40,32 @@ function medalColor(rank: number): string {
   return 'text-slate-500';
 }
 
+function formatScoreValue(value: number): string {
+  return Number.isInteger(value) ? String(value) : value.toFixed(1);
+}
+
 export default function CelebrityCard({
   celebrity,
   rank,
   metric = 'overall',
+  metricDeviation = null,
   useAge = false,
   useSns = false,
   formatFollowers,
   toDeviation,
 }: Props) {
-  const overallScore = getOverallScore(celebrity, false, false);
-  const overallDeviation = toDeviation ? toDeviation(overallScore, false, false) : overallScore;
   const rawScore = getRankingMetricValue(celebrity, metric, useAge, useSns);
   const displayScore = isOverallMetric(metric)
     ? toDeviation
       ? toDeviation(rawScore, useAge, useSns)
       : rawScore
     : rawScore;
-  const hasModifier = isOverallMetric(metric) && (useAge || useSns);
-  const scoreLabel = isOverallMetric(metric) ? '偏差値' : getRankingMetricLabel(metric);
-  const scoreSubLabel = hasModifier ? `素点 ${overallDeviation}` : !isOverallMetric(metric) ? `総合 ${overallDeviation}` : null;
+  const scoreLabel = isOverallMetric(metric) ? '偏差値' : `${getRankingMetricLabel(metric)}スコア`;
+  const scoreSubLabel = isOverallMetric(metric)
+    ? `スコア ${formatScoreValue(rawScore)}`
+    : metricDeviation != null
+      ? `偏差値 ${metricDeviation.toFixed(1)}`
+      : null;
 
   return (
     <div className="rounded-xl bg-slate-800 px-3 py-2.5 sm:px-3.5 sm:py-3">

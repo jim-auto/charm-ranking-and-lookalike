@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import { createDeviationConverter } from '../lib/faceScoring';
 import {
+  type DetailRankingMetric,
   getRankingMetricLabel,
   getRankingMetricValue,
   isOverallMetric,
@@ -62,6 +63,22 @@ function median(values: number[]): number | null {
   return (ordered[middle - 1] + ordered[middle]) / 2;
 }
 
+function createValueDeviationConverter(values: number[]): (rawValue: number) => number {
+  const validValues = values.filter((value) => Number.isFinite(value));
+  const count = validValues.length;
+  if (count === 0) return () => 50;
+
+  const mean = validValues.reduce((sum, value) => sum + value, 0) / count;
+  const variance =
+    validValues.reduce((sum, value) => sum + (value - mean) ** 2, 0) / count;
+  const standardDeviation = Math.sqrt(variance);
+
+  if (standardDeviation === 0) return () => 50;
+
+  return (rawValue: number) =>
+    Math.round((50 + 10 * (rawValue - mean) / standardDeviation) * 10) / 10;
+}
+
 function formatFollowers(n: number): string {
   if (n >= 10_000_000) return `${(n / 10_000_000).toFixed(1)}千万`;
   if (n >= 10_000) return `${Math.round(n / 10_000)}万`;
@@ -119,6 +136,27 @@ export default function RankingPage() {
       if (sns) return convFaceSns(score);
       return convFace(score);
     };
+  }, [celebrities]);
+
+  const toMetricDeviation = useMemo(() => {
+    const converters: Partial<Record<DetailRankingMetric, (rawValue: number) => number>> = {};
+    const detailMetricOptions = rankingMetricOptions.filter(
+      (
+        metricOption
+      ): metricOption is (typeof rankingMetricOptions)[number] & { value: DetailRankingMetric } =>
+        metricOption.value !== 'overall'
+    );
+
+    detailMetricOptions.forEach((metricOption) => {
+      const values = celebrities
+        .map((celebrity) => celebrity.details?.[metricOption.value])
+        .filter((value): value is number => typeof value === 'number');
+
+      converters[metricOption.value] = createValueDeviationConverter(values);
+    });
+
+    return (metric: DetailRankingMetric, rawValue: number) =>
+      converters[metric]?.(rawValue) ?? null;
   }, [celebrities]);
 
   const categoryFilters = useMemo(() => {
@@ -278,7 +316,7 @@ export default function RankingPage() {
           <>総合ランキングは偏差値ベースで並べています。肌スコアは全員75固定なのでランキング対象から外しています。</>
         ) : (
           <>
-            現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。年齢補正とSNS補正は使いません。
+            現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。カード内にはスコアと偏差値を併記しています。年齢補正とSNS補正は使いません。
             {selectedMetric.isReference && ' 左右対称は角度や表情の影響が強いため参考値として見てください。'}
             {' '}肌スコアは全員75固定なので対象外です。
           </>
@@ -379,6 +417,14 @@ export default function RankingPage() {
                 celebrity={celeb}
                 rank={rankOffset + i + 1}
                 metric={rankingMetric}
+                metricDeviation={
+                  isOverallMetric(rankingMetric)
+                    ? null
+                    : toMetricDeviation(
+                        rankingMetric,
+                        getRankingMetricValue(celeb, rankingMetric, false, false)
+                      )
+                }
                 useAge={useAge}
                 useSns={useSns}
                 formatFollowers={formatFollowers}
