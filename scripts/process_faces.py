@@ -121,12 +121,12 @@ def calculate_nose_score(lm: List[Point]) -> float:
 
 
 def calculate_mouth_score(lm: List[Point]) -> float:
+    face_width = dist(lm[0], lm[16])
     mouth_width = dist(lm[48], lm[54])
-    nose_width = dist(lm[31], lm[35])
     upper_lip_height = dist(lm[51], lm[62])
     lower_lip_height = dist(lm[57], lm[66])
 
-    width_ratio = ratio_score(mouth_width / nose_width, 1.5) if nose_width > 0 else 0
+    width_ratio = ratio_score(mouth_width / face_width, 0.38) if face_width > 0 else 0
     lip_ratio = ratio_score(upper_lip_height / lower_lip_height, 0.8) if lower_lip_height > 0 else 0
     return (width_ratio + lip_ratio) / 2
 

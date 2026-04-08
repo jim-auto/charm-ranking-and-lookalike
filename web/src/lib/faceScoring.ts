@@ -89,12 +89,12 @@ export function calculateNoseScore(landmarks: Point[]): number {
 }
 
 export function calculateMouthScore(landmarks: Point[]): number {
+  const faceWidth = distance(landmarks[0], landmarks[16]);
   const mouthWidth = distance(landmarks[48], landmarks[54]);
-  const noseWidth = distance(landmarks[31], landmarks[35]);
   const upperLipHeight = distance(landmarks[51], landmarks[62]);
   const lowerLipHeight = distance(landmarks[57], landmarks[66]);
 
-  const widthRatio = ratioScore(mouthWidth / noseWidth, 1.5);
+  const widthRatio = ratioScore(mouthWidth / faceWidth, 0.38);
   const lipRatio = ratioScore(upperLipHeight / lowerLipHeight, 0.8);
 
   return (widthRatio + lipRatio) / 2;

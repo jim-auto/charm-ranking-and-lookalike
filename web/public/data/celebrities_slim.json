@@ -2,55 +2,87 @@
   {
     "id": "celeb_04bb2177",
     "name": "橋本環奈",
-    "category": "actress",
-    "score": 66.4,
+    "category": "actor",
+    "score": 69.4,
     "details": {
       "symmetry": 94,
       "golden_ratio": 45,
       "eyes": 97,
       "nose": 58,
-      "mouth": 29,
+      "mouth": 59,
       "contour": 56,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_04bb2177.jpg"
   },
   {
-    "id": "celeb_3060094d",
-    "name": "MISIA",
-    "category": "artist",
-    "score": 65.3,
-    "details": {
-      "symmetry": 95,
-      "golden_ratio": 40,
-      "eyes": 100,
-      "nose": 53,
-      "mouth": 28,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_3060094d.jpg"
-  },
-  {
     "id": "celeb_5af63ed2",
     "name": "SANA(TWICE)",
-    "category": "idol",
-    "score": 65.2,
+    "category": "actor",
+    "score": 68.2,
     "details": {
       "symmetry": 81,
       "golden_ratio": 47,
       "eyes": 95,
       "nose": 42,
-      "mouth": 57,
+      "mouth": 87,
       "contour": 56,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg"
   },
   {
+    "id": "celeb_3060094d",
+    "name": "MISIA",
+    "category": "actor",
+    "score": 68.1,
+    "details": {
+      "symmetry": 95,
+      "golden_ratio": 40,
+      "eyes": 100,
+      "nose": 53,
+      "mouth": 56,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_3060094d.jpg"
+  },
+  {
+    "id": "celeb_c6742188",
+    "name": "加藤綾子",
+    "category": "actor",
+    "score": 65.8,
+    "details": {
+      "symmetry": 77,
+      "golden_ratio": 35,
+      "eyes": 94,
+      "nose": 67,
+      "mouth": 85,
+      "contour": 49,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c6742188.jpg"
+  },
+  {
+    "id": "celeb_1c82bee3",
+    "name": "白石麻衣",
+    "category": "actor",
+    "score": 64.9,
+    "details": {
+      "symmetry": 79,
+      "golden_ratio": 42,
+      "eyes": 90,
+      "nose": 43,
+      "mouth": 77,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg"
+  },
+  {
     "id": "celeb_ae65b595",
     "name": "佐田の海貴士",
-    "category": "sumo",
+    "category": "actor",
     "score": 64.2,
     "details": {
       "symmetry": 81,
@@ -64,137 +96,329 @@
     "thumbnail": "data/thumbnails/celeb_ae65b595.jpg"
   },
   {
-    "id": "celeb_c6742188",
-    "name": "加藤綾子",
-    "category": "announcer",
-    "score": 63.2,
-    "details": {
-      "symmetry": 77,
-      "golden_ratio": 35,
-      "eyes": 94,
-      "nose": 67,
-      "mouth": 59,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c6742188.jpg"
-  },
-  {
-    "id": "celeb_e245d548",
-    "name": "千代翔馬富士雄",
-    "category": "sumo",
-    "score": 62.7,
-    "details": {
-      "symmetry": 92,
-      "golden_ratio": 29,
-      "eyes": 71,
-      "nose": 52,
-      "mouth": 79,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_e245d548.jpg"
-  },
-  {
-    "id": "celeb_1dbbe00c",
-    "name": "把瑠都凱斗",
-    "category": "sumo",
-    "score": 62.4,
-    "details": {
-      "symmetry": 92,
-      "golden_ratio": 33,
-      "eyes": 90,
-      "nose": 21,
-      "mouth": 74,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_1dbbe00c.jpg"
-  },
-  {
-    "id": "celeb_10323a2d",
-    "name": "浜崎あゆみ",
-    "category": "artist",
-    "score": 61.8,
-    "details": {
-      "symmetry": 82,
-      "golden_ratio": 42,
-      "eyes": 87,
-      "nose": 45,
-      "mouth": 47,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_10323a2d.jpg"
-  },
-  {
-    "id": "celeb_9ccb3b96",
-    "name": "小松菜奈",
-    "category": "actress",
-    "score": 61.2,
-    "details": {
-      "symmetry": 74,
-      "golden_ratio": 30,
-      "eyes": 91,
-      "nose": 56,
-      "mouth": 63,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_9ccb3b96.jpg"
-  },
-  {
-    "id": "celeb_a9977480",
-    "name": "松坂桃李",
-    "category": "actor",
-    "score": 61.0,
-    "details": {
-      "symmetry": 90,
-      "golden_ratio": 36,
-      "eyes": 76,
-      "nose": 43,
-      "mouth": 52,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_a9977480.jpg"
-  },
-  {
-    "id": "celeb_1c82bee3",
-    "name": "白石麻衣",
-    "category": "idol",
-    "score": 61.0,
-    "details": {
-      "symmetry": 79,
-      "golden_ratio": 42,
-      "eyes": 90,
-      "nose": 43,
-      "mouth": 38,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg"
-  },
-  {
     "id": "celeb_e564607e",
     "name": "松本かれん",
-    "category": "idol",
-    "score": 60.8,
+    "category": "actor",
+    "score": 64.2,
     "details": {
       "symmetry": 89,
       "golden_ratio": 32,
       "eyes": 92,
       "nose": 47,
-      "mouth": 44,
+      "mouth": 78,
       "contour": 46,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e564607e.jpg"
   },
   {
+    "id": "celeb_10323a2d",
+    "name": "浜崎あゆみ",
+    "category": "actor",
+    "score": 63.6,
+    "details": {
+      "symmetry": 82,
+      "golden_ratio": 42,
+      "eyes": 87,
+      "nose": 45,
+      "mouth": 65,
+      "contour": 51,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_10323a2d.jpg"
+  },
+  {
+    "id": "celeb_a9977480",
+    "name": "松坂桃李",
+    "category": "actor",
+    "score": 63.3,
+    "details": {
+      "symmetry": 90,
+      "golden_ratio": 36,
+      "eyes": 76,
+      "nose": 43,
+      "mouth": 75,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_a9977480.jpg"
+  },
+  {
+    "id": "celeb_67595c9c",
+    "name": "川口春奈",
+    "category": "actor",
+    "score": 63.0,
+    "details": {
+      "symmetry": 92,
+      "golden_ratio": 34,
+      "eyes": 65,
+      "nose": 53,
+      "mouth": 79,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_67595c9c.jpg"
+  },
+  {
+    "id": "celeb_e245d548",
+    "name": "千代翔馬富士雄",
+    "category": "actor",
+    "score": 62.8,
+    "details": {
+      "symmetry": 92,
+      "golden_ratio": 29,
+      "eyes": 71,
+      "nose": 52,
+      "mouth": 80,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_e245d548.jpg"
+  },
+  {
+    "id": "celeb_90d4aec0",
+    "name": "大森元貴",
+    "category": "actor",
+    "score": 62.6,
+    "details": {
+      "symmetry": 93,
+      "golden_ratio": 32,
+      "eyes": 71,
+      "nose": 51,
+      "mouth": 73,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg"
+  },
+  {
+    "id": "celeb_5a27f5fc",
+    "name": "松山英樹",
+    "category": "actor",
+    "score": 62.6,
+    "details": {
+      "symmetry": 76,
+      "golden_ratio": 34,
+      "eyes": 86,
+      "nose": 59,
+      "mouth": 72,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_5a27f5fc.jpg"
+  },
+  {
+    "id": "celeb_1dbbe00c",
+    "name": "把瑠都凱斗",
+    "category": "actor",
+    "score": 62.5,
+    "details": {
+      "symmetry": 92,
+      "golden_ratio": 33,
+      "eyes": 90,
+      "nose": 21,
+      "mouth": 75,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_1dbbe00c.jpg"
+  },
+  {
+    "id": "celeb_837ebdf5",
+    "name": "オードリー春日",
+    "category": "actor",
+    "score": 62.2,
+    "details": {
+      "symmetry": 97,
+      "golden_ratio": 37,
+      "eyes": 58,
+      "nose": 36,
+      "mouth": 80,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg"
+  },
+  {
+    "id": "celeb_685a067b",
+    "name": "玉木宏",
+    "category": "actor",
+    "score": 62.2,
+    "details": {
+      "symmetry": 64,
+      "golden_ratio": 39,
+      "eyes": 92,
+      "nose": 55,
+      "mouth": 71,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_685a067b.jpg"
+  },
+  {
+    "id": "celeb_d45b0ee1",
+    "name": "綾瀬はるか",
+    "category": "actor",
+    "score": 62.2,
+    "details": {
+      "symmetry": 90,
+      "golden_ratio": 30,
+      "eyes": 71,
+      "nose": 51,
+      "mouth": 81,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg"
+  },
+  {
+    "id": "celeb_fbf39237",
+    "name": "室伏広治",
+    "category": "actor",
+    "score": 62.1,
+    "details": {
+      "symmetry": 89,
+      "golden_ratio": 41,
+      "eyes": 57,
+      "nose": 61,
+      "mouth": 62,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_fbf39237.jpg"
+  },
+  {
+    "id": "celeb_8fc71b5e",
+    "name": "指原莉乃",
+    "category": "actor",
+    "score": 62.0,
+    "details": {
+      "symmetry": 55,
+      "golden_ratio": 43,
+      "eyes": 85,
+      "nose": 73,
+      "mouth": 73,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg"
+  },
+  {
+    "id": "celeb_7dfa2df4",
+    "name": "浜辺美波",
+    "category": "actor",
+    "score": 61.8,
+    "details": {
+      "symmetry": 67,
+      "golden_ratio": 34,
+      "eyes": 96,
+      "nose": 38,
+      "mouth": 86,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_7dfa2df4.jpg"
+  },
+  {
+    "id": "celeb_8c89a925",
+    "name": "音嶋莉沙",
+    "category": "actor",
+    "score": 61.8,
+    "details": {
+      "symmetry": 67,
+      "golden_ratio": 35,
+      "eyes": 76,
+      "nose": 74,
+      "mouth": 76,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8c89a925.jpg"
+  },
+  {
+    "id": "celeb_69e73e58",
+    "name": "菅田将暉",
+    "category": "actor",
+    "score": 61.7,
+    "details": {
+      "symmetry": 86,
+      "golden_ratio": 28,
+      "eyes": 96,
+      "nose": 31,
+      "mouth": 67,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_69e73e58.jpg"
+  },
+  {
+    "id": "celeb_b4a8a800",
+    "name": "深田恭子",
+    "category": "actor",
+    "score": 61.6,
+    "details": {
+      "symmetry": 69,
+      "golden_ratio": 41,
+      "eyes": 86,
+      "nose": 58,
+      "mouth": 62,
+      "contour": 51,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg"
+  },
+  {
+    "id": "celeb_9ccb3b96",
+    "name": "小松菜奈",
+    "category": "actor",
+    "score": 61.4,
+    "details": {
+      "symmetry": 74,
+      "golden_ratio": 30,
+      "eyes": 91,
+      "nose": 56,
+      "mouth": 66,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_9ccb3b96.jpg"
+  },
+  {
+    "id": "celeb_40c3c413",
+    "name": "横浜流星",
+    "category": "actor",
+    "score": 61.0,
+    "details": {
+      "symmetry": 71,
+      "golden_ratio": 45,
+      "eyes": 70,
+      "nose": 39,
+      "mouth": 81,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_40c3c413.jpg"
+  },
+  {
+    "id": "celeb_d84d9575",
+    "name": "阿部一二三",
+    "category": "actor",
+    "score": 60.8,
+    "details": {
+      "symmetry": 74,
+      "golden_ratio": 34,
+      "eyes": 77,
+      "nose": 49,
+      "mouth": 77,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d84d9575.jpg"
+  },
+  {
     "id": "celeb_a347c13c",
     "name": "宮迫博之",
-    "category": "comedian",
+    "category": "actor",
     "score": 60.7,
     "details": {
       "symmetry": 84,
@@ -208,304 +432,192 @@
     "thumbnail": "data/thumbnails/celeb_a347c13c.jpg"
   },
   {
-    "id": "celeb_8fc71b5e",
-    "name": "指原莉乃",
-    "category": "idol",
-    "score": 60.4,
+    "id": "celeb_cec17988",
+    "name": "DAIGO",
+    "category": "actor",
+    "score": 60.5,
     "details": {
-      "symmetry": 55,
-      "golden_ratio": 43,
-      "eyes": 85,
-      "nose": 73,
-      "mouth": 57,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg"
-  },
-  {
-    "id": "celeb_5a27f5fc",
-    "name": "松山英樹",
-    "category": "athlete",
-    "score": 60.3,
-    "details": {
-      "symmetry": 76,
-      "golden_ratio": 34,
-      "eyes": 86,
-      "nose": 59,
-      "mouth": 49,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5a27f5fc.jpg"
-  },
-  {
-    "id": "celeb_90d4aec0",
-    "name": "大森元貴",
-    "category": "artist",
-    "score": 60.2,
-    "details": {
-      "symmetry": 93,
-      "golden_ratio": 32,
-      "eyes": 71,
-      "nose": 51,
-      "mouth": 48,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg"
-  },
-  {
-    "id": "celeb_fbf39237",
-    "name": "室伏広治",
-    "category": "athlete",
-    "score": 60.2,
-    "details": {
-      "symmetry": 89,
-      "golden_ratio": 41,
-      "eyes": 57,
-      "nose": 61,
-      "mouth": 43,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_fbf39237.jpg"
-  },
-  {
-    "id": "celeb_307cf348",
-    "name": "千原ジュニア",
-    "category": "comedian",
-    "score": 60.1,
-    "details": {
-      "symmetry": 67,
-      "golden_ratio": 47,
-      "eyes": 83,
-      "nose": 48,
-      "mouth": 46,
+      "symmetry": 74,
+      "golden_ratio": 40,
+      "eyes": 82,
+      "nose": 49,
+      "mouth": 54,
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_307cf348.jpg"
+    "thumbnail": "data/thumbnails/celeb_cec17988.jpg"
   },
   {
-    "id": "celeb_685a067b",
-    "name": "玉木宏",
+    "id": "celeb_303ba9cb",
+    "name": "松岡茉優",
     "category": "actor",
-    "score": 60.0,
+    "score": 60.5,
     "details": {
-      "symmetry": 64,
-      "golden_ratio": 39,
-      "eyes": 92,
-      "nose": 55,
-      "mouth": 48,
-      "contour": 58,
+      "symmetry": 30,
+      "golden_ratio": 53,
+      "eyes": 88,
+      "nose": 57,
+      "mouth": 92,
+      "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_685a067b.jpg"
-  },
-  {
-    "id": "celeb_8c89a925",
-    "name": "音嶋莉沙",
-    "category": "idol",
-    "score": 60.0,
-    "details": {
-      "symmetry": 67,
-      "golden_ratio": 35,
-      "eyes": 76,
-      "nose": 74,
-      "mouth": 58,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_8c89a925.jpg"
+    "thumbnail": "data/thumbnails/celeb_303ba9cb.jpg"
   },
   {
     "id": "celeb_7e883dd6",
     "name": "道枝駿佑",
-    "category": "idol",
-    "score": 59.8,
+    "category": "actor",
+    "score": 60.2,
     "details": {
       "symmetry": 85,
       "golden_ratio": 33,
       "eyes": 64,
       "nose": 44,
-      "mouth": 71,
+      "mouth": 75,
       "contour": 59,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_7e883dd6.jpg"
   },
   {
-    "id": "celeb_67595c9c",
-    "name": "川口春奈",
-    "category": "actress",
-    "score": 59.6,
-    "details": {
-      "symmetry": 92,
-      "golden_ratio": 34,
-      "eyes": 65,
-      "nose": 53,
-      "mouth": 45,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_67595c9c.jpg"
-  },
-  {
-    "id": "celeb_2e31aa04",
-    "name": "栃ノ心剛史",
-    "category": "sumo",
-    "score": 59.5,
-    "details": {
-      "symmetry": 55,
-      "golden_ratio": 36,
-      "eyes": 82,
-      "nose": 47,
-      "mouth": 94,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2e31aa04.jpg"
-  },
-  {
-    "id": "celeb_d45b0ee1",
-    "name": "綾瀬はるか",
-    "category": "actress",
-    "score": 59.2,
-    "details": {
-      "symmetry": 90,
-      "golden_ratio": 30,
-      "eyes": 71,
-      "nose": 51,
-      "mouth": 51,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg"
-  },
-  {
-    "id": "celeb_7008a10d",
-    "name": "栗山英樹",
-    "category": "athlete",
-    "score": 59.0,
-    "details": {
-      "symmetry": 55,
-      "golden_ratio": 40,
-      "eyes": 87,
-      "nose": 57,
-      "mouth": 62,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_7008a10d.jpg"
-  },
-  {
-    "id": "celeb_52f3ac8c",
-    "name": "棚橋弘至",
-    "category": "prowrestler",
-    "score": 59.0,
-    "details": {
-      "symmetry": 80,
-      "golden_ratio": 40,
-      "eyes": 44,
-      "nose": 89,
-      "mouth": 47,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg"
-  },
-  {
-    "id": "celeb_b4a8a800",
-    "name": "深田恭子",
-    "category": "actress",
-    "score": 59.0,
-    "details": {
-      "symmetry": 69,
-      "golden_ratio": 41,
-      "eyes": 86,
-      "nose": 58,
-      "mouth": 37,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg"
-  },
-  {
-    "id": "celeb_c62f821e",
-    "name": "ダウンタウン浜田",
-    "category": "comedian",
-    "score": 58.6,
-    "details": {
-      "symmetry": 75,
-      "golden_ratio": 32,
-      "eyes": 52,
-      "nose": 62,
-      "mouth": 85,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c62f821e.jpg"
-  },
-  {
-    "id": "celeb_783a8bb7",
-    "name": "浅野拓磨",
-    "category": "athlete",
-    "score": 58.6,
-    "details": {
-      "symmetry": 72,
-      "golden_ratio": 40,
-      "eyes": 81,
-      "nose": 48,
-      "mouth": 41,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_783a8bb7.jpg"
-  },
-  {
-    "id": "celeb_d84d9575",
-    "name": "阿部一二三",
-    "category": "athlete",
-    "score": 58.2,
-    "details": {
-      "symmetry": 74,
-      "golden_ratio": 34,
-      "eyes": 77,
-      "nose": 49,
-      "mouth": 52,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d84d9575.jpg"
-  },
-  {
     "id": "celeb_708c9315",
     "name": "ローラ",
-    "category": "influencer",
-    "score": 58.0,
+    "category": "actor",
+    "score": 59.8,
     "details": {
       "symmetry": 66,
       "golden_ratio": 44,
       "eyes": 89,
       "nose": 60,
-      "mouth": 15,
+      "mouth": 34,
       "contour": 54,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_708c9315.jpg"
   },
   {
+    "id": "celeb_7008a10d",
+    "name": "栗山英樹",
+    "category": "actor",
+    "score": 59.8,
+    "details": {
+      "symmetry": 55,
+      "golden_ratio": 40,
+      "eyes": 87,
+      "nose": 57,
+      "mouth": 69,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_7008a10d.jpg"
+  },
+  {
+    "id": "celeb_783a8bb7",
+    "name": "浅野拓磨",
+    "category": "actor",
+    "score": 59.8,
+    "details": {
+      "symmetry": 72,
+      "golden_ratio": 40,
+      "eyes": 81,
+      "nose": 48,
+      "mouth": 52,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_783a8bb7.jpg"
+  },
+  {
+    "id": "celeb_f5977b60",
+    "name": "杉咲花",
+    "category": "actor",
+    "score": 59.7,
+    "details": {
+      "symmetry": 68,
+      "golden_ratio": 31,
+      "eyes": 95,
+      "nose": 27,
+      "mouth": 81,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_f5977b60.jpg"
+  },
+  {
+    "id": "celeb_8a939d4b",
+    "name": "長澤まさみ",
+    "category": "actor",
+    "score": 59.6,
+    "details": {
+      "symmetry": 94,
+      "golden_ratio": 32,
+      "eyes": 59,
+      "nose": 55,
+      "mouth": 53,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8a939d4b.jpg"
+  },
+  {
+    "id": "celeb_31154454",
+    "name": "福山雅治",
+    "category": "actor",
+    "score": 59.5,
+    "details": {
+      "symmetry": 78,
+      "golden_ratio": 30,
+      "eyes": 84,
+      "nose": 36,
+      "mouth": 69,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_31154454.jpg"
+  },
+  {
+    "id": "celeb_c62f821e",
+    "name": "ダウンタウン浜田",
+    "category": "actor",
+    "score": 59.2,
+    "details": {
+      "symmetry": 75,
+      "golden_ratio": 32,
+      "eyes": 52,
+      "nose": 62,
+      "mouth": 91,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c62f821e.jpg"
+  },
+  {
+    "id": "celeb_307cf348",
+    "name": "千原ジュニア",
+    "category": "actor",
+    "score": 59.2,
+    "details": {
+      "symmetry": 67,
+      "golden_ratio": 47,
+      "eyes": 83,
+      "nose": 48,
+      "mouth": 37,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_307cf348.jpg"
+  },
+  {
     "id": "celeb_41b1fdad",
     "name": "前田大然",
-    "category": "athlete",
-    "score": 58.0,
+    "category": "actor",
+    "score": 59.0,
     "details": {
       "symmetry": 79,
       "golden_ratio": 43,
       "eyes": 53,
       "nose": 68,
-      "mouth": 48,
+      "mouth": 58,
       "contour": 44,
       "skin": 75
     },
@@ -514,894 +626,686 @@
   {
     "id": "celeb_7faa8bee",
     "name": "酒井宏樹",
-    "category": "athlete",
-    "score": 58.0,
+    "category": "actor",
+    "score": 59.0,
     "details": {
       "symmetry": 79,
       "golden_ratio": 43,
       "eyes": 53,
       "nose": 68,
-      "mouth": 48,
+      "mouth": 58,
       "contour": 44,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_7faa8bee.jpg"
   },
   {
-    "id": "celeb_40c3c413",
-    "name": "横浜流星",
-    "category": "actor",
-    "score": 57.8,
-    "details": {
-      "symmetry": 71,
-      "golden_ratio": 45,
-      "eyes": 70,
-      "nose": 39,
-      "mouth": 48,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_40c3c413.jpg"
-  },
-  {
-    "id": "celeb_837ebdf5",
-    "name": "オードリー春日",
-    "category": "comedian",
-    "score": 57.6,
-    "details": {
-      "symmetry": 97,
-      "golden_ratio": 37,
-      "eyes": 58,
-      "nose": 36,
-      "mouth": 34,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg"
-  },
-  {
-    "id": "celeb_303ba9cb",
-    "name": "松岡茉優",
-    "category": "actress",
-    "score": 57.6,
-    "details": {
-      "symmetry": 30,
-      "golden_ratio": 53,
-      "eyes": 88,
-      "nose": 57,
-      "mouth": 64,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_303ba9cb.jpg"
-  },
-  {
-    "id": "celeb_69e73e58",
-    "name": "菅田将暉",
-    "category": "actor",
-    "score": 57.6,
-    "details": {
-      "symmetry": 86,
-      "golden_ratio": 28,
-      "eyes": 96,
-      "nose": 31,
-      "mouth": 26,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_69e73e58.jpg"
-  },
-  {
-    "id": "celeb_7dfa2df4",
-    "name": "浜辺美波",
-    "category": "actress",
-    "score": 57.4,
-    "details": {
-      "symmetry": 67,
-      "golden_ratio": 34,
-      "eyes": 96,
-      "nose": 38,
-      "mouth": 42,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_7dfa2df4.jpg"
-  },
-  {
-    "id": "celeb_cec17988",
-    "name": "DAIGO",
-    "category": "artist",
-    "score": 57.2,
-    "details": {
-      "symmetry": 74,
-      "golden_ratio": 40,
-      "eyes": 82,
-      "nose": 49,
-      "mouth": 21,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_cec17988.jpg"
-  },
-  {
-    "id": "celeb_4ff5e7f3",
-    "name": "柏木由紀",
-    "category": "idol",
-    "score": 56.8,
-    "details": {
-      "symmetry": 56,
-      "golden_ratio": 41,
-      "eyes": 59,
-      "nose": 70,
-      "mouth": 65,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg"
-  },
-  {
-    "id": "celeb_febd48a6",
-    "name": "とにかく明るい安村",
-    "category": "comedian",
-    "score": 56.6,
-    "details": {
-      "symmetry": 73,
-      "golden_ratio": 27,
-      "eyes": 67,
-      "nose": 60,
-      "mouth": 60,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_febd48a6.jpg"
-  },
-  {
-    "id": "celeb_ef0e4ead",
-    "name": "松田好花",
-    "category": "idol",
-    "score": 56.0,
-    "details": {
-      "symmetry": 67,
-      "golden_ratio": 36,
-      "eyes": 82,
-      "nose": 24,
-      "mouth": 57,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ef0e4ead.jpg"
-  },
-  {
-    "id": "celeb_31154454",
-    "name": "福山雅治",
-    "category": "actor",
-    "score": 56.0,
-    "details": {
-      "symmetry": 78,
-      "golden_ratio": 30,
-      "eyes": 84,
-      "nose": 36,
-      "mouth": 34,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_31154454.jpg"
-  },
-  {
-    "id": "celeb_0677d652",
-    "name": "福士蒼汰",
-    "category": "actor",
-    "score": 55.8,
-    "details": {
-      "symmetry": 52,
-      "golden_ratio": 34,
-      "eyes": 78,
-      "nose": 78,
-      "mouth": 43,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_0677d652.jpg"
-  },
-  {
-    "id": "celeb_8a939d4b",
-    "name": "長澤まさみ",
-    "category": "actress",
-    "score": 55.8,
-    "details": {
-      "symmetry": 94,
-      "golden_ratio": 32,
-      "eyes": 59,
-      "nose": 55,
-      "mouth": 14,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_8a939d4b.jpg"
-  },
-  {
-    "id": "celeb_da9144e2",
-    "name": "秋元真夏",
-    "category": "idol",
-    "score": 55.6,
-    "details": {
-      "symmetry": 49,
-      "golden_ratio": 48,
-      "eyes": 72,
-      "nose": 70,
-      "mouth": 31,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_da9144e2.jpg"
-  },
-  {
-    "id": "celeb_c3f23293",
-    "name": "奈緒",
-    "category": "actress",
-    "score": 55.4,
-    "details": {
-      "symmetry": 42,
-      "golden_ratio": 34,
-      "eyes": 87,
-      "nose": 67,
-      "mouth": 55,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c3f23293.jpg"
-  },
-  {
-    "id": "celeb_f5977b60",
-    "name": "杉咲花",
-    "category": "actress",
-    "score": 55.3,
-    "details": {
-      "symmetry": 68,
-      "golden_ratio": 31,
-      "eyes": 95,
-      "nose": 27,
-      "mouth": 37,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_f5977b60.jpg"
-  },
-  {
-    "id": "celeb_96872d3c",
-    "name": "二階堂ふみ",
-    "category": "actress",
-    "score": 54.8,
-    "details": {
-      "symmetry": 68,
-      "golden_ratio": 24,
-      "eyes": 76,
-      "nose": 68,
-      "mouth": 36,
-      "contour": 59,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_96872d3c.jpg"
-  },
-  {
-    "id": "celeb_32ac1701",
-    "name": "野村忠宏",
-    "category": "athlete",
-    "score": 54.8,
-    "details": {
-      "symmetry": 51,
-      "golden_ratio": 35,
-      "eyes": 73,
-      "nose": 58,
-      "mouth": 59,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_32ac1701.jpg"
-  },
-  {
-    "id": "celeb_1278ef8f",
-    "name": "秋元康",
-    "category": "cultural",
-    "score": 54.5,
-    "details": {
-      "symmetry": 66,
-      "golden_ratio": 37,
-      "eyes": 63,
-      "nose": 62,
-      "mouth": 31,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg"
-  },
-  {
-    "id": "celeb_5edc166e",
-    "name": "妻夫木聡",
-    "category": "actor",
-    "score": 54.4,
-    "details": {
-      "symmetry": 86,
-      "golden_ratio": 31,
-      "eyes": 64,
-      "nose": 50,
-      "mouth": 17,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5edc166e.jpg"
-  },
-  {
     "id": "celeb_a969f119",
     "name": "南沙良",
-    "category": "actress",
-    "score": 53.8,
+    "category": "actor",
+    "score": 58.4,
     "details": {
       "symmetry": 42,
       "golden_ratio": 37,
       "eyes": 96,
       "nose": 41,
-      "mouth": 44,
+      "mouth": 90,
       "contour": 57,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a969f119.jpg"
   },
   {
-    "id": "celeb_36eae98d",
-    "name": "広瀬すず",
-    "category": "actress",
-    "score": 53.8,
+    "id": "celeb_52f3ac8c",
+    "name": "棚橋弘至",
+    "category": "actor",
+    "score": 58.2,
     "details": {
-      "symmetry": 54,
-      "golden_ratio": 39,
-      "eyes": 75,
-      "nose": 64,
-      "mouth": 25,
-      "contour": 56,
+      "symmetry": 80,
+      "golden_ratio": 40,
+      "eyes": 44,
+      "nose": 89,
+      "mouth": 39,
+      "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_36eae98d.jpg"
+    "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg"
   },
   {
-    "id": "celeb_c2e1fedf",
-    "name": "山本舞香",
-    "category": "actress",
-    "score": 53.6,
+    "id": "celeb_2e31aa04",
+    "name": "栃ノ心剛史",
+    "category": "actor",
+    "score": 58.1,
     "details": {
-      "symmetry": 50,
-      "golden_ratio": 26,
-      "eyes": 87,
-      "nose": 45,
-      "mouth": 60,
-      "contour": 60,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c2e1fedf.jpg"
-  },
-  {
-    "id": "celeb_23ffcc74",
-    "name": "浅田真央",
-    "category": "athlete",
-    "score": 53.6,
-    "details": {
-      "symmetry": 62,
+      "symmetry": 55,
       "golden_ratio": 36,
-      "eyes": 71,
-      "nose": 38,
-      "mouth": 44,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_23ffcc74.jpg"
-  },
-  {
-    "id": "celeb_f089f98e",
-    "name": "ゆきりぬ",
-    "category": "influencer",
-    "score": 53.4,
-    "details": {
-      "symmetry": 51,
-      "golden_ratio": 42,
-      "eyes": 56,
-      "nose": 48,
-      "mouth": 64,
+      "eyes": 82,
+      "nose": 47,
+      "mouth": 80,
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_f089f98e.jpg"
+    "thumbnail": "data/thumbnails/celeb_2e31aa04.jpg"
   },
   {
-    "id": "celeb_a07f8182",
-    "name": "加藤史帆",
-    "category": "idol",
-    "score": 53.4,
+    "id": "celeb_febd48a6",
+    "name": "とにかく明るい安村",
+    "category": "actor",
+    "score": 58.0,
     "details": {
-      "symmetry": 49,
-      "golden_ratio": 39,
-      "eyes": 78,
-      "nose": 36,
-      "mouth": 53,
+      "symmetry": 73,
+      "golden_ratio": 27,
+      "eyes": 67,
+      "nose": 60,
+      "mouth": 74,
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a07f8182.jpg"
+    "thumbnail": "data/thumbnails/celeb_febd48a6.jpg"
   },
   {
-    "id": "celeb_72bdf24e",
-    "name": "玉鷲一朗",
-    "category": "sumo",
-    "score": 53.4,
+    "id": "celeb_c3f23293",
+    "name": "奈緒",
+    "category": "actor",
+    "score": 58.0,
     "details": {
-      "symmetry": 85,
-      "golden_ratio": 25,
-      "eyes": 54,
-      "nose": 32,
-      "mouth": 58,
-      "contour": 55,
+      "symmetry": 42,
+      "golden_ratio": 34,
+      "eyes": 87,
+      "nose": 67,
+      "mouth": 82,
+      "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_72bdf24e.jpg"
+    "thumbnail": "data/thumbnails/celeb_c3f23293.jpg"
   },
   {
-    "id": "celeb_4b9b9245",
-    "name": "桐谷美玲",
-    "category": "actress",
-    "score": 53.2,
+    "id": "celeb_5edc166e",
+    "name": "妻夫木聡",
+    "category": "actor",
+    "score": 58.0,
     "details": {
-      "symmetry": 48,
-      "golden_ratio": 38,
-      "eyes": 86,
-      "nose": 67,
-      "mouth": 14,
+      "symmetry": 86,
+      "golden_ratio": 31,
+      "eyes": 64,
+      "nose": 50,
+      "mouth": 52,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_5edc166e.jpg"
+  },
+  {
+    "id": "celeb_96872d3c",
+    "name": "二階堂ふみ",
+    "category": "actor",
+    "score": 57.7,
+    "details": {
+      "symmetry": 68,
+      "golden_ratio": 24,
+      "eyes": 76,
+      "nose": 68,
+      "mouth": 65,
+      "contour": 59,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_96872d3c.jpg"
+  },
+  {
+    "id": "celeb_0677d652",
+    "name": "福士蒼汰",
+    "category": "actor",
+    "score": 57.5,
+    "details": {
+      "symmetry": 52,
+      "golden_ratio": 34,
+      "eyes": 78,
+      "nose": 78,
+      "mouth": 60,
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_4b9b9245.jpg"
+    "thumbnail": "data/thumbnails/celeb_0677d652.jpg"
   },
   {
-    "id": "celeb_f59368b4",
-    "name": "吉高由里子",
-    "category": "actress",
-    "score": 53.1,
-    "details": {
-      "symmetry": 40,
-      "golden_ratio": 37,
-      "eyes": 95,
-      "nose": 48,
-      "mouth": 38,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_f59368b4.jpg"
-  },
-  {
-    "id": "celeb_e78f15a0",
-    "name": "山崎賢人",
+    "id": "celeb_4ff5e7f3",
+    "name": "柏木由紀",
     "category": "actor",
-    "score": 53.0,
+    "score": 57.3,
     "details": {
-      "symmetry": 30,
-      "golden_ratio": 38,
-      "eyes": 81,
-      "nose": 67,
-      "mouth": 56,
+      "symmetry": 56,
+      "golden_ratio": 41,
+      "eyes": 59,
+      "nose": 70,
+      "mouth": 70,
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg"
+    "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg"
   },
   {
-    "id": "celeb_c60afb96",
-    "name": "山田杏奈",
-    "category": "actress",
-    "score": 52.7,
+    "id": "celeb_1278ef8f",
+    "name": "秋元康",
+    "category": "actor",
+    "score": 57.1,
     "details": {
-      "symmetry": 71,
-      "golden_ratio": 26,
-      "eyes": 80,
-      "nose": 20,
-      "mouth": 47,
+      "symmetry": 66,
+      "golden_ratio": 37,
+      "eyes": 63,
+      "nose": 62,
+      "mouth": 57,
       "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c60afb96.jpg"
+    "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg"
   },
   {
-    "id": "celeb_c96c2edf",
-    "name": "りゅうちぇる",
-    "category": "influencer",
-    "score": 52.2,
+    "id": "celeb_ef0e4ead",
+    "name": "松田好花",
+    "category": "actor",
+    "score": 57.0,
     "details": {
-      "symmetry": 58,
-      "golden_ratio": 34,
-      "eyes": 56,
-      "nose": 66,
-      "mouth": 40,
-      "contour": 56,
+      "symmetry": 67,
+      "golden_ratio": 36,
+      "eyes": 82,
+      "nose": 24,
+      "mouth": 67,
+      "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c96c2edf.jpg"
+    "thumbnail": "data/thumbnails/celeb_ef0e4ead.jpg"
+  },
+  {
+    "id": "celeb_32ac1701",
+    "name": "野村忠宏",
+    "category": "actor",
+    "score": 56.9,
+    "details": {
+      "symmetry": 51,
+      "golden_ratio": 35,
+      "eyes": 73,
+      "nose": 58,
+      "mouth": 80,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_32ac1701.jpg"
   },
   {
     "id": "celeb_38127b4e",
     "name": "新垣結衣",
-    "category": "actress",
-    "score": 52.2,
+    "category": "actor",
+    "score": 56.8,
     "details": {
       "symmetry": 45,
       "golden_ratio": 33,
       "eyes": 97,
       "nose": 45,
-      "mouth": 27,
+      "mouth": 73,
       "contour": 57,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_38127b4e.jpg"
   },
   {
-    "id": "celeb_51f05250",
-    "name": "吉岡里帆",
-    "category": "actress",
-    "score": 52.0,
+    "id": "celeb_f59368b4",
+    "name": "吉高由里子",
+    "category": "actor",
+    "score": 56.5,
     "details": {
       "symmetry": 40,
-      "golden_ratio": 35,
-      "eyes": 93,
-      "nose": 39,
-      "mouth": 40,
-      "contour": 59,
+      "golden_ratio": 37,
+      "eyes": 95,
+      "nose": 48,
+      "mouth": 72,
+      "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_51f05250.jpg"
+    "thumbnail": "data/thumbnails/celeb_f59368b4.jpg"
   },
   {
-    "id": "celeb_babf01e7",
-    "name": "旭天鵬勝",
-    "category": "sumo",
-    "score": 52.0,
+    "id": "celeb_da9144e2",
+    "name": "秋元真夏",
+    "category": "actor",
+    "score": 56.5,
     "details": {
-      "symmetry": 65,
-      "golden_ratio": 20,
-      "eyes": 45,
-      "nose": 55,
-      "mouth": 86,
+      "symmetry": 49,
+      "golden_ratio": 48,
+      "eyes": 72,
+      "nose": 70,
+      "mouth": 40,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_da9144e2.jpg"
+  },
+  {
+    "id": "celeb_a07f8182",
+    "name": "加藤史帆",
+    "category": "actor",
+    "score": 56.4,
+    "details": {
+      "symmetry": 49,
+      "golden_ratio": 39,
+      "eyes": 78,
+      "nose": 36,
+      "mouth": 83,
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_babf01e7.jpg"
+    "thumbnail": "data/thumbnails/celeb_a07f8182.jpg"
+  },
+  {
+    "id": "celeb_4b9b9245",
+    "name": "桐谷美玲",
+    "category": "actor",
+    "score": 56.1,
+    "details": {
+      "symmetry": 48,
+      "golden_ratio": 38,
+      "eyes": 86,
+      "nose": 67,
+      "mouth": 43,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_4b9b9245.jpg"
+  },
+  {
+    "id": "celeb_c2e1fedf",
+    "name": "山本舞香",
+    "category": "actor",
+    "score": 56.0,
+    "details": {
+      "symmetry": 50,
+      "golden_ratio": 26,
+      "eyes": 87,
+      "nose": 45,
+      "mouth": 85,
+      "contour": 60,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c2e1fedf.jpg"
+  },
+  {
+    "id": "celeb_72bdf24e",
+    "name": "玉鷲一朗",
+    "category": "actor",
+    "score": 55.8,
+    "details": {
+      "symmetry": 85,
+      "golden_ratio": 25,
+      "eyes": 54,
+      "nose": 32,
+      "mouth": 82,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_72bdf24e.jpg"
+  },
+  {
+    "id": "celeb_36eae98d",
+    "name": "広瀬すず",
+    "category": "actor",
+    "score": 55.7,
+    "details": {
+      "symmetry": 54,
+      "golden_ratio": 39,
+      "eyes": 75,
+      "nose": 64,
+      "mouth": 44,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_36eae98d.jpg"
+  },
+  {
+    "id": "celeb_c60afb96",
+    "name": "山田杏奈",
+    "category": "actor",
+    "score": 55.6,
+    "details": {
+      "symmetry": 71,
+      "golden_ratio": 26,
+      "eyes": 80,
+      "nose": 20,
+      "mouth": 76,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c60afb96.jpg"
+  },
+  {
+    "id": "celeb_f089f98e",
+    "name": "ゆきりぬ",
+    "category": "actor",
+    "score": 55.1,
+    "details": {
+      "symmetry": 51,
+      "golden_ratio": 42,
+      "eyes": 56,
+      "nose": 48,
+      "mouth": 81,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_f089f98e.jpg"
   },
   {
     "id": "celeb_79de5e14",
     "name": "渡辺雄太",
-    "category": "athlete",
-    "score": 51.8,
+    "category": "actor",
+    "score": 54.8,
     "details": {
       "symmetry": 75,
       "golden_ratio": 33,
       "eyes": 40,
       "nose": 42,
-      "mouth": 54,
+      "mouth": 83,
       "contour": 55,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_79de5e14.jpg"
   },
   {
-    "id": "celeb_9475748b",
-    "name": "北島康介",
-    "category": "athlete",
-    "score": 51.7,
-    "details": {
-      "symmetry": 50,
-      "golden_ratio": 30,
-      "eyes": 74,
-      "nose": 31,
-      "mouth": 68,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_9475748b.jpg"
-  },
-  {
-    "id": "celeb_34ea398f",
-    "name": "北野武",
-    "category": "cultural",
-    "score": 51.6,
-    "details": {
-      "symmetry": 16,
-      "golden_ratio": 26,
-      "eyes": 92,
-      "nose": 79,
-      "mouth": 74,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_34ea398f.jpg"
-  },
-  {
-    "id": "celeb_afed590f",
-    "name": "佐藤健",
+    "id": "celeb_e78f15a0",
+    "name": "山崎賢人",
     "category": "actor",
-    "score": 51.4,
+    "score": 54.6,
     "details": {
-      "symmetry": 43,
-      "golden_ratio": 34,
-      "eyes": 93,
-      "nose": 34,
-      "mouth": 37,
-      "contour": 57,
+      "symmetry": 30,
+      "golden_ratio": 38,
+      "eyes": 81,
+      "nose": 67,
+      "mouth": 72,
+      "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_afed590f.jpg"
-  },
-  {
-    "id": "celeb_db8672b9",
-    "name": "安室奈美恵",
-    "category": "artist",
-    "score": 51.4,
-    "details": {
-      "symmetry": 10,
-      "golden_ratio": 32,
-      "eyes": 87,
-      "nose": 82,
-      "mouth": 75,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg"
-  },
-  {
-    "id": "celeb_b54011ee",
-    "name": "長嶋茂雄",
-    "category": "athlete",
-    "score": 51.4,
-    "details": {
-      "symmetry": 58,
-      "golden_ratio": 41,
-      "eyes": 75,
-      "nose": 29,
-      "mouth": 29,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_b54011ee.jpg"
-  },
-  {
-    "id": "celeb_d3709fe1",
-    "name": "King Gnu井口理",
-    "category": "artist",
-    "score": 51.1,
-    "details": {
-      "symmetry": 68,
-      "golden_ratio": 26,
-      "eyes": 82,
-      "nose": 23,
-      "mouth": 32,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d3709fe1.jpg"
-  },
-  {
-    "id": "celeb_d7f00a60",
-    "name": "イチロー",
-    "category": "athlete",
-    "score": 51.0,
-    "details": {
-      "symmetry": 22,
-      "golden_ratio": 39,
-      "eyes": 71,
-      "nose": 65,
-      "mouth": 81,
-      "contour": 41,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d7f00a60.jpg"
+    "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg"
   },
   {
     "id": "celeb_60cf46c4",
     "name": "清原果耶",
-    "category": "actress",
-    "score": 51.0,
+    "category": "actor",
+    "score": 54.2,
     "details": {
       "symmetry": 27,
       "golden_ratio": 34,
       "eyes": 87,
       "nose": 55,
-      "mouth": 55,
+      "mouth": 88,
       "contour": 55,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg"
   },
   {
-    "id": "celeb_211afab2",
-    "name": "三浦大知",
-    "category": "artist",
-    "score": 50.8,
-    "details": {
-      "symmetry": 40,
-      "golden_ratio": 39,
-      "eyes": 44,
-      "nose": 66,
-      "mouth": 65,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_211afab2.jpg"
-  },
-  {
-    "id": "celeb_8393c080",
-    "name": "板野友美",
-    "category": "idol",
-    "score": 50.7,
-    "details": {
-      "symmetry": 19,
-      "golden_ratio": 44,
-      "eyes": 73,
-      "nose": 49,
-      "mouth": 68,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_8393c080.jpg"
-  },
-  {
-    "id": "celeb_fb0e9003",
-    "name": "斎藤佑樹",
-    "category": "athlete",
-    "score": 50.6,
-    "details": {
-      "symmetry": 60,
-      "golden_ratio": 26,
-      "eyes": 67,
-      "nose": 42,
-      "mouth": 67,
-      "contour": 36,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_fb0e9003.jpg"
-  },
-  {
-    "id": "celeb_abf4a056",
-    "name": "北川景子",
-    "category": "actress",
-    "score": 50.3,
-    "details": {
-      "symmetry": 73,
-      "golden_ratio": 24,
-      "eyes": 38,
-      "nose": 56,
-      "mouth": 51,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_abf4a056.jpg"
-  },
-  {
-    "id": "celeb_04112379",
-    "name": "豊昇龍智勝",
-    "category": "sumo",
-    "score": 49.9,
-    "details": {
-      "symmetry": 56,
-      "golden_ratio": 16,
-      "eyes": 61,
-      "nose": 48,
-      "mouth": 75,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_04112379.jpg"
-  },
-  {
-    "id": "celeb_57f329f0",
-    "name": "豪栄道豪太郎",
-    "category": "sumo",
-    "score": 49.9,
-    "details": {
-      "symmetry": 56,
-      "golden_ratio": 16,
-      "eyes": 61,
-      "nose": 48,
-      "mouth": 75,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_57f329f0.jpg"
-  },
-  {
-    "id": "celeb_d9e3f630",
-    "name": "みちょぱ",
-    "category": "influencer",
-    "score": 49.6,
-    "details": {
-      "symmetry": 43,
-      "golden_ratio": 32,
-      "eyes": 59,
-      "nose": 64,
-      "mouth": 45,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg"
-  },
-  {
     "id": "celeb_4e17f725",
     "name": "黒木華",
-    "category": "actress",
-    "score": 49.4,
+    "category": "actor",
+    "score": 54.1,
     "details": {
       "symmetry": 52,
       "golden_ratio": 32,
       "eyes": 74,
       "nose": 53,
-      "mouth": 13,
+      "mouth": 60,
       "contour": 58,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_4e17f725.jpg"
   },
   {
+    "id": "celeb_c96c2edf",
+    "name": "りゅうちぇる",
+    "category": "actor",
+    "score": 53.8,
+    "details": {
+      "symmetry": 58,
+      "golden_ratio": 34,
+      "eyes": 56,
+      "nose": 66,
+      "mouth": 56,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c96c2edf.jpg"
+  },
+  {
+    "id": "celeb_23ffcc74",
+    "name": "浅田真央",
+    "category": "actor",
+    "score": 53.8,
+    "details": {
+      "symmetry": 62,
+      "golden_ratio": 36,
+      "eyes": 71,
+      "nose": 38,
+      "mouth": 47,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_23ffcc74.jpg"
+  },
+  {
+    "id": "celeb_d3709fe1",
+    "name": "King Gnu井口理",
+    "category": "actor",
+    "score": 53.4,
+    "details": {
+      "symmetry": 68,
+      "golden_ratio": 26,
+      "eyes": 82,
+      "nose": 23,
+      "mouth": 55,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d3709fe1.jpg"
+  },
+  {
+    "id": "celeb_34ea398f",
+    "name": "北野武",
+    "category": "actor",
+    "score": 53.3,
+    "details": {
+      "symmetry": 16,
+      "golden_ratio": 26,
+      "eyes": 92,
+      "nose": 79,
+      "mouth": 91,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_34ea398f.jpg"
+  },
+  {
+    "id": "celeb_51f05250",
+    "name": "吉岡里帆",
+    "category": "actor",
+    "score": 53.1,
+    "details": {
+      "symmetry": 40,
+      "golden_ratio": 35,
+      "eyes": 93,
+      "nose": 39,
+      "mouth": 51,
+      "contour": 59,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_51f05250.jpg"
+  },
+  {
+    "id": "celeb_b54011ee",
+    "name": "長嶋茂雄",
+    "category": "actor",
+    "score": 52.8,
+    "details": {
+      "symmetry": 58,
+      "golden_ratio": 41,
+      "eyes": 75,
+      "nose": 29,
+      "mouth": 43,
+      "contour": 50,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_b54011ee.jpg"
+  },
+  {
+    "id": "celeb_d9e3f630",
+    "name": "みちょぱ",
+    "category": "actor",
+    "score": 52.6,
+    "details": {
+      "symmetry": 43,
+      "golden_ratio": 32,
+      "eyes": 59,
+      "nose": 64,
+      "mouth": 75,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg"
+  },
+  {
+    "id": "celeb_8393c080",
+    "name": "板野友美",
+    "category": "actor",
+    "score": 52.6,
+    "details": {
+      "symmetry": 19,
+      "golden_ratio": 44,
+      "eyes": 73,
+      "nose": 49,
+      "mouth": 87,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8393c080.jpg"
+  },
+  {
+    "id": "celeb_9475748b",
+    "name": "北島康介",
+    "category": "actor",
+    "score": 52.4,
+    "details": {
+      "symmetry": 50,
+      "golden_ratio": 30,
+      "eyes": 74,
+      "nose": 31,
+      "mouth": 75,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_9475748b.jpg"
+  },
+  {
     "id": "celeb_03d21e14",
     "name": "加藤ミリヤ",
-    "category": "artist",
-    "score": 49.2,
+    "category": "actor",
+    "score": 52.2,
     "details": {
       "symmetry": 55,
       "golden_ratio": 28,
       "eyes": 61,
       "nose": 40,
-      "mouth": 52,
+      "mouth": 82,
       "contour": 53,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_03d21e14.jpg"
   },
   {
-    "id": "celeb_e7588c0f",
-    "name": "宇多田ヒカル",
-    "category": "artist",
-    "score": 49.2,
+    "id": "celeb_d7f00a60",
+    "name": "イチロー",
+    "category": "actor",
+    "score": 52.1,
     "details": {
-      "symmetry": 16,
-      "golden_ratio": 41,
-      "eyes": 92,
-      "nose": 46,
-      "mouth": 52,
-      "contour": 46,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg"
-  },
-  {
-    "id": "celeb_7f88681d",
-    "name": "宮崎駿",
-    "category": "cultural",
-    "score": 49.2,
-    "details": {
-      "symmetry": 20,
+      "symmetry": 22,
       "golden_ratio": 39,
       "eyes": 71,
-      "nose": 55,
-      "mouth": 61,
+      "nose": 65,
+      "mouth": 92,
+      "contour": 41,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d7f00a60.jpg"
+  },
+  {
+    "id": "celeb_211afab2",
+    "name": "三浦大知",
+    "category": "actor",
+    "score": 51.9,
+    "details": {
+      "symmetry": 40,
+      "golden_ratio": 39,
+      "eyes": 44,
+      "nose": 66,
+      "mouth": 76,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_211afab2.jpg"
+  },
+  {
+    "id": "celeb_afed590f",
+    "name": "佐藤健",
+    "category": "actor",
+    "score": 51.6,
+    "details": {
+      "symmetry": 43,
+      "golden_ratio": 34,
+      "eyes": 93,
+      "nose": 34,
+      "mouth": 39,
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_7f88681d.jpg"
+    "thumbnail": "data/thumbnails/celeb_afed590f.jpg"
+  },
+  {
+    "id": "celeb_abf4a056",
+    "name": "北川景子",
+    "category": "actor",
+    "score": 51.3,
+    "details": {
+      "symmetry": 73,
+      "golden_ratio": 24,
+      "eyes": 38,
+      "nose": 56,
+      "mouth": 61,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_abf4a056.jpg"
+  },
+  {
+    "id": "celeb_34c4561b",
+    "name": "岩田剛典",
+    "category": "actor",
+    "score": 51.0,
+    "details": {
+      "symmetry": 28,
+      "golden_ratio": 37,
+      "eyes": 83,
+      "nose": 43,
+      "mouth": 60,
+      "contour": 59,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_34c4561b.jpg"
   },
   {
     "id": "celeb_d1e9ea37",
     "name": "窪田正孝",
     "category": "actor",
-    "score": 49.0,
+    "score": 50.8,
     "details": {
       "symmetry": 12,
       "golden_ratio": 46,
       "eyes": 95,
       "nose": 35,
-      "mouth": 45,
+      "mouth": 63,
       "contour": 53,
       "skin": 75
     },
@@ -1410,62 +1314,46 @@
   {
     "id": "celeb_e6f89634",
     "name": "蒼井優",
-    "category": "actress",
-    "score": 48.9,
+    "category": "actor",
+    "score": 50.8,
     "details": {
       "symmetry": 23,
       "golden_ratio": 32,
       "eyes": 84,
       "nose": 55,
-      "mouth": 49,
+      "mouth": 68,
       "contour": 58,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e6f89634.jpg"
   },
   {
-    "id": "celeb_34c4561b",
-    "name": "岩田剛典",
+    "id": "celeb_db8672b9",
+    "name": "安室奈美恵",
     "category": "actor",
-    "score": 48.4,
+    "score": 50.4,
     "details": {
-      "symmetry": 28,
-      "golden_ratio": 37,
-      "eyes": 83,
-      "nose": 43,
-      "mouth": 34,
-      "contour": 59,
+      "symmetry": 10,
+      "golden_ratio": 32,
+      "eyes": 87,
+      "nose": 82,
+      "mouth": 66,
+      "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_34c4561b.jpg"
-  },
-  {
-    "id": "celeb_b03f6a89",
-    "name": "香川真司",
-    "category": "athlete",
-    "score": 48.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 37,
-      "eyes": 79,
-      "nose": 54,
-      "mouth": 91,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_b03f6a89.jpg"
+    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg"
   },
   {
     "id": "celeb_3b910309",
     "name": "竹内涼真",
     "category": "actor",
-    "score": 48.1,
+    "score": 50.4,
     "details": {
       "symmetry": 18,
       "golden_ratio": 34,
       "eyes": 70,
       "nose": 61,
-      "mouth": 63,
+      "mouth": 86,
       "contour": 56,
       "skin": 75
     },
@@ -1474,798 +1362,862 @@
   {
     "id": "celeb_db711d1c",
     "name": "ケンドーコバヤシ",
-    "category": "comedian",
-    "score": 47.8,
+    "category": "actor",
+    "score": 50.2,
     "details": {
       "symmetry": 40,
       "golden_ratio": 25,
       "eyes": 72,
       "nose": 58,
-      "mouth": 43,
+      "mouth": 66,
       "contour": 52,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_db711d1c.jpg"
   },
   {
-    "id": "celeb_e9ce073c",
-    "name": "神木隆之介",
+    "id": "celeb_7f88681d",
+    "name": "宮崎駿",
     "category": "actor",
-    "score": 47.8,
+    "score": 50.2,
     "details": {
-      "symmetry": 28,
-      "golden_ratio": 34,
-      "eyes": 91,
-      "nose": 31,
-      "mouth": 40,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg"
-  },
-  {
-    "id": "celeb_d64e0fd0",
-    "name": "高安晃",
-    "category": "sumo",
-    "score": 47.4,
-    "details": {
-      "symmetry": 76,
-      "golden_ratio": 18,
-      "eyes": 51,
-      "nose": 18,
-      "mouth": 53,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d64e0fd0.jpg"
-  },
-  {
-    "id": "celeb_80faf70b",
-    "name": "庵野秀明",
-    "category": "cultural",
-    "score": 47.3,
-    "details": {
-      "symmetry": 52,
-      "golden_ratio": 27,
-      "eyes": 63,
-      "nose": 45,
-      "mouth": 31,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_80faf70b.jpg"
-  },
-  {
-    "id": "celeb_66fb505f",
-    "name": "板倉滉",
-    "category": "athlete",
-    "score": 46.9,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 41,
-      "eyes": 87,
-      "nose": 63,
-      "mouth": 44,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_66fb505f.jpg"
-  },
-  {
-    "id": "celeb_8f7c1428",
-    "name": "ヒロシ",
-    "category": "comedian",
-    "score": 46.8,
-    "details": {
-      "symmetry": 14,
-      "golden_ratio": 33,
-      "eyes": 74,
-      "nose": 53,
-      "mouth": 61,
+      "symmetry": 20,
+      "golden_ratio": 39,
+      "eyes": 71,
+      "nose": 55,
+      "mouth": 71,
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8f7c1428.jpg"
+    "thumbnail": "data/thumbnails/celeb_7f88681d.jpg"
   },
   {
-    "id": "celeb_2267bb69",
-    "name": "松井珠理奈",
-    "category": "idol",
-    "score": 46.4,
+    "id": "celeb_04112379",
+    "name": "豊昇龍智勝",
+    "category": "actor",
+    "score": 50.1,
     "details": {
-      "symmetry": 0,
-      "golden_ratio": 27,
-      "eyes": 91,
-      "nose": 62,
-      "mouth": 67,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2267bb69.jpg"
-  },
-  {
-    "id": "celeb_a63002f1",
-    "name": "池上彰",
-    "category": "cultural",
-    "score": 46.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 32,
-      "eyes": 89,
-      "nose": 65,
-      "mouth": 53,
+      "symmetry": 56,
+      "golden_ratio": 16,
+      "eyes": 61,
+      "nose": 48,
+      "mouth": 77,
       "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a63002f1.jpg"
+    "thumbnail": "data/thumbnails/celeb_04112379.jpg"
+  },
+  {
+    "id": "celeb_57f329f0",
+    "name": "豪栄道豪太郎",
+    "category": "actor",
+    "score": 50.1,
+    "details": {
+      "symmetry": 56,
+      "golden_ratio": 16,
+      "eyes": 61,
+      "nose": 48,
+      "mouth": 77,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_57f329f0.jpg"
+  },
+  {
+    "id": "celeb_babf01e7",
+    "name": "旭天鵬勝",
+    "category": "actor",
+    "score": 50.0,
+    "details": {
+      "symmetry": 65,
+      "golden_ratio": 20,
+      "eyes": 45,
+      "nose": 55,
+      "mouth": 65,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_babf01e7.jpg"
   },
   {
     "id": "celeb_06f73f76",
     "name": "飯豊まりえ",
-    "category": "actress",
-    "score": 46.4,
+    "category": "actor",
+    "score": 49.8,
     "details": {
       "symmetry": 44,
       "golden_ratio": 39,
       "eyes": 66,
       "nose": 37,
-      "mouth": 10,
+      "mouth": 43,
       "contour": 58,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_06f73f76.jpg"
   },
   {
-    "id": "celeb_d0fde418",
-    "name": "長谷部誠",
-    "category": "athlete",
-    "score": 46.2,
+    "id": "celeb_80faf70b",
+    "name": "庵野秀明",
+    "category": "actor",
+    "score": 49.5,
     "details": {
-      "symmetry": 0,
-      "golden_ratio": 38,
-      "eyes": 83,
-      "nose": 39,
-      "mouth": 83,
-      "contour": 45,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d0fde418.jpg"
-  },
-  {
-    "id": "celeb_72d8d22d",
-    "name": "長友佑都",
-    "category": "athlete",
-    "score": 46.1,
-    "details": {
-      "symmetry": 42,
-      "golden_ratio": 37,
-      "eyes": 65,
-      "nose": 37,
-      "mouth": 19,
+      "symmetry": 52,
+      "golden_ratio": 27,
+      "eyes": 63,
+      "nose": 45,
+      "mouth": 53,
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_72d8d22d.jpg"
+    "thumbnail": "data/thumbnails/celeb_80faf70b.jpg"
   },
   {
-    "id": "celeb_6eb00b9d",
-    "name": "有村架純",
-    "category": "actress",
-    "score": 45.6,
+    "id": "celeb_e9ce073c",
+    "name": "神木隆之介",
+    "category": "actor",
+    "score": 49.2,
     "details": {
-      "symmetry": 29,
-      "golden_ratio": 32,
-      "eyes": 38,
-      "nose": 68,
-      "mouth": 62,
-      "contour": 56,
+      "symmetry": 28,
+      "golden_ratio": 34,
+      "eyes": 91,
+      "nose": 31,
+      "mouth": 54,
+      "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6eb00b9d.jpg"
+    "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg"
   },
   {
-    "id": "celeb_48a6fc56",
-    "name": "嘉風雅継",
-    "category": "sumo",
-    "score": 45.5,
+    "id": "celeb_e7588c0f",
+    "name": "宇多田ヒカル",
+    "category": "actor",
+    "score": 49.1,
     "details": {
-      "symmetry": 21,
-      "golden_ratio": 29,
-      "eyes": 71,
-      "nose": 55,
-      "mouth": 50,
-      "contour": 54,
+      "symmetry": 16,
+      "golden_ratio": 41,
+      "eyes": 92,
+      "nose": 46,
+      "mouth": 51,
+      "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_48a6fc56.jpg"
-  },
-  {
-    "id": "celeb_42b5c774",
-    "name": "松本まりか",
-    "category": "actress",
-    "score": 45.4,
-    "details": {
-      "symmetry": 29,
-      "golden_ratio": 31,
-      "eyes": 96,
-      "nose": 48,
-      "mouth": 0,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_42b5c774.jpg"
+    "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg"
   },
   {
     "id": "celeb_5df0cbf8",
     "name": "早瀬ノエル",
-    "category": "idol",
-    "score": 45.2,
+    "category": "actor",
+    "score": 49.0,
     "details": {
       "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 86,
       "nose": 51,
-      "mouth": 49,
+      "mouth": 87,
       "contour": 50,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5df0cbf8.jpg"
   },
   {
-    "id": "celeb_8d3c8c0c",
-    "name": "遠藤聖大",
-    "category": "sumo",
-    "score": 45.1,
+    "id": "celeb_d64e0fd0",
+    "name": "高安晃",
+    "category": "actor",
+    "score": 49.0,
     "details": {
-      "symmetry": 33,
-      "golden_ratio": 26,
-      "eyes": 85,
-      "nose": 31,
-      "mouth": 32,
+      "symmetry": 76,
+      "golden_ratio": 18,
+      "eyes": 51,
+      "nose": 18,
+      "mouth": 69,
       "contour": 54,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_8d3c8c0c.jpg"
+    "thumbnail": "data/thumbnails/celeb_d64e0fd0.jpg"
+  },
+  {
+    "id": "celeb_72d8d22d",
+    "name": "長友佑都",
+    "category": "actor",
+    "score": 48.9,
+    "details": {
+      "symmetry": 42,
+      "golden_ratio": 37,
+      "eyes": 65,
+      "nose": 37,
+      "mouth": 47,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_72d8d22d.jpg"
+  },
+  {
+    "id": "celeb_42b5c774",
+    "name": "松本まりか",
+    "category": "actor",
+    "score": 48.6,
+    "details": {
+      "symmetry": 29,
+      "golden_ratio": 31,
+      "eyes": 96,
+      "nose": 48,
+      "mouth": 31,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_42b5c774.jpg"
+  },
+  {
+    "id": "celeb_2267bb69",
+    "name": "松井珠理奈",
+    "category": "actor",
+    "score": 48.4,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 27,
+      "eyes": 91,
+      "nose": 62,
+      "mouth": 87,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_2267bb69.jpg"
+  },
+  {
+    "id": "celeb_8f7c1428",
+    "name": "ヒロシ",
+    "category": "actor",
+    "score": 48.1,
+    "details": {
+      "symmetry": 14,
+      "golden_ratio": 33,
+      "eyes": 74,
+      "nose": 53,
+      "mouth": 74,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8f7c1428.jpg"
   },
   {
     "id": "celeb_f2ad96f0",
     "name": "佐々木希",
-    "category": "actress",
-    "score": 44.9,
+    "category": "actor",
+    "score": 47.7,
     "details": {
       "symmetry": 0,
       "golden_ratio": 29,
       "eyes": 85,
       "nose": 55,
-      "mouth": 63,
+      "mouth": 91,
       "contour": 56,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_f2ad96f0.jpg"
   },
   {
+    "id": "celeb_fb0e9003",
+    "name": "斎藤佑樹",
+    "category": "actor",
+    "score": 47.6,
+    "details": {
+      "symmetry": 60,
+      "golden_ratio": 26,
+      "eyes": 67,
+      "nose": 42,
+      "mouth": 38,
+      "contour": 36,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_fb0e9003.jpg"
+  },
+  {
+    "id": "celeb_b03f6a89",
+    "name": "香川真司",
+    "category": "actor",
+    "score": 47.5,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 37,
+      "eyes": 79,
+      "nose": 54,
+      "mouth": 82,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_b03f6a89.jpg"
+  },
+  {
     "id": "celeb_8c15652f",
     "name": "椎名林檎",
-    "category": "artist",
-    "score": 44.8,
+    "category": "actor",
+    "score": 47.0,
     "details": {
       "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 74,
       "nose": 50,
-      "mouth": 59,
+      "mouth": 81,
       "contour": 53,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8c15652f.jpg"
   },
   {
-    "id": "celeb_e3d6dd62",
-    "name": "中村俊輔",
-    "category": "athlete",
-    "score": 44.6,
+    "id": "celeb_a63002f1",
+    "name": "池上彰",
+    "category": "actor",
+    "score": 46.7,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 72,
-      "nose": 55,
-      "mouth": 83,
-      "contour": 50,
+      "golden_ratio": 32,
+      "eyes": 89,
+      "nose": 65,
+      "mouth": 56,
+      "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_e3d6dd62.jpg"
+    "thumbnail": "data/thumbnails/celeb_a63002f1.jpg"
+  },
+  {
+    "id": "celeb_66fb505f",
+    "name": "板倉滉",
+    "category": "actor",
+    "score": 46.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 41,
+      "eyes": 87,
+      "nose": 63,
+      "mouth": 41,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_66fb505f.jpg"
   },
   {
     "id": "celeb_2b4426ce",
     "name": "松村北斗",
-    "category": "idol",
-    "score": 44.5,
+    "category": "actor",
+    "score": 46.2,
     "details": {
       "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 72,
       "nose": 41,
-      "mouth": 56,
+      "mouth": 73,
       "contour": 55,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_2b4426ce.jpg"
   },
   {
-    "id": "celeb_5ed737d9",
-    "name": "真中まな",
-    "category": "idol",
-    "score": 44.2,
-    "details": {
-      "symmetry": 21,
-      "golden_ratio": 35,
-      "eyes": 69,
-      "nose": 68,
-      "mouth": 23,
-      "contour": 43,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5ed737d9.jpg"
-  },
-  {
-    "id": "celeb_c95f4e59",
-    "name": "張本智和",
-    "category": "athlete",
-    "score": 44.1,
-    "details": {
-      "symmetry": 10,
-      "golden_ratio": 32,
-      "eyes": 88,
-      "nose": 39,
-      "mouth": 38,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg"
-  },
-  {
-    "id": "celeb_df5afd63",
-    "name": "本田圭佑",
-    "category": "athlete",
-    "score": 44.0,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 41,
-      "eyes": 77,
-      "nose": 51,
-      "mouth": 38,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_df5afd63.jpg"
-  },
-  {
-    "id": "celeb_4f811f29",
-    "name": "齊藤なぎさ",
-    "category": "idol",
-    "score": 44.0,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 29,
-      "eyes": 86,
-      "nose": 70,
-      "mouth": 39,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_4f811f29.jpg"
-  },
-  {
-    "id": "celeb_7e249402",
-    "name": "村上宗隆",
-    "category": "athlete",
-    "score": 43.8,
-    "details": {
-      "symmetry": 35,
-      "golden_ratio": 28,
-      "eyes": 75,
-      "nose": 33,
-      "mouth": 20,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_7e249402.jpg"
-  },
-  {
-    "id": "celeb_2c58976d",
-    "name": "はじめしゃちょー",
-    "category": "influencer",
-    "score": 43.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 84,
-      "nose": 62,
-      "mouth": 42,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2c58976d.jpg"
-  },
-  {
-    "id": "celeb_51472794",
-    "name": "守田英正",
-    "category": "athlete",
-    "score": 43.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 82,
-      "nose": 65,
-      "mouth": 46,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_51472794.jpg"
-  },
-  {
-    "id": "celeb_e2c9e678",
-    "name": "東龍強",
-    "category": "sumo",
-    "score": 43.2,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 35,
-      "eyes": 40,
-      "nose": 82,
-      "mouth": 75,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_e2c9e678.jpg"
-  },
-  {
-    "id": "celeb_ae23d472",
-    "name": "髙松瞳",
-    "category": "idol",
-    "score": 43.0,
-    "details": {
-      "symmetry": 30,
-      "golden_ratio": 26,
-      "eyes": 67,
-      "nose": 27,
-      "mouth": 44,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ae23d472.jpg"
-  },
-  {
-    "id": "celeb_c88b6503",
-    "name": "南野拓実",
-    "category": "athlete",
-    "score": 42.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 67,
-      "nose": 64,
-      "mouth": 72,
-      "contour": 39,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c88b6503.jpg"
-  },
-  {
-    "id": "celeb_86a3749d",
-    "name": "宮川大輔",
-    "category": "comedian",
-    "score": 42.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 26,
-      "eyes": 76,
-      "nose": 37,
-      "mouth": 78,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_86a3749d.jpg"
-  },
-  {
-    "id": "celeb_6d979c26",
-    "name": "広瀬アリス",
-    "category": "actress",
-    "score": 42.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 35,
-      "eyes": 68,
-      "nose": 56,
-      "mouth": 48,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_6d979c26.jpg"
-  },
-  {
-    "id": "celeb_f7b19298",
-    "name": "上白石萌歌",
-    "category": "actress",
-    "score": 42.3,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 28,
-      "eyes": 90,
-      "nose": 50,
-      "mouth": 37,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_f7b19298.jpg"
-  },
-  {
     "id": "celeb_1b300c1e",
     "name": "芦田愛菜",
-    "category": "actress",
-    "score": 42.3,
+    "category": "actor",
+    "score": 46.1,
     "details": {
       "symmetry": 6,
       "golden_ratio": 35,
       "eyes": 87,
       "nose": 35,
-      "mouth": 26,
+      "mouth": 64,
       "contour": 57,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1b300c1e.jpg"
   },
   {
+    "id": "celeb_d0fde418",
+    "name": "長谷部誠",
+    "category": "actor",
+    "score": 45.7,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 38,
+      "eyes": 83,
+      "nose": 39,
+      "mouth": 78,
+      "contour": 45,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d0fde418.jpg"
+  },
+  {
+    "id": "celeb_4f811f29",
+    "name": "齊藤なぎさ",
+    "category": "actor",
+    "score": 45.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 29,
+      "eyes": 86,
+      "nose": 70,
+      "mouth": 55,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_4f811f29.jpg"
+  },
+  {
+    "id": "celeb_6eb00b9d",
+    "name": "有村架純",
+    "category": "actor",
+    "score": 45.5,
+    "details": {
+      "symmetry": 29,
+      "golden_ratio": 32,
+      "eyes": 38,
+      "nose": 68,
+      "mouth": 61,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_6eb00b9d.jpg"
+  },
+  {
+    "id": "celeb_5ed737d9",
+    "name": "真中まな",
+    "category": "actor",
+    "score": 45.4,
+    "details": {
+      "symmetry": 21,
+      "golden_ratio": 35,
+      "eyes": 69,
+      "nose": 68,
+      "mouth": 35,
+      "contour": 43,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_5ed737d9.jpg"
+  },
+  {
+    "id": "celeb_e3d6dd62",
+    "name": "中村俊輔",
+    "category": "actor",
+    "score": 45.3,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 72,
+      "nose": 55,
+      "mouth": 90,
+      "contour": 50,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_e3d6dd62.jpg"
+  },
+  {
     "id": "celeb_a6a7558e",
     "name": "今田美桜",
-    "category": "actress",
-    "score": 42.2,
+    "category": "actor",
+    "score": 45.0,
     "details": {
       "symmetry": 30,
       "golden_ratio": 31,
       "eyes": 66,
       "nose": 47,
-      "mouth": 14,
+      "mouth": 43,
       "contour": 49,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a6a7558e.jpg"
   },
   {
-    "id": "celeb_5d64a1bc",
-    "name": "鎌田大地",
-    "category": "athlete",
-    "score": 42.1,
-    "details": {
-      "symmetry": 17,
-      "golden_ratio": 29,
-      "eyes": 77,
-      "nose": 33,
-      "mouth": 35,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5d64a1bc.jpg"
-  },
-  {
-    "id": "celeb_704a9262",
-    "name": "上田綺世",
-    "category": "athlete",
-    "score": 42.0,
+    "id": "celeb_6d979c26",
+    "name": "広瀬アリス",
+    "category": "actor",
+    "score": 45.0,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 25,
-      "eyes": 79,
-      "nose": 39,
-      "mouth": 70,
+      "golden_ratio": 35,
+      "eyes": 68,
+      "nose": 56,
+      "mouth": 74,
       "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_704a9262.jpg"
-  },
-  {
-    "id": "celeb_00573e3e",
-    "name": "宇野昌磨",
-    "category": "athlete",
-    "score": 41.9,
-    "details": {
-      "symmetry": 1,
-      "golden_ratio": 34,
-      "eyes": 80,
-      "nose": 34,
-      "mouth": 48,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_00573e3e.jpg"
-  },
-  {
-    "id": "celeb_2995aeed",
-    "name": "伊東純也",
-    "category": "athlete",
-    "score": 41.8,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 79,
-      "nose": 36,
-      "mouth": 59,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_2995aeed.jpg"
+    "thumbnail": "data/thumbnails/celeb_6d979c26.jpg"
   },
   {
     "id": "celeb_3ba08e03",
     "name": "大島優子",
-    "category": "idol",
-    "score": 41.6,
+    "category": "actor",
+    "score": 44.9,
     "details": {
       "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 66,
       "nose": 42,
-      "mouth": 54,
+      "mouth": 87,
       "contour": 51,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3ba08e03.jpg"
   },
   {
-    "id": "celeb_7a99bc55",
-    "name": "橋本奈々未",
-    "category": "idol",
-    "score": 41.6,
+    "id": "celeb_7e249402",
+    "name": "村上宗隆",
+    "category": "actor",
+    "score": 44.8,
     "details": {
-      "symmetry": 0,
-      "golden_ratio": 38,
-      "eyes": 79,
-      "nose": 44,
-      "mouth": 33,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_7a99bc55.jpg"
-  },
-  {
-    "id": "celeb_cb723ba9",
-    "name": "野口衣織",
-    "category": "idol",
-    "score": 41.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 41,
-      "eyes": 49,
-      "nose": 53,
-      "mouth": 61,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_cb723ba9.jpg"
-  },
-  {
-    "id": "celeb_d04d3faa",
-    "name": "伊藤美誠",
-    "category": "athlete",
-    "score": 41.3,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 23,
-      "eyes": 77,
-      "nose": 52,
-      "mouth": 60,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d04d3faa.jpg"
-  },
-  {
-    "id": "celeb_6f7fd76c",
-    "name": "満島ひかり",
-    "category": "actress",
-    "score": 41.3,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 27,
-      "eyes": 83,
-      "nose": 59,
+      "symmetry": 35,
+      "golden_ratio": 28,
+      "eyes": 75,
+      "nose": 33,
       "mouth": 31,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_7e249402.jpg"
+  },
+  {
+    "id": "celeb_8d3c8c0c",
+    "name": "遠藤聖大",
+    "category": "actor",
+    "score": 44.6,
+    "details": {
+      "symmetry": 33,
+      "golden_ratio": 26,
+      "eyes": 85,
+      "nose": 31,
+      "mouth": 27,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_8d3c8c0c.jpg"
+  },
+  {
+    "id": "celeb_5d64a1bc",
+    "name": "鎌田大地",
+    "category": "actor",
+    "score": 44.6,
+    "details": {
+      "symmetry": 17,
+      "golden_ratio": 29,
+      "eyes": 77,
+      "nose": 33,
+      "mouth": 60,
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6f7fd76c.jpg"
+    "thumbnail": "data/thumbnails/celeb_5d64a1bc.jpg"
   },
   {
-    "id": "celeb_ea94fbff",
-    "name": "星野源",
-    "category": "artist",
-    "score": 41.1,
+    "id": "celeb_2c58976d",
+    "name": "はじめしゃちょー",
+    "category": "actor",
+    "score": 44.2,
     "details": {
       "symmetry": 0,
       "golden_ratio": 30,
-      "eyes": 76,
-      "nose": 43,
-      "mouth": 48,
-      "contour": 56,
+      "eyes": 84,
+      "nose": 62,
+      "mouth": 47,
+      "contour": 57,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg"
-  },
-  {
-    "id": "celeb_c2bfad08",
-    "name": "遠藤保仁",
-    "category": "athlete",
-    "score": 41.1,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 27,
-      "eyes": 53,
-      "nose": 58,
-      "mouth": 82,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c2bfad08.jpg"
+    "thumbnail": "data/thumbnails/celeb_2c58976d.jpg"
   },
   {
     "id": "celeb_823e1d4c",
     "name": "田中美久",
-    "category": "idol",
-    "score": 41.0,
+    "category": "actor",
+    "score": 44.0,
     "details": {
       "symmetry": 3,
       "golden_ratio": 26,
       "eyes": 87,
       "nose": 59,
-      "mouth": 17,
+      "mouth": 47,
       "contour": 58,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_823e1d4c.jpg"
   },
   {
-    "id": "celeb_bf14a0ea",
-    "name": "冨安健洋",
-    "category": "athlete",
-    "score": 40.8,
+    "id": "celeb_df5afd63",
+    "name": "本田圭佑",
+    "category": "actor",
+    "score": 43.9,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 36,
-      "eyes": 89,
-      "nose": 24,
-      "mouth": 34,
-      "contour": 52,
+      "golden_ratio": 41,
+      "eyes": 77,
+      "nose": 51,
+      "mouth": 37,
+      "contour": 58,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_bf14a0ea.jpg"
+    "thumbnail": "data/thumbnails/celeb_df5afd63.jpg"
   },
   {
     "id": "celeb_9df49b86",
     "name": "石川佳純",
-    "category": "athlete",
-    "score": 40.8,
+    "category": "actor",
+    "score": 43.9,
     "details": {
       "symmetry": 12,
       "golden_ratio": 42,
       "eyes": 66,
       "nose": 35,
-      "mouth": 16,
+      "mouth": 47,
       "contour": 54,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_9df49b86.jpg"
   },
   {
+    "id": "celeb_ea94fbff",
+    "name": "星野源",
+    "category": "actor",
+    "score": 43.8,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 76,
+      "nose": 43,
+      "mouth": 75,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg"
+  },
+  {
+    "id": "celeb_a477ab4e",
+    "name": "高畑充希",
+    "category": "actor",
+    "score": 43.8,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 31,
+      "eyes": 80,
+      "nose": 20,
+      "mouth": 95,
+      "contour": 50,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_a477ab4e.jpg"
+  },
+  {
+    "id": "celeb_48a6fc56",
+    "name": "嘉風雅継",
+    "category": "actor",
+    "score": 43.7,
+    "details": {
+      "symmetry": 21,
+      "golden_ratio": 29,
+      "eyes": 71,
+      "nose": 55,
+      "mouth": 32,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_48a6fc56.jpg"
+  },
+  {
+    "id": "celeb_5f2d3df0",
+    "name": "きゃりーぱみゅぱみゅ",
+    "category": "actor",
+    "score": 43.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 35,
+      "eyes": 70,
+      "nose": 49,
+      "mouth": 61,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg"
+  },
+  {
+    "id": "celeb_059f9821",
+    "name": "齋藤飛鳥",
+    "category": "actor",
+    "score": 43.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 42,
+      "eyes": 83,
+      "nose": 35,
+      "mouth": 48,
+      "contour": 49,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_059f9821.jpg"
+  },
+  {
+    "id": "celeb_2995aeed",
+    "name": "伊東純也",
+    "category": "actor",
+    "score": 43.4,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 79,
+      "nose": 36,
+      "mouth": 74,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_2995aeed.jpg"
+  },
+  {
+    "id": "celeb_c95f4e59",
+    "name": "張本智和",
+    "category": "actor",
+    "score": 43.4,
+    "details": {
+      "symmetry": 10,
+      "golden_ratio": 32,
+      "eyes": 88,
+      "nose": 39,
+      "mouth": 31,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg"
+  },
+  {
+    "id": "celeb_1d9e9647",
+    "name": "鈴木瞳美",
+    "category": "actor",
+    "score": 43.1,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 37,
+      "eyes": 61,
+      "nose": 63,
+      "mouth": 52,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg"
+  },
+  {
+    "id": "celeb_d04d3faa",
+    "name": "伊藤美誠",
+    "category": "actor",
+    "score": 43.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 23,
+      "eyes": 77,
+      "nose": 52,
+      "mouth": 77,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_d04d3faa.jpg"
+  },
+  {
+    "id": "celeb_cb723ba9",
+    "name": "野口衣織",
+    "category": "actor",
+    "score": 42.9,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 41,
+      "eyes": 49,
+      "nose": 53,
+      "mouth": 76,
+      "contour": 49,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_cb723ba9.jpg"
+  },
+  {
+    "id": "celeb_e2c9e678",
+    "name": "東龍強",
+    "category": "actor",
+    "score": 42.8,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 35,
+      "eyes": 40,
+      "nose": 82,
+      "mouth": 71,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_e2c9e678.jpg"
+  },
+  {
+    "id": "celeb_6f7fd76c",
+    "name": "満島ひかり",
+    "category": "actor",
+    "score": 42.8,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 27,
+      "eyes": 83,
+      "nose": 59,
+      "mouth": 46,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_6f7fd76c.jpg"
+  },
+  {
+    "id": "celeb_00573e3e",
+    "name": "宇野昌磨",
+    "category": "actor",
+    "score": 42.7,
+    "details": {
+      "symmetry": 1,
+      "golden_ratio": 34,
+      "eyes": 80,
+      "nose": 34,
+      "mouth": 56,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_00573e3e.jpg"
+  },
+  {
+    "id": "celeb_7a99bc55",
+    "name": "橋本奈々未",
+    "category": "actor",
+    "score": 42.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 38,
+      "eyes": 79,
+      "nose": 44,
+      "mouth": 43,
+      "contour": 50,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_7a99bc55.jpg"
+  },
+  {
+    "id": "celeb_51472794",
+    "name": "守田英正",
+    "category": "actor",
+    "score": 42.4,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 31,
+      "eyes": 82,
+      "nose": 65,
+      "mouth": 35,
+      "contour": 49,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_51472794.jpg"
+  },
+  {
     "id": "celeb_39b9baef",
     "name": "金村美玖",
-    "category": "idol",
-    "score": 40.8,
+    "category": "actor",
+    "score": 42.4,
     "details": {
       "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 38,
       "nose": 60,
-      "mouth": 53,
+      "mouth": 69,
       "contour": 56,
       "skin": 75
     },
@@ -2274,590 +2226,318 @@
   {
     "id": "celeb_6cf416f9",
     "name": "出川哲朗",
-    "category": "comedian",
-    "score": 40.5,
+    "category": "actor",
+    "score": 42.3,
     "details": {
       "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 63,
       "nose": 47,
-      "mouth": 61,
+      "mouth": 79,
       "contour": 50,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_6cf416f9.jpg"
   },
   {
-    "id": "celeb_1d9e9647",
-    "name": "鈴木瞳美",
-    "category": "idol",
-    "score": 40.5,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 37,
-      "eyes": 61,
-      "nose": 63,
-      "mouth": 26,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg"
-  },
-  {
-    "id": "celeb_e9dd0ad7",
-    "name": "羽生結弦",
-    "category": "athlete",
-    "score": 40.4,
-    "details": {
-      "symmetry": 1,
-      "golden_ratio": 31,
-      "eyes": 86,
-      "nose": 16,
-      "mouth": 51,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_e9dd0ad7.jpg"
-  },
-  {
-    "id": "celeb_5f2d3df0",
-    "name": "きゃりーぱみゅぱみゅ",
-    "category": "artist",
-    "score": 40.2,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 35,
-      "eyes": 70,
-      "nose": 49,
-      "mouth": 28,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg"
-  },
-  {
     "id": "celeb_ea5ea927",
     "name": "間宮祥太朗",
     "category": "actor",
-    "score": 40.2,
+    "score": 42.2,
     "details": {
       "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 89,
       "nose": 29,
-      "mouth": 24,
+      "mouth": 44,
       "contour": 56,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_ea5ea927.jpg"
   },
   {
-    "id": "celeb_059f9821",
-    "name": "齋藤飛鳥",
-    "category": "idol",
-    "score": 40.2,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 42,
-      "eyes": 83,
-      "nose": 35,
-      "mouth": 14,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_059f9821.jpg"
-  },
-  {
-    "id": "celeb_85b14d12",
-    "name": "隠岐の海歩",
-    "category": "sumo",
-    "score": 40.1,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 25,
-      "eyes": 47,
-      "nose": 69,
-      "mouth": 73,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_85b14d12.jpg"
-  },
-  {
-    "id": "celeb_a86f6d4b",
-    "name": "小島よしお",
-    "category": "comedian",
-    "score": 40.0,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 75,
-      "nose": 35,
-      "mouth": 57,
-      "contour": 43,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_a86f6d4b.jpg"
-  },
-  {
-    "id": "celeb_fad5b2a1",
-    "name": "岡田准一",
+    "id": "celeb_f7b19298",
+    "name": "上白石萌歌",
     "category": "actor",
-    "score": 40.0,
-    "details": {
-      "symmetry": 44,
-      "golden_ratio": 22,
-      "eyes": 39,
-      "nose": 42,
-      "mouth": 44,
-      "contour": 38,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_fad5b2a1.jpg"
-  },
-  {
-    "id": "celeb_39ed878f",
-    "name": "柴崎岳",
-    "category": "athlete",
-    "score": 40.0,
+    "score": 42.1,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 36,
-      "eyes": 76,
-      "nose": 44,
-      "mouth": 22,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_39ed878f.jpg"
-  },
-  {
-    "id": "celeb_45712eae",
-    "name": "桐生祥秀",
-    "category": "athlete",
-    "score": 39.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 23,
-      "eyes": 47,
-      "nose": 56,
-      "mouth": 92,
-      "contour": 46,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_45712eae.jpg"
-  },
-  {
-    "id": "celeb_7b553a12",
-    "name": "吉田沙保里",
-    "category": "athlete",
-    "score": 39.6,
-    "details": {
-      "symmetry": 23,
-      "golden_ratio": 18,
-      "eyes": 38,
-      "nose": 59,
-      "mouth": 59,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_7b553a12.jpg"
-  },
-  {
-    "id": "celeb_30d4d2e7",
-    "name": "翔猿正也",
-    "category": "sumo",
-    "score": 39.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 25,
-      "eyes": 65,
-      "nose": 30,
-      "mouth": 86,
-      "contour": 45,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_30d4d2e7.jpg"
-  },
-  {
-    "id": "celeb_77650e94",
-    "name": "阿炎政竜",
-    "category": "sumo",
-    "score": 39.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 36,
-      "eyes": 57,
-      "nose": 43,
-      "mouth": 53,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_77650e94.jpg"
-  },
-  {
-    "id": "celeb_86977554",
-    "name": "小室哲哉",
-    "category": "musician",
-    "score": 39.1,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 52,
-      "nose": 43,
-      "mouth": 70,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_86977554.jpg"
-  },
-  {
-    "id": "celeb_5f3ff983",
-    "name": "妙義龍泰成",
-    "category": "sumo",
-    "score": 39.0,
-    "details": {
-      "symmetry": 21,
-      "golden_ratio": 33,
-      "eyes": 38,
+      "golden_ratio": 28,
+      "eyes": 90,
       "nose": 50,
-      "mouth": 31,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_5f3ff983.jpg"
-  },
-  {
-    "id": "celeb_a477ab4e",
-    "name": "高畑充希",
-    "category": "actress",
-    "score": 38.8,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 80,
-      "nose": 20,
-      "mouth": 46,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_a477ab4e.jpg"
-  },
-  {
-    "id": "celeb_77d4c4da",
-    "name": "賀喜遥香",
-    "category": "idol",
-    "score": 38.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 50,
-      "eyes": 41,
-      "nose": 65,
-      "mouth": 10,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_77d4c4da.jpg"
-  },
-  {
-    "id": "celeb_3f99f4f9",
-    "name": "坂口健太郎",
-    "category": "actor",
-    "score": 37.8,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 61,
-      "nose": 46,
-      "mouth": 36,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg"
-  },
-  {
-    "id": "celeb_ac7524e2",
-    "name": "中田敦彦",
-    "category": "youtuber",
-    "score": 37.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 41,
-      "eyes": 49,
-      "nose": 30,
-      "mouth": 40,
+      "mouth": 35,
       "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_ac7524e2.jpg"
-  },
-  {
-    "id": "celeb_93aeea8d",
-    "name": "山下美月",
-    "category": "idol",
-    "score": 37.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 35,
-      "eyes": 83,
-      "nose": 20,
-      "mouth": 17,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_93aeea8d.jpg"
-  },
-  {
-    "id": "celeb_348fba4a",
-    "name": "久保史緒里",
-    "category": "idol",
-    "score": 37.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 40,
-      "eyes": 55,
-      "nose": 43,
-      "mouth": 23,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_348fba4a.jpg"
-  },
-  {
-    "id": "celeb_1dd830b0",
-    "name": "Crystal Kay",
-    "category": "artist",
-    "score": 37.5,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 81,
-      "nose": 37,
-      "mouth": 14,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_1dd830b0.jpg"
+    "thumbnail": "data/thumbnails/celeb_f7b19298.jpg"
   },
   {
     "id": "celeb_3b0aa56c",
     "name": "大谷映美里",
-    "category": "idol",
-    "score": 37.4,
+    "category": "actor",
+    "score": 41.8,
     "details": {
       "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 74,
       "nose": 37,
-      "mouth": 16,
+      "mouth": 61,
       "contour": 52,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3b0aa56c.jpg"
   },
   {
-    "id": "celeb_b79964f2",
-    "name": "眞栄田郷敦",
-    "category": "actor",
-    "score": 37.1,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 24,
-      "eyes": 68,
-      "nose": 49,
-      "mouth": 31,
-      "contour": 54,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_b79964f2.jpg"
-  },
-  {
     "id": "celeb_20aa5f92",
     "name": "槇原敬之",
-    "category": "musician",
-    "score": 37.0,
+    "category": "actor",
+    "score": 41.8,
     "details": {
       "symmetry": 0,
       "golden_ratio": 29,
       "eyes": 74,
       "nose": 43,
-      "mouth": 19,
+      "mouth": 66,
       "contour": 50,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_20aa5f92.jpg"
   },
   {
-    "id": "celeb_c3fc78d4",
-    "name": "生田絵梨花",
-    "category": "idol",
-    "score": 37.0,
+    "id": "celeb_39ed878f",
+    "name": "柴崎岳",
+    "category": "actor",
+    "score": 41.7,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 13,
-      "eyes": 80,
-      "nose": 37,
-      "mouth": 62,
-      "contour": 43,
+      "golden_ratio": 36,
+      "eyes": 76,
+      "nose": 44,
+      "mouth": 39,
+      "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c3fc78d4.jpg"
+    "thumbnail": "data/thumbnails/celeb_39ed878f.jpg"
   },
   {
-    "id": "celeb_14f44b42",
-    "name": "与田祐希",
-    "category": "idol",
-    "score": 36.8,
+    "id": "celeb_ac7524e2",
+    "name": "中田敦彦",
+    "category": "actor",
+    "score": 41.6,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 44,
-      "eyes": 52,
-      "nose": 33,
-      "mouth": 24,
-      "contour": 48,
+      "golden_ratio": 41,
+      "eyes": 49,
+      "nose": 30,
+      "mouth": 79,
+      "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_14f44b42.jpg"
+    "thumbnail": "data/thumbnails/celeb_ac7524e2.jpg"
+  },
+  {
+    "id": "celeb_c88b6503",
+    "name": "南野拓実",
+    "category": "actor",
+    "score": 41.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 67,
+      "nose": 64,
+      "mouth": 62,
+      "contour": 39,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c88b6503.jpg"
   },
   {
     "id": "celeb_b259d958",
     "name": "宮脇咲良",
-    "category": "idol",
-    "score": 36.8,
+    "category": "actor",
+    "score": 41.6,
     "details": {
       "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 76,
       "nose": 27,
-      "mouth": 6,
+      "mouth": 55,
       "contour": 58,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_b259d958.jpg"
   },
   {
-    "id": "celeb_e5a4571e",
-    "name": "中島美嘉",
-    "category": "artist",
-    "score": 36.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 41,
-      "eyes": 59,
-      "nose": 22,
-      "mouth": 23,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_e5a4571e.jpg"
-  },
-  {
-    "id": "celeb_492325bc",
-    "name": "井上康生",
-    "category": "athlete",
-    "score": 36.6,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 22,
-      "eyes": 68,
-      "nose": 51,
-      "mouth": 32,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_492325bc.jpg"
-  },
-  {
-    "id": "celeb_c56489c7",
-    "name": "正代直也",
-    "category": "sumo",
-    "score": 36.4,
-    "details": {
-      "symmetry": 9,
-      "golden_ratio": 20,
-      "eyes": 67,
-      "nose": 31,
-      "mouth": 35,
-      "contour": 55,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c56489c7.jpg"
-  },
-  {
-    "id": "celeb_dc2a13db",
-    "name": "永野芽郁",
-    "category": "actress",
-    "score": 36.4,
-    "details": {
-      "symmetry": 27,
-      "golden_ratio": 33,
-      "eyes": 63,
-      "nose": 3,
-      "mouth": 4,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_dc2a13db.jpg"
-  },
-  {
-    "id": "celeb_38af7091",
-    "name": "谷亮子",
-    "category": "athlete",
-    "score": 36.4,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 27,
-      "eyes": 69,
-      "nose": 40,
-      "mouth": 35,
-      "contour": 43,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_38af7091.jpg"
-  },
-  {
-    "id": "celeb_03a90585",
-    "name": "栃煌山雄一郎",
-    "category": "sumo",
-    "score": 36.2,
+    "id": "celeb_86a3749d",
+    "name": "宮川大輔",
+    "category": "actor",
+    "score": 41.5,
     "details": {
       "symmetry": 0,
       "golden_ratio": 26,
-      "eyes": 45,
-      "nose": 55,
-      "mouth": 43,
-      "contour": 57,
+      "eyes": 76,
+      "nose": 37,
+      "mouth": 69,
+      "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_03a90585.jpg"
+    "thumbnail": "data/thumbnails/celeb_86a3749d.jpg"
   },
   {
-    "id": "celeb_6d9f436e",
-    "name": "錦鯉渡辺",
-    "category": "comedian",
-    "score": 36.2,
+    "id": "celeb_1dd830b0",
+    "name": "Crystal Kay",
+    "category": "actor",
+    "score": 41.3,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 48,
-      "nose": 43,
-      "mouth": 44,
+      "golden_ratio": 31,
+      "eyes": 81,
+      "nose": 37,
+      "mouth": 52,
+      "contour": 50,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_1dd830b0.jpg"
+  },
+  {
+    "id": "celeb_5f3ff983",
+    "name": "妙義龍泰成",
+    "category": "actor",
+    "score": 41.0,
+    "details": {
+      "symmetry": 21,
+      "golden_ratio": 33,
+      "eyes": 38,
+      "nose": 50,
+      "mouth": 50,
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6d9f436e.jpg"
+    "thumbnail": "data/thumbnails/celeb_5f3ff983.jpg"
+  },
+  {
+    "id": "celeb_93aeea8d",
+    "name": "山下美月",
+    "category": "actor",
+    "score": 40.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 35,
+      "eyes": 83,
+      "nose": 20,
+      "mouth": 46,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_93aeea8d.jpg"
+  },
+  {
+    "id": "celeb_3f99f4f9",
+    "name": "坂口健太郎",
+    "category": "actor",
+    "score": 40.2,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 31,
+      "eyes": 61,
+      "nose": 46,
+      "mouth": 60,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg"
+  },
+  {
+    "id": "celeb_c2bfad08",
+    "name": "遠藤保仁",
+    "category": "actor",
+    "score": 40.2,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 27,
+      "eyes": 53,
+      "nose": 58,
+      "mouth": 73,
+      "contour": 49,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c2bfad08.jpg"
+  },
+  {
+    "id": "celeb_bf14a0ea",
+    "name": "冨安健洋",
+    "category": "actor",
+    "score": 40.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 36,
+      "eyes": 89,
+      "nose": 24,
+      "mouth": 25,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_bf14a0ea.jpg"
+  },
+  {
+    "id": "celeb_704a9262",
+    "name": "上田綺世",
+    "category": "actor",
+    "score": 39.9,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 25,
+      "eyes": 79,
+      "nose": 39,
+      "mouth": 49,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_704a9262.jpg"
+  },
+  {
+    "id": "celeb_e9dd0ad7",
+    "name": "羽生結弦",
+    "category": "actor",
+    "score": 39.9,
+    "details": {
+      "symmetry": 1,
+      "golden_ratio": 31,
+      "eyes": 86,
+      "nose": 16,
+      "mouth": 46,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_e9dd0ad7.jpg"
+  },
+  {
+    "id": "celeb_ae23d472",
+    "name": "髙松瞳",
+    "category": "actor",
+    "score": 39.8,
+    "details": {
+      "symmetry": 30,
+      "golden_ratio": 26,
+      "eyes": 67,
+      "nose": 27,
+      "mouth": 13,
+      "contour": 58,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_ae23d472.jpg"
   },
   {
     "id": "celeb_86612318",
     "name": "遠藤さくら",
-    "category": "idol",
-    "score": 36.1,
+    "category": "actor",
+    "score": 39.7,
     "details": {
       "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 75,
       "nose": 42,
-      "mouth": 11,
+      "mouth": 47,
       "contour": 43,
       "skin": 75
     },
@@ -2866,318 +2546,638 @@
   {
     "id": "celeb_3dbe559b",
     "name": "前田敦子",
-    "category": "idol",
-    "score": 36.0,
+    "category": "actor",
+    "score": 39.6,
     "details": {
       "symmetry": 0,
       "golden_ratio": 25,
       "eyes": 59,
       "nose": 55,
-      "mouth": 23,
+      "mouth": 59,
       "contour": 56,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3dbe559b.jpg"
   },
   {
+    "id": "celeb_b79964f2",
+    "name": "眞栄田郷敦",
+    "category": "actor",
+    "score": 39.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 24,
+      "eyes": 68,
+      "nose": 49,
+      "mouth": 56,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_b79964f2.jpg"
+  },
+  {
+    "id": "celeb_77d4c4da",
+    "name": "賀喜遥香",
+    "category": "actor",
+    "score": 39.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 50,
+      "eyes": 41,
+      "nose": 65,
+      "mouth": 19,
+      "contour": 50,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_77d4c4da.jpg"
+  },
+  {
     "id": "celeb_9244cc06",
     "name": "櫻井優衣",
-    "category": "idol",
-    "score": 36.0,
+    "category": "actor",
+    "score": 39.3,
     "details": {
       "symmetry": 0,
       "golden_ratio": 37,
       "eyes": 62,
       "nose": 46,
-      "mouth": 9,
+      "mouth": 42,
       "contour": 45,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_9244cc06.jpg"
   },
   {
-    "id": "celeb_a0d9aa25",
-    "name": "サンシャイン池崎",
-    "category": "comedian",
-    "score": 35.8,
+    "id": "celeb_7b553a12",
+    "name": "吉田沙保里",
+    "category": "actor",
+    "score": 39.2,
     "details": {
-      "symmetry": 0,
-      "golden_ratio": 32,
-      "eyes": 55,
-      "nose": 47,
-      "mouth": 21,
-      "contour": 53,
+      "symmetry": 23,
+      "golden_ratio": 18,
+      "eyes": 38,
+      "nose": 59,
+      "mouth": 55,
+      "contour": 55,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_a0d9aa25.jpg"
-  },
-  {
-    "id": "celeb_9e880113",
-    "name": "碧山亘右",
-    "category": "sumo",
-    "score": 35.7,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 9,
-      "eyes": 71,
-      "nose": 57,
-      "mouth": 45,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_9e880113.jpg"
+    "thumbnail": "data/thumbnails/celeb_7b553a12.jpg"
   },
   {
     "id": "celeb_0bb271b9",
     "name": "月足天音",
-    "category": "idol",
-    "score": 35.6,
+    "category": "actor",
+    "score": 39.2,
     "details": {
       "symmetry": 0,
       "golden_ratio": 29,
       "eyes": 52,
       "nose": 27,
-      "mouth": 55,
+      "mouth": 91,
       "contour": 49,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_0bb271b9.jpg"
   },
   {
-    "id": "celeb_c2719a8f",
-    "name": "磯村勇斗",
+    "id": "celeb_77650e94",
+    "name": "阿炎政竜",
     "category": "actor",
-    "score": 35.2,
+    "score": 39.2,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 26,
-      "eyes": 78,
-      "nose": 21,
-      "mouth": 28,
-      "contour": 46,
+      "golden_ratio": 36,
+      "eyes": 57,
+      "nose": 43,
+      "mouth": 49,
+      "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_c2719a8f.jpg"
+    "thumbnail": "data/thumbnails/celeb_77650e94.jpg"
   },
   {
-    "id": "celeb_63a03d75",
-    "name": "大翔鵬清洋",
-    "category": "sumo",
-    "score": 35.0,
+    "id": "celeb_85b14d12",
+    "name": "隠岐の海歩",
+    "category": "actor",
+    "score": 39.2,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 19,
-      "eyes": 59,
-      "nose": 46,
-      "mouth": 41,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_63a03d75.jpg"
-  },
-  {
-    "id": "celeb_58f675db",
-    "name": "桃田賢斗",
-    "category": "athlete",
-    "score": 35.0,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 21,
-      "eyes": 49,
-      "nose": 52,
-      "mouth": 45,
-      "contour": 52,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_58f675db.jpg"
-  },
-  {
-    "id": "celeb_696f51ce",
-    "name": "紀平梨花",
-    "category": "athlete",
-    "score": 35.0,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 15,
-      "eyes": 75,
-      "nose": 33,
-      "mouth": 41,
+      "golden_ratio": 25,
+      "eyes": 47,
+      "nose": 69,
+      "mouth": 64,
       "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_696f51ce.jpg"
+    "thumbnail": "data/thumbnails/celeb_85b14d12.jpg"
+  },
+  {
+    "id": "celeb_dc2a13db",
+    "name": "永野芽郁",
+    "category": "actor",
+    "score": 38.9,
+    "details": {
+      "symmetry": 27,
+      "golden_ratio": 33,
+      "eyes": 63,
+      "nose": 3,
+      "mouth": 29,
+      "contour": 51,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_dc2a13db.jpg"
+  },
+  {
+    "id": "celeb_348fba4a",
+    "name": "久保史緒里",
+    "category": "actor",
+    "score": 38.8,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 40,
+      "eyes": 55,
+      "nose": 43,
+      "mouth": 35,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_348fba4a.jpg"
+  },
+  {
+    "id": "celeb_14f44b42",
+    "name": "与田祐希",
+    "category": "actor",
+    "score": 38.2,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 44,
+      "eyes": 52,
+      "nose": 33,
+      "mouth": 38,
+      "contour": 48,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_14f44b42.jpg"
+  },
+  {
+    "id": "celeb_a0d9aa25",
+    "name": "サンシャイン池崎",
+    "category": "actor",
+    "score": 38.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 32,
+      "eyes": 55,
+      "nose": 47,
+      "mouth": 43,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_a0d9aa25.jpg"
+  },
+  {
+    "id": "celeb_03a90585",
+    "name": "栃煌山雄一郎",
+    "category": "actor",
+    "score": 38.0,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 26,
+      "eyes": 45,
+      "nose": 55,
+      "mouth": 60,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_03a90585.jpg"
+  },
+  {
+    "id": "celeb_a86f6d4b",
+    "name": "小島よしお",
+    "category": "actor",
+    "score": 37.9,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 31,
+      "eyes": 75,
+      "nose": 35,
+      "mouth": 36,
+      "contour": 43,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_a86f6d4b.jpg"
   },
   {
     "id": "celeb_08fa3955",
     "name": "土屋太鳳",
-    "category": "actress",
-    "score": 34.7,
+    "category": "actor",
+    "score": 37.7,
     "details": {
       "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 53,
       "nose": 48,
-      "mouth": 17,
+      "mouth": 47,
       "contour": 50,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_08fa3955.jpg"
   },
   {
-    "id": "celeb_00d06037",
-    "name": "高橋みなみ",
-    "category": "idol",
-    "score": 34.2,
+    "id": "celeb_45712eae",
+    "name": "桐生祥秀",
+    "category": "actor",
+    "score": 37.7,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 23,
+      "eyes": 47,
+      "nose": 56,
+      "mouth": 72,
+      "contour": 46,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_45712eae.jpg"
+  },
+  {
+    "id": "celeb_e5a4571e",
+    "name": "中島美嘉",
+    "category": "actor",
+    "score": 37.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 41,
+      "eyes": 59,
+      "nose": 22,
+      "mouth": 32,
+      "contour": 56,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_e5a4571e.jpg"
+  },
+  {
+    "id": "celeb_492325bc",
+    "name": "井上康生",
+    "category": "actor",
+    "score": 37.6,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 22,
+      "eyes": 68,
+      "nose": 51,
+      "mouth": 42,
+      "contour": 51,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_492325bc.jpg"
+  },
+  {
+    "id": "celeb_86977554",
+    "name": "小室哲哉",
+    "category": "actor",
+    "score": 37.4,
     "details": {
       "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 52,
-      "nose": 30,
-      "mouth": 36,
-      "contour": 48,
+      "nose": 43,
+      "mouth": 53,
+      "contour": 50,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_00d06037.jpg"
+    "thumbnail": "data/thumbnails/celeb_86977554.jpg"
   },
   {
-    "id": "celeb_bb0cc261",
-    "name": "前田健太",
-    "category": "athlete",
-    "score": 34.0,
+    "id": "celeb_30d4d2e7",
+    "name": "翔猿正也",
+    "category": "actor",
+    "score": 37.3,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 31,
-      "eyes": 50,
-      "nose": 37,
-      "mouth": 19,
-      "contour": 56,
+      "golden_ratio": 25,
+      "eyes": 65,
+      "nose": 30,
+      "mouth": 63,
+      "contour": 45,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_bb0cc261.jpg"
+    "thumbnail": "data/thumbnails/celeb_30d4d2e7.jpg"
+  },
+  {
+    "id": "celeb_c3fc78d4",
+    "name": "生田絵梨花",
+    "category": "actor",
+    "score": 37.2,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 13,
+      "eyes": 80,
+      "nose": 37,
+      "mouth": 65,
+      "contour": 43,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c3fc78d4.jpg"
   },
   {
     "id": "celeb_5e662c06",
     "name": "三浦春馬",
     "category": "actor",
-    "score": 33.5,
+    "score": 36.9,
     "details": {
       "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 57,
       "nose": 51,
-      "mouth": 14,
+      "mouth": 48,
       "contour": 52,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5e662c06.jpg"
   },
   {
-    "id": "celeb_6c91eb8a",
-    "name": "仲間由紀恵",
-    "category": "actress",
-    "score": 33.0,
+    "id": "celeb_bb0cc261",
+    "name": "前田健太",
+    "category": "actor",
+    "score": 36.8,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 35,
-      "eyes": 20,
-      "nose": 53,
-      "mouth": 37,
-      "contour": 47,
+      "golden_ratio": 31,
+      "eyes": 50,
+      "nose": 37,
+      "mouth": 48,
+      "contour": 56,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_6c91eb8a.jpg"
+    "thumbnail": "data/thumbnails/celeb_bb0cc261.jpg"
   },
   {
-    "id": "celeb_62e5564f",
-    "name": "松鳳山裕也",
-    "category": "sumo",
-    "score": 32.8,
+    "id": "celeb_38af7091",
+    "name": "谷亮子",
+    "category": "actor",
+    "score": 36.8,
     "details": {
-      "symmetry": 8,
-      "golden_ratio": 16,
-      "eyes": 45,
-      "nose": 21,
-      "mouth": 55,
+      "symmetry": 0,
+      "golden_ratio": 27,
+      "eyes": 69,
+      "nose": 40,
+      "mouth": 39,
+      "contour": 43,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_38af7091.jpg"
+  },
+  {
+    "id": "celeb_fad5b2a1",
+    "name": "岡田准一",
+    "category": "actor",
+    "score": 36.6,
+    "details": {
+      "symmetry": 44,
+      "golden_ratio": 22,
+      "eyes": 39,
+      "nose": 42,
+      "mouth": 10,
+      "contour": 38,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_fad5b2a1.jpg"
+  },
+  {
+    "id": "celeb_c56489c7",
+    "name": "正代直也",
+    "category": "actor",
+    "score": 36.0,
+    "details": {
+      "symmetry": 9,
+      "golden_ratio": 20,
+      "eyes": 67,
+      "nose": 31,
+      "mouth": 30,
+      "contour": 55,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_c56489c7.jpg"
+  },
+  {
+    "id": "celeb_6d9f436e",
+    "name": "錦鯉渡辺",
+    "category": "actor",
+    "score": 35.1,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 48,
+      "nose": 43,
+      "mouth": 33,
       "contour": 53,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_62e5564f.jpg"
+    "thumbnail": "data/thumbnails/celeb_6d9f436e.jpg"
   },
   {
-    "id": "celeb_414eee3a",
-    "name": "EXILE TAKAHIRO",
-    "category": "artist",
-    "score": 32.5,
+    "id": "celeb_c2719a8f",
+    "name": "磯村勇斗",
+    "category": "actor",
+    "score": 35.0,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 25,
-      "eyes": 37,
-      "nose": 50,
-      "mouth": 38,
-      "contour": 44,
+      "golden_ratio": 26,
+      "eyes": 78,
+      "nose": 21,
+      "mouth": 26,
+      "contour": 46,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_414eee3a.jpg"
+    "thumbnail": "data/thumbnails/celeb_c2719a8f.jpg"
   },
   {
-    "id": "celeb_81887b90",
-    "name": "千代の国憲輝",
-    "category": "sumo",
-    "score": 32.3,
+    "id": "celeb_9e880113",
+    "name": "碧山亘右",
+    "category": "actor",
+    "score": 34.3,
     "details": {
       "symmetry": 0,
-      "golden_ratio": 22,
-      "eyes": 24,
-      "nose": 60,
-      "mouth": 65,
-      "contour": 32,
+      "golden_ratio": 9,
+      "eyes": 71,
+      "nose": 57,
+      "mouth": 31,
+      "contour": 51,
       "skin": 75
     },
-    "thumbnail": "data/thumbnails/celeb_81887b90.jpg"
+    "thumbnail": "data/thumbnails/celeb_9e880113.jpg"
   },
   {
     "id": "celeb_d7707c7b",
     "name": "渋野日向子",
-    "category": "athlete",
-    "score": 31.8,
+    "category": "actor",
+    "score": 34.2,
     "details": {
       "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 54,
       "nose": 43,
-      "mouth": 17,
+      "mouth": 42,
       "contour": 44,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_d7707c7b.jpg"
   },
   {
+    "id": "celeb_81887b90",
+    "name": "千代の国憲輝",
+    "category": "actor",
+    "score": 33.3,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 22,
+      "eyes": 24,
+      "nose": 60,
+      "mouth": 75,
+      "contour": 32,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_81887b90.jpg"
+  },
+  {
+    "id": "celeb_63a03d75",
+    "name": "大翔鵬清洋",
+    "category": "actor",
+    "score": 33.3,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 19,
+      "eyes": 59,
+      "nose": 46,
+      "mouth": 24,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_63a03d75.jpg"
+  },
+  {
     "id": "celeb_a2a8f3a2",
     "name": "戸田恵梨香",
-    "category": "actress",
-    "score": 31.1,
+    "category": "actor",
+    "score": 33.2,
     "details": {
       "symmetry": 0,
       "golden_ratio": 32,
       "eyes": 30,
       "nose": 39,
-      "mouth": 20,
+      "mouth": 41,
       "contour": 52,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a2a8f3a2.jpg"
   },
   {
+    "id": "celeb_6c91eb8a",
+    "name": "仲間由紀恵",
+    "category": "actor",
+    "score": 32.7,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 35,
+      "eyes": 20,
+      "nose": 53,
+      "mouth": 34,
+      "contour": 47,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_6c91eb8a.jpg"
+  },
+  {
+    "id": "celeb_696f51ce",
+    "name": "紀平梨花",
+    "category": "actor",
+    "score": 32.4,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 15,
+      "eyes": 75,
+      "nose": 33,
+      "mouth": 15,
+      "contour": 51,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_696f51ce.jpg"
+  },
+  {
+    "id": "celeb_58f675db",
+    "name": "桃田賢斗",
+    "category": "actor",
+    "score": 32.1,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 21,
+      "eyes": 49,
+      "nose": 52,
+      "mouth": 16,
+      "contour": 52,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_58f675db.jpg"
+  },
+  {
+    "id": "celeb_00d06037",
+    "name": "高橋みなみ",
+    "category": "actor",
+    "score": 31.4,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 30,
+      "eyes": 52,
+      "nose": 30,
+      "mouth": 8,
+      "contour": 48,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_00d06037.jpg"
+  },
+  {
+    "id": "celeb_414eee3a",
+    "name": "EXILE TAKAHIRO",
+    "category": "actor",
+    "score": 31.3,
+    "details": {
+      "symmetry": 0,
+      "golden_ratio": 25,
+      "eyes": 37,
+      "nose": 50,
+      "mouth": 26,
+      "contour": 44,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_414eee3a.jpg"
+  },
+  {
+    "id": "celeb_62e5564f",
+    "name": "松鳳山裕也",
+    "category": "actor",
+    "score": 31.2,
+    "details": {
+      "symmetry": 8,
+      "golden_ratio": 16,
+      "eyes": 45,
+      "nose": 21,
+      "mouth": 40,
+      "contour": 53,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_62e5564f.jpg"
+  },
+  {
     "id": "celeb_8b8d9fc7",
     "name": "高山一実",
-    "category": "idol",
-    "score": 29.6,
+    "category": "actor",
+    "score": 29.9,
     "details": {
       "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 18,
       "nose": 25,
-      "mouth": 23,
+      "mouth": 26,
       "contour": 46,
       "skin": 75
     },
@@ -3186,14 +3186,14 @@
   {
     "id": "celeb_71929abe",
     "name": "島崎遥香",
-    "category": "idol",
-    "score": 29.1,
+    "category": "actor",
+    "score": 29.0,
     "details": {
       "symmetry": 0,
       "golden_ratio": 28,
       "eyes": 26,
       "nose": 30,
-      "mouth": 28,
+      "mouth": 27,
       "contour": 49,
       "skin": 75
     },
@@ -3202,14 +3202,14 @@
   {
     "id": "celeb_efe22d22",
     "name": "友近",
-    "category": "comedian",
-    "score": 27.2,
+    "category": "actor",
+    "score": 24.6,
     "details": {
       "symmetry": 0,
       "golden_ratio": 25,
       "eyes": 14,
       "nose": 31,
-      "mouth": 32,
+      "mouth": 7,
       "contour": 50,
       "skin": 75
     },
