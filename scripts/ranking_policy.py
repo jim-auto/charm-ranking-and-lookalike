@@ -7,6 +7,11 @@ UNWANTED_RECOMMENDED_CATEGORIES = {"athlete", "sumo", "prowrestler"}
 LOW_DEVIATION_CATEGORIES = {"actor", "actress", "idol"}
 LOW_DEVIATION_THRESHOLD = 40.0
 FACE_VALIDATION_EXCLUSION_REASON = "invalid face geometry"
+PUBLIC_EXCLUDED_NAMES = {"はじめしゃちょー"}
+
+
+def filter_public_entries(entries: list[dict]) -> list[dict]:
+    return [entry for entry in entries if entry.get("name") not in PUBLIC_EXCLUDED_NAMES]
 
 
 def deviation(score: float, mean: float, stdev: float) -> float:

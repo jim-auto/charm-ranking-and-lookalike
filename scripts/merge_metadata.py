@@ -10,7 +10,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 from metric_distribution import apply_distribution_adjusted_scores
-from ranking_policy import build_ranking_policy, deviation
+from ranking_policy import build_ranking_policy, deviation, filter_public_entries
 from score_policy import age_adjusted_score, round_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -263,6 +263,8 @@ for cel in celebrities:
             cel["faceValidationSource"] = source
         else:
             cel.pop("faceValidationSource", None)
+
+celebrities = filter_public_entries(celebrities)
 
 metric_stats = apply_distribution_adjusted_scores(celebrities)
 

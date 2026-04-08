@@ -26,7 +26,7 @@ from mediapipe.tasks.python import vision
 
 from face_validation import validate_human_face_landmarks
 from metric_distribution import apply_distribution_adjusted_scores
-from ranking_policy import build_ranking_policy, deviation
+from ranking_policy import build_ranking_policy, deviation, filter_public_entries
 from score_policy import age_adjusted_score, round_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -679,6 +679,8 @@ def main():
             continue
         if entry.get("faceValidationStatus") != "accepted" or details.get("symmetry", 0) <= 0:
             details.pop("symmetry", None)
+
+    results = filter_public_entries(results)
 
     metric_stats = apply_distribution_adjusted_scores(results)
     for entry in results:
