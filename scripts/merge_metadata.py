@@ -14,6 +14,152 @@ INPUT_DIR = SCRIPT_DIR / "input_images"
 DATA_DIR = SCRIPT_DIR.parent / "web" / "public" / "data"
 META_FILE = SCRIPT_DIR / "meta_backup.json"
 
+VALID_GENDERS = {"male", "female", "unknown"}
+FEMALE_CATEGORIES = {"actress", "idol"}
+MALE_CATEGORIES = {"actor", "sumo"}
+NAME_GENDER_OVERRIDES = {
+    "田中みな実": "female",
+    "加藤綾子": "female",
+    "安室奈美恵": "female",
+    "椎名林檎": "female",
+    "浜崎あゆみ": "female",
+    "Crystal Kay": "female",
+    "中島美嘉": "female",
+    "EXILE TAKAHIRO": "male",
+    "宮崎駿": "male",
+    "池上彰": "male",
+    "秋元康": "male",
+    "庵野秀明": "male",
+    "棚橋弘至": "male",
+    "中田敦彦": "male",
+    "槇原敬之": "male",
+    "小室哲哉": "male",
+    "石川佳純": "female",
+    "浅田真央": "female",
+}
+FEMALE_ATHLETE_NAMES = {
+    "石川佳純",
+    "浅田真央",
+    "畑岡奈紗",
+    "谷亮子",
+    "吉田沙保里",
+    "渋野日向子",
+    "紀平梨花",
+}
+FEMALE_COMEDIAN_NAMES = {
+    "やす子",
+    "ゆりやんレトリィバァ",
+}
+FEMALE_NAME_SUFFIXES = (
+    "子",
+    "花",
+    "紗",
+    "里",
+)
+MALE_NAME_SUFFIXES = (
+    "太",
+    "介",
+    "郎",
+    "司",
+    "樹",
+    "人",
+    "宏",
+    "輔",
+    "治",
+    "磨",
+    "誠",
+    "平",
+    "然",
+    "佑",
+    "喜",
+    "豊",
+    "岳",
+    "仁",
+    "大",
+    "地",
+    "雄",
+    "和",
+    "世",
+    "洋",
+    "弦",
+    "晃",
+    "生",
+    "隆",
+    "有",
+    "悟",
+    "斗",
+    "彦",
+    "之",
+    "哉",
+    "尚",
+    "駿",
+    "彰",
+    "康",
+    "明",
+    "三",
+    "ロー",
+)
+
+
+def read_text_if_exists(path: Path) -> str | None:
+    if not path.is_file():
+        return None
+    value = path.read_text(encoding="utf-8").strip()
+    return value or None
+
+
+def normalize_gender(value: str | None) -> str | None:
+    if not value:
+        return None
+    lowered = value.strip().lower()
+    return lowered if lowered in VALID_GENDERS else None
+
+
+def infer_gender_from_name(name: str) -> str | None:
+    compact = name.replace(" ", "").replace("　", "")
+    if compact in NAME_GENDER_OVERRIDES:
+        return NAME_GENDER_OVERRIDES[compact]
+    for suffix in FEMALE_NAME_SUFFIXES:
+        if compact.endswith(suffix):
+            return "female"
+    for suffix in MALE_NAME_SUFFIXES:
+        if compact.endswith(suffix):
+            return "male"
+    return None
+
+
+def infer_gender(name: str, category: str, existing_gender: str | None) -> str:
+    if existing_gender in {"male", "female"}:
+        return existing_gender
+
+    if name in NAME_GENDER_OVERRIDES:
+        return NAME_GENDER_OVERRIDES[name]
+
+    if category in FEMALE_CATEGORIES:
+        return "female"
+    if category in MALE_CATEGORIES:
+        return "male"
+
+    if category == "announcer":
+        return NAME_GENDER_OVERRIDES.get(name, "unknown")
+
+    if category == "athlete":
+        if name in FEMALE_ATHLETE_NAMES:
+            return "female"
+        return infer_gender_from_name(name) or "male"
+
+    if category == "comedian":
+        if name in FEMALE_COMEDIAN_NAMES:
+            return "female"
+        return infer_gender_from_name(name) or "male"
+
+    if category in {"artist", "cultural", "musician", "prowrestler", "youtuber"}:
+        guessed = infer_gender_from_name(name)
+        if guessed:
+            return guessed
+
+    return existing_gender or "unknown"
+
 # Load current data
 with open(DATA_DIR / "celebrities.json", "r", encoding="utf-8") as f:
     celebrities = json.load(f)
@@ -25,29 +171,27 @@ with open(META_FILE, "r", encoding="utf-8") as f:
 updated = 0
 for cel in celebrities:
     name = cel["name"]
+    category_from_file = read_text_if_exists(INPUT_DIR / name / "category.txt")
+    gender_from_file = normalize_gender(read_text_if_exists(INPUT_DIR / name / "gender.txt"))
 
     # Apply saved metadata
     if name in meta:
         m = meta[name]
         for key in ("category", "age", "gender", "sns", "totalFollowers", "group"):
-            if key in m and key not in cel or cel.get(key) == "actor":
+            if key in m and (key not in cel or (key == "category" and cel.get("category") == "actor")):
                 cel[key] = m[key]
         updated += 1
-    else:
-        # Read category.txt for new entries
-        cat_file = INPUT_DIR / name / "category.txt"
-        if cat_file.is_file():
-            cel["category"] = cat_file.read_text(encoding="utf-8").strip()
 
-    # Ensure gender exists
-    if "gender" not in cel:
-        cat = cel.get("category", "")
-        if cat in ("actress", "idol"):
-            cel["gender"] = "female"
-        elif cat in ("actor",):
-            cel["gender"] = "male"
-        else:
-            cel["gender"] = "unknown"
+    if category_from_file:
+        cel["category"] = category_from_file
+    if gender_from_file:
+        cel["gender"] = gender_from_file
+
+    cel["gender"] = infer_gender(
+        name=name,
+        category=cel.get("category", ""),
+        existing_gender=normalize_gender(cel.get("gender")),
+    )
 
     # Recalculate score variants
     score = cel["score"]

@@ -96,22 +96,6 @@
     "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg"
   },
   {
-    "id": "celeb_3946b77e",
-    "name": "小林陵侑",
-    "category": "actor",
-    "score": 60.3,
-    "details": {
-      "symmetry": 87,
-      "golden_ratio": 41,
-      "eyes": 92,
-      "nose": 40,
-      "mouth": 97,
-      "contour": 58,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_3946b77e.jpg"
-  },
-  {
     "id": "celeb_40796ce8",
     "name": "山本美月",
     "category": "actor",
@@ -142,22 +126,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_0025540b.jpg"
-  },
-  {
-    "id": "celeb_c6742188",
-    "name": "加藤綾子",
-    "category": "actor",
-    "score": 59.0,
-    "details": {
-      "symmetry": 77,
-      "golden_ratio": 35,
-      "eyes": 94,
-      "nose": 67,
-      "mouth": 85,
-      "contour": 49,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_c6742188.jpg"
   },
   {
     "id": "celeb_04bb2177",
@@ -304,22 +272,6 @@
     "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg"
   },
   {
-    "id": "celeb_50a1a533",
-    "name": "田臥勇太",
-    "category": "actor",
-    "score": 57.4,
-    "details": {
-      "symmetry": 25,
-      "golden_ratio": 37,
-      "eyes": 91,
-      "nose": 46,
-      "mouth": 85,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_50a1a533.jpg"
-  },
-  {
     "id": "celeb_1c82bee3",
     "name": "白石麻衣",
     "category": "actor",
@@ -448,38 +400,6 @@
     "thumbnail": "data/thumbnails/celeb_2267bb69.jpg"
   },
   {
-    "id": "celeb_a2545d2d",
-    "name": "松田丈志",
-    "category": "actor",
-    "score": 56.6,
-    "details": {
-      "symmetry": 84,
-      "golden_ratio": 34,
-      "eyes": 76,
-      "nose": 83,
-      "mouth": 63,
-      "contour": 57,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_a2545d2d.jpg"
-  },
-  {
-    "id": "celeb_d112398a",
-    "name": "福留孝介",
-    "category": "actor",
-    "score": 56.5,
-    "details": {
-      "symmetry": 0,
-      "golden_ratio": 30,
-      "eyes": 90,
-      "nose": 58,
-      "mouth": 92,
-      "contour": 50,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_d112398a.jpg"
-  },
-  {
     "id": "celeb_04f3a460",
     "name": "堂安律",
     "category": "actor",
@@ -494,22 +414,6 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_04f3a460.jpg"
-  },
-  {
-    "id": "celeb_ddca276e",
-    "name": "亀田興毅",
-    "category": "actor",
-    "score": 56.2,
-    "details": {
-      "symmetry": 48,
-      "golden_ratio": 38,
-      "eyes": 55,
-      "nose": 58,
-      "mouth": 98,
-      "contour": 56,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_ddca276e.jpg"
   },
   {
     "id": "celeb_f59368b4",
