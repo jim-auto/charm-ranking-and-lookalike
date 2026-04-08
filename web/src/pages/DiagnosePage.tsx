@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
 import { calculateFaceDetails } from '../lib/faceMetricCalculator';
+import { calculatePhotoQuality, type PhotoQualityAssessment } from '../lib/photoQuality';
 import { findSimilarCelebrities, loadEmbeddingStore } from '../lib/embedding';
 import ImageUploader from '../components/ImageUploader';
 import LookalikeResult from '../components/LookalikeResult';
@@ -15,6 +16,7 @@ import {
 interface DiagnoseResult {
   score: number;
   details: ScoreDetails;
+  photoQuality: PhotoQualityAssessment;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
   toDeviation: (rawScore: number) => number;
 }
@@ -81,7 +83,12 @@ export default function DiagnosePage() {
           return;
         }
 
-        const details = calculateFaceDetails(detection.landmarks);
+        const baseDetails = calculateFaceDetails(detection.landmarks);
+        const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
+        const details = {
+          ...baseDetails,
+          symmetry: photoQuality.symmetryReliable ? baseDetails.symmetry : undefined,
+        };
         const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
         const score = toDeviation(rawScore);
 
@@ -97,7 +104,7 @@ export default function DiagnosePage() {
           similarity,
         }));
 
-        setResult({ score, details, lookalikes, toDeviation });
+        setResult({ score, details, photoQuality, lookalikes, toDeviation });
       } catch (err) {
         console.error(err);
         setError('処理中にエラーが発生しました。');
@@ -154,6 +161,7 @@ export default function DiagnosePage() {
           <LookalikeResult
             score={result.score}
             details={result.details}
+            photoQuality={result.photoQuality}
             lookalikes={result.lookalikes}
             toDeviation={result.toDeviation}
           />
@@ -162,13 +170,14 @@ export default function DiagnosePage() {
 
       <canvas ref={canvasRef} className="hidden" />
 
-      <div className="mt-8 p-4 bg-slate-800/50 rounded-lg text-sm text-slate-500">
+      <div className="mt-8 p-4 bg-slate-800/50 rounded-lg text-sm text-slate-500 space-y-2">
         <p>
           ※ 偏差値は顔の数学的比率に基づく指標であり、美の絶対評価ではありません。
         </p>
         <p>
           ※ アップロードした画像はブラウザ内のみで処理され、サーバーには送信されません。
         </p>
+        <p>※ 左右対称は正面度が足りない写真では参考外として扱います。</p>
       </div>
     </div>
   );
