@@ -26,6 +26,12 @@
     "wikipediaTitle": "井上裕介 (お笑い芸人)",
     "gender": "male"
   },
+  "Taka(ONE OK ROCK)": {
+    "age": 37,
+    "birthDate": "1988-04-17",
+    "wikipediaTitle": "Takahiro Moriuchi",
+    "gender": "male"
+  },
   "YOSHIKI": {
     "age": 60,
     "birthDate": "1965-11-20",
@@ -270,10 +276,8 @@
   },
   "安室奈美恵": {
     "age": 48,
-    "birthDate": "1977-09-20",
-    "wikidataId": "Q266676",
-    "wikipediaTitle": "安室奈美恵",
-    "gender": "female"
+    "gender": "female",
+    "category": "artist"
   },
   "安村": {
     "age": 44,
@@ -456,6 +460,13 @@
     "wikipediaTitle": "嘉風雅継",
     "gender": "male"
   },
+  "家入レオ": {
+    "age": 31,
+    "birthDate": "1994-12-13",
+    "wikidataId": "Q4389679",
+    "wikipediaTitle": "家入レオ",
+    "gender": "female"
+  },
   "河村勇輝": {
     "age": 24,
     "birthDate": "2001-05-02",
@@ -561,6 +572,13 @@
     "wikipediaTitle": "吉永小百合",
     "gender": "female"
   },
+  "吉沢亮": {
+    "age": 32,
+    "birthDate": "1994-02-01",
+    "wikidataId": "Q5964561",
+    "wikipediaTitle": "吉沢亮",
+    "gender": "male"
+  },
   "吉田輝星": {
     "age": 25,
     "birthDate": "2001-01-01",
@@ -581,6 +599,13 @@
     "wikidataId": "Q27067753",
     "wikipediaTitle": "久保建英",
     "gender": "male"
+  },
+  "宮崎あおい": {
+    "age": 40,
+    "birthDate": "1985-11-30",
+    "wikidataId": "Q253873",
+    "wikipediaTitle": "宮﨑あおい",
+    "gender": "female"
   },
   "宮城大弥": {
     "age": 24,
@@ -886,6 +911,13 @@
     "wikipediaTitle": "桜井日奈子",
     "gender": "female"
   },
+  "三浦翔平": {
+    "age": 37,
+    "birthDate": "1988-06-03",
+    "wikidataId": "Q858638",
+    "wikipediaTitle": "三浦翔平",
+    "gender": "male"
+  },
   "三四郎小宮": {
     "age": 42,
     "birthDate": "1983-09-03",
@@ -1074,6 +1106,13 @@
     "wikipediaTitle": "小久保裕紀",
     "gender": "male"
   },
+  "小坂菜緒": {
+    "age": 23,
+    "birthDate": "2002-09-07",
+    "wikidataId": "Q54867512",
+    "wikipediaTitle": "小坂菜緒",
+    "gender": "female"
+  },
   "小室哲哉": {
     "age": 67,
     "birthDate": "1958-11-27",
@@ -1193,12 +1232,26 @@
     "wikipediaTitle": "上沼恵美子",
     "gender": "female"
   },
+  "上村ひなの": {
+    "age": 21,
+    "birthDate": "2004-04-12",
+    "wikidataId": "Q95550235",
+    "wikipediaTitle": "上村ひなの",
+    "gender": "female"
+  },
   "上田綺世": {
     "age": 27,
     "birthDate": "1998-08-28",
     "wikidataId": "Q62085431",
     "wikipediaTitle": "上田綺世",
     "gender": "male"
+  },
+  "上白石萌音": {
+    "age": 28,
+    "birthDate": "1998-01-27",
+    "wikidataId": "Q11275008",
+    "wikipediaTitle": "上白石萌音",
+    "gender": "female"
   },
   "城彰二": {
     "age": 50,
@@ -1214,6 +1267,13 @@
     "wikipediaTitle": "植田直通",
     "gender": "male"
   },
+  "森田ひかる": {
+    "age": 24,
+    "birthDate": "2001-07-10",
+    "wikidataId": "Q98481704",
+    "wikipediaTitle": "森田ひかる",
+    "gender": "female"
+  },
   "森保一": {
     "age": 57,
     "birthDate": "1968-08-23",
@@ -1226,6 +1286,13 @@
     "birthDate": "1972-09-29",
     "wikidataId": "Q7813182",
     "wikipediaTitle": "真壁刀義",
+    "gender": "male"
+  },
+  "秦基博": {
+    "age": 45,
+    "birthDate": "1980-10-11",
+    "wikidataId": "Q1139725",
+    "wikipediaTitle": "秦基博",
     "gender": "male"
   },
   "水谷隼": {
@@ -1263,6 +1330,20 @@
     "wikipediaTitle": "西島秀俊",
     "gender": "male"
   },
+  "西野カナ": {
+    "age": 37,
+    "birthDate": "1989-03-18",
+    "wikidataId": "Q256924",
+    "wikipediaTitle": "西野カナ",
+    "gender": "female"
+  },
+  "西野七瀬": {
+    "age": 31,
+    "birthDate": "1994-05-25",
+    "wikidataId": "Q11629738",
+    "wikipediaTitle": "西野七瀬",
+    "gender": "female"
+  },
   "青山直晃": {
     "age": 39,
     "birthDate": "1986-07-18",
@@ -1290,6 +1371,13 @@
     "wikidataId": "Q15402012",
     "wikipediaTitle": "青木翔大",
     "gender": "male"
+  },
+  "石原さとみ": {
+    "age": 39,
+    "birthDate": "1986-12-24",
+    "wikidataId": "Q1197220",
+    "wikipediaTitle": "石原さとみ",
+    "gender": "female"
   },
   "石川佳純": {
     "age": 33,
@@ -1487,6 +1575,20 @@
     "wikipediaTitle": "村田諒太",
     "gender": "male"
   },
+  "多部未華子": {
+    "age": 37,
+    "birthDate": "1989-01-25",
+    "wikidataId": "Q1151171",
+    "wikipediaTitle": "多部未華子",
+    "gender": "female"
+  },
+  "大園玲": {
+    "age": 25,
+    "birthDate": "2000-04-18",
+    "wikidataId": "Q98483026",
+    "wikipediaTitle": "大園玲",
+    "gender": "female"
+  },
   "大谷映美里": {
     "age": 28,
     "birthDate": "1998-03-15",
@@ -1538,10 +1640,8 @@
   },
   "棚橋弘至": {
     "age": 49,
-    "birthDate": "1976-11-13",
-    "wikidataId": "Q1189750",
-    "wikipediaTitle": "棚橋弘至",
-    "gender": "male"
+    "gender": "male",
+    "category": "prowrestler"
   },
   "谷口彰悟": {
     "age": 34,
@@ -1563,6 +1663,13 @@
     "wikidataId": "Q1088427",
     "wikipediaTitle": "丹羽孝希",
     "gender": "male"
+  },
+  "丹生明里": {
+    "age": 25,
+    "birthDate": "2001-02-15",
+    "wikidataId": "Q95547987",
+    "wikipediaTitle": "丹生明里",
+    "gender": "female"
   },
   "中居正広": {
     "age": 53,
@@ -1604,6 +1711,13 @@
     "birthDate": "1982-09-27",
     "wikidataId": "Q11366701",
     "wikipediaTitle": "中田敦彦",
+    "gender": "male"
+  },
+  "中島健人": {
+    "age": 32,
+    "birthDate": "1994-03-13",
+    "wikidataId": "Q869156",
+    "wikipediaTitle": "中島健人",
     "gender": "male"
   },
   "中島美嘉": {
@@ -1756,6 +1870,13 @@
     "birthDate": "1994-09-01",
     "wikidataId": "Q422959",
     "wikipediaTitle": "桃田賢斗",
+    "gender": "male"
+  },
+  "藤井フミヤ": {
+    "age": 63,
+    "birthDate": "1962-07-11",
+    "wikidataId": "Q2407643",
+    "wikipediaTitle": "藤井フミヤ",
     "gender": "male"
   },
   "藤波辰爾": {
@@ -2226,15 +2347,5 @@
     "wikidataId": "Q847386",
     "wikipediaTitle": "槇原敬之",
     "gender": "male"
-  },
-  "棚橋弘至": {
-    "age": 49,
-    "gender": "male",
-    "category": "prowrestler"
-  },
-  "安室奈美恵": {
-    "age": 48,
-    "gender": "female",
-    "category": "artist"
   }
 }

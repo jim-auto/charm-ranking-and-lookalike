@@ -277,6 +277,31 @@ function sortObjectByKey(value) {
 
 async function main() {
   const celebrities = JSON.parse(await fs.readFile(DATA_PATH, 'utf8'));
+  const cliNames = new Set();
+
+  for (let i = 2; i < process.argv.length; i += 1) {
+    const arg = process.argv[i];
+    if (arg === '--names' && process.argv[i + 1]) {
+      process.argv[i + 1]
+        .split(',')
+        .map((value) => value.trim())
+        .filter(Boolean)
+        .forEach((value) => cliNames.add(value));
+      i += 1;
+      continue;
+    }
+
+    if (arg === '--names-file' && process.argv[i + 1]) {
+      const namesPath = path.resolve(process.cwd(), process.argv[i + 1]);
+      const content = await fs.readFile(namesPath, 'utf8');
+      content
+        .split(/\r?\n/)
+        .map((value) => value.trim())
+        .filter(Boolean)
+        .forEach((value) => cliNames.add(value));
+      i += 1;
+    }
+  }
 
   let cache = {};
   try {
@@ -292,12 +317,27 @@ async function main() {
     ...MANUAL_METADATA_OVERRIDES,
   };
 
-  const targets = celebrities.filter(
-    (celebrity) =>
-      celebrity.age == null &&
-      cache[celebrity.name]?.age == null &&
-      cache[celebrity.name]?.birthDate == null
-  );
+  const targets =
+    cliNames.size > 0
+      ? [...cliNames]
+          .filter(
+            (name) =>
+              cache[name]?.age == null &&
+              cache[name]?.birthDate == null
+          )
+          .map((name) => ({ name }))
+      : celebrities.filter(
+          (celebrity) =>
+            celebrity.age == null &&
+            cache[celebrity.name]?.age == null &&
+            cache[celebrity.name]?.birthDate == null
+        );
+
+  if (targets.length === 0) {
+    console.log('No metadata targets found.');
+    return;
+  }
+
   const resolved = new Map();
   const unresolved = [];
 

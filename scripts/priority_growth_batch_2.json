@@ -1,0 +1,62 @@
+[
+  {
+    "name": "中川大志",
+    "category": "actor",
+    "gender": "male",
+    "query": "Nakagawa Taishi actor"
+  },
+  {
+    "name": "三浦翔平",
+    "category": "actor",
+    "gender": "male",
+    "query": "Miura Shohei actor"
+  },
+  {
+    "name": "中島健人",
+    "category": "idol",
+    "gender": "male",
+    "query": "Nakajima Kento Sexy Zone idol"
+  },
+  {
+    "name": "上村ひなの",
+    "category": "idol",
+    "gender": "female",
+    "query": "Kamimura Hinano Hinatazaka46"
+  },
+  {
+    "name": "丹生明里",
+    "category": "idol",
+    "gender": "female",
+    "query": "Nibu Akari Hinatazaka46"
+  },
+  {
+    "name": "大園玲",
+    "category": "idol",
+    "gender": "female",
+    "query": "Ozono Rei Sakurazaka46 idol"
+  },
+  {
+    "name": "小坂菜緒",
+    "category": "idol",
+    "gender": "female",
+    "query": "Kosaka Nao Hinatazaka46"
+  },
+  {
+    "name": "家入レオ",
+    "category": "artist",
+    "gender": "female",
+    "query": "Leo Ieiri singer"
+  },
+  {
+    "name": "宮崎あおい",
+    "category": "actress",
+    "gender": "female",
+    "query": "Miyazaki Aoi actress"
+  },
+  {
+    "name": "多部未華子",
+    "category": "actress",
+    "gender": "female",
+    "query": "Tabe Mikako actress"
+  }
+]

@@ -30,6 +30,11 @@ from mediapipe.tasks.python import vision
 from face_validation import validate_human_face_landmarks
 from metric_distribution import apply_distribution_adjusted_scores
 
+try:
+    import face_recognition
+except ImportError:
+    face_recognition = None
+
 # ---------------------------------------------------------------------------
 # MediaPipe 478 -> dlib 68 landmark mapping
 # ---------------------------------------------------------------------------
@@ -461,6 +466,138 @@ def read_category(person_dir: Path) -> str:
     return "other"
 
 
+def regions_to_landmarks_68(regions: dict) -> List[Point] | None:
+    ordered: List[Point] = []
+    ordered.extend(regions.get("chin", []))
+    ordered.extend(regions.get("left_eyebrow", []))
+    ordered.extend(regions.get("right_eyebrow", []))
+    ordered.extend(regions.get("nose_bridge", []))
+    ordered.extend(regions.get("nose_tip", []))
+    ordered.extend(regions.get("left_eye", []))
+    ordered.extend(regions.get("right_eye", []))
+    ordered.extend(regions.get("top_lip", []))
+    ordered.extend(regions.get("bottom_lip", []))
+    if len(ordered) < 68:
+        return None
+    return [(float(point[0]), float(point[1])) for point in ordered[:68]]
+
+
+def detect_face_recognition_candidates(rgb: np.ndarray) -> List[dict]:
+    candidates: List[dict] = []
+    if face_recognition is None:
+        return candidates
+
+    locations = face_recognition.face_locations(rgb, model="hog")
+    if not locations:
+        return candidates
+
+    for loc in locations:
+        raw_landmarks = face_recognition.face_landmarks(rgb, [loc])
+        if not raw_landmarks:
+            continue
+
+        landmarks = regions_to_landmarks_68(raw_landmarks[0])
+        if landmarks is None:
+            continue
+
+        validation = validate_human_face_landmarks(landmarks, image_size=rgb.shape[:2])
+        if not validation.valid:
+            continue
+
+        encodings = face_recognition.face_encodings(rgb, [loc])
+        if not encodings:
+            continue
+
+        top, right, bottom, left = loc
+        candidates.append(
+            {
+                "bbox": (left, top, right - left, bottom - top),
+                "landmarks": landmarks,
+                "embedding": encodings[0].tolist(),
+                "area": max(0, right - left) * max(0, bottom - top),
+                "source": "face_recognition",
+            }
+        )
+
+    return candidates
+
+
+def inflate_existing_embeddings(output_dir: Path, celebrities: List[dict]) -> None:
+    if not celebrities:
+        return
+
+    embeddings_bin = output_dir / "embeddings.bin"
+    embeddings_index = output_dir / "embeddings_index.json"
+    if not embeddings_bin.is_file() or not embeddings_index.is_file():
+        return
+
+    with open(embeddings_index, "r", encoding="utf-8") as f:
+        index_by_id = json.load(f)
+
+    with open(embeddings_bin, "rb") as f:
+        header = f.read(8)
+        if len(header) != 8:
+            return
+        count, dim = struct.unpack("<II", header)
+        payload = f.read()
+
+    expected_size = count * dim * 4
+    if len(payload) != expected_size or dim <= 0:
+        return
+
+    values = struct.unpack(f"<{count * dim}f", payload)
+    for celebrity in celebrities:
+        existing_embedding = celebrity.get("embedding")
+        if (
+            isinstance(existing_embedding, list)
+            and len(existing_embedding) == dim
+            and any(value != 0 for value in existing_embedding)
+        ):
+            continue
+
+        entry = index_by_id.get(celebrity.get("id"))
+        if not isinstance(entry, dict):
+            continue
+
+        index = entry.get("index")
+        if not isinstance(index, int):
+            continue
+
+        start = index * dim
+        end = start + dim
+        if start < 0 or end > len(values):
+            continue
+
+        celebrity["embedding"] = list(values[start:end])
+
+
+def compute_face_embedding(rgb: np.ndarray, bbox: Tuple[int, int, int, int]) -> List[float]:
+    dim = 128
+    if face_recognition is None:
+        return [0.0] * dim
+
+    x, y, w, h = bbox
+    top = max(0, y)
+    left = max(0, x)
+    right = min(rgb.shape[1], x + w)
+    bottom = min(rgb.shape[0], y + h)
+    if right <= left or bottom <= top:
+        return [0.0] * dim
+
+    try:
+        encodings = face_recognition.face_encodings(
+            rgb,
+            known_face_locations=[(top, right, bottom, left)],
+        )
+    except Exception:
+        encodings = []
+
+    if not encodings:
+        return [0.0] * dim
+
+    return encodings[0].tolist()
+
+
 # ---------------------------------------------------------------------------
 # Main processing with MediaPipe
 # ---------------------------------------------------------------------------
@@ -512,7 +649,24 @@ def process_person_mp(
             continue
 
         if not result.face_landmarks:
-            print("SKIP (no face detected)")
+            fallback_candidates = detect_face_recognition_candidates(rgb)
+            if not fallback_candidates:
+                print("SKIP (no face detected)")
+                continue
+
+            for candidate in fallback_candidates:
+                if candidate["area"] > best_face_area:
+                    best_face_area = candidate["area"]
+                    best_result = {
+                        "bgr": bgr,
+                        "rgb": rgb,
+                        "bbox": candidate["bbox"],
+                        "landmarks": candidate["landmarks"],
+                        "embedding": candidate["embedding"],
+                        "source": candidate["source"],
+                    }
+
+            print("OK (face_recognition fallback)")
             continue
 
         h, w = rgb.shape[:2]
@@ -542,12 +696,32 @@ def process_person_mp(
                 best_face_area = area
                 best_result = {
                     "bgr": bgr,
+                    "rgb": rgb,
                     "bbox": (face_x, face_y, face_w, face_h),
                     "landmarks": landmarks_68,
+                    "embedding": None,
+                    "source": "mediapipe",
                 }
 
         if not image_has_valid_face:
-            print("SKIP (no human-like face geometry)")
+            fallback_candidates = detect_face_recognition_candidates(rgb)
+            if not fallback_candidates:
+                print("SKIP (no human-like face geometry)")
+                continue
+
+            for candidate in fallback_candidates:
+                if candidate["area"] > best_face_area:
+                    best_face_area = candidate["area"]
+                    best_result = {
+                        "bgr": bgr,
+                        "rgb": rgb,
+                        "bbox": candidate["bbox"],
+                        "landmarks": candidate["landmarks"],
+                        "embedding": candidate["embedding"],
+                        "source": candidate["source"],
+                    }
+
+            print("OK (face_recognition fallback)")
             continue
 
         print("OK (best so far)" if best_result and best_result["bgr"] is bgr else "OK")
@@ -558,6 +732,7 @@ def process_person_mp(
     person_id = name_to_id(name)
     details = calculate_face_score(best_result["landmarks"])
     score = total_score(details)
+    embedding = best_result.get("embedding") or compute_face_embedding(best_result["rgb"], best_result["bbox"])
 
     # Generate thumbnail
     thumb = generate_thumbnail(best_result["bgr"], best_result["bbox"], thumb_size)
@@ -569,10 +744,11 @@ def process_person_mp(
         "name": name,
         "score": score,
         "details": details,
+        "embedding": embedding,
         "thumbnail": f"data/thumbnails/{person_id}.jpg",
         "faceValidationStatus": "accepted",
         "faceValidationReason": "ok",
-        "faceValidationSource": "mediapipe",
+        "faceValidationSource": best_result.get("source", "mediapipe"),
     }
 
 
@@ -635,6 +811,7 @@ def main() -> None:
     if celebrities_json.is_file():
         with open(celebrities_json, "r", encoding="utf-8") as f:
             existing = json.load(f)
+        inflate_existing_embeddings(output_dir, existing)
         existing_names = {c["name"] for c in existing}
         print(f"Loaded {len(existing)} existing celebrities")
 
@@ -712,8 +889,6 @@ def main() -> None:
             continue
 
         result["category"] = category
-        # Placeholder embedding (zeros) - lookalike matching won't work for new entries
-        result["embedding"] = [0.0] * 128
         new_celebrities.append(result)
 
     landmarker.close()
@@ -747,6 +922,22 @@ def main() -> None:
                 emb = [0.0] * dim
             f.write(struct.pack(f"<{dim}f", *emb))
     print(f"Binary embeddings written: {embeddings_bin}")
+
+    embeddings_index = output_dir / "embeddings_index.json"
+    with open(embeddings_index, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                cel["id"]: {
+                    "index": i,
+                    "name": cel["name"],
+                }
+                for i, cel in enumerate(all_celebrities)
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+    print(f"Embedding index written: {embeddings_index}")
 
     print(f"\nAll done.")
 

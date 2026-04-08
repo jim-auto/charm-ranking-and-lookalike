@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Taka(ONE OK ROCK)",
+    "category": "artist",
+    "gender": "male",
+    "query": "Taka ONE OK ROCK singer"
+  },
+  {
+    "name": "上白石萌音",
+    "category": "actress",
+    "gender": "female",
+    "query": "Kamishiraishi Mone actress"
+  },
+  {
+    "name": "吉沢亮",
+    "category": "actor",
+    "gender": "male",
+    "query": "Yoshizawa Ryo actor"
+  },
+  {
+    "name": "森田ひかる",
+    "category": "idol",
+    "gender": "female",
+    "query": "Morita Hikaru Sakurazaka46"
+  },
+  {
+    "name": "石原さとみ",
+    "category": "actress",
+    "gender": "female",
+    "query": "Ishihara Satomi face portrait"
+  },
+  {
+    "name": "西野カナ",
+    "category": "artist",
+    "gender": "female",
+    "query": "Nishino Kana singer"
+  },
+  {
+    "name": "西野七瀬",
+    "category": "actress",
+    "gender": "female",
+    "query": "Nishino Nanase face portrait actress"
+  },
+  {
+    "name": "秦基博",
+    "category": "artist",
+    "gender": "male",
+    "query": "Motohiro Hata musician singer"
+  },
+  {
+    "name": "藤井フミヤ",
+    "category": "artist",
+    "gender": "male",
+    "query": "Fumiya Fujii singer"
+  }
+]
