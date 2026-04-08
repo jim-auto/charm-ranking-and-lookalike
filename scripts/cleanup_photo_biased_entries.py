@@ -13,10 +13,11 @@ from __future__ import annotations
 import argparse
 import json
 import shutil
-import statistics
 import sys
 from collections import defaultdict
 from pathlib import Path
+
+from ranking_policy import build_ranking_policy, deviation
 
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -48,20 +49,8 @@ MANUAL_NAMES = (
     "爆笑問題田中裕二",
     "長谷川穂積",
 )
-UNWANTED_TOP_CATEGORIES = {"comedian", "athlete", "sumo", "cultural"}
-LOW_DEVIATION_CATEGORIES = {"actor", "actress", "idol"}
-TOP_LIMIT = 50
-LOW_DEVIATION_THRESHOLD = 40.0
-
-
 def load_celebrities(path: Path) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def deviation(score: float, mean: float, stdev: float) -> float:
-    if stdev == 0:
-        return 50.0
-    return 50 + 10 * (score - mean) / stdev
 
 
 def describe_entry(entry: dict, mean: float, stdev: float) -> str:
@@ -73,11 +62,10 @@ def describe_entry(entry: dict, mean: float, stdev: float) -> str:
 
 
 def collect_candidates(celebrities: list[dict]) -> dict[str, list[str]]:
-    scores = [entry["score"] for entry in celebrities]
-    mean = statistics.mean(scores)
-    stdev = statistics.stdev(scores) if len(scores) > 1 else 0.0
+    policy_by_name, stats = build_ranking_policy(celebrities)
+    mean = stats["mean"]
+    stdev = stats["stdev"]
     by_name = {entry["name"]: entry for entry in celebrities}
-    sorted_by_score = sorted(celebrities, key=lambda entry: entry["score"], reverse=True)
 
     reasons: dict[str, list[str]] = defaultdict(list)
 
@@ -88,36 +76,12 @@ def collect_candidates(celebrities: list[dict]) -> dict[str, list[str]]:
             continue
         reasons[name].append(f"manual target ({describe_entry(entry, mean, stdev)})")
 
-    for entry in sorted_by_score[:TOP_LIMIT]:
-        category = entry.get("category")
-        if category not in UNWANTED_TOP_CATEGORIES:
+    for entry in celebrities:
+        policy = policy_by_name[entry["name"]]
+        if policy["rankingEligible"]:
             continue
-        reasons[entry["name"]].append(
-            f"top{TOP_LIMIT} unwanted category ({describe_entry(entry, mean, stdev)})"
-        )
-
-    survivors = 0
-    for entry in sorted_by_score:
-        category = entry.get("category")
-        if category in UNWANTED_TOP_CATEGORIES:
-            reasons[entry["name"]].append(
-                f"blocks clean top{TOP_LIMIT} after re-ranking ({describe_entry(entry, mean, stdev)})"
-            )
-            continue
-        survivors += 1
-        if survivors >= TOP_LIMIT:
-            break
-
-    for entry in sorted_by_score:
-        category = entry.get("category")
-        if category not in LOW_DEVIATION_CATEGORIES:
-            continue
-        dev = deviation(entry["score"], mean, stdev)
-        if dev > LOW_DEVIATION_THRESHOLD:
-            continue
-        reasons[entry["name"]].append(
-            f"low deviation <= {LOW_DEVIATION_THRESHOLD:.1f} ({describe_entry(entry, mean, stdev)})"
-        )
+        for reason in policy["rankingExclusionReasons"]:
+            reasons[entry["name"]].append(f"{reason} ({describe_entry(entry, mean, stdev)})")
 
     return dict(sorted(reasons.items(), key=lambda item: item[0]))
 

@@ -1,9 +1,11 @@
 export interface ScoreDetails {
+  symmetry?: number;
   golden_ratio: number;
   eyes: number;
   nose: number;
   mouth: number;
   contour: number;
+  skin?: number;
 }
 
 export interface SnsFollowers {
@@ -23,16 +25,20 @@ export interface ScoreSet {
 export interface Celebrity {
   id: string;
   name: string;
-  category: 'actor' | 'actress' | 'idol' | 'influencer' | 'artist';
-  gender: 'male' | 'female';
+  category: string;
+  gender?: 'male' | 'female' | 'unknown';
   score: number;
-  scoreWithAge: number;
-  scoreCharm: number;
+  scoreWithAge?: number;
+  scoreCharm?: number;
   scores: ScoreSet;
-  age: number;
-  sns: SnsFollowers;
-  totalFollowers: number;
+  age?: number;
+  sns?: SnsFollowers;
+  totalFollowers?: number;
   details: ScoreDetails;
   group?: string;
   thumbnail: string;
+  birthDate?: string;
+  rank?: number;
+  rankingEligible?: boolean;
+  rankingExclusionReasons?: string[];
 }

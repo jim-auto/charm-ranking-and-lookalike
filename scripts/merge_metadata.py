@@ -4,8 +4,12 @@ Also reads category.txt from input_images for new entries."""
 
 import json
 import math
+import statistics
 import sys
+from datetime import date, datetime
 from pathlib import Path
+
+from ranking_policy import build_ranking_policy, deviation
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -13,6 +17,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 INPUT_DIR = SCRIPT_DIR / "input_images"
 DATA_DIR = SCRIPT_DIR.parent / "web" / "public" / "data"
 META_FILE = SCRIPT_DIR / "meta_backup.json"
+WIKIDATA_META_FILE = SCRIPT_DIR / "meta_wikidata.json"
 
 VALID_GENDERS = {"male", "female", "unknown"}
 FEMALE_CATEGORIES = {"actress", "idol"}
@@ -108,6 +113,25 @@ def read_text_if_exists(path: Path) -> str | None:
     return value or None
 
 
+def load_json_if_exists(path: Path) -> dict:
+    if not path.is_file():
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def calculate_age_from_birth_date(value: str | None) -> int | None:
+    if not value:
+        return None
+    try:
+        birth = datetime.strptime(value, "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+    today = date.today()
+    return today.year - birth.year - ((today.month, today.day) < (birth.month, birth.day))
+
+
 def normalize_gender(value: str | None) -> str | None:
     if not value:
         return None
@@ -164,9 +188,9 @@ def infer_gender(name: str, category: str, existing_gender: str | None) -> str:
 with open(DATA_DIR / "celebrities.json", "r", encoding="utf-8") as f:
     celebrities = json.load(f)
 
-# Load metadata backup
-with open(META_FILE, "r", encoding="utf-8") as f:
-    meta = json.load(f)
+# Load metadata sources
+meta_backup = load_json_if_exists(META_FILE)
+meta_wikidata = load_json_if_exists(WIKIDATA_META_FILE)
 
 updated = 0
 for cel in celebrities:
@@ -175,17 +199,29 @@ for cel in celebrities:
     gender_from_file = normalize_gender(read_text_if_exists(INPUT_DIR / name / "gender.txt"))
 
     # Apply saved metadata
-    if name in meta:
-        m = meta[name]
+    merged_meta = {}
+    if name in meta_wikidata:
+        merged_meta.update(meta_wikidata[name])
+    if name in meta_backup:
+        merged_meta.update(meta_backup[name])
+
+    if merged_meta:
+        m = merged_meta
         for key in ("category", "age", "gender", "sns", "totalFollowers", "group"):
             if key in m and (key not in cel or (key == "category" and cel.get("category") == "actor")):
                 cel[key] = m[key]
+        if "birthDate" in m and "birthDate" not in cel:
+            cel["birthDate"] = m["birthDate"]
         updated += 1
 
     if category_from_file:
         cel["category"] = category_from_file
     if gender_from_file:
         cel["gender"] = gender_from_file
+
+    computed_age = calculate_age_from_birth_date(cel.get("birthDate"))
+    if computed_age is not None:
+        cel["age"] = computed_age
 
     cel["gender"] = infer_gender(
         name=name,
@@ -214,6 +250,17 @@ for cel in celebrities:
         cel["scores"]["faceSns"] = score
         cel["scores"]["faceAgeSns"] = cel["scores"]["faceAge"]
 
+policy_by_name, stats = build_ranking_policy(celebrities)
+excluded_count = 0
+for cel in celebrities:
+    policy = policy_by_name[cel["name"]]
+    cel["rankingEligible"] = policy["rankingEligible"]
+    if policy["rankingExclusionReasons"]:
+        cel["rankingExclusionReasons"] = policy["rankingExclusionReasons"]
+        excluded_count += 1
+    else:
+        cel.pop("rankingExclusionReasons", None)
+
 # Re-rank
 celebrities.sort(key=lambda c: c["score"], reverse=True)
 for rank, cel in enumerate(celebrities, start=1):
@@ -225,12 +272,12 @@ with open(DATA_DIR / "celebrities.json", "w", encoding="utf-8") as f:
 
 print(f"Updated {updated} entries with existing metadata")
 print(f"Total: {len(celebrities)} celebrities")
+print(f"Recommended ranking exclusions: {excluded_count}")
 
 # Print distribution
-import statistics
 scores = [c["score"] for c in celebrities]
-mean = statistics.mean(scores)
-stdev = statistics.stdev(scores)
+mean = stats["mean"] if scores else 0.0
+stdev = stats["stdev"] if scores else 0.0
 print(f"\nMean: {mean:.1f}, StdDev: {stdev:.1f}")
 
 print("\n=== Top 15 ===")

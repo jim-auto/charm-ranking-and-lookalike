@@ -22,6 +22,8 @@ import mediapipe as mp
 from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision
 
+from ranking_policy import build_ranking_policy, deviation
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -281,6 +283,8 @@ def main():
         # Preserve rich metadata if available
         if "age" in old:
             entry["age"] = old["age"]
+        if "birthDate" in old:
+            entry["birthDate"] = old["birthDate"]
         if "sns" in old:
             entry["sns"] = old["sns"]
             entry["totalFollowers"] = old.get("totalFollowers", 0)
@@ -315,6 +319,17 @@ def main():
 
     landmarker.close()
 
+    policy_by_name, stats = build_ranking_policy(results)
+    excluded_count = 0
+    for entry in results:
+        policy = policy_by_name[entry["name"]]
+        entry["rankingEligible"] = policy["rankingEligible"]
+        if policy["rankingExclusionReasons"]:
+            entry["rankingExclusionReasons"] = policy["rankingExclusionReasons"]
+            excluded_count += 1
+        else:
+            entry.pop("rankingExclusionReasons", None)
+
     # Sort and rank
     results.sort(key=lambda c: c["score"], reverse=True)
     for rank, cel in enumerate(results, start=1):
@@ -325,6 +340,7 @@ def main():
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f"\nSaved {len(results)} celebrities to {celebrities_json}")
     print(f"Failed: {len(failed)}")
+    print(f"Recommended ranking exclusions: {excluded_count}")
 
     # Binary embeddings
     embeddings_bin = OUTPUT_DIR / "embeddings.bin"
@@ -337,10 +353,9 @@ def main():
     print(f"Binary embeddings: {embeddings_bin}")
 
     # Stats
-    import statistics
     scores = [c["score"] for c in results]
-    mean = statistics.mean(scores)
-    stdev = statistics.stdev(scores)
+    mean = stats["mean"] if scores else 0.0
+    stdev = stats["stdev"] if scores else 0.0
     print(f"\nStats: n={len(results)}, mean={mean:.1f}, stdev={stdev:.1f}")
     print(f"Top 5:")
     for c in results[:5]:

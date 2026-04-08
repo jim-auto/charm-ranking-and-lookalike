@@ -10,14 +10,42 @@ const genderFilters = [
   { value: 'female', label: '女性' },
 ];
 
-const categories = [
-  { value: '', label: 'すべて' },
-  { value: 'actor', label: '俳優' },
-  { value: 'actress', label: '女優' },
-  { value: 'idol', label: 'アイドル' },
-  { value: 'influencer', label: 'インフルエンサー' },
-  { value: 'artist', label: 'アーティスト' },
+const rankingScopes = [
+  { value: 'recommended', label: 'おすすめ表示' },
+  { value: 'all', label: '全カテゴリ' },
+] as const;
+
+const categoryLabels: Record<string, string> = {
+  actor: '俳優',
+  actress: '女優',
+  idol: 'アイドル',
+  influencer: 'インフルエンサー',
+  artist: 'アーティスト',
+  athlete: 'アスリート',
+  comedian: '芸人',
+  sumo: '力士',
+  cultural: '文化人',
+  musician: 'ミュージシャン',
+  prowrestler: 'プロレスラー',
+  youtuber: 'YouTuber',
+};
+
+const categoryOrder = [
+  'actor',
+  'actress',
+  'idol',
+  'influencer',
+  'artist',
+  'athlete',
+  'comedian',
+  'sumo',
+  'cultural',
+  'musician',
+  'prowrestler',
+  'youtuber',
 ];
+
+type RankingScope = (typeof rankingScopes)[number]['value'];
 
 function getScore(c: Celebrity, age: boolean, sns: boolean): number {
   if (!c.scores) return c.score ?? 0;
@@ -33,8 +61,18 @@ function formatFollowers(n: number): string {
   return String(n);
 }
 
+function sortCategoryValues(a: string, b: string): number {
+  const ai = categoryOrder.indexOf(a);
+  const bi = categoryOrder.indexOf(b);
+  if (ai === -1 && bi === -1) return a.localeCompare(b, 'ja');
+  if (ai === -1) return 1;
+  if (bi === -1) return -1;
+  return ai - bi;
+}
+
 export default function RankingPage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
+  const [rankingScope, setRankingScope] = useState<RankingScope>('recommended');
   const [genderFilter, setGenderFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
   const [useAge, setUseAge] = useState(false);
@@ -52,6 +90,10 @@ export default function RankingPage() {
       .finally(() => setLoading(false));
   }, []);
 
+  useEffect(() => {
+    setPage(1);
+  }, [rankingScope, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+
   const toDeviation = useMemo(() => {
     if (celebrities.length === 0) return (_score: number, _age: boolean, _sns: boolean) => 0;
     const convFace = createDeviationConverter(celebrities, 'face');
@@ -66,8 +108,29 @@ export default function RankingPage() {
     };
   }, [celebrities]);
 
+  const categoryFilters = useMemo(() => {
+    const values = Array.from(
+      new Set(celebrities.map((c) => c.category).filter(Boolean))
+    ).sort(sortCategoryValues);
+    return [
+      { value: '', label: 'すべて' },
+      ...values.map((value) => ({
+        value,
+        label: categoryLabels[value] ?? value,
+      })),
+    ];
+  }, [celebrities]);
+
+  const excludedCount = useMemo(
+    () => celebrities.filter((c) => c.rankingEligible === false).length,
+    [celebrities]
+  );
+
   const sorted = useMemo(() => {
     let list = [...celebrities];
+    if (rankingScope === 'recommended') {
+      list = list.filter((c) => c.rankingEligible !== false);
+    }
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
     if (searchQuery) {
@@ -78,10 +141,8 @@ export default function RankingPage() {
       );
     }
     list.sort((a, b) => getScore(b, useAge, useSns) - getScore(a, useAge, useSns));
-    setPage(1);
     return list;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [celebrities, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+  }, [celebrities, rankingScope, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
 
   const totalPages = Math.ceil(sorted.length / perPage);
   const paged = sorted.slice((page - 1) * perPage, page * perPage);
@@ -98,6 +159,29 @@ export default function RankingPage() {
           className="w-full px-4 py-2 rounded-lg bg-slate-800 text-white placeholder-slate-500 border border-slate-700 focus:border-indigo-500 focus:outline-none text-sm"
         />
       </div>
+
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="text-sm text-slate-400 mr-1">表示:</span>
+        {rankingScopes.map((scope) => (
+          <button
+            key={scope.value}
+            onClick={() => setRankingScope(scope.value)}
+            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+              rankingScope === scope.value
+                ? 'bg-indigo-600 text-white'
+                : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+            }`}
+          >
+            {scope.label}
+          </button>
+        ))}
+      </div>
+
+      {rankingScope === 'recommended' && excludedCount > 0 && (
+        <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
+          写真バイアスが出やすい {excludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
+        </div>
+      )}
 
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <span className="text-sm text-slate-400 mr-1">性別:</span>
@@ -118,7 +202,7 @@ export default function RankingPage() {
 
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <span className="text-sm text-slate-400 mr-1">ジャンル:</span>
-        {categories.map((cat) => (
+        {categoryFilters.map((cat) => (
           <button
             key={cat.value}
             onClick={() => setCategoryFilter(cat.value)}
@@ -195,7 +279,7 @@ export default function RankingPage() {
           {totalPages > 1 && (
             <div className="flex justify-center items-center gap-2 mt-6">
               <button
-                onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo(0, 0); }}
+                onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo(0, 0); }}
                 disabled={page === 1}
                 className="px-3 py-1.5 rounded text-sm bg-slate-800 text-slate-300 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed"
               >
@@ -215,7 +299,7 @@ export default function RankingPage() {
                 </button>
               ))}
               <button
-                onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo(0, 0); }}
+                onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo(0, 0); }}
                 disabled={page === totalPages}
                 className="px-3 py-1.5 rounded text-sm bg-slate-800 text-slate-300 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed"
               >

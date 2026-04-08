@@ -16,6 +16,13 @@ const categoryLabel: Record<string, string> = {
   idol: 'アイドル',
   influencer: 'インフルエンサー',
   artist: 'アーティスト',
+  athlete: 'アスリート',
+  comedian: '芸人',
+  sumo: '力士',
+  cultural: '文化人',
+  musician: 'ミュージシャン',
+  prowrestler: 'プロレスラー',
+  youtuber: 'YouTuber',
 };
 
 function medalColor(rank: number): string {
@@ -66,10 +73,12 @@ export default function CelebrityCard({
             <span className="text-xs px-1.5 py-0.5 rounded-full bg-indigo-900 text-indigo-300">
               {celebrity.group ?? (categoryLabel[celebrity.category] ?? celebrity.category)}
             </span>
-            <span className="text-xs text-slate-500">{celebrity.age}歳</span>
-            {useSns && celebrity.totalFollowers > 0 && formatFollowers && (
+            <span className="text-xs text-slate-500">
+              {celebrity.age != null ? `${celebrity.age}歳` : '年齢不明'}
+            </span>
+            {useSns && (celebrity.totalFollowers ?? 0) > 0 && formatFollowers && (
               <span className="text-xs text-emerald-400">
-                SNS {formatFollowers(celebrity.totalFollowers)}
+                SNS {formatFollowers(celebrity.totalFollowers!)}
               </span>
             )}
           </div>
