@@ -16,7 +16,7 @@ const rankingScopes = [
 ] as const;
 
 const categoryLabels: Record<string, string> = {
-  actor: '俳優',
+  actor: '男優',
   actress: '女優',
   idol: 'アイドル',
   influencer: 'インフルエンサー',
@@ -47,6 +47,14 @@ const categoryOrder = [
 
 type RankingScope = (typeof rankingScopes)[number]['value'];
 
+function median(values: number[]): number | null {
+  if (values.length === 0) return null;
+  const ordered = [...values].sort((a, b) => a - b);
+  const middle = Math.floor(ordered.length / 2);
+  if (ordered.length % 2 === 1) return ordered[middle];
+  return (ordered[middle - 1] + ordered[middle]) / 2;
+}
+
 function getScore(c: Celebrity, age: boolean, sns: boolean): number {
   if (!c.scores) return c.score ?? 0;
   if (age && sns) return c.scores.faceAgeSns;
@@ -56,9 +64,14 @@ function getScore(c: Celebrity, age: boolean, sns: boolean): number {
 }
 
 function formatFollowers(n: number): string {
-  if (n >= 10000000) return (n / 10000000).toFixed(1) + '千万';
-  if (n >= 10000) return Math.round(n / 10000) + '万';
+  if (n >= 10_000_000) return `${(n / 10_000_000).toFixed(1)}千万`;
+  if (n >= 10_000) return `${Math.round(n / 10_000)}万`;
   return String(n);
+}
+
+function formatAgeStat(value: number | null): string {
+  if (value == null || Number.isNaN(value)) return '-';
+  return `${value.toFixed(1)}歳`;
 }
 
 function sortCategoryValues(a: string, b: string): number {
@@ -109,9 +122,7 @@ export default function RankingPage() {
   }, [celebrities]);
 
   const categoryFilters = useMemo(() => {
-    const values = Array.from(
-      new Set(celebrities.map((c) => c.category).filter(Boolean))
-    ).sort(sortCategoryValues);
+    const values = Array.from(new Set(celebrities.map((c) => c.category).filter(Boolean))).sort(sortCategoryValues);
     return [
       { value: '', label: 'すべて' },
       ...values.map((value) => ({
@@ -144,6 +155,21 @@ export default function RankingPage() {
     return list;
   }, [celebrities, rankingScope, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
 
+  const summary = useMemo(() => {
+    const ages = sorted
+      .map((c) => c.age)
+      .filter((age): age is number => typeof age === 'number');
+    const averageAge =
+      ages.length > 0 ? ages.reduce((sum, age) => sum + age, 0) / ages.length : null;
+
+    return {
+      total: sorted.length,
+      ageCount: ages.length,
+      averageAge,
+      medianAge: median(ages),
+    };
+  }, [sorted]);
+
   const totalPages = Math.ceil(sorted.length / perPage);
   const paged = sorted.slice((page - 1) * perPage, page * perPage);
   const rankOffset = (page - 1) * perPage;
@@ -156,17 +182,17 @@ export default function RankingPage() {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="名前・グループで検索..."
-          className="w-full px-4 py-2 rounded-lg bg-slate-800 text-white placeholder-slate-500 border border-slate-700 focus:border-indigo-500 focus:outline-none text-sm"
+          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none"
         />
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 mb-3">
-        <span className="text-sm text-slate-400 mr-1">表示:</span>
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <span className="mr-1 text-sm text-slate-400">表示:</span>
         {rankingScopes.map((scope) => (
           <button
             key={scope.value}
             onClick={() => setRankingScope(scope.value)}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+            className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
               rankingScope === scope.value
                 ? 'bg-indigo-600 text-white'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
@@ -179,17 +205,17 @@ export default function RankingPage() {
 
       {rankingScope === 'recommended' && excludedCount > 0 && (
         <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
-          写真バイアスが出やすい {excludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
+          写真バイアスやカテゴリ調整のため {excludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
         </div>
       )}
 
-      <div className="flex flex-wrap items-center gap-2 mb-3">
-        <span className="text-sm text-slate-400 mr-1">性別:</span>
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <span className="mr-1 text-sm text-slate-400">性別:</span>
         {genderFilters.map((g) => (
           <button
             key={g.value}
             onClick={() => setGenderFilter(g.value)}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+            className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
               genderFilter === g.value
                 ? 'bg-indigo-600 text-white'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
@@ -200,13 +226,13 @@ export default function RankingPage() {
         ))}
       </div>
 
-      <div className="flex flex-wrap items-center gap-2 mb-3">
-        <span className="text-sm text-slate-400 mr-1">ジャンル:</span>
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <span className="mr-1 text-sm text-slate-400">ジャンル:</span>
         {categoryFilters.map((cat) => (
           <button
             key={cat.value}
             onClick={() => setCategoryFilter(cat.value)}
-            className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+            className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
               categoryFilter === cat.value
                 ? 'bg-indigo-600 text-white'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
@@ -217,33 +243,33 @@ export default function RankingPage() {
         ))}
       </div>
 
-      <div className="flex flex-wrap items-center gap-3 mb-6 p-3 bg-slate-800/50 rounded-lg">
+      <div className="mb-6 flex flex-wrap items-center gap-3 rounded-lg bg-slate-800/50 p-3">
         <span className="text-sm text-slate-400">補正:</span>
 
         <button
           onClick={() => setUseAge(!useAge)}
-          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${
+          className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
             useAge
               ? 'bg-amber-600 text-white'
               : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
           }`}
         >
-          <span className={`inline-block w-3 h-3 rounded-sm border ${useAge ? 'bg-white border-white' : 'border-slate-500'}`}>
-            {useAge && <span className="block text-amber-600 text-xs leading-3 text-center font-bold">✓</span>}
+          <span className={`inline-block h-3 w-3 rounded-sm border ${useAge ? 'border-white bg-white' : 'border-slate-500'}`}>
+            {useAge && <span className="block text-center text-xs font-bold leading-3 text-amber-600">✓</span>}
           </span>
           年齢
         </button>
 
         <button
           onClick={() => setUseSns(!useSns)}
-          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${
+          className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
             useSns
               ? 'bg-emerald-600 text-white'
               : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
           }`}
         >
-          <span className={`inline-block w-3 h-3 rounded-sm border ${useSns ? 'bg-white border-white' : 'border-slate-500'}`}>
-            {useSns && <span className="block text-emerald-600 text-xs leading-3 text-center font-bold">✓</span>}
+          <span className={`inline-block h-3 w-3 rounded-sm border ${useSns ? 'border-white bg-white' : 'border-slate-500'}`}>
+            {useSns && <span className="block text-center text-xs font-bold leading-3 text-emerald-600">✓</span>}
           </span>
           SNS影響力
         </button>
@@ -256,10 +282,37 @@ export default function RankingPage() {
         </span>
       </div>
 
+      <div className="mb-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
+        <div className="rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-3">
+          <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">Data</div>
+          <div className="mt-1 text-xl font-semibold text-white sm:text-2xl">{summary.total}</div>
+          <div className="text-xs text-slate-500">表示データ数</div>
+        </div>
+        <div className="rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-3">
+          <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">Age</div>
+          <div className="mt-1 text-xl font-semibold text-white sm:text-2xl">{summary.ageCount}</div>
+          <div className="text-xs text-slate-500">年齢データあり</div>
+        </div>
+        <div className="rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-3">
+          <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">Average</div>
+          <div className="mt-1 text-xl font-semibold text-white sm:text-2xl">
+            {formatAgeStat(summary.averageAge)}
+          </div>
+          <div className="text-xs text-slate-500">平均年齢</div>
+        </div>
+        <div className="rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-3">
+          <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">Median</div>
+          <div className="mt-1 text-xl font-semibold text-white sm:text-2xl">
+            {formatAgeStat(summary.medianAge)}
+          </div>
+          <div className="text-xs text-slate-500">中央値</div>
+        </div>
+      </div>
+
       {loading ? (
-        <div className="text-center py-12 text-slate-400">読み込み中...</div>
+        <div className="py-12 text-center text-slate-400">読み込み中...</div>
       ) : sorted.length === 0 ? (
-        <div className="text-center py-12 text-slate-400">データがありません</div>
+        <div className="py-12 text-center text-slate-400">データがありません</div>
       ) : (
         <>
           <div className="space-y-2.5 sm:space-y-3">
@@ -277,19 +330,25 @@ export default function RankingPage() {
           </div>
 
           {totalPages > 1 && (
-            <div className="flex justify-center items-center gap-2 mt-6">
+            <div className="mt-6 flex items-center justify-center gap-2">
               <button
-                onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo(0, 0); }}
+                onClick={() => {
+                  setPage((p) => Math.max(1, p - 1));
+                  window.scrollTo(0, 0);
+                }}
                 disabled={page === 1}
-                className="px-3 py-1.5 rounded text-sm bg-slate-800 text-slate-300 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed"
+                className="rounded bg-slate-800 px-3 py-1.5 text-sm text-slate-300 hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-30"
               >
                 {'<'}
               </button>
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
                 <button
                   key={p}
-                  onClick={() => { setPage(p); window.scrollTo(0, 0); }}
-                  className={`w-9 h-9 rounded text-sm font-medium transition-colors ${
+                  onClick={() => {
+                    setPage(p);
+                    window.scrollTo(0, 0);
+                  }}
+                  className={`h-9 w-9 rounded text-sm font-medium transition-colors ${
                     page === p
                       ? 'bg-indigo-600 text-white'
                       : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
@@ -299,9 +358,12 @@ export default function RankingPage() {
                 </button>
               ))}
               <button
-                onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo(0, 0); }}
+                onClick={() => {
+                  setPage((p) => Math.min(totalPages, p + 1));
+                  window.scrollTo(0, 0);
+                }}
                 disabled={page === totalPages}
-                className="px-3 py-1.5 rounded text-sm bg-slate-800 text-slate-300 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed"
+                className="rounded bg-slate-800 px-3 py-1.5 text-sm text-slate-300 hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-30"
               >
                 {'>'}
               </button>
