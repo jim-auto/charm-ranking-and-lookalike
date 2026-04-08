@@ -262,7 +262,7 @@ export default function RankingPage() {
         <div className="text-center py-12 text-slate-400">データがありません</div>
       ) : (
         <>
-          <div className="space-y-3">
+          <div className="space-y-2.5 sm:space-y-3">
             {paged.map((celeb, i) => (
               <CelebrityCard
                 key={celeb.id}

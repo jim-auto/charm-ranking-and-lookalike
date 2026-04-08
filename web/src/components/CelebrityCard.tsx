@@ -11,7 +11,7 @@ interface Props {
 }
 
 const categoryLabel: Record<string, string> = {
-  actor: '俳優',
+  actor: '男優',
   actress: '女優',
   idol: 'アイドル',
   influencer: 'インフルエンサー',
@@ -54,50 +54,56 @@ export default function CelebrityCard({
   const hasModifier = useAge || useSns;
 
   return (
-    <div className="bg-slate-800 rounded-xl p-3 sm:p-4">
-      <div className="flex items-center gap-3">
-        <div className={`text-xl sm:text-2xl font-bold w-8 sm:w-10 text-center shrink-0 ${medalColor(rank)}`}>
+    <div className="rounded-xl bg-slate-800 px-3 py-2.5 sm:px-3.5 sm:py-3">
+      <div className="flex items-center gap-2.5 sm:gap-3">
+        <div className={`w-7 shrink-0 text-center text-lg font-bold sm:w-8 sm:text-xl ${medalColor(rank)}`}>
           {rank}
         </div>
 
         <img
           src={celebrity.thumbnail}
           alt={celebrity.name}
-          className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover bg-slate-700 shrink-0"
+          className="h-11 w-11 shrink-0 rounded-full bg-slate-700 object-cover sm:h-14 sm:w-14"
           loading="lazy"
         />
 
-        <div className="flex-1 min-w-0">
-          <h3 className="font-semibold text-base sm:text-lg leading-tight">{celebrity.name}</h3>
-          <div className="flex items-center gap-2 mt-0.5 flex-wrap">
-            <span className="text-xs px-1.5 py-0.5 rounded-full bg-indigo-900 text-indigo-300">
-              {celebrity.group ?? (categoryLabel[celebrity.category] ?? celebrity.category)}
-            </span>
-            <span className="text-xs text-slate-500">
-              {celebrity.age != null ? `${celebrity.age}歳` : '年齢不明'}
-            </span>
-            {useSns && (celebrity.totalFollowers ?? 0) > 0 && formatFollowers && (
-              <span className="text-xs text-emerald-400">
-                SNS {formatFollowers(celebrity.totalFollowers!)}
-              </span>
-            )}
-          </div>
-        </div>
-
-        <div className="text-right shrink-0">
-          <div className="text-indigo-400 text-2xl sm:text-3xl font-bold">
-            {displayScore}
-          </div>
-          {hasModifier && (
-            <div className="text-xs text-slate-500">
-              顔 {rawFaceDeviation}
+        <div className="min-w-0 flex-1">
+          <div className="flex items-start justify-between gap-2 sm:gap-3">
+            <div className="min-w-0 flex-1">
+              <h3 className="truncate text-[15px] font-semibold leading-tight sm:text-base">
+                {celebrity.name}
+              </h3>
+              <div className="mt-1 flex flex-wrap items-center gap-x-1.5 gap-y-1">
+                <span className="rounded-full bg-indigo-900 px-1.5 py-0.5 text-[10px] text-indigo-300 sm:text-[11px]">
+                  {celebrity.group ?? (categoryLabel[celebrity.category] ?? celebrity.category)}
+                </span>
+                <span className="text-[11px] text-slate-500 sm:text-xs">
+                  {celebrity.age != null ? `${celebrity.age}歳` : '年齢不明'}
+                </span>
+                {useSns && (celebrity.totalFollowers ?? 0) > 0 && formatFollowers && (
+                  <span className="text-[11px] text-emerald-400 sm:text-xs">
+                    SNS {formatFollowers(celebrity.totalFollowers!)}
+                  </span>
+                )}
+              </div>
             </div>
-          )}
-        </div>
-      </div>
 
-      <div className="flex justify-center mt-3">
-        <ScoreRadar details={celebrity.details} size="sm" />
+            <div className="shrink-0 text-right">
+              <div className="text-xl font-bold leading-none text-indigo-400 sm:text-2xl">
+                {displayScore}
+              </div>
+              {hasModifier && (
+                <div className="mt-1 text-[10px] leading-none text-slate-500 sm:text-[11px]">
+                  素点 {rawFaceDeviation}
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="mt-2 flex items-center justify-end sm:mt-1">
+            <ScoreRadar details={celebrity.details} size="xs" />
+          </div>
+        </div>
       </div>
     </div>
   );
