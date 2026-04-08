@@ -47,6 +47,12 @@ def midpoint(a: Point, b: Point) -> Point:
     return ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)
 
 
+def average_point(points: List[Point]) -> Point:
+    total_x = sum(point[0] for point in points)
+    total_y = sum(point[1] for point in points)
+    return (total_x / len(points), total_y / len(points))
+
+
 def clamp(value: float, lo: float = 0.0, hi: float = 100.0) -> float:
     return max(lo, min(hi, value))
 
@@ -70,6 +76,7 @@ def polyline_length(points: List[Point]) -> float:
 
 
 SYMMETRY_AXIS_INDICES = (27, 28, 29, 30, 51, 57, 8)
+CONTOUR_AXIS_INDICES = (27, 28, 29, 30, 33, 51, 57, 8)
 SYMMETRY_PAIRS: tuple[tuple[int, int, float], ...] = (
     (1, 15, 0.8),
     (2, 14, 0.9),
@@ -113,6 +120,27 @@ def rotate_point(point: Point, origin: Point, angle: float) -> Point:
     )
 
 
+def rotate_landmarks(lm: List[Point]) -> List[Point]:
+    left_eye = midpoint(lm[36], lm[39])
+    right_eye = midpoint(lm[42], lm[45])
+    eye_center = midpoint(left_eye, right_eye)
+    roll = -math.atan2(right_eye[1] - left_eye[1], right_eye[0] - left_eye[0])
+    return [rotate_point(point, eye_center, roll) for point in lm]
+
+
+def calculate_polyline_smoothness(points: List[Point]) -> float:
+    if len(points) < 3:
+        return 0.0
+
+    smoothness = 0.0
+    for i in range(1, len(points) - 1):
+        expected = midpoint(points[i - 1], points[i + 1])
+        deviation = dist(points[i], expected)
+        segment_len = dist(points[i - 1], points[i + 1])
+        smoothness += (deviation / segment_len) if segment_len > 0 else 0.0
+    return smoothness / (len(points) - 2)
+
+
 # ---------------------------------------------------------------------------
 # Scoring functions – faithful port of the TypeScript originals
 # ---------------------------------------------------------------------------
@@ -121,11 +149,7 @@ def calculate_symmetry(lm: List[Point], face_width: float) -> float:
     if face_width <= 0:
         return 0.0
 
-    left_eye = midpoint(lm[36], lm[39])
-    right_eye = midpoint(lm[42], lm[45])
-    eye_center = midpoint(left_eye, right_eye)
-    roll = -math.atan2(right_eye[1] - left_eye[1], right_eye[0] - left_eye[0])
-    rotated = [rotate_point(point, eye_center, roll) for point in lm]
+    rotated = rotate_landmarks(lm)
 
     face_height = dist(rotated[27], rotated[8]) * 1.3
     if face_height <= 0:
@@ -207,47 +231,53 @@ def calculate_mouth_score(lm: List[Point]) -> float:
 
 
 def calculate_contour_score(lm: List[Point]) -> float:
-    # Treat contour as a lower-face shape proxy rather than smoothness alone.
-    face_width = dist(lm[0], lm[16])
-    face_height = dist(lm[27], lm[8]) * 1.3
-    upper_jaw_width = dist(lm[3], lm[13])
-    mid_jaw_width = dist(lm[5], lm[11])
-    chin_width = dist(lm[7], lm[9])
-    chin_depth = dist(midpoint(lm[5], lm[11]), lm[8])
+    # Contour should reflect lower-face shape, not left-right asymmetry.
+    rotated = rotate_landmarks(lm)
+    face_width = dist(rotated[0], rotated[16])
+    face_height = dist(rotated[27], rotated[8]) * 1.3
+    if face_width <= 0 or face_height <= 0:
+        return 0.0
 
-    lower_left_jaw = polyline_length(lm[3:9])
-    lower_right_jaw = polyline_length(list(reversed(lm[8:14])))
-    lower_jaw_balance = (
-        min(lower_left_jaw, lower_right_jaw) / max(lower_left_jaw, lower_right_jaw)
-        if lower_left_jaw > 0 and lower_right_jaw > 0
+    axis_x = average_point([rotated[index] for index in CONTOUR_AXIS_INDICES])[0]
+    upper_jaw_width = (axis_x - rotated[3][0]) + (rotated[13][0] - axis_x)
+    mid_jaw_width = (axis_x - rotated[5][0]) + (rotated[11][0] - axis_x)
+    chin_width = (axis_x - rotated[7][0]) + (rotated[9][0] - axis_x)
+    chin_depth = dist(midpoint(rotated[5], rotated[11]), rotated[8])
+
+    left_jaw_line = rotated[3:9]
+    right_jaw_line = list(reversed(rotated[8:14]))
+    left_curve_ratio = (
+        polyline_length(left_jaw_line) / dist(left_jaw_line[0], left_jaw_line[-1])
+        if dist(left_jaw_line[0], left_jaw_line[-1]) > 0
         else 0.0
     )
+    right_curve_ratio = (
+        polyline_length(right_jaw_line) / dist(right_jaw_line[0], right_jaw_line[-1])
+        if dist(right_jaw_line[0], right_jaw_line[-1]) > 0
+        else 0.0
+    )
+    curve_score = (
+        shape_ratio_score(left_curve_ratio, 1.12, 2.2)
+        + shape_ratio_score(right_curve_ratio, 1.12, 2.2)
+    ) / 2
+    avg_deviation = (
+        calculate_polyline_smoothness(left_jaw_line)
+        + calculate_polyline_smoothness(right_jaw_line)
+    ) / 2
 
-    jaw_line = lm[3:14]
-    smoothness = 0.0
-    for i in range(1, len(jaw_line) - 1):
-        expected = midpoint(jaw_line[i - 1], jaw_line[i + 1])
-        deviation = dist(jaw_line[i], expected)
-        segment_len = dist(jaw_line[i - 1], jaw_line[i + 1])
-        smoothness += (deviation / segment_len) if segment_len > 0 else 0
-    avg_deviation = smoothness / (len(jaw_line) - 2)
-
-    upper_width_score = shape_ratio_score(upper_jaw_width / face_width, 0.72) if face_width > 0 else 0.0
+    upper_width_score = shape_ratio_score(upper_jaw_width / face_width, 0.72)
     taper_score = shape_ratio_score(mid_jaw_width / upper_jaw_width, 0.65) if upper_jaw_width > 0 else 0.0
     chin_width_score = shape_ratio_score(chin_width / mid_jaw_width, 0.32) if mid_jaw_width > 0 else 0.0
-    chin_depth_score = (
-        shape_ratio_score(chin_depth / face_height, 0.065, 1.8) if face_height > 0 else 0.0
-    )
-    balance_score = shape_ratio_score(lower_jaw_balance, 0.96, 1.2)
-    smoothness_score = clamp((1 - avg_deviation * 6.5) * 100)
+    chin_depth_score = shape_ratio_score(chin_depth / face_height, 0.065, 1.8)
+    smoothness_score = clamp((1 - avg_deviation * 5.5) * 100)
 
     return (
         upper_width_score * 0.18
-        + taper_score * 0.22
-        + chin_width_score * 0.20
+        + taper_score * 0.24
+        + chin_width_score * 0.22
         + chin_depth_score * 0.18
-        + balance_score * 0.12
-        + smoothness_score * 0.10
+        + curve_score * 0.10
+        + smoothness_score * 0.08
     )
 
 

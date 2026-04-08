@@ -13,6 +13,21 @@ function midpoint(a: Point, b: Point): Point {
   return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
 }
 
+function averagePoint(points: Point[]): Point {
+  const total = points.reduce(
+    (acc, point) => ({
+      x: acc.x + point.x,
+      y: acc.y + point.y,
+    }),
+    { x: 0, y: 0 },
+  );
+
+  return {
+    x: total.x / points.length,
+    y: total.y / points.length,
+  };
+}
+
 function clamp(value: number, min = 0, max = 100): number {
   return Math.max(min, Math.min(max, value));
 }
@@ -38,6 +53,7 @@ function polylineLength(points: Point[]): number {
 }
 
 const SYMMETRY_AXIS_INDICES = [27, 28, 29, 30, 51, 57, 8] as const;
+const CONTOUR_AXIS_INDICES = [27, 28, 29, 30, 33, 51, 57, 8] as const;
 const SYMMETRY_PAIRS = [
   [1, 15, 0.8],
   [2, 14, 0.9],
@@ -80,6 +96,28 @@ function rotatePoint(point: Point, origin: Point, angle: number): Point {
   };
 }
 
+function rotateLandmarks(landmarks: Point[]): Point[] {
+  const leftEye = midpoint(landmarks[36], landmarks[39]);
+  const rightEye = midpoint(landmarks[42], landmarks[45]);
+  const eyeCenter = midpoint(leftEye, rightEye);
+  const roll = -Math.atan2(rightEye.y - leftEye.y, rightEye.x - leftEye.x);
+  return landmarks.map((point) => rotatePoint(point, eyeCenter, roll));
+}
+
+function calculatePolylineSmoothness(points: Point[]): number {
+  if (points.length < 3) return 0;
+
+  let smoothness = 0;
+  for (let i = 1; i < points.length - 1; i++) {
+    const expected = midpoint(points[i - 1], points[i + 1]);
+    const deviation = distance(points[i], expected);
+    const segmentLength = distance(points[i - 1], points[i + 1]);
+    smoothness += segmentLength > 0 ? deviation / segmentLength : 0;
+  }
+
+  return smoothness / (points.length - 2);
+}
+
 function calculateGoldenRatio(landmarks: Point[]): number {
   const jawLeft = landmarks[0];
   const jawRight = landmarks[16];
@@ -103,11 +141,7 @@ function calculateGoldenRatio(landmarks: Point[]): number {
 function calculateSymmetry(landmarks: Point[], faceWidth: number): number {
   if (faceWidth <= 0) return 0;
 
-  const leftEye = midpoint(landmarks[36], landmarks[39]);
-  const rightEye = midpoint(landmarks[42], landmarks[45]);
-  const eyeCenter = midpoint(leftEye, rightEye);
-  const roll = -Math.atan2(rightEye.y - leftEye.y, rightEye.x - leftEye.x);
-  const rotated = landmarks.map((point) => rotatePoint(point, eyeCenter, roll));
+  const rotated = rotateLandmarks(landmarks);
   const faceHeight = distance(rotated[27], rotated[8]) * 1.3;
   if (faceHeight <= 0) return 0;
 
@@ -171,44 +205,48 @@ function calculateMouthScore(landmarks: Point[]): number {
 }
 
 function calculateContourScore(landmarks: Point[]): number {
-  const faceWidth = distance(landmarks[0], landmarks[16]);
-  const faceHeight = distance(landmarks[27], landmarks[8]) * 1.3;
-  const upperJawWidth = distance(landmarks[3], landmarks[13]);
-  const midJawWidth = distance(landmarks[5], landmarks[11]);
-  const chinWidth = distance(landmarks[7], landmarks[9]);
-  const chinDepth = distance(midpoint(landmarks[5], landmarks[11]), landmarks[8]);
+  const rotated = rotateLandmarks(landmarks);
+  const faceWidth = distance(rotated[0], rotated[16]);
+  const faceHeight = distance(rotated[27], rotated[8]) * 1.3;
+  if (faceWidth <= 0 || faceHeight <= 0) return 0;
 
-  const lowerLeftJaw = polylineLength(landmarks.slice(3, 9));
-  const lowerRightJaw = polylineLength([...landmarks.slice(8, 14)].reverse());
-  const lowerJawBalance =
-    lowerLeftJaw > 0 && lowerRightJaw > 0
-      ? Math.min(lowerLeftJaw, lowerRightJaw) / Math.max(lowerLeftJaw, lowerRightJaw)
+  const axisX = averagePoint(CONTOUR_AXIS_INDICES.map((index) => rotated[index])).x;
+  const upperJawWidth = (axisX - rotated[3].x) + (rotated[13].x - axisX);
+  const midJawWidth = (axisX - rotated[5].x) + (rotated[11].x - axisX);
+  const chinWidth = (axisX - rotated[7].x) + (rotated[9].x - axisX);
+  const chinDepth = distance(midpoint(rotated[5], rotated[11]), rotated[8]);
+
+  const leftJawLine = rotated.slice(3, 9);
+  const rightJawLine = [...rotated.slice(8, 14)].reverse();
+  const leftCurveRatio =
+    distance(leftJawLine[0], leftJawLine[leftJawLine.length - 1]) > 0
+      ? polylineLength(leftJawLine) / distance(leftJawLine[0], leftJawLine[leftJawLine.length - 1])
       : 0;
+  const rightCurveRatio =
+    distance(rightJawLine[0], rightJawLine[rightJawLine.length - 1]) > 0
+      ? polylineLength(rightJawLine) /
+        distance(rightJawLine[0], rightJawLine[rightJawLine.length - 1])
+      : 0;
+  const curveScore =
+    (shapeRatioScore(leftCurveRatio, 1.12, 2.2) +
+      shapeRatioScore(rightCurveRatio, 1.12, 2.2)) /
+    2;
+  const averageDeviation =
+    (calculatePolylineSmoothness(leftJawLine) + calculatePolylineSmoothness(rightJawLine)) / 2;
 
-  const jawLine = landmarks.slice(3, 14);
-  let smoothness = 0;
-  for (let i = 1; i < jawLine.length - 1; i++) {
-    const expected = midpoint(jawLine[i - 1], jawLine[i + 1]);
-    const deviation = distance(jawLine[i], expected);
-    const segmentLength = distance(jawLine[i - 1], jawLine[i + 1]);
-    smoothness += segmentLength > 0 ? deviation / segmentLength : 0;
-  }
-  const averageDeviation = smoothness / (jawLine.length - 2);
-
-  const upperWidthScore = faceWidth > 0 ? shapeRatioScore(upperJawWidth / faceWidth, 0.72) : 0;
+  const upperWidthScore = shapeRatioScore(upperJawWidth / faceWidth, 0.72);
   const taperScore = upperJawWidth > 0 ? shapeRatioScore(midJawWidth / upperJawWidth, 0.65) : 0;
   const chinWidthScore = midJawWidth > 0 ? shapeRatioScore(chinWidth / midJawWidth, 0.32) : 0;
-  const chinDepthScore = faceHeight > 0 ? shapeRatioScore(chinDepth / faceHeight, 0.065, 1.8) : 0;
-  const balanceScore = shapeRatioScore(lowerJawBalance, 0.96, 1.2);
-  const smoothnessScore = clamp((1 - averageDeviation * 6.5) * 100);
+  const chinDepthScore = shapeRatioScore(chinDepth / faceHeight, 0.065, 1.8);
+  const smoothnessScore = clamp((1 - averageDeviation * 5.5) * 100);
 
   return (
     upperWidthScore * 0.18 +
-    taperScore * 0.22 +
-    chinWidthScore * 0.2 +
+    taperScore * 0.24 +
+    chinWidthScore * 0.22 +
     chinDepthScore * 0.18 +
-    balanceScore * 0.12 +
-    smoothnessScore * 0.1
+    curveScore * 0.1 +
+    smoothnessScore * 0.08
   );
 }
 
