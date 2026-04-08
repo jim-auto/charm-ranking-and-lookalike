@@ -28,6 +28,7 @@ export default function ScoreBreakdown() {
             <p className="mb-3 text-slate-400">
               顔の68ランドマークから、構造に寄った5指標を計算しています。
               写真条件の影響が強い要素は落として、骨格と比率を中心に集計しています。
+              左右対称は参考値として保持していますが、角度や表情の影響が大きいため総合順位の重みには入れていません。
             </p>
             <div className="space-y-2">
               {weights.map((w) => (
@@ -49,7 +50,7 @@ export default function ScoreBreakdown() {
               ))}
             </div>
             <p className="mt-3 text-xs text-slate-500">
-              写真のライティング、表情、解像度の影響を受けやすい項目は重みを抑えています。
+              写真のライティング、表情、解像度の影響を受けやすい項目は重みを抑えるか、参考値として分離しています。
             </p>
           </section>
 

@@ -1,9 +1,17 @@
 import type { Celebrity } from '../types/celebrity';
+import {
+  getOverallScore,
+  getRankingMetricLabel,
+  getRankingMetricValue,
+  isOverallMetric,
+  type RankingMetric,
+} from '../lib/rankingMetrics';
 import ScoreRadar from './ScoreRadar';
 
 interface Props {
   celebrity: Celebrity;
   rank: number;
+  metric?: RankingMetric;
   useAge?: boolean;
   useSns?: boolean;
   formatFollowers?: (n: number) => string;
@@ -32,26 +40,26 @@ function medalColor(rank: number): string {
   return 'text-slate-500';
 }
 
-function getScore(c: Celebrity, age: boolean, sns: boolean): number {
-  if (!c.scores) return c.score ?? 0;
-  if (age && sns) return c.scores.faceAgeSns;
-  if (age) return c.scores.faceAge;
-  if (sns) return c.scores.faceSns;
-  return c.scores.face;
-}
-
 export default function CelebrityCard({
   celebrity,
   rank,
+  metric = 'overall',
   useAge = false,
   useSns = false,
   formatFollowers,
   toDeviation,
 }: Props) {
-  const rawScore = getScore(celebrity, useAge, useSns);
-  const displayScore = toDeviation ? toDeviation(rawScore, useAge, useSns) : rawScore;
-  const rawFaceDeviation = toDeviation ? toDeviation(celebrity.scores.face, false, false) : celebrity.scores.face;
-  const hasModifier = useAge || useSns;
+  const overallScore = getOverallScore(celebrity, false, false);
+  const overallDeviation = toDeviation ? toDeviation(overallScore, false, false) : overallScore;
+  const rawScore = getRankingMetricValue(celebrity, metric, useAge, useSns);
+  const displayScore = isOverallMetric(metric)
+    ? toDeviation
+      ? toDeviation(rawScore, useAge, useSns)
+      : rawScore
+    : rawScore;
+  const hasModifier = isOverallMetric(metric) && (useAge || useSns);
+  const scoreLabel = isOverallMetric(metric) ? '偏差値' : getRankingMetricLabel(metric);
+  const scoreSubLabel = hasModifier ? `素点 ${overallDeviation}` : !isOverallMetric(metric) ? `総合 ${overallDeviation}` : null;
 
   return (
     <div className="rounded-xl bg-slate-800 px-3 py-2.5 sm:px-3.5 sm:py-3">
@@ -89,12 +97,15 @@ export default function CelebrityCard({
             </div>
 
             <div className="shrink-0 text-right">
+              <div className="mb-0.5 text-[10px] font-medium leading-none text-slate-500 sm:text-[11px]">
+                {scoreLabel}
+              </div>
               <div className="text-xl font-bold leading-none text-indigo-400 sm:text-2xl">
                 {displayScore}
               </div>
-              {hasModifier && (
+              {scoreSubLabel && (
                 <div className="mt-1 text-[10px] leading-none text-slate-500 sm:text-[11px]">
-                  素点 {rawFaceDeviation}
+                  {scoreSubLabel}
                 </div>
               )}
             </div>

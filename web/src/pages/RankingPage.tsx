@@ -1,6 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import { createDeviationConverter } from '../lib/faceScoring';
+import {
+  getRankingMetricLabel,
+  getRankingMetricValue,
+  isOverallMetric,
+  rankingMetricOptions,
+  type RankingMetric,
+} from '../lib/rankingMetrics';
 import CelebrityCard from '../components/CelebrityCard';
 import ScoreBreakdown from '../components/ScoreBreakdown';
 
@@ -55,14 +62,6 @@ function median(values: number[]): number | null {
   return (ordered[middle - 1] + ordered[middle]) / 2;
 }
 
-function getScore(c: Celebrity, age: boolean, sns: boolean): number {
-  if (!c.scores) return c.score ?? 0;
-  if (age && sns) return c.scores.faceAgeSns;
-  if (age) return c.scores.faceAge;
-  if (sns) return c.scores.faceSns;
-  return c.scores.face;
-}
-
 function formatFollowers(n: number): string {
   if (n >= 10_000_000) return `${(n / 10_000_000).toFixed(1)}千万`;
   if (n >= 10_000) return `${Math.round(n / 10_000)}万`;
@@ -86,6 +85,7 @@ function sortCategoryValues(a: string, b: string): number {
 export default function RankingPage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [rankingScope, setRankingScope] = useState<RankingScope>('recommended');
+  const [rankingMetric, setRankingMetric] = useState<RankingMetric>('overall');
   const [genderFilter, setGenderFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
   const [useAge, setUseAge] = useState(true);
@@ -105,7 +105,7 @@ export default function RankingPage() {
 
   useEffect(() => {
     setPage(1);
-  }, [rankingScope, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+  }, [rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
 
   const toDeviation = useMemo(() => {
     if (celebrities.length === 0) return (_score: number, _age: boolean, _sns: boolean) => 0;
@@ -137,6 +137,12 @@ export default function RankingPage() {
     [celebrities]
   );
 
+  const selectedMetric = useMemo(
+    () => rankingMetricOptions.find((option) => option.value === rankingMetric) ?? rankingMetricOptions[0],
+    [rankingMetric]
+  );
+  const usesOverallScore = isOverallMetric(rankingMetric);
+
   const sorted = useMemo(() => {
     let list = [...celebrities];
     if (rankingScope === 'recommended') {
@@ -151,9 +157,13 @@ export default function RankingPage() {
         (c.group && c.group.toLowerCase().includes(q))
       );
     }
-    list.sort((a, b) => getScore(b, useAge, useSns) - getScore(a, useAge, useSns));
+    list.sort(
+      (a, b) =>
+        getRankingMetricValue(b, rankingMetric, useAge, useSns) -
+        getRankingMetricValue(a, rankingMetric, useAge, useSns)
+    );
     return list;
-  }, [celebrities, rankingScope, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+  }, [celebrities, rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
 
   const summary = useMemo(() => {
     const ages = sorted
@@ -243,42 +253,89 @@ export default function RankingPage() {
         ))}
       </div>
 
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <span className="mr-1 text-sm text-slate-400">指標:</span>
+        {rankingMetricOptions.map((metric) => (
+          <button
+            key={metric.value}
+            onClick={() => setRankingMetric(metric.value)}
+            className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
+              rankingMetric === metric.value
+                ? metric.isReference
+                  ? 'bg-amber-600 text-white'
+                  : 'bg-indigo-600 text-white'
+                : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+            }`}
+            title={metric.description}
+          >
+            {metric.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="mb-2 rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-400">
+        {usesOverallScore ? (
+          <>総合ランキングは偏差値ベースで並べています。肌スコアは全員75固定なのでランキング対象から外しています。</>
+        ) : (
+          <>
+            現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。年齢補正とSNS補正は使いません。
+            {selectedMetric.isReference && ' 左右対称は角度や表情の影響が強いため参考値として見てください。'}
+            {' '}肌スコアは全員75固定なので対象外です。
+          </>
+        )}
+      </div>
+
       <div className="mb-6 flex flex-wrap items-center gap-3 rounded-lg bg-slate-800/50 p-3">
         <span className="text-sm text-slate-400">補正:</span>
 
         <button
           onClick={() => setUseAge(!useAge)}
+          disabled={!usesOverallScore}
           className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
-            useAge
-              ? 'bg-amber-600 text-white'
-              : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+            usesOverallScore
+              ? useAge
+                ? 'bg-amber-600 text-white'
+                : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+              : 'cursor-not-allowed bg-slate-800 text-slate-600'
           }`}
         >
-          <span className={`inline-block h-3 w-3 rounded-sm border ${useAge ? 'border-white bg-white' : 'border-slate-500'}`}>
-            {useAge && <span className="block text-center text-xs font-bold leading-3 text-amber-600">✓</span>}
+          <span className={`inline-block h-3 w-3 rounded-sm border ${
+            usesOverallScore && useAge ? 'border-white bg-white' : 'border-slate-500'
+          }`}>
+            {usesOverallScore && useAge && (
+              <span className="block text-center text-xs font-bold leading-3 text-amber-600">✓</span>
+            )}
           </span>
           年齢
         </button>
 
         <button
           onClick={() => setUseSns(!useSns)}
+          disabled={!usesOverallScore}
           className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
-            useSns
-              ? 'bg-emerald-600 text-white'
-              : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+            usesOverallScore
+              ? useSns
+                ? 'bg-emerald-600 text-white'
+                : 'bg-slate-700 text-slate-400 hover:bg-slate-600'
+              : 'cursor-not-allowed bg-slate-800 text-slate-600'
           }`}
         >
-          <span className={`inline-block h-3 w-3 rounded-sm border ${useSns ? 'border-white bg-white' : 'border-slate-500'}`}>
-            {useSns && <span className="block text-center text-xs font-bold leading-3 text-emerald-600">✓</span>}
+          <span className={`inline-block h-3 w-3 rounded-sm border ${
+            usesOverallScore && useSns ? 'border-white bg-white' : 'border-slate-500'
+          }`}>
+            {usesOverallScore && useSns && (
+              <span className="block text-center text-xs font-bold leading-3 text-emerald-600">✓</span>
+            )}
           </span>
           SNS影響力
         </button>
 
         <span className="text-xs text-slate-500">
-          {!useAge && !useSns && '顔の比率のみ'}
-          {useAge && !useSns && '20代前半ピークで年齢補正'}
-          {!useAge && useSns && '顔 70% + SNS 30%'}
-          {useAge && useSns && '顔 70% + SNS 30% + 年齢補正'}
+          {!usesOverallScore && `${selectedMetric.label}の単体ランキング`}
+          {usesOverallScore && !useAge && !useSns && '顔の比率のみ'}
+          {usesOverallScore && useAge && !useSns && '20代前半ピークで年齢補正'}
+          {usesOverallScore && !useAge && useSns && '顔 70% + SNS 30%'}
+          {usesOverallScore && useAge && useSns && '顔 70% + SNS 30% + 年齢補正'}
         </span>
       </div>
 
@@ -321,6 +378,7 @@ export default function RankingPage() {
                 key={celeb.id}
                 celebrity={celeb}
                 rank={rankOffset + i + 1}
+                metric={rankingMetric}
                 useAge={useAge}
                 useSns={useSns}
                 formatFollowers={formatFollowers}
