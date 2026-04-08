@@ -105,6 +105,50 @@ def polyline_length(points: list[Point]) -> float:
     return sum(dist(points[i], points[i + 1]) for i in range(len(points) - 1))
 
 
+SYMMETRY_AXIS_INDICES = (27, 28, 29, 30, 51, 57, 8)
+SYMMETRY_PAIRS = (
+    (1, 15, 0.8),
+    (2, 14, 0.9),
+    (3, 13, 1.0),
+    (4, 12, 1.0),
+    (5, 11, 1.0),
+    (6, 10, 0.9),
+    (7, 9, 0.8),
+    (17, 26, 0.8),
+    (18, 25, 0.9),
+    (19, 24, 1.0),
+    (20, 23, 0.9),
+    (21, 22, 0.8),
+    (36, 45, 1.4),
+    (37, 44, 1.2),
+    (38, 43, 1.2),
+    (39, 42, 1.1),
+    (40, 47, 1.1),
+    (41, 46, 1.1),
+    (31, 35, 1.0),
+    (32, 34, 1.0),
+    (48, 54, 1.1),
+    (49, 53, 1.0),
+    (50, 52, 0.9),
+    (59, 55, 0.9),
+    (58, 56, 0.9),
+    (60, 64, 1.0),
+    (61, 63, 0.9),
+    (67, 65, 0.8),
+)
+
+
+def rotate_point(point: Point, origin: Point, angle: float) -> Point:
+    sin_a = math.sin(angle)
+    cos_a = math.cos(angle)
+    dx = point[0] - origin[0]
+    dy = point[1] - origin[1]
+    return (
+        origin[0] + dx * cos_a - dy * sin_a,
+        origin[1] + dx * sin_a + dy * cos_a,
+    )
+
+
 # ---------------------------------------------------------------------------
 # Scoring (same weights as frontend faceScoring.ts)
 # ---------------------------------------------------------------------------
@@ -121,17 +165,33 @@ def calculate_golden_ratio(lm):
     return (ratio_score(face_ratio, 1.46) + ratio_score(eye_ratio, 1 / GOLDEN_RATIO)) / 2
 
 def calculate_symmetry(lm, face_width):
-    jaw_left = lm[0:8]
-    jaw_right = list(reversed(lm[9:17]))
-    nose_bridge = lm[27]
-    total_dev = 0.0
-    pairs = min(len(jaw_left), len(jaw_right))
-    for i in range(pairs):
-        left_dist = abs(jaw_left[i][0] - nose_bridge[0])
-        right_dist = abs(jaw_right[i][0] - nose_bridge[0])
-        total_dev += abs(left_dist - right_dist)
-    avg_dev = total_dev / pairs if pairs > 0 else 0.0
-    return clamp((1 - avg_dev / face_width * 4) * 100) if face_width > 0 else 0.0
+    if face_width <= 0:
+        return 0.0
+
+    left_eye = midpoint(lm[36], lm[39])
+    right_eye = midpoint(lm[42], lm[45])
+    eye_center = midpoint(left_eye, right_eye)
+    roll = -math.atan2(right_eye[1] - left_eye[1], right_eye[0] - left_eye[0])
+    rotated = [rotate_point(point, eye_center, roll) for point in lm]
+
+    face_height = dist(rotated[27], rotated[8]) * 1.3
+    if face_height <= 0:
+        return 0.0
+
+    axis_x = sum(rotated[index][0] for index in SYMMETRY_AXIS_INDICES) / len(SYMMETRY_AXIS_INDICES)
+
+    total_error = 0.0
+    total_weight = 0.0
+    for left_idx, right_idx, weight in SYMMETRY_PAIRS:
+        left = rotated[left_idx]
+        right = rotated[right_idx]
+        x_error = abs((axis_x - left[0]) - (right[0] - axis_x)) / face_width
+        y_error = abs(left[1] - right[1]) / face_height
+        total_error += (x_error + y_error * 0.6) * weight
+        total_weight += weight
+
+    avg_error = total_error / total_weight if total_weight > 0 else 0.0
+    return clamp((1 - avg_error * 2.4) * 100)
 
 def calculate_eye_score(lm):
     lw = dist(lm[36], lm[39]); lh = dist(lm[37], lm[41])
@@ -453,6 +513,9 @@ def main():
             if old and not args.audit_only:
                 preserved = dict(old)
                 preserved["category"] = category
+                preserved["faceValidationStatus"] = "undetected"
+                preserved["faceValidationReason"] = last_failure_reason
+                preserved["faceValidationSource"] = "existing_data"
                 results.append(preserved)
                 preserved_existing += 1
                 audit_entries.append(
@@ -509,6 +572,9 @@ def main():
             "score": 0.0,
             "details": details,
             "thumbnail": f"data/thumbnails/{celeb_id}.jpg",
+            "faceValidationStatus": "accepted",
+            "faceValidationReason": "ok",
+            "faceValidationSource": best_candidate.get("source", "unknown"),
         }
 
         # Preserve rich metadata if available
@@ -573,6 +639,13 @@ def main():
             for source, count in accepted_sources.most_common():
                 print(f"  {source}: {count}")
         return
+
+    for entry in results:
+        details = entry.get("details")
+        if not isinstance(details, dict):
+            continue
+        if entry.get("faceValidationStatus") != "accepted" or details.get("symmetry", 0) <= 0:
+            details.pop("symmetry", None)
 
     metric_stats = apply_distribution_adjusted_scores(results)
     for entry in results:

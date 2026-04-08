@@ -68,6 +68,20 @@ const categoryOrder = [
 
 type RankingScope = (typeof rankingScopes)[number]['value'];
 
+function filterRecommendedEntries(
+  celebrities: Celebrity[],
+  useStrictReferenceRecommendedFilter: boolean
+): Celebrity[] {
+  let list = celebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
+  list = list.filter((celebrity) => celebrity.rankingEligible !== false);
+  if (useStrictReferenceRecommendedFilter) {
+    list = list.filter(
+      (celebrity) => !REFERENCE_RECOMMENDED_EXCLUDED_CATEGORIES.has(celebrity.category ?? '')
+    );
+  }
+  return list;
+}
+
 function median(values: number[]): number | null {
   if (values.length === 0) return null;
   const ordered = [...values].sort((a, b) => a - b);
@@ -156,11 +170,6 @@ export default function RankingPage() {
     ];
   }, [celebrities]);
 
-  const excludedCount = useMemo(
-    () => celebrities.filter((c) => c.rankingEligible === false).length,
-    [celebrities]
-  );
-
   const selectedMetric = useMemo(
     () => rankingMetricOptions.find((option) => option.value === rankingMetric) ?? rankingMetricOptions[0],
     [rankingMetric]
@@ -168,18 +177,49 @@ export default function RankingPage() {
   const usesOverallScore = isOverallMetric(rankingMetric);
   const usesStrictReferenceRecommendedFilter =
     rankingScope === 'recommended' && !usesOverallScore && selectedMetric.isReference === true;
+  const recommendedExcludedCount = useMemo(() => {
+    let allList = celebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
+    let visibleList = filterRecommendedEntries(celebrities, usesStrictReferenceRecommendedFilter);
+
+    if (genderFilter) {
+      allList = allList.filter((celebrity) => celebrity.gender === genderFilter);
+      visibleList = visibleList.filter((celebrity) => celebrity.gender === genderFilter);
+    }
+    if (categoryFilter) {
+      allList = allList.filter((celebrity) => celebrity.category === categoryFilter);
+      visibleList = visibleList.filter((celebrity) => celebrity.category === categoryFilter);
+    }
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      const matchesQuery = (celebrity: Celebrity) =>
+        celebrity.name.toLowerCase().includes(q) ||
+        (celebrity.group && celebrity.group.toLowerCase().includes(q));
+      allList = allList.filter(matchesQuery);
+      visibleList = visibleList.filter(matchesQuery);
+    }
+    if (!usesOverallScore) {
+      const hasMetric = (celebrity: Celebrity) =>
+        typeof celebrity.details?.[rankingMetric] === 'number';
+      allList = allList.filter(hasMetric);
+      visibleList = visibleList.filter(hasMetric);
+    }
+
+    return allList.length - visibleList.length;
+  }, [
+    celebrities,
+    usesStrictReferenceRecommendedFilter,
+    genderFilter,
+    categoryFilter,
+    searchQuery,
+    usesOverallScore,
+    rankingMetric,
+  ]);
 
   const sorted = useMemo(() => {
-    let list = [...celebrities];
-    list = list.filter((c) => c.faceValidationStatus !== 'rejected');
-    if (rankingScope === 'recommended') {
-      list = list.filter((c) => c.rankingEligible !== false);
-      if (usesStrictReferenceRecommendedFilter) {
-        list = list.filter(
-          (c) => !REFERENCE_RECOMMENDED_EXCLUDED_CATEGORIES.has(c.category ?? '')
-        );
-      }
-    }
+    let list =
+      rankingScope === 'recommended'
+        ? filterRecommendedEntries(celebrities, usesStrictReferenceRecommendedFilter)
+        : celebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
     if (searchQuery) {
@@ -188,6 +228,9 @@ export default function RankingPage() {
         c.name.toLowerCase().includes(q) ||
         (c.group && c.group.toLowerCase().includes(q))
       );
+    }
+    if (!usesOverallScore) {
+      list = list.filter((celebrity) => typeof celebrity.details?.[rankingMetric] === 'number');
     }
     list.sort(
       (a, b) =>
@@ -260,9 +303,9 @@ export default function RankingPage() {
         ))}
       </div>
 
-      {rankingScope === 'recommended' && excludedCount > 0 && (
+      {rankingScope === 'recommended' && recommendedExcludedCount > 0 && (
         <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
-          写真バイアスやカテゴリ調整のため {excludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
+          写真バイアスやカテゴリ調整のため {recommendedExcludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
           {usesStrictReferenceRecommendedFilter &&
             ' 参考値タブでは直感とズレやすいカテゴリをさらに外しています。'}
         </div>

@@ -37,6 +37,49 @@ function polylineLength(points: Point[]): number {
   return total;
 }
 
+const SYMMETRY_AXIS_INDICES = [27, 28, 29, 30, 51, 57, 8] as const;
+const SYMMETRY_PAIRS = [
+  [1, 15, 0.8],
+  [2, 14, 0.9],
+  [3, 13, 1],
+  [4, 12, 1],
+  [5, 11, 1],
+  [6, 10, 0.9],
+  [7, 9, 0.8],
+  [17, 26, 0.8],
+  [18, 25, 0.9],
+  [19, 24, 1],
+  [20, 23, 0.9],
+  [21, 22, 0.8],
+  [36, 45, 1.4],
+  [37, 44, 1.2],
+  [38, 43, 1.2],
+  [39, 42, 1.1],
+  [40, 47, 1.1],
+  [41, 46, 1.1],
+  [31, 35, 1],
+  [32, 34, 1],
+  [48, 54, 1.1],
+  [49, 53, 1],
+  [50, 52, 0.9],
+  [59, 55, 0.9],
+  [58, 56, 0.9],
+  [60, 64, 1],
+  [61, 63, 0.9],
+  [67, 65, 0.8],
+] as const;
+
+function rotatePoint(point: Point, origin: Point, angle: number): Point {
+  const sin = Math.sin(angle);
+  const cos = Math.cos(angle);
+  const dx = point.x - origin.x;
+  const dy = point.y - origin.y;
+  return {
+    x: origin.x + dx * cos - dy * sin,
+    y: origin.y + dx * sin + dy * cos,
+  };
+}
+
 function calculateGoldenRatio(landmarks: Point[]): number {
   const jawLeft = landmarks[0];
   const jawRight = landmarks[16];
@@ -58,20 +101,33 @@ function calculateGoldenRatio(landmarks: Point[]): number {
 }
 
 function calculateSymmetry(landmarks: Point[], faceWidth: number): number {
-  const jawLeft = landmarks.slice(0, 8);
-  const jawRight = landmarks.slice(9, 17).reverse();
-  const noseBridge = landmarks[27];
+  if (faceWidth <= 0) return 0;
 
-  let totalDeviation = 0;
-  const pairs = Math.min(jawLeft.length, jawRight.length);
-  for (let i = 0; i < pairs; i++) {
-    const leftDistance = Math.abs(jawLeft[i].x - noseBridge.x);
-    const rightDistance = Math.abs(jawRight[i].x - noseBridge.x);
-    totalDeviation += Math.abs(leftDistance - rightDistance);
+  const leftEye = midpoint(landmarks[36], landmarks[39]);
+  const rightEye = midpoint(landmarks[42], landmarks[45]);
+  const eyeCenter = midpoint(leftEye, rightEye);
+  const roll = -Math.atan2(rightEye.y - leftEye.y, rightEye.x - leftEye.x);
+  const rotated = landmarks.map((point) => rotatePoint(point, eyeCenter, roll));
+  const faceHeight = distance(rotated[27], rotated[8]) * 1.3;
+  if (faceHeight <= 0) return 0;
+
+  const axisX =
+    SYMMETRY_AXIS_INDICES.reduce((sum, index) => sum + rotated[index].x, 0) /
+    SYMMETRY_AXIS_INDICES.length;
+
+  let totalError = 0;
+  let totalWeight = 0;
+  for (const [leftIndex, rightIndex, weight] of SYMMETRY_PAIRS) {
+    const left = rotated[leftIndex];
+    const right = rotated[rightIndex];
+    const xError = Math.abs((axisX - left.x) - (right.x - axisX)) / faceWidth;
+    const yError = Math.abs(left.y - right.y) / faceHeight;
+    totalError += (xError + yError * 0.6) * weight;
+    totalWeight += weight;
   }
 
-  const averageDeviation = pairs > 0 ? totalDeviation / pairs : 0;
-  return faceWidth > 0 ? clamp((1 - (averageDeviation / faceWidth) * 4) * 100) : 0;
+  const averageError = totalWeight > 0 ? totalError / totalWeight : 0;
+  return clamp((1 - averageError * 2.4) * 100);
 }
 
 function calculateEyeScore(landmarks: Point[]): number {

@@ -6,7 +6,7 @@
     "gender": "female",
     "score": 62.1,
     "details": {
-      "symmetry": 65,
+      "symmetry": 72,
       "golden_ratio": 59,
       "eyes": 96,
       "nose": 45,
@@ -14,6 +14,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_71462e30.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1973-04-06",
     "embedding": [
@@ -162,7 +165,7 @@
     "gender": "male",
     "score": 61.0,
     "details": {
-      "symmetry": 28,
+      "symmetry": 56,
       "golden_ratio": 59,
       "eyes": 71,
       "nose": 49,
@@ -170,6 +173,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_d04d3faa.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 25,
     "birthDate": "2000-10-21",
     "embedding": [
@@ -321,7 +327,7 @@
     "gender": "male",
     "score": 61.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 68,
       "golden_ratio": 54,
       "eyes": 85,
       "nose": 46,
@@ -329,6 +335,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_72b74c02.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 70,
     "birthDate": "1956-03-24",
     "embedding": [
@@ -477,7 +486,7 @@
     "gender": "female",
     "score": 60.2,
     "details": {
-      "symmetry": 21,
+      "symmetry": 75,
       "golden_ratio": 49,
       "eyes": 98,
       "nose": 47,
@@ -485,6 +494,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_3060094d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "sns": {
       "instagram": 500000
@@ -636,7 +648,7 @@
     "gender": "female",
     "score": 60.2,
     "details": {
-      "symmetry": 59,
+      "symmetry": 71,
       "golden_ratio": 57,
       "eyes": 82,
       "nose": 43,
@@ -644,6 +656,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_db8672b9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "embedding": [
       0.0,
@@ -791,7 +806,7 @@
     "gender": "male",
     "score": 59.9,
     "details": {
-      "symmetry": 30,
+      "symmetry": 49,
       "golden_ratio": 54,
       "eyes": 86,
       "nose": 49,
@@ -799,6 +814,9 @@
       "contour": 69
     },
     "thumbnail": "data/thumbnails/celeb_0605fdd5.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-08-18",
     "embedding": [
@@ -950,7 +968,7 @@
     "gender": "male",
     "score": 59.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 48,
       "eyes": 90,
       "nose": 48,
@@ -958,6 +976,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "sns": {
       "instagram": 4500000,
@@ -1110,7 +1131,7 @@
     "gender": "female",
     "score": 59.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 45,
       "golden_ratio": 60,
       "eyes": 61,
       "nose": 43,
@@ -1118,6 +1139,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_4668c84c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 44,
     "birthDate": "1981-08-05",
     "embedding": [
@@ -1266,7 +1290,7 @@
     "gender": "male",
     "score": 59.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 45,
       "golden_ratio": 61,
       "eyes": 66,
       "nose": 39,
@@ -1274,6 +1298,9 @@
       "contour": 69
     },
     "thumbnail": "data/thumbnails/celeb_68ae0027.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 49,
     "birthDate": "1976-07-10",
     "embedding": [
@@ -1425,7 +1452,7 @@
     "gender": "male",
     "score": 59.2,
     "details": {
-      "symmetry": 21,
+      "symmetry": 46,
       "golden_ratio": 63,
       "eyes": 49,
       "nose": 50,
@@ -1433,6 +1460,9 @@
       "contour": 69
     },
     "thumbnail": "data/thumbnails/celeb_30d4d2e7.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "birthDate": "1992-04-24",
     "embedding": [
@@ -1584,7 +1614,7 @@
     "gender": "male",
     "score": 59.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 64,
       "golden_ratio": 48,
       "eyes": 92,
       "nose": 53,
@@ -1592,6 +1622,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_2c58976d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "youtube": 10000000,
@@ -1746,7 +1779,7 @@
     "gender": "female",
     "score": 59.0,
     "details": {
-      "symmetry": 34,
+      "symmetry": 61,
       "golden_ratio": 52,
       "eyes": 94,
       "nose": 49,
@@ -1754,6 +1787,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_d5ed8178.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "birthDate": "1978-01-11",
     "embedding": [
@@ -1905,7 +1941,7 @@
     "gender": "female",
     "score": 58.8,
     "details": {
-      "symmetry": 17,
+      "symmetry": 47,
       "golden_ratio": 58,
       "eyes": 79,
       "nose": 47,
@@ -1913,6 +1949,9 @@
       "contour": 64
     },
     "thumbnail": "data/thumbnails/celeb_1dd830b0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 40,
     "birthDate": "1986-02-26",
     "embedding": [
@@ -2061,7 +2100,7 @@
     "gender": "male",
     "score": 58.7,
     "details": {
-      "symmetry": 51,
+      "symmetry": 60,
       "golden_ratio": 52,
       "eyes": 90,
       "nose": 43,
@@ -2069,6 +2108,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_1fbd93fe.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "birthDate": "2001-06-04",
     "embedding": [
@@ -2220,7 +2262,7 @@
     "gender": "male",
     "score": 58.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 75,
       "golden_ratio": 48,
       "eyes": 96,
       "nose": 32,
@@ -2228,6 +2270,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_d1e9ea37.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "sns": {
       "instagram": 1500000
@@ -2379,7 +2424,7 @@
     "gender": "male",
     "score": 58.7,
     "details": {
-      "symmetry": 30,
+      "symmetry": 56,
       "golden_ratio": 58,
       "eyes": 64,
       "nose": 43,
@@ -2387,6 +2432,9 @@
       "contour": 67
     },
     "thumbnail": "data/thumbnails/celeb_57bcf34b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "birthDate": "1993-05-06",
     "embedding": [
@@ -2538,7 +2586,7 @@
     "gender": "male",
     "score": 58.5,
     "details": {
-      "symmetry": 36,
+      "symmetry": 62,
       "golden_ratio": 57,
       "eyes": 39,
       "nose": 50,
@@ -2546,6 +2594,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_cff3b39b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 50,
     "birthDate": "1975-06-17",
     "embedding": [
@@ -2697,7 +2748,7 @@
     "gender": "male",
     "score": 58.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 40,
       "golden_ratio": 60,
       "eyes": 63,
       "nose": 37,
@@ -2705,6 +2756,9 @@
       "contour": 68
     },
     "thumbnail": "data/thumbnails/celeb_db1dd352.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 85,
     "birthDate": "1940-05-29",
     "embedding": [
@@ -2856,7 +2910,7 @@
     "gender": "male",
     "score": 58.5,
     "details": {
-      "symmetry": 28,
+      "symmetry": 69,
       "golden_ratio": 51,
       "eyes": 93,
       "nose": 32,
@@ -2864,6 +2918,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_49db2096.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1988-04-16",
     "embedding": [
@@ -3015,7 +3072,7 @@
     "gender": "female",
     "score": 58.4,
     "details": {
-      "symmetry": 3,
+      "symmetry": 47,
       "golden_ratio": 55,
       "eyes": 85,
       "nose": 44,
@@ -3023,6 +3080,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_059f9821.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 3500000,
@@ -3176,7 +3236,7 @@
     "gender": "male",
     "score": 58.3,
     "details": {
-      "symmetry": 12,
+      "symmetry": 73,
       "golden_ratio": 47,
       "eyes": 71,
       "nose": 50,
@@ -3184,6 +3244,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_a9977480.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 38,
     "sns": {},
     "totalFollowers": 0,
@@ -3333,7 +3396,7 @@
     "gender": "male",
     "score": 58.2,
     "details": {
-      "symmetry": 46,
+      "symmetry": 70,
       "golden_ratio": 51,
       "eyes": 62,
       "nose": 39,
@@ -3341,6 +3404,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_307cf348.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1974-03-30",
     "embedding": [
@@ -3489,7 +3555,7 @@
     "gender": "female",
     "score": 58.2,
     "details": {
-      "symmetry": 30,
+      "symmetry": 59,
       "golden_ratio": 55,
       "eyes": 72,
       "nose": 40,
@@ -3497,6 +3563,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_14352dde.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1997-01-29",
     "embedding": [
@@ -3648,7 +3717,7 @@
     "gender": "male",
     "score": 58.0,
     "details": {
-      "symmetry": 18,
+      "symmetry": 71,
       "golden_ratio": 51,
       "eyes": 93,
       "nose": 40,
@@ -3656,6 +3725,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_3afafb8b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 49,
     "birthDate": "1977-01-31",
     "embedding": [
@@ -3804,7 +3876,7 @@
     "gender": "male",
     "score": 58.0,
     "details": {
-      "symmetry": 19,
+      "symmetry": 74,
       "golden_ratio": 47,
       "eyes": 71,
       "nose": 49,
@@ -3812,6 +3884,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_a0f20d41.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1979-02-03",
     "embedding": [
@@ -3960,7 +4035,6 @@
     "gender": "male",
     "score": 57.9,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 70,
       "eyes": 74,
       "nose": 52,
@@ -3968,6 +4042,9 @@
       "contour": 52
     },
     "thumbnail": "data/thumbnails/celeb_78894734.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-09-08",
     "embedding": [
@@ -4119,7 +4196,7 @@
     "gender": "female",
     "score": 57.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 58,
       "golden_ratio": 49,
       "eyes": 85,
       "nose": 46,
@@ -4127,6 +4204,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_6f7fd76c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 40,
     "sns": {},
     "totalFollowers": 0,
@@ -4276,7 +4356,7 @@
     "gender": "male",
     "score": 57.8,
     "details": {
-      "symmetry": 33,
+      "symmetry": 63,
       "golden_ratio": 52,
       "eyes": 77,
       "nose": 45,
@@ -4284,6 +4364,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_72d8d22d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-09-12",
     "embedding": [
@@ -4435,7 +4518,7 @@
     "gender": "male",
     "score": 57.7,
     "details": {
-      "symmetry": 58,
+      "symmetry": 62,
       "golden_ratio": 51,
       "eyes": 63,
       "nose": 44,
@@ -4443,6 +4526,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_a15357f2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 62,
     "birthDate": "1963-09-08",
     "embedding": [
@@ -4591,7 +4677,7 @@
     "gender": "male",
     "score": 57.5,
     "details": {
-      "symmetry": 49,
+      "symmetry": 64,
       "golden_ratio": 48,
       "eyes": 69,
       "nose": 50,
@@ -4599,6 +4685,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_5394f67c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 38,
     "birthDate": "1987-11-08",
     "embedding": [
@@ -4750,7 +4839,7 @@
     "gender": "male",
     "score": 57.5,
     "details": {
-      "symmetry": 58,
+      "symmetry": 71,
       "golden_ratio": 51,
       "eyes": 86,
       "nose": 48,
@@ -4758,6 +4847,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_df5afd63.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-06-13",
     "embedding": [
@@ -4909,7 +5001,7 @@
     "gender": "female",
     "score": 57.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 71,
       "golden_ratio": 42,
       "eyes": 94,
       "nose": 45,
@@ -4917,6 +5009,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 22,
     "sns": {
       "twitter": 100000
@@ -5069,7 +5164,7 @@
     "gender": "male",
     "score": 57.4,
     "details": {
-      "symmetry": 55,
+      "symmetry": 75,
       "golden_ratio": 47,
       "eyes": 87,
       "nose": 42,
@@ -5077,6 +5172,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_cec17988.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "sns": {
       "instagram": 500000,
@@ -5230,7 +5328,7 @@
     "gender": "male",
     "score": 57.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 46,
       "eyes": 91,
       "nose": 49,
@@ -5238,6 +5336,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_90db6e29.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "birthDate": "1989-06-09",
     "embedding": [
@@ -5389,7 +5490,7 @@
     "gender": "male",
     "score": 57.3,
     "details": {
-      "symmetry": 31,
+      "symmetry": 45,
       "golden_ratio": 61,
       "eyes": 47,
       "nose": 38,
@@ -5397,6 +5498,9 @@
       "contour": 65
     },
     "thumbnail": "data/thumbnails/celeb_b8d4f4cc.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "birthDate": "1982-06-22",
     "embedding": [
@@ -5548,7 +5652,7 @@
     "gender": "male",
     "score": 57.3,
     "details": {
-      "symmetry": 47,
+      "symmetry": 51,
       "golden_ratio": 49,
       "eyes": 66,
       "nose": 47,
@@ -5556,6 +5660,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_7690920c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-12-26",
     "embedding": [
@@ -5707,7 +5814,7 @@
     "gender": "male",
     "score": 57.3,
     "details": {
-      "symmetry": 34,
+      "symmetry": 58,
       "golden_ratio": 54,
       "eyes": 70,
       "nose": 43,
@@ -5715,6 +5822,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 49,
     "embedding": [
       0.0,
@@ -5865,7 +5975,7 @@
     "gender": "female",
     "score": 57.3,
     "details": {
-      "symmetry": 24,
+      "symmetry": 72,
       "golden_ratio": 45,
       "eyes": 94,
       "nose": 43,
@@ -5873,6 +5983,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_04bb2177.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 27,
     "sns": {
       "instagram": 7500000,
@@ -6025,7 +6138,7 @@
     "gender": "female",
     "score": 57.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 61,
       "golden_ratio": 46,
       "eyes": 86,
       "nose": 45,
@@ -6033,6 +6146,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_5df0cbf8.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 22,
     "birthDate": "2003-12-29",
     "embedding": [
@@ -6181,7 +6297,7 @@
     "gender": "male",
     "score": 57.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 47,
       "eyes": 77,
       "nose": 48,
@@ -6189,6 +6305,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 67,
     "birthDate": "1958-05-02",
     "embedding": [
@@ -6337,7 +6456,7 @@
     "gender": "male",
     "score": 57.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 53,
       "golden_ratio": 60,
       "eyes": 39,
       "nose": 43,
@@ -6345,6 +6464,9 @@
       "contour": 71
     },
     "thumbnail": "data/thumbnails/celeb_4f321bae.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 50,
     "birthDate": "1975-07-29",
     "embedding": [
@@ -6496,7 +6618,7 @@
     "gender": "female",
     "score": 56.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 29,
       "golden_ratio": 67,
       "eyes": 47,
       "nose": 26,
@@ -6504,6 +6626,9 @@
       "contour": 63
     },
     "thumbnail": "data/thumbnails/celeb_e5a4571e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "birthDate": "1983-02-19",
     "embedding": [
@@ -6652,7 +6777,7 @@
     "gender": "female",
     "score": 56.9,
     "details": {
-      "symmetry": 28,
+      "symmetry": 72,
       "golden_ratio": 43,
       "eyes": 90,
       "nose": 39,
@@ -6660,6 +6785,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_1a447011.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "birthDate": "1989-10-18",
     "embedding": [
@@ -6808,7 +6936,7 @@
     "gender": "female",
     "score": 56.9,
     "details": {
-      "symmetry": 64,
+      "symmetry": 75,
       "golden_ratio": 49,
       "eyes": 94,
       "nose": 51,
@@ -6816,6 +6944,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_257e099e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "birthDate": "1977-06-10",
     "embedding": [
@@ -6964,7 +7095,7 @@
     "gender": "male",
     "score": 56.9,
     "details": {
-      "symmetry": 42,
+      "symmetry": 59,
       "golden_ratio": 54,
       "eyes": 72,
       "nose": 40,
@@ -6972,6 +7103,9 @@
       "contour": 73
     },
     "thumbnail": "data/thumbnails/celeb_c493e8ad.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 23,
     "birthDate": "2002-08-21",
     "embedding": [
@@ -7123,7 +7257,7 @@
     "gender": "female",
     "score": 56.8,
     "details": {
-      "symmetry": 61,
+      "symmetry": 67,
       "golden_ratio": 50,
       "eyes": 81,
       "nose": 44,
@@ -7131,6 +7265,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_b882082b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-05-26",
     "embedding": [
@@ -7282,7 +7419,7 @@
     "gender": "male",
     "score": 56.6,
     "details": {
-      "symmetry": 63,
+      "symmetry": 68,
       "golden_ratio": 46,
       "eyes": 94,
       "nose": 37,
@@ -7290,6 +7427,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_e9ce073c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 1500000,
@@ -7442,7 +7582,7 @@
     "gender": "male",
     "score": 56.5,
     "details": {
-      "symmetry": 7,
+      "symmetry": 73,
       "golden_ratio": 51,
       "eyes": 65,
       "nose": 42,
@@ -7450,6 +7590,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1979-02-09",
     "embedding": [
@@ -7598,7 +7741,7 @@
     "gender": "female",
     "score": 56.5,
     "details": {
-      "symmetry": 51,
+      "symmetry": 74,
       "golden_ratio": 41,
       "eyes": 89,
       "nose": 61,
@@ -7606,6 +7749,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_96872d3c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "sns": {
       "instagram": 1500000
@@ -7757,7 +7903,7 @@
     "gender": "female",
     "score": 56.5,
     "details": {
-      "symmetry": 40,
+      "symmetry": 72,
       "golden_ratio": 47,
       "eyes": 91,
       "nose": 45,
@@ -7765,6 +7911,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "sns": {
       "instagram": 3500000,
@@ -7918,7 +8067,7 @@
     "gender": "female",
     "score": 56.4,
     "details": {
-      "symmetry": 3,
+      "symmetry": 68,
       "golden_ratio": 47,
       "eyes": 63,
       "nose": 60,
@@ -7926,6 +8075,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_a199a34e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-10-13",
     "embedding": [
@@ -8074,7 +8226,7 @@
     "gender": "male",
     "score": 56.4,
     "details": {
-      "symmetry": 89,
+      "symmetry": 72,
       "golden_ratio": 41,
       "eyes": 88,
       "nose": 53,
@@ -8082,6 +8234,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_0025540b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "birthDate": "1982-12-24",
     "embedding": [
@@ -8230,7 +8385,7 @@
     "gender": "female",
     "score": 56.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 45,
       "eyes": 85,
       "nose": 45,
@@ -8238,6 +8393,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_e6f89634.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 40,
     "sns": {},
     "totalFollowers": 0,
@@ -8387,7 +8545,7 @@
     "gender": "female",
     "score": 56.2,
     "details": {
-      "symmetry": 20,
+      "symmetry": 66,
       "golden_ratio": 47,
       "eyes": 79,
       "nose": 37,
@@ -8395,6 +8553,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_10323a2d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1978-10-02",
     "embedding": [
@@ -8543,7 +8704,7 @@
     "gender": "male",
     "score": 56.2,
     "details": {
-      "symmetry": 19,
+      "symmetry": 56,
       "golden_ratio": 51,
       "eyes": 74,
       "nose": 39,
@@ -8551,6 +8712,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_ecb23943.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-12-18",
     "embedding": [
@@ -8702,7 +8866,7 @@
     "gender": "male",
     "score": 56.1,
     "details": {
-      "symmetry": 44,
+      "symmetry": 64,
       "golden_ratio": 47,
       "eyes": 67,
       "nose": 45,
@@ -8710,6 +8874,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_b9317c7d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 56,
     "birthDate": "1969-04-26",
     "embedding": [
@@ -8858,7 +9025,7 @@
     "gender": "female",
     "score": 56.1,
     "details": {
-      "symmetry": 80,
+      "symmetry": 72,
       "golden_ratio": 42,
       "eyes": 93,
       "nose": 41,
@@ -8866,6 +9033,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_a969f119.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 23,
     "sns": {
       "instagram": 500000
@@ -9017,7 +9187,7 @@
     "gender": "female",
     "score": 56.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 30,
       "golden_ratio": 56,
       "eyes": 71,
       "nose": 41,
@@ -9025,6 +9195,9 @@
       "contour": 53
     },
     "thumbnail": "data/thumbnails/celeb_375eb4ac.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-10-17",
     "embedding": [
@@ -9176,7 +9349,7 @@
     "gender": "female",
     "score": 56.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 44,
       "eyes": 92,
       "nose": 41,
@@ -9184,6 +9357,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_9ccb3b96.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 30,
     "sns": {
       "instagram": 5000000
@@ -9335,7 +9511,7 @@
     "gender": "male",
     "score": 55.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 74,
       "golden_ratio": 48,
       "eyes": 91,
       "nose": 42,
@@ -9343,6 +9519,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_9d78d26e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1983-09-03",
     "embedding": [
@@ -9491,7 +9670,7 @@
     "gender": "female",
     "score": 55.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 63,
       "golden_ratio": 40,
       "eyes": 89,
       "nose": 62,
@@ -9499,6 +9678,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_2267bb69.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "sns": {
       "instagram": 500000,
@@ -9652,7 +9834,7 @@
     "gender": "female",
     "score": 55.9,
     "details": {
-      "symmetry": 58,
+      "symmetry": 68,
       "golden_ratio": 45,
       "eyes": 83,
       "nose": 46,
@@ -9660,6 +9842,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_1b300c1e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 21,
     "sns": {},
     "totalFollowers": 0,
@@ -9809,7 +9994,7 @@
     "gender": "male",
     "score": 55.7,
     "details": {
-      "symmetry": 51,
+      "symmetry": 61,
       "golden_ratio": 50,
       "eyes": 68,
       "nose": 50,
@@ -9817,6 +10002,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_3d3c0a3f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-07-04",
     "embedding": [
@@ -9965,7 +10153,7 @@
     "gender": "male",
     "score": 55.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 65,
       "golden_ratio": 70,
       "eyes": 44,
       "nose": 37,
@@ -9973,6 +10161,9 @@
       "contour": 70
     },
     "thumbnail": "data/thumbnails/celeb_1a37ab4a.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-10-24",
     "embedding": [
@@ -10124,7 +10315,7 @@
     "gender": "female",
     "score": 55.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 71,
       "golden_ratio": 42,
       "eyes": 86,
       "nose": 53,
@@ -10132,6 +10323,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_4e17f725.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "sns": {},
     "totalFollowers": 0,
@@ -10281,7 +10475,7 @@
     "gender": "female",
     "score": 55.6,
     "details": {
-      "symmetry": 41,
+      "symmetry": 72,
       "golden_ratio": 44,
       "eyes": 95,
       "nose": 36,
@@ -10289,6 +10483,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_5af63ed2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "sns": {
       "instagram": 15000000,
@@ -10444,7 +10641,7 @@
     "gender": "male",
     "score": 55.6,
     "details": {
-      "symmetry": 51,
+      "symmetry": 63,
       "golden_ratio": 48,
       "eyes": 54,
       "nose": 50,
@@ -10452,6 +10649,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_255fb357.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 55,
     "birthDate": "1971-03-30",
     "embedding": [
@@ -10600,7 +10800,7 @@
     "gender": "male",
     "score": 55.6,
     "details": {
-      "symmetry": 23,
+      "symmetry": 59,
       "golden_ratio": 49,
       "eyes": 72,
       "nose": 44,
@@ -10608,6 +10808,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_babcad9f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-06-27",
     "embedding": [
@@ -10756,7 +10959,7 @@
     "gender": "male",
     "score": 55.6,
     "details": {
-      "symmetry": 49,
+      "symmetry": 68,
       "golden_ratio": 47,
       "eyes": 83,
       "nose": 35,
@@ -10764,6 +10967,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_c95f4e59.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 22,
     "birthDate": "2003-06-27",
     "embedding": [
@@ -10915,7 +11121,7 @@
     "gender": "female",
     "score": 55.5,
     "details": {
-      "symmetry": 68,
+      "symmetry": 74,
       "golden_ratio": 41,
       "eyes": 92,
       "nose": 46,
@@ -10923,6 +11129,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_62dc0df1.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 41,
     "birthDate": "1985-03-28",
     "embedding": [
@@ -11074,7 +11283,7 @@
     "gender": "male",
     "score": 55.4,
     "details": {
-      "symmetry": 54,
+      "symmetry": 68,
       "golden_ratio": 43,
       "eyes": 85,
       "nose": 45,
@@ -11082,6 +11291,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_aab4c683.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-08-18",
     "embedding": [
@@ -11230,7 +11442,7 @@
     "gender": "female",
     "score": 55.4,
     "details": {
-      "symmetry": 14,
+      "symmetry": 73,
       "golden_ratio": 41,
       "eyes": 93,
       "nose": 37,
@@ -11238,6 +11450,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_c60afb96.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {
       "instagram": 300000
@@ -11389,7 +11604,7 @@
     "gender": "female",
     "score": 55.4,
     "details": {
-      "symmetry": 47,
+      "symmetry": 64,
       "golden_ratio": 43,
       "eyes": 95,
       "nose": 47,
@@ -11397,6 +11612,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_42b5c774.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "sns": {
       "instagram": 1500000,
@@ -11549,7 +11767,7 @@
     "gender": "male",
     "score": 55.4,
     "details": {
-      "symmetry": 15,
+      "symmetry": 73,
       "golden_ratio": 53,
       "eyes": 71,
       "nose": 38,
@@ -11557,6 +11775,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_dc014b65.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1996-08-24",
     "embedding": [
@@ -11708,7 +11929,7 @@
     "gender": "male",
     "score": 55.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 59,
       "golden_ratio": 46,
       "eyes": 61,
       "nose": 41,
@@ -11716,6 +11937,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_f45c2de4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 55,
     "birthDate": "1970-05-15",
     "embedding": [
@@ -11867,7 +12091,7 @@
     "gender": "female",
     "score": 55.3,
     "details": {
-      "symmetry": 80,
+      "symmetry": 69,
       "golden_ratio": 46,
       "eyes": 64,
       "nose": 45,
@@ -11875,6 +12099,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_f089f98e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "sns": {
       "youtube": 1500000,
@@ -12027,7 +12254,7 @@
     "gender": "male",
     "score": 55.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 48,
       "eyes": 96,
       "nose": 43,
@@ -12035,6 +12262,9 @@
       "contour": 76
     },
     "thumbnail": "data/thumbnails/celeb_ad40f3ba.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "birthDate": "2001-11-03",
     "embedding": [
@@ -12186,7 +12416,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
-      "symmetry": 60,
+      "symmetry": 73,
       "golden_ratio": 45,
       "eyes": 69,
       "nose": 48,
@@ -12194,6 +12424,9 @@
       "contour": 95
     },
     "thumbnail": "data/thumbnails/celeb_03461ce3.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 49,
     "birthDate": "1976-06-06",
     "embedding": [
@@ -12342,7 +12575,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
-      "symmetry": 50,
+      "symmetry": 73,
       "golden_ratio": 42,
       "eyes": 93,
       "nose": 39,
@@ -12350,6 +12583,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_95decd5f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1983-08-30",
     "embedding": [
@@ -12498,7 +12734,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
-      "symmetry": 39,
+      "symmetry": 60,
       "golden_ratio": 51,
       "eyes": 53,
       "nose": 40,
@@ -12506,6 +12742,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_b554f29d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "birthDate": "1997-10-16",
     "embedding": [
@@ -12657,7 +12896,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
-      "symmetry": 33,
+      "symmetry": 62,
       "golden_ratio": 46,
       "eyes": 83,
       "nose": 39,
@@ -12665,6 +12904,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_b59422ac.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-12-08",
     "embedding": [
@@ -12813,7 +13055,7 @@
     "gender": "male",
     "score": 55.1,
     "details": {
-      "symmetry": 93,
+      "symmetry": 76,
       "golden_ratio": 47,
       "eyes": 51,
       "nose": 43,
@@ -12821,6 +13063,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_211afab2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 38,
     "sns": {
       "instagram": 800000,
@@ -12974,7 +13219,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 77,
       "golden_ratio": 43,
       "eyes": 83,
       "nose": 43,
@@ -12982,6 +13227,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_5fb19187.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "birthDate": "1993-03-18",
     "embedding": [
@@ -13133,7 +13381,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 43,
       "eyes": 71,
       "nose": 49,
@@ -13141,6 +13389,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_36eae98d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 4500000,
@@ -13293,7 +13544,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 44,
       "eyes": 89,
       "nose": 48,
@@ -13301,6 +13552,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "twitter": 3000000,
@@ -13454,7 +13708,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 74,
       "golden_ratio": 41,
       "eyes": 80,
       "nose": 37,
@@ -13462,6 +13716,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_ef0e4ead.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 25,
     "sns": {},
     "totalFollowers": 0,
@@ -13612,7 +13869,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 55,
       "golden_ratio": 46,
       "eyes": 93,
       "nose": 50,
@@ -13620,6 +13877,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_4b9b9245.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "sns": {
       "instagram": 3000000
@@ -13771,7 +14031,7 @@
     "gender": "male",
     "score": 55.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 66,
       "golden_ratio": 45,
       "eyes": 81,
       "nose": 50,
@@ -13779,6 +14039,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_0677d652.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 2800000
@@ -13930,7 +14193,7 @@
     "gender": "male",
     "score": 55.0,
     "details": {
-      "symmetry": 59,
+      "symmetry": 73,
       "golden_ratio": 38,
       "eyes": 86,
       "nose": 35,
@@ -13938,6 +14201,9 @@
       "contour": 94
     },
     "thumbnail": "data/thumbnails/celeb_7e883dd6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 23,
     "sns": {},
     "totalFollowers": 0,
@@ -14088,7 +14354,7 @@
     "gender": "female",
     "score": 54.9,
     "details": {
-      "symmetry": 40,
+      "symmetry": 71,
       "golden_ratio": 45,
       "eyes": 78,
       "nose": 33,
@@ -14096,6 +14362,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_450d8e3d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 50,
     "birthDate": "1976-01-12",
     "embedding": [
@@ -14244,7 +14513,7 @@
     "gender": "female",
     "score": 54.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 45,
       "eyes": 80,
       "nose": 31,
@@ -14252,6 +14521,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_51f05250.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 3000000,
@@ -14404,7 +14676,7 @@
     "gender": "male",
     "score": 54.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 61,
       "golden_ratio": 43,
       "eyes": 87,
       "nose": 37,
@@ -14412,6 +14684,9 @@
       "contour": 75
     },
     "thumbnail": "data/thumbnails/celeb_00573e3e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "birthDate": "1997-12-17",
     "embedding": [
@@ -14563,7 +14838,7 @@
     "gender": "female",
     "score": 54.9,
     "details": {
-      "symmetry": 66,
+      "symmetry": 72,
       "golden_ratio": 40,
       "eyes": 95,
       "nose": 48,
@@ -14571,6 +14846,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 23,
     "sns": {
       "instagram": 1200000
@@ -14722,7 +15000,7 @@
     "gender": "male",
     "score": 54.8,
     "details": {
-      "symmetry": 40,
+      "symmetry": 73,
       "golden_ratio": 40,
       "eyes": 70,
       "nose": 41,
@@ -14730,6 +15008,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_8580af3e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1997-02-25",
     "embedding": [
@@ -14881,7 +15162,7 @@
     "gender": "female",
     "score": 54.8,
     "details": {
-      "symmetry": 25,
+      "symmetry": 73,
       "golden_ratio": 43,
       "eyes": 87,
       "nose": 50,
@@ -14889,6 +15170,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_8c89a925.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 22,
     "sns": {
       "twitter": 100000
@@ -15041,7 +15325,7 @@
     "gender": "female",
     "score": 54.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 42,
       "eyes": 71,
       "nose": 55,
@@ -15049,6 +15333,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_823e1d4c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {
       "instagram": 500000,
@@ -15202,7 +15489,7 @@
     "gender": "male",
     "score": 54.7,
     "details": {
-      "symmetry": 46,
+      "symmetry": 73,
       "golden_ratio": 46,
       "eyes": 57,
       "nose": 46,
@@ -15210,6 +15497,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_5b4eb7b4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1983-05-09",
     "embedding": [
@@ -15361,7 +15651,7 @@
     "gender": "female",
     "score": 54.6,
     "details": {
-      "symmetry": 87,
+      "symmetry": 78,
       "golden_ratio": 45,
       "eyes": 75,
       "nose": 33,
@@ -15369,6 +15659,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_37e98952.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1997-04-02",
     "embedding": [
@@ -15517,7 +15810,7 @@
     "gender": "female",
     "score": 54.6,
     "details": {
-      "symmetry": 37,
+      "symmetry": 73,
       "golden_ratio": 44,
       "eyes": 95,
       "nose": 39,
@@ -15525,6 +15818,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_7dfa2df4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {
       "instagram": 6500000,
@@ -15677,7 +15973,7 @@
     "gender": "male",
     "score": 54.6,
     "details": {
-      "symmetry": 13,
+      "symmetry": 78,
       "golden_ratio": 44,
       "eyes": 78,
       "nose": 38,
@@ -15685,6 +15981,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_991b93e0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 40,
     "birthDate": "1986-01-09",
     "embedding": [
@@ -15833,7 +16132,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 74,
       "golden_ratio": 44,
       "eyes": 76,
       "nose": 49,
@@ -15841,6 +16140,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_23652c2f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 54,
     "birthDate": "1971-10-23",
     "embedding": [
@@ -15989,7 +16291,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 51,
       "golden_ratio": 44,
       "eyes": 86,
       "nose": 38,
@@ -15997,6 +16299,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_dff994bc.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-11-28",
     "embedding": [
@@ -16145,7 +16450,7 @@
     "gender": "female",
     "score": 54.5,
     "details": {
-      "symmetry": 29,
+      "symmetry": 69,
       "golden_ratio": 41,
       "eyes": 84,
       "nose": 44,
@@ -16153,6 +16458,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_f2ad96f0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 38,
     "sns": {
       "instagram": 6500000
@@ -16304,7 +16612,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 71,
       "golden_ratio": 45,
       "eyes": 69,
       "nose": 48,
@@ -16312,6 +16620,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_37780a00.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 44,
     "birthDate": "1982-01-25",
     "embedding": [
@@ -16460,7 +16771,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 73,
       "golden_ratio": 43,
       "eyes": 72,
       "nose": 38,
@@ -16468,6 +16779,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_783a8bb7.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-11-10",
     "embedding": [
@@ -16619,7 +16933,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 53,
       "golden_ratio": 51,
       "eyes": 81,
       "nose": 36,
@@ -16627,6 +16941,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_d0fde418.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1984-01-18",
     "embedding": [
@@ -16778,7 +17095,7 @@
     "gender": "female",
     "score": 54.5,
     "details": {
-      "symmetry": 55,
+      "symmetry": 65,
       "golden_ratio": 47,
       "eyes": 62,
       "nose": 49,
@@ -16786,6 +17103,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_06f73f76.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 1200000
@@ -16937,7 +17257,7 @@
     "gender": "female",
     "score": 54.4,
     "details": {
-      "symmetry": 60,
+      "symmetry": 68,
       "golden_ratio": 43,
       "eyes": 86,
       "nose": 45,
@@ -16945,6 +17265,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_b540e278.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 86,
     "birthDate": "1940-02-06",
     "embedding": [
@@ -17093,7 +17416,7 @@
     "gender": "male",
     "score": 54.4,
     "details": {
-      "symmetry": 31,
+      "symmetry": 71,
       "golden_ratio": 45,
       "eyes": 52,
       "nose": 47,
@@ -17101,6 +17424,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_4b3b4015.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "birthDate": "1994-03-01",
     "embedding": [
@@ -17252,7 +17578,7 @@
     "gender": "male",
     "score": 54.4,
     "details": {
-      "symmetry": 17,
+      "symmetry": 73,
       "golden_ratio": 40,
       "eyes": 84,
       "nose": 32,
@@ -17260,6 +17586,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_685a067b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 46,
     "sns": {},
     "totalFollowers": 0,
@@ -17409,7 +17738,7 @@
     "gender": "female",
     "score": 54.3,
     "details": {
-      "symmetry": 22,
+      "symmetry": 71,
       "golden_ratio": 40,
       "eyes": 79,
       "nose": 39,
@@ -17417,6 +17746,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_f5977b60.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 1200000
@@ -17568,7 +17900,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
-      "symmetry": 50,
+      "symmetry": 65,
       "golden_ratio": 45,
       "eyes": 86,
       "nose": 37,
@@ -17576,6 +17908,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_7cee5860.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 41,
     "birthDate": "1984-10-15",
     "embedding": [
@@ -17724,7 +18059,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
-      "symmetry": 40,
+      "symmetry": 75,
       "golden_ratio": 40,
       "eyes": 94,
       "nose": 31,
@@ -17732,6 +18067,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_f1490cc6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1988-06-02",
     "embedding": [
@@ -17883,7 +18221,7 @@
     "gender": "female",
     "score": 54.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 73,
       "golden_ratio": 38,
       "eyes": 77,
       "nose": 44,
@@ -17891,6 +18229,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_f59368b4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "sns": {
       "instagram": 1800000
@@ -18042,7 +18383,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
-      "symmetry": 1,
+      "symmetry": 75,
       "golden_ratio": 42,
       "eyes": 82,
       "nose": 32,
@@ -18050,6 +18391,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_a347c13c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 56,
     "birthDate": "1970-03-31",
     "embedding": [
@@ -18198,7 +18542,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
-      "symmetry": 38,
+      "symmetry": 59,
       "golden_ratio": 50,
       "eyes": 48,
       "nose": 41,
@@ -18206,6 +18550,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_62e5564f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1984-02-09",
     "embedding": [
@@ -18357,7 +18704,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
-      "symmetry": 4,
+      "symmetry": 70,
       "golden_ratio": 42,
       "eyes": 83,
       "nose": 29,
@@ -18365,6 +18712,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_40c3c413.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 30,
     "sns": {
       "instagram": 4000000,
@@ -18517,7 +18867,7 @@
     "gender": "female",
     "score": 54.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 64,
       "golden_ratio": 48,
       "eyes": 64,
       "nose": 49,
@@ -18525,6 +18875,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_9df49b86.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "birthDate": "1993-02-23",
     "embedding": [
@@ -18676,7 +19029,7 @@
     "gender": "male",
     "score": 54.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 43,
       "eyes": 68,
       "nose": 44,
@@ -18684,6 +19037,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_8798b78a.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 70,
     "birthDate": "1955-06-01",
     "embedding": [
@@ -18835,7 +19191,7 @@
     "gender": "male",
     "score": 54.1,
     "details": {
-      "symmetry": 58,
+      "symmetry": 74,
       "golden_ratio": 40,
       "eyes": 87,
       "nose": 41,
@@ -18843,6 +19199,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_a16019e6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "birthDate": "1993-07-30",
     "embedding": [
@@ -18994,7 +19353,7 @@
     "gender": "female",
     "score": 54.0,
     "details": {
-      "symmetry": 62,
+      "symmetry": 72,
       "golden_ratio": 39,
       "eyes": 97,
       "nose": 38,
@@ -19002,6 +19361,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_c2e1fedf.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 600000,
@@ -19154,7 +19516,7 @@
     "gender": "male",
     "score": 54.0,
     "details": {
-      "symmetry": 33,
+      "symmetry": 61,
       "golden_ratio": 48,
       "eyes": 59,
       "nose": 47,
@@ -19162,6 +19524,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_1434465b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 72,
     "birthDate": "1953-12-09",
     "embedding": [
@@ -19313,7 +19678,7 @@
     "gender": "male",
     "score": 53.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 58,
       "golden_ratio": 45,
       "eyes": 75,
       "nose": 46,
@@ -19321,6 +19686,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_ff08aeb3.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "birthDate": "1997-05-20",
     "embedding": [
@@ -19472,7 +19840,7 @@
     "gender": "female",
     "score": 53.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 60,
       "golden_ratio": 40,
       "eyes": 89,
       "nose": 39,
@@ -19480,6 +19848,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_b6c6cc16.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 41,
     "birthDate": "1984-06-13",
     "embedding": [
@@ -19631,7 +20002,7 @@
     "gender": "male",
     "score": 53.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 75,
       "golden_ratio": 36,
       "eyes": 81,
       "nose": 43,
@@ -19639,6 +20010,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_4abd01c6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 62,
     "birthDate": "1963-05-05",
     "embedding": [
@@ -19790,7 +20164,7 @@
     "gender": "female",
     "score": 53.9,
     "details": {
-      "symmetry": 52,
+      "symmetry": 68,
       "golden_ratio": 44,
       "eyes": 84,
       "nose": 32,
@@ -19798,6 +20172,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_9f1cbcdf.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 35,
     "birthDate": "1990-10-17",
     "embedding": [
@@ -19949,7 +20326,7 @@
     "gender": "male",
     "score": 53.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 64,
       "golden_ratio": 41,
       "eyes": 90,
       "nose": 28,
@@ -19957,6 +20334,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_2b4426ce.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 30,
     "sns": {},
     "totalFollowers": 0,
@@ -20107,7 +20487,7 @@
     "gender": "female",
     "score": 53.8,
     "details": {
-      "symmetry": 43,
+      "symmetry": 65,
       "golden_ratio": 44,
       "eyes": 77,
       "nose": 49,
@@ -20115,6 +20495,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_da9144e2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "sns": {
       "instagram": 1000000
@@ -20267,7 +20650,7 @@
     "gender": "female",
     "score": 53.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 42,
       "eyes": 75,
       "nose": 41,
@@ -20275,6 +20658,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 5500000,
@@ -20427,7 +20813,7 @@
     "gender": "male",
     "score": 53.7,
     "details": {
-      "symmetry": 45,
+      "symmetry": 73,
       "golden_ratio": 42,
       "eyes": 64,
       "nose": 50,
@@ -20435,6 +20821,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_fbf39237.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 51,
     "birthDate": "1974-10-08",
     "embedding": [
@@ -20586,7 +20975,7 @@
     "gender": "female",
     "score": 53.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 49,
       "golden_ratio": 42,
       "eyes": 60,
       "nose": 41,
@@ -20594,6 +20983,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_62072a2d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 25,
     "birthDate": "2000-07-07",
     "embedding": [
@@ -20745,7 +21137,7 @@
     "gender": "female",
     "score": 53.7,
     "details": {
-      "symmetry": 31,
+      "symmetry": 64,
       "golden_ratio": 44,
       "eyes": 82,
       "nose": 37,
@@ -20753,6 +21145,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_6eb00b9d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 3500000,
@@ -20905,7 +21300,7 @@
     "gender": "male",
     "score": 53.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 46,
       "eyes": 49,
       "nose": 39,
@@ -20913,6 +21308,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_87212365.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 40,
     "birthDate": "1986-01-12",
     "embedding": [
@@ -21064,7 +21462,7 @@
     "gender": "male",
     "score": 53.7,
     "details": {
-      "symmetry": 53,
+      "symmetry": 72,
       "golden_ratio": 41,
       "eyes": 85,
       "nose": 55,
@@ -21072,6 +21470,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_0d0c4382.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 60,
     "birthDate": "1965-05-13",
     "embedding": [
@@ -21220,7 +21621,7 @@
     "gender": "female",
     "score": 53.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 43,
       "eyes": 84,
       "nose": 43,
@@ -21228,6 +21629,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_c3f23293.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "sns": {
       "instagram": 700000
@@ -21379,7 +21783,7 @@
     "gender": "male",
     "score": 53.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 64,
       "golden_ratio": 42,
       "eyes": 78,
       "nose": 43,
@@ -21387,6 +21791,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_820e672f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "birthDate": "1983-03-29",
     "embedding": [
@@ -21535,7 +21942,7 @@
     "gender": "male",
     "score": 53.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 76,
       "golden_ratio": 43,
       "eyes": 75,
       "nose": 39,
@@ -21543,6 +21950,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_6df4c94b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 51,
     "birthDate": "1974-06-18",
     "embedding": [
@@ -21691,7 +22101,7 @@
     "gender": "male",
     "score": 53.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 40,
       "eyes": 90,
       "nose": 31,
@@ -21699,6 +22109,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_afed590f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "sns": {
       "instagram": 5000000,
@@ -21852,7 +22265,7 @@
     "gender": "female",
     "score": 53.5,
     "details": {
-      "symmetry": 20,
+      "symmetry": 72,
       "golden_ratio": 41,
       "eyes": 79,
       "nose": 39,
@@ -21860,6 +22273,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_b4a8a800.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "sns": {
       "instagram": 3200000
@@ -22011,7 +22427,7 @@
     "gender": "female",
     "score": 53.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 68,
       "golden_ratio": 46,
       "eyes": 87,
       "nose": 34,
@@ -22019,6 +22435,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_a07f8182.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {},
     "totalFollowers": 0,
@@ -22169,7 +22588,7 @@
     "gender": "female",
     "score": 53.4,
     "details": {
-      "symmetry": 3,
+      "symmetry": 74,
       "golden_ratio": 39,
       "eyes": 98,
       "nose": 40,
@@ -22177,6 +22596,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_40796ce8.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "birthDate": "1991-07-18",
     "embedding": [
@@ -22325,7 +22747,7 @@
     "gender": "female",
     "score": 53.4,
     "details": {
-      "symmetry": 34,
+      "symmetry": 73,
       "golden_ratio": 42,
       "eyes": 69,
       "nose": 49,
@@ -22333,6 +22755,9 @@
       "contour": 94
     },
     "thumbnail": "data/thumbnails/celeb_67595c9c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 30,
     "sns": {
       "instagram": 3800000,
@@ -22485,7 +22910,7 @@
     "gender": "male",
     "score": 53.4,
     "details": {
-      "symmetry": 43,
+      "symmetry": 67,
       "golden_ratio": 46,
       "eyes": 62,
       "nose": 29,
@@ -22493,6 +22918,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_f7f02f46.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 63,
     "birthDate": "1962-12-23",
     "embedding": [
@@ -22644,7 +23072,7 @@
     "gender": "male",
     "score": 53.4,
     "details": {
-      "symmetry": 36,
+      "symmetry": 64,
       "golden_ratio": 43,
       "eyes": 89,
       "nose": 31,
@@ -22652,6 +23080,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_5420fbe2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 58,
     "birthDate": "1968-02-17",
     "embedding": [
@@ -22803,7 +23234,7 @@
     "gender": "female",
     "score": 53.3,
     "details": {
-      "symmetry": 22,
+      "symmetry": 74,
       "golden_ratio": 42,
       "eyes": 93,
       "nose": 44,
@@ -22811,6 +23242,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_708c9315.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "sns": {
       "instagram": 7500000,
@@ -22963,7 +23397,7 @@
     "gender": "male",
     "score": 53.3,
     "details": {
-      "symmetry": 8,
+      "symmetry": 72,
       "golden_ratio": 40,
       "eyes": 75,
       "nose": 43,
@@ -22971,6 +23405,9 @@
       "contour": 94
     },
     "thumbnail": "data/thumbnails/celeb_22213c9f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1983-06-17",
     "embedding": [
@@ -23119,7 +23556,7 @@
     "gender": "male",
     "score": 53.3,
     "details": {
-      "symmetry": 45,
+      "symmetry": 62,
       "golden_ratio": 52,
       "eyes": 35,
       "nose": 41,
@@ -23127,6 +23564,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_56c2f4d9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-10-14",
     "embedding": [
@@ -23275,7 +23715,7 @@
     "gender": "male",
     "score": 53.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 68,
       "golden_ratio": 43,
       "eyes": 67,
       "nose": 44,
@@ -23283,6 +23723,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_edeae298.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "birthDate": "1991-11-23",
     "embedding": [
@@ -23434,7 +23877,7 @@
     "gender": "male",
     "score": 53.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 74,
       "golden_ratio": 38,
       "eyes": 83,
       "nose": 36,
@@ -23442,6 +23885,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_34c4561b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "sns": {
       "instagram": 2500000,
@@ -23594,7 +24040,7 @@
     "gender": "female",
     "score": 53.2,
     "details": {
-      "symmetry": 68,
+      "symmetry": 72,
       "golden_ratio": 38,
       "eyes": 93,
       "nose": 37,
@@ -23602,6 +24048,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_38127b4e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 38,
     "sns": {
       "instagram": 1500000
@@ -23753,7 +24202,7 @@
     "gender": "male",
     "score": 53.2,
     "details": {
-      "symmetry": 42,
+      "symmetry": 63,
       "golden_ratio": 47,
       "eyes": 29,
       "nose": 42,
@@ -23761,6 +24210,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_c56489c7.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "birthDate": "1991-11-05",
     "embedding": [
@@ -23912,7 +24364,7 @@
     "gender": "male",
     "score": 53.2,
     "details": {
-      "symmetry": 94,
+      "symmetry": 73,
       "golden_ratio": 45,
       "eyes": 39,
       "nose": 40,
@@ -23920,6 +24372,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_fa7bc9b7.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 84,
     "birthDate": "1941-05-07",
     "embedding": [
@@ -24068,7 +24523,7 @@
     "gender": "female",
     "score": 53.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 42,
       "eyes": 70,
       "nose": 46,
@@ -24076,6 +24531,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_4ff5e7f3.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 2000000,
@@ -24230,7 +24688,7 @@
     "gender": "female",
     "score": 53.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 76,
       "golden_ratio": 39,
       "eyes": 73,
       "nose": 36,
@@ -24238,6 +24696,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "sns": {
       "instagram": 3500000,
@@ -24389,7 +24850,6 @@
     "category": "idol",
     "score": 53.0,
     "details": {
-      "symmetry": 19,
       "golden_ratio": 44,
       "eyes": 73,
       "nose": 49,
@@ -24415,7 +24875,8 @@
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_8a939d4b",
@@ -24424,7 +24885,7 @@
     "gender": "female",
     "score": 53.0,
     "details": {
-      "symmetry": 14,
+      "symmetry": 74,
       "golden_ratio": 39,
       "eyes": 68,
       "nose": 45,
@@ -24432,6 +24893,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_8a939d4b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "sns": {
       "instagram": 1200000
@@ -24583,7 +25047,7 @@
     "gender": "male",
     "score": 52.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 52,
       "golden_ratio": 42,
       "eyes": 83,
       "nose": 34,
@@ -24591,6 +25055,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_704a9262.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 27,
     "birthDate": "1998-08-28",
     "embedding": [
@@ -24742,7 +25209,7 @@
     "gender": "female",
     "score": 52.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 31,
       "golden_ratio": 55,
       "eyes": 19,
       "nose": 33,
@@ -24750,6 +25217,9 @@
       "contour": 73
     },
     "thumbnail": "data/thumbnails/celeb_710cb7f2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 81,
     "birthDate": "1945-03-13",
     "embedding": [
@@ -24898,7 +25368,7 @@
     "gender": "male",
     "score": 52.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 59,
       "golden_ratio": 40,
       "eyes": 81,
       "nose": 33,
@@ -24906,6 +25376,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_55e7d430.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "birthDate": "1993-02-09",
     "embedding": [
@@ -25057,7 +25530,7 @@
     "gender": "female",
     "score": 52.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 70,
       "golden_ratio": 45,
       "eyes": 44,
       "nose": 50,
@@ -25065,6 +25538,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_39b9baef.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {},
     "totalFollowers": 0,
@@ -25215,7 +25691,7 @@
     "gender": "male",
     "score": 52.7,
     "details": {
-      "symmetry": 60,
+      "symmetry": 69,
       "golden_ratio": 43,
       "eyes": 94,
       "nose": 31,
@@ -25223,6 +25699,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_207654ff.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 26,
     "birthDate": "1999-05-12",
     "embedding": [
@@ -25374,7 +25853,7 @@
     "gender": "female",
     "score": 52.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 51,
       "golden_ratio": 46,
       "eyes": 72,
       "nose": 35,
@@ -25382,6 +25861,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_3ba08e03.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "sns": {
       "instagram": 2500000
@@ -25534,7 +26016,7 @@
     "gender": "male",
     "score": 52.7,
     "details": {
-      "symmetry": 12,
+      "symmetry": 71,
       "golden_ratio": 39,
       "eyes": 66,
       "nose": 44,
@@ -25542,6 +26024,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_8d52f331.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 45,
     "birthDate": "1980-11-26",
     "embedding": [
@@ -25690,7 +26175,7 @@
     "gender": "female",
     "score": 52.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 44,
       "eyes": 90,
       "nose": 29,
@@ -25698,6 +26183,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_b259d958.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 5000000,
@@ -25851,7 +26339,7 @@
     "gender": "male",
     "score": 52.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 57,
       "golden_ratio": 48,
       "eyes": 61,
       "nose": 44,
@@ -25859,6 +26347,9 @@
       "contour": 72
     },
     "thumbnail": "data/thumbnails/celeb_b79964f2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 26,
     "sns": {
       "instagram": 800000
@@ -26010,7 +26501,7 @@
     "gender": "male",
     "score": 52.6,
     "details": {
-      "symmetry": 56,
+      "symmetry": 73,
       "golden_ratio": 39,
       "eyes": 77,
       "nose": 48,
@@ -26018,6 +26509,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_43be9905.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 54,
     "birthDate": "1971-10-08",
     "embedding": [
@@ -26169,7 +26663,7 @@
     "gender": "male",
     "score": 52.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 63,
       "golden_ratio": 50,
       "eyes": 50,
       "nose": 38,
@@ -26177,6 +26671,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_eb6aed2c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-06-06",
     "embedding": [
@@ -26328,7 +26825,7 @@
     "gender": "male",
     "score": 52.5,
     "details": {
-      "symmetry": 8,
+      "symmetry": 76,
       "golden_ratio": 35,
       "eyes": 89,
       "nose": 39,
@@ -26336,6 +26833,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_69e73e58.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 5000000,
@@ -26488,7 +26988,7 @@
     "gender": "male",
     "score": 52.4,
     "details": {
-      "symmetry": 72,
+      "symmetry": 73,
       "golden_ratio": 40,
       "eyes": 67,
       "nose": 40,
@@ -26496,6 +26996,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_8f7c1428.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 54,
     "birthDate": "1972-02-14",
     "embedding": [
@@ -26644,7 +27147,7 @@
     "gender": "female",
     "score": 52.4,
     "details": {
-      "symmetry": 19,
+      "symmetry": 71,
       "golden_ratio": 44,
       "eyes": 57,
       "nose": 41,
@@ -26652,6 +27155,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_6d979c26.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 30,
     "sns": {
       "instagram": 2000000,
@@ -26804,7 +27310,7 @@
     "gender": "male",
     "score": 52.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 29,
       "golden_ratio": 48,
       "eyes": 71,
       "nose": 38,
@@ -26812,6 +27318,9 @@
       "contour": 68
     },
     "thumbnail": "data/thumbnails/celeb_8751c58a.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 25,
     "birthDate": "2000-06-28",
     "embedding": [
@@ -26963,7 +27472,7 @@
     "gender": "male",
     "score": 52.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 54,
       "golden_ratio": 35,
       "eyes": 85,
       "nose": 37,
@@ -26971,6 +27480,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_86a3749d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-09-16",
     "embedding": [
@@ -27119,7 +27631,7 @@
     "gender": "male",
     "score": 52.3,
     "details": {
-      "symmetry": 2,
+      "symmetry": 75,
       "golden_ratio": 42,
       "eyes": 67,
       "nose": 45,
@@ -27127,6 +27639,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_279e22d3.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "birthDate": "1991-07-29",
     "embedding": [
@@ -27278,7 +27793,7 @@
     "gender": "male",
     "score": 52.2,
     "details": {
-      "symmetry": 12,
+      "symmetry": 74,
       "golden_ratio": 43,
       "eyes": 84,
       "nose": 40,
@@ -27286,6 +27801,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_d3709fe1.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 500000
@@ -27438,7 +27956,7 @@
     "gender": "female",
     "score": 52.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 61,
       "golden_ratio": 40,
       "eyes": 81,
       "nose": 37,
@@ -27446,6 +27964,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_f7b19298.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 26,
     "sns": {
       "instagram": 800000,
@@ -27598,7 +28119,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 52,
       "golden_ratio": 40,
       "eyes": 84,
       "nose": 48,
@@ -27606,6 +28127,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_a2948e70.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 73,
     "birthDate": "1953-04-01",
     "embedding": [
@@ -27757,7 +28281,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
-      "symmetry": 10,
+      "symmetry": 71,
       "golden_ratio": 38,
       "eyes": 86,
       "nose": 44,
@@ -27765,6 +28289,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 1000000,
@@ -27918,7 +28445,7 @@
     "gender": "female",
     "score": 52.1,
     "details": {
-      "symmetry": 59,
+      "symmetry": 72,
       "golden_ratio": 42,
       "eyes": 73,
       "nose": 32,
@@ -27926,6 +28453,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_8c15652f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1978-11-25",
     "embedding": [
@@ -28074,7 +28604,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 75,
       "golden_ratio": 36,
       "eyes": 59,
       "nose": 46,
@@ -28082,6 +28612,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_13324160.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 58,
     "birthDate": "1967-09-19",
     "embedding": [
@@ -28230,7 +28763,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
-      "symmetry": 38,
+      "symmetry": 69,
       "golden_ratio": 35,
       "eyes": 83,
       "nose": 35,
@@ -28238,6 +28771,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_7614912c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-08-12",
     "embedding": [
@@ -28389,7 +28925,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 56,
       "golden_ratio": 38,
       "eyes": 77,
       "nose": 32,
@@ -28397,6 +28933,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_5d64a1bc.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1996-08-05",
     "embedding": [
@@ -28548,7 +29087,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
-      "symmetry": 39,
+      "symmetry": 71,
       "golden_ratio": 39,
       "eyes": 57,
       "nose": 48,
@@ -28556,6 +29095,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_28026792.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 44,
     "birthDate": "1982-01-05",
     "embedding": [
@@ -28707,7 +29249,7 @@
     "gender": "male",
     "score": 52.0,
     "details": {
-      "symmetry": 35,
+      "symmetry": 58,
       "golden_ratio": 41,
       "eyes": 77,
       "nose": 33,
@@ -28715,6 +29257,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_d2089ec5.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 58,
     "birthDate": "1967-09-23",
     "embedding": [
@@ -28866,7 +29411,7 @@
     "gender": "male",
     "score": 52.0,
     "details": {
-      "symmetry": 69,
+      "symmetry": 75,
       "golden_ratio": 37,
       "eyes": 72,
       "nose": 39,
@@ -28874,6 +29419,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_2a1aa1d6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 66,
     "birthDate": "1959-10-21",
     "embedding": [
@@ -29022,7 +29570,7 @@
     "gender": "male",
     "score": 52.0,
     "details": {
-      "symmetry": 80,
+      "symmetry": 73,
       "golden_ratio": 39,
       "eyes": 64,
       "nose": 48,
@@ -29030,6 +29578,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_0d36ecc9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 61,
     "birthDate": "1964-06-22",
     "embedding": [
@@ -29178,7 +29729,7 @@
     "gender": "female",
     "score": 52.0,
     "details": {
-      "symmetry": 60,
+      "symmetry": 65,
       "golden_ratio": 35,
       "eyes": 88,
       "nose": 41,
@@ -29186,6 +29737,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_4f811f29.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 23,
     "sns": {
       "twitter": 200000
@@ -29338,7 +29892,7 @@
     "gender": "male",
     "score": 51.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 50,
       "golden_ratio": 41,
       "eyes": 77,
       "nose": 35,
@@ -29346,6 +29900,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_952d9a6b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1978-09-22",
     "embedding": [
@@ -29497,7 +30054,7 @@
     "gender": "male",
     "score": 51.9,
     "details": {
-      "symmetry": 40,
+      "symmetry": 76,
       "golden_ratio": 37,
       "eyes": 49,
       "nose": 46,
@@ -29505,6 +30062,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_79de5e14.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-10-13",
     "embedding": [
@@ -29656,7 +30216,7 @@
     "gender": "male",
     "score": 51.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 65,
       "golden_ratio": 38,
       "eyes": 88,
       "nose": 35,
@@ -29664,6 +30224,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_63486bf4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1983-05-06",
     "embedding": [
@@ -29812,7 +30375,7 @@
     "gender": "female",
     "score": 51.8,
     "details": {
-      "symmetry": 21,
+      "symmetry": 71,
       "golden_ratio": 39,
       "eyes": 94,
       "nose": 35,
@@ -29820,6 +30383,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_e564607e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {
       "instagram": 200000
@@ -29972,7 +30538,7 @@
     "gender": "female",
     "score": 51.7,
     "details": {
-      "symmetry": 40,
+      "symmetry": 58,
       "golden_ratio": 44,
       "eyes": 49,
       "nose": 48,
@@ -29980,6 +30546,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_08fa3955.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "sns": {
       "instagram": 2500000,
@@ -30132,7 +30701,7 @@
     "gender": "female",
     "score": 51.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 32,
       "golden_ratio": 52,
       "eyes": 67,
       "nose": 26,
@@ -30140,6 +30709,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_3b0aa56c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "birthDate": "1998-03-15",
     "embedding": [
@@ -30288,7 +30860,7 @@
     "gender": "male",
     "score": 51.7,
     "details": {
-      "symmetry": 19,
+      "symmetry": 72,
       "golden_ratio": 34,
       "eyes": 84,
       "nose": 45,
@@ -30296,6 +30868,9 @@
       "contour": 90
     },
     "thumbnail": "data/thumbnails/celeb_3627b4a8.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 63,
     "birthDate": "1962-06-06",
     "embedding": [
@@ -30444,7 +31019,7 @@
     "gender": "female",
     "score": 51.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 40,
       "eyes": 58,
       "nose": 49,
@@ -30452,6 +31027,9 @@
       "contour": 93
     },
     "thumbnail": "data/thumbnails/celeb_66726759.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "birthDate": "1993-08-30",
     "embedding": [
@@ -30603,7 +31181,7 @@
     "gender": "male",
     "score": 51.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 63,
       "golden_ratio": 36,
       "eyes": 88,
       "nose": 32,
@@ -30611,6 +31189,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_26b24f55.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-09-29",
     "embedding": [
@@ -30762,7 +31343,7 @@
     "gender": "male",
     "score": 51.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 74,
       "golden_ratio": 46,
       "eyes": 61,
       "nose": 40,
@@ -30770,6 +31351,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_ac7524e2.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "birthDate": "1982-09-27",
     "embedding": [
@@ -30918,7 +31502,7 @@
     "gender": "female",
     "score": 51.6,
     "details": {
-      "symmetry": 25,
+      "symmetry": 65,
       "golden_ratio": 43,
       "eyes": 54,
       "nose": 38,
@@ -30926,6 +31510,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_0bb271b9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {
       "instagram": 300000,
@@ -31079,7 +31666,7 @@
     "gender": "male",
     "score": 51.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 66,
       "golden_ratio": 40,
       "eyes": 37,
       "nose": 47,
@@ -31087,6 +31674,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_c724b1b4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1996-07-22",
     "embedding": [
@@ -31238,7 +31828,7 @@
     "gender": "male",
     "score": 51.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 36,
       "golden_ratio": 42,
       "eyes": 68,
       "nose": 43,
@@ -31246,6 +31836,9 @@
       "contour": 67
     },
     "thumbnail": "data/thumbnails/celeb_7d9f8ed1.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 77,
     "birthDate": "1948-11-10",
     "embedding": [
@@ -31394,7 +31987,7 @@
     "gender": "male",
     "score": 51.4,
     "details": {
-      "symmetry": 40,
+      "symmetry": 74,
       "golden_ratio": 37,
       "eyes": 57,
       "nose": 36,
@@ -31402,6 +31995,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_f8425f32.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 62,
     "birthDate": "1963-11-04",
     "embedding": [
@@ -31550,7 +32146,7 @@
     "gender": "male",
     "score": 51.4,
     "details": {
-      "symmetry": 32,
+      "symmetry": 74,
       "golden_ratio": 38,
       "eyes": 57,
       "nose": 46,
@@ -31558,6 +32154,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_5edc166e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 45,
     "sns": {},
     "totalFollowers": 0,
@@ -31707,7 +32306,7 @@
     "gender": "male",
     "score": 51.4,
     "details": {
-      "symmetry": 34,
+      "symmetry": 69,
       "golden_ratio": 39,
       "eyes": 72,
       "nose": 49,
@@ -31715,6 +32314,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_3b910309.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "sns": {
       "instagram": 3200000,
@@ -31867,7 +32469,7 @@
     "gender": "female",
     "score": 51.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 51,
       "golden_ratio": 46,
       "eyes": 44,
       "nose": 27,
@@ -31875,6 +32477,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_348fba4a.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 23,
     "sns": {},
     "totalFollowers": 0,
@@ -32025,7 +32630,7 @@
     "gender": "male",
     "score": 51.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 50,
       "golden_ratio": 41,
       "eyes": 78,
       "nose": 35,
@@ -32033,6 +32638,9 @@
       "contour": 72
     },
     "thumbnail": "data/thumbnails/celeb_e2c9e678.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 38,
     "birthDate": "1987-05-12",
     "embedding": [
@@ -32184,7 +32792,7 @@
     "gender": "male",
     "score": 51.3,
     "details": {
-      "symmetry": 12,
+      "symmetry": 75,
       "golden_ratio": 36,
       "eyes": 92,
       "nose": 32,
@@ -32192,6 +32800,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_d6be1b1c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 57,
     "birthDate": "1968-08-23",
     "embedding": [
@@ -32343,7 +32954,7 @@
     "gender": "male",
     "score": 51.3,
     "details": {
-      "symmetry": 41,
+      "symmetry": 65,
       "golden_ratio": 42,
       "eyes": 49,
       "nose": 41,
@@ -32351,6 +32962,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_6d9f436e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1978-04-15",
     "embedding": [
@@ -32499,7 +33113,7 @@
     "gender": "male",
     "score": 51.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 54,
       "golden_ratio": 39,
       "eyes": 84,
       "nose": 31,
@@ -32507,6 +33121,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_2995aeed.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 33,
     "birthDate": "1993-03-09",
     "embedding": [
@@ -32658,7 +33275,7 @@
     "gender": "male",
     "score": 51.2,
     "details": {
-      "symmetry": 26,
+      "symmetry": 75,
       "golden_ratio": 36,
       "eyes": 78,
       "nose": 33,
@@ -32666,6 +33283,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_dd1cb774.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 67,
     "birthDate": "1958-07-22",
     "embedding": [
@@ -32817,7 +33437,7 @@
     "gender": "female",
     "score": 51.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 55,
       "golden_ratio": 39,
       "eyes": 72,
       "nose": 33,
@@ -32825,6 +33445,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_70717d55.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 68,
     "birthDate": "1957-07-17",
     "embedding": [
@@ -32973,7 +33596,7 @@
     "gender": "male",
     "score": 51.2,
     "details": {
-      "symmetry": 55,
+      "symmetry": 68,
       "golden_ratio": 51,
       "eyes": 30,
       "nose": 45,
@@ -32981,6 +33604,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_7ac63d35.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1989-03-03",
     "embedding": [
@@ -33132,7 +33758,7 @@
     "gender": "male",
     "score": 51.1,
     "details": {
-      "symmetry": 54,
+      "symmetry": 74,
       "golden_ratio": 39,
       "eyes": 36,
       "nose": 42,
@@ -33140,6 +33766,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_98636319.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 27,
     "birthDate": "1998-06-27",
     "embedding": [
@@ -33291,7 +33920,7 @@
     "gender": "male",
     "score": 51.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 39,
       "eyes": 38,
       "nose": 41,
@@ -33299,6 +33928,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_1a834022.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 32,
     "birthDate": "1993-10-05",
     "embedding": [
@@ -33450,7 +34082,7 @@
     "gender": "male",
     "score": 51.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 68,
       "golden_ratio": 38,
       "eyes": 38,
       "nose": 45,
@@ -33458,6 +34090,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_af52eb32.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 27,
     "birthDate": "1998-08-18",
     "embedding": [
@@ -33609,7 +34244,7 @@
     "gender": "male",
     "score": 51.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 43,
       "eyes": 54,
       "nose": 45,
@@ -33617,6 +34252,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_c96c2edf.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 30,
     "sns": {
       "instagram": 1000000,
@@ -33769,7 +34407,7 @@
     "gender": "male",
     "score": 51.0,
     "details": {
-      "symmetry": 29,
+      "symmetry": 58,
       "golden_ratio": 39,
       "eyes": 71,
       "nose": 50,
@@ -33777,6 +34415,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_a0d9aa25.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 44,
     "birthDate": "1981-10-09",
     "embedding": [
@@ -33925,7 +34566,7 @@
     "gender": "male",
     "score": 50.9,
     "details": {
-      "symmetry": 67,
+      "symmetry": 75,
       "golden_ratio": 35,
       "eyes": 65,
       "nose": 42,
@@ -33933,6 +34574,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_e3d6dd62.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1978-06-24",
     "embedding": [
@@ -34084,7 +34728,7 @@
     "gender": "female",
     "score": 50.9,
     "details": {
-      "symmetry": 43,
+      "symmetry": 75,
       "golden_ratio": 35,
       "eyes": 53,
       "nose": 69,
@@ -34092,6 +34736,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_abf4a056.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "sns": {
       "instagram": 4200000
@@ -34243,7 +34890,7 @@
     "gender": "male",
     "score": 50.9,
     "details": {
-      "symmetry": 67,
+      "symmetry": 75,
       "golden_ratio": 35,
       "eyes": 65,
       "nose": 42,
@@ -34251,6 +34898,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_d88c205c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 69,
     "birthDate": "1956-08-25",
     "embedding": [
@@ -34402,7 +35052,7 @@
     "gender": "male",
     "score": 50.8,
     "details": {
-      "symmetry": 39,
+      "symmetry": 74,
       "golden_ratio": 36,
       "eyes": 73,
       "nose": 36,
@@ -34410,6 +35060,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_31154454.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 57,
     "sns": {
       "instagram": 2000000,
@@ -34562,7 +35215,7 @@
     "gender": "female",
     "score": 50.8,
     "details": {
-      "symmetry": 28,
+      "symmetry": 76,
       "golden_ratio": 37,
       "eyes": 59,
       "nose": 40,
@@ -34570,6 +35223,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 41,
     "sns": {
       "instagram": 800000
@@ -34721,7 +35377,7 @@
     "gender": "male",
     "score": 50.8,
     "details": {
-      "symmetry": 15,
+      "symmetry": 49,
       "golden_ratio": 43,
       "eyes": 34,
       "nose": 39,
@@ -34729,6 +35385,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_6453e632.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 29,
     "birthDate": "1996-07-04",
     "embedding": [
@@ -34880,7 +35539,7 @@
     "gender": "female",
     "score": 50.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 48,
       "golden_ratio": 42,
       "eyes": 72,
       "nose": 28,
@@ -34888,6 +35547,9 @@
       "contour": 76
     },
     "thumbnail": "data/thumbnails/celeb_4f0039cd.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 25,
     "birthDate": "2000-04-09",
     "embedding": [
@@ -35039,7 +35701,7 @@
     "gender": "male",
     "score": 50.6,
     "details": {
-      "symmetry": 31,
+      "symmetry": 75,
       "golden_ratio": 42,
       "eyes": 53,
       "nose": 37,
@@ -35047,6 +35709,9 @@
       "contour": 92
     },
     "thumbnail": "data/thumbnails/celeb_c3302220.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 55,
     "birthDate": "1971-03-29",
     "embedding": [
@@ -35195,7 +35860,7 @@
     "gender": "male",
     "score": 50.5,
     "details": {
-      "symmetry": 39,
+      "symmetry": 70,
       "golden_ratio": 34,
       "eyes": 65,
       "nose": 50,
@@ -35203,6 +35868,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_febd48a6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 44,
     "birthDate": "1982-03-15",
     "embedding": [
@@ -35351,7 +36019,7 @@
     "gender": "male",
     "score": 50.5,
     "details": {
-      "symmetry": 39,
+      "symmetry": 70,
       "golden_ratio": 34,
       "eyes": 65,
       "nose": 50,
@@ -35359,6 +36027,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_ebf0e695.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 44,
     "birthDate": "1982-03-15",
     "embedding": [
@@ -35507,7 +36178,7 @@
     "gender": "female",
     "score": 50.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 73,
       "golden_ratio": 36,
       "eyes": 78,
       "nose": 44,
@@ -35515,6 +36186,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_dbb05ca6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 70,
     "birthDate": "1955-04-13",
     "embedding": [
@@ -35663,7 +36337,7 @@
     "gender": "male",
     "score": 50.4,
     "details": {
-      "symmetry": 41,
+      "symmetry": 70,
       "golden_ratio": 31,
       "eyes": 90,
       "nose": 41,
@@ -35671,6 +36345,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_dcf7f3fc.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-07-16",
     "embedding": [
@@ -35819,7 +36496,7 @@
     "gender": "male",
     "score": 50.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 39,
       "eyes": 64,
       "nose": 36,
@@ -35827,6 +36504,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_ebfe09fe.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-12-04",
     "embedding": [
@@ -35975,7 +36655,7 @@
     "gender": "male",
     "score": 50.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 52,
       "golden_ratio": 37,
       "eyes": 71,
       "nose": 37,
@@ -35983,6 +36663,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_3f99f4f9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "birthDate": "1991-07-11",
     "embedding": [
@@ -36131,7 +36814,7 @@
     "gender": "male",
     "score": 50.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 62,
       "golden_ratio": 39,
       "eyes": 68,
       "nose": 39,
@@ -36139,6 +36822,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_45ee45d4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 63,
     "birthDate": "1963-02-02",
     "embedding": [
@@ -36290,7 +36976,7 @@
     "gender": "female",
     "score": 50.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 55,
       "golden_ratio": 49,
       "eyes": 27,
       "nose": 38,
@@ -36298,6 +36984,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_f07f5d9e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1988-11-01",
     "embedding": [
@@ -36449,7 +37138,7 @@
     "gender": "male",
     "score": 50.3,
     "details": {
-      "symmetry": 36,
+      "symmetry": 53,
       "golden_ratio": 47,
       "eyes": 31,
       "nose": 46,
@@ -36457,6 +37146,9 @@
       "contour": 65
     },
     "thumbnail": "data/thumbnails/celeb_da152d88.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 55,
     "birthDate": "1970-08-06",
     "embedding": [
@@ -36608,7 +37300,7 @@
     "gender": "male",
     "score": 50.2,
     "details": {
-      "symmetry": 24,
+      "symmetry": 73,
       "golden_ratio": 35,
       "eyes": 51,
       "nose": 40,
@@ -36616,6 +37308,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_e6388a21.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 51,
     "birthDate": "1974-11-10",
     "embedding": [
@@ -36767,7 +37462,7 @@
     "gender": "male",
     "score": 50.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 57,
       "golden_ratio": 40,
       "eyes": 56,
       "nose": 34,
@@ -36775,6 +37470,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_94cd0899.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 57,
     "birthDate": "1968-04-24",
     "embedding": [
@@ -36926,7 +37624,7 @@
     "gender": "female",
     "score": 50.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 55,
       "golden_ratio": 40,
       "eyes": 84,
       "nose": 31,
@@ -36934,6 +37632,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_a477ab4e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "birthDate": "1991-12-14",
     "embedding": [
@@ -37082,7 +37783,7 @@
     "gender": "female",
     "score": 50.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 73,
       "golden_ratio": 39,
       "eyes": 68,
       "nose": 47,
@@ -37090,6 +37791,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "sns": {
       "instagram": 2000000,
@@ -37242,7 +37946,7 @@
     "gender": "male",
     "score": 50.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 25,
       "golden_ratio": 54,
       "eyes": 26,
       "nose": 34,
@@ -37250,6 +37954,9 @@
       "contour": 69
     },
     "thumbnail": "data/thumbnails/celeb_e2014d4e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 62,
     "birthDate": "1963-12-08",
     "embedding": [
@@ -37401,7 +38108,7 @@
     "gender": "male",
     "score": 50.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 39,
       "eyes": 65,
       "nose": 34,
@@ -37409,6 +38116,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 45,
     "sns": {
       "instagram": 3000000,
@@ -37563,7 +38273,7 @@
     "gender": "female",
     "score": 50.1,
     "details": {
-      "symmetry": 39,
+      "symmetry": 67,
       "golden_ratio": 44,
       "eyes": 73,
       "nose": 36,
@@ -37571,6 +38281,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_9244cc06.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 24,
     "sns": {
       "instagram": 200000
@@ -37722,7 +38435,6 @@
     "category": "actress",
     "score": 50.0,
     "details": {
-      "symmetry": 58,
       "golden_ratio": 36,
       "eyes": 84,
       "nose": 50,
@@ -37743,7 +38455,8 @@
     "age": 61,
     "birthDate": "1964-06-09",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ccecfe2c",
@@ -37752,7 +38465,7 @@
     "gender": "female",
     "score": 49.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 61,
       "golden_ratio": 34,
       "eyes": 63,
       "nose": 43,
@@ -37760,6 +38473,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_ccecfe2c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 35,
     "birthDate": "1990-11-01",
     "embedding": [
@@ -37908,7 +38624,7 @@
     "gender": "male",
     "score": 49.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 51,
       "golden_ratio": 42,
       "eyes": 41,
       "nose": 37,
@@ -37916,6 +38632,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_b611ec1d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 54,
     "birthDate": "1972-01-19",
     "embedding": [
@@ -38064,7 +38783,7 @@
     "gender": "male",
     "score": 49.9,
     "details": {
-      "symmetry": 57,
+      "symmetry": 74,
       "golden_ratio": 36,
       "eyes": 57,
       "nose": 57,
@@ -38072,6 +38791,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_34f69554.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 36,
     "birthDate": "1990-01-24",
     "embedding": [
@@ -38223,7 +38945,7 @@
     "gender": "male",
     "score": 49.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 33,
       "eyes": 38,
       "nose": 49,
@@ -38231,6 +38953,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_f3ccac5e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 49,
     "birthDate": "1977-02-02",
     "embedding": [
@@ -38379,7 +39104,7 @@
     "gender": "female",
     "score": 49.8,
     "details": {
-      "symmetry": 67,
+      "symmetry": 73,
       "golden_ratio": 39,
       "eyes": 59,
       "nose": 49,
@@ -38387,6 +39112,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_6f0bad34.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1994-11-07",
     "embedding": [
@@ -38537,7 +39265,6 @@
     "category": "athlete",
     "score": 49.7,
     "details": {
-      "symmetry": 79,
       "golden_ratio": 43,
       "eyes": 53,
       "nose": 68,
@@ -38561,7 +39288,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_b4809349",
@@ -38570,7 +39298,7 @@
     "gender": "male",
     "score": 49.7,
     "details": {
-      "symmetry": 45,
+      "symmetry": 64,
       "golden_ratio": 39,
       "eyes": 57,
       "nose": 37,
@@ -38578,6 +39306,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_b4809349.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "birthDate": "1977-09-15",
     "embedding": [
@@ -38728,7 +39459,6 @@
     "category": "athlete",
     "score": 49.7,
     "details": {
-      "symmetry": 79,
       "golden_ratio": 43,
       "eyes": 53,
       "nose": 68,
@@ -38752,7 +39482,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_367a801d",
@@ -38761,7 +39492,7 @@
     "gender": "male",
     "score": 49.6,
     "details": {
-      "symmetry": 26,
+      "symmetry": 71,
       "golden_ratio": 46,
       "eyes": 37,
       "nose": 28,
@@ -38769,6 +39500,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_367a801d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1989-01-06",
     "embedding": [
@@ -38920,7 +39654,7 @@
     "gender": "male",
     "score": 49.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 77,
       "golden_ratio": 41,
       "eyes": 39,
       "nose": 36,
@@ -38928,6 +39662,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_841b3e0a.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 35,
     "birthDate": "1990-10-12",
     "embedding": [
@@ -39079,7 +39816,7 @@
     "gender": "male",
     "score": 49.6,
     "details": {
-      "symmetry": 14,
+      "symmetry": 81,
       "golden_ratio": 42,
       "eyes": 36,
       "nose": 44,
@@ -39087,6 +39824,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_6078eafb.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 31,
     "birthDate": "1995-01-17",
     "embedding": [
@@ -39238,7 +39978,7 @@
     "gender": "male",
     "score": 49.5,
     "details": {
-      "symmetry": 43,
+      "symmetry": 72,
       "golden_ratio": 35,
       "eyes": 37,
       "nose": 42,
@@ -39246,6 +39986,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_80faf70b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 65,
     "birthDate": "1960-05-22",
     "embedding": [
@@ -39393,7 +40136,6 @@
     "category": "actor",
     "score": 49.5,
     "details": {
-      "symmetry": 16,
       "golden_ratio": 42,
       "eyes": 87,
       "nose": 41,
@@ -39414,7 +40156,8 @@
     "age": 51,
     "birthDate": "1974-07-09",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_599dd04a",
@@ -39422,7 +40165,6 @@
     "category": "athlete",
     "score": 49.5,
     "details": {
-      "symmetry": 53,
       "golden_ratio": 35,
       "eyes": 67,
       "nose": 70,
@@ -39446,7 +40188,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_fe932ed3",
@@ -39454,7 +40197,6 @@
     "category": "athlete",
     "score": 49.1,
     "details": {
-      "symmetry": 15,
       "golden_ratio": 39,
       "eyes": 78,
       "nose": 61,
@@ -39478,7 +40220,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_f4e4b7eb",
@@ -39487,7 +40230,7 @@
     "gender": "male",
     "score": 49.0,
     "details": {
-      "symmetry": 62,
+      "symmetry": 70,
       "golden_ratio": 35,
       "eyes": 85,
       "nose": 39,
@@ -39495,6 +40238,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_f4e4b7eb.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 57,
     "birthDate": "1968-10-29",
     "embedding": [
@@ -39642,7 +40388,6 @@
     "category": "athlete",
     "score": 48.9,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 37,
       "eyes": 44,
       "nose": 72,
@@ -39666,7 +40411,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_b46d27e1",
@@ -39675,7 +40421,7 @@
     "gender": "male",
     "score": 48.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 69,
       "golden_ratio": 36,
       "eyes": 37,
       "nose": 39,
@@ -39683,6 +40429,9 @@
       "contour": 84
     },
     "thumbnail": "data/thumbnails/celeb_b46d27e1.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1984-01-29",
     "embedding": [
@@ -39831,7 +40580,7 @@
     "gender": "male",
     "score": 48.9,
     "details": {
-      "symmetry": 10,
+      "symmetry": 57,
       "golden_ratio": 38,
       "eyes": 75,
       "nose": 38,
@@ -39839,6 +40588,9 @@
       "contour": 68
     },
     "thumbnail": "data/thumbnails/celeb_20aa5f92.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 56,
     "birthDate": "1969-05-18",
     "embedding": [
@@ -39987,7 +40739,7 @@
     "gender": "female",
     "score": 48.9,
     "details": {
-      "symmetry": 23,
+      "symmetry": 67,
       "golden_ratio": 40,
       "eyes": 57,
       "nose": 42,
@@ -39995,6 +40747,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_5ed737d9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 21,
     "sns": {
       "instagram": 200000,
@@ -40148,7 +40903,7 @@
     "gender": "male",
     "score": 48.8,
     "details": {
-      "symmetry": 51,
+      "symmetry": 58,
       "golden_ratio": 46,
       "eyes": 31,
       "nose": 41,
@@ -40156,6 +40911,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_21e7e113.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 71,
     "birthDate": "1955-01-26",
     "embedding": [
@@ -40303,7 +41061,6 @@
     "category": "athlete",
     "score": 48.7,
     "details": {
-      "symmetry": 9,
       "golden_ratio": 33,
       "eyes": 68,
       "nose": 62,
@@ -40327,7 +41084,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_f3ef5479",
@@ -40336,7 +41094,7 @@
     "gender": "male",
     "score": 48.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 48,
       "golden_ratio": 38,
       "eyes": 69,
       "nose": 27,
@@ -40344,6 +41102,9 @@
       "contour": 75
     },
     "thumbnail": "data/thumbnails/celeb_f3ef5479.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 72,
     "birthDate": "1953-12-28",
     "embedding": [
@@ -40495,7 +41256,7 @@
     "gender": "male",
     "score": 48.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 60,
       "golden_ratio": 33,
       "eyes": 70,
       "nose": 29,
@@ -40503,6 +41264,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_007dcfcc.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1988-08-09",
     "embedding": [
@@ -40654,7 +41418,7 @@
     "gender": "male",
     "score": 48.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 36,
       "eyes": 33,
       "nose": 44,
@@ -40662,6 +41426,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_8a661ab9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 74,
     "birthDate": "1951-12-23",
     "embedding": [
@@ -40809,7 +41576,6 @@
     "category": "idol",
     "score": 48.6,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 50,
       "eyes": 41,
       "nose": 65,
@@ -40832,7 +41598,8 @@
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_cb723ba9",
@@ -40840,7 +41607,6 @@
     "category": "idol",
     "score": 48.6,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 49,
       "nose": 53,
@@ -40865,7 +41631,8 @@
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_9735df76",
@@ -40874,7 +41641,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 59,
       "golden_ratio": 33,
       "eyes": 88,
       "nose": 26,
@@ -40882,6 +41649,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_9735df76.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "birthDate": "1977-04-14",
     "embedding": [
@@ -41029,7 +41799,6 @@
     "category": "cultural",
     "score": 48.5,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 62,
       "nose": 57,
@@ -41050,7 +41819,8 @@
     "age": 64,
     "birthDate": "1962-02-01",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_abca29fe",
@@ -41059,7 +41829,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 63,
       "golden_ratio": 38,
       "eyes": 57,
       "nose": 31,
@@ -41067,6 +41837,9 @@
       "contour": 79
     },
     "thumbnail": "data/thumbnails/celeb_abca29fe.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 65,
     "birthDate": "1960-07-06",
     "embedding": [
@@ -41218,7 +41991,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
-      "symmetry": 20,
+      "symmetry": 46,
       "golden_ratio": 39,
       "eyes": 82,
       "nose": 28,
@@ -41226,6 +41999,9 @@
       "contour": 65
     },
     "thumbnail": "data/thumbnails/celeb_9058631c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-12-13",
     "embedding": [
@@ -41374,7 +42150,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 47,
       "golden_ratio": 39,
       "eyes": 34,
       "nose": 27,
@@ -41382,6 +42158,9 @@
       "contour": 78
     },
     "thumbnail": "data/thumbnails/celeb_9e880113.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-06-19",
     "embedding": [
@@ -41533,7 +42312,7 @@
     "gender": "male",
     "score": 48.1,
     "details": {
-      "symmetry": 21,
+      "symmetry": 75,
       "golden_ratio": 36,
       "eyes": 57,
       "nose": 44,
@@ -41541,6 +42320,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_1104276d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-04-26",
     "embedding": [
@@ -41688,7 +42470,6 @@
     "category": "athlete",
     "score": 48.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 66,
       "nose": 46,
@@ -41712,7 +42493,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_4634a03e",
@@ -41721,7 +42503,7 @@
     "gender": "male",
     "score": 48.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 44,
       "golden_ratio": 35,
       "eyes": 72,
       "nose": 27,
@@ -41729,6 +42511,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_4634a03e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 49,
     "birthDate": "1976-11-09",
     "embedding": [
@@ -41880,7 +42665,7 @@
     "gender": "male",
     "score": 47.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 68,
       "golden_ratio": 34,
       "eyes": 63,
       "nose": 44,
@@ -41888,6 +42673,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_db711d1c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 53,
     "birthDate": "1972-07-04",
     "embedding": [
@@ -42035,7 +42823,6 @@
     "category": "athlete",
     "score": 47.8,
     "details": {
-      "symmetry": 57,
       "golden_ratio": 35,
       "eyes": 45,
       "nose": 48,
@@ -42059,7 +42846,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_c62f821e",
@@ -42068,7 +42856,7 @@
     "gender": "male",
     "score": 47.7,
     "details": {
-      "symmetry": 11,
+      "symmetry": 75,
       "golden_ratio": 32,
       "eyes": 49,
       "nose": 40,
@@ -42076,6 +42864,9 @@
       "contour": 86
     },
     "thumbnail": "data/thumbnails/celeb_c62f821e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 62,
     "birthDate": "1963-05-11",
     "embedding": [
@@ -42223,7 +43014,6 @@
     "category": "comedian",
     "score": 47.7,
     "details": {
-      "symmetry": 48,
       "golden_ratio": 31,
       "eyes": 56,
       "nose": 68,
@@ -42244,7 +43034,8 @@
     "age": 51,
     "birthDate": "1974-12-25",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_b378ed24",
@@ -42252,7 +43043,6 @@
     "category": "athlete",
     "score": 47.6,
     "details": {
-      "symmetry": 60,
       "golden_ratio": 46,
       "eyes": 60,
       "nose": 39,
@@ -42276,7 +43066,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_5edbc880",
@@ -42285,7 +43076,7 @@
     "gender": "male",
     "score": 47.5,
     "details": {
-      "symmetry": 40,
+      "symmetry": 68,
       "golden_ratio": 33,
       "eyes": 36,
       "nose": 44,
@@ -42293,6 +43084,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_5edbc880.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 46,
     "birthDate": "1980-03-01",
     "embedding": [
@@ -42441,7 +43235,7 @@
     "gender": "male",
     "score": 47.5,
     "details": {
-      "symmetry": 68,
+      "symmetry": 74,
       "golden_ratio": 37,
       "eyes": 37,
       "nose": 49,
@@ -42449,6 +43243,9 @@
       "contour": 89
     },
     "thumbnail": "data/thumbnails/celeb_732cfdc9.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 90,
     "birthDate": "1935-06-29",
     "embedding": [
@@ -42600,7 +43397,7 @@
     "gender": "male",
     "score": 47.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 41,
       "golden_ratio": 38,
       "eyes": 45,
       "nose": 31,
@@ -42608,6 +43405,9 @@
       "contour": 75
     },
     "thumbnail": "data/thumbnails/celeb_a86f6d4b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 45,
     "birthDate": "1980-11-16",
     "embedding": [
@@ -42755,7 +43555,6 @@
     "category": "athlete",
     "score": 47.1,
     "details": {
-      "symmetry": 49,
       "golden_ratio": 38,
       "eyes": 78,
       "nose": 46,
@@ -42779,7 +43578,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_1e06a224",
@@ -42788,7 +43588,7 @@
     "gender": "male",
     "score": 47.0,
     "details": {
-      "symmetry": 39,
+      "symmetry": 74,
       "golden_ratio": 40,
       "eyes": 51,
       "nose": 24,
@@ -42796,6 +43596,9 @@
       "contour": 88
     },
     "thumbnail": "data/thumbnails/celeb_1e06a224.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1973-07-05",
     "embedding": [
@@ -42944,7 +43747,7 @@
     "gender": "male",
     "score": 47.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 39,
       "golden_ratio": 39,
       "eyes": 31,
       "nose": 43,
@@ -42952,6 +43755,9 @@
       "contour": 71
     },
     "thumbnail": "data/thumbnails/celeb_6f5ef28c.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 63,
     "birthDate": "1962-06-18",
     "embedding": [
@@ -43103,7 +43909,7 @@
     "gender": "female",
     "score": 47.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 35,
       "eyes": 57,
       "nose": 37,
@@ -43111,6 +43917,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_3dbe559b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 34,
     "sns": {
       "instagram": 2000000
@@ -43263,7 +44072,7 @@
     "gender": "female",
     "score": 47.0,
     "details": {
-      "symmetry": 0,
+      "symmetry": 70,
       "golden_ratio": 33,
       "eyes": 58,
       "nose": 40,
@@ -43271,6 +44080,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_26a1c1c0.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "birthDate": "1998-03-16",
     "embedding": [
@@ -43421,7 +44233,6 @@
     "category": "sumo",
     "score": 47.0,
     "details": {
-      "symmetry": 92,
       "golden_ratio": 29,
       "eyes": 71,
       "nose": 52,
@@ -43445,7 +44256,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ce12edd4",
@@ -43453,7 +44265,6 @@
     "category": "athlete",
     "score": 47.0,
     "details": {
-      "symmetry": 28,
       "golden_ratio": 35,
       "eyes": 42,
       "nose": 71,
@@ -43477,7 +44288,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_86977554",
@@ -43486,7 +44298,7 @@
     "gender": "male",
     "score": 46.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 42,
       "golden_ratio": 33,
       "eyes": 72,
       "nose": 19,
@@ -43494,6 +44306,9 @@
       "contour": 75
     },
     "thumbnail": "data/thumbnails/celeb_86977554.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 67,
     "birthDate": "1958-11-27",
     "embedding": [
@@ -43642,7 +44457,7 @@
     "gender": "male",
     "score": 46.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 34,
       "golden_ratio": 46,
       "eyes": 15,
       "nose": 38,
@@ -43650,6 +44465,9 @@
       "contour": 66
     },
     "thumbnail": "data/thumbnails/celeb_cfccbcf1.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 79,
     "birthDate": "1947-01-18",
     "embedding": [
@@ -43801,7 +44619,7 @@
     "gender": "male",
     "score": 46.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 71,
       "golden_ratio": 35,
       "eyes": 67,
       "nose": 35,
@@ -43809,6 +44627,9 @@
       "contour": 75
     },
     "thumbnail": "data/thumbnails/celeb_e0521573.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 62,
     "birthDate": "1963-06-22",
     "embedding": [
@@ -43959,7 +44780,6 @@
     "category": "athlete",
     "score": 46.7,
     "details": {
-      "symmetry": 68,
       "golden_ratio": 31,
       "eyes": 78,
       "nose": 53,
@@ -43983,7 +44803,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_29cd0d51",
@@ -43992,7 +44813,7 @@
     "gender": "male",
     "score": 46.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 67,
       "golden_ratio": 36,
       "eyes": 34,
       "nose": 39,
@@ -44000,6 +44821,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_29cd0d51.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 45,
     "birthDate": "1980-04-15",
     "embedding": [
@@ -44147,7 +44971,6 @@
     "category": "athlete",
     "score": 46.6,
     "details": {
-      "symmetry": 34,
       "golden_ratio": 27,
       "eyes": 85,
       "nose": 80,
@@ -44171,7 +44994,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_7e1c007e",
@@ -44179,7 +45003,6 @@
     "category": "athlete",
     "score": 46.5,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 70,
       "nose": 76,
@@ -44203,7 +45026,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ab524fef",
@@ -44212,7 +45036,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 52,
       "golden_ratio": 38,
       "eyes": 22,
       "nose": 49,
@@ -44220,6 +45044,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_ab524fef.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 28,
     "birthDate": "1997-11-21",
     "embedding": [
@@ -44371,7 +45198,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
-      "symmetry": 4,
+      "symmetry": 56,
       "golden_ratio": 38,
       "eyes": 44,
       "nose": 46,
@@ -44379,6 +45206,9 @@
       "contour": 71
     },
     "thumbnail": "data/thumbnails/celeb_0309b455.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 27,
     "birthDate": "1998-04-21",
     "embedding": [
@@ -44530,7 +45360,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
-      "symmetry": 53,
+      "symmetry": 64,
       "golden_ratio": 35,
       "eyes": 30,
       "nose": 41,
@@ -44538,6 +45368,9 @@
       "contour": 82
     },
     "thumbnail": "data/thumbnails/celeb_f5d16040.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 74,
     "birthDate": "1951-12-03",
     "embedding": [
@@ -44689,7 +45522,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
-      "symmetry": 70,
+      "symmetry": 75,
       "golden_ratio": 33,
       "eyes": 54,
       "nose": 26,
@@ -44697,6 +45530,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_d3aae772.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 48,
     "birthDate": "1977-07-28",
     "embedding": [
@@ -44847,7 +45683,6 @@
     "category": "athlete",
     "score": 46.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 37,
       "eyes": 88,
       "nose": 17,
@@ -44871,7 +45706,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_4c61d395",
@@ -44880,7 +45716,7 @@
     "gender": "male",
     "score": 46.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 52,
       "golden_ratio": 38,
       "eyes": 38,
       "nose": 26,
@@ -44888,6 +45724,9 @@
       "contour": 77
     },
     "thumbnail": "data/thumbnails/celeb_4c61d395.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 52,
     "birthDate": "1974-03-21",
     "embedding": [
@@ -45039,7 +45878,7 @@
     "gender": "female",
     "score": 46.4,
     "details": {
-      "symmetry": 0,
+      "symmetry": 70,
       "golden_ratio": 30,
       "eyes": 35,
       "nose": 39,
@@ -45047,6 +45886,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_7b553a12.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 43,
     "birthDate": "1982-10-05",
     "embedding": [
@@ -45197,7 +46039,6 @@
     "category": "athlete",
     "score": 46.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 37,
       "eyes": 31,
       "nose": 69,
@@ -45221,7 +46062,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_7f4bad0e",
@@ -45230,7 +46072,7 @@
     "gender": "male",
     "score": 46.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 47,
       "golden_ratio": 43,
       "eyes": 24,
       "nose": 29,
@@ -45238,6 +46080,9 @@
       "contour": 80
     },
     "thumbnail": "data/thumbnails/celeb_7f4bad0e.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 72,
     "birthDate": "1953-05-16",
     "embedding": [
@@ -45389,7 +46234,7 @@
     "gender": "male",
     "score": 46.3,
     "details": {
-      "symmetry": 0,
+      "symmetry": 14,
       "golden_ratio": 44,
       "eyes": 57,
       "nose": 11,
@@ -45397,6 +46242,9 @@
       "contour": 51
     },
     "thumbnail": "data/thumbnails/celeb_85b14d12.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 40,
     "birthDate": "1985-07-29",
     "embedding": [
@@ -45548,7 +46396,7 @@
     "gender": "male",
     "score": 46.2,
     "details": {
-      "symmetry": 0,
+      "symmetry": 45,
       "golden_ratio": 36,
       "eyes": 42,
       "nose": 41,
@@ -45556,6 +46404,9 @@
       "contour": 74
     },
     "thumbnail": "data/thumbnails/celeb_81ac4847.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 70,
     "birthDate": "1956-01-01",
     "embedding": [
@@ -45704,7 +46555,7 @@
     "gender": "female",
     "score": 46.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 72,
       "golden_ratio": 31,
       "eyes": 38,
       "nose": 44,
@@ -45712,6 +46563,9 @@
       "contour": 91
     },
     "thumbnail": "data/thumbnails/celeb_ef17039b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 27,
     "birthDate": "1998-09-02",
     "embedding": [
@@ -45860,7 +46714,7 @@
     "gender": "female",
     "score": 46.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 41,
       "golden_ratio": 35,
       "eyes": 63,
       "nose": 20,
@@ -45868,6 +46722,9 @@
       "contour": 76
     },
     "thumbnail": "data/thumbnails/celeb_f059fc5d.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 25,
     "birthDate": "2000-04-14",
     "embedding": [
@@ -46019,7 +46876,7 @@
     "gender": "male",
     "score": 46.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 58,
       "golden_ratio": 36,
       "eyes": 32,
       "nose": 47,
@@ -46027,6 +46884,9 @@
       "contour": 76
     },
     "thumbnail": "data/thumbnails/celeb_5ebe34be.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 77,
     "birthDate": "1948-08-19",
     "embedding": [
@@ -46175,7 +47035,7 @@
     "gender": "male",
     "score": 46.1,
     "details": {
-      "symmetry": 0,
+      "symmetry": 40,
       "golden_ratio": 31,
       "eyes": 53,
       "nose": 26,
@@ -46183,6 +47043,9 @@
       "contour": 73
     },
     "thumbnail": "data/thumbnails/celeb_e056c42f.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1979-03-20",
     "embedding": [
@@ -46333,7 +47196,6 @@
     "category": "athlete",
     "score": 46.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 92,
       "nose": 37,
@@ -46357,7 +47219,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_3d1e3626",
@@ -46365,7 +47228,6 @@
     "category": "athlete",
     "score": 46.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 28,
       "eyes": 67,
       "nose": 55,
@@ -46389,7 +47251,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_8ed3c9ef",
@@ -46397,7 +47260,6 @@
     "category": "athlete",
     "score": 45.9,
     "details": {
-      "symmetry": 26,
       "golden_ratio": 33,
       "eyes": 91,
       "nose": 32,
@@ -46421,7 +47283,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_7a99bc55",
@@ -46429,7 +47292,6 @@
     "category": "idol",
     "score": 45.9,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 79,
       "nose": 44,
@@ -46452,7 +47314,8 @@
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_6ea0542d",
@@ -46460,7 +47323,6 @@
     "category": "athlete",
     "score": 45.8,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 37,
       "eyes": 38,
       "nose": 43,
@@ -46484,7 +47346,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_80f9b882",
@@ -46493,7 +47356,7 @@
     "gender": "male",
     "score": 45.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 50,
       "golden_ratio": 35,
       "eyes": 41,
       "nose": 24,
@@ -46501,6 +47364,9 @@
       "contour": 76
     },
     "thumbnail": "data/thumbnails/celeb_80f9b882.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1984-02-24",
     "embedding": [
@@ -46652,7 +47518,7 @@
     "gender": "male",
     "score": 45.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 36,
       "golden_ratio": 40,
       "eyes": 44,
       "nose": 14,
@@ -46660,6 +47526,9 @@
       "contour": 67
     },
     "thumbnail": "data/thumbnails/celeb_c24ea848.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 56,
     "birthDate": "1970-01-25",
     "embedding": [
@@ -46807,7 +47676,6 @@
     "category": "athlete",
     "score": 45.6,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 82,
       "nose": 65,
@@ -46831,7 +47699,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_0171a423",
@@ -46840,7 +47709,7 @@
     "gender": "male",
     "score": 45.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 66,
       "golden_ratio": 34,
       "eyes": 33,
       "nose": 23,
@@ -46848,6 +47717,9 @@
       "contour": 81
     },
     "thumbnail": "data/thumbnails/celeb_0171a423.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1984-01-09",
     "embedding": [
@@ -46998,7 +47870,6 @@
     "category": "athlete",
     "score": 45.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 83,
       "nose": 35,
@@ -47022,7 +47893,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_6cf416f9",
@@ -47030,7 +47902,6 @@
     "category": "comedian",
     "score": 45.3,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 63,
       "nose": 47,
@@ -47051,7 +47922,8 @@
     "age": 62,
     "birthDate": "1964-02-13",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_39ed878f",
@@ -47059,7 +47931,6 @@
     "category": "athlete",
     "score": 45.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 76,
       "nose": 44,
@@ -47083,7 +47954,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_23ffcc74",
@@ -47091,7 +47963,6 @@
     "category": "athlete",
     "score": 45.1,
     "details": {
-      "symmetry": 62,
       "golden_ratio": 36,
       "eyes": 71,
       "nose": 38,
@@ -47115,7 +47986,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_1f9d8d9a",
@@ -47123,7 +47995,6 @@
     "category": "athlete",
     "score": 44.9,
     "details": {
-      "symmetry": 16,
       "golden_ratio": 32,
       "eyes": 92,
       "nose": 35,
@@ -47147,7 +48018,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_c88b6503",
@@ -47155,7 +48027,6 @@
     "category": "athlete",
     "score": 44.8,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 67,
       "nose": 64,
@@ -47179,7 +48050,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_880c6779",
@@ -47188,7 +48060,7 @@
     "gender": "male",
     "score": 44.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 12,
       "golden_ratio": 48,
       "eyes": 7,
       "nose": 12,
@@ -47196,6 +48068,9 @@
       "contour": 66
     },
     "thumbnail": "data/thumbnails/celeb_880c6779.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 61,
     "birthDate": "1964-09-23",
     "embedding": [
@@ -47343,7 +48218,6 @@
     "category": "athlete",
     "score": 44.7,
     "details": {
-      "symmetry": 58,
       "golden_ratio": 41,
       "eyes": 75,
       "nose": 29,
@@ -47367,7 +48241,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_4026384f",
@@ -47375,7 +48250,6 @@
     "category": "athlete",
     "score": 44.6,
     "details": {
-      "symmetry": 9,
       "golden_ratio": 20,
       "eyes": 93,
       "nose": 52,
@@ -47399,7 +48273,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ff51d05d",
@@ -47407,7 +48282,6 @@
     "category": "sumo",
     "score": 44.5,
     "details": {
-      "symmetry": 62,
       "golden_ratio": 26,
       "eyes": 71,
       "nose": 41,
@@ -47431,7 +48305,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_1dbbe00c",
@@ -47439,7 +48314,6 @@
     "category": "sumo",
     "score": 44.5,
     "details": {
-      "symmetry": 92,
       "golden_ratio": 33,
       "eyes": 90,
       "nose": 21,
@@ -47463,7 +48337,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_37fbcbe3",
@@ -47472,7 +48347,7 @@
     "gender": "male",
     "score": 44.5,
     "details": {
-      "symmetry": 0,
+      "symmetry": 57,
       "golden_ratio": 34,
       "eyes": 31,
       "nose": 29,
@@ -47480,6 +48355,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_37fbcbe3.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 42,
     "birthDate": "1983-06-26",
     "embedding": [
@@ -47630,7 +48508,6 @@
     "category": "comedian",
     "score": 44.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 32,
       "eyes": 84,
       "nose": 44,
@@ -47651,7 +48528,8 @@
     "age": 42,
     "birthDate": "1983-10-05",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_39005004",
@@ -47659,7 +48537,6 @@
     "category": "comedian",
     "score": 44.3,
     "details": {
-      "symmetry": 25,
       "golden_ratio": 37,
       "eyes": 47,
       "nose": 45,
@@ -47680,7 +48557,8 @@
     "age": 76,
     "birthDate": "1950-02-20",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_492325bc",
@@ -47689,7 +48567,7 @@
     "gender": "male",
     "score": 44.2,
     "details": {
-      "symmetry": 6,
+      "symmetry": 44,
       "golden_ratio": 38,
       "eyes": 14,
       "nose": 34,
@@ -47697,6 +48575,9 @@
       "contour": 71
     },
     "thumbnail": "data/thumbnails/celeb_492325bc.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 47,
     "birthDate": "1978-05-15",
     "embedding": [
@@ -47848,7 +48729,7 @@
     "gender": "male",
     "score": 44.2,
     "details": {
-      "symmetry": 61,
+      "symmetry": 69,
       "golden_ratio": 30,
       "eyes": 36,
       "nose": 43,
@@ -47856,6 +48737,9 @@
       "contour": 85
     },
     "thumbnail": "data/thumbnails/celeb_c57c40c8.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1987-02-23",
     "embedding": [
@@ -48006,7 +48890,6 @@
     "category": "sumo",
     "score": 44.2,
     "details": {
-      "symmetry": 40,
       "golden_ratio": 29,
       "eyes": 38,
       "nose": 46,
@@ -48030,7 +48913,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_9475748b",
@@ -48038,7 +48922,6 @@
     "category": "athlete",
     "score": 44.1,
     "details": {
-      "symmetry": 50,
       "golden_ratio": 30,
       "eyes": 74,
       "nose": 31,
@@ -48062,7 +48945,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_5e0f9f69",
@@ -48070,7 +48954,6 @@
     "category": "athlete",
     "score": 44.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 27,
       "eyes": 90,
       "nose": 47,
@@ -48094,7 +48977,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_14f44b42",
@@ -48102,7 +48986,6 @@
     "category": "idol",
     "score": 44.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 52,
       "nose": 33,
@@ -48125,7 +49008,8 @@
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_c2bfad08",
@@ -48133,7 +49017,6 @@
     "category": "athlete",
     "score": 44.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 27,
       "eyes": 53,
       "nose": 58,
@@ -48157,7 +49040,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ea5ea927",
@@ -48165,7 +49049,6 @@
     "category": "actor",
     "score": 43.9,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 89,
       "nose": 29,
@@ -48192,7 +49075,8 @@
     "faceValidationReason": "no_face_detected",
     "rankingExclusionReasons": [
       "おすすめ表示では偏差値 39.9 が低いため除外"
-    ]
+    ],
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_942645d6",
@@ -48201,7 +49085,7 @@
     "gender": "male",
     "score": 43.8,
     "details": {
-      "symmetry": 0,
+      "symmetry": 68,
       "golden_ratio": 33,
       "eyes": 34,
       "nose": 34,
@@ -48209,6 +49093,9 @@
       "contour": 83
     },
     "thumbnail": "data/thumbnails/celeb_942645d6.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 39,
     "birthDate": "1986-08-22",
     "embedding": [
@@ -48359,7 +49246,6 @@
     "category": "sumo",
     "score": 43.8,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 57,
       "nose": 43,
@@ -48383,7 +49269,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_03d21e14",
@@ -48391,7 +49278,6 @@
     "category": "artist",
     "score": 43.7,
     "details": {
-      "symmetry": 55,
       "golden_ratio": 28,
       "eyes": 61,
       "nose": 40,
@@ -48416,7 +49302,8 @@
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ffd3013a",
@@ -48424,7 +49311,6 @@
     "category": "athlete",
     "score": 43.5,
     "details": {
-      "symmetry": 37,
       "golden_ratio": 28,
       "eyes": 83,
       "nose": 31,
@@ -48448,7 +49334,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_6b68664d",
@@ -48456,7 +49343,6 @@
     "category": "comedian",
     "score": 43.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 28,
       "eyes": 84,
       "nose": 43,
@@ -48477,7 +49363,8 @@
     "age": 46,
     "birthDate": "1980-01-28",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_5d448f34",
@@ -48485,7 +49372,6 @@
     "category": "sumo",
     "score": 43.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 29,
       "eyes": 86,
       "nose": 41,
@@ -48509,7 +49395,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_48a6fc56",
@@ -48517,7 +49404,6 @@
     "category": "sumo",
     "score": 43.0,
     "details": {
-      "symmetry": 21,
       "golden_ratio": 29,
       "eyes": 71,
       "nose": 55,
@@ -48541,7 +49427,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_5310b684",
@@ -48550,7 +49437,7 @@
     "gender": "male",
     "score": 42.9,
     "details": {
-      "symmetry": 0,
+      "symmetry": 73,
       "golden_ratio": 26,
       "eyes": 37,
       "nose": 26,
@@ -48558,6 +49445,9 @@
       "contour": 87
     },
     "thumbnail": "data/thumbnails/celeb_5310b684.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 45,
     "birthDate": "1980-08-28",
     "embedding": [
@@ -48708,7 +49598,6 @@
     "category": "cultural",
     "score": 42.7,
     "details": {
-      "symmetry": 19,
       "golden_ratio": 38,
       "eyes": 77,
       "nose": 26,
@@ -48729,7 +49618,8 @@
     "age": 60,
     "birthDate": "1965-11-20",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_265b40f4",
@@ -48738,7 +49628,7 @@
     "gender": "male",
     "score": 42.7,
     "details": {
-      "symmetry": 0,
+      "symmetry": 25,
       "golden_ratio": 39,
       "eyes": 3,
       "nose": 17,
@@ -48746,6 +49636,9 @@
       "contour": 60
     },
     "thumbnail": "data/thumbnails/celeb_265b40f4.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 76,
     "birthDate": "1950-02-02",
     "embedding": [
@@ -48896,7 +49789,6 @@
     "category": "sumo",
     "score": 42.7,
     "details": {
-      "symmetry": 21,
       "golden_ratio": 33,
       "eyes": 38,
       "nose": 50,
@@ -48920,7 +49812,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_db84facb",
@@ -48928,7 +49821,6 @@
     "category": "athlete",
     "score": 42.7,
     "details": {
-      "symmetry": 81,
       "golden_ratio": 33,
       "eyes": 76,
       "nose": 14,
@@ -48952,7 +49844,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_3807068b",
@@ -48961,7 +49854,7 @@
     "gender": "male",
     "score": 42.6,
     "details": {
-      "symmetry": 0,
+      "symmetry": 60,
       "golden_ratio": 34,
       "eyes": 27,
       "nose": 29,
@@ -48969,6 +49862,9 @@
       "contour": 75
     },
     "thumbnail": "data/thumbnails/celeb_3807068b.jpg",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
+    "faceValidationSource": "mediapipe",
     "age": 37,
     "birthDate": "1988-11-14",
     "embedding": [
@@ -49119,7 +50015,6 @@
     "category": "athlete",
     "score": 42.6,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 59,
       "nose": 52,
@@ -49143,7 +50038,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_a6a7558e",
@@ -49151,7 +50047,6 @@
     "category": "actress",
     "score": 42.5,
     "details": {
-      "symmetry": 30,
       "golden_ratio": 31,
       "eyes": 66,
       "nose": 47,
@@ -49179,7 +50074,8 @@
     "faceValidationReason": "no_face_detected",
     "rankingExclusionReasons": [
       "おすすめ表示では偏差値 37.6 が低いため除外"
-    ]
+    ],
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_03a90585",
@@ -49187,7 +50083,6 @@
     "category": "sumo",
     "score": 42.5,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 26,
       "eyes": 45,
       "nose": 55,
@@ -49211,7 +50106,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_93aeea8d",
@@ -49219,7 +50115,6 @@
     "category": "idol",
     "score": 42.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 83,
       "nose": 20,
@@ -49247,7 +50142,8 @@
     "faceValidationReason": "no_face_detected",
     "rankingExclusionReasons": [
       "おすすめ表示では偏差値 37.5 が低いため除外"
-    ]
+    ],
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_1dbc59d5",
@@ -49255,7 +50151,6 @@
     "category": "sumo",
     "score": 42.4,
     "details": {
-      "symmetry": 88,
       "golden_ratio": 32,
       "eyes": 40,
       "nose": 41,
@@ -49279,7 +50174,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_61d8bb60",
@@ -49287,7 +50183,6 @@
     "category": "athlete",
     "score": 42.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 91,
       "nose": 41,
@@ -49311,7 +50206,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_00977ab0",
@@ -49319,7 +50215,6 @@
     "category": "sumo",
     "score": 42.0,
     "details": {
-      "symmetry": 87,
       "golden_ratio": 27,
       "eyes": 63,
       "nose": 26,
@@ -49343,7 +50238,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_86612318",
@@ -49351,7 +50247,6 @@
     "category": "idol",
     "score": 42.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 75,
       "nose": 42,
@@ -49377,7 +50272,8 @@
     "faceValidationReason": "no_face_detected",
     "rankingExclusionReasons": [
       "おすすめ表示では偏差値 36.8 が低いため除外"
-    ]
+    ],
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_bf14a0ea",
@@ -49385,7 +50281,6 @@
     "category": "athlete",
     "score": 41.9,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 89,
       "nose": 24,
@@ -49409,7 +50304,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_0518b155",
@@ -49417,7 +50313,6 @@
     "category": "comedian",
     "score": 41.9,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 50,
       "nose": 28,
@@ -49434,14 +50329,12 @@
       "faceSns": 41.9,
       "faceAgeSns": 12.3
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 53,
     "birthDate": "1972-09-23",
-    "rankingExclusionReasons": [
-      "invalid face geometry"
-    ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "invalid_eyes_above_nose"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "invalid_eyes_above_nose",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_31e9dcef",
@@ -49449,7 +50342,6 @@
     "category": "sumo",
     "score": 41.8,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 47,
       "nose": 70,
@@ -49473,7 +50365,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_440ab0ee",
@@ -49481,7 +50374,6 @@
     "category": "sumo",
     "score": 41.3,
     "details": {
-      "symmetry": 43,
       "golden_ratio": 25,
       "eyes": 57,
       "nose": 43,
@@ -49505,7 +50397,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_bb0cc261",
@@ -49513,7 +50406,6 @@
     "category": "athlete",
     "score": 41.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 50,
       "nose": 37,
@@ -49537,7 +50429,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_45712eae",
@@ -49545,7 +50438,6 @@
     "category": "athlete",
     "score": 41.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 47,
       "nose": 56,
@@ -49569,7 +50461,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_72bdf24e",
@@ -49577,7 +50470,6 @@
     "category": "sumo",
     "score": 41.1,
     "details": {
-      "symmetry": 85,
       "golden_ratio": 25,
       "eyes": 54,
       "nose": 32,
@@ -49598,11 +50490,11 @@
     "age": 41,
     "birthDate": "1984-11-16",
     "rankingExclusionReasons": [
-      "invalid face geometry",
       "おすすめ表示では sumo カテゴリを除外"
     ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "invalid_eyes_above_nose"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "invalid_eyes_above_nose",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_babf01e7",
@@ -49610,7 +50502,6 @@
     "category": "sumo",
     "score": 40.6,
     "details": {
-      "symmetry": 65,
       "golden_ratio": 20,
       "eyes": 45,
       "nose": 55,
@@ -49634,7 +50525,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_b30d70a3",
@@ -49642,7 +50534,6 @@
     "category": "athlete",
     "score": 40.5,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 29,
       "eyes": 83,
       "nose": 27,
@@ -49666,7 +50557,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_e56806ae",
@@ -49674,7 +50566,6 @@
     "category": "sumo",
     "score": 40.5,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 20,
       "eyes": 49,
       "nose": 73,
@@ -49698,7 +50589,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_e9dd0ad7",
@@ -49706,7 +50598,6 @@
     "category": "athlete",
     "score": 40.5,
     "details": {
-      "symmetry": 1,
       "golden_ratio": 31,
       "eyes": 86,
       "nose": 16,
@@ -49730,7 +50621,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_ecadb56e",
@@ -49738,7 +50630,6 @@
     "category": "cultural",
     "score": 40.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 75,
       "nose": 24,
@@ -49759,7 +50650,8 @@
     "age": 65,
     "birthDate": "1961-03-27",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_8862ff63",
@@ -49767,7 +50659,6 @@
     "category": "athlete",
     "score": 40.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 29,
       "eyes": 81,
       "nose": 43,
@@ -49791,7 +50682,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_04112379",
@@ -49799,7 +50691,6 @@
     "category": "sumo",
     "score": 40.3,
     "details": {
-      "symmetry": 56,
       "golden_ratio": 16,
       "eyes": 61,
       "nose": 48,
@@ -49823,7 +50714,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_57f329f0",
@@ -49831,7 +50723,6 @@
     "category": "sumo",
     "score": 40.3,
     "details": {
-      "symmetry": 56,
       "golden_ratio": 16,
       "eyes": 61,
       "nose": 48,
@@ -49855,7 +50746,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_478a0fcd",
@@ -49863,7 +50755,6 @@
     "category": "athlete",
     "score": 40.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 91,
       "nose": 21,
@@ -49887,7 +50778,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_d048f7be",
@@ -49895,7 +50787,6 @@
     "category": "sumo",
     "score": 40.2,
     "details": {
-      "symmetry": 71,
       "golden_ratio": 21,
       "eyes": 36,
       "nose": 62,
@@ -49919,7 +50810,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_7e249402",
@@ -49927,7 +50819,6 @@
     "category": "athlete",
     "score": 40.1,
     "details": {
-      "symmetry": 35,
       "golden_ratio": 28,
       "eyes": 75,
       "nose": 33,
@@ -49951,7 +50842,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_d299c6ba",
@@ -49959,7 +50851,6 @@
     "category": "sumo",
     "score": 40.1,
     "details": {
-      "symmetry": 39,
       "golden_ratio": 25,
       "eyes": 66,
       "nose": 25,
@@ -49983,7 +50874,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_0bd5ba07",
@@ -49991,7 +50883,6 @@
     "category": "athlete",
     "score": 39.9,
     "details": {
-      "symmetry": 7,
       "golden_ratio": 26,
       "eyes": 69,
       "nose": 29,
@@ -50015,7 +50906,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_c14f326c",
@@ -50023,7 +50915,6 @@
     "category": "comedian",
     "score": 39.4,
     "details": {
-      "symmetry": 51,
       "golden_ratio": 25,
       "eyes": 49,
       "nose": 23,
@@ -50044,7 +50935,8 @@
     "age": 52,
     "birthDate": "1973-09-11",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_25241b7c",
@@ -50052,7 +50944,6 @@
     "category": "sumo",
     "score": 39.2,
     "details": {
-      "symmetry": 43,
       "golden_ratio": 22,
       "eyes": 63,
       "nose": 28,
@@ -50073,11 +50964,11 @@
     "age": 52,
     "birthDate": "1974-02-26",
     "rankingExclusionReasons": [
-      "invalid face geometry",
       "おすすめ表示では sumo カテゴリを除外"
     ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "invalid_eyes_above_nose"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "invalid_eyes_above_nose",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_38af7091",
@@ -50085,7 +50976,6 @@
     "category": "athlete",
     "score": 39.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 27,
       "eyes": 69,
       "nose": 40,
@@ -50109,7 +50999,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_8d3c8c0c",
@@ -50117,7 +51008,6 @@
     "category": "sumo",
     "score": 39.1,
     "details": {
-      "symmetry": 33,
       "golden_ratio": 26,
       "eyes": 85,
       "nose": 31,
@@ -50141,7 +51031,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_b7e756ac",
@@ -50149,7 +51040,6 @@
     "category": "athlete",
     "score": 38.7,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 41,
       "nose": 53,
@@ -50173,7 +51063,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_deb24806",
@@ -50181,7 +51072,6 @@
     "category": "sumo",
     "score": 38.7,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 21,
       "eyes": 50,
       "nose": 44,
@@ -50205,7 +51095,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_2e00e8e6",
@@ -50213,7 +51104,6 @@
     "category": "sumo",
     "score": 38.6,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 28,
       "eyes": 64,
       "nose": 37,
@@ -50237,7 +51127,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_81887b90",
@@ -50245,7 +51136,6 @@
     "category": "sumo",
     "score": 38.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 22,
       "eyes": 24,
       "nose": 60,
@@ -50269,7 +51159,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_343a5326",
@@ -50277,7 +51168,6 @@
     "category": "athlete",
     "score": 38.1,
     "details": {
-      "symmetry": 88,
       "golden_ratio": 28,
       "eyes": 96,
       "nose": 15,
@@ -50301,7 +51191,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_29dedd36",
@@ -50309,7 +51200,6 @@
     "category": "sumo",
     "score": 38.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 53,
       "nose": 12,
@@ -50333,7 +51223,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_fb0e9003",
@@ -50341,7 +51232,6 @@
     "category": "athlete",
     "score": 37.9,
     "details": {
-      "symmetry": 60,
       "golden_ratio": 26,
       "eyes": 67,
       "nose": 42,
@@ -50365,7 +51255,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_614b0acb",
@@ -50373,7 +51264,6 @@
     "category": "athlete",
     "score": 37.6,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 60,
       "nose": 48,
@@ -50397,7 +51287,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_388d73fe",
@@ -50405,7 +51296,6 @@
     "category": "sumo",
     "score": 37.4,
     "details": {
-      "symmetry": 4,
       "golden_ratio": 23,
       "eyes": 81,
       "nose": 22,
@@ -50429,7 +51319,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_d7707c7b",
@@ -50437,7 +51328,6 @@
     "category": "athlete",
     "score": 37.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 54,
       "nose": 43,
@@ -50461,7 +51351,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_c5b713ef",
@@ -50469,7 +51360,6 @@
     "category": "sumo",
     "score": 37.2,
     "details": {
-      "symmetry": 54,
       "golden_ratio": 21,
       "eyes": 59,
       "nose": 18,
@@ -50493,7 +51383,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_38f27583",
@@ -50501,7 +51392,6 @@
     "category": "sumo",
     "score": 37.0,
     "details": {
-      "symmetry": 77,
       "golden_ratio": 26,
       "eyes": 41,
       "nose": 22,
@@ -50525,7 +51415,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_8d3be736",
@@ -50533,7 +51424,6 @@
     "category": "athlete",
     "score": 36.6,
     "details": {
-      "symmetry": 13,
       "golden_ratio": 25,
       "eyes": 84,
       "nose": 20,
@@ -50557,7 +51447,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_414eee3a",
@@ -50565,7 +51456,6 @@
     "category": "artist",
     "score": 36.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 25,
       "eyes": 37,
       "nose": 50,
@@ -50582,14 +51472,12 @@
       "faceSns": 36.4,
       "faceAgeSns": 21.2
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 41,
     "birthDate": "1984-12-08",
-    "faceValidationStatus": "rejected",
+    "faceValidationStatus": "undetected",
     "faceValidationReason": "multiple_geometry_failures",
-    "rankingExclusionReasons": [
-      "invalid face geometry"
-    ]
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_58f675db",
@@ -50597,7 +51485,6 @@
     "category": "athlete",
     "score": 36.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 21,
       "eyes": 49,
       "nose": 52,
@@ -50621,7 +51508,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_0507b90a",
@@ -50629,7 +51517,6 @@
     "category": "sumo",
     "score": 36.2,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 23,
       "eyes": 61,
       "nose": 38,
@@ -50653,7 +51540,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_fdce1bd9",
@@ -50661,7 +51549,6 @@
     "category": "cultural",
     "score": 36.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 24,
       "eyes": 59,
       "nose": 12,
@@ -50678,14 +51565,12 @@
       "faceSns": 36.1,
       "faceAgeSns": 24.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 38,
     "birthDate": "1987-12-18",
-    "rankingExclusionReasons": [
-      "invalid face geometry"
-    ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "invalid_eyes_above_nose"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "invalid_eyes_above_nose",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_63a03d75",
@@ -50693,7 +51578,6 @@
     "category": "sumo",
     "score": 36.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 19,
       "eyes": 59,
       "nose": 46,
@@ -50714,11 +51598,11 @@
     "age": 31,
     "birthDate": "1994-08-28",
     "rankingExclusionReasons": [
-      "invalid face geometry",
       "おすすめ表示では sumo カテゴリを除外"
     ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "multiple_geometry_failures"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "multiple_geometry_failures",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_d64e0fd0",
@@ -50726,7 +51610,6 @@
     "category": "sumo",
     "score": 35.1,
     "details": {
-      "symmetry": 76,
       "golden_ratio": 18,
       "eyes": 51,
       "nose": 18,
@@ -50747,11 +51630,11 @@
     "age": 36,
     "birthDate": "1990-02-28",
     "rankingExclusionReasons": [
-      "invalid face geometry",
       "おすすめ表示では sumo カテゴリを除外"
     ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "invalid_eyes_above_nose"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "invalid_eyes_above_nose",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_a9ef87f9",
@@ -50759,7 +51642,6 @@
     "category": "sumo",
     "score": 34.5,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 22,
       "eyes": 61,
       "nose": 35,
@@ -50780,11 +51662,11 @@
     "age": 57,
     "birthDate": "1968-06-08",
     "rankingExclusionReasons": [
-      "invalid face geometry",
       "おすすめ表示では sumo カテゴリを除外"
     ],
-    "faceValidationStatus": "rejected",
-    "faceValidationReason": "multiple_geometry_failures"
+    "faceValidationStatus": "undetected",
+    "faceValidationReason": "multiple_geometry_failures",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_838a399a",
@@ -50792,7 +51674,6 @@
     "category": "sumo",
     "score": 33.8,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 17,
       "eyes": 76,
       "nose": 37,
@@ -50816,7 +51697,8 @@
       "おすすめ表示では sumo カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_696f51ce",
@@ -50824,7 +51706,6 @@
     "category": "athlete",
     "score": 33.0,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 15,
       "eyes": 75,
       "nose": 33,
@@ -50848,7 +51729,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_f8bbbc4e",
@@ -50856,7 +51738,6 @@
     "category": "athlete",
     "score": 32.1,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 19,
       "eyes": 25,
       "nose": 40,
@@ -50880,7 +51761,8 @@
       "おすすめ表示では athlete カテゴリを除外"
     ],
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   },
   {
     "id": "celeb_efe22d22",
@@ -50888,7 +51770,6 @@
     "category": "comedian",
     "score": 31.4,
     "details": {
-      "symmetry": 0,
       "golden_ratio": 25,
       "eyes": 14,
       "nose": 31,
@@ -50909,6 +51790,7 @@
     "age": 52,
     "birthDate": "1973-08-02",
     "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
+    "faceValidationReason": "no_face_detected",
+    "faceValidationSource": "existing_data"
   }
 ]

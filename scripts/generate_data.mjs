@@ -147,13 +147,11 @@ function calculateFaceScore(landmarks) {
   };
 
   const score =
-    details.symmetry * 0.2 +
-    details.golden_ratio * 0.25 +
+    details.golden_ratio * 0.35 +
     details.eyes * 0.15 +
-    details.nose * 0.1 +
-    details.mouth * 0.1 +
-    details.contour * 0.1 +
-    details.skin * 0.1;
+    details.nose * 0.15 +
+    details.mouth * 0.15 +
+    details.contour * 0.2;
 
   return { details, score: Math.round(score * 10) / 10 };
 }

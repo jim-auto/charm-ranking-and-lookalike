@@ -28,13 +28,21 @@ export default function DiagnosePage() {
   const [gender, setGender] = useState<'male' | 'female'>('male');
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
+  const scoringCelebrities = useMemo(
+    () =>
+      celebrities.filter(
+        (celebrity) =>
+          celebrity.gender === gender && celebrity.faceValidationStatus !== 'rejected'
+      ),
+    [celebrities, gender]
+  );
   const metricDistributions = useMemo(
-    () => calculateMetricDistributions(celebrities),
-    [celebrities]
+    () => calculateMetricDistributions(scoringCelebrities),
+    [scoringCelebrities]
   );
   const toDeviation = useMemo(
-    () => createCelebrityScoreDeviationConverter(celebrities, 'face'),
-    [celebrities]
+    () => createCelebrityScoreDeviationConverter(scoringCelebrities, 'face'),
+    [scoringCelebrities]
   );
 
   useEffect(() => {
@@ -77,11 +85,15 @@ export default function DiagnosePage() {
         const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
         const score = toDeviation(rawScore);
 
-        const filtered = celebrities.filter((c) => c.gender === gender);
         const embeddingStore = await loadEmbeddingStore(`${import.meta.env.BASE_URL}data`);
-        const similar = findSimilarCelebrities(detection.embedding, filtered, embeddingStore, 5);
+        const similar = findSimilarCelebrities(
+          detection.embedding,
+          scoringCelebrities,
+          embeddingStore,
+          5
+        );
         const lookalikes = similar.map(({ index, similarity }) => ({
-          celebrity: filtered[index],
+          celebrity: scoringCelebrities[index],
           similarity,
         }));
 
@@ -93,7 +105,7 @@ export default function DiagnosePage() {
         setProcessing(false);
       }
     },
-    [modelsReady, celebrities, gender, metricDistributions, toDeviation],
+    [modelsReady, metricDistributions, scoringCelebrities, toDeviation],
   );
 
   return (
