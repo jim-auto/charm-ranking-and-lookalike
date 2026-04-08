@@ -41,14 +41,14 @@ function describeDistribution(distribution: MetricDistribution): {
 
   if (distribution.skew >= 0.8) {
     return {
-      label: '右に歪み',
+      label: '高得点側に裾',
       tone: 'border-emerald-800/70 bg-emerald-950/30 text-emerald-200',
     };
   }
 
   if (distribution.skew <= -0.8) {
     return {
-      label: '左に歪み',
+      label: '低得点側に裾',
       tone: 'border-sky-800/70 bg-sky-950/30 text-sky-200',
     };
   }
