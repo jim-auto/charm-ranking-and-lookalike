@@ -779,12 +779,9 @@
       "faceSns": 58.4,
       "faceAgeSns": 31.2
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 51,
     "birthDate": "1974-06-18",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -811,12 +808,9 @@
       "faceSns": 58.4,
       "faceAgeSns": 30.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1974-03-30",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -1070,7 +1064,10 @@
       "faceSns": 58.0,
       "faceAgeSns": 33.2
     },
-    "rankingEligible": true
+    "rankingEligible": false,
+    "rankingExclusionReasons": [
+      "おすすめ表示では prowrestler カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4ff5e7f3",
@@ -1472,12 +1469,9 @@
       "faceSns": 56.8,
       "faceAgeSns": 34.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 47,
     "birthDate": "1979-02-03",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -1785,12 +1779,9 @@
       "faceSns": 56.4,
       "faceAgeSns": 25.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 54,
     "birthDate": "1971-10-23",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2198,12 +2189,9 @@
       "faceSns": 55.7,
       "faceAgeSns": 9.3
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 67,
     "birthDate": "1958-05-02",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2289,12 +2277,9 @@
       "faceSns": 55.2,
       "faceAgeSns": 4.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 71,
     "birthDate": "1955-01-26",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2353,12 +2338,9 @@
       "faceSns": 55.1,
       "faceAgeSns": 14.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 62,
     "birthDate": "1963-09-08",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2541,12 +2523,9 @@
       "faceSns": 54.8,
       "faceAgeSns": 38.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 42,
     "birthDate": "1984-01-29",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2769,12 +2748,9 @@
       "faceSns": 54.7,
       "faceAgeSns": 26.3
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-12-04",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2894,12 +2870,9 @@
       "faceSns": 54.6,
       "faceAgeSns": 23.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 54,
     "birthDate": "1972-02-14",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -2958,12 +2931,9 @@
       "faceSns": 54.5,
       "faceAgeSns": 16.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 60,
     "birthDate": "1965-05-13",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3052,12 +3022,9 @@
       "faceSns": 54.5,
       "faceAgeSns": 11.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 64,
     "birthDate": "1962-02-01",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -3084,12 +3051,9 @@
       "faceSns": 54.5,
       "faceAgeSns": 40.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 40,
     "birthDate": "1986-01-09",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3210,12 +3174,9 @@
       "faceSns": 54.2,
       "faceAgeSns": 19.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 57,
     "birthDate": "1968-10-29",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3242,12 +3203,9 @@
       "faceSns": 54.2,
       "faceAgeSns": 29.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 49,
     "birthDate": "1977-02-02",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3336,12 +3294,9 @@
       "faceSns": 54.0,
       "faceAgeSns": 13.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 62,
     "birthDate": "1963-05-11",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3561,12 +3516,9 @@
       "faceSns": 53.9,
       "faceAgeSns": 25.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-07-04",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3593,12 +3545,9 @@
       "faceSns": 53.9,
       "faceAgeSns": 31.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 47,
     "birthDate": "1979-02-09",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -3966,12 +3915,9 @@
       "faceSns": 53.4,
       "faceAgeSns": 20.2
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 56,
     "birthDate": "1969-04-26",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -4125,12 +4071,9 @@
       "faceSns": 53.2,
       "faceAgeSns": -13.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 84,
     "birthDate": "1941-05-07",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -4222,12 +4165,9 @@
       "faceSns": 53.1,
       "faceAgeSns": 25.9
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 51,
     "birthDate": "1974-12-25",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -4254,12 +4194,9 @@
       "faceSns": 53.0,
       "faceAgeSns": 33.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 45,
     "birthDate": "1980-04-15",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -4418,12 +4355,9 @@
       "faceSns": 52.8,
       "faceAgeSns": 24.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-06-27",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -4581,12 +4515,9 @@
       "faceSns": 52.6,
       "faceAgeSns": 2.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 70,
     "birthDate": "1955-04-13",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -4903,12 +4834,9 @@
       "faceSns": 52.4,
       "faceAgeSns": 27.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 49,
     "birthDate": "1976-06-06",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -4935,12 +4863,9 @@
       "faceSns": 52.3,
       "faceAgeSns": 22.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 53,
     "birthDate": "1972-07-16",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5456,12 +5381,9 @@
       "faceSns": 52.0,
       "faceAgeSns": 44.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 35,
     "birthDate": "1990-11-01",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5585,12 +5507,9 @@
       "faceSns": 51.9,
       "faceAgeSns": 35.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 42,
     "birthDate": "1983-05-06",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5681,12 +5600,9 @@
       "faceSns": 51.8,
       "faceAgeSns": 33.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 44,
     "birthDate": "1982-03-15",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5713,12 +5629,9 @@
       "faceSns": 51.8,
       "faceAgeSns": 33.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 44,
     "birthDate": "1982-03-15",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5839,12 +5752,9 @@
       "faceSns": 51.7,
       "faceAgeSns": 22.1
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 53,
     "birthDate": "1972-04-26",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5903,12 +5813,9 @@
       "faceSns": 51.6,
       "faceAgeSns": 18.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 56,
     "birthDate": "1970-03-31",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -5935,12 +5842,9 @@
       "faceSns": 51.6,
       "faceAgeSns": -6.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 77,
     "birthDate": "1948-08-19",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -6159,12 +6063,9 @@
       "faceSns": 51.3,
       "faceAgeSns": 9.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 63,
     "birthDate": "1962-06-06",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -6382,12 +6283,9 @@
       "faceSns": 51.2,
       "faceAgeSns": -18.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 86,
     "birthDate": "1940-02-06",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -6732,12 +6630,9 @@
       "faceSns": 50.7,
       "faceAgeSns": 15.1
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 58,
     "birthDate": "1967-09-19",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -6954,12 +6849,9 @@
       "faceSns": 50.5,
       "faceAgeSns": -6.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 76,
     "birthDate": "1950-02-20",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -7300,12 +7192,9 @@
       "faceSns": 49.9,
       "faceAgeSns": -0.1
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 70,
     "birthDate": "1956-03-24",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -7590,8 +7479,7 @@
     "age": 53,
     "birthDate": "1972-09-23",
     "rankingExclusionReasons": [
-      "invalid face geometry",
-      "おすすめ表示では comedian カテゴリを除外"
+      "invalid face geometry"
     ],
     "faceValidationStatus": "rejected",
     "faceValidationReason": "invalid_eyes_above_nose"
@@ -7648,12 +7536,9 @@
       "faceSns": 49.7,
       "faceAgeSns": -5.1
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 74,
     "birthDate": "1951-12-23",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -7808,12 +7693,9 @@
       "faceSns": 49.4,
       "faceAgeSns": 25.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 48,
     "birthDate": "1977-04-14",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -7873,12 +7755,9 @@
       "faceSns": 49.4,
       "faceAgeSns": 48.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 27,
     "birthDate": "1998-09-02",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -7937,12 +7816,9 @@
       "faceSns": 49.4,
       "faceAgeSns": 11.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 60,
     "birthDate": "1965-11-20",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -7969,12 +7845,9 @@
       "faceSns": 49.3,
       "faceAgeSns": 20.9
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-12-13",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -8158,12 +8031,9 @@
       "faceSns": 49.2,
       "faceAgeSns": 8.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 62,
     "birthDate": "1964-02-13",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -8190,12 +8060,9 @@
       "faceSns": 49.2,
       "faceAgeSns": 32.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 42,
     "birthDate": "1983-10-05",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -8222,12 +8089,9 @@
       "faceSns": 49.2,
       "faceAgeSns": 8.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 62,
     "birthDate": "1963-11-04",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -8446,12 +8310,9 @@
       "faceSns": 48.9,
       "faceAgeSns": 20.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-07-05",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -8478,12 +8339,9 @@
       "faceSns": 48.6,
       "faceAgeSns": 33.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 41,
     "birthDate": "1984-10-15",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -8639,12 +8497,9 @@
       "faceSns": 48.4,
       "faceAgeSns": 18.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 53,
     "birthDate": "1972-09-16",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -8988,12 +8843,9 @@
       "faceSns": 48.1,
       "faceAgeSns": 18.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 53,
     "birthDate": "1972-07-04",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -9213,12 +9065,9 @@
       "faceSns": 47.8,
       "faceAgeSns": 17.0
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 54,
     "birthDate": "1972-01-19",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -9274,12 +9123,9 @@
       "faceSns": 47.8,
       "faceAgeSns": 3.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 65,
     "birthDate": "1960-05-22",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -9495,12 +9341,9 @@
       "faceSns": 47.6,
       "faceAgeSns": 28.8
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 44,
     "birthDate": "1981-10-09",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -9688,12 +9531,9 @@
       "faceSns": 47.3,
       "faceAgeSns": 26.1
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 46,
     "birthDate": "1980-01-28",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -9850,12 +9690,9 @@
       "faceSns": 47.0,
       "faceAgeSns": 30.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 42,
     "birthDate": "1983-09-03",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -10361,12 +10198,9 @@
       "faceSns": 46.3,
       "faceAgeSns": 2.3
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 65,
     "birthDate": "1961-03-27",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -10554,12 +10388,9 @@
       "faceSns": 45.9,
       "faceAgeSns": 13.9
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 55,
     "birthDate": "1971-03-30",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -10619,12 +10450,9 @@
       "faceSns": 45.9,
       "faceAgeSns": 24.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 46,
     "birthDate": "1980-03-01",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -11067,12 +10895,9 @@
       "faceSns": 45.0,
       "faceAgeSns": 16.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-09-11",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },
@@ -11259,12 +11084,9 @@
       "faceSns": 44.8,
       "faceAgeSns": 22.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 47,
     "birthDate": "1978-04-15",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -11837,12 +11659,9 @@
       "faceSns": 42.5,
       "faceAgeSns": 22.5
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 45,
     "birthDate": "1980-11-16",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -12285,12 +12104,9 @@
       "faceSns": 41.2,
       "faceAgeSns": 28.4
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 39,
     "birthDate": "1986-11-28",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -12513,8 +12329,7 @@
     "age": 38,
     "birthDate": "1987-12-18",
     "rankingExclusionReasons": [
-      "invalid face geometry",
-      "おすすめ表示では cultural カテゴリを除外"
+      "invalid face geometry"
     ],
     "faceValidationStatus": "rejected",
     "faceValidationReason": "invalid_eyes_above_nose"
@@ -13089,12 +12904,9 @@
       "faceSns": 37.3,
       "faceAgeSns": -1.9
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 61,
     "birthDate": "1964-09-23",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -13153,12 +12965,9 @@
       "faceSns": 36.5,
       "faceAgeSns": 3.3
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 56,
     "birthDate": "1970-01-25",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -13281,12 +13090,9 @@
       "faceSns": 35.8,
       "faceAgeSns": -22.6
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 77,
     "birthDate": "1948-11-10",
-    "rankingExclusionReasons": [
-      "おすすめ表示では cultural カテゴリを除外"
-    ],
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
   },
@@ -13313,12 +13119,9 @@
       "faceSns": 35.1,
       "faceAgeSns": 6.7
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "age": 52,
     "birthDate": "1973-08-02",
-    "rankingExclusionReasons": [
-      "おすすめ表示では comedian カテゴリを除外"
-    ],
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },

@@ -3,6 +3,7 @@ import {
   getRankingMetricLabel,
   getRankingMetricValue,
   isOverallMetric,
+  isReferenceMetric,
   type RankingMetric,
 } from '../lib/rankingMetrics';
 import ScoreRadar from './ScoreRadar';
@@ -55,6 +56,7 @@ export default function CelebrityCard({
   toDeviation,
 }: Props) {
   const rawScore = getRankingMetricValue(celebrity, metric, useAge, useSns);
+  const isReference = !isOverallMetric(metric) && isReferenceMetric(metric);
   const displayScore = isOverallMetric(metric)
     ? toDeviation
       ? toDeviation(rawScore, useAge, useSns)
@@ -112,6 +114,11 @@ export default function CelebrityCard({
               {scoreSubLabel && (
                 <div className="mt-1 text-[10px] leading-none text-slate-500 sm:text-[11px]">
                   {scoreSubLabel}
+                </div>
+              )}
+              {isReference && (
+                <div className="mt-1 text-[10px] font-medium leading-none text-amber-400 sm:text-[11px]">
+                  参考値
                 </div>
               )}
             </div>

@@ -301,7 +301,8 @@ export default function RankingPage() {
         ) : (
           <>
             現在は「{getRankingMetricLabel(rankingMetric)}」の生点ランキングです。カード内にはスコアと偏差値を併記しています。年齢補正とSNS補正は使いません。
-            {selectedMetric.isReference && ' 左右対称は角度や表情の影響が強いため参考値として見てください。'}
+            {selectedMetric.isReference &&
+              ' 鼻・輪郭・左右対称は撮影角度や表情の影響が残るので、単独の優劣ではなく傾向確認用の参考値として見てください。'}
             {' '}肌スコアは全員75固定なので対象外です。
           </>
         )}

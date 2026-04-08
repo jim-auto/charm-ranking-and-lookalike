@@ -18,12 +18,22 @@ export interface RankingMetricOption {
 }
 
 export const rankingMetricOptions: RankingMetricOption[] = [
-  { value: 'overall', label: '総合', description: '偏差値ベースの総合ランキング' },
+  { value: 'overall', label: '総合', description: '分布補正後の総合ランキング' },
   { value: 'golden_ratio', label: '黄金比', description: '顔の縦横比と目の配置' },
   { value: 'eyes', label: '目', description: '目の開き方と左右バランス' },
-  { value: 'nose', label: '鼻', description: '鼻の幅と長さの比率' },
+  {
+    value: 'nose',
+    label: '鼻',
+    description: '鼻の幅と長さの比率。写真条件の影響が残る参考値',
+    isReference: true,
+  },
   { value: 'mouth', label: '口', description: '口幅と唇バランスの比率' },
-  { value: 'contour', label: '輪郭', description: 'フェイスラインの滑らかさ' },
+  {
+    value: 'contour',
+    label: '輪郭',
+    description: 'フェイスラインの滑らかさ。角度の影響が残る参考値',
+    isReference: true,
+  },
   {
     value: 'symmetry',
     label: '左右対称',
@@ -34,6 +44,10 @@ export const rankingMetricOptions: RankingMetricOption[] = [
 
 export function isOverallMetric(metric: RankingMetric): metric is 'overall' {
   return metric === 'overall';
+}
+
+export function isReferenceMetric(metric: RankingMetric): boolean {
+  return rankingMetricOptions.find((option) => option.value === metric)?.isReference ?? false;
 }
 
 export function getRankingMetricLabel(metric: RankingMetric): string {

@@ -3,7 +3,7 @@ from __future__ import annotations
 import statistics
 from collections import defaultdict
 
-UNWANTED_RECOMMENDED_CATEGORIES = {"comedian", "athlete", "sumo", "cultural"}
+UNWANTED_RECOMMENDED_CATEGORIES = {"athlete", "sumo", "prowrestler"}
 LOW_DEVIATION_CATEGORIES = {"actor", "actress", "idol"}
 LOW_DEVIATION_THRESHOLD = 40.0
 FACE_VALIDATION_EXCLUSION_REASON = "invalid face geometry"
