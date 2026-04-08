@@ -123,6 +123,164 @@
     "faceValidationSource": "mediapipe"
   },
   {
+    "id": "celeb_db8672b9",
+    "name": "安室奈美恵",
+    "score": 60.7,
+    "details": {
+      "symmetry": 59,
+      "golden_ratio": 50,
+      "eyes": 82,
+      "nose": 43,
+      "mouth": 66,
+      "contour": 57,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg",
+    "category": "artist",
+    "embedding": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rank": 5,
+    "age": 48,
+    "gender": "female",
+    "faceValidationStatus": "accepted",
+    "faceValidationSource": "mediapipe",
+    "scores": {
+      "face": 60.7,
+      "faceAge": 37.1,
+      "faceSns": 60.7,
+      "faceAgeSns": 37.1
+    },
+    "rankingEligible": true
+  },
+  {
     "id": "celeb_8fc71b5e",
     "name": "指原莉乃",
     "category": "idol",
@@ -137,7 +295,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8fc71b5e.jpg",
-    "rank": 5,
+    "rank": 6,
     "age": 33,
     "gender": "female",
     "sns": {
@@ -171,7 +329,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_40796ce8.jpg",
-    "rank": 6,
+    "rank": 7,
     "gender": "female",
     "scores": {
       "face": 59.9,
@@ -200,7 +358,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_0025540b.jpg",
-    "rank": 7,
+    "rank": 8,
     "gender": "male",
     "scores": {
       "face": 59.6,
@@ -229,7 +387,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_04bb2177.jpg",
-    "rank": 8,
+    "rank": 9,
     "age": 27,
     "gender": "female",
     "sns": {
@@ -262,7 +420,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_c3f23293.jpg",
-    "rank": 9,
+    "rank": 10,
     "age": 31,
     "gender": "female",
     "sns": {
@@ -294,7 +452,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a969f119.jpg",
-    "rank": 10,
+    "rank": 11,
     "age": 23,
     "gender": "female",
     "sns": {
@@ -326,7 +484,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8393c080.jpg",
-    "rank": 11,
+    "rank": 12,
     "age": 33,
     "gender": "female",
     "sns": {
@@ -360,7 +518,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_685a067b.jpg",
-    "rank": 12,
+    "rank": 13,
     "age": 46,
     "gender": "male",
     "sns": {},
@@ -390,7 +548,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8c89a925.jpg",
-    "rank": 13,
+    "rank": 14,
     "age": 22,
     "gender": "female",
     "sns": {
@@ -423,7 +581,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1a447011.jpg",
-    "rank": 14,
+    "rank": 15,
     "gender": "female",
     "scores": {
       "face": 57.5,
@@ -452,7 +610,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_60cf46c4.jpg",
-    "rank": 15,
+    "rank": 16,
     "age": 23,
     "gender": "female",
     "sns": {
@@ -484,7 +642,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1c82bee3.jpg",
-    "rank": 16,
+    "rank": 17,
     "age": 34,
     "gender": "female",
     "sns": {
@@ -518,7 +676,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e78f15a0.jpg",
-    "rank": 17,
+    "rank": 18,
     "age": 32,
     "gender": "male",
     "sns": {
@@ -551,7 +709,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5df0cbf8.jpg",
-    "rank": 18,
+    "rank": 19,
     "gender": "female",
     "scores": {
       "face": 57.2,
@@ -580,7 +738,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3060094d.jpg",
-    "rank": 19,
+    "rank": 20,
     "age": 48,
     "gender": "female",
     "sns": {
@@ -612,7 +770,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_37e98952.jpg",
-    "rank": 20,
+    "rank": 21,
     "gender": "female",
     "scores": {
       "face": 56.8,
@@ -625,35 +783,6 @@
     "birthDate": "1997-04-02",
     "faceValidationStatus": "accepted",
     "faceValidationSource": "mediapipe"
-  },
-  {
-    "id": "celeb_db8672b9",
-    "name": "安室奈美恵",
-    "category": "artist",
-    "score": 56.6,
-    "details": {
-      "symmetry": 10,
-      "golden_ratio": 32,
-      "eyes": 87,
-      "nose": 82,
-      "mouth": 66,
-      "contour": 51,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_db8672b9.jpg",
-    "rank": 21,
-    "gender": "female",
-    "scores": {
-      "face": 56.6,
-      "faceAge": 33.0,
-      "faceSns": 56.6,
-      "faceAgeSns": 33.0
-    },
-    "rankingEligible": true,
-    "age": 48,
-    "birthDate": "1977-09-20",
-    "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
   },
   {
     "id": "celeb_2267bb69",
@@ -2324,6 +2453,164 @@
     "faceValidationReason": "no_face_detected"
   },
   {
+    "id": "celeb_52f3ac8c",
+    "name": "棚橋弘至",
+    "score": 53.0,
+    "details": {
+      "symmetry": 34,
+      "golden_ratio": 46,
+      "eyes": 70,
+      "nose": 43,
+      "mouth": 70,
+      "contour": 54,
+      "skin": 75
+    },
+    "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg",
+    "category": "prowrestler",
+    "embedding": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rank": 75,
+    "age": 49,
+    "gender": "male",
+    "faceValidationStatus": "accepted",
+    "faceValidationSource": "mediapipe",
+    "scores": {
+      "face": 53.0,
+      "faceAge": 28.2,
+      "faceSns": 53.0,
+      "faceAgeSns": 28.2
+    },
+    "rankingEligible": true
+  },
+  {
     "id": "celeb_f5977b60",
     "name": "杉咲花",
     "category": "actress",
@@ -2338,7 +2625,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_f5977b60.jpg",
-    "rank": 75,
+    "rank": 76,
     "age": 28,
     "gender": "female",
     "sns": {
@@ -2370,7 +2657,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a9977480.jpg",
-    "rank": 76,
+    "rank": 77,
     "age": 38,
     "gender": "male",
     "sns": {},
@@ -2400,7 +2687,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_307cf348.jpg",
-    "rank": 77,
+    "rank": 78,
     "gender": "male",
     "scores": {
       "face": 52.8,
@@ -2432,7 +2719,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3ba08e03.jpg",
-    "rank": 78,
+    "rank": 79,
     "age": 37,
     "gender": "female",
     "sns": {
@@ -2465,7 +2752,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8d52f331.jpg",
-    "rank": 79,
+    "rank": 80,
     "gender": "male",
     "scores": {
       "face": 52.8,
@@ -2494,7 +2781,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_67595c9c.jpg",
-    "rank": 80,
+    "rank": 81,
     "age": 30,
     "gender": "female",
     "sns": {
@@ -2527,7 +2814,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_985b0c16.jpg",
-    "rank": 81,
+    "rank": 82,
     "gender": "female",
     "scores": {
       "face": 52.8,
@@ -2559,7 +2846,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_4f811f29.jpg",
-    "rank": 82,
+    "rank": 83,
     "age": 23,
     "gender": "female",
     "sns": {
@@ -2592,7 +2879,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_d2089ec5.jpg",
-    "rank": 83,
+    "rank": 84,
     "gender": "male",
     "scores": {
       "face": 52.7,
@@ -2624,7 +2911,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_fbf39237.jpg",
-    "rank": 84,
+    "rank": 85,
     "gender": "male",
     "scores": {
       "face": 52.7,
@@ -2656,7 +2943,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_28026792.jpg",
-    "rank": 85,
+    "rank": 86,
     "gender": "male",
     "scores": {
       "face": 52.7,
@@ -2688,7 +2975,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_dbb05ca6.jpg",
-    "rank": 86,
+    "rank": 87,
     "gender": "female",
     "scores": {
       "face": 52.6,
@@ -2720,7 +3007,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_34c4561b.jpg",
-    "rank": 87,
+    "rank": 88,
     "age": 37,
     "gender": "male",
     "sns": {
@@ -2753,7 +3040,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_2a1aa1d6.jpg",
-    "rank": 88,
+    "rank": 89,
     "gender": "male",
     "scores": {
       "face": 52.6,
@@ -2782,7 +3069,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_783a8bb7.jpg",
-    "rank": 89,
+    "rank": 90,
     "gender": "male",
     "scores": {
       "face": 52.5,
@@ -2814,7 +3101,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_babcad9f.jpg",
-    "rank": 90,
+    "rank": 91,
     "gender": "male",
     "scores": {
       "face": 52.4,
@@ -2846,7 +3133,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_d9e3f630.jpg",
-    "rank": 91,
+    "rank": 92,
     "age": 28,
     "gender": "female",
     "sns": {
@@ -2879,7 +3166,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_36eae98d.jpg",
-    "rank": 92,
+    "rank": 93,
     "age": 28,
     "gender": "female",
     "sns": {
@@ -2912,7 +3199,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_d0fde418.jpg",
-    "rank": 93,
+    "rank": 94,
     "gender": "male",
     "scores": {
       "face": 52.3,
@@ -2944,7 +3231,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_932743cd.jpg",
-    "rank": 94,
+    "rank": 95,
     "gender": "male",
     "scores": {
       "face": 52.2,
@@ -2976,7 +3263,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e245d548.jpg",
-    "rank": 95,
+    "rank": 96,
     "gender": "male",
     "scores": {
       "face": 52.2,
@@ -3008,7 +3295,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_26b24f55.jpg",
-    "rank": 96,
+    "rank": 97,
     "gender": "male",
     "scores": {
       "face": 52.2,
@@ -3040,7 +3327,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_b9317c7d.jpg",
-    "rank": 97,
+    "rank": 98,
     "gender": "male",
     "scores": {
       "face": 52.1,
@@ -3072,7 +3359,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e7588c0f.jpg",
-    "rank": 98,
+    "rank": 99,
     "age": 43,
     "gender": "female",
     "sns": {
@@ -3105,7 +3392,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_ebfe09fe.jpg",
-    "rank": 99,
+    "rank": 100,
     "gender": "male",
     "scores": {
       "face": 51.9,
@@ -3137,7 +3424,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_267dfe9a.jpg",
-    "rank": 100,
+    "rank": 101,
     "gender": "male",
     "scores": {
       "face": 51.8,
@@ -3169,7 +3456,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8ffa8614.jpg",
-    "rank": 101,
+    "rank": 102,
     "gender": "male",
     "scores": {
       "face": 51.8,
@@ -3201,7 +3488,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1278ef8f.jpg",
-    "rank": 102,
+    "rank": 103,
     "gender": "male",
     "scores": {
       "face": 51.8,
@@ -3233,7 +3520,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5b4eb7b4.jpg",
-    "rank": 103,
+    "rank": 104,
     "gender": "male",
     "scores": {
       "face": 51.8,
@@ -3265,7 +3552,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_aecfb502.jpg",
-    "rank": 104,
+    "rank": 105,
     "gender": "male",
     "scores": {
       "face": 51.8,
@@ -3297,7 +3584,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_ff08aeb3.jpg",
-    "rank": 105,
+    "rank": 106,
     "gender": "male",
     "scores": {
       "face": 51.7,
@@ -3329,7 +3616,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_fe932ed3.jpg",
-    "rank": 106,
+    "rank": 107,
     "gender": "male",
     "scores": {
       "face": 51.7,
@@ -3361,7 +3648,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_96872d3c.jpg",
-    "rank": 107,
+    "rank": 108,
     "age": 31,
     "gender": "female",
     "sns": {
@@ -3393,7 +3680,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_558dae5f.jpg",
-    "rank": 108,
+    "rank": 109,
     "gender": "male",
     "scores": {
       "face": 51.6,
@@ -3425,7 +3712,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_e2c9e678.jpg",
-    "rank": 109,
+    "rank": 110,
     "gender": "male",
     "scores": {
       "face": 51.6,
@@ -3457,7 +3744,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_d45b0ee1.jpg",
-    "rank": 110,
+    "rank": 111,
     "age": 41,
     "gender": "female",
     "sns": {
@@ -3489,7 +3776,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1b300c1e.jpg",
-    "rank": 111,
+    "rank": 112,
     "age": 21,
     "gender": "female",
     "sns": {},
@@ -3519,7 +3806,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_f45c2de4.jpg",
-    "rank": 112,
+    "rank": 113,
     "gender": "male",
     "scores": {
       "face": 51.6,
@@ -3551,7 +3838,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_559a1270.jpg",
-    "rank": 113,
+    "rank": 114,
     "gender": "male",
     "scores": {
       "face": 51.6,
@@ -3583,7 +3870,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_51f05250.jpg",
-    "rank": 114,
+    "rank": 115,
     "age": 33,
     "gender": "female",
     "sns": {
@@ -3616,7 +3903,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_4026384f.jpg",
-    "rank": 115,
+    "rank": 116,
     "gender": "male",
     "scores": {
       "face": 51.4,
@@ -3648,7 +3935,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_90d4aec0.jpg",
-    "rank": 116,
+    "rank": 117,
     "age": 28,
     "gender": "male",
     "sns": {
@@ -3682,7 +3969,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_dd1cb774.jpg",
-    "rank": 117,
+    "rank": 118,
     "gender": "male",
     "scores": {
       "face": 51.3,
@@ -3714,7 +4001,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_4abd01c6.jpg",
-    "rank": 118,
+    "rank": 119,
     "gender": "male",
     "scores": {
       "face": 51.3,
@@ -3746,7 +4033,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_39b9baef.jpg",
-    "rank": 119,
+    "rank": 120,
     "age": 24,
     "gender": "female",
     "sns": {},
@@ -3777,7 +4064,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_23652c2f.jpg",
-    "rank": 120,
+    "rank": 121,
     "gender": "male",
     "scores": {
       "face": 51.2,
@@ -3809,7 +4096,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_8ed3c9ef.jpg",
-    "rank": 121,
+    "rank": 122,
     "gender": "male",
     "scores": {
       "face": 51.2,
@@ -3841,7 +4128,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_febd48a6.jpg",
-    "rank": 122,
+    "rank": 123,
     "gender": "male",
     "scores": {
       "face": 51.0,
@@ -3873,7 +4160,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_ebf0e695.jpg",
-    "rank": 123,
+    "rank": 124,
     "gender": "male",
     "scores": {
       "face": 51.0,
@@ -3905,7 +4192,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_b882082b.jpg",
-    "rank": 124,
+    "rank": 125,
     "gender": "female",
     "scores": {
       "face": 51.0,
@@ -3937,7 +4224,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5cd2c24c.jpg",
-    "rank": 125,
+    "rank": 126,
     "gender": "male",
     "scores": {
       "face": 51.0,
@@ -3969,7 +4256,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_d1524fda.jpg",
-    "rank": 126,
+    "rank": 127,
     "gender": "male",
     "scores": {
       "face": 50.9,
@@ -4001,7 +4288,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_5f2d3df0.jpg",
-    "rank": 127,
+    "rank": 128,
     "age": 33,
     "gender": "female",
     "sns": {
@@ -4034,7 +4321,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_2c58976d.jpg",
-    "rank": 128,
+    "rank": 129,
     "age": 33,
     "gender": "male",
     "sns": {
@@ -4069,7 +4356,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_29cd0d51.jpg",
-    "rank": 129,
+    "rank": 130,
     "gender": "male",
     "scores": {
       "face": 50.8,
@@ -4101,7 +4388,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_ea94fbff.jpg",
-    "rank": 130,
+    "rank": 131,
     "age": 45,
     "gender": "male",
     "sns": {
@@ -4136,7 +4423,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_dc014b65.jpg",
-    "rank": 131,
+    "rank": 132,
     "gender": "male",
     "scores": {
       "face": 50.8,
@@ -4168,7 +4455,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_7e883dd6.jpg",
-    "rank": 132,
+    "rank": 133,
     "age": 23,
     "gender": "male",
     "sns": {},
@@ -4199,7 +4486,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_cb723ba9.jpg",
-    "rank": 133,
+    "rank": 134,
     "age": 24,
     "gender": "female",
     "sns": {
@@ -4232,7 +4519,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_1d9e9647.jpg",
-    "rank": 134,
+    "rank": 135,
     "age": 22,
     "gender": "female",
     "sns": {
@@ -4265,7 +4552,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_4e17f725.jpg",
-    "rank": 135,
+    "rank": 136,
     "age": 36,
     "gender": "female",
     "sns": {},
@@ -4295,7 +4582,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_41b1fdad.jpg",
-    "rank": 136,
+    "rank": 137,
     "gender": "male",
     "scores": {
       "face": 50.7,
@@ -4327,7 +4614,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_df5afd63.jpg",
-    "rank": 137,
+    "rank": 138,
     "gender": "male",
     "scores": {
       "face": 50.7,
@@ -4359,7 +4646,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_7faa8bee.jpg",
-    "rank": 138,
+    "rank": 139,
     "gender": "male",
     "scores": {
       "face": 50.7,
@@ -4391,7 +4678,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3d3c0a3f.jpg",
-    "rank": 139,
+    "rank": 140,
     "gender": "male",
     "scores": {
       "face": 50.6,
@@ -4423,7 +4710,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_b63824dd.jpg",
-    "rank": 140,
+    "rank": 141,
     "gender": "male",
     "scores": {
       "face": 50.6,
@@ -4455,7 +4742,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a347c13c.jpg",
-    "rank": 141,
+    "rank": 142,
     "gender": "male",
     "scores": {
       "face": 50.6,
@@ -4487,7 +4774,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_732cfdc9.jpg",
-    "rank": 142,
+    "rank": 143,
     "gender": "male",
     "scores": {
       "face": 50.6,
@@ -4519,7 +4806,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_69e73e58.jpg",
-    "rank": 143,
+    "rank": 144,
     "age": 33,
     "gender": "male",
     "sns": {
@@ -4552,7 +4839,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_837ebdf5.jpg",
-    "rank": 144,
+    "rank": 145,
     "gender": "male",
     "scores": {
       "face": 50.4,
@@ -4584,7 +4871,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_21e7e113.jpg",
-    "rank": 145,
+    "rank": 146,
     "gender": "male",
     "scores": {
       "face": 50.4,
@@ -4616,7 +4903,7 @@
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_3d1e3626.jpg",
-    "rank": 146,
+    "rank": 147,
     "gender": "female",
     "scores": {
       "face": 50.4,
@@ -4630,35 +4917,6 @@
     "rankingExclusionReasons": [
       "おすすめ表示では athlete カテゴリを除外"
     ],
-    "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected"
-  },
-  {
-    "id": "celeb_52f3ac8c",
-    "name": "棚橋弘至",
-    "category": "prowrestler",
-    "score": 50.4,
-    "details": {
-      "symmetry": 80,
-      "golden_ratio": 40,
-      "eyes": 44,
-      "nose": 89,
-      "mouth": 39,
-      "contour": 53,
-      "skin": 75
-    },
-    "thumbnail": "data/thumbnails/celeb_52f3ac8c.jpg",
-    "rank": 147,
-    "gender": "male",
-    "scores": {
-      "face": 50.4,
-      "faceAge": 25.6,
-      "faceSns": 50.4,
-      "faceAgeSns": 25.6
-    },
-    "rankingEligible": true,
-    "age": 49,
-    "birthDate": "1976-11-13",
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected"
   },

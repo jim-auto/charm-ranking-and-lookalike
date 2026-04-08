@@ -2226,5 +2226,15 @@
     "wikidataId": "Q847386",
     "wikipediaTitle": "槇原敬之",
     "gender": "male"
+  },
+  "棚橋弘至": {
+    "age": 49,
+    "gender": "male",
+    "category": "prowrestler"
+  },
+  "安室奈美恵": {
+    "age": 48,
+    "gender": "female",
+    "category": "artist"
   }
 }

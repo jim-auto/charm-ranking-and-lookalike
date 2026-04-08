@@ -10,10 +10,10 @@ and merges results into the existing data.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import os
-import re
 import struct
 import sys
 from pathlib import Path
@@ -286,7 +286,7 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 
 def name_to_id(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", name.strip().lower()).strip("-")
+    return f"celeb_{hashlib.md5(name.encode('utf-8')).hexdigest()[:8]}"
 
 
 def find_images(directory: Path) -> List[Path]:
@@ -457,6 +457,23 @@ def main() -> None:
         "--force-all", action="store_true",
         help="Re-process all celebrities, not just new ones",
     )
+    parser.add_argument(
+        "--overwrite-existing",
+        action="store_true",
+        help="Re-process selected names even when they already exist in celebrities.json.",
+    )
+    parser.add_argument(
+        "--names",
+        type=str,
+        default=None,
+        help="Comma-separated list of directory names to process.",
+    )
+    parser.add_argument(
+        "--names-file",
+        type=str,
+        default=None,
+        help="UTF-8 text file with one directory name per line to process.",
+    )
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
@@ -473,7 +490,7 @@ def main() -> None:
     # Load existing data
     existing: List[dict] = []
     existing_names: set = set()
-    if celebrities_json.is_file() and not args.force_all:
+    if celebrities_json.is_file():
         with open(celebrities_json, "r", encoding="utf-8") as f:
             existing = json.load(f)
         existing_names = {c["name"] for c in existing}
@@ -489,12 +506,33 @@ def main() -> None:
         key=lambda p: p.name,
     )
 
+    selected_names = None
+    if args.names:
+        selected_names = {
+            name.strip()
+            for name in args.names.split(",")
+            if name.strip()
+        }
+    if args.names_file:
+        with open(args.names_file, "r", encoding="utf-8-sig") as f:
+            file_names = {line.strip() for line in f if line.strip()}
+        selected_names = (selected_names or set()) | file_names
+    if selected_names:
+        person_dirs = [d for d in person_dirs if d.name in selected_names]
+
     new_dirs = []
     for d in person_dirs:
-        if d.name not in existing_names:
-            images = find_images(d)
-            if images:
-                new_dirs.append(d)
+        should_process = (
+            args.force_all
+            or d.name not in existing_names
+            or args.overwrite_existing
+        )
+        if not should_process:
+            continue
+
+        images = find_images(d)
+        if images:
+            new_dirs.append(d)
 
     print(f"Found {len(new_dirs)} new person(s) to process")
 
@@ -538,6 +576,8 @@ def main() -> None:
     landmarker.close()
 
     # Merge
+    processed_names = {c["name"] for c in new_celebrities}
+    existing = [c for c in existing if c["name"] not in processed_names]
     all_celebrities = existing + new_celebrities
     all_celebrities.sort(key=lambda c: c["score"], reverse=True)
     for rank, cel in enumerate(all_celebrities, start=1):

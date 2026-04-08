@@ -1,8 +1,8 @@
 {
   "summary": {
     "processed": 522,
-    "accepted": 314,
-    "failed": 208,
+    "accepted": 316,
+    "failed": 206,
     "faceRecognitionFallbackAvailable": false
   },
   "entries": [
@@ -1445,8 +1445,10 @@
     {
       "name": "安室奈美恵",
       "category": "artist",
-      "status": "rejected",
-      "reason": "no_face_detected",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.0,
       "imageCount": 1
     },
     {
@@ -2467,8 +2469,10 @@
     {
       "name": "棚橋弘至",
       "category": "prowrestler",
-      "status": "rejected",
-      "reason": "no_face_detected",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.2,
       "imageCount": 1
     },
     {
