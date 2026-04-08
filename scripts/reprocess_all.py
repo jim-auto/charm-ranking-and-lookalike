@@ -23,6 +23,7 @@ from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision
 
 from ranking_policy import build_ranking_policy, deviation
+from score_policy import age_adjusted_score, round_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -297,21 +298,19 @@ def main():
 
         # Compute score variants
         entry["scores"] = {"face": score}
-        if "age" in entry:
-            age = entry["age"]
-            age_bonus = max(0, 5 - abs(age - 23)) if abs(age - 23) <= 5 else 0
-            entry["scores"]["faceAge"] = round((score + age_bonus) * 10) / 10
-        else:
-            entry["scores"]["faceAge"] = score
+        entry["scores"]["faceAge"] = age_adjusted_score(score, entry.get("age"))
 
         if "totalFollowers" in entry and entry["totalFollowers"] > 0:
             import math as m
             sns_score = min(100, m.log10(max(1, entry["totalFollowers"])) * 10)
-            entry["scores"]["faceSns"] = round((score * 0.7 + sns_score * 0.3) * 10) / 10
+            entry["scores"]["faceSns"] = round_score(score * 0.7 + sns_score * 0.3)
         else:
-            entry["scores"]["faceSns"] = score
+            entry["scores"]["faceSns"] = round_score(score)
 
-        entry["scores"]["faceAgeSns"] = entry["scores"].get("faceSns", score)
+        if "totalFollowers" in entry and entry["totalFollowers"] > 0:
+            entry["scores"]["faceAgeSns"] = round_score(entry["scores"]["faceAge"] * 0.7 + sns_score * 0.3)
+        else:
+            entry["scores"]["faceAgeSns"] = entry["scores"]["faceAge"]
 
         results.append(entry)
         if (i + 1) % 20 == 0:

@@ -10,6 +10,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 from ranking_policy import build_ranking_policy, deviation
+from score_policy import age_adjusted_score, round_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -234,20 +235,15 @@ for cel in celebrities:
     cel["scores"] = {"face": score}
 
     # Age adjustment
-    if "age" in cel:
-        age = cel["age"]
-        age_bonus = max(0, 5 - abs(age - 23)) if abs(age - 23) <= 5 else 0
-        cel["scores"]["faceAge"] = round((score + age_bonus) * 10) / 10
-    else:
-        cel["scores"]["faceAge"] = score
+    cel["scores"]["faceAge"] = age_adjusted_score(score, cel.get("age"))
 
     # SNS adjustment
     if "totalFollowers" in cel and cel["totalFollowers"] > 0:
         sns_score = min(100, math.log10(max(1, cel["totalFollowers"])) * 10)
-        cel["scores"]["faceSns"] = round((score * 0.7 + sns_score * 0.3) * 10) / 10
-        cel["scores"]["faceAgeSns"] = round((cel["scores"]["faceAge"] * 0.7 + sns_score * 0.3) * 10) / 10
+        cel["scores"]["faceSns"] = round_score(score * 0.7 + sns_score * 0.3)
+        cel["scores"]["faceAgeSns"] = round_score(cel["scores"]["faceAge"] * 0.7 + sns_score * 0.3)
     else:
-        cel["scores"]["faceSns"] = score
+        cel["scores"]["faceSns"] = round_score(score)
         cel["scores"]["faceAgeSns"] = cel["scores"]["faceAge"]
 
 policy_by_name, stats = build_ranking_policy(celebrities)

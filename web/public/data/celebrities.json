@@ -18,9 +18,9 @@
     "gender": "female",
     "scores": {
       "face": 64.6,
-      "faceAge": 64.6,
+      "faceAge": 35.0,
       "faceSns": 64.6,
-      "faceAgeSns": 64.6
+      "faceAgeSns": 35.0
     },
     "rankingEligible": true,
     "age": 53,
@@ -45,9 +45,9 @@
     "gender": "female",
     "scores": {
       "face": 62.6,
-      "faceAge": 62.6,
+      "faceAge": 39.0,
       "faceSns": 62.6,
-      "faceAgeSns": 62.6
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true,
     "age": 48,
@@ -72,9 +72,9 @@
     "gender": "male",
     "scores": {
       "face": 61.7,
-      "faceAge": 61.7,
+      "faceAge": 36.9,
       "faceSns": 61.7,
-      "faceAgeSns": 61.7
+      "faceAgeSns": 36.9
     },
     "rankingEligible": true,
     "age": 49,
@@ -108,9 +108,9 @@
     "group": "TWICE",
     "scores": {
       "face": 61.2,
-      "faceAge": 61.2,
+      "faceAge": 58.8,
       "faceSns": 64.9,
-      "faceAgeSns": 64.9
+      "faceAgeSns": 63.2
     },
     "rankingEligible": true
   },
@@ -140,9 +140,9 @@
     "group": "HKT48",
     "scores": {
       "face": 60.5,
-      "faceAge": 60.5,
+      "faceAge": 54.9,
       "faceSns": 62.3,
-      "faceAgeSns": 62.3
+      "faceAgeSns": 58.4
     },
     "rankingEligible": true
   },
@@ -165,9 +165,9 @@
     "gender": "female",
     "scores": {
       "face": 59.9,
-      "faceAge": 59.9,
+      "faceAge": 53.1,
       "faceSns": 59.9,
-      "faceAgeSns": 59.9
+      "faceAgeSns": 53.1
     },
     "rankingEligible": true,
     "age": 34,
@@ -192,9 +192,9 @@
     "gender": "male",
     "scores": {
       "face": 59.6,
-      "faceAge": 59.6,
+      "faceAge": 42.0,
       "faceSns": 59.6,
-      "faceAgeSns": 59.6
+      "faceAgeSns": 42.0
     },
     "rankingEligible": true,
     "age": 43,
@@ -225,9 +225,9 @@
     "totalFollowers": 10300000,
     "scores": {
       "face": 59.0,
-      "faceAge": 60.0,
+      "faceAge": 58.2,
       "faceSns": 62.3,
-      "faceAgeSns": 63.0
+      "faceAgeSns": 61.8
     },
     "rankingEligible": true
   },
@@ -255,9 +255,9 @@
     "totalFollowers": 700000,
     "scores": {
       "face": 58.7,
-      "faceAge": 58.7,
+      "faceAge": 54.7,
       "faceSns": 58.6,
-      "faceAgeSns": 58.6
+      "faceAgeSns": 55.8
     },
     "rankingEligible": true
   },
@@ -317,9 +317,9 @@
     "group": "元AKB48",
     "scores": {
       "face": 58.1,
-      "faceAge": 58.1,
+      "faceAge": 52.5,
       "faceSns": 60.1,
-      "faceAgeSns": 60.1
+      "faceAgeSns": 56.2
     },
     "rankingEligible": true
   },
@@ -345,9 +345,9 @@
     "totalFollowers": 0,
     "scores": {
       "face": 58.0,
-      "faceAge": 58.0,
+      "faceAge": 36.8,
       "faceSns": 58.0,
-      "faceAgeSns": 58.0
+      "faceAgeSns": 36.8
     },
     "rankingEligible": true
   },
@@ -401,9 +401,9 @@
     "gender": "female",
     "scores": {
       "face": 57.5,
-      "faceAge": 57.5,
+      "faceAge": 48.3,
       "faceSns": 57.5,
-      "faceAgeSns": 57.5
+      "faceAgeSns": 48.3
     },
     "rankingEligible": true,
     "age": 36,
@@ -465,9 +465,9 @@
     "group": "乃木坂46",
     "scores": {
       "face": 57.4,
-      "faceAge": 57.4,
+      "faceAge": 50.6,
       "faceSns": 60.2,
-      "faceAgeSns": 60.2
+      "faceAgeSns": 55.4
     },
     "rankingEligible": true
   },
@@ -496,9 +496,9 @@
     "totalFollowers": 5800000,
     "scores": {
       "face": 57.3,
-      "faceAge": 57.3,
+      "faceAge": 52.5,
       "faceSns": 60.4,
-      "faceAgeSns": 60.4
+      "faceAgeSns": 57.0
     },
     "rankingEligible": true
   },
@@ -553,9 +553,9 @@
     "totalFollowers": 500000,
     "scores": {
       "face": 56.8,
-      "faceAge": 56.8,
+      "faceAge": 33.2,
       "faceSns": 56.9,
-      "faceAgeSns": 56.9
+      "faceAgeSns": 40.3
     },
     "rankingEligible": true
   },
@@ -578,9 +578,9 @@
     "gender": "female",
     "scores": {
       "face": 56.8,
-      "faceAge": 56.8,
+      "faceAge": 54.4,
       "faceSns": 56.8,
-      "faceAgeSns": 56.8
+      "faceAgeSns": 54.4
     },
     "rankingEligible": true,
     "age": 29,
@@ -605,9 +605,9 @@
     "gender": "female",
     "scores": {
       "face": 56.6,
-      "faceAge": 56.6,
+      "faceAge": 33.0,
       "faceSns": 56.6,
-      "faceAgeSns": 56.6
+      "faceAgeSns": 33.0
     },
     "rankingEligible": true,
     "age": 48,
@@ -639,9 +639,9 @@
     "group": "SKE48",
     "scores": {
       "face": 56.6,
-      "faceAge": 56.6,
+      "faceAge": 54.2,
       "faceSns": 58.1,
-      "faceAgeSns": 58.1
+      "faceAgeSns": 56.5
     },
     "rankingEligible": true
   },
@@ -669,9 +669,9 @@
     "totalFollowers": 1800000,
     "scores": {
       "face": 56.2,
-      "faceAge": 56.2,
+      "faceAge": 47.0,
       "faceSns": 58.1,
-      "faceAgeSns": 58.1
+      "faceAgeSns": 51.7
     },
     "rankingEligible": true
   },
@@ -730,9 +730,9 @@
     "totalFollowers": 6500000,
     "scores": {
       "face": 56.0,
-      "faceAge": 56.0,
+      "faceAge": 44.4,
       "faceSns": 59.6,
-      "faceAgeSns": 59.6
+      "faceAgeSns": 51.5
     },
     "rankingEligible": true
   },
@@ -755,9 +755,9 @@
     "gender": "female",
     "scores": {
       "face": 55.6,
-      "faceAge": 55.6,
+      "faceAge": 29.6,
       "faceSns": 55.6,
-      "faceAgeSns": 55.6
+      "faceAgeSns": 29.6
     },
     "rankingEligible": true,
     "age": 50,
@@ -787,9 +787,9 @@
     "totalFollowers": 1500000,
     "scores": {
       "face": 55.6,
-      "faceAge": 55.6,
+      "faceAge": 45.2,
       "faceSns": 57.4,
-      "faceAgeSns": 57.4
+      "faceAgeSns": 50.2
     },
     "rankingEligible": true
   },
@@ -818,9 +818,9 @@
     "totalFollowers": 4200000,
     "scores": {
       "face": 55.6,
-      "faceAge": 55.6,
+      "faceAge": 50.0,
       "faceSns": 58.8,
-      "faceAgeSns": 58.8
+      "faceAgeSns": 54.9
     },
     "rankingEligible": true
   },
@@ -843,9 +843,9 @@
     "gender": "female",
     "scores": {
       "face": 55.6,
-      "faceAge": 55.6,
+      "faceAge": 16.4,
       "faceSns": 55.6,
-      "faceAgeSns": 55.6
+      "faceAgeSns": 16.4
     },
     "rankingEligible": true,
     "age": 61,
@@ -875,9 +875,9 @@
     "totalFollowers": 2800000,
     "scores": {
       "face": 55.5,
-      "faceAge": 55.5,
+      "faceAge": 49.9,
       "faceSns": 58.2,
-      "faceAgeSns": 58.2
+      "faceAgeSns": 54.3
     },
     "rankingEligible": true
   },
@@ -900,9 +900,9 @@
     "gender": "female",
     "scores": {
       "face": 55.4,
-      "faceAge": 55.4,
+      "faceAge": 33.0,
       "faceSns": 55.4,
-      "faceAgeSns": 55.4
+      "faceAgeSns": 33.0
     },
     "rankingEligible": true,
     "age": 47,
@@ -933,9 +933,9 @@
     "totalFollowers": 5500000,
     "scores": {
       "face": 55.4,
-      "faceAge": 55.4,
+      "faceAge": 52.2,
       "faceSns": 59.0,
-      "faceAgeSns": 59.0
+      "faceAgeSns": 56.8
     },
     "rankingEligible": true
   },
@@ -963,9 +963,9 @@
     "totalFollowers": 3200000,
     "scores": {
       "face": 55.4,
-      "faceAge": 55.4,
+      "faceAge": 37.8,
       "faceSns": 58.3,
-      "faceAgeSns": 58.3
+      "faceAgeSns": 46.0
     },
     "rankingEligible": true
   },
@@ -988,9 +988,9 @@
     "gender": "male",
     "scores": {
       "face": 55.3,
-      "faceAge": 55.3,
+      "faceAge": 38.9,
       "faceSns": 55.3,
-      "faceAgeSns": 55.3
+      "faceAgeSns": 38.9
     },
     "rankingEligible": true,
     "age": 42,
@@ -1020,9 +1020,9 @@
     "totalFollowers": 1500000,
     "scores": {
       "face": 55.2,
-      "faceAge": 55.2,
+      "faceAge": 43.6,
       "faceSns": 57.2,
-      "faceAgeSns": 57.2
+      "faceAgeSns": 49.0
     },
     "rankingEligible": true
   },
@@ -1053,9 +1053,9 @@
     "group": "AKB48",
     "scores": {
       "face": 55.2,
-      "faceAge": 55.2,
+      "faceAge": 49.6,
       "faceSns": 58.5,
-      "faceAgeSns": 58.5
+      "faceAgeSns": 54.6
     },
     "rankingEligible": true
   },
@@ -1078,9 +1078,9 @@
     "gender": "male",
     "scores": {
       "face": 55.2,
-      "faceAge": 55.2,
+      "faceAge": 36.4,
       "faceSns": 55.2,
-      "faceAgeSns": 55.2
+      "faceAgeSns": 36.4
     },
     "rankingEligible": true,
     "age": 44,
@@ -1105,9 +1105,9 @@
     "gender": "male",
     "scores": {
       "face": 55.0,
-      "faceAge": 55.0,
+      "faceAge": 23.0,
       "faceSns": 55.0,
-      "faceAgeSns": 55.0
+      "faceAgeSns": 23.0
     },
     "rankingEligible": true,
     "age": 55,
@@ -1138,9 +1138,9 @@
     "group": "乃木坂46",
     "scores": {
       "face": 54.9,
-      "faceAge": 54.9,
+      "faceAge": 50.1,
       "faceSns": 56.4,
-      "faceAgeSns": 56.4
+      "faceAgeSns": 53.1
     },
     "rankingEligible": true
   },
@@ -1163,9 +1163,9 @@
     "gender": "female",
     "scores": {
       "face": 54.8,
-      "faceAge": 54.8,
+      "faceAge": 26.4,
       "faceSns": 54.8,
-      "faceAgeSns": 54.8
+      "faceAgeSns": 26.4
     },
     "rankingEligible": true,
     "age": 52,
@@ -1190,9 +1190,9 @@
     "gender": "male",
     "scores": {
       "face": 54.7,
-      "faceAge": 54.7,
+      "faceAge": 38.3,
       "faceSns": 54.7,
-      "faceAgeSns": 54.7
+      "faceAgeSns": 38.3
     },
     "rankingEligible": true,
     "age": 42,
@@ -1221,9 +1221,9 @@
     "group": "日向坂46",
     "scores": {
       "face": 54.6,
-      "faceAge": 54.6,
+      "faceAge": 53.0,
       "faceSns": 54.6,
-      "faceAgeSns": 54.6
+      "faceAgeSns": 53.0
     },
     "rankingEligible": true
   },
@@ -1246,9 +1246,9 @@
     "gender": "female",
     "scores": {
       "face": 54.4,
-      "faceAge": 54.4,
+      "faceAge": 32.0,
       "faceSns": 54.4,
-      "faceAgeSns": 54.4
+      "faceAgeSns": 32.0
     },
     "rankingEligible": true,
     "age": 47,
@@ -1277,9 +1277,9 @@
     "group": "SixTONES",
     "scores": {
       "face": 54.3,
-      "faceAge": 54.3,
+      "faceAge": 51.1,
       "faceSns": 54.3,
-      "faceAgeSns": 54.3
+      "faceAgeSns": 51.1
     },
     "rankingEligible": true
   },
@@ -1307,9 +1307,9 @@
     "totalFollowers": 5000000,
     "scores": {
       "face": 54.0,
-      "faceAge": 54.0,
+      "faceAge": 50.8,
       "faceSns": 57.9,
-      "faceAgeSns": 57.9
+      "faceAgeSns": 55.7
     },
     "rankingEligible": true
   },
@@ -1337,9 +1337,9 @@
     "totalFollowers": 3000000,
     "scores": {
       "face": 53.9,
-      "faceAge": 53.9,
+      "faceAge": 44.7,
       "faceSns": 57.2,
-      "faceAgeSns": 57.2
+      "faceAgeSns": 50.7
     },
     "rankingEligible": true
   },
@@ -1365,9 +1365,9 @@
     "totalFollowers": 0,
     "scores": {
       "face": 53.8,
-      "faceAge": 53.8,
+      "faceAge": 39.8,
       "faceSns": 53.8,
-      "faceAgeSns": 53.8
+      "faceAgeSns": 39.8
     },
     "rankingEligible": true
   },
@@ -1396,9 +1396,9 @@
     "totalFollowers": 2000000,
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 49.6,
       "faceSns": 56.4,
-      "faceAgeSns": 56.4
+      "faceAgeSns": 53.6
     },
     "rankingEligible": true
   },
@@ -1427,9 +1427,9 @@
     "totalFollowers": 11000000,
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 44.4,
       "faceSns": 58.6,
-      "faceAgeSns": 58.6
+      "faceAgeSns": 52.2
     },
     "rankingEligible": true
   },
@@ -1452,9 +1452,9 @@
     "gender": "male",
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 24.0,
       "faceSns": 53.6,
-      "faceAgeSns": 53.6
+      "faceAgeSns": 24.0
     },
     "rankingEligible": true,
     "age": 53,
@@ -1479,9 +1479,9 @@
     "gender": "male",
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 49.6,
       "faceSns": 53.6,
-      "faceAgeSns": 53.6
+      "faceAgeSns": 49.6
     },
     "rankingEligible": true,
     "age": 31,
@@ -1506,9 +1506,9 @@
     "gender": "male",
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 22.8,
       "faceSns": 53.6,
-      "faceAgeSns": 53.6
+      "faceAgeSns": 22.8
     },
     "rankingEligible": true,
     "age": 54,
@@ -1539,9 +1539,9 @@
     "totalFollowers": 900000,
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 52.0,
       "faceSns": 55.4,
-      "faceAgeSns": 55.4
+      "faceAgeSns": 54.3
     },
     "rankingEligible": true
   },
@@ -1564,9 +1564,9 @@
     "gender": "male",
     "scores": {
       "face": 53.6,
-      "faceAge": 53.6,
+      "faceAge": 15.6,
       "faceSns": 53.6,
-      "faceAgeSns": 53.6
+      "faceAgeSns": 15.6
     },
     "rankingEligible": true,
     "age": 60,
@@ -1591,9 +1591,9 @@
     "gender": "male",
     "scores": {
       "face": 53.5,
-      "faceAge": 53.5,
+      "faceAge": 37.1,
       "faceSns": 53.5,
-      "faceAgeSns": 53.5
+      "faceAgeSns": 37.1
     },
     "rankingEligible": true,
     "age": 42,
@@ -1618,9 +1618,9 @@
     "gender": "male",
     "scores": {
       "face": 53.5,
-      "faceAge": 53.5,
+      "faceAge": 26.3,
       "faceSns": 53.5,
-      "faceAgeSns": 53.5
+      "faceAgeSns": 26.3
     },
     "rankingEligible": true,
     "age": 51,
@@ -1645,9 +1645,9 @@
     "gender": "male",
     "scores": {
       "face": 53.4,
-      "faceAge": 53.4,
+      "faceAge": 19.0,
       "faceSns": 53.4,
-      "faceAgeSns": 53.4
+      "faceAgeSns": 19.0
     },
     "rankingEligible": true,
     "age": 57,
@@ -1672,9 +1672,9 @@
     "gender": "male",
     "scores": {
       "face": 53.4,
-      "faceAge": 53.4,
+      "faceAge": -1.4,
       "faceSns": 53.4,
-      "faceAgeSns": 53.4
+      "faceAgeSns": -1.4
     },
     "rankingEligible": true,
     "age": 74,
@@ -1699,9 +1699,9 @@
     "gender": "male",
     "scores": {
       "face": 53.2,
-      "faceAge": 53.2,
+      "faceAge": 12.8,
       "faceSns": 53.2,
-      "faceAgeSns": 53.2
+      "faceAgeSns": 12.8
     },
     "rankingEligible": true,
     "age": 62,
@@ -1733,9 +1733,9 @@
     "totalFollowers": 1900000,
     "scores": {
       "face": 53.2,
-      "faceAge": 53.2,
+      "faceAge": 41.6,
       "faceSns": 56.1,
-      "faceAgeSns": 56.1
+      "faceAgeSns": 48.0
     },
     "rankingEligible": true
   },
@@ -1758,9 +1758,9 @@
     "gender": "male",
     "scores": {
       "face": 53.2,
-      "faceAge": 53.2,
+      "faceAge": 28.4,
       "faceSns": 53.2,
-      "faceAgeSns": 53.2
+      "faceAgeSns": 28.4
     },
     "rankingEligible": true,
     "age": 49,
@@ -1785,9 +1785,9 @@
     "gender": "female",
     "scores": {
       "face": 53.2,
-      "faceAge": 53.2,
+      "faceAge": -10.0,
       "faceSns": 53.2,
-      "faceAgeSns": 53.2
+      "faceAgeSns": -10.0
     },
     "rankingEligible": true,
     "age": 81,
@@ -1812,9 +1812,9 @@
     "gender": "male",
     "scores": {
       "face": 53.2,
-      "faceAge": 53.2,
+      "faceAge": 14.0,
       "faceSns": 53.2,
-      "faceAgeSns": 53.2
+      "faceAgeSns": 14.0
     },
     "rankingEligible": true,
     "age": 61,
@@ -1839,9 +1839,9 @@
     "gender": "male",
     "scores": {
       "face": 53.1,
-      "faceAge": 53.1,
+      "faceAge": 22.3,
       "faceSns": 53.1,
-      "faceAgeSns": 53.1
+      "faceAgeSns": 22.3
     },
     "rankingEligible": true,
     "age": 54,
@@ -1866,9 +1866,9 @@
     "gender": "male",
     "scores": {
       "face": 53.1,
-      "faceAge": 53.1,
+      "faceAge": 25.9,
       "faceSns": 53.1,
-      "faceAgeSns": 53.1
+      "faceAgeSns": 25.9
     },
     "rankingEligible": true,
     "age": 51,
@@ -1900,9 +1900,9 @@
     "group": "BREAKERZ",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 30.6,
       "faceSns": 56.0,
-      "faceAgeSns": 56.0
+      "faceAgeSns": 40.3
     },
     "rankingEligible": true
   },
@@ -1925,9 +1925,9 @@
     "gender": "male",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 30.6,
       "faceSns": 53.0,
-      "faceAgeSns": 53.0
+      "faceAgeSns": 30.6
     },
     "rankingEligible": true,
     "age": 47,
@@ -1952,9 +1952,9 @@
     "gender": "male",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 23.4,
       "faceSns": 53.0,
-      "faceAgeSns": 53.0
+      "faceAgeSns": 23.4
     },
     "rankingEligible": true,
     "age": 53,
@@ -1979,9 +1979,9 @@
     "gender": "male",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 4.2,
       "faceSns": 53.0,
-      "faceAgeSns": 53.0
+      "faceAgeSns": 4.2
     },
     "rankingEligible": true,
     "age": 69,
@@ -2012,9 +2012,9 @@
     "totalFollowers": 3500000,
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 49.8,
       "faceSns": 56.7,
-      "faceAgeSns": 56.7
+      "faceAgeSns": 54.5
     },
     "rankingEligible": true
   },
@@ -2068,9 +2068,9 @@
     "gender": "male",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 18.6,
       "faceSns": 53.0,
-      "faceAgeSns": 53.0
+      "faceAgeSns": 18.6
     },
     "rankingEligible": true,
     "age": 57,
@@ -2095,9 +2095,9 @@
     "gender": "male",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 35.4,
       "faceSns": 53.0,
-      "faceAgeSns": 53.0
+      "faceAgeSns": 35.4
     },
     "rankingEligible": true,
     "age": 43,
@@ -2122,9 +2122,9 @@
     "gender": "female",
     "scores": {
       "face": 53.0,
-      "faceAge": 53.0,
+      "faceAge": 50.6,
       "faceSns": 53.0,
-      "faceAgeSns": 53.0
+      "faceAgeSns": 50.6
     },
     "rankingEligible": true,
     "age": 29,
@@ -2154,9 +2154,9 @@
     "totalFollowers": 1200000,
     "scores": {
       "face": 52.9,
-      "faceAge": 52.9,
+      "faceAge": 51.3,
       "faceSns": 55.3,
-      "faceAgeSns": 55.3
+      "faceAgeSns": 54.1
     },
     "rankingEligible": true
   },
@@ -2182,9 +2182,9 @@
     "totalFollowers": 0,
     "scores": {
       "face": 52.9,
-      "faceAge": 52.9,
+      "faceAge": 41.3,
       "faceSns": 52.9,
-      "faceAgeSns": 52.9
+      "faceAgeSns": 41.3
     },
     "rankingEligible": true
   },
@@ -2207,9 +2207,9 @@
     "gender": "male",
     "scores": {
       "face": 52.8,
-      "faceAge": 52.8,
+      "faceAge": 24.4,
       "faceSns": 52.8,
-      "faceAgeSns": 52.8
+      "faceAgeSns": 24.4
     },
     "rankingEligible": true,
     "age": 52,
@@ -2240,9 +2240,9 @@
     "group": "元AKB48",
     "scores": {
       "face": 52.8,
-      "faceAge": 52.8,
+      "faceAge": 42.4,
       "faceSns": 56.2,
-      "faceAgeSns": 56.2
+      "faceAgeSns": 48.9
     },
     "rankingEligible": true
   },
@@ -2265,9 +2265,9 @@
     "gender": "male",
     "scores": {
       "face": 52.8,
-      "faceAge": 52.8,
+      "faceAge": 32.8,
       "faceSns": 52.8,
-      "faceAgeSns": 52.8
+      "faceAgeSns": 32.8
     },
     "rankingEligible": true,
     "age": 45,
@@ -2298,9 +2298,9 @@
     "totalFollowers": 5300000,
     "scores": {
       "face": 52.8,
-      "faceAge": 52.8,
+      "faceAge": 49.6,
       "faceSns": 57.1,
-      "faceAgeSns": 57.1
+      "faceAgeSns": 54.9
     },
     "rankingEligible": true
   },
@@ -2323,9 +2323,9 @@
     "gender": "female",
     "scores": {
       "face": 52.8,
-      "faceAge": 52.8,
+      "faceAge": 34.0,
       "faceSns": 52.8,
-      "faceAgeSns": 52.8
+      "faceAgeSns": 34.0
     },
     "rankingEligible": true,
     "age": 44,
@@ -2381,9 +2381,9 @@
     "gender": "male",
     "scores": {
       "face": 52.7,
-      "faceAge": 52.7,
+      "faceAge": 17.1,
       "faceSns": 52.7,
-      "faceAgeSns": 52.7
+      "faceAgeSns": 17.1
     },
     "rankingEligible": true,
     "age": 58,
@@ -2408,9 +2408,9 @@
     "gender": "male",
     "scores": {
       "face": 52.7,
-      "faceAge": 52.7,
+      "faceAge": 25.5,
       "faceSns": 52.7,
-      "faceAgeSns": 52.7
+      "faceAgeSns": 25.5
     },
     "rankingEligible": true,
     "age": 51,
@@ -2435,9 +2435,9 @@
     "gender": "male",
     "scores": {
       "face": 52.7,
-      "faceAge": 52.7,
+      "faceAge": 33.9,
       "faceSns": 52.7,
-      "faceAgeSns": 52.7
+      "faceAgeSns": 33.9
     },
     "rankingEligible": true,
     "age": 44,
@@ -2462,9 +2462,9 @@
     "gender": "female",
     "scores": {
       "face": 52.6,
-      "faceAge": 52.6,
+      "faceAge": 2.6,
       "faceSns": 52.6,
-      "faceAgeSns": 52.6
+      "faceAgeSns": 2.6
     },
     "rankingEligible": true,
     "age": 70,
@@ -2495,9 +2495,9 @@
     "totalFollowers": 3500000,
     "scores": {
       "face": 52.6,
-      "faceAge": 52.6,
+      "faceAge": 42.2,
       "faceSns": 56.5,
-      "faceAgeSns": 56.5
+      "faceAgeSns": 49.2
     },
     "rankingEligible": true
   },
@@ -2520,9 +2520,9 @@
     "gender": "male",
     "scores": {
       "face": 52.6,
-      "faceAge": 52.6,
+      "faceAge": 7.4,
       "faceSns": 52.6,
-      "faceAgeSns": 52.6
+      "faceAgeSns": 7.4
     },
     "rankingEligible": true,
     "age": 66,
@@ -2547,9 +2547,9 @@
     "gender": "male",
     "scores": {
       "face": 52.5,
-      "faceAge": 52.5,
+      "faceAge": 48.5,
       "faceSns": 52.5,
-      "faceAgeSns": 52.5
+      "faceAgeSns": 48.5
     },
     "rankingEligible": true,
     "age": 31,
@@ -2574,9 +2574,9 @@
     "gender": "male",
     "scores": {
       "face": 52.4,
-      "faceAge": 52.4,
+      "faceAge": 24.0,
       "faceSns": 52.4,
-      "faceAgeSns": 52.4
+      "faceAgeSns": 24.0
     },
     "rankingEligible": true,
     "age": 52,
@@ -2607,9 +2607,9 @@
     "totalFollowers": 3200000,
     "scores": {
       "face": 52.3,
-      "faceAge": 52.3,
+      "faceAge": 50.7,
       "faceSns": 56.1,
-      "faceAgeSns": 56.1
+      "faceAgeSns": 55.0
     },
     "rankingEligible": true
   },
@@ -2638,9 +2638,9 @@
     "totalFollowers": 5900000,
     "scores": {
       "face": 52.3,
-      "faceAge": 52.3,
+      "faceAge": 50.7,
       "faceSns": 56.9,
-      "faceAgeSns": 56.9
+      "faceAgeSns": 55.8
     },
     "rankingEligible": true
   },
@@ -2663,9 +2663,9 @@
     "gender": "male",
     "scores": {
       "face": 52.3,
-      "faceAge": 52.3,
+      "faceAge": 35.9,
       "faceSns": 52.3,
-      "faceAgeSns": 52.3
+      "faceAgeSns": 35.9
     },
     "rankingEligible": true,
     "age": 42,
@@ -2690,9 +2690,9 @@
     "gender": "male",
     "scores": {
       "face": 52.2,
-      "faceAge": 52.2,
+      "faceAge": 25.0,
       "faceSns": 52.2,
-      "faceAgeSns": 52.2
+      "faceAgeSns": 25.0
     },
     "rankingEligible": true,
     "age": 51,
@@ -2717,9 +2717,9 @@
     "gender": "male",
     "scores": {
       "face": 52.2,
-      "faceAge": 52.2,
+      "faceAge": 45.4,
       "faceSns": 52.2,
-      "faceAgeSns": 52.2
+      "faceAgeSns": 45.4
     },
     "rankingEligible": true,
     "age": 34,
@@ -2744,9 +2744,9 @@
     "gender": "male",
     "scores": {
       "face": 52.2,
-      "faceAge": 52.2,
+      "faceAge": 22.6,
       "faceSns": 52.2,
-      "faceAgeSns": 52.2
+      "faceAgeSns": 22.6
     },
     "rankingEligible": true,
     "age": 53,
@@ -2771,9 +2771,9 @@
     "gender": "male",
     "scores": {
       "face": 52.1,
-      "faceAge": 52.1,
+      "faceAge": 18.9,
       "faceSns": 52.1,
-      "faceAgeSns": 52.1
+      "faceAgeSns": 18.9
     },
     "rankingEligible": true,
     "age": 56,
@@ -2804,9 +2804,9 @@
     "totalFollowers": 7500000,
     "scores": {
       "face": 51.9,
-      "faceAge": 51.9,
+      "faceAge": 34.3,
       "faceSns": 57.0,
-      "faceAgeSns": 57.0
+      "faceAgeSns": 44.6
     },
     "rankingEligible": true
   },
@@ -2829,9 +2829,9 @@
     "gender": "male",
     "scores": {
       "face": 51.9,
-      "faceAge": 51.9,
+      "faceAge": 23.5,
       "faceSns": 51.9,
-      "faceAgeSns": 51.9
+      "faceAgeSns": 23.5
     },
     "rankingEligible": true,
     "age": 52,
@@ -2883,9 +2883,9 @@
     "gender": "male",
     "scores": {
       "face": 51.8,
-      "faceAge": 51.8,
+      "faceAge": 9.0,
       "faceSns": 51.8,
-      "faceAgeSns": 51.8
+      "faceAgeSns": 9.0
     },
     "rankingEligible": true,
     "age": 64,
@@ -2910,9 +2910,9 @@
     "gender": "male",
     "scores": {
       "face": 51.8,
-      "faceAge": 51.8,
+      "faceAge": 5.4,
       "faceSns": 51.8,
-      "faceAgeSns": 51.8
+      "faceAgeSns": 5.4
     },
     "rankingEligible": true,
     "age": 67,
@@ -2937,9 +2937,9 @@
     "gender": "male",
     "scores": {
       "face": 51.8,
-      "faceAge": 51.8,
+      "faceAge": 35.4,
       "faceSns": 51.8,
-      "faceAgeSns": 51.8
+      "faceAgeSns": 35.4
     },
     "rankingEligible": true,
     "age": 42,
@@ -2964,9 +2964,9 @@
     "gender": "male",
     "scores": {
       "face": 51.8,
-      "faceAge": 51.8,
+      "faceAge": 24.6,
       "faceSns": 51.8,
-      "faceAgeSns": 51.8
+      "faceAgeSns": 24.6
     },
     "rankingEligible": true,
     "age": 51,
@@ -2991,9 +2991,9 @@
     "gender": "male",
     "scores": {
       "face": 51.7,
-      "faceAge": 51.7,
+      "faceAge": 50.1,
       "faceSns": 51.7,
-      "faceAgeSns": 51.7
+      "faceAgeSns": 50.1
     },
     "rankingEligible": true,
     "age": 28,
@@ -3050,9 +3050,9 @@
     "totalFollowers": 1500000,
     "scores": {
       "face": 51.6,
-      "faceAge": 51.6,
+      "faceAge": 47.6,
       "faceSns": 54.6,
-      "faceAgeSns": 54.6
+      "faceAgeSns": 51.8
     },
     "rankingEligible": true
   },
@@ -3075,9 +3075,9 @@
     "gender": "male",
     "scores": {
       "face": 51.6,
-      "faceAge": 51.6,
+      "faceAge": 20.8,
       "faceSns": 51.6,
-      "faceAgeSns": 51.6
+      "faceAgeSns": 20.8
     },
     "rankingEligible": true,
     "age": 54,
@@ -3102,9 +3102,9 @@
     "gender": "male",
     "scores": {
       "face": 51.6,
-      "faceAge": 51.6,
+      "faceAge": 40.0,
       "faceSns": 51.6,
-      "faceAgeSns": 51.6
+      "faceAgeSns": 40.0
     },
     "rankingEligible": true,
     "age": 38,
@@ -3134,9 +3134,9 @@
     "totalFollowers": 800000,
     "scores": {
       "face": 51.6,
-      "faceAge": 51.6,
+      "faceAge": 36.4,
       "faceSns": 53.8,
-      "faceAgeSns": 53.8
+      "faceAgeSns": 43.2
     },
     "rankingEligible": true
   },
@@ -3187,9 +3187,9 @@
     "gender": "male",
     "scores": {
       "face": 51.6,
-      "faceAge": 51.6,
+      "faceAge": 19.6,
       "faceSns": 51.6,
-      "faceAgeSns": 51.6
+      "faceAgeSns": 19.6
     },
     "rankingEligible": true,
     "age": 55,
@@ -3214,9 +3214,9 @@
     "gender": "male",
     "scores": {
       "face": 51.6,
-      "faceAge": 51.6,
+      "faceAge": 48.4,
       "faceSns": 51.6,
-      "faceAgeSns": 51.6
+      "faceAgeSns": 48.4
     },
     "rankingEligible": true,
     "age": 30,
@@ -3247,9 +3247,9 @@
     "totalFollowers": 4000000,
     "scores": {
       "face": 51.5,
-      "faceAge": 51.5,
+      "faceAge": 45.9,
       "faceSns": 55.9,
-      "faceAgeSns": 55.9
+      "faceAgeSns": 51.9
     },
     "rankingEligible": true
   },
@@ -3272,9 +3272,9 @@
     "gender": "male",
     "scores": {
       "face": 51.4,
-      "faceAge": 51.4,
+      "faceAge": 46.6,
       "faceSns": 51.4,
-      "faceAgeSns": 51.4
+      "faceAgeSns": 46.6
     },
     "rankingEligible": true,
     "age": 32,
@@ -3306,9 +3306,9 @@
     "group": "Mrs. GREEN APPLE",
     "scores": {
       "face": 51.4,
-      "faceAge": 51.4,
+      "faceAge": 49.8,
       "faceSns": 54.7,
-      "faceAgeSns": 54.7
+      "faceAgeSns": 53.6
     },
     "rankingEligible": true
   },
@@ -3331,9 +3331,9 @@
     "gender": "male",
     "scores": {
       "face": 51.3,
-      "faceAge": 51.3,
+      "faceAge": 4.9,
       "faceSns": 51.3,
-      "faceAgeSns": 51.3
+      "faceAgeSns": 4.9
     },
     "rankingEligible": true,
     "age": 67,
@@ -3358,9 +3358,9 @@
     "gender": "male",
     "scores": {
       "face": 51.3,
-      "faceAge": 51.3,
+      "faceAge": 10.9,
       "faceSns": 51.3,
-      "faceAgeSns": 51.3
+      "faceAgeSns": 10.9
     },
     "rankingEligible": true,
     "age": 62,
@@ -3414,9 +3414,9 @@
     "gender": "male",
     "scores": {
       "face": 51.2,
-      "faceAge": 51.2,
+      "faceAge": 20.4,
       "faceSns": 51.2,
-      "faceAgeSns": 51.2
+      "faceAgeSns": 20.4
     },
     "rankingEligible": true,
     "age": 54,
@@ -3468,9 +3468,9 @@
     "gender": "male",
     "scores": {
       "face": 51.0,
-      "faceAge": 51.0,
+      "faceAge": 32.2,
       "faceSns": 51.0,
-      "faceAgeSns": 51.0
+      "faceAgeSns": 32.2
     },
     "rankingEligible": true,
     "age": 44,
@@ -3495,9 +3495,9 @@
     "gender": "male",
     "scores": {
       "face": 51.0,
-      "faceAge": 51.0,
+      "faceAge": 32.2,
       "faceSns": 51.0,
-      "faceAgeSns": 51.0
+      "faceAgeSns": 32.2
     },
     "rankingEligible": true,
     "age": 44,
@@ -3522,9 +3522,9 @@
     "gender": "female",
     "scores": {
       "face": 51.0,
-      "faceAge": 51.0,
+      "faceAge": 38.2,
       "faceSns": 51.0,
-      "faceAgeSns": 51.0
+      "faceAgeSns": 38.2
     },
     "rankingEligible": true,
     "age": 39,
@@ -3549,9 +3549,9 @@
     "gender": "male",
     "scores": {
       "face": 51.0,
-      "faceAge": 51.0,
+      "faceAge": 28.6,
       "faceSns": 51.0,
-      "faceAgeSns": 51.0
+      "faceAgeSns": 28.6
     },
     "rankingEligible": true,
     "age": 47,
@@ -3576,9 +3576,9 @@
     "gender": "male",
     "scores": {
       "face": 50.9,
-      "faceAge": 50.9,
+      "faceAge": 23.7,
       "faceSns": 50.9,
-      "faceAgeSns": 50.9
+      "faceAgeSns": 23.7
     },
     "rankingEligible": true,
     "age": 51,
@@ -3609,9 +3609,9 @@
     "totalFollowers": 10500000,
     "scores": {
       "face": 50.8,
-      "faceAge": 50.8,
+      "faceAge": 45.2,
       "faceSns": 56.6,
-      "faceAgeSns": 56.6
+      "faceAgeSns": 52.7
     },
     "rankingEligible": true
   },
@@ -3642,9 +3642,9 @@
     "totalFollowers": 23700000,
     "scores": {
       "face": 50.8,
-      "faceAge": 50.8,
+      "faceAge": 45.2,
       "faceSns": 57.7,
-      "faceAgeSns": 57.7
+      "faceAgeSns": 53.8
     },
     "rankingEligible": true
   },
@@ -3667,9 +3667,9 @@
     "gender": "male",
     "scores": {
       "face": 50.8,
-      "faceAge": 50.8,
+      "faceAge": 30.8,
       "faceSns": 50.8,
-      "faceAgeSns": 50.8
+      "faceAgeSns": 30.8
     },
     "rankingEligible": true,
     "age": 45,
@@ -3702,9 +3702,9 @@
     "group": "シンガーソングライター",
     "scores": {
       "face": 50.8,
-      "faceAge": 50.8,
+      "faceAge": 30.8,
       "faceSns": 56.3,
-      "faceAgeSns": 56.3
+      "faceAgeSns": 42.3
     },
     "rankingEligible": true
   },
@@ -3727,9 +3727,9 @@
     "gender": "male",
     "scores": {
       "face": 50.8,
-      "faceAge": 50.8,
+      "faceAge": 48.4,
       "faceSns": 50.8,
-      "faceAgeSns": 50.8
+      "faceAgeSns": 48.4
     },
     "rankingEligible": true,
     "age": 29,
@@ -3848,9 +3848,9 @@
     "totalFollowers": 0,
     "scores": {
       "face": 50.8,
-      "faceAge": 50.8,
+      "faceAge": 41.6,
       "faceSns": 50.8,
-      "faceAgeSns": 50.8
+      "faceAgeSns": 41.6
     },
     "rankingEligible": true
   },
@@ -3873,9 +3873,9 @@
     "gender": "male",
     "scores": {
       "face": 50.7,
-      "faceAge": 50.7,
+      "faceAge": 49.1,
       "faceSns": 50.7,
-      "faceAgeSns": 50.7
+      "faceAgeSns": 49.1
     },
     "rankingEligible": true,
     "age": 28,
@@ -3900,9 +3900,9 @@
     "gender": "male",
     "scores": {
       "face": 50.7,
-      "faceAge": 50.7,
+      "faceAge": 37.9,
       "faceSns": 50.7,
-      "faceAgeSns": 50.7
+      "faceAgeSns": 37.9
     },
     "rankingEligible": true,
     "age": 39,
@@ -3927,9 +3927,9 @@
     "gender": "male",
     "scores": {
       "face": 50.7,
-      "faceAge": 50.7,
+      "faceAge": 42.7,
       "faceSns": 50.7,
-      "faceAgeSns": 50.7
+      "faceAgeSns": 42.7
     },
     "rankingEligible": true,
     "age": 35,
@@ -3954,9 +3954,9 @@
     "gender": "male",
     "scores": {
       "face": 50.6,
-      "faceAge": 50.6,
+      "faceAge": 22.2,
       "faceSns": 50.6,
-      "faceAgeSns": 50.6
+      "faceAgeSns": 22.2
     },
     "rankingEligible": true,
     "age": 52,
@@ -3981,9 +3981,9 @@
     "gender": "male",
     "scores": {
       "face": 50.6,
-      "faceAge": 50.6,
+      "faceAge": 29.4,
       "faceSns": 50.6,
-      "faceAgeSns": 50.6
+      "faceAgeSns": 29.4
     },
     "rankingEligible": true,
     "age": 46,
@@ -4008,9 +4008,9 @@
     "gender": "male",
     "scores": {
       "face": 50.6,
-      "faceAge": 50.6,
+      "faceAge": 17.4,
       "faceSns": 50.6,
-      "faceAgeSns": 50.6
+      "faceAgeSns": 17.4
     },
     "rankingEligible": true,
     "age": 56,
@@ -4035,9 +4035,9 @@
     "gender": "male",
     "scores": {
       "face": 50.6,
-      "faceAge": 50.6,
+      "faceAge": -23.4,
       "faceSns": 50.6,
-      "faceAgeSns": 50.6
+      "faceAgeSns": -23.4
     },
     "rankingEligible": true,
     "age": 90,
@@ -4068,9 +4068,9 @@
     "totalFollowers": 7500000,
     "scores": {
       "face": 50.5,
-      "faceAge": 50.5,
+      "faceAge": 44.9,
       "faceSns": 56.0,
-      "faceAgeSns": 56.0
+      "faceAgeSns": 52.1
     },
     "rankingEligible": true
   },
@@ -4093,9 +4093,9 @@
     "gender": "male",
     "scores": {
       "face": 50.4,
-      "faceAge": 50.4,
+      "faceAge": 28.0,
       "faceSns": 50.4,
-      "faceAgeSns": 50.4
+      "faceAgeSns": 28.0
     },
     "rankingEligible": true,
     "age": 47,
@@ -4120,9 +4120,9 @@
     "gender": "male",
     "scores": {
       "face": 50.4,
-      "faceAge": 50.4,
+      "faceAge": -0.8,
       "faceSns": 50.4,
-      "faceAgeSns": 50.4
+      "faceAgeSns": -0.8
     },
     "rankingEligible": true,
     "age": 71,
@@ -4174,9 +4174,9 @@
     "gender": "male",
     "scores": {
       "face": 50.4,
-      "faceAge": 50.4,
+      "faceAge": 25.6,
       "faceSns": 50.4,
-      "faceAgeSns": 50.4
+      "faceAgeSns": 25.6
     },
     "rankingEligible": true,
     "age": 49,
@@ -4207,9 +4207,9 @@
     "totalFollowers": 3500000,
     "scores": {
       "face": 50.4,
-      "faceAge": 50.4,
+      "faceAge": 16.0,
       "faceSns": 54.9,
-      "faceAgeSns": 54.9
+      "faceAgeSns": 30.8
     },
     "rankingEligible": true
   },
@@ -4232,9 +4232,9 @@
     "gender": "male",
     "scores": {
       "face": 50.3,
-      "faceAge": 50.3,
+      "faceAge": 41.1,
       "faceSns": 50.3,
-      "faceAgeSns": 50.3
+      "faceAgeSns": 41.1
     },
     "rankingEligible": true,
     "age": 36,
@@ -4259,9 +4259,9 @@
     "gender": "male",
     "scores": {
       "face": 50.3,
-      "faceAge": 50.3,
+      "faceAge": 43.5,
       "faceSns": 50.3,
-      "faceAgeSns": 50.3
+      "faceAgeSns": 43.5
     },
     "rankingEligible": true,
     "age": 34,
@@ -4286,9 +4286,9 @@
     "gender": "female",
     "scores": {
       "face": 50.2,
-      "faceAge": 50.2,
+      "faceAge": 35.0,
       "faceSns": 50.2,
-      "faceAgeSns": 50.2
+      "faceAgeSns": 35.0
     },
     "rankingEligible": true,
     "age": 41,
@@ -4313,9 +4313,9 @@
     "gender": "male",
     "scores": {
       "face": 50.2,
-      "faceAge": 50.2,
+      "faceAge": 27.8,
       "faceSns": 50.2,
-      "faceAgeSns": 50.2
+      "faceAgeSns": 27.8
     },
     "rankingEligible": true,
     "age": 47,
@@ -4340,9 +4340,9 @@
     "gender": "female",
     "scores": {
       "face": 50.1,
-      "faceAge": 50.1,
+      "faceAge": 42.1,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 42.1
     },
     "rankingEligible": true,
     "age": 35,
@@ -4367,9 +4367,9 @@
     "gender": "male",
     "scores": {
       "face": 50.1,
-      "faceAge": 50.1,
+      "faceAge": 9.7,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 9.7
     },
     "rankingEligible": true,
     "age": 62,
@@ -4394,9 +4394,9 @@
     "gender": "male",
     "scores": {
       "face": 50.1,
-      "faceAge": 50.1,
+      "faceAge": 43.3,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 43.3
     },
     "rankingEligible": true,
     "age": 34,
@@ -4421,9 +4421,9 @@
     "gender": "male",
     "scores": {
       "face": 50.1,
-      "faceAge": 50.1,
+      "faceAge": 43.3,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 43.3
     },
     "rankingEligible": true,
     "age": 34,
@@ -4448,9 +4448,9 @@
     "gender": "male",
     "scores": {
       "face": 50.1,
-      "faceAge": 50.1,
+      "faceAge": 20.5,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 20.5
     },
     "rankingEligible": true,
     "age": 53,
@@ -4475,9 +4475,9 @@
     "gender": "female",
     "scores": {
       "face": 50.1,
-      "faceAge": 50.1,
+      "faceAge": 43.3,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 43.3
     },
     "rankingEligible": true,
     "age": 34,
@@ -4502,9 +4502,9 @@
     "gender": "male",
     "scores": {
       "face": 50.0,
-      "faceAge": 50.0,
+      "faceAge": 8.4,
       "faceSns": 50.0,
-      "faceAgeSns": 50.0
+      "faceAgeSns": 8.4
     },
     "rankingEligible": true,
     "age": 63,
@@ -4529,9 +4529,9 @@
     "gender": "male",
     "scores": {
       "face": 50.0,
-      "faceAge": 50.0,
+      "faceAge": 36.0,
       "faceSns": 50.0,
-      "faceAgeSns": 50.0
+      "faceAgeSns": 36.0
     },
     "rankingEligible": true,
     "age": 40,
@@ -4556,9 +4556,9 @@
     "gender": "male",
     "scores": {
       "face": 50.0,
-      "faceAge": 50.0,
+      "faceAge": 21.6,
       "faceSns": 50.0,
-      "faceAgeSns": 50.0
+      "faceAgeSns": 21.6
     },
     "rankingEligible": true,
     "age": 52,
@@ -4583,9 +4583,9 @@
     "gender": "male",
     "scores": {
       "face": 49.9,
-      "faceAge": 49.9,
+      "faceAge": -0.1,
       "faceSns": 49.9,
-      "faceAgeSns": 49.9
+      "faceAgeSns": -0.1
     },
     "rankingEligible": true,
     "age": 70,
@@ -4645,9 +4645,9 @@
     "totalFollowers": 1500000,
     "scores": {
       "face": 49.8,
-      "faceAge": 49.8,
+      "faceAge": 46.6,
       "faceSns": 53.4,
-      "faceAgeSns": 53.4
+      "faceAgeSns": 51.1
     },
     "rankingEligible": true
   },
@@ -4670,9 +4670,9 @@
     "gender": "male",
     "scores": {
       "face": 49.8,
-      "faceAge": 49.8,
+      "faceAge": 44.2,
       "faceSns": 49.8,
-      "faceAgeSns": 49.8
+      "faceAgeSns": 44.2
     },
     "rankingEligible": true,
     "age": 33,
@@ -4724,9 +4724,9 @@
     "gender": "male",
     "scores": {
       "face": 49.8,
-      "faceAge": 49.8,
+      "faceAge": 34.6,
       "faceSns": 49.8,
-      "faceAgeSns": 49.8
+      "faceAgeSns": 34.6
     },
     "rankingEligible": true,
     "age": 41,
@@ -4751,9 +4751,9 @@
     "gender": "male",
     "scores": {
       "face": 49.8,
-      "faceAge": 49.8,
+      "faceAge": 40.6,
       "faceSns": 49.8,
-      "faceAgeSns": 49.8
+      "faceAgeSns": 40.6
     },
     "rankingEligible": true,
     "age": 36,
@@ -4778,9 +4778,9 @@
     "gender": "female",
     "scores": {
       "face": 49.8,
-      "faceAge": 49.8,
+      "faceAge": 39.4,
       "faceSns": 49.8,
-      "faceAgeSns": 49.8
+      "faceAgeSns": 39.4
     },
     "rankingEligible": true,
     "age": 37,
@@ -4805,9 +4805,9 @@
     "gender": "male",
     "scores": {
       "face": 49.7,
-      "faceAge": 49.7,
+      "faceAge": 35.7,
       "faceSns": 49.7,
-      "faceAgeSns": 49.7
+      "faceAgeSns": 35.7
     },
     "rankingEligible": true,
     "age": 40,
@@ -4832,9 +4832,9 @@
     "gender": "male",
     "scores": {
       "face": 49.7,
-      "faceAge": 49.7,
+      "faceAge": -8.7,
       "faceSns": 49.7,
-      "faceAgeSns": 49.7
+      "faceAgeSns": -8.7
     },
     "rankingEligible": true,
     "age": 77,
@@ -4886,9 +4886,9 @@
     "gender": "male",
     "scores": {
       "face": 49.6,
-      "faceAge": 49.6,
+      "faceAge": 26.0,
       "faceSns": 49.6,
-      "faceAgeSns": 49.6
+      "faceAgeSns": 26.0
     },
     "rankingEligible": true,
     "age": 48,
@@ -4945,9 +4945,9 @@
     "gender": "female",
     "scores": {
       "face": 49.5,
-      "faceAge": 49.5,
+      "faceAge": 30.7,
       "faceSns": 49.5,
-      "faceAgeSns": 49.5
+      "faceAgeSns": 30.7
     },
     "rankingEligible": true,
     "age": 44,
@@ -4972,9 +4972,9 @@
     "gender": "male",
     "scores": {
       "face": 49.5,
-      "faceAge": 49.5,
+      "faceAge": 7.9,
       "faceSns": 49.5,
-      "faceAgeSns": 49.5
+      "faceAgeSns": 7.9
     },
     "rankingEligible": true,
     "age": 63,
@@ -4999,9 +4999,9 @@
     "gender": "female",
     "scores": {
       "face": 49.4,
-      "faceAge": 49.4,
+      "faceAge": 43.8,
       "faceSns": 49.4,
-      "faceAgeSns": 49.4
+      "faceAgeSns": 43.8
     },
     "rankingEligible": true,
     "age": 33,
@@ -5060,9 +5060,9 @@
     "group": "乃木坂46",
     "scores": {
       "face": 49.4,
-      "faceAge": 49.4,
+      "faceAge": 47.8,
       "faceSns": 55.0,
-      "faceAgeSns": 55.0
+      "faceAgeSns": 53.9
     },
     "rankingEligible": true
   },
@@ -5085,9 +5085,9 @@
     "gender": "male",
     "scores": {
       "face": 49.3,
-      "faceAge": 49.3,
+      "faceAge": 28.1,
       "faceSns": 49.3,
-      "faceAgeSns": 49.3
+      "faceAgeSns": 28.1
     },
     "rankingEligible": true,
     "age": 46,
@@ -5118,9 +5118,9 @@
     "totalFollowers": 2500000,
     "scores": {
       "face": 49.3,
-      "faceAge": 49.3,
+      "faceAge": 43.7,
       "faceSns": 53.7,
-      "faceAgeSns": 53.7
+      "faceAgeSns": 49.8
     },
     "rankingEligible": true
   },
@@ -5143,9 +5143,9 @@
     "gender": "male",
     "scores": {
       "face": 49.3,
-      "faceAge": 49.3,
+      "faceAge": 44.5,
       "faceSns": 49.3,
-      "faceAgeSns": 49.3
+      "faceAgeSns": 44.5
     },
     "rankingEligible": true,
     "age": 32,
@@ -5170,9 +5170,9 @@
     "gender": "male",
     "scores": {
       "face": 49.2,
-      "faceAge": 49.2,
+      "faceAge": 31.6,
       "faceSns": 49.2,
-      "faceAgeSns": 49.2
+      "faceAgeSns": 31.6
     },
     "rankingEligible": true,
     "age": 43,
@@ -5197,9 +5197,9 @@
     "gender": "male",
     "scores": {
       "face": 49.2,
-      "faceAge": 49.2,
+      "faceAge": 8.8,
       "faceSns": 49.2,
-      "faceAgeSns": 49.2
+      "faceAgeSns": 8.8
     },
     "rankingEligible": true,
     "age": 62,
@@ -5224,9 +5224,9 @@
     "gender": "female",
     "scores": {
       "face": 49.2,
-      "faceAge": 49.2,
+      "faceAge": 44.4,
       "faceSns": 49.2,
-      "faceAgeSns": 49.2
+      "faceAgeSns": 44.4
     },
     "rankingEligible": true,
     "age": 32,
@@ -5251,9 +5251,9 @@
     "gender": "male",
     "scores": {
       "face": 49.1,
-      "faceAge": 49.1,
+      "faceAge": 32.7,
       "faceSns": 49.1,
-      "faceAgeSns": 49.1
+      "faceAgeSns": 32.7
     },
     "rankingEligible": true,
     "age": 42,
@@ -5278,9 +5278,9 @@
     "gender": "male",
     "scores": {
       "face": 48.9,
-      "faceAge": 48.9,
+      "faceAge": 31.3,
       "faceSns": 48.9,
-      "faceAgeSns": 48.9
+      "faceAgeSns": 31.3
     },
     "rankingEligible": true,
     "age": 43,
@@ -5305,9 +5305,9 @@
     "gender": "male",
     "scores": {
       "face": 48.8,
-      "faceAge": 48.8,
+      "faceAge": 19.2,
       "faceSns": 48.8,
-      "faceAgeSns": 48.8
+      "faceAgeSns": 19.2
     },
     "rankingEligible": true,
     "age": 53,
@@ -5332,9 +5332,9 @@
     "gender": "male",
     "scores": {
       "face": 48.8,
-      "faceAge": 48.8,
+      "faceAge": 46.4,
       "faceSns": 48.8,
-      "faceAgeSns": 48.8
+      "faceAgeSns": 46.4
     },
     "rankingEligible": true,
     "age": 29,
@@ -5362,9 +5362,9 @@
     "totalFollowers": 0,
     "scores": {
       "face": 48.8,
-      "faceAge": 48.8,
+      "faceAge": 34.8,
       "faceSns": 48.8,
-      "faceAgeSns": 48.8
+      "faceAgeSns": 34.8
     },
     "rankingEligible": true
   },
@@ -5387,9 +5387,9 @@
     "gender": "male",
     "scores": {
       "face": 48.7,
-      "faceAge": 48.7,
+      "faceAge": -1.3,
       "faceSns": 48.7,
-      "faceAgeSns": 48.7
+      "faceAgeSns": -1.3
     },
     "rankingEligible": true,
     "age": 70,
@@ -5414,9 +5414,9 @@
     "gender": "male",
     "scores": {
       "face": 48.6,
-      "faceAge": 48.6,
+      "faceAge": 37.0,
       "faceSns": 48.6,
-      "faceAgeSns": 48.6
+      "faceAgeSns": 37.0
     },
     "rankingEligible": true,
     "age": 38,
@@ -5441,9 +5441,9 @@
     "gender": "male",
     "scores": {
       "face": 48.6,
-      "faceAge": 48.6,
+      "faceAge": 19.0,
       "faceSns": 48.6,
-      "faceAgeSns": 48.6
+      "faceAgeSns": 19.0
     },
     "rankingEligible": true,
     "age": 53,
@@ -5468,9 +5468,9 @@
     "gender": "male",
     "scores": {
       "face": 48.6,
-      "faceAge": 48.6,
+      "faceAge": 33.4,
       "faceSns": 48.6,
-      "faceAgeSns": 48.6
+      "faceAgeSns": 33.4
     },
     "rankingEligible": true,
     "age": 41,
@@ -5522,9 +5522,9 @@
     "gender": "male",
     "scores": {
       "face": 48.6,
-      "faceAge": 48.6,
+      "faceAge": 16.6,
       "faceSns": 48.6,
-      "faceAgeSns": 48.6
+      "faceAgeSns": 16.6
     },
     "rankingEligible": true,
     "age": 55,
@@ -5549,9 +5549,9 @@
     "gender": "male",
     "scores": {
       "face": 48.6,
-      "faceAge": 48.6,
+      "faceAge": 40.6,
       "faceSns": 48.6,
-      "faceAgeSns": 48.6
+      "faceAgeSns": 40.6
     },
     "rankingEligible": true,
     "age": 35,
@@ -5576,9 +5576,9 @@
     "gender": "female",
     "scores": {
       "face": 48.4,
-      "faceAge": 48.4,
+      "faceAge": -20.8,
       "faceSns": 48.4,
-      "faceAgeSns": 48.4
+      "faceAgeSns": -20.8
     },
     "rankingEligible": true,
     "age": 86,
@@ -5603,9 +5603,9 @@
     "gender": "male",
     "scores": {
       "face": 48.4,
-      "faceAge": 48.4,
+      "faceAge": 46.8,
       "faceSns": 48.4,
-      "faceAgeSns": 48.4
+      "faceAgeSns": 46.8
     },
     "rankingEligible": true,
     "age": 28,
@@ -5630,9 +5630,9 @@
     "gender": "male",
     "scores": {
       "face": 48.4,
-      "faceAge": 48.4,
+      "faceAge": -4.0,
       "faceSns": 48.4,
-      "faceAgeSns": 48.4
+      "faceAgeSns": -4.0
     },
     "rankingEligible": true,
     "age": 72,
@@ -5657,9 +5657,9 @@
     "gender": "male",
     "scores": {
       "face": 48.4,
-      "faceAge": 48.4,
+      "faceAge": 41.6,
       "faceSns": 48.4,
-      "faceAgeSns": 48.4
+      "faceAgeSns": 41.6
     },
     "rankingEligible": true,
     "age": 34,
@@ -5691,9 +5691,9 @@
     "totalFollowers": 11500000,
     "scores": {
       "face": 48.2,
-      "faceAge": 48.2,
+      "faceAge": 37.8,
       "faceSns": 54.9,
-      "faceAgeSns": 54.9
+      "faceAgeSns": 47.6
     },
     "rankingEligible": true
   },
@@ -5720,9 +5720,9 @@
     "group": "乃木坂46",
     "scores": {
       "face": 48.2,
-      "faceAge": 48.2,
+      "faceAge": 42.6,
       "faceSns": 48.2,
-      "faceAgeSns": 48.2
+      "faceAgeSns": 42.6
     },
     "rankingEligible": true
   },
@@ -5745,9 +5745,9 @@
     "gender": "male",
     "scores": {
       "face": 48.0,
-      "faceAge": 48.0,
+      "faceAge": 40.0,
       "faceSns": 48.0,
-      "faceAgeSns": 48.0
+      "faceAgeSns": 40.0
     },
     "rankingEligible": true,
     "age": 35,
@@ -5772,9 +5772,9 @@
     "gender": "male",
     "scores": {
       "face": 48.0,
-      "faceAge": 48.0,
+      "faceAge": 44.8,
       "faceSns": 48.0,
-      "faceAgeSns": 48.0
+      "faceAgeSns": 44.8
     },
     "rankingEligible": true,
     "age": 30,
@@ -5799,9 +5799,9 @@
     "gender": "male",
     "scores": {
       "face": 48.0,
-      "faceAge": 48.0,
+      "faceAge": 6.4,
       "faceSns": 48.0,
-      "faceAgeSns": 48.0
+      "faceAgeSns": 6.4
     },
     "rankingEligible": true,
     "age": 63,
@@ -5826,9 +5826,9 @@
     "gender": "male",
     "scores": {
       "face": 47.9,
-      "faceAge": 47.9,
+      "faceAge": 23.1,
       "faceSns": 47.9,
-      "faceAgeSns": 47.9
+      "faceAgeSns": 23.1
     },
     "rankingEligible": true,
     "age": 49,
@@ -5853,9 +5853,9 @@
     "gender": "male",
     "scores": {
       "face": 47.8,
-      "faceAge": 47.8,
+      "faceAge": 17.0,
       "faceSns": 47.8,
-      "faceAgeSns": 47.8
+      "faceAgeSns": 17.0
     },
     "rankingEligible": true,
     "age": 54,
@@ -5886,9 +5886,9 @@
     "totalFollowers": 1300000,
     "scores": {
       "face": 47.8,
-      "faceAge": 47.8,
+      "faceAge": 37.4,
       "faceSns": 51.8,
-      "faceAgeSns": 51.8
+      "faceAgeSns": 44.5
     },
     "rankingEligible": true
   },
@@ -5911,9 +5911,9 @@
     "gender": "female",
     "scores": {
       "face": 47.8,
-      "faceAge": 47.8,
+      "faceAge": 46.2,
       "faceSns": 47.8,
-      "faceAgeSns": 47.8
+      "faceAgeSns": 46.2
     },
     "rankingEligible": true,
     "age": 28,
@@ -5938,9 +5938,9 @@
     "gender": "male",
     "scores": {
       "face": 47.8,
-      "faceAge": 47.8,
+      "faceAge": 3.8,
       "faceSns": 47.8,
-      "faceAgeSns": 47.8
+      "faceAgeSns": 3.8
     },
     "rankingEligible": true,
     "age": 65,
@@ -5965,9 +5965,9 @@
     "gender": "female",
     "scores": {
       "face": 47.8,
-      "faceAge": 47.8,
+      "faceAge": 42.2,
       "faceSns": 47.8,
-      "faceAgeSns": 47.8
+      "faceAgeSns": 42.2
     },
     "rankingEligible": true,
     "age": 33,
@@ -6019,9 +6019,9 @@
     "gender": "female",
     "scores": {
       "face": 47.7,
-      "faceAge": 47.7,
+      "faceAge": 42.1,
       "faceSns": 47.7,
-      "faceAgeSns": 47.7
+      "faceAgeSns": 42.1
     },
     "rankingEligible": true,
     "age": 33,
@@ -6046,9 +6046,9 @@
     "gender": "male",
     "scores": {
       "face": 47.7,
-      "faceAge": 47.7,
+      "faceAge": 19.3,
       "faceSns": 47.7,
-      "faceAgeSns": 47.7
+      "faceAgeSns": 19.3
     },
     "rankingEligible": true,
     "age": 52,
@@ -6073,9 +6073,9 @@
     "gender": "male",
     "scores": {
       "face": 47.7,
-      "faceAge": 47.7,
+      "faceAge": -7.1,
       "faceSns": 47.7,
-      "faceAgeSns": 47.7
+      "faceAgeSns": -7.1
     },
     "rankingEligible": true,
     "age": 74,
@@ -6100,9 +6100,9 @@
     "gender": "male",
     "scores": {
       "face": 47.6,
-      "faceAge": 47.6,
+      "faceAge": -6.0,
       "faceSns": 47.6,
-      "faceAgeSns": 47.6
+      "faceAgeSns": -6.0
     },
     "rankingEligible": true,
     "age": 73,
@@ -6134,9 +6134,9 @@
     "group": "LE SSERAFIM",
     "scores": {
       "face": 47.6,
-      "faceAge": 47.6,
+      "faceAge": 46.0,
       "faceSns": 53.9,
-      "faceAgeSns": 53.9
+      "faceAgeSns": 52.7
     },
     "rankingEligible": true
   },
@@ -6159,9 +6159,9 @@
     "gender": "male",
     "scores": {
       "face": 47.6,
-      "faceAge": 47.6,
+      "faceAge": 14.4,
       "faceSns": 47.6,
-      "faceAgeSns": 47.6
+      "faceAgeSns": 14.4
     },
     "rankingEligible": true,
     "age": 56,
@@ -6186,9 +6186,9 @@
     "gender": "female",
     "scores": {
       "face": 47.6,
-      "faceAge": 47.6,
+      "faceAge": 39.6,
       "faceSns": 47.6,
-      "faceAgeSns": 47.6
+      "faceAgeSns": 39.6
     },
     "rankingEligible": true,
     "age": 35,
@@ -6218,9 +6218,9 @@
     "totalFollowers": 1200000,
     "scores": {
       "face": 47.6,
-      "faceAge": 47.6,
+      "faceAge": 34.8,
       "faceSns": 51.6,
-      "faceAgeSns": 51.6
+      "faceAgeSns": 42.6
     },
     "rankingEligible": true
   },
@@ -6243,9 +6243,9 @@
     "gender": "male",
     "scores": {
       "face": 47.5,
-      "faceAge": 47.5,
+      "faceAge": 31.1,
       "faceSns": 47.5,
-      "faceAgeSns": 47.5
+      "faceAgeSns": 31.1
     },
     "rankingEligible": true,
     "age": 42,
@@ -6276,9 +6276,9 @@
     "totalFollowers": 2100000,
     "scores": {
       "face": 47.5,
-      "faceAge": 47.5,
+      "faceAge": 31.1,
       "faceSns": 52.2,
-      "faceAgeSns": 52.2
+      "faceAgeSns": 40.7
     },
     "rankingEligible": true
   },
@@ -6301,9 +6301,9 @@
     "gender": "female",
     "scores": {
       "face": 47.4,
-      "faceAge": 47.4,
+      "faceAge": 45.8,
       "faceSns": 47.4,
-      "faceAgeSns": 47.4
+      "faceAgeSns": 45.8
     },
     "rankingEligible": true,
     "age": 28,
@@ -6328,9 +6328,9 @@
     "gender": "male",
     "scores": {
       "face": 47.4,
-      "faceAge": 47.4,
+      "faceAge": 17.8,
       "faceSns": 47.4,
-      "faceAgeSns": 47.4
+      "faceAgeSns": 17.8
     },
     "rankingEligible": true,
     "age": 53,
@@ -6361,9 +6361,9 @@
     "totalFollowers": 5500000,
     "scores": {
       "face": 47.4,
-      "faceAge": 47.4,
+      "faceAge": 41.8,
       "faceSns": 53.4,
-      "faceAgeSns": 53.4
+      "faceAgeSns": 49.5
     },
     "rankingEligible": true
   },
@@ -6386,9 +6386,9 @@
     "gender": "male",
     "scores": {
       "face": 47.4,
-      "faceAge": 47.4,
+      "faceAge": 41.8,
       "faceSns": 47.4,
-      "faceAgeSns": 47.4
+      "faceAgeSns": 41.8
     },
     "rankingEligible": true,
     "age": 33,
@@ -6418,9 +6418,9 @@
     "totalFollowers": 1500000,
     "scores": {
       "face": 47.4,
-      "faceAge": 47.4,
+      "faceAge": 41.8,
       "faceSns": 51.7,
-      "faceAgeSns": 51.7
+      "faceAgeSns": 47.8
     },
     "rankingEligible": true
   },
@@ -6443,9 +6443,9 @@
     "gender": "female",
     "scores": {
       "face": 47.3,
-      "faceAge": 47.3,
+      "faceAge": 32.1,
       "faceSns": 47.3,
-      "faceAgeSns": 47.3
+      "faceAgeSns": 32.1
     },
     "rankingEligible": true,
     "age": 41,
@@ -6470,9 +6470,9 @@
     "gender": "male",
     "scores": {
       "face": 47.3,
-      "faceAge": 47.3,
+      "faceAge": 34.5,
       "faceSns": 47.3,
-      "faceAgeSns": 47.3
+      "faceAgeSns": 34.5
     },
     "rankingEligible": true,
     "age": 39,
@@ -6497,9 +6497,9 @@
     "gender": "male",
     "scores": {
       "face": 47.3,
-      "faceAge": 47.3,
+      "faceAge": 43.3,
       "faceSns": 47.3,
-      "faceAgeSns": 47.3
+      "faceAgeSns": 43.3
     },
     "rankingEligible": true,
     "age": 31,
@@ -6524,9 +6524,9 @@
     "gender": "male",
     "scores": {
       "face": 47.3,
-      "faceAge": 47.3,
+      "faceAge": 26.1,
       "faceSns": 47.3,
-      "faceAgeSns": 47.3
+      "faceAgeSns": 26.1
     },
     "rankingEligible": true,
     "age": 46,
@@ -6582,9 +6582,9 @@
     "gender": "male",
     "scores": {
       "face": 47.2,
-      "faceAge": 47.2,
+      "faceAge": 43.2,
       "faceSns": 47.2,
-      "faceAgeSns": 47.2
+      "faceAgeSns": 43.2
     },
     "rankingEligible": true,
     "age": 31,
@@ -6612,9 +6612,9 @@
     "totalFollowers": 0,
     "scores": {
       "face": 47.2,
-      "faceAge": 47.2,
+      "faceAge": 27.2,
       "faceSns": 47.2,
-      "faceAgeSns": 47.2
+      "faceAgeSns": 27.2
     },
     "rankingEligible": true
   },
@@ -6637,9 +6637,9 @@
     "gender": "male",
     "scores": {
       "face": 47.2,
-      "faceAge": 47.2,
+      "faceAge": 42.4,
       "faceSns": 47.2,
-      "faceAgeSns": 47.2
+      "faceAgeSns": 42.4
     },
     "rankingEligible": true,
     "age": 32,
@@ -6669,9 +6669,9 @@
     "totalFollowers": 1200000,
     "scores": {
       "face": 47.2,
-      "faceAge": 47.2,
+      "faceAge": 45.6,
       "faceSns": 51.3,
-      "faceAgeSns": 51.3
+      "faceAgeSns": 50.2
     },
     "rankingEligible": true
   },
@@ -6724,9 +6724,9 @@
     "gender": "female",
     "scores": {
       "face": 47.1,
-      "faceAge": 47.1,
+      "faceAge": 17.5,
       "faceSns": 47.1,
-      "faceAgeSns": 47.1
+      "faceAgeSns": 17.5
     },
     "rankingEligible": true,
     "age": 53,
@@ -6751,9 +6751,9 @@
     "gender": "female",
     "scores": {
       "face": 47.0,
-      "faceAge": 48.0,
+      "faceAge": 46.2,
       "faceSns": 47.0,
-      "faceAgeSns": 48.0
+      "faceAgeSns": 46.2
     },
     "rankingEligible": true,
     "age": 27,
@@ -6778,9 +6778,9 @@
     "gender": "male",
     "scores": {
       "face": 47.0,
-      "faceAge": 47.0,
+      "faceAge": 39.0,
       "faceSns": 47.0,
-      "faceAgeSns": 47.0
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true,
     "age": 35,
@@ -6805,9 +6805,9 @@
     "gender": "male",
     "scores": {
       "face": 47.0,
-      "faceAge": 47.0,
+      "faceAge": 41.4,
       "faceSns": 47.0,
-      "faceAgeSns": 47.0
+      "faceAgeSns": 41.4
     },
     "rankingEligible": true,
     "age": 33,
@@ -6832,9 +6832,9 @@
     "gender": "male",
     "scores": {
       "face": 46.9,
-      "faceAge": 46.9,
+      "faceAge": 25.7,
       "faceSns": 46.9,
-      "faceAgeSns": 46.9
+      "faceAgeSns": 25.7
     },
     "rankingEligible": true,
     "age": 46,
@@ -6859,9 +6859,9 @@
     "gender": "male",
     "scores": {
       "face": 46.8,
-      "faceAge": 46.8,
+      "faceAge": 36.4,
       "faceSns": 46.8,
-      "faceAgeSns": 46.8
+      "faceAgeSns": 36.4
     },
     "rankingEligible": true,
     "age": 37,
@@ -6886,9 +6886,9 @@
     "gender": "male",
     "scores": {
       "face": 46.8,
-      "faceAge": 46.8,
+      "faceAge": 11.2,
       "faceSns": 46.8,
-      "faceAgeSns": 46.8
+      "faceAgeSns": 11.2
     },
     "rankingEligible": true,
     "age": 58,
@@ -6913,9 +6913,9 @@
     "gender": "male",
     "scores": {
       "face": 46.8,
-      "faceAge": 46.8,
+      "faceAge": 25.6,
       "faceSns": 46.8,
-      "faceAgeSns": 46.8
+      "faceAgeSns": 25.6
     },
     "rankingEligible": true,
     "age": 46,
@@ -6940,9 +6940,9 @@
     "gender": "male",
     "scores": {
       "face": 46.8,
-      "faceAge": 46.8,
+      "faceAge": 44.4,
       "faceSns": 46.8,
-      "faceAgeSns": 46.8
+      "faceAgeSns": 44.4
     },
     "rankingEligible": true,
     "age": 29,
@@ -6994,9 +6994,9 @@
     "gender": "male",
     "scores": {
       "face": 46.6,
-      "faceAge": 46.6,
+      "faceAge": -56.2,
       "faceSns": 46.6,
-      "faceAgeSns": 46.6
+      "faceAgeSns": -56.2
     },
     "rankingEligible": true,
     "age": 114,
@@ -7021,9 +7021,9 @@
     "gender": "male",
     "scores": {
       "face": 46.6,
-      "faceAge": 46.6,
+      "faceAge": 42.6,
       "faceSns": 46.6,
-      "faceAgeSns": 46.6
+      "faceAgeSns": 42.6
     },
     "rankingEligible": true,
     "age": 31,
@@ -7080,9 +7080,9 @@
     "gender": "female",
     "scores": {
       "face": 46.5,
-      "faceAge": 46.5,
+      "faceAge": 42.5,
       "faceSns": 46.5,
-      "faceAgeSns": 46.5
+      "faceAgeSns": 42.5
     },
     "rankingEligible": true,
     "age": 31,
@@ -7107,9 +7107,9 @@
     "gender": "male",
     "scores": {
       "face": 46.5,
-      "faceAge": 46.5,
+      "faceAge": 42.5,
       "faceSns": 46.5,
-      "faceAgeSns": 46.5
+      "faceAgeSns": 42.5
     },
     "rankingEligible": true,
     "age": 31,
@@ -7134,9 +7134,9 @@
     "gender": "male",
     "scores": {
       "face": 46.5,
-      "faceAge": 46.5,
+      "faceAge": 33.7,
       "faceSns": 46.5,
-      "faceAgeSns": 46.5
+      "faceAgeSns": 33.7
     },
     "rankingEligible": true,
     "age": 39,
@@ -7161,9 +7161,9 @@
     "gender": "female",
     "scores": {
       "face": 46.4,
-      "faceAge": 46.4,
+      "faceAge": 32.4,
       "faceSns": 46.4,
-      "faceAgeSns": 46.4
+      "faceAgeSns": 32.4
     },
     "rankingEligible": true,
     "age": 40,
@@ -7188,9 +7188,9 @@
     "gender": "male",
     "scores": {
       "face": 46.4,
-      "faceAge": 46.4,
+      "faceAge": 40.8,
       "faceSns": 46.4,
-      "faceAgeSns": 46.4
+      "faceAgeSns": 40.8
     },
     "rankingEligible": true,
     "age": 33,
@@ -7215,9 +7215,9 @@
     "gender": "male",
     "scores": {
       "face": 46.4,
-      "faceAge": 46.4,
+      "faceAge": 36.0,
       "faceSns": 46.4,
-      "faceAgeSns": 46.4
+      "faceAgeSns": 36.0
     },
     "rankingEligible": true,
     "age": 37,
@@ -7242,9 +7242,9 @@
     "gender": "male",
     "scores": {
       "face": 46.4,
-      "faceAge": 46.4,
+      "faceAge": -20.4,
       "faceSns": 46.4,
-      "faceAgeSns": 46.4
+      "faceAgeSns": -20.4
     },
     "rankingEligible": true,
     "age": 84,
@@ -7269,9 +7269,9 @@
     "gender": "male",
     "scores": {
       "face": 46.4,
-      "faceAge": 46.4,
+      "faceAge": -27.6,
       "faceSns": 46.4,
-      "faceAgeSns": 46.4
+      "faceAgeSns": -27.6
     },
     "rankingEligible": true,
     "age": 90,
@@ -7296,9 +7296,9 @@
     "gender": "male",
     "scores": {
       "face": 46.3,
-      "faceAge": 46.3,
+      "faceAge": 39.5,
       "faceSns": 46.3,
-      "faceAgeSns": 46.3
+      "faceAgeSns": 39.5
     },
     "rankingEligible": true,
     "age": 34,
@@ -7350,9 +7350,9 @@
     "gender": "male",
     "scores": {
       "face": 46.3,
-      "faceAge": 46.3,
+      "faceAge": 41.5,
       "faceSns": 46.3,
-      "faceAgeSns": 46.3
+      "faceAgeSns": 41.5
     },
     "rankingEligible": true,
     "age": 32,
@@ -7406,9 +7406,9 @@
     "gender": "male",
     "scores": {
       "face": 46.1,
-      "faceAge": 46.1,
+      "faceAge": 17.7,
       "faceSns": 46.1,
-      "faceAgeSns": 46.1
+      "faceAgeSns": 17.7
     },
     "rankingEligible": true,
     "age": 52,
@@ -7433,9 +7433,9 @@
     "gender": "female",
     "scores": {
       "face": 46.0,
-      "faceAge": 46.0,
+      "faceAge": 22.4,
       "faceSns": 46.0,
-      "faceAgeSns": 46.0
+      "faceAgeSns": 22.4
     },
     "rankingEligible": true,
     "age": 48,
@@ -7460,9 +7460,9 @@
     "gender": "male",
     "scores": {
       "face": 46.0,
-      "faceAge": 46.0,
+      "faceAge": 32.0,
       "faceSns": 46.0,
-      "faceAgeSns": 46.0
+      "faceAgeSns": 32.0
     },
     "rankingEligible": true,
     "age": 40,
@@ -7493,9 +7493,9 @@
     "group": "元AKB48",
     "scores": {
       "face": 45.9,
-      "faceAge": 45.9,
+      "faceAge": 39.1,
       "faceSns": 51.0,
-      "faceAgeSns": 51.0
+      "faceAgeSns": 46.3
     },
     "rankingEligible": true
   },
@@ -7518,9 +7518,9 @@
     "gender": "male",
     "scores": {
       "face": 45.8,
-      "faceAge": 45.8,
+      "faceAge": 35.4,
       "faceSns": 45.8,
-      "faceAgeSns": 45.8
+      "faceAgeSns": 35.4
     },
     "rankingEligible": true,
     "age": 37,
@@ -7545,9 +7545,9 @@
     "gender": "male",
     "scores": {
       "face": 45.6,
-      "faceAge": 45.6,
+      "faceAge": -6.8,
       "faceSns": 45.6,
-      "faceAgeSns": 45.6
+      "faceAgeSns": -6.8
     },
     "rankingEligible": true,
     "age": 72,
@@ -7572,9 +7572,9 @@
     "gender": "male",
     "scores": {
       "face": 45.6,
-      "faceAge": 45.6,
+      "faceAge": 11.2,
       "faceSns": 45.6,
-      "faceAgeSns": 45.6
+      "faceAgeSns": 11.2
     },
     "rankingEligible": true,
     "age": 57,
@@ -7599,9 +7599,9 @@
     "gender": "female",
     "scores": {
       "face": 45.6,
-      "faceAge": 45.6,
+      "faceAge": 37.6,
       "faceSns": 45.6,
-      "faceAgeSns": 45.6
+      "faceAgeSns": 37.6
     },
     "rankingEligible": true,
     "age": 35,
@@ -7626,9 +7626,9 @@
     "gender": "male",
     "scores": {
       "face": 45.5,
-      "faceAge": 46.5,
+      "faceAge": 44.7,
       "faceSns": 45.5,
-      "faceAgeSns": 46.5
+      "faceAgeSns": 44.7
     },
     "rankingEligible": true,
     "age": 27,
@@ -7653,9 +7653,9 @@
     "gender": "male",
     "scores": {
       "face": 45.4,
-      "faceAge": 45.4,
+      "faceAge": 13.4,
       "faceSns": 45.4,
-      "faceAgeSns": 45.4
+      "faceAgeSns": 13.4
     },
     "rankingEligible": true,
     "age": 55,
@@ -7680,9 +7680,9 @@
     "gender": "male",
     "scores": {
       "face": 45.4,
-      "faceAge": 45.4,
+      "faceAge": -4.6,
       "faceSns": 45.4,
-      "faceAgeSns": 45.4
+      "faceAgeSns": -4.6
     },
     "rankingEligible": true,
     "age": 70,
@@ -7739,9 +7739,9 @@
     "gender": "male",
     "scores": {
       "face": 45.4,
-      "faceAge": 45.4,
+      "faceAge": 15.8,
       "faceSns": 45.4,
-      "faceAgeSns": 45.4
+      "faceAgeSns": 15.8
     },
     "rankingEligible": true,
     "age": 53,
@@ -7766,9 +7766,9 @@
     "gender": "male",
     "scores": {
       "face": 45.3,
-      "faceAge": 45.3,
+      "faceAge": 43.7,
       "faceSns": 45.3,
-      "faceAgeSns": 45.3
+      "faceAgeSns": 43.7
     },
     "rankingEligible": true,
     "age": 28,
@@ -7793,9 +7793,9 @@
     "gender": "male",
     "scores": {
       "face": 45.2,
-      "faceAge": 45.2,
+      "faceAge": 34.8,
       "faceSns": 45.2,
-      "faceAgeSns": 45.2
+      "faceAgeSns": 34.8
     },
     "rankingEligible": true,
     "age": 37,
@@ -7820,9 +7820,9 @@
     "gender": "male",
     "scores": {
       "face": 45.2,
-      "faceAge": 45.2,
+      "faceAge": 22.8,
       "faceSns": 45.2,
-      "faceAgeSns": 45.2
+      "faceAgeSns": 22.8
     },
     "rankingEligible": true,
     "age": 47,
@@ -7853,9 +7853,9 @@
     "group": "乃木坂46",
     "scores": {
       "face": 45.2,
-      "faceAge": 46.2,
+      "faceAge": 44.4,
       "faceSns": 50.2,
-      "faceAgeSns": 50.9
+      "faceAgeSns": 49.6
     },
     "rankingEligible": true
   },
@@ -7878,9 +7878,9 @@
     "gender": "male",
     "scores": {
       "face": 45.2,
-      "faceAge": 45.2,
+      "faceAge": -7.2,
       "faceSns": 45.2,
-      "faceAgeSns": 45.2
+      "faceAgeSns": -7.2
     },
     "rankingEligible": true,
     "age": 72,
@@ -7935,9 +7935,9 @@
     "gender": "male",
     "scores": {
       "face": 45.1,
-      "faceAge": 45.1,
+      "faceAge": 21.5,
       "faceSns": 45.1,
-      "faceAgeSns": 45.1
+      "faceAgeSns": 21.5
     },
     "rankingEligible": true,
     "age": 48,
@@ -7962,9 +7962,9 @@
     "gender": "male",
     "scores": {
       "face": 45.0,
-      "faceAge": 45.0,
+      "faceAge": 17.8,
       "faceSns": 45.0,
-      "faceAgeSns": 45.0
+      "faceAgeSns": 17.8
     },
     "rankingEligible": true,
     "age": 51,
@@ -7989,9 +7989,9 @@
     "gender": "male",
     "scores": {
       "face": 45.0,
-      "faceAge": 45.0,
+      "faceAge": -12.2,
       "faceSns": 45.0,
-      "faceAgeSns": 45.0
+      "faceAgeSns": -12.2
     },
     "rankingEligible": true,
     "age": 76,
@@ -8016,9 +8016,9 @@
     "gender": "male",
     "scores": {
       "face": 45.0,
-      "faceAge": 45.0,
+      "faceAge": 29.8,
       "faceSns": 45.0,
-      "faceAgeSns": 45.0
+      "faceAgeSns": 29.8
     },
     "rankingEligible": true,
     "age": 41,
@@ -8043,9 +8043,9 @@
     "gender": "male",
     "scores": {
       "face": 45.0,
-      "faceAge": 45.0,
+      "faceAge": 41.0,
       "faceSns": 45.0,
-      "faceAgeSns": 45.0
+      "faceAgeSns": 41.0
     },
     "rankingEligible": true,
     "age": 31,
@@ -8070,9 +8070,9 @@
     "gender": "female",
     "scores": {
       "face": 44.9,
-      "faceAge": 44.9,
+      "faceAge": -2.7,
       "faceSns": 44.9,
-      "faceAgeSns": 44.9
+      "faceAgeSns": -2.7
     },
     "rankingEligible": true,
     "age": 68,
@@ -8124,9 +8124,9 @@
     "gender": "male",
     "scores": {
       "face": 44.9,
-      "faceAge": 44.9,
+      "faceAge": 30.9,
       "faceSns": 44.9,
-      "faceAgeSns": 44.9
+      "faceAgeSns": 30.9
     },
     "rankingEligible": true,
     "age": 40,
@@ -8151,9 +8151,9 @@
     "gender": "male",
     "scores": {
       "face": 44.9,
-      "faceAge": 44.9,
+      "faceAge": 40.9,
       "faceSns": 44.9,
-      "faceAgeSns": 44.9
+      "faceAgeSns": 40.9
     },
     "rankingEligible": true,
     "age": 31,
@@ -8178,9 +8178,9 @@
     "gender": "male",
     "scores": {
       "face": 44.8,
-      "faceAge": 45.8,
+      "faceAge": 44.0,
       "faceSns": 44.8,
-      "faceAgeSns": 45.8
+      "faceAgeSns": 44.0
     },
     "rankingEligible": true,
     "age": 27,
@@ -8205,9 +8205,9 @@
     "gender": "male",
     "scores": {
       "face": 44.8,
-      "faceAge": 44.8,
+      "faceAge": 0.8,
       "faceSns": 44.8,
-      "faceAgeSns": 44.8
+      "faceAgeSns": 0.8
     },
     "rankingEligible": true,
     "age": 65,
@@ -8232,9 +8232,9 @@
     "gender": "male",
     "scores": {
       "face": 44.6,
-      "faceAge": 44.6,
+      "faceAge": 25.8,
       "faceSns": 44.6,
-      "faceAgeSns": 44.6
+      "faceAgeSns": 25.8
     },
     "rankingEligible": true,
     "age": 44,
@@ -8259,9 +8259,9 @@
     "gender": "male",
     "scores": {
       "face": 44.6,
-      "faceAge": 44.6,
+      "faceAge": 31.8,
       "faceSns": 44.6,
-      "faceAgeSns": 44.6
+      "faceAgeSns": 31.8
     },
     "rankingEligible": true,
     "age": 39,
@@ -8292,9 +8292,9 @@
     "group": "King Gnu",
     "scores": {
       "face": 44.5,
-      "faceAge": 44.5,
+      "faceAge": 38.9,
       "faceSns": 48.2,
-      "faceAgeSns": 48.2
+      "faceAgeSns": 44.3
     },
     "rankingEligible": true
   },
@@ -8317,9 +8317,9 @@
     "gender": "male",
     "scores": {
       "face": 44.5,
-      "faceAge": 44.5,
+      "faceAge": 31.7,
       "faceSns": 44.5,
-      "faceAgeSns": 44.5
+      "faceAgeSns": 31.7
     },
     "rankingEligible": true,
     "age": 39,
@@ -8373,9 +8373,9 @@
     "gender": "male",
     "scores": {
       "face": 44.4,
-      "faceAge": 45.4,
+      "faceAge": 43.6,
       "faceSns": 44.4,
-      "faceAgeSns": 45.4
+      "faceAgeSns": 43.6
     },
     "rankingEligible": true,
     "age": 27,
@@ -8431,9 +8431,9 @@
     "gender": "female",
     "scores": {
       "face": 44.3,
-      "faceAge": 44.3,
+      "faceAge": 41.9,
       "faceSns": 44.3,
-      "faceAgeSns": 44.3
+      "faceAgeSns": 41.9
     },
     "rankingEligible": true,
     "age": 29,
@@ -8458,9 +8458,9 @@
     "gender": "male",
     "scores": {
       "face": 44.2,
-      "faceAge": 44.2,
+      "faceAge": 39.4,
       "faceSns": 44.2,
-      "faceAgeSns": 44.2
+      "faceAgeSns": 39.4
     },
     "rankingEligible": true,
     "age": 32,
@@ -8485,9 +8485,9 @@
     "gender": "male",
     "scores": {
       "face": 44.1,
-      "faceAge": 44.1,
+      "faceAge": 42.5,
       "faceSns": 44.1,
-      "faceAgeSns": 44.1
+      "faceAgeSns": 42.5
     },
     "rankingEligible": true,
     "age": 28,
@@ -8541,9 +8541,9 @@
     "gender": "male",
     "scores": {
       "face": 44.0,
-      "faceAge": 44.0,
+      "faceAge": 6.0,
       "faceSns": 44.0,
-      "faceAgeSns": 44.0
+      "faceAgeSns": 6.0
     },
     "rankingEligible": true,
     "age": 60,
@@ -8574,9 +8574,9 @@
     "totalFollowers": 6500000,
     "scores": {
       "face": 44.0,
-      "faceAge": 44.0,
+      "faceAge": 41.6,
       "faceSns": 51.2,
-      "faceAgeSns": 51.2
+      "faceAgeSns": 49.6
     },
     "rankingEligible": true
   },
@@ -8626,9 +8626,9 @@
     "gender": "male",
     "scores": {
       "face": 43.8,
-      "faceAge": 43.8,
+      "faceAge": 27.4,
       "faceSns": 43.8,
-      "faceAgeSns": 43.8
+      "faceAgeSns": 27.4
     },
     "rankingEligible": true,
     "age": 42,
@@ -8653,9 +8653,9 @@
     "gender": "male",
     "scores": {
       "face": 43.8,
-      "faceAge": 43.8,
+      "faceAge": 15.4,
       "faceSns": 43.8,
-      "faceAgeSns": 43.8
+      "faceAgeSns": 15.4
     },
     "rankingEligible": true,
     "age": 52,
@@ -8680,9 +8680,9 @@
     "gender": "male",
     "scores": {
       "face": 43.8,
-      "faceAge": 43.8,
+      "faceAge": 42.2,
       "faceSns": 43.8,
-      "faceAgeSns": 43.8
+      "faceAgeSns": 42.2
     },
     "rankingEligible": true,
     "age": 28,
@@ -8707,9 +8707,9 @@
     "gender": "male",
     "scores": {
       "face": 43.8,
-      "faceAge": 43.8,
+      "faceAge": 35.8,
       "faceSns": 43.8,
-      "faceAgeSns": 43.8
+      "faceAgeSns": 35.8
     },
     "rankingEligible": true,
     "age": 35,
@@ -8734,9 +8734,9 @@
     "gender": "male",
     "scores": {
       "face": 43.8,
-      "faceAge": 43.8,
+      "faceAge": 39.0,
       "faceSns": 43.8,
-      "faceAgeSns": 43.8
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true,
     "age": 32,
@@ -8761,9 +8761,9 @@
     "gender": "male",
     "scores": {
       "face": 43.7,
-      "faceAge": 44.7,
+      "faceAge": 42.9,
       "faceSns": 43.7,
-      "faceAgeSns": 44.7
+      "faceAgeSns": 42.9
     },
     "rankingEligible": true,
     "age": 27,
@@ -8788,9 +8788,9 @@
     "gender": "male",
     "scores": {
       "face": 43.6,
-      "faceAge": 43.6,
+      "faceAge": 24.8,
       "faceSns": 43.6,
-      "faceAgeSns": 43.6
+      "faceAgeSns": 24.8
     },
     "rankingEligible": true,
     "age": 44,
@@ -8815,9 +8815,9 @@
     "gender": "male",
     "scores": {
       "face": 43.6,
-      "faceAge": 43.6,
+      "faceAge": 39.6,
       "faceSns": 43.6,
-      "faceAgeSns": 43.6
+      "faceAgeSns": 39.6
     },
     "rankingEligible": true,
     "age": 31,
@@ -8842,9 +8842,9 @@
     "gender": "male",
     "scores": {
       "face": 43.6,
-      "faceAge": 43.6,
+      "faceAge": 30.8,
       "faceSns": 43.6,
-      "faceAgeSns": 43.6
+      "faceAgeSns": 30.8
     },
     "rankingEligible": true,
     "age": 39,
@@ -8869,9 +8869,9 @@
     "gender": "male",
     "scores": {
       "face": 43.5,
-      "faceAge": 43.5,
+      "faceAge": 3.1,
       "faceSns": 43.5,
-      "faceAgeSns": 43.5
+      "faceAgeSns": 3.1
     },
     "rankingEligible": true,
     "age": 62,
@@ -8896,9 +8896,9 @@
     "gender": "male",
     "scores": {
       "face": 43.5,
-      "faceAge": 43.5,
+      "faceAge": 40.3,
       "faceSns": 43.5,
-      "faceAgeSns": 43.5
+      "faceAgeSns": 40.3
     },
     "rankingEligible": true,
     "age": 30,
@@ -8923,9 +8923,9 @@
     "gender": "male",
     "scores": {
       "face": 43.5,
-      "faceAge": 43.5,
+      "faceAge": 17.5,
       "faceSns": 43.5,
-      "faceAgeSns": 43.5
+      "faceAgeSns": 17.5
     },
     "rankingEligible": true,
     "age": 50,
@@ -8950,9 +8950,9 @@
     "gender": "male",
     "scores": {
       "face": 43.5,
-      "faceAge": 43.5,
+      "faceAge": 35.5,
       "faceSns": 43.5,
-      "faceAgeSns": 43.5
+      "faceAgeSns": 35.5
     },
     "rankingEligible": true,
     "age": 35,
@@ -9006,9 +9006,9 @@
     "gender": "male",
     "scores": {
       "face": 43.4,
-      "faceAge": 43.4,
+      "faceAge": 33.0,
       "faceSns": 43.4,
-      "faceAgeSns": 43.4
+      "faceAgeSns": 33.0
     },
     "rankingEligible": true,
     "age": 37,
@@ -9033,9 +9033,9 @@
     "gender": "male",
     "scores": {
       "face": 43.3,
-      "faceAge": 43.3,
+      "faceAge": 39.3,
       "faceSns": 43.3,
-      "faceAgeSns": 43.3
+      "faceAgeSns": 39.3
     },
     "rankingEligible": true,
     "age": 31,
@@ -9065,9 +9065,9 @@
     "totalFollowers": 4200000,
     "scores": {
       "face": 43.2,
-      "faceAge": 43.2,
+      "faceAge": 30.4,
       "faceSns": 50.1,
-      "faceAgeSns": 50.1
+      "faceAgeSns": 41.1
     },
     "rankingEligible": true
   },
@@ -9090,9 +9090,9 @@
     "gender": "male",
     "scores": {
       "face": 43.2,
-      "faceAge": 43.2,
+      "faceAge": 16.0,
       "faceSns": 43.2,
-      "faceAgeSns": 43.2
+      "faceAgeSns": 16.0
     },
     "rankingEligible": true,
     "age": 51,
@@ -9117,9 +9117,9 @@
     "gender": "male",
     "scores": {
       "face": 43.0,
-      "faceAge": 43.0,
+      "faceAge": 30.2,
       "faceSns": 43.0,
-      "faceAgeSns": 43.0
+      "faceAgeSns": 30.2
     },
     "rankingEligible": true,
     "age": 39,
@@ -9150,9 +9150,9 @@
     "totalFollowers": 4000000,
     "scores": {
       "face": 43.0,
-      "faceAge": 43.0,
+      "faceAge": 39.0,
       "faceSns": 49.9,
-      "faceAgeSns": 49.9
+      "faceAgeSns": 47.1
     },
     "rankingEligible": true
   },
@@ -9175,9 +9175,9 @@
     "gender": "male",
     "scores": {
       "face": 43.0,
-      "faceAge": 43.0,
+      "faceAge": -1.0,
       "faceSns": 43.0,
-      "faceAgeSns": 43.0
+      "faceAgeSns": -1.0
     },
     "rankingEligible": true,
     "age": 65,
@@ -9202,9 +9202,9 @@
     "gender": "male",
     "scores": {
       "face": 43.0,
-      "faceAge": 43.0,
+      "faceAge": 14.6,
       "faceSns": 43.0,
-      "faceAgeSns": 43.0
+      "faceAgeSns": 14.6
     },
     "rankingEligible": true,
     "age": 52,
@@ -9229,9 +9229,9 @@
     "gender": "male",
     "scores": {
       "face": 43.0,
-      "faceAge": 43.0,
+      "faceAge": 13.4,
       "faceSns": 43.0,
-      "faceAgeSns": 43.0
+      "faceAgeSns": 13.4
     },
     "rankingEligible": true,
     "age": 53,
@@ -9256,9 +9256,9 @@
     "gender": "male",
     "scores": {
       "face": 42.8,
-      "faceAge": 42.8,
+      "faceAge": 30.0,
       "faceSns": 42.8,
-      "faceAgeSns": 42.8
+      "faceAgeSns": 30.0
     },
     "rankingEligible": true,
     "age": 39,
@@ -9283,9 +9283,9 @@
     "gender": "male",
     "scores": {
       "face": 42.8,
-      "faceAge": 42.8,
+      "faceAge": 2.4,
       "faceSns": 42.8,
-      "faceAgeSns": 42.8
+      "faceAgeSns": 2.4
     },
     "rankingEligible": true,
     "age": 62,
@@ -9310,9 +9310,9 @@
     "gender": "male",
     "scores": {
       "face": 42.8,
-      "faceAge": 42.8,
+      "faceAge": 18.0,
       "faceSns": 42.8,
-      "faceAgeSns": 42.8
+      "faceAgeSns": 18.0
     },
     "rankingEligible": true,
     "age": 49,
@@ -9337,9 +9337,9 @@
     "gender": "male",
     "scores": {
       "face": 42.8,
-      "faceAge": 42.8,
+      "faceAge": 30.0,
       "faceSns": 42.8,
-      "faceAgeSns": 42.8
+      "faceAgeSns": 30.0
     },
     "rankingEligible": true,
     "age": 39,
@@ -9364,9 +9364,9 @@
     "gender": "male",
     "scores": {
       "face": 42.8,
-      "faceAge": 43.8,
+      "faceAge": 42.0,
       "faceSns": 42.8,
-      "faceAgeSns": 43.8
+      "faceAgeSns": 42.0
     },
     "rankingEligible": true,
     "age": 27,
@@ -9391,9 +9391,9 @@
     "gender": "male",
     "scores": {
       "face": 42.8,
-      "faceAge": 42.8,
+      "faceAge": 40.4,
       "faceSns": 42.8,
-      "faceAgeSns": 42.8
+      "faceAgeSns": 40.4
     },
     "rankingEligible": true,
     "age": 29,
@@ -9445,9 +9445,9 @@
     "gender": "male",
     "scores": {
       "face": 42.7,
-      "faceAge": 42.7,
+      "faceAge": -3.7,
       "faceSns": 42.7,
-      "faceAgeSns": 42.7
+      "faceAgeSns": -3.7
     },
     "rankingEligible": true,
     "age": 67,
@@ -9472,9 +9472,9 @@
     "gender": "male",
     "scores": {
       "face": 42.6,
-      "faceAge": 42.6,
+      "faceAge": 21.4,
       "faceSns": 42.6,
-      "faceAgeSns": 42.6
+      "faceAgeSns": 21.4
     },
     "rankingEligible": true,
     "age": 46,
@@ -9499,9 +9499,9 @@
     "gender": "male",
     "scores": {
       "face": 42.6,
-      "faceAge": 42.6,
+      "faceAge": 14.2,
       "faceSns": 42.6,
-      "faceAgeSns": 42.6
+      "faceAgeSns": 14.2
     },
     "rankingEligible": true,
     "age": 52,
@@ -9526,9 +9526,9 @@
     "gender": "female",
     "scores": {
       "face": 42.5,
-      "faceAge": 42.5,
+      "faceAge": 24.9,
       "faceSns": 42.5,
-      "faceAgeSns": 42.5
+      "faceAgeSns": 24.9
     },
     "rankingEligible": true,
     "age": 43,
@@ -9553,9 +9553,9 @@
     "gender": "male",
     "scores": {
       "face": 42.5,
-      "faceAge": 42.5,
+      "faceAge": 17.7,
       "faceSns": 42.5,
-      "faceAgeSns": 42.5
+      "faceAgeSns": 17.7
     },
     "rankingEligible": true,
     "age": 49,
@@ -9580,9 +9580,9 @@
     "gender": "male",
     "scores": {
       "face": 42.3,
-      "faceAge": 42.3,
+      "faceAge": 31.9,
       "faceSns": 42.3,
-      "faceAgeSns": 42.3
+      "faceAgeSns": 31.9
     },
     "rankingEligible": true,
     "age": 37,
@@ -9607,9 +9607,9 @@
     "gender": "male",
     "scores": {
       "face": 42.2,
-      "faceAge": 42.2,
+      "faceAge": 1.8,
       "faceSns": 42.2,
-      "faceAgeSns": 42.2
+      "faceAgeSns": 1.8
     },
     "rankingEligible": true,
     "age": 62,
@@ -9634,9 +9634,9 @@
     "gender": "male",
     "scores": {
       "face": 42.2,
-      "faceAge": 42.2,
+      "faceAge": 18.6,
       "faceSns": 42.2,
-      "faceAgeSns": 42.2
+      "faceAgeSns": 18.6
     },
     "rankingEligible": true,
     "age": 48,
@@ -9688,9 +9688,9 @@
     "gender": "male",
     "scores": {
       "face": 42.0,
-      "faceAge": 42.0,
+      "faceAge": 19.6,
       "faceSns": 42.0,
-      "faceAgeSns": 42.0
+      "faceAgeSns": 19.6
     },
     "rankingEligible": true,
     "age": 47,
@@ -9742,9 +9742,9 @@
     "gender": "male",
     "scores": {
       "face": 42.0,
-      "faceAge": 42.0,
+      "faceAge": 25.6,
       "faceSns": 42.0,
-      "faceAgeSns": 42.0
+      "faceAgeSns": 25.6
     },
     "rankingEligible": true,
     "age": 42,
@@ -9769,9 +9769,9 @@
     "gender": "male",
     "scores": {
       "face": 41.6,
-      "faceAge": 41.6,
+      "faceAge": 33.6,
       "faceSns": 41.6,
-      "faceAgeSns": 41.6
+      "faceAgeSns": 33.6
     },
     "rankingEligible": true,
     "age": 35,
@@ -9796,9 +9796,9 @@
     "gender": "female",
     "scores": {
       "face": 41.4,
-      "faceAge": 41.4,
+      "faceAge": 37.4,
       "faceSns": 41.4,
-      "faceAgeSns": 41.4
+      "faceAgeSns": 37.4
     },
     "rankingEligible": true,
     "age": 31,
@@ -9850,9 +9850,9 @@
     "gender": "male",
     "scores": {
       "face": 41.4,
-      "faceAge": 41.4,
+      "faceAge": 21.4,
       "faceSns": 41.4,
-      "faceAgeSns": 41.4
+      "faceAgeSns": 21.4
     },
     "rankingEligible": true,
     "age": 45,
@@ -9904,9 +9904,9 @@
     "gender": "male",
     "scores": {
       "face": 41.4,
-      "faceAge": 41.4,
+      "faceAge": 35.8,
       "faceSns": 41.4,
-      "faceAgeSns": 41.4
+      "faceAgeSns": 35.8
     },
     "rankingEligible": true,
     "age": 33,
@@ -9931,9 +9931,9 @@
     "gender": "male",
     "scores": {
       "face": 41.4,
-      "faceAge": 41.4,
+      "faceAge": 33.4,
       "faceSns": 41.4,
-      "faceAgeSns": 41.4
+      "faceAgeSns": 33.4
     },
     "rankingEligible": true,
     "age": 35,
@@ -9958,9 +9958,9 @@
     "gender": "male",
     "scores": {
       "face": 41.4,
-      "faceAge": 41.4,
+      "faceAge": 39.0,
       "faceSns": 41.4,
-      "faceAgeSns": 41.4
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true,
     "age": 29,
@@ -9985,9 +9985,9 @@
     "gender": "male",
     "scores": {
       "face": 41.2,
-      "faceAge": 41.2,
+      "faceAge": 21.2,
       "faceSns": 41.2,
-      "faceAgeSns": 41.2
+      "faceAgeSns": 21.2
     },
     "rankingEligible": true,
     "age": 45,
@@ -10012,9 +10012,9 @@
     "gender": "male",
     "scores": {
       "face": 41.2,
-      "faceAge": 41.2,
+      "faceAge": 16.4,
       "faceSns": 41.2,
-      "faceAgeSns": 41.2
+      "faceAgeSns": 16.4
     },
     "rankingEligible": true,
     "age": 49,
@@ -10039,9 +10039,9 @@
     "gender": "male",
     "scores": {
       "face": 41.1,
-      "faceAge": 42.1,
+      "faceAge": 40.3,
       "faceSns": 41.1,
-      "faceAgeSns": 42.1
+      "faceAgeSns": 40.3
     },
     "rankingEligible": true,
     "age": 27,
@@ -10066,9 +10066,9 @@
     "gender": "male",
     "scores": {
       "face": 40.7,
-      "faceAge": 40.7,
+      "faceAge": 32.7,
       "faceSns": 40.7,
-      "faceAgeSns": 40.7
+      "faceAgeSns": 32.7
     },
     "rankingEligible": true,
     "age": 35,
@@ -10093,9 +10093,9 @@
     "gender": "male",
     "scores": {
       "face": 40.6,
-      "faceAge": 40.6,
+      "faceAge": 39.0,
       "faceSns": 40.6,
-      "faceAgeSns": 40.6
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true,
     "age": 28,
@@ -10120,9 +10120,9 @@
     "gender": "male",
     "scores": {
       "face": 40.6,
-      "faceAge": 40.6,
+      "faceAge": 39.0,
       "faceSns": 40.6,
-      "faceAgeSns": 40.6
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true,
     "age": 28,
@@ -10174,9 +10174,9 @@
     "gender": "male",
     "scores": {
       "face": 40.4,
-      "faceAge": 40.4,
+      "faceAge": 36.4,
       "faceSns": 40.4,
-      "faceAgeSns": 40.4
+      "faceAgeSns": 36.4
     },
     "rankingEligible": true,
     "age": 31,
@@ -10201,9 +10201,9 @@
     "gender": "male",
     "scores": {
       "face": 40.2,
-      "faceAge": 40.2,
+      "faceAge": 14.2,
       "faceSns": 40.2,
-      "faceAgeSns": 40.2
+      "faceAgeSns": 14.2
     },
     "rankingEligible": true,
     "age": 50,
@@ -10228,9 +10228,9 @@
     "gender": "female",
     "scores": {
       "face": 40.2,
-      "faceAge": 40.2,
+      "faceAge": 14.2,
       "faceSns": 40.2,
-      "faceAgeSns": 40.2
+      "faceAgeSns": 14.2
     },
     "rankingEligible": true,
     "age": 50,
@@ -10255,9 +10255,9 @@
     "gender": "male",
     "scores": {
       "face": 40.2,
-      "faceAge": 40.2,
+      "faceAge": 17.8,
       "faceSns": 40.2,
-      "faceAgeSns": 40.2
+      "faceAgeSns": 17.8
     },
     "rankingEligible": true,
     "age": 47,
@@ -10282,9 +10282,9 @@
     "gender": "female",
     "scores": {
       "face": 40.1,
-      "faceAge": 40.1,
+      "faceAge": 22.5,
       "faceSns": 40.1,
-      "faceAgeSns": 40.1
+      "faceAgeSns": 22.5
     },
     "rankingEligible": true,
     "age": 43,
@@ -10309,9 +10309,9 @@
     "gender": "male",
     "scores": {
       "face": 40.0,
-      "faceAge": 40.0,
+      "faceAge": 11.6,
       "faceSns": 40.0,
-      "faceAgeSns": 40.0
+      "faceAgeSns": 11.6
     },
     "rankingEligible": true,
     "age": 52,
@@ -10336,9 +10336,9 @@
     "gender": "male",
     "scores": {
       "face": 40.0,
-      "faceAge": 40.0,
+      "faceAge": 23.6,
       "faceSns": 40.0,
-      "faceAgeSns": 40.0
+      "faceAgeSns": 23.6
     },
     "rankingEligible": true,
     "age": 42,
@@ -10363,9 +10363,9 @@
     "gender": "male",
     "scores": {
       "face": 39.7,
-      "faceAge": 39.7,
+      "faceAge": 17.3,
       "faceSns": 39.7,
-      "faceAgeSns": 39.7
+      "faceAgeSns": 17.3
     },
     "rankingEligible": true,
     "age": 47,
@@ -10417,9 +10417,9 @@
     "gender": "male",
     "scores": {
       "face": 39.2,
-      "faceAge": 39.2,
+      "faceAge": 3.6,
       "faceSns": 39.2,
-      "faceAgeSns": 39.2
+      "faceAgeSns": 3.6
     },
     "rankingEligible": true,
     "age": 58,
@@ -10444,9 +10444,9 @@
     "gender": "male",
     "scores": {
       "face": 38.8,
-      "faceAge": 38.8,
+      "faceAge": 33.2,
       "faceSns": 38.8,
-      "faceAgeSns": 38.8
+      "faceAgeSns": 33.2
     },
     "rankingEligible": true,
     "age": 33,
@@ -10471,9 +10471,9 @@
     "gender": "male",
     "scores": {
       "face": 38.8,
-      "faceAge": 38.8,
+      "faceAge": 26.0,
       "faceSns": 38.8,
-      "faceAgeSns": 38.8
+      "faceAgeSns": 26.0
     },
     "rankingEligible": true,
     "age": 39,
@@ -10498,9 +10498,9 @@
     "gender": "male",
     "scores": {
       "face": 38.6,
-      "faceAge": 38.6,
+      "faceAge": 28.2,
       "faceSns": 38.6,
-      "faceAgeSns": 38.6
+      "faceAgeSns": 28.2
     },
     "rankingEligible": true,
     "age": 37,
@@ -10525,9 +10525,9 @@
     "gender": "male",
     "scores": {
       "face": 38.4,
-      "faceAge": 38.4,
+      "faceAge": 32.8,
       "faceSns": 38.4,
-      "faceAgeSns": 38.4
+      "faceAgeSns": 32.8
     },
     "rankingEligible": true,
     "age": 33,
@@ -10552,9 +10552,9 @@
     "gender": "male",
     "scores": {
       "face": 38.4,
-      "faceAge": 38.4,
+      "faceAge": 28.0,
       "faceSns": 38.4,
-      "faceAgeSns": 38.4
+      "faceAgeSns": 28.0
     },
     "rankingEligible": true,
     "age": 37,
@@ -10579,9 +10579,9 @@
     "gender": "female",
     "scores": {
       "face": 38.4,
-      "faceAge": 38.4,
+      "faceAge": 26.8,
       "faceSns": 38.4,
-      "faceAgeSns": 38.4
+      "faceAgeSns": 26.8
     },
     "rankingEligible": true,
     "age": 38,
@@ -10606,9 +10606,9 @@
     "gender": "male",
     "scores": {
       "face": 38.1,
-      "faceAge": 38.1,
+      "faceAge": -3.5,
       "faceSns": 38.1,
-      "faceAgeSns": 38.1
+      "faceAgeSns": -3.5
     },
     "rankingEligible": true,
     "age": 63,
@@ -10633,9 +10633,9 @@
     "gender": "male",
     "scores": {
       "face": 37.9,
-      "faceAge": 37.9,
+      "faceAge": 29.9,
       "faceSns": 37.9,
-      "faceAgeSns": 37.9
+      "faceAgeSns": 29.9
     },
     "rankingEligible": true,
     "age": 35,
@@ -10660,9 +10660,9 @@
     "gender": "male",
     "scores": {
       "face": 37.8,
-      "faceAge": 37.8,
+      "faceAge": 8.2,
       "faceSns": 37.8,
-      "faceAgeSns": 37.8
+      "faceAgeSns": 8.2
     },
     "rankingEligible": true,
     "age": 53,
@@ -10687,9 +10687,9 @@
     "gender": "male",
     "scores": {
       "face": 37.8,
-      "faceAge": 37.8,
+      "faceAge": -23.0,
       "faceSns": 37.8,
-      "faceAgeSns": 37.8
+      "faceAgeSns": -23.0
     },
     "rankingEligible": true,
     "age": 79,
@@ -10714,9 +10714,9 @@
     "gender": "male",
     "scores": {
       "face": 37.8,
-      "faceAge": 37.8,
+      "faceAge": 36.2,
       "faceSns": 37.8,
-      "faceAgeSns": 37.8
+      "faceAgeSns": 36.2
     },
     "rankingEligible": true,
     "age": 28,
@@ -10741,9 +10741,9 @@
     "gender": "male",
     "scores": {
       "face": 37.8,
-      "faceAge": 37.8,
+      "faceAge": 28.6,
       "faceSns": 37.8,
-      "faceAgeSns": 37.8
+      "faceAgeSns": 28.6
     },
     "rankingEligible": true,
     "age": 36,
@@ -10768,9 +10768,9 @@
     "gender": "male",
     "scores": {
       "face": 37.7,
-      "faceAge": 37.7,
+      "faceAge": -30.3,
       "faceSns": 37.7,
-      "faceAgeSns": 37.7
+      "faceAgeSns": -30.3
     },
     "rankingEligible": true,
     "age": 85,
@@ -10795,9 +10795,9 @@
     "gender": "female",
     "scores": {
       "face": 37.7,
-      "faceAge": 38.7,
+      "faceAge": 36.9,
       "faceSns": 37.7,
-      "faceAgeSns": 38.7
+      "faceAgeSns": 36.9
     },
     "rankingEligible": true,
     "age": 27,
@@ -10822,9 +10822,9 @@
     "gender": "male",
     "scores": {
       "face": 37.3,
-      "faceAge": 37.3,
+      "faceAge": 8.9,
       "faceSns": 37.3,
-      "faceAgeSns": 37.3
+      "faceAgeSns": 8.9
     },
     "rankingEligible": true,
     "age": 52,
@@ -10849,9 +10849,9 @@
     "gender": "male",
     "scores": {
       "face": 37.2,
-      "faceAge": 37.2,
+      "faceAge": 30.4,
       "faceSns": 37.2,
-      "faceAgeSns": 37.2
+      "faceAgeSns": 30.4
     },
     "rankingEligible": true,
     "age": 34,
@@ -10876,9 +10876,9 @@
     "gender": "male",
     "scores": {
       "face": 37.2,
-      "faceAge": 37.2,
+      "faceAge": 24.4,
       "faceSns": 37.2,
-      "faceAgeSns": 37.2
+      "faceAgeSns": 24.4
     },
     "rankingEligible": true,
     "age": 39,
@@ -10903,9 +10903,9 @@
     "gender": "male",
     "scores": {
       "face": 37.1,
-      "faceAge": 37.1,
+      "faceAge": 20.7,
       "faceSns": 37.1,
-      "faceAgeSns": 37.1
+      "faceAgeSns": 20.7
     },
     "rankingEligible": true,
     "age": 42,
@@ -10930,9 +10930,9 @@
     "gender": "male",
     "scores": {
       "face": 36.8,
-      "faceAge": 36.8,
+      "faceAge": 27.6,
       "faceSns": 36.8,
-      "faceAgeSns": 36.8
+      "faceAgeSns": 27.6
     },
     "rankingEligible": true,
     "age": 36,
@@ -10957,9 +10957,9 @@
     "gender": "male",
     "scores": {
       "face": 36.6,
-      "faceAge": 36.6,
+      "faceAge": 9.4,
       "faceSns": 36.6,
-      "faceAgeSns": 36.6
+      "faceAgeSns": 9.4
     },
     "rankingEligible": true,
     "age": 51,
@@ -10984,9 +10984,9 @@
     "gender": "male",
     "scores": {
       "face": 36.4,
-      "faceAge": 36.4,
+      "faceAge": 18.8,
       "faceSns": 36.4,
-      "faceAgeSns": 36.4
+      "faceAgeSns": 18.8
     },
     "rankingEligible": true,
     "age": 43,
@@ -11011,9 +11011,9 @@
     "gender": "male",
     "scores": {
       "face": 36.4,
-      "faceAge": 36.4,
+      "faceAge": 32.4,
       "faceSns": 36.4,
-      "faceAgeSns": 36.4
+      "faceAgeSns": 32.4
     },
     "rankingEligible": true,
     "age": 31,
@@ -11038,9 +11038,9 @@
     "gender": "male",
     "scores": {
       "face": 36.3,
-      "faceAge": 36.3,
+      "faceAge": 11.5,
       "faceSns": 36.3,
-      "faceAgeSns": 36.3
+      "faceAgeSns": 11.5
     },
     "rankingEligible": true,
     "age": 49,
@@ -11065,9 +11065,9 @@
     "gender": "male",
     "scores": {
       "face": 35.7,
-      "faceAge": 35.7,
+      "faceAge": -22.7,
       "faceSns": 35.7,
-      "faceAgeSns": 35.7
+      "faceAgeSns": -22.7
     },
     "rankingEligible": true,
     "age": 77,
@@ -11092,9 +11092,9 @@
     "gender": "male",
     "scores": {
       "face": 35.3,
-      "faceAge": 35.3,
+      "faceAge": 31.3,
       "faceSns": 35.3,
-      "faceAgeSns": 35.3
+      "faceAgeSns": 31.3
     },
     "rankingEligible": true,
     "age": 31,
@@ -11119,9 +11119,9 @@
     "gender": "male",
     "scores": {
       "face": 35.2,
-      "faceAge": 36.2,
+      "faceAge": 34.4,
       "faceSns": 35.2,
-      "faceAgeSns": 36.2
+      "faceAgeSns": 34.4
     },
     "rankingEligible": true,
     "age": 27,
@@ -11146,9 +11146,9 @@
     "gender": "male",
     "scores": {
       "face": 34.9,
-      "faceAge": 34.9,
+      "faceAge": -22.3,
       "faceSns": 34.9,
-      "faceAgeSns": 34.9
+      "faceAgeSns": -22.3
     },
     "rankingEligible": true,
     "age": 76,
@@ -11173,9 +11173,9 @@
     "gender": "male",
     "scores": {
       "face": 34.9,
-      "faceAge": 34.9,
+      "faceAge": 30.1,
       "faceSns": 34.9,
-      "faceAgeSns": 34.9
+      "faceAgeSns": 30.1
     },
     "rankingEligible": true,
     "age": 32,
@@ -11200,9 +11200,9 @@
     "gender": "male",
     "scores": {
       "face": 34.7,
-      "faceAge": 34.7,
+      "faceAge": 1.5,
       "faceSns": 34.7,
-      "faceAgeSns": 34.7
+      "faceAgeSns": 1.5
     },
     "rankingEligible": true,
     "age": 56,
@@ -11227,9 +11227,9 @@
     "gender": "male",
     "scores": {
       "face": 34.6,
-      "faceAge": 34.6,
+      "faceAge": 27.8,
       "faceSns": 34.6,
-      "faceAgeSns": 34.6
+      "faceAgeSns": 27.8
     },
     "rankingEligible": true,
     "age": 34,
@@ -11254,9 +11254,9 @@
     "gender": "male",
     "scores": {
       "face": 34.5,
-      "faceAge": 34.5,
+      "faceAge": 19.3,
       "faceSns": 34.5,
-      "faceAgeSns": 34.5
+      "faceAgeSns": 19.3
     },
     "rankingEligible": true,
     "age": 41,
@@ -11281,9 +11281,9 @@
     "gender": "male",
     "scores": {
       "face": 34.4,
-      "faceAge": 34.4,
+      "faceAge": -4.8,
       "faceSns": 34.4,
-      "faceAgeSns": 34.4
+      "faceAgeSns": -4.8
     },
     "rankingEligible": true,
     "age": 61,
@@ -11308,9 +11308,9 @@
     "gender": "male",
     "scores": {
       "face": 34.0,
-      "faceAge": 34.0,
+      "faceAge": -0.4,
       "faceSns": 34.0,
-      "faceAgeSns": 34.0
+      "faceAgeSns": -0.4
     },
     "rankingEligible": true,
     "age": 57,
@@ -11362,9 +11362,9 @@
     "gender": "male",
     "scores": {
       "face": 32.6,
-      "faceAge": 32.6,
+      "faceAge": 30.2,
       "faceSns": 32.6,
-      "faceAgeSns": 32.6
+      "faceAgeSns": 30.2
     },
     "rankingEligible": true,
     "age": 29,
@@ -11389,9 +11389,9 @@
     "gender": "male",
     "scores": {
       "face": 32.1,
-      "faceAge": 32.1,
+      "faceAge": 15.7,
       "faceSns": 32.1,
-      "faceAgeSns": 32.1
+      "faceAgeSns": 15.7
     },
     "rankingEligible": true,
     "age": 42,
@@ -11416,9 +11416,9 @@
     "gender": "female",
     "scores": {
       "face": 29.7,
-      "faceAge": 29.7,
+      "faceAge": 18.1,
       "faceSns": 29.7,
-      "faceAgeSns": 29.7
+      "faceAgeSns": 18.1
     },
     "rankingEligible": true,
     "age": 38,
@@ -11443,9 +11443,9 @@
     "gender": "male",
     "scores": {
       "face": 26.6,
-      "faceAge": 26.6,
+      "faceAge": -1.8,
       "faceSns": 26.6,
-      "faceAgeSns": 26.6
+      "faceAgeSns": -1.8
     },
     "rankingEligible": true,
     "age": 52,
