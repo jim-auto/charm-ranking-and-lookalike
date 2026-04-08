@@ -120,6 +120,19 @@ def calculate_golden_ratio(lm):
     eye_ratio = eye_dist / fw if fw > 0 else 0
     return (ratio_score(face_ratio, 1.46) + ratio_score(eye_ratio, 1 / GOLDEN_RATIO)) / 2
 
+def calculate_symmetry(lm, face_width):
+    jaw_left = lm[0:8]
+    jaw_right = list(reversed(lm[9:17]))
+    nose_bridge = lm[27]
+    total_dev = 0.0
+    pairs = min(len(jaw_left), len(jaw_right))
+    for i in range(pairs):
+        left_dist = abs(jaw_left[i][0] - nose_bridge[0])
+        right_dist = abs(jaw_right[i][0] - nose_bridge[0])
+        total_dev += abs(left_dist - right_dist)
+    avg_dev = total_dev / pairs if pairs > 0 else 0.0
+    return clamp((1 - avg_dev / face_width * 4) * 100) if face_width > 0 else 0.0
+
 def calculate_eye_score(lm):
     lw = dist(lm[36], lm[39]); lh = dist(lm[37], lm[41])
     rw = dist(lm[42], lm[45]); rh = dist(lm[43], lm[47])
@@ -193,12 +206,15 @@ def calculate_contour_score(lm):
 
 def compute_score(lm):
     """Compute face score using same weights as frontend."""
+    fw = dist(lm[0], lm[16])
     gr = round(calculate_golden_ratio(lm))
     ey = round(calculate_eye_score(lm))
     no = round(calculate_nose_score(lm))
     mo = round(calculate_mouth_score(lm))
     co = round(calculate_contour_score(lm))
+    sy = round(calculate_symmetry(lm, fw))
     details = {
+        "symmetry": sy,
         "golden_ratio": gr,
         "eyes": ey,
         "nose": no,

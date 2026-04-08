@@ -57,6 +57,23 @@ function calculateGoldenRatio(landmarks: Point[]): number {
   return (ratioScoreFace + ratioScoreEyes) / 2;
 }
 
+function calculateSymmetry(landmarks: Point[], faceWidth: number): number {
+  const jawLeft = landmarks.slice(0, 8);
+  const jawRight = landmarks.slice(9, 17).reverse();
+  const noseBridge = landmarks[27];
+
+  let totalDeviation = 0;
+  const pairs = Math.min(jawLeft.length, jawRight.length);
+  for (let i = 0; i < pairs; i++) {
+    const leftDistance = Math.abs(jawLeft[i].x - noseBridge.x);
+    const rightDistance = Math.abs(jawRight[i].x - noseBridge.x);
+    totalDeviation += Math.abs(leftDistance - rightDistance);
+  }
+
+  const averageDeviation = pairs > 0 ? totalDeviation / pairs : 0;
+  return faceWidth > 0 ? clamp((1 - (averageDeviation / faceWidth) * 4) * 100) : 0;
+}
+
 function calculateEyeScore(landmarks: Point[]): number {
   const leftEyeWidth = distance(landmarks[36], landmarks[39]);
   const leftEyeHeight = distance(landmarks[37], landmarks[41]);
@@ -140,7 +157,9 @@ function calculateContourScore(landmarks: Point[]): number {
 }
 
 export function calculateFaceDetails(landmarks: Point[]): ScoreDetails {
+  const faceWidth = distance(landmarks[0], landmarks[16]);
   return {
+    symmetry: Math.round(calculateSymmetry(landmarks, faceWidth)),
     golden_ratio: Math.round(calculateGoldenRatio(landmarks)),
     eyes: Math.round(calculateEyeScore(landmarks)),
     nose: Math.round(calculateNoseScore(landmarks)),

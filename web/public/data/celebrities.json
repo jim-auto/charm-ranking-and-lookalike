@@ -6,6 +6,7 @@
     "gender": "female",
     "score": 62.1,
     "details": {
+      "symmetry": 65,
       "golden_ratio": 59,
       "eyes": 96,
       "nose": 45,
@@ -161,6 +162,7 @@
     "gender": "male",
     "score": 61.0,
     "details": {
+      "symmetry": 28,
       "golden_ratio": 59,
       "eyes": 71,
       "nose": 49,
@@ -319,6 +321,7 @@
     "gender": "male",
     "score": 61.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 54,
       "eyes": 85,
       "nose": 46,
@@ -474,6 +477,7 @@
     "gender": "female",
     "score": 60.2,
     "details": {
+      "symmetry": 21,
       "golden_ratio": 49,
       "eyes": 98,
       "nose": 47,
@@ -632,6 +636,7 @@
     "gender": "female",
     "score": 60.2,
     "details": {
+      "symmetry": 59,
       "golden_ratio": 57,
       "eyes": 82,
       "nose": 43,
@@ -786,6 +791,7 @@
     "gender": "male",
     "score": 59.9,
     "details": {
+      "symmetry": 30,
       "golden_ratio": 54,
       "eyes": 86,
       "nose": 49,
@@ -944,6 +950,7 @@
     "gender": "male",
     "score": 59.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 90,
       "nose": 48,
@@ -1103,6 +1110,7 @@
     "gender": "female",
     "score": 59.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 60,
       "eyes": 61,
       "nose": 43,
@@ -1258,6 +1266,7 @@
     "gender": "male",
     "score": 59.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 61,
       "eyes": 66,
       "nose": 39,
@@ -1416,6 +1425,7 @@
     "gender": "male",
     "score": 59.2,
     "details": {
+      "symmetry": 21,
       "golden_ratio": 63,
       "eyes": 49,
       "nose": 50,
@@ -1574,6 +1584,7 @@
     "gender": "male",
     "score": 59.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 92,
       "nose": 53,
@@ -1735,6 +1746,7 @@
     "gender": "female",
     "score": 59.0,
     "details": {
+      "symmetry": 34,
       "golden_ratio": 52,
       "eyes": 94,
       "nose": 49,
@@ -1893,6 +1905,7 @@
     "gender": "female",
     "score": 58.8,
     "details": {
+      "symmetry": 17,
       "golden_ratio": 58,
       "eyes": 79,
       "nose": 47,
@@ -2048,6 +2061,7 @@
     "gender": "male",
     "score": 58.7,
     "details": {
+      "symmetry": 51,
       "golden_ratio": 52,
       "eyes": 90,
       "nose": 43,
@@ -2206,6 +2220,7 @@
     "gender": "male",
     "score": 58.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 96,
       "nose": 32,
@@ -2364,6 +2379,7 @@
     "gender": "male",
     "score": 58.7,
     "details": {
+      "symmetry": 30,
       "golden_ratio": 58,
       "eyes": 64,
       "nose": 43,
@@ -2522,6 +2538,7 @@
     "gender": "male",
     "score": 58.5,
     "details": {
+      "symmetry": 36,
       "golden_ratio": 57,
       "eyes": 39,
       "nose": 50,
@@ -2680,6 +2697,7 @@
     "gender": "male",
     "score": 58.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 60,
       "eyes": 63,
       "nose": 37,
@@ -2838,6 +2856,7 @@
     "gender": "male",
     "score": 58.5,
     "details": {
+      "symmetry": 28,
       "golden_ratio": 51,
       "eyes": 93,
       "nose": 32,
@@ -2996,6 +3015,7 @@
     "gender": "female",
     "score": 58.4,
     "details": {
+      "symmetry": 3,
       "golden_ratio": 55,
       "eyes": 85,
       "nose": 44,
@@ -3156,6 +3176,7 @@
     "gender": "male",
     "score": 58.3,
     "details": {
+      "symmetry": 12,
       "golden_ratio": 47,
       "eyes": 71,
       "nose": 50,
@@ -3312,6 +3333,7 @@
     "gender": "male",
     "score": 58.2,
     "details": {
+      "symmetry": 46,
       "golden_ratio": 51,
       "eyes": 62,
       "nose": 39,
@@ -3467,6 +3489,7 @@
     "gender": "female",
     "score": 58.2,
     "details": {
+      "symmetry": 30,
       "golden_ratio": 55,
       "eyes": 72,
       "nose": 40,
@@ -3625,6 +3648,7 @@
     "gender": "male",
     "score": 58.0,
     "details": {
+      "symmetry": 18,
       "golden_ratio": 51,
       "eyes": 93,
       "nose": 40,
@@ -3780,6 +3804,7 @@
     "gender": "male",
     "score": 58.0,
     "details": {
+      "symmetry": 19,
       "golden_ratio": 47,
       "eyes": 71,
       "nose": 49,
@@ -3935,6 +3960,7 @@
     "gender": "male",
     "score": 57.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 70,
       "eyes": 74,
       "nose": 52,
@@ -4093,6 +4119,7 @@
     "gender": "female",
     "score": 57.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 49,
       "eyes": 85,
       "nose": 46,
@@ -4249,6 +4276,7 @@
     "gender": "male",
     "score": 57.8,
     "details": {
+      "symmetry": 33,
       "golden_ratio": 52,
       "eyes": 77,
       "nose": 45,
@@ -4407,6 +4435,7 @@
     "gender": "male",
     "score": 57.7,
     "details": {
+      "symmetry": 58,
       "golden_ratio": 51,
       "eyes": 63,
       "nose": 44,
@@ -4562,6 +4591,7 @@
     "gender": "male",
     "score": 57.5,
     "details": {
+      "symmetry": 49,
       "golden_ratio": 48,
       "eyes": 69,
       "nose": 50,
@@ -4720,6 +4750,7 @@
     "gender": "male",
     "score": 57.5,
     "details": {
+      "symmetry": 58,
       "golden_ratio": 51,
       "eyes": 86,
       "nose": 48,
@@ -4878,6 +4909,7 @@
     "gender": "female",
     "score": 57.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 94,
       "nose": 45,
@@ -5037,6 +5069,7 @@
     "gender": "male",
     "score": 57.4,
     "details": {
+      "symmetry": 55,
       "golden_ratio": 47,
       "eyes": 87,
       "nose": 42,
@@ -5197,6 +5230,7 @@
     "gender": "male",
     "score": 57.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 91,
       "nose": 49,
@@ -5355,6 +5389,7 @@
     "gender": "male",
     "score": 57.3,
     "details": {
+      "symmetry": 31,
       "golden_ratio": 61,
       "eyes": 47,
       "nose": 38,
@@ -5513,6 +5548,7 @@
     "gender": "male",
     "score": 57.3,
     "details": {
+      "symmetry": 47,
       "golden_ratio": 49,
       "eyes": 66,
       "nose": 47,
@@ -5671,6 +5707,7 @@
     "gender": "male",
     "score": 57.3,
     "details": {
+      "symmetry": 34,
       "golden_ratio": 54,
       "eyes": 70,
       "nose": 43,
@@ -5828,6 +5865,7 @@
     "gender": "female",
     "score": 57.3,
     "details": {
+      "symmetry": 24,
       "golden_ratio": 45,
       "eyes": 94,
       "nose": 43,
@@ -5987,6 +6025,7 @@
     "gender": "female",
     "score": 57.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 86,
       "nose": 45,
@@ -6142,6 +6181,7 @@
     "gender": "male",
     "score": 57.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 47,
       "eyes": 77,
       "nose": 48,
@@ -6297,6 +6337,7 @@
     "gender": "male",
     "score": 57.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 60,
       "eyes": 39,
       "nose": 43,
@@ -6455,6 +6496,7 @@
     "gender": "female",
     "score": 56.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 67,
       "eyes": 47,
       "nose": 26,
@@ -6610,6 +6652,7 @@
     "gender": "female",
     "score": 56.9,
     "details": {
+      "symmetry": 28,
       "golden_ratio": 43,
       "eyes": 90,
       "nose": 39,
@@ -6765,6 +6808,7 @@
     "gender": "female",
     "score": 56.9,
     "details": {
+      "symmetry": 64,
       "golden_ratio": 49,
       "eyes": 94,
       "nose": 51,
@@ -6920,6 +6964,7 @@
     "gender": "male",
     "score": 56.9,
     "details": {
+      "symmetry": 42,
       "golden_ratio": 54,
       "eyes": 72,
       "nose": 40,
@@ -7078,6 +7123,7 @@
     "gender": "female",
     "score": 56.8,
     "details": {
+      "symmetry": 61,
       "golden_ratio": 50,
       "eyes": 81,
       "nose": 44,
@@ -7236,6 +7282,7 @@
     "gender": "male",
     "score": 56.6,
     "details": {
+      "symmetry": 63,
       "golden_ratio": 46,
       "eyes": 94,
       "nose": 37,
@@ -7395,6 +7442,7 @@
     "gender": "male",
     "score": 56.5,
     "details": {
+      "symmetry": 7,
       "golden_ratio": 51,
       "eyes": 65,
       "nose": 42,
@@ -7550,6 +7598,7 @@
     "gender": "female",
     "score": 56.5,
     "details": {
+      "symmetry": 51,
       "golden_ratio": 41,
       "eyes": 89,
       "nose": 61,
@@ -7708,6 +7757,7 @@
     "gender": "female",
     "score": 56.5,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 47,
       "eyes": 91,
       "nose": 45,
@@ -7868,6 +7918,7 @@
     "gender": "female",
     "score": 56.4,
     "details": {
+      "symmetry": 3,
       "golden_ratio": 47,
       "eyes": 63,
       "nose": 60,
@@ -8023,6 +8074,7 @@
     "gender": "male",
     "score": 56.4,
     "details": {
+      "symmetry": 89,
       "golden_ratio": 41,
       "eyes": 88,
       "nose": 53,
@@ -8178,6 +8230,7 @@
     "gender": "female",
     "score": 56.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 45,
       "eyes": 85,
       "nose": 45,
@@ -8334,6 +8387,7 @@
     "gender": "female",
     "score": 56.2,
     "details": {
+      "symmetry": 20,
       "golden_ratio": 47,
       "eyes": 79,
       "nose": 37,
@@ -8489,6 +8543,7 @@
     "gender": "male",
     "score": 56.2,
     "details": {
+      "symmetry": 19,
       "golden_ratio": 51,
       "eyes": 74,
       "nose": 39,
@@ -8647,6 +8702,7 @@
     "gender": "male",
     "score": 56.1,
     "details": {
+      "symmetry": 44,
       "golden_ratio": 47,
       "eyes": 67,
       "nose": 45,
@@ -8802,6 +8858,7 @@
     "gender": "female",
     "score": 56.1,
     "details": {
+      "symmetry": 80,
       "golden_ratio": 42,
       "eyes": 93,
       "nose": 41,
@@ -8960,6 +9017,7 @@
     "gender": "female",
     "score": 56.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 56,
       "eyes": 71,
       "nose": 41,
@@ -9118,6 +9176,7 @@
     "gender": "female",
     "score": 56.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 92,
       "nose": 41,
@@ -9276,6 +9335,7 @@
     "gender": "male",
     "score": 55.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 91,
       "nose": 42,
@@ -9431,6 +9491,7 @@
     "gender": "female",
     "score": 55.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 89,
       "nose": 62,
@@ -9591,6 +9652,7 @@
     "gender": "female",
     "score": 55.9,
     "details": {
+      "symmetry": 58,
       "golden_ratio": 45,
       "eyes": 83,
       "nose": 46,
@@ -9747,6 +9809,7 @@
     "gender": "male",
     "score": 55.7,
     "details": {
+      "symmetry": 51,
       "golden_ratio": 50,
       "eyes": 68,
       "nose": 50,
@@ -9902,6 +9965,7 @@
     "gender": "male",
     "score": 55.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 70,
       "eyes": 44,
       "nose": 37,
@@ -10060,6 +10124,7 @@
     "gender": "female",
     "score": 55.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 86,
       "nose": 53,
@@ -10216,6 +10281,7 @@
     "gender": "female",
     "score": 55.6,
     "details": {
+      "symmetry": 41,
       "golden_ratio": 44,
       "eyes": 95,
       "nose": 36,
@@ -10378,6 +10444,7 @@
     "gender": "male",
     "score": 55.6,
     "details": {
+      "symmetry": 51,
       "golden_ratio": 48,
       "eyes": 54,
       "nose": 50,
@@ -10533,6 +10600,7 @@
     "gender": "male",
     "score": 55.6,
     "details": {
+      "symmetry": 23,
       "golden_ratio": 49,
       "eyes": 72,
       "nose": 44,
@@ -10688,6 +10756,7 @@
     "gender": "male",
     "score": 55.6,
     "details": {
+      "symmetry": 49,
       "golden_ratio": 47,
       "eyes": 83,
       "nose": 35,
@@ -10846,6 +10915,7 @@
     "gender": "female",
     "score": 55.5,
     "details": {
+      "symmetry": 68,
       "golden_ratio": 41,
       "eyes": 92,
       "nose": 46,
@@ -11004,6 +11074,7 @@
     "gender": "male",
     "score": 55.4,
     "details": {
+      "symmetry": 54,
       "golden_ratio": 43,
       "eyes": 85,
       "nose": 45,
@@ -11159,6 +11230,7 @@
     "gender": "female",
     "score": 55.4,
     "details": {
+      "symmetry": 14,
       "golden_ratio": 41,
       "eyes": 93,
       "nose": 37,
@@ -11317,6 +11389,7 @@
     "gender": "female",
     "score": 55.4,
     "details": {
+      "symmetry": 47,
       "golden_ratio": 43,
       "eyes": 95,
       "nose": 47,
@@ -11476,6 +11549,7 @@
     "gender": "male",
     "score": 55.4,
     "details": {
+      "symmetry": 15,
       "golden_ratio": 53,
       "eyes": 71,
       "nose": 38,
@@ -11634,6 +11708,7 @@
     "gender": "male",
     "score": 55.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 61,
       "nose": 41,
@@ -11792,6 +11867,7 @@
     "gender": "female",
     "score": 55.3,
     "details": {
+      "symmetry": 80,
       "golden_ratio": 46,
       "eyes": 64,
       "nose": 45,
@@ -11951,6 +12027,7 @@
     "gender": "male",
     "score": 55.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 96,
       "nose": 43,
@@ -12109,6 +12186,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
+      "symmetry": 60,
       "golden_ratio": 45,
       "eyes": 69,
       "nose": 48,
@@ -12264,6 +12342,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
+      "symmetry": 50,
       "golden_ratio": 42,
       "eyes": 93,
       "nose": 39,
@@ -12419,6 +12498,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 51,
       "eyes": 53,
       "nose": 40,
@@ -12577,6 +12657,7 @@
     "gender": "male",
     "score": 55.2,
     "details": {
+      "symmetry": 33,
       "golden_ratio": 46,
       "eyes": 83,
       "nose": 39,
@@ -12732,6 +12813,7 @@
     "gender": "male",
     "score": 55.1,
     "details": {
+      "symmetry": 93,
       "golden_ratio": 47,
       "eyes": 51,
       "nose": 43,
@@ -12892,6 +12974,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 83,
       "nose": 43,
@@ -13050,6 +13133,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 71,
       "nose": 49,
@@ -13209,6 +13293,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 89,
       "nose": 48,
@@ -13369,6 +13454,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 80,
       "nose": 37,
@@ -13526,6 +13612,7 @@
     "gender": "female",
     "score": 55.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 93,
       "nose": 50,
@@ -13684,6 +13771,7 @@
     "gender": "male",
     "score": 55.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 45,
       "eyes": 81,
       "nose": 50,
@@ -13842,6 +13930,7 @@
     "gender": "male",
     "score": 55.0,
     "details": {
+      "symmetry": 59,
       "golden_ratio": 38,
       "eyes": 86,
       "nose": 35,
@@ -13999,6 +14088,7 @@
     "gender": "female",
     "score": 54.9,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 45,
       "eyes": 78,
       "nose": 33,
@@ -14154,6 +14244,7 @@
     "gender": "female",
     "score": 54.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 45,
       "eyes": 80,
       "nose": 31,
@@ -14313,6 +14404,7 @@
     "gender": "male",
     "score": 54.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 87,
       "nose": 37,
@@ -14471,6 +14563,7 @@
     "gender": "female",
     "score": 54.9,
     "details": {
+      "symmetry": 66,
       "golden_ratio": 40,
       "eyes": 95,
       "nose": 48,
@@ -14629,6 +14722,7 @@
     "gender": "male",
     "score": 54.8,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 40,
       "eyes": 70,
       "nose": 41,
@@ -14787,6 +14881,7 @@
     "gender": "female",
     "score": 54.8,
     "details": {
+      "symmetry": 25,
       "golden_ratio": 43,
       "eyes": 87,
       "nose": 50,
@@ -14946,6 +15041,7 @@
     "gender": "female",
     "score": 54.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 71,
       "nose": 55,
@@ -15106,6 +15202,7 @@
     "gender": "male",
     "score": 54.7,
     "details": {
+      "symmetry": 46,
       "golden_ratio": 46,
       "eyes": 57,
       "nose": 46,
@@ -15264,6 +15361,7 @@
     "gender": "female",
     "score": 54.6,
     "details": {
+      "symmetry": 87,
       "golden_ratio": 45,
       "eyes": 75,
       "nose": 33,
@@ -15419,6 +15517,7 @@
     "gender": "female",
     "score": 54.6,
     "details": {
+      "symmetry": 37,
       "golden_ratio": 44,
       "eyes": 95,
       "nose": 39,
@@ -15578,6 +15677,7 @@
     "gender": "male",
     "score": 54.6,
     "details": {
+      "symmetry": 13,
       "golden_ratio": 44,
       "eyes": 78,
       "nose": 38,
@@ -15733,6 +15833,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 76,
       "nose": 49,
@@ -15888,6 +15989,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 86,
       "nose": 38,
@@ -16043,6 +16145,7 @@
     "gender": "female",
     "score": 54.5,
     "details": {
+      "symmetry": 29,
       "golden_ratio": 41,
       "eyes": 84,
       "nose": 44,
@@ -16201,6 +16304,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 45,
       "eyes": 69,
       "nose": 48,
@@ -16356,6 +16460,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 72,
       "nose": 38,
@@ -16514,6 +16619,7 @@
     "gender": "male",
     "score": 54.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 51,
       "eyes": 81,
       "nose": 36,
@@ -16672,6 +16778,7 @@
     "gender": "female",
     "score": 54.5,
     "details": {
+      "symmetry": 55,
       "golden_ratio": 47,
       "eyes": 62,
       "nose": 49,
@@ -16830,6 +16937,7 @@
     "gender": "female",
     "score": 54.4,
     "details": {
+      "symmetry": 60,
       "golden_ratio": 43,
       "eyes": 86,
       "nose": 45,
@@ -16985,6 +17093,7 @@
     "gender": "male",
     "score": 54.4,
     "details": {
+      "symmetry": 31,
       "golden_ratio": 45,
       "eyes": 52,
       "nose": 47,
@@ -17143,6 +17252,7 @@
     "gender": "male",
     "score": 54.4,
     "details": {
+      "symmetry": 17,
       "golden_ratio": 40,
       "eyes": 84,
       "nose": 32,
@@ -17299,6 +17409,7 @@
     "gender": "female",
     "score": 54.3,
     "details": {
+      "symmetry": 22,
       "golden_ratio": 40,
       "eyes": 79,
       "nose": 39,
@@ -17457,6 +17568,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
+      "symmetry": 50,
       "golden_ratio": 45,
       "eyes": 86,
       "nose": 37,
@@ -17612,6 +17724,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 40,
       "eyes": 94,
       "nose": 31,
@@ -17770,6 +17883,7 @@
     "gender": "female",
     "score": 54.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 77,
       "nose": 44,
@@ -17928,6 +18042,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
+      "symmetry": 1,
       "golden_ratio": 42,
       "eyes": 82,
       "nose": 32,
@@ -18083,6 +18198,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
+      "symmetry": 38,
       "golden_ratio": 50,
       "eyes": 48,
       "nose": 41,
@@ -18241,6 +18357,7 @@
     "gender": "male",
     "score": 54.2,
     "details": {
+      "symmetry": 4,
       "golden_ratio": 42,
       "eyes": 83,
       "nose": 29,
@@ -18400,6 +18517,7 @@
     "gender": "female",
     "score": 54.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 64,
       "nose": 49,
@@ -18558,6 +18676,7 @@
     "gender": "male",
     "score": 54.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 68,
       "nose": 44,
@@ -18716,6 +18835,7 @@
     "gender": "male",
     "score": 54.1,
     "details": {
+      "symmetry": 58,
       "golden_ratio": 40,
       "eyes": 87,
       "nose": 41,
@@ -18874,6 +18994,7 @@
     "gender": "female",
     "score": 54.0,
     "details": {
+      "symmetry": 62,
       "golden_ratio": 39,
       "eyes": 97,
       "nose": 38,
@@ -19033,6 +19154,7 @@
     "gender": "male",
     "score": 54.0,
     "details": {
+      "symmetry": 33,
       "golden_ratio": 48,
       "eyes": 59,
       "nose": 47,
@@ -19191,6 +19313,7 @@
     "gender": "male",
     "score": 53.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 45,
       "eyes": 75,
       "nose": 46,
@@ -19349,6 +19472,7 @@
     "gender": "female",
     "score": 53.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 89,
       "nose": 39,
@@ -19507,6 +19631,7 @@
     "gender": "male",
     "score": 53.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 81,
       "nose": 43,
@@ -19665,6 +19790,7 @@
     "gender": "female",
     "score": 53.9,
     "details": {
+      "symmetry": 52,
       "golden_ratio": 44,
       "eyes": 84,
       "nose": 32,
@@ -19823,6 +19949,7 @@
     "gender": "male",
     "score": 53.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 90,
       "nose": 28,
@@ -19980,6 +20107,7 @@
     "gender": "female",
     "score": 53.8,
     "details": {
+      "symmetry": 43,
       "golden_ratio": 44,
       "eyes": 77,
       "nose": 49,
@@ -20139,6 +20267,7 @@
     "gender": "female",
     "score": 53.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 75,
       "nose": 41,
@@ -20298,6 +20427,7 @@
     "gender": "male",
     "score": 53.7,
     "details": {
+      "symmetry": 45,
       "golden_ratio": 42,
       "eyes": 64,
       "nose": 50,
@@ -20456,6 +20586,7 @@
     "gender": "female",
     "score": 53.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 60,
       "nose": 41,
@@ -20614,6 +20745,7 @@
     "gender": "female",
     "score": 53.7,
     "details": {
+      "symmetry": 31,
       "golden_ratio": 44,
       "eyes": 82,
       "nose": 37,
@@ -20773,6 +20905,7 @@
     "gender": "male",
     "score": 53.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 49,
       "nose": 39,
@@ -20931,6 +21064,7 @@
     "gender": "male",
     "score": 53.7,
     "details": {
+      "symmetry": 53,
       "golden_ratio": 41,
       "eyes": 85,
       "nose": 55,
@@ -21086,6 +21220,7 @@
     "gender": "female",
     "score": 53.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 84,
       "nose": 43,
@@ -21244,6 +21379,7 @@
     "gender": "male",
     "score": 53.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 78,
       "nose": 43,
@@ -21399,6 +21535,7 @@
     "gender": "male",
     "score": 53.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 75,
       "nose": 39,
@@ -21554,6 +21691,7 @@
     "gender": "male",
     "score": 53.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 90,
       "nose": 31,
@@ -21714,6 +21852,7 @@
     "gender": "female",
     "score": 53.5,
     "details": {
+      "symmetry": 20,
       "golden_ratio": 41,
       "eyes": 79,
       "nose": 39,
@@ -21872,6 +22011,7 @@
     "gender": "female",
     "score": 53.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 87,
       "nose": 34,
@@ -22029,6 +22169,7 @@
     "gender": "female",
     "score": 53.4,
     "details": {
+      "symmetry": 3,
       "golden_ratio": 39,
       "eyes": 98,
       "nose": 40,
@@ -22184,6 +22325,7 @@
     "gender": "female",
     "score": 53.4,
     "details": {
+      "symmetry": 34,
       "golden_ratio": 42,
       "eyes": 69,
       "nose": 49,
@@ -22343,6 +22485,7 @@
     "gender": "male",
     "score": 53.4,
     "details": {
+      "symmetry": 43,
       "golden_ratio": 46,
       "eyes": 62,
       "nose": 29,
@@ -22501,6 +22644,7 @@
     "gender": "male",
     "score": 53.4,
     "details": {
+      "symmetry": 36,
       "golden_ratio": 43,
       "eyes": 89,
       "nose": 31,
@@ -22659,6 +22803,7 @@
     "gender": "female",
     "score": 53.3,
     "details": {
+      "symmetry": 22,
       "golden_ratio": 42,
       "eyes": 93,
       "nose": 44,
@@ -22818,6 +22963,7 @@
     "gender": "male",
     "score": 53.3,
     "details": {
+      "symmetry": 8,
       "golden_ratio": 40,
       "eyes": 75,
       "nose": 43,
@@ -22973,6 +23119,7 @@
     "gender": "male",
     "score": 53.3,
     "details": {
+      "symmetry": 45,
       "golden_ratio": 52,
       "eyes": 35,
       "nose": 41,
@@ -23128,6 +23275,7 @@
     "gender": "male",
     "score": 53.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 67,
       "nose": 44,
@@ -23286,6 +23434,7 @@
     "gender": "male",
     "score": 53.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 83,
       "nose": 36,
@@ -23445,6 +23594,7 @@
     "gender": "female",
     "score": 53.2,
     "details": {
+      "symmetry": 68,
       "golden_ratio": 38,
       "eyes": 93,
       "nose": 37,
@@ -23603,6 +23753,7 @@
     "gender": "male",
     "score": 53.2,
     "details": {
+      "symmetry": 42,
       "golden_ratio": 47,
       "eyes": 29,
       "nose": 42,
@@ -23761,6 +23912,7 @@
     "gender": "male",
     "score": 53.2,
     "details": {
+      "symmetry": 94,
       "golden_ratio": 45,
       "eyes": 39,
       "nose": 40,
@@ -23916,6 +24068,7 @@
     "gender": "female",
     "score": 53.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 70,
       "nose": 46,
@@ -24077,6 +24230,7 @@
     "gender": "female",
     "score": 53.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 73,
       "nose": 36,
@@ -24270,6 +24424,7 @@
     "gender": "female",
     "score": 53.0,
     "details": {
+      "symmetry": 14,
       "golden_ratio": 39,
       "eyes": 68,
       "nose": 45,
@@ -24428,6 +24583,7 @@
     "gender": "male",
     "score": 52.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 83,
       "nose": 34,
@@ -24586,6 +24742,7 @@
     "gender": "female",
     "score": 52.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 55,
       "eyes": 19,
       "nose": 33,
@@ -24741,6 +24898,7 @@
     "gender": "male",
     "score": 52.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 81,
       "nose": 33,
@@ -24899,6 +25057,7 @@
     "gender": "female",
     "score": 52.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 45,
       "eyes": 44,
       "nose": 50,
@@ -25056,6 +25215,7 @@
     "gender": "male",
     "score": 52.7,
     "details": {
+      "symmetry": 60,
       "golden_ratio": 43,
       "eyes": 94,
       "nose": 31,
@@ -25214,6 +25374,7 @@
     "gender": "female",
     "score": 52.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 72,
       "nose": 35,
@@ -25373,6 +25534,7 @@
     "gender": "male",
     "score": 52.7,
     "details": {
+      "symmetry": 12,
       "golden_ratio": 39,
       "eyes": 66,
       "nose": 44,
@@ -25528,6 +25690,7 @@
     "gender": "female",
     "score": 52.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 90,
       "nose": 29,
@@ -25688,6 +25851,7 @@
     "gender": "male",
     "score": 52.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 61,
       "nose": 44,
@@ -25846,6 +26010,7 @@
     "gender": "male",
     "score": 52.6,
     "details": {
+      "symmetry": 56,
       "golden_ratio": 39,
       "eyes": 77,
       "nose": 48,
@@ -26004,6 +26169,7 @@
     "gender": "male",
     "score": 52.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 50,
       "eyes": 50,
       "nose": 38,
@@ -26162,6 +26328,7 @@
     "gender": "male",
     "score": 52.5,
     "details": {
+      "symmetry": 8,
       "golden_ratio": 35,
       "eyes": 89,
       "nose": 39,
@@ -26321,6 +26488,7 @@
     "gender": "male",
     "score": 52.4,
     "details": {
+      "symmetry": 72,
       "golden_ratio": 40,
       "eyes": 67,
       "nose": 40,
@@ -26476,6 +26644,7 @@
     "gender": "female",
     "score": 52.4,
     "details": {
+      "symmetry": 19,
       "golden_ratio": 44,
       "eyes": 57,
       "nose": 41,
@@ -26635,6 +26804,7 @@
     "gender": "male",
     "score": 52.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 71,
       "nose": 38,
@@ -26793,6 +26963,7 @@
     "gender": "male",
     "score": 52.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 85,
       "nose": 37,
@@ -26948,6 +27119,7 @@
     "gender": "male",
     "score": 52.3,
     "details": {
+      "symmetry": 2,
       "golden_ratio": 42,
       "eyes": 67,
       "nose": 45,
@@ -27106,6 +27278,7 @@
     "gender": "male",
     "score": 52.2,
     "details": {
+      "symmetry": 12,
       "golden_ratio": 43,
       "eyes": 84,
       "nose": 40,
@@ -27265,6 +27438,7 @@
     "gender": "female",
     "score": 52.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 81,
       "nose": 37,
@@ -27424,6 +27598,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 84,
       "nose": 48,
@@ -27582,6 +27757,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
+      "symmetry": 10,
       "golden_ratio": 38,
       "eyes": 86,
       "nose": 44,
@@ -27742,6 +27918,7 @@
     "gender": "female",
     "score": 52.1,
     "details": {
+      "symmetry": 59,
       "golden_ratio": 42,
       "eyes": 73,
       "nose": 32,
@@ -27897,6 +28074,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 59,
       "nose": 46,
@@ -28052,6 +28230,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
+      "symmetry": 38,
       "golden_ratio": 35,
       "eyes": 83,
       "nose": 35,
@@ -28210,6 +28389,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 77,
       "nose": 32,
@@ -28368,6 +28548,7 @@
     "gender": "male",
     "score": 52.1,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 39,
       "eyes": 57,
       "nose": 48,
@@ -28526,6 +28707,7 @@
     "gender": "male",
     "score": 52.0,
     "details": {
+      "symmetry": 35,
       "golden_ratio": 41,
       "eyes": 77,
       "nose": 33,
@@ -28684,6 +28866,7 @@
     "gender": "male",
     "score": 52.0,
     "details": {
+      "symmetry": 69,
       "golden_ratio": 37,
       "eyes": 72,
       "nose": 39,
@@ -28839,6 +29022,7 @@
     "gender": "male",
     "score": 52.0,
     "details": {
+      "symmetry": 80,
       "golden_ratio": 39,
       "eyes": 64,
       "nose": 48,
@@ -28994,6 +29178,7 @@
     "gender": "female",
     "score": 52.0,
     "details": {
+      "symmetry": 60,
       "golden_ratio": 35,
       "eyes": 88,
       "nose": 41,
@@ -29153,6 +29338,7 @@
     "gender": "male",
     "score": 51.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 77,
       "nose": 35,
@@ -29311,6 +29497,7 @@
     "gender": "male",
     "score": 51.9,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 37,
       "eyes": 49,
       "nose": 46,
@@ -29469,6 +29656,7 @@
     "gender": "male",
     "score": 51.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 88,
       "nose": 35,
@@ -29624,6 +29812,7 @@
     "gender": "female",
     "score": 51.8,
     "details": {
+      "symmetry": 21,
       "golden_ratio": 39,
       "eyes": 94,
       "nose": 35,
@@ -29783,6 +29972,7 @@
     "gender": "female",
     "score": 51.7,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 44,
       "eyes": 49,
       "nose": 48,
@@ -29942,6 +30132,7 @@
     "gender": "female",
     "score": 51.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 52,
       "eyes": 67,
       "nose": 26,
@@ -30097,6 +30288,7 @@
     "gender": "male",
     "score": 51.7,
     "details": {
+      "symmetry": 19,
       "golden_ratio": 34,
       "eyes": 84,
       "nose": 45,
@@ -30252,6 +30444,7 @@
     "gender": "female",
     "score": 51.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 58,
       "nose": 49,
@@ -30410,6 +30603,7 @@
     "gender": "male",
     "score": 51.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 88,
       "nose": 32,
@@ -30568,6 +30762,7 @@
     "gender": "male",
     "score": 51.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 61,
       "nose": 40,
@@ -30723,6 +30918,7 @@
     "gender": "female",
     "score": 51.6,
     "details": {
+      "symmetry": 25,
       "golden_ratio": 43,
       "eyes": 54,
       "nose": 38,
@@ -30883,6 +31079,7 @@
     "gender": "male",
     "score": 51.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 37,
       "nose": 47,
@@ -31041,6 +31238,7 @@
     "gender": "male",
     "score": 51.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 68,
       "nose": 43,
@@ -31196,6 +31394,7 @@
     "gender": "male",
     "score": 51.4,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 37,
       "eyes": 57,
       "nose": 36,
@@ -31351,6 +31550,7 @@
     "gender": "male",
     "score": 51.4,
     "details": {
+      "symmetry": 32,
       "golden_ratio": 38,
       "eyes": 57,
       "nose": 46,
@@ -31507,6 +31707,7 @@
     "gender": "male",
     "score": 51.4,
     "details": {
+      "symmetry": 34,
       "golden_ratio": 39,
       "eyes": 72,
       "nose": 49,
@@ -31666,6 +31867,7 @@
     "gender": "female",
     "score": 51.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 44,
       "nose": 27,
@@ -31823,6 +32025,7 @@
     "gender": "male",
     "score": 51.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 78,
       "nose": 35,
@@ -31981,6 +32184,7 @@
     "gender": "male",
     "score": 51.3,
     "details": {
+      "symmetry": 12,
       "golden_ratio": 36,
       "eyes": 92,
       "nose": 32,
@@ -32139,6 +32343,7 @@
     "gender": "male",
     "score": 51.3,
     "details": {
+      "symmetry": 41,
       "golden_ratio": 42,
       "eyes": 49,
       "nose": 41,
@@ -32294,6 +32499,7 @@
     "gender": "male",
     "score": 51.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 84,
       "nose": 31,
@@ -32452,6 +32658,7 @@
     "gender": "male",
     "score": 51.2,
     "details": {
+      "symmetry": 26,
       "golden_ratio": 36,
       "eyes": 78,
       "nose": 33,
@@ -32610,6 +32817,7 @@
     "gender": "female",
     "score": 51.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 72,
       "nose": 33,
@@ -32765,6 +32973,7 @@
     "gender": "male",
     "score": 51.2,
     "details": {
+      "symmetry": 55,
       "golden_ratio": 51,
       "eyes": 30,
       "nose": 45,
@@ -32923,6 +33132,7 @@
     "gender": "male",
     "score": 51.1,
     "details": {
+      "symmetry": 54,
       "golden_ratio": 39,
       "eyes": 36,
       "nose": 42,
@@ -33081,6 +33291,7 @@
     "gender": "male",
     "score": 51.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 38,
       "nose": 41,
@@ -33239,6 +33450,7 @@
     "gender": "male",
     "score": 51.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 38,
       "nose": 45,
@@ -33397,6 +33609,7 @@
     "gender": "male",
     "score": 51.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 54,
       "nose": 45,
@@ -33556,6 +33769,7 @@
     "gender": "male",
     "score": 51.0,
     "details": {
+      "symmetry": 29,
       "golden_ratio": 39,
       "eyes": 71,
       "nose": 50,
@@ -33711,6 +33925,7 @@
     "gender": "male",
     "score": 50.9,
     "details": {
+      "symmetry": 67,
       "golden_ratio": 35,
       "eyes": 65,
       "nose": 42,
@@ -33869,6 +34084,7 @@
     "gender": "female",
     "score": 50.9,
     "details": {
+      "symmetry": 43,
       "golden_ratio": 35,
       "eyes": 53,
       "nose": 69,
@@ -34027,6 +34243,7 @@
     "gender": "male",
     "score": 50.9,
     "details": {
+      "symmetry": 67,
       "golden_ratio": 35,
       "eyes": 65,
       "nose": 42,
@@ -34185,6 +34402,7 @@
     "gender": "male",
     "score": 50.8,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 36,
       "eyes": 73,
       "nose": 36,
@@ -34344,6 +34562,7 @@
     "gender": "female",
     "score": 50.8,
     "details": {
+      "symmetry": 28,
       "golden_ratio": 37,
       "eyes": 59,
       "nose": 40,
@@ -34502,6 +34721,7 @@
     "gender": "male",
     "score": 50.8,
     "details": {
+      "symmetry": 15,
       "golden_ratio": 43,
       "eyes": 34,
       "nose": 39,
@@ -34660,6 +34880,7 @@
     "gender": "female",
     "score": 50.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 72,
       "nose": 28,
@@ -34818,6 +35039,7 @@
     "gender": "male",
     "score": 50.6,
     "details": {
+      "symmetry": 31,
       "golden_ratio": 42,
       "eyes": 53,
       "nose": 37,
@@ -34973,6 +35195,7 @@
     "gender": "male",
     "score": 50.5,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 34,
       "eyes": 65,
       "nose": 50,
@@ -35128,6 +35351,7 @@
     "gender": "male",
     "score": 50.5,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 34,
       "eyes": 65,
       "nose": 50,
@@ -35283,6 +35507,7 @@
     "gender": "female",
     "score": 50.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 78,
       "nose": 44,
@@ -35438,6 +35663,7 @@
     "gender": "male",
     "score": 50.4,
     "details": {
+      "symmetry": 41,
       "golden_ratio": 31,
       "eyes": 90,
       "nose": 41,
@@ -35593,6 +35819,7 @@
     "gender": "male",
     "score": 50.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 64,
       "nose": 36,
@@ -35748,6 +35975,7 @@
     "gender": "male",
     "score": 50.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 37,
       "eyes": 71,
       "nose": 37,
@@ -35903,6 +36131,7 @@
     "gender": "male",
     "score": 50.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 68,
       "nose": 39,
@@ -36061,6 +36290,7 @@
     "gender": "female",
     "score": 50.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 49,
       "eyes": 27,
       "nose": 38,
@@ -36219,6 +36449,7 @@
     "gender": "male",
     "score": 50.3,
     "details": {
+      "symmetry": 36,
       "golden_ratio": 47,
       "eyes": 31,
       "nose": 46,
@@ -36377,6 +36608,7 @@
     "gender": "male",
     "score": 50.2,
     "details": {
+      "symmetry": 24,
       "golden_ratio": 35,
       "eyes": 51,
       "nose": 40,
@@ -36535,6 +36767,7 @@
     "gender": "male",
     "score": 50.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 56,
       "nose": 34,
@@ -36693,6 +36926,7 @@
     "gender": "female",
     "score": 50.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 84,
       "nose": 31,
@@ -36848,6 +37082,7 @@
     "gender": "female",
     "score": 50.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 68,
       "nose": 47,
@@ -37007,6 +37242,7 @@
     "gender": "male",
     "score": 50.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 54,
       "eyes": 26,
       "nose": 34,
@@ -37165,6 +37401,7 @@
     "gender": "male",
     "score": 50.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 65,
       "nose": 34,
@@ -37326,6 +37563,7 @@
     "gender": "female",
     "score": 50.1,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 44,
       "eyes": 73,
       "nose": 36,
@@ -37514,6 +37752,7 @@
     "gender": "female",
     "score": 49.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 63,
       "nose": 43,
@@ -37669,6 +37908,7 @@
     "gender": "male",
     "score": 49.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 42,
       "eyes": 41,
       "nose": 37,
@@ -37824,6 +38064,7 @@
     "gender": "male",
     "score": 49.9,
     "details": {
+      "symmetry": 57,
       "golden_ratio": 36,
       "eyes": 57,
       "nose": 57,
@@ -37982,6 +38223,7 @@
     "gender": "male",
     "score": 49.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 38,
       "nose": 49,
@@ -38137,6 +38379,7 @@
     "gender": "female",
     "score": 49.8,
     "details": {
+      "symmetry": 67,
       "golden_ratio": 39,
       "eyes": 59,
       "nose": 49,
@@ -38327,6 +38570,7 @@
     "gender": "male",
     "score": 49.7,
     "details": {
+      "symmetry": 45,
       "golden_ratio": 39,
       "eyes": 57,
       "nose": 37,
@@ -38517,6 +38761,7 @@
     "gender": "male",
     "score": 49.6,
     "details": {
+      "symmetry": 26,
       "golden_ratio": 46,
       "eyes": 37,
       "nose": 28,
@@ -38675,6 +38920,7 @@
     "gender": "male",
     "score": 49.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 41,
       "eyes": 39,
       "nose": 36,
@@ -38833,6 +39079,7 @@
     "gender": "male",
     "score": 49.6,
     "details": {
+      "symmetry": 14,
       "golden_ratio": 42,
       "eyes": 36,
       "nose": 44,
@@ -38991,6 +39238,7 @@
     "gender": "male",
     "score": 49.5,
     "details": {
+      "symmetry": 43,
       "golden_ratio": 35,
       "eyes": 37,
       "nose": 42,
@@ -39239,6 +39487,7 @@
     "gender": "male",
     "score": 49.0,
     "details": {
+      "symmetry": 62,
       "golden_ratio": 35,
       "eyes": 85,
       "nose": 39,
@@ -39426,6 +39675,7 @@
     "gender": "male",
     "score": 48.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 37,
       "nose": 39,
@@ -39581,6 +39831,7 @@
     "gender": "male",
     "score": 48.9,
     "details": {
+      "symmetry": 10,
       "golden_ratio": 38,
       "eyes": 75,
       "nose": 38,
@@ -39736,6 +39987,7 @@
     "gender": "female",
     "score": 48.9,
     "details": {
+      "symmetry": 23,
       "golden_ratio": 40,
       "eyes": 57,
       "nose": 42,
@@ -39896,6 +40148,7 @@
     "gender": "male",
     "score": 48.8,
     "details": {
+      "symmetry": 51,
       "golden_ratio": 46,
       "eyes": 31,
       "nose": 41,
@@ -40083,6 +40336,7 @@
     "gender": "male",
     "score": 48.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 69,
       "nose": 27,
@@ -40241,6 +40495,7 @@
     "gender": "male",
     "score": 48.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 70,
       "nose": 29,
@@ -40399,6 +40654,7 @@
     "gender": "male",
     "score": 48.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 33,
       "nose": 44,
@@ -40618,6 +40874,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 88,
       "nose": 26,
@@ -40802,6 +41059,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 57,
       "nose": 31,
@@ -40960,6 +41218,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
+      "symmetry": 20,
       "golden_ratio": 39,
       "eyes": 82,
       "nose": 28,
@@ -41115,6 +41374,7 @@
     "gender": "male",
     "score": 48.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 34,
       "nose": 27,
@@ -41273,6 +41533,7 @@
     "gender": "male",
     "score": 48.1,
     "details": {
+      "symmetry": 21,
       "golden_ratio": 36,
       "eyes": 57,
       "nose": 44,
@@ -41460,6 +41721,7 @@
     "gender": "male",
     "score": 48.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 72,
       "nose": 27,
@@ -41618,6 +41880,7 @@
     "gender": "male",
     "score": 47.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 63,
       "nose": 44,
@@ -41805,6 +42068,7 @@
     "gender": "male",
     "score": 47.7,
     "details": {
+      "symmetry": 11,
       "golden_ratio": 32,
       "eyes": 49,
       "nose": 40,
@@ -42021,6 +42285,7 @@
     "gender": "male",
     "score": 47.5,
     "details": {
+      "symmetry": 40,
       "golden_ratio": 33,
       "eyes": 36,
       "nose": 44,
@@ -42176,6 +42441,7 @@
     "gender": "male",
     "score": 47.5,
     "details": {
+      "symmetry": 68,
       "golden_ratio": 37,
       "eyes": 37,
       "nose": 49,
@@ -42334,6 +42600,7 @@
     "gender": "male",
     "score": 47.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 45,
       "nose": 31,
@@ -42521,6 +42788,7 @@
     "gender": "male",
     "score": 47.0,
     "details": {
+      "symmetry": 39,
       "golden_ratio": 40,
       "eyes": 51,
       "nose": 24,
@@ -42676,6 +42944,7 @@
     "gender": "male",
     "score": 47.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 31,
       "nose": 43,
@@ -42834,6 +43103,7 @@
     "gender": "female",
     "score": 47.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 57,
       "nose": 37,
@@ -42993,6 +43263,7 @@
     "gender": "female",
     "score": 47.0,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 58,
       "nose": 40,
@@ -43215,6 +43486,7 @@
     "gender": "male",
     "score": 46.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 72,
       "nose": 19,
@@ -43370,6 +43642,7 @@
     "gender": "male",
     "score": 46.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 46,
       "eyes": 15,
       "nose": 38,
@@ -43528,6 +43801,7 @@
     "gender": "male",
     "score": 46.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 67,
       "nose": 35,
@@ -43718,6 +43992,7 @@
     "gender": "male",
     "score": 46.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 34,
       "nose": 39,
@@ -43937,6 +44212,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 22,
       "nose": 49,
@@ -44095,6 +44371,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
+      "symmetry": 4,
       "golden_ratio": 38,
       "eyes": 44,
       "nose": 46,
@@ -44253,6 +44530,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
+      "symmetry": 53,
       "golden_ratio": 35,
       "eyes": 30,
       "nose": 41,
@@ -44411,6 +44689,7 @@
     "gender": "male",
     "score": 46.5,
     "details": {
+      "symmetry": 70,
       "golden_ratio": 33,
       "eyes": 54,
       "nose": 26,
@@ -44601,6 +44880,7 @@
     "gender": "male",
     "score": 46.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 38,
       "eyes": 38,
       "nose": 26,
@@ -44759,6 +45039,7 @@
     "gender": "female",
     "score": 46.4,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 30,
       "eyes": 35,
       "nose": 39,
@@ -44949,6 +45230,7 @@
     "gender": "male",
     "score": 46.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 43,
       "eyes": 24,
       "nose": 29,
@@ -45107,6 +45389,7 @@
     "gender": "male",
     "score": 46.3,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 44,
       "eyes": 57,
       "nose": 11,
@@ -45265,6 +45548,7 @@
     "gender": "male",
     "score": 46.2,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 42,
       "nose": 41,
@@ -45420,6 +45704,7 @@
     "gender": "female",
     "score": 46.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 38,
       "nose": 44,
@@ -45575,6 +45860,7 @@
     "gender": "female",
     "score": 46.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 63,
       "nose": 20,
@@ -45733,6 +46019,7 @@
     "gender": "male",
     "score": 46.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 36,
       "eyes": 32,
       "nose": 47,
@@ -45888,6 +46175,7 @@
     "gender": "male",
     "score": 46.1,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 31,
       "eyes": 53,
       "nose": 26,
@@ -46205,6 +46493,7 @@
     "gender": "male",
     "score": 45.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 35,
       "eyes": 41,
       "nose": 24,
@@ -46363,6 +46652,7 @@
     "gender": "male",
     "score": 45.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 40,
       "eyes": 44,
       "nose": 14,
@@ -46550,6 +46840,7 @@
     "gender": "male",
     "score": 45.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 33,
       "nose": 23,
@@ -46897,6 +47188,7 @@
     "gender": "male",
     "score": 44.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 48,
       "eyes": 7,
       "nose": 12,
@@ -47180,6 +47472,7 @@
     "gender": "male",
     "score": 44.5,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 31,
       "nose": 29,
@@ -47396,6 +47689,7 @@
     "gender": "male",
     "score": 44.2,
     "details": {
+      "symmetry": 6,
       "golden_ratio": 38,
       "eyes": 14,
       "nose": 34,
@@ -47554,6 +47848,7 @@
     "gender": "male",
     "score": 44.2,
     "details": {
+      "symmetry": 61,
       "golden_ratio": 30,
       "eyes": 36,
       "nose": 43,
@@ -47906,6 +48201,7 @@
     "gender": "male",
     "score": 43.8,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 33,
       "eyes": 34,
       "nose": 34,
@@ -48254,6 +48550,7 @@
     "gender": "male",
     "score": 42.9,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 26,
       "eyes": 37,
       "nose": 26,
@@ -48441,6 +48738,7 @@
     "gender": "male",
     "score": 42.7,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 39,
       "eyes": 3,
       "nose": 17,
@@ -48663,6 +48961,7 @@
     "gender": "male",
     "score": 42.6,
     "details": {
+      "symmetry": 0,
       "golden_ratio": 34,
       "eyes": 27,
       "nose": 29,

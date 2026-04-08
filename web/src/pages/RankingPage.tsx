@@ -28,6 +28,14 @@ const rankingScopes = [
   { value: 'all', label: '全カテゴリ' },
 ] as const;
 
+const REFERENCE_RECOMMENDED_EXCLUDED_CATEGORIES = new Set([
+  'athlete',
+  'sumo',
+  'prowrestler',
+  'comedian',
+  'cultural',
+]);
+
 const categoryLabels: Record<string, string> = {
   actor: '男優',
   actress: '女優',
@@ -158,12 +166,19 @@ export default function RankingPage() {
     [rankingMetric]
   );
   const usesOverallScore = isOverallMetric(rankingMetric);
+  const usesStrictReferenceRecommendedFilter =
+    rankingScope === 'recommended' && !usesOverallScore && selectedMetric.isReference === true;
 
   const sorted = useMemo(() => {
     let list = [...celebrities];
     list = list.filter((c) => c.faceValidationStatus !== 'rejected');
     if (rankingScope === 'recommended') {
       list = list.filter((c) => c.rankingEligible !== false);
+      if (usesStrictReferenceRecommendedFilter) {
+        list = list.filter(
+          (c) => !REFERENCE_RECOMMENDED_EXCLUDED_CATEGORIES.has(c.category ?? '')
+        );
+      }
     }
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
@@ -180,7 +195,17 @@ export default function RankingPage() {
         getRankingMetricValue(a, rankingMetric, useAge, useSns)
     );
     return list;
-  }, [celebrities, rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, useAge, useSns]);
+  }, [
+    celebrities,
+    rankingScope,
+    rankingMetric,
+    genderFilter,
+    categoryFilter,
+    searchQuery,
+    useAge,
+    useSns,
+    usesStrictReferenceRecommendedFilter,
+  ]);
 
   const summary = useMemo(() => {
     const ages = sorted
@@ -238,6 +263,8 @@ export default function RankingPage() {
       {rankingScope === 'recommended' && excludedCount > 0 && (
         <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
           写真バイアスやカテゴリ調整のため {excludedCount} 件はおすすめ表示から外しています。必要なら「全カテゴリ」で確認できます。
+          {usesStrictReferenceRecommendedFilter &&
+            ' 参考値タブでは直感とズレやすいカテゴリをさらに外しています。'}
         </div>
       )}
 
