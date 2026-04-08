@@ -183,6 +183,7 @@ export default function RankingPage() {
 
   const sorted = useMemo(() => {
     let list = [...celebrities];
+    list = list.filter((c) => c.faceValidationStatus !== 'rejected');
     if (rankingScope === 'recommended') {
       list = list.filter((c) => c.rankingEligible !== false);
     }

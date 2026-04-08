@@ -6,11 +6,13 @@ Preserves existing metadata (age, gender, sns, group) while recalculating scores
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import math
 import struct
 import sys
+from collections import Counter
 from pathlib import Path
 from typing import List, Tuple
 
@@ -22,10 +24,16 @@ import mediapipe as mp
 from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision
 
+from face_validation import validate_human_face_landmarks
 from ranking_policy import build_ranking_policy, deviation
 from score_policy import age_adjusted_score, round_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+try:
+    import face_recognition
+except ImportError:
+    face_recognition = None
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 INPUT_DIR = SCRIPT_DIR / "input_images"
@@ -34,6 +42,7 @@ MODEL_PATH = SCRIPT_DIR / "face_landmarker.task"
 
 Point = Tuple[float, float]
 GOLDEN_RATIO = 1.618
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 
 # ---------------------------------------------------------------------------
@@ -162,6 +171,61 @@ def name_to_id(name: str) -> str:
     h = hashlib.md5(name.encode("utf-8")).hexdigest()[:8]
     return f"celeb_{h}"
 
+def find_images(directory: Path) -> list[Path]:
+    return [
+        file_path
+        for file_path in sorted(directory.iterdir())
+        if file_path.suffix.lower() in IMAGE_EXTENSIONS
+    ]
+
+def regions_to_landmarks_68(regions: dict) -> list[Point] | None:
+    ordered: list[Point] = []
+    ordered.extend(regions.get("chin", []))
+    ordered.extend(regions.get("left_eyebrow", []))
+    ordered.extend(regions.get("right_eyebrow", []))
+    ordered.extend(regions.get("nose_bridge", []))
+    ordered.extend(regions.get("nose_tip", []))
+    ordered.extend(regions.get("left_eye", []))
+    ordered.extend(regions.get("right_eye", []))
+    ordered.extend(regions.get("top_lip", []))
+    ordered.extend(regions.get("bottom_lip", []))
+    if len(ordered) < 68:
+        return None
+    return [(float(point[0]), float(point[1])) for point in ordered[:68]]
+
+def detect_face_recognition_candidates(rgb: np.ndarray) -> list[dict]:
+    candidates: list[dict] = []
+    if face_recognition is None:
+        return candidates
+    locations = face_recognition.face_locations(rgb, model="hog")
+    if not locations:
+        return candidates
+
+    for loc in locations:
+        raw_landmarks = face_recognition.face_landmarks(rgb, [loc])
+        if not raw_landmarks:
+            continue
+
+        landmarks = regions_to_landmarks_68(raw_landmarks[0])
+        if landmarks is None:
+            continue
+
+        validation = validate_human_face_landmarks(landmarks, image_size=rgb.shape[:2])
+        if not validation.valid:
+            continue
+
+        top, right, bottom, left = loc
+        candidates.append(
+            {
+                "bbox": (left, top, right - left, bottom - top),
+                "landmarks": landmarks,
+                "area": max(0, right - left) * max(0, bottom - top),
+                "source": "face_recognition",
+            }
+        )
+
+    return candidates
+
 def read_category(person_dir: Path) -> str:
     cat_file = person_dir / "category.txt"
     if cat_file.is_file():
@@ -172,7 +236,33 @@ def read_category(person_dir: Path) -> str:
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Re-process celebrity faces with feature-layout validation."
+    )
+    parser.add_argument(
+        "--audit-only",
+        action="store_true",
+        help="Validate inputs and print a report without overwriting public data.",
+    )
+    parser.add_argument(
+        "--report-json",
+        type=str,
+        default=None,
+        help="Optional JSON path for accepted/rejected audit entries.",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Process only the first N person directories for spot checks.",
+    )
+    return parser.parse_args()
+
+
 def main():
+    args = parse_args()
+
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     thumb_dir = OUTPUT_DIR / "thumbnails"
     thumb_dir.mkdir(parents=True, exist_ok=True)
@@ -190,7 +280,7 @@ def main():
     options = vision.FaceLandmarkerOptions(
         base_options=base_options,
         running_mode=vision.RunningMode.IMAGE,
-        num_faces=1,
+        num_faces=5,
         min_face_detection_confidence=0.5,
         min_face_presence_confidence=0.5,
     )
@@ -202,73 +292,131 @@ def main():
         [d for d in INPUT_DIR.iterdir() if d.is_dir()],
         key=lambda p: p.name,
     )
+    if args.limit is not None:
+        person_dirs = person_dirs[: max(args.limit, 0)]
 
     results = []
     failed = []
+    rejection_reasons: Counter[str] = Counter()
+    accepted_sources: Counter[str] = Counter()
+    audit_entries: list[dict] = []
 
     for i, person_dir in enumerate(person_dirs):
         name = person_dir.name
+        category = existing_meta.get(name, {}).get("category") or read_category(person_dir)
 
         # Skip ヒカル
         if name == "ヒカル":
             continue
 
-        # Find image
-        img_files = [f for f in person_dir.iterdir()
-                     if f.suffix.lower() in {".jpg", ".jpeg", ".png", ".bmp", ".webp"}]
+        img_files = find_images(person_dir)
         if not img_files:
             continue
 
-        img_path = img_files[0]
-        buf = np.fromfile(str(img_path), dtype=np.uint8)
-        bgr = cv2.imdecode(buf, cv2.IMREAD_COLOR)
-        if bgr is None:
-            failed.append(name)
+        best_candidate = None
+        best_face_area = 0
+        last_failure_reason = "no_face_detected"
+
+        for img_path in img_files:
+            buf = np.fromfile(str(img_path), dtype=np.uint8)
+            bgr = cv2.imdecode(buf, cv2.IMREAD_COLOR)
+            if bgr is None:
+                last_failure_reason = "cannot_read_image"
+                rejection_reasons[last_failure_reason] += 1
+                continue
+
+            rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
+            mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb)
+
+            try:
+                result = landmarker.detect(mp_image)
+            except Exception:
+                last_failure_reason = "detection_error"
+                rejection_reasons[last_failure_reason] += 1
+                continue
+
+            if not result.face_landmarks:
+                last_failure_reason = "no_face_detected"
+                rejection_reasons[last_failure_reason] += 1
+            else:
+                h, w = rgb.shape[:2]
+                for face_landmarks in result.face_landmarks:
+                    all_pts = [(lm.x * w, lm.y * h) for lm in face_landmarks]
+                    if len(all_pts) < max(mapping) + 1:
+                        last_failure_reason = "insufficient_landmarks"
+                        rejection_reasons[last_failure_reason] += 1
+                        continue
+
+                    lm68 = [all_pts[idx] for idx in mapping]
+                    validation = validate_human_face_landmarks(lm68, image_size=(h, w))
+                    if not validation.valid:
+                        last_failure_reason = validation.reason
+                        rejection_reasons[last_failure_reason] += 1
+                        continue
+
+                    xs = [p[0] for p in all_pts]
+                    ys = [p[1] for p in all_pts]
+                    fx, fy = int(min(xs)), int(min(ys))
+                    fw, fh = int(max(xs) - min(xs)), int(max(ys) - min(ys))
+                    area = fw * fh
+
+                    if area > best_face_area:
+                        best_face_area = area
+                        best_candidate = {
+                            "bgr": bgr,
+                            "bbox": (fx, fy, fw, fh),
+                            "landmarks": lm68,
+                            "source": "mediapipe",
+                        }
+
+            if best_candidate is None:
+                fallback_candidates = detect_face_recognition_candidates(rgb)
+                if not fallback_candidates:
+                    if last_failure_reason != "no_face_detected":
+                        continue
+                for candidate in fallback_candidates:
+                    if candidate["area"] > best_face_area:
+                        best_face_area = candidate["area"]
+                        best_candidate = {
+                            "bgr": bgr,
+                            "bbox": candidate["bbox"],
+                            "landmarks": candidate["landmarks"],
+                            "source": candidate["source"],
+                        }
+
+        if best_candidate is None:
+            failed.append(f"{name} ({last_failure_reason})")
+            audit_entries.append(
+                {
+                    "name": name,
+                    "category": category,
+                    "status": "rejected",
+                    "reason": last_failure_reason,
+                    "imageCount": len(img_files),
+                }
+            )
             continue
 
-        rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
-        mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb)
+        accepted_sources[best_candidate.get("source", "unknown")] += 1
 
-        try:
-            result = landmarker.detect(mp_image)
-        except Exception:
-            failed.append(name)
-            continue
-
-        if not result.face_landmarks:
-            failed.append(name)
-            continue
-
-        face_lms = result.face_landmarks[0]
-        h, w = rgb.shape[:2]
-        all_pts = [(lm.x * w, lm.y * h) for lm in face_lms]
-
-        if len(all_pts) < max(mapping) + 1:
-            failed.append(name)
-            continue
-
-        lm68 = [all_pts[idx] for idx in mapping]
-        score, details = compute_score(lm68)
+        score, details = compute_score(best_candidate["landmarks"])
 
         # Generate thumbnail
-        xs = [p[0] for p in all_pts]
-        ys = [p[1] for p in all_pts]
-        fx, fy = int(min(xs)), int(min(ys))
-        fw, fh = int(max(xs) - min(xs)), int(max(ys) - min(ys))
+        fx, fy, fw, fh = best_candidate["bbox"]
+        h, w = best_candidate["bgr"].shape[:2]
         margin = int(max(fw, fh) * 0.4)
         ct, cb = max(0, fy - margin), min(h, fy + fh + margin)
         cl, cr = max(0, fx - margin), min(w, fx + fw + margin)
-        crop = bgr[ct:cb, cl:cr]
-        pil_img = Image.fromarray(cv2.cvtColor(crop, cv2.COLOR_BGR2RGB))
-        pil_img = pil_img.resize((200, 200), Image.LANCZOS)
-
+        crop = best_candidate["bgr"][ct:cb, cl:cr]
         celeb_id = name_to_id(name)
-        thumb_path = thumb_dir / f"{celeb_id}.jpg"
-        pil_img.save(str(thumb_path), "JPEG", quality=90)
+        if not args.audit_only:
+            pil_img = Image.fromarray(cv2.cvtColor(crop, cv2.COLOR_BGR2RGB))
+            pil_img = pil_img.resize((200, 200), Image.LANCZOS)
+            thumb_path = thumb_dir / f"{celeb_id}.jpg"
+            pil_img.save(str(thumb_path), "JPEG", quality=90)
 
         # Build entry, preserving metadata from existing data
         old = existing_meta.get(name, {})
-        category = old.get("category") or read_category(person_dir)
         gender = old.get("gender", "male" if category in ("actor", "comedian", "athlete", "politician", "youtuber") else "female")
 
         entry = {
@@ -313,10 +461,53 @@ def main():
             entry["scores"]["faceAgeSns"] = entry["scores"]["faceAge"]
 
         results.append(entry)
+        audit_entries.append(
+            {
+                "name": name,
+                "category": category,
+                "status": "accepted",
+                "reason": "ok",
+                "source": best_candidate.get("source", "unknown"),
+                "score": score,
+                "imageCount": len(img_files),
+            }
+        )
         if (i + 1) % 20 == 0:
             print(f"  Processed {i+1} dirs, {len(results)} OK so far...", flush=True)
 
     landmarker.close()
+
+    if args.report_json:
+        report_path = Path(args.report_json).resolve()
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(report_path, "w", encoding="utf-8") as f:
+            json.dump(
+                {
+                    "summary": {
+                        "processed": len(results) + len(failed),
+                        "accepted": len(results),
+                        "failed": len(failed),
+                        "faceRecognitionFallbackAvailable": face_recognition is not None,
+                    },
+                    "entries": audit_entries,
+                },
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+        print(f"Audit report: {report_path}")
+
+    if args.audit_only:
+        print(f"\nAudit only: accepted={len(results)}, failed={len(failed)}")
+        if rejection_reasons:
+            print("Audit rejection reasons:")
+            for reason, count in rejection_reasons.most_common():
+                print(f"  {reason}: {count}")
+        if accepted_sources:
+            print("Audit accepted sources:")
+            for source, count in accepted_sources.most_common():
+                print(f"  {source}: {count}")
+        return
 
     policy_by_name, stats = build_ranking_policy(results)
     excluded_count = 0
@@ -339,6 +530,18 @@ def main():
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f"\nSaved {len(results)} celebrities to {celebrities_json}")
     print(f"Failed: {len(failed)}")
+    if failed:
+        print("Rejected / failed examples:")
+        for item in failed[:20]:
+            print(f"  {item}")
+    if rejection_reasons:
+        print("Rejection reasons:")
+        for reason, count in rejection_reasons.most_common():
+            print(f"  {reason}: {count}")
+    if accepted_sources:
+        print("Accepted sources:")
+        for source, count in accepted_sources.most_common():
+            print(f"  {source}: {count}")
     print(f"Recommended ranking exclusions: {excluded_count}")
 
     # Binary embeddings

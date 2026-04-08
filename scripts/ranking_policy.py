@@ -6,6 +6,7 @@ from collections import defaultdict
 UNWANTED_RECOMMENDED_CATEGORIES = {"comedian", "athlete", "sumo", "cultural"}
 LOW_DEVIATION_CATEGORIES = {"actor", "actress", "idol"}
 LOW_DEVIATION_THRESHOLD = 40.0
+FACE_VALIDATION_EXCLUSION_REASON = "invalid face geometry"
 
 
 def deviation(score: float, mean: float, stdev: float) -> float:
@@ -26,6 +27,10 @@ def compute_stats(celebrities: list[dict]) -> tuple[float, float]:
 def build_ranking_policy(celebrities: list[dict]) -> tuple[dict[str, dict], dict[str, float]]:
     mean, stdev = compute_stats(celebrities)
     reasons_by_name: dict[str, list[str]] = defaultdict(list)
+
+    for entry in celebrities:
+        if entry.get("faceValidationStatus") == "rejected":
+            reasons_by_name[entry["name"]].append(FACE_VALIDATION_EXCLUSION_REASON)
 
     for entry in celebrities:
         category = entry.get("category")

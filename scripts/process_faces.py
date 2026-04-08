@@ -27,6 +27,8 @@ import face_recognition
 import numpy as np
 from PIL import Image
 
+from face_validation import validate_human_face_landmarks
+
 # ---------------------------------------------------------------------------
 # Geometry helpers (mirrors web/src/lib/faceScoring.ts)
 # ---------------------------------------------------------------------------
@@ -254,63 +256,54 @@ def process_person(
             print("SKIP (no face detected)")
             continue
 
-        # Pick the largest face in the image
-        best_idx = 0
-        best_area = 0
-        for idx, (t, r, b, l) in enumerate(locations):
+        image_has_valid_face = False
+        for loc in locations:
+            raw_landmarks = face_recognition.face_landmarks(rgb, [loc])
+            if not raw_landmarks:
+                continue
+
+            regions = raw_landmarks[0]
+            ordered: List[Point] = []
+            ordered.extend(regions.get("chin", []))          # 0-16  (17 points)
+            ordered.extend(regions.get("left_eyebrow", []))  # 17-21 (5 points)
+            ordered.extend(regions.get("right_eyebrow", [])) # 22-26 (5 points)
+            ordered.extend(regions.get("nose_bridge", []))   # 27-30 (4 points)
+            ordered.extend(regions.get("nose_tip", []))      # 31-35 (5 points)
+            ordered.extend(regions.get("left_eye", []))      # 36-41 (6 points)
+            ordered.extend(regions.get("right_eye", []))     # 42-47 (6 points)
+            ordered.extend(regions.get("top_lip", []))       # 48-59 (12 points)
+            ordered.extend(regions.get("bottom_lip", []))    # 60-67 (12 points)
+
+            if len(ordered) < 68:
+                continue
+
+            landmarks: List[Point] = [(float(p[0]), float(p[1])) for p in ordered[:68]]
+            validation = validate_human_face_landmarks(landmarks, image_size=rgb.shape[:2])
+            if not validation.valid:
+                continue
+
+            encodings = face_recognition.face_encodings(rgb, [loc])
+            if not encodings:
+                continue
+
+            image_has_valid_face = True
+            embedding = encodings[0].tolist()
+            t, r, b, l = loc
             area = (b - t) * (r - l)
-            if area > best_area:
-                best_area = area
-                best_idx = idx
+            if area > best_face_area:
+                best_face_area = area
+                best_result = {
+                    "bgr": bgr,
+                    "loc": loc,
+                    "landmarks": landmarks,
+                    "embedding": embedding,
+                }
 
-        loc = locations[best_idx]
-
-        # 68 landmarks via face_recognition (returns dict of regions)
-        raw_landmarks = face_recognition.face_landmarks(rgb, [loc])
-        if not raw_landmarks:
-            print("SKIP (no landmarks)")
+        if not image_has_valid_face:
+            print("SKIP (no human-like face geometry)")
             continue
 
-        # Reconstruct the ordered 68-point list from the region dict
-        regions = raw_landmarks[0]
-        ordered: List[Point] = []
-        ordered.extend(regions.get("chin", []))          # 0-16  (17 points)
-        ordered.extend(regions.get("left_eyebrow", []))  # 17-21 (5 points)
-        ordered.extend(regions.get("right_eyebrow", [])) # 22-26 (5 points)
-        ordered.extend(regions.get("nose_bridge", []))    # 27-30 (4 points)
-        ordered.extend(regions.get("nose_tip", []))       # 31-35 (5 points)
-        ordered.extend(regions.get("left_eye", []))       # 36-41 (6 points)
-        ordered.extend(regions.get("right_eye", []))      # 42-47 (6 points)
-        ordered.extend(regions.get("top_lip", []))        # 48-59 (12 points)
-        ordered.extend(regions.get("bottom_lip", []))     # 60-67 (12 points)
-
-        if len(ordered) < 68:
-            print(f"SKIP (only {len(ordered)} landmarks)")
-            continue
-
-        landmarks: List[Point] = [(float(p[0]), float(p[1])) for p in ordered[:68]]
-
-        # 128-dim embedding
-        encodings = face_recognition.face_encodings(rgb, [loc])
-        if not encodings:
-            print("SKIP (no encoding)")
-            continue
-
-        embedding = encodings[0].tolist()
-
-        t, r, b, l = loc
-        area = (b - t) * (r - l)
-        if area > best_face_area:
-            best_face_area = area
-            best_result = {
-                "bgr": bgr,
-                "loc": loc,
-                "landmarks": landmarks,
-                "embedding": embedding,
-            }
-            print("OK (best so far)")
-        else:
-            print("OK (smaller face, skipped)")
+        print("OK (best so far)")
 
     if best_result is None:
         return None

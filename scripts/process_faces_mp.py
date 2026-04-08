@@ -27,6 +27,8 @@ import mediapipe as mp
 from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision
 
+from face_validation import validate_human_face_landmarks
+
 # ---------------------------------------------------------------------------
 # MediaPipe 478 -> dlib 68 landmark mapping
 # ---------------------------------------------------------------------------
@@ -330,7 +332,7 @@ def create_landmarker(model_path: str):
     options = vision.FaceLandmarkerOptions(
         base_options=base_options,
         running_mode=vision.RunningMode.IMAGE,
-        num_faces=1,
+        num_faces=5,
         min_face_detection_confidence=0.5,
         min_face_presence_confidence=0.5,
         min_tracking_confidence=0.5,
@@ -374,38 +376,42 @@ def process_person_mp(
             print("SKIP (no face detected)")
             continue
 
-        face_lms = result.face_landmarks[0]
         h, w = rgb.shape[:2]
+        image_has_valid_face = False
 
-        # Convert normalized landmarks to pixel coordinates
-        all_points = [(lm.x * w, lm.y * h) for lm in face_lms]
+        for face_lms in result.face_landmarks:
+            all_points = [(lm.x * w, lm.y * h) for lm in face_lms]
 
-        # Map to 68-point format
-        if len(all_points) < max(mapping) + 1:
-            print(f"SKIP (only {len(all_points)} landmarks)")
+            if len(all_points) < max(mapping) + 1:
+                continue
+
+            landmarks_68: List[Point] = [all_points[idx] for idx in mapping]
+            validation = validate_human_face_landmarks(landmarks_68, image_size=(h, w))
+            if not validation.valid:
+                continue
+
+            image_has_valid_face = True
+            xs = [p[0] for p in all_points]
+            ys = [p[1] for p in all_points]
+            face_x = int(min(xs))
+            face_y = int(min(ys))
+            face_w = int(max(xs) - min(xs))
+            face_h = int(max(ys) - min(ys))
+            area = face_w * face_h
+
+            if area > best_face_area:
+                best_face_area = area
+                best_result = {
+                    "bgr": bgr,
+                    "bbox": (face_x, face_y, face_w, face_h),
+                    "landmarks": landmarks_68,
+                }
+
+        if not image_has_valid_face:
+            print("SKIP (no human-like face geometry)")
             continue
 
-        landmarks_68: List[Point] = [all_points[idx] for idx in mapping]
-
-        # Calculate face bounding box from landmarks
-        xs = [p[0] for p in all_points]
-        ys = [p[1] for p in all_points]
-        face_x = int(min(xs))
-        face_y = int(min(ys))
-        face_w = int(max(xs) - min(xs))
-        face_h = int(max(ys) - min(ys))
-        area = face_w * face_h
-
-        if area > best_face_area:
-            best_face_area = area
-            best_result = {
-                "bgr": bgr,
-                "bbox": (face_x, face_y, face_w, face_h),
-                "landmarks": landmarks_68,
-            }
-            print("OK (best so far)")
-        else:
-            print("OK (smaller face, skipped)")
+        print("OK (best so far)" if best_result and best_result["bgr"] is bgr else "OK")
 
     if best_result is None:
         return None

@@ -1,0 +1,4292 @@
+{
+  "summary": {
+    "processed": 522,
+    "accepted": 314,
+    "failed": 208,
+    "faceRecognitionFallbackAvailable": false
+  },
+  "entries": [
+    {
+      "name": "Crystal Kay",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.4,
+      "imageCount": 1
+    },
+    {
+      "name": "DAIGO",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.7,
+      "imageCount": 1
+    },
+    {
+      "name": "EXILE TAKAHIRO",
+      "category": "artist",
+      "status": "rejected",
+      "reason": "multiple_geometry_failures",
+      "imageCount": 1
+    },
+    {
+      "name": "GACKT",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.3,
+      "imageCount": 1
+    },
+    {
+      "name": "King Gnu井口理",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.5,
+      "imageCount": 1
+    },
+    {
+      "name": "MISIA",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 62.6,
+      "imageCount": 1
+    },
+    {
+      "name": "NON STYLE井上",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.0,
+      "imageCount": 1
+    },
+    {
+      "name": "SANA(TWICE)",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.5,
+      "imageCount": 1
+    },
+    {
+      "name": "Taka(ONE OK ROCK)",
+      "category": "artist",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "YOSHIKI",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "いかりや長介",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "きゃりーぱみゅぱみゅ",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.2,
+      "imageCount": 1
+    },
+    {
+      "name": "つんく",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.0,
+      "imageCount": 1
+    },
+    {
+      "name": "とにかく明るい安村",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "はじめしゃちょー",
+      "category": "influencer",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 61.8,
+      "imageCount": 1
+    },
+    {
+      "name": "みちょぱ",
+      "category": "influencer",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.0,
+      "imageCount": 1
+    },
+    {
+      "name": "やす子",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 42.8,
+      "imageCount": 1
+    },
+    {
+      "name": "ゆきりぬ",
+      "category": "influencer",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.7,
+      "imageCount": 1
+    },
+    {
+      "name": "ゆりやんレトリィバァ",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.5,
+      "imageCount": 1
+    },
+    {
+      "name": "りゅうちぇる",
+      "category": "influencer",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.9,
+      "imageCount": 1
+    },
+    {
+      "name": "ウエストランド井口",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "ウルフアロン",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "オカダカズチカ",
+      "category": "prowrestler",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "オカダ・カズチカ",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.0,
+      "imageCount": 1
+    },
+    {
+      "name": "オードリー春日",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.1,
+      "imageCount": 1
+    },
+    {
+      "name": "カンニング竹山",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.0,
+      "imageCount": 1
+    },
+    {
+      "name": "ケンドーコバヤシ",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.8,
+      "imageCount": 1
+    },
+    {
+      "name": "サンシャイン池崎",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "ザッケローニ",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.8,
+      "imageCount": 1
+    },
+    {
+      "name": "ジャルジャル福徳秀介",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "ダウンタウン松本人志",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.8,
+      "imageCount": 1
+    },
+    {
+      "name": "ダウンタウン浜田",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.6,
+      "imageCount": 1
+    },
+    {
+      "name": "ダルビッシュ有",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "チョコレートプラネット長田庄平",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "デヴィ夫人",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.8,
+      "imageCount": 1
+    },
+    {
+      "name": "ナイナイ矢部",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.0,
+      "imageCount": 1
+    },
+    {
+      "name": "バイきんぐ小峠",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "バカリズム",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "ヒロシ",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.8,
+      "imageCount": 1
+    },
+    {
+      "name": "フット後藤",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "ブラマヨ吉田",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.6,
+      "imageCount": 1
+    },
+    {
+      "name": "ブラマヨ小杉",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 43.7,
+      "imageCount": 1
+    },
+    {
+      "name": "マヂカルラブリー村上",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.4,
+      "imageCount": 1
+    },
+    {
+      "name": "マヂカルラブリー野田クリスタル",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.8,
+      "imageCount": 1
+    },
+    {
+      "name": "リリー・フランキー",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.4,
+      "imageCount": 1
+    },
+    {
+      "name": "ローラ",
+      "category": "influencer",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "三四郎小宮",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.4,
+      "imageCount": 1
+    },
+    {
+      "name": "三沢光晴",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.1,
+      "imageCount": 1
+    },
+    {
+      "name": "三浦大知",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.0,
+      "imageCount": 1
+    },
+    {
+      "name": "三笘薫",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.1,
+      "imageCount": 1
+    },
+    {
+      "name": "上原浩治",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "上沼恵美子",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.8,
+      "imageCount": 1
+    },
+    {
+      "name": "上田綺世",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "上白石萌歌",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.2,
+      "imageCount": 1
+    },
+    {
+      "name": "上白石萌音",
+      "category": "actress",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "与田祐希",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "中居正広",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.4,
+      "imageCount": 1
+    },
+    {
+      "name": "中山雅史",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "中島美嘉",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.1,
+      "imageCount": 1
+    },
+    {
+      "name": "中川家礼二",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.6,
+      "imageCount": 1
+    },
+    {
+      "name": "中村俊輔",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.4,
+      "imageCount": 1
+    },
+    {
+      "name": "中村剛也",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "中村敬斗",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.8,
+      "imageCount": 1
+    },
+    {
+      "name": "中田敦彦",
+      "category": "youtuber",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.4,
+      "imageCount": 1
+    },
+    {
+      "name": "中田翔",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "中田英寿",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.1,
+      "imageCount": 1
+    },
+    {
+      "name": "中谷美紀",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.1,
+      "imageCount": 1
+    },
+    {
+      "name": "丸佳浩",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "丹羽孝希",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "久保史緒里",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.3,
+      "imageCount": 1
+    },
+    {
+      "name": "久保建英",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 61.3,
+      "imageCount": 1
+    },
+    {
+      "name": "乾貴士",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.6,
+      "imageCount": 1
+    },
+    {
+      "name": "亀田大毅",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.4,
+      "imageCount": 1
+    },
+    {
+      "name": "二宮和也",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.5,
+      "imageCount": 1
+    },
+    {
+      "name": "二階堂ふみ",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.7,
+      "imageCount": 1
+    },
+    {
+      "name": "五十嵐カノア",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.2,
+      "imageCount": 1
+    },
+    {
+      "name": "五味隆典",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "井上康生",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 40.9,
+      "imageCount": 1
+    },
+    {
+      "name": "今永昇太",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "今田美桜",
+      "category": "actress",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "仲里依紗",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.8,
+      "imageCount": 1
+    },
+    {
+      "name": "伊東純也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.6,
+      "imageCount": 1
+    },
+    {
+      "name": "伊藤洋輝",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.0,
+      "imageCount": 1
+    },
+    {
+      "name": "伊藤美誠",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 61.2,
+      "imageCount": 1
+    },
+    {
+      "name": "伊調馨",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.9,
+      "imageCount": 1
+    },
+    {
+      "name": "佐々木希",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.4,
+      "imageCount": 1
+    },
+    {
+      "name": "佐々木朗希",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.4,
+      "imageCount": 1
+    },
+    {
+      "name": "佐藤健",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.2,
+      "imageCount": 1
+    },
+    {
+      "name": "佐藤輝明",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "児嶋一哉",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.1,
+      "imageCount": 1
+    },
+    {
+      "name": "入江陵介",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.3,
+      "imageCount": 1
+    },
+    {
+      "name": "八村塁",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "内山高志",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "内村航平",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "内海哲也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.2,
+      "imageCount": 1
+    },
+    {
+      "name": "内藤哲也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.0,
+      "imageCount": 1
+    },
+    {
+      "name": "冨安健洋",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "出島武春",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 43.4,
+      "imageCount": 1
+    },
+    {
+      "name": "出川哲朗",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "前川黛也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.3,
+      "imageCount": 1
+    },
+    {
+      "name": "前田健太",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "前田大然",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "前田敦子",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.2,
+      "imageCount": 1
+    },
+    {
+      "name": "前田智徳",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "劇団ひとり",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.5,
+      "imageCount": 1
+    },
+    {
+      "name": "加藤ミリヤ",
+      "category": "artist",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "加藤史帆",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.5,
+      "imageCount": 1
+    },
+    {
+      "name": "加藤浩次",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.6,
+      "imageCount": 1
+    },
+    {
+      "name": "加藤茶",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "北の湖敏満",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 40.7,
+      "imageCount": 1
+    },
+    {
+      "name": "北勝富士大輝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "北勝海信芳",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.6,
+      "imageCount": 1
+    },
+    {
+      "name": "北口榛花",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.1,
+      "imageCount": 1
+    },
+    {
+      "name": "北島康介",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "北川景子",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.3,
+      "imageCount": 1
+    },
+    {
+      "name": "北青鵬治",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "千代の国憲輝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "千代の富士貢",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.5,
+      "imageCount": 1
+    },
+    {
+      "name": "千代大海龍二",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "千代大龍秀政",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 38.5,
+      "imageCount": 1
+    },
+    {
+      "name": "千代翔馬富士雄",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "千代鳳祐樹",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "千原せいじ",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 42.6,
+      "imageCount": 1
+    },
+    {
+      "name": "千原ジュニア",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.6,
+      "imageCount": 1
+    },
+    {
+      "name": "千賀滉大",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "南沙良",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.0,
+      "imageCount": 1
+    },
+    {
+      "name": "南野拓実",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "原口元気",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "原辰徳",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.2,
+      "imageCount": 1
+    },
+    {
+      "name": "友近",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "双葉山定次",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "吉岡里帆",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.0,
+      "imageCount": 1
+    },
+    {
+      "name": "吉永小百合",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.5,
+      "imageCount": 1
+    },
+    {
+      "name": "吉沢亮",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 33.6,
+      "imageCount": 1
+    },
+    {
+      "name": "吉田正尚",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.2,
+      "imageCount": 1
+    },
+    {
+      "name": "吉田沙保里",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.9,
+      "imageCount": 1
+    },
+    {
+      "name": "吉田輝星",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "吉高由里子",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.7,
+      "imageCount": 1
+    },
+    {
+      "name": "和牛川西賢志郎",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.4,
+      "imageCount": 1
+    },
+    {
+      "name": "和牛水田信二",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 43.3,
+      "imageCount": 1
+    },
+    {
+      "name": "和田毅",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "品川祐",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.8,
+      "imageCount": 1
+    },
+    {
+      "name": "嘉風雅継",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "土屋太鳳",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.3,
+      "imageCount": 1
+    },
+    {
+      "name": "土性沙羅",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.8,
+      "imageCount": 1
+    },
+    {
+      "name": "坂口健太郎",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.8,
+      "imageCount": 1
+    },
+    {
+      "name": "坂本勇人",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "坂本花織",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "城島健司",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "城彰二",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.4,
+      "imageCount": 1
+    },
+    {
+      "name": "堀口恭司",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.2,
+      "imageCount": 1
+    },
+    {
+      "name": "堺雅人",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.5,
+      "imageCount": 1
+    },
+    {
+      "name": "大久保佳代子",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "大島優子",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.7,
+      "imageCount": 1
+    },
+    {
+      "name": "大栄翔勇人",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "大森元貴",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.2,
+      "imageCount": 1
+    },
+    {
+      "name": "大竹しのぶ",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.9,
+      "imageCount": 1
+    },
+    {
+      "name": "大翔鵬清洋",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "multiple_geometry_failures",
+      "imageCount": 1
+    },
+    {
+      "name": "大谷映美里",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.8,
+      "imageCount": 1
+    },
+    {
+      "name": "大谷翔平",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "大迫勇也",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "大野将平",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "大野智",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.6,
+      "imageCount": 1
+    },
+    {
+      "name": "大鵬幸喜",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.2,
+      "imageCount": 1
+    },
+    {
+      "name": "天龍源一郎",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 37.0,
+      "imageCount": 1
+    },
+    {
+      "name": "奈緒",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.8,
+      "imageCount": 1
+    },
+    {
+      "name": "妙義龍泰成",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "妻夫木聡",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.1,
+      "imageCount": 1
+    },
+    {
+      "name": "宇多田ヒカル",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.4,
+      "imageCount": 1
+    },
+    {
+      "name": "宇良和輝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "宇野昌磨",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.3,
+      "imageCount": 1
+    },
+    {
+      "name": "守田英正",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "安室奈美恵",
+      "category": "artist",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "安村",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "安美錦竜児",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "安芸銀治",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "安藤美姫",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "宝富士大輔",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "multiple_geometry_failures",
+      "imageCount": 1
+    },
+    {
+      "name": "室伏広治",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.8,
+      "imageCount": 1
+    },
+    {
+      "name": "宮城大弥",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "宮川大輔",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.8,
+      "imageCount": 1
+    },
+    {
+      "name": "宮沢りえ",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 63.6,
+      "imageCount": 1
+    },
+    {
+      "name": "宮脇咲良",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "宮迫博之",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.1,
+      "imageCount": 1
+    },
+    {
+      "name": "宮里藍",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "富樫勇樹",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.4,
+      "imageCount": 1
+    },
+    {
+      "name": "寺尾常史",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.1,
+      "imageCount": 1
+    },
+    {
+      "name": "尊富士弥輝也",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "小久保裕紀",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.0,
+      "imageCount": 1
+    },
+    {
+      "name": "小室哲哉",
+      "category": "musician",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.0,
+      "imageCount": 1
+    },
+    {
+      "name": "小島よしお",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.0,
+      "imageCount": 1
+    },
+    {
+      "name": "小川航基",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "小平奈緒",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.7,
+      "imageCount": 1
+    },
+    {
+      "name": "小松菜奈",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.6,
+      "imageCount": 1
+    },
+    {
+      "name": "小籔千豊",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "小野伸二",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "山下美月",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "山崎賢人",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 61.9,
+      "imageCount": 1
+    },
+    {
+      "name": "山川穂高",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.8,
+      "imageCount": 1
+    },
+    {
+      "name": "山本昌",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "山本浩二",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 43.6,
+      "imageCount": 1
+    },
+    {
+      "name": "山本美月",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.8,
+      "imageCount": 1
+    },
+    {
+      "name": "山本舞香",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.1,
+      "imageCount": 1
+    },
+    {
+      "name": "山田久志",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "山田哲人",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "山田杏奈",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.4,
+      "imageCount": 1
+    },
+    {
+      "name": "山縣亮太",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "山里亮太",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.1,
+      "imageCount": 1
+    },
+    {
+      "name": "岡崎慎司",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "岡本和真",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "岡田武史",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.4,
+      "imageCount": 1
+    },
+    {
+      "name": "岩渕真奈",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.8,
+      "imageCount": 1
+    },
+    {
+      "name": "岩瀬仁紀",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.1,
+      "imageCount": 1
+    },
+    {
+      "name": "岩田剛典",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.8,
+      "imageCount": 1
+    },
+    {
+      "name": "岩隈久志",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "島田紳助",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 62.1,
+      "imageCount": 1
+    },
+    {
+      "name": "川口春奈",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.4,
+      "imageCount": 1
+    },
+    {
+      "name": "川田利明",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.2,
+      "imageCount": 1
+    },
+    {
+      "name": "工藤公康",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.6,
+      "imageCount": 1
+    },
+    {
+      "name": "布袋寅泰",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "常幸龍貴之",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "平本蓮",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.8,
+      "imageCount": 1
+    },
+    {
+      "name": "平野美宇",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.0,
+      "imageCount": 1
+    },
+    {
+      "name": "広瀬すず",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.9,
+      "imageCount": 1
+    },
+    {
+      "name": "広瀬アリス",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.2,
+      "imageCount": 1
+    },
+    {
+      "name": "庵野秀明",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.7,
+      "imageCount": 1
+    },
+    {
+      "name": "張本勲",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.0,
+      "imageCount": 1
+    },
+    {
+      "name": "張本智和",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.9,
+      "imageCount": 1
+    },
+    {
+      "name": "役所広司",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.6,
+      "imageCount": 1
+    },
+    {
+      "name": "御嶽海久司",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "徳勝龍誠",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 40.0,
+      "imageCount": 1
+    },
+    {
+      "name": "志村けん",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "戸郷翔征",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "所ジョージ",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.0,
+      "imageCount": 1
+    },
+    {
+      "name": "把瑠都凱斗",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "指原莉乃",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.0,
+      "imageCount": 1
+    },
+    {
+      "name": "斎藤佑樹",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "新垣結衣",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.6,
+      "imageCount": 1
+    },
+    {
+      "name": "新庄剛志",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "旗手怜央",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 42.0,
+      "imageCount": 1
+    },
+    {
+      "name": "日馬富士公平",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "早瀬ノエル",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.0,
+      "imageCount": 1
+    },
+    {
+      "name": "早田ひな",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.3,
+      "imageCount": 1
+    },
+    {
+      "name": "旭天鵬勝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "旭富士正也",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.9,
+      "imageCount": 1
+    },
+    {
+      "name": "旭秀鵬滉規",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.6,
+      "imageCount": 1
+    },
+    {
+      "name": "明石家さんま",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "星奈津美",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "星野仙一",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.4,
+      "imageCount": 1
+    },
+    {
+      "name": "星野源",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.5,
+      "imageCount": 1
+    },
+    {
+      "name": "是枝裕和",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.5,
+      "imageCount": 1
+    },
+    {
+      "name": "普天王水",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 41.6,
+      "imageCount": 1
+    },
+    {
+      "name": "曙太郎",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "月足天音",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.4,
+      "imageCount": 1
+    },
+    {
+      "name": "有村架純",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.6,
+      "imageCount": 1
+    },
+    {
+      "name": "朝乃山英樹",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.1,
+      "imageCount": 1
+    },
+    {
+      "name": "朝青龍明徳",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "本田圭佑",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.8,
+      "imageCount": 1
+    },
+    {
+      "name": "本田真凜",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "杉咲花",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.5,
+      "imageCount": 1
+    },
+    {
+      "name": "村上佳菜子",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.4,
+      "imageCount": 1
+    },
+    {
+      "name": "村上宗隆",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "村上春樹",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "村田諒太",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "東京03角田晃広",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "東京03豊本明長",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "東京03飯塚悟志",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "東龍強",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.7,
+      "imageCount": 1
+    },
+    {
+      "name": "松たか子",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.0,
+      "imageCount": 1
+    },
+    {
+      "name": "松中信彦",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.7,
+      "imageCount": 1
+    },
+    {
+      "name": "松井珠理奈",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.0,
+      "imageCount": 1
+    },
+    {
+      "name": "松井秀喜",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "松坂大輔",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "松坂桃李",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.1,
+      "imageCount": 1
+    },
+    {
+      "name": "松嶋菜々子",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.3,
+      "imageCount": 1
+    },
+    {
+      "name": "松本かれん",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.2,
+      "imageCount": 1
+    },
+    {
+      "name": "松本まりか",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.8,
+      "imageCount": 1
+    },
+    {
+      "name": "松本孝弘",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "松本潤",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.4,
+      "imageCount": 1
+    },
+    {
+      "name": "松村北斗",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.2,
+      "imageCount": 1
+    },
+    {
+      "name": "松田好花",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.2,
+      "imageCount": 1
+    },
+    {
+      "name": "松鳳山裕也",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.6,
+      "imageCount": 1
+    },
+    {
+      "name": "板野友美",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "柏木由紀",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.2,
+      "imageCount": 1
+    },
+    {
+      "name": "柳原可奈子",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.0,
+      "imageCount": 1
+    },
+    {
+      "name": "柳田悠岐",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.4,
+      "imageCount": 1
+    },
+    {
+      "name": "柴咲コウ",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.4,
+      "imageCount": 1
+    },
+    {
+      "name": "柴崎岳",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "栃乃洋泰一",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "invalid_eyes_above_nose",
+      "imageCount": 1
+    },
+    {
+      "name": "栃東大裕",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.7,
+      "imageCount": 1
+    },
+    {
+      "name": "栃煌山雄一郎",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "桃田賢斗",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "桐生祥秀",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "桐谷美玲",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.0,
+      "imageCount": 1
+    },
+    {
+      "name": "桑田真澄",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "桜井日奈子",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.6,
+      "imageCount": 1
+    },
+    {
+      "name": "棚橋弘至",
+      "category": "prowrestler",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "森保一",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.2,
+      "imageCount": 1
+    },
+    {
+      "name": "森田ひかる",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "植田直通",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.0,
+      "imageCount": 1
+    },
+    {
+      "name": "椎名林檎",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.0,
+      "imageCount": 1
+    },
+    {
+      "name": "槇原敬之",
+      "category": "musician",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "権田修一",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.5,
+      "imageCount": 1
+    },
+    {
+      "name": "横浜流星",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.1,
+      "imageCount": 1
+    },
+    {
+      "name": "橋本大輝",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "橋本奈々未",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "橋本環奈",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.4,
+      "imageCount": 1
+    },
+    {
+      "name": "櫻井優衣",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.2,
+      "imageCount": 1
+    },
+    {
+      "name": "櫻井翔",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "欧勝馬出気",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "正代直也",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.1,
+      "imageCount": 1
+    },
+    {
+      "name": "武尊",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.4,
+      "imageCount": 1
+    },
+    {
+      "name": "武蔵丸光洋",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "武藤敬司",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.2,
+      "imageCount": 1
+    },
+    {
+      "name": "毎熊晟矢",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.2,
+      "imageCount": 1
+    },
+    {
+      "name": "比江島慎",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "水谷隼",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.7,
+      "imageCount": 1
+    },
+    {
+      "name": "永瀬貴規",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "永田裕志",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.7,
+      "imageCount": 1
+    },
+    {
+      "name": "江頭2-50",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "河村勇輝",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "浅利悟",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "浅田真央",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "浅野拓磨",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.2,
+      "imageCount": 1
+    },
+    {
+      "name": "浜口京子",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.6,
+      "imageCount": 1
+    },
+    {
+      "name": "浜崎あゆみ",
+      "category": "artist",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.2,
+      "imageCount": 1
+    },
+    {
+      "name": "浜辺美波",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.4,
+      "imageCount": 1
+    },
+    {
+      "name": "涌井秀章",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "深田恭子",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.4,
+      "imageCount": 1
+    },
+    {
+      "name": "清原和博",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "清原果耶",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.8,
+      "imageCount": 1
+    },
+    {
+      "name": "清宮幸太郎",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "渋野日向子",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "渡辺勇大",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "渡辺謙",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "渡辺雄太",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "渡部建",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "invalid_eyes_above_nose",
+      "imageCount": 1
+    },
+    {
+      "name": "満島ひかり",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.2,
+      "imageCount": 1
+    },
+    {
+      "name": "炎鵬晃",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "照ノ富士春雄",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "照強翔輝",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.0,
+      "imageCount": 1
+    },
+    {
+      "name": "熊谷紗希",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.2,
+      "imageCount": 1
+    },
+    {
+      "name": "爆笑問題太田光",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.0,
+      "imageCount": 1
+    },
+    {
+      "name": "牧秀悟",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.9,
+      "imageCount": 1
+    },
+    {
+      "name": "狩野英孝",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "狼雅外喜義",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "獣神サンダー・ライガー",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "玉乃島新",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.4,
+      "imageCount": 1
+    },
+    {
+      "name": "玉木宏",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.6,
+      "imageCount": 1
+    },
+    {
+      "name": "玉鷲一朗",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "invalid_eyes_above_nose",
+      "imageCount": 1
+    },
+    {
+      "name": "王貞治",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴ノ若傑太",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴光喜啓司",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴勇輝一巖",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴勝峰吉成",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴奨菊和弘",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴恵光充憲",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴欧洲勝紀",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "琴錦功宗",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "multiple_geometry_failures",
+      "imageCount": 1
+    },
+    {
+      "name": "田中将大",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.3,
+      "imageCount": 1
+    },
+    {
+      "name": "田中希実",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "田中美久",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.9,
+      "imageCount": 1
+    },
+    {
+      "name": "田村淳",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.5,
+      "imageCount": 1
+    },
+    {
+      "name": "畑岡奈紗",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "登坂絵莉",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.0,
+      "imageCount": 1
+    },
+    {
+      "name": "白井健三",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.6,
+      "imageCount": 1
+    },
+    {
+      "name": "白井空良",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.2,
+      "imageCount": 1
+    },
+    {
+      "name": "白石麻衣",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.0,
+      "imageCount": 1
+    },
+    {
+      "name": "白鵬翔",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "相澤貴志",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "相葉雅紀",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.1,
+      "imageCount": 1
+    },
+    {
+      "name": "相馬勇紀",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.8,
+      "imageCount": 1
+    },
+    {
+      "name": "眞栄田郷敦",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.3,
+      "imageCount": 1
+    },
+    {
+      "name": "真中まな",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.6,
+      "imageCount": 1
+    },
+    {
+      "name": "真壁刀義",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.3,
+      "imageCount": 1
+    },
+    {
+      "name": "石原さとみ",
+      "category": "actress",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "石川佳純",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "石川遼",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "石浦将勝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "碧山亘右",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.0,
+      "imageCount": 1
+    },
+    {
+      "name": "神木隆之介",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.0,
+      "imageCount": 1
+    },
+    {
+      "name": "福原愛",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.0,
+      "imageCount": 1
+    },
+    {
+      "name": "福士蒼汰",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.8,
+      "imageCount": 1
+    },
+    {
+      "name": "福山雅治",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.1,
+      "imageCount": 1
+    },
+    {
+      "name": "秋元康",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.0,
+      "imageCount": 1
+    },
+    {
+      "name": "秋元真夏",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.7,
+      "imageCount": 1
+    },
+    {
+      "name": "秋吉泰佑",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "秋山幸二",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "秋山成勲",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.2,
+      "imageCount": 1
+    },
+    {
+      "name": "秋山翔吾",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.6,
+      "imageCount": 1
+    },
+    {
+      "name": "秋田豊",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.2,
+      "imageCount": 1
+    },
+    {
+      "name": "秦基博",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "稀勢の里寛",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "稲垣吾郎",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.7,
+      "imageCount": 1
+    },
+    {
+      "name": "稲葉浩志",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 37.9,
+      "imageCount": 1
+    },
+    {
+      "name": "稲葉篤紀",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "窪田正孝",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 61.0,
+      "imageCount": 1
+    },
+    {
+      "name": "立浪和義",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "竜電剛至",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "竹内涼真",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.7,
+      "imageCount": 1
+    },
+    {
+      "name": "笑い飯哲夫",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "笑福亭鶴瓶",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.5,
+      "imageCount": 1
+    },
+    {
+      "name": "筒香嘉智",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "multiple_geometry_failures",
+      "imageCount": 1
+    },
+    {
+      "name": "糸井重里",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.1,
+      "imageCount": 1
+    },
+    {
+      "name": "紀平梨花",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "細田守",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.9,
+      "imageCount": 1
+    },
+    {
+      "name": "絢香",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "invalid_eyes_above_nose",
+      "imageCount": 1
+    },
+    {
+      "name": "綾瀬はるか",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.2,
+      "imageCount": 1
+    },
+    {
+      "name": "美ノ海義久",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.0,
+      "imageCount": 1
+    },
+    {
+      "name": "羽生結弦",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "翔猿正也",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.2,
+      "imageCount": 1
+    },
+    {
+      "name": "臥牙丸勝",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 41.2,
+      "imageCount": 1
+    },
+    {
+      "name": "舞の海秀平",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.6,
+      "imageCount": 1
+    },
+    {
+      "name": "芦田愛菜",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.7,
+      "imageCount": 1
+    },
+    {
+      "name": "若の里忍",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.6,
+      "imageCount": 1
+    },
+    {
+      "name": "若乃花勝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "若元春港",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.7,
+      "imageCount": 1
+    },
+    {
+      "name": "若荒雄匡也",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.0,
+      "imageCount": 1
+    },
+    {
+      "name": "若隆景渥",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "英乃海拓也",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "草なぎ剛",
+      "category": "actor",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "荒川静香",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "菅原由勢",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 51.5,
+      "imageCount": 1
+    },
+    {
+      "name": "菅田将暉",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.3,
+      "imageCount": 1
+    },
+    {
+      "name": "菅野智之",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "菊池涼介",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "萩本欽一",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "萩野公介",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "落合博満",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.6,
+      "imageCount": 1
+    },
+    {
+      "name": "葛西紀明",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.9,
+      "imageCount": 1
+    },
+    {
+      "name": "蒼井優",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.7,
+      "imageCount": 1
+    },
+    {
+      "name": "蒼国来栄吉",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.3,
+      "imageCount": 1
+    },
+    {
+      "name": "薬師丸ひろ子",
+      "category": "actress",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "藤井フミヤ",
+      "category": "cultural",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "藤波辰爾",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.3,
+      "imageCount": 1
+    },
+    {
+      "name": "藤浪晋太郎",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "藤田ニコル",
+      "category": "influencer",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "衣笠祥雄",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 41.6,
+      "imageCount": 1
+    },
+    {
+      "name": "西島秀俊",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 47.6,
+      "imageCount": 1
+    },
+    {
+      "name": "西野カナ",
+      "category": "artist",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "西野七瀬",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "見取り図盛山",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 56.5,
+      "imageCount": 1
+    },
+    {
+      "name": "角田夏実",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "谷亮子",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "谷口彰悟",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "豊ノ島大樹",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 40.5,
+      "imageCount": 1
+    },
+    {
+      "name": "豊昇龍智勝",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "豪栄道豪太郎",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "豪風旭",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "貴乃花光司",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.4,
+      "imageCount": 1
+    },
+    {
+      "name": "貴景勝光信",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "賀喜遥香",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "辰吉丈一郎",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.8,
+      "imageCount": 1
+    },
+    {
+      "name": "近藤健介",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "逸ノ城駿",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "道枝駿佑",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.4,
+      "imageCount": 1
+    },
+    {
+      "name": "遠藤さくら",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "遠藤保仁",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "遠藤聖大",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "遠藤航",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.4,
+      "imageCount": 1
+    },
+    {
+      "name": "那須川天心",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.5,
+      "imageCount": 1
+    },
+    {
+      "name": "酒井宏樹",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "野口衣織",
+      "category": "idol",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "野村克也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 43.2,
+      "imageCount": 1
+    },
+    {
+      "name": "野茂英雄",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "金峰山晴樹",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "金村美玖",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.6,
+      "imageCount": 1
+    },
+    {
+      "name": "鈴木亮平",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.0,
+      "imageCount": 1
+    },
+    {
+      "name": "鈴木彩艶",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.4,
+      "imageCount": 1
+    },
+    {
+      "name": "鈴木敏夫",
+      "category": "cultural",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 43.8,
+      "imageCount": 1
+    },
+    {
+      "name": "鈴木明子",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.0,
+      "imageCount": 1
+    },
+    {
+      "name": "鈴木瞳美",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.6,
+      "imageCount": 1
+    },
+    {
+      "name": "鈴木誠也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 63.0,
+      "imageCount": 1
+    },
+    {
+      "name": "錦富士隆聖",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.0,
+      "imageCount": 1
+    },
+    {
+      "name": "錦木徹也",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "錦織圭",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 49.8,
+      "imageCount": 1
+    },
+    {
+      "name": "錦鯉渡辺",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.7,
+      "imageCount": 1
+    },
+    {
+      "name": "鎌田大地",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.6,
+      "imageCount": 1
+    },
+    {
+      "name": "長友佑都",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.4,
+      "imageCount": 1
+    },
+    {
+      "name": "長嶋茂雄",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "長州力",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.4,
+      "imageCount": 1
+    },
+    {
+      "name": "長澤まさみ",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.4,
+      "imageCount": 1
+    },
+    {
+      "name": "長谷川唯",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 59.1,
+      "imageCount": 1
+    },
+    {
+      "name": "長谷部誠",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.7,
+      "imageCount": 1
+    },
+    {
+      "name": "間宮祥太朗",
+      "category": "actor",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "阿武咲奎也",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 48.2,
+      "imageCount": 1
+    },
+    {
+      "name": "阿炎政竜",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "阿炎政虎",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "阿覧欧虎",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "阿部寛",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 52.0,
+      "imageCount": 1
+    },
+    {
+      "name": "阿部慎之助",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 45.0,
+      "imageCount": 1
+    },
+    {
+      "name": "陣内智則",
+      "category": "comedian",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "隆の里俊英",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "隠岐の海歩",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 44.9,
+      "imageCount": 1
+    },
+    {
+      "name": "雅山哲士",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 46.5,
+      "imageCount": 1
+    },
+    {
+      "name": "霧馬山鐵雄",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "青山直晃",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "青島拓馬",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "青木宣親",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.2,
+      "imageCount": 1
+    },
+    {
+      "name": "青木真也",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.5,
+      "imageCount": 1
+    },
+    {
+      "name": "青木翔大",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "音嶋莉沙",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 54.8,
+      "imageCount": 1
+    },
+    {
+      "name": "飯豊まりえ",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.8,
+      "imageCount": 1
+    },
+    {
+      "name": "饗庭瑞生",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "香取慎吾",
+      "category": "actor",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.6,
+      "imageCount": 1
+    },
+    {
+      "name": "馬場雄大",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "高安晃",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "invalid_eyes_above_nose",
+      "imageCount": 1
+    },
+    {
+      "name": "高山善廣",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 40.3,
+      "imageCount": 1
+    },
+    {
+      "name": "高梨沙羅",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "高橋尚子",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "高橋由伸",
+      "category": "athlete",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.1,
+      "imageCount": 1
+    },
+    {
+      "name": "高畑充希",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 50.1,
+      "imageCount": 1
+    },
+    {
+      "name": "高見盛精彦",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "魁皇博之",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "魁聖一郎",
+      "category": "sumo",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 57.1,
+      "imageCount": 1
+    },
+    {
+      "name": "魔裟斗",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "鶴竜力三郎",
+      "category": "sumo",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "麒麟川島明",
+      "category": "comedian",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 58.2,
+      "imageCount": 1
+    },
+    {
+      "name": "黒木華",
+      "category": "actress",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 55.8,
+      "imageCount": 1
+    },
+    {
+      "name": "黒田博樹",
+      "category": "athlete",
+      "status": "rejected",
+      "reason": "no_face_detected",
+      "imageCount": 1
+    },
+    {
+      "name": "齊藤なぎさ",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 53.8,
+      "imageCount": 1
+    },
+    {
+      "name": "齋藤飛鳥",
+      "category": "idol",
+      "status": "accepted",
+      "reason": "ok",
+      "source": "mediapipe",
+      "score": 60.0,
+      "imageCount": 1
+    }
+  ]
+}

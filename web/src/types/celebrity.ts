@@ -41,4 +41,7 @@ export interface Celebrity {
   rank?: number;
   rankingEligible?: boolean;
   rankingExclusionReasons?: string[];
+  faceValidationStatus?: 'accepted' | 'undetected' | 'rejected';
+  faceValidationReason?: string;
+  faceValidationSource?: string;
 }

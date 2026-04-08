@@ -19,6 +19,7 @@ INPUT_DIR = SCRIPT_DIR / "input_images"
 DATA_DIR = SCRIPT_DIR.parent / "web" / "public" / "data"
 META_FILE = SCRIPT_DIR / "meta_backup.json"
 WIKIDATA_META_FILE = SCRIPT_DIR / "meta_wikidata.json"
+FACE_AUDIT_FILE = SCRIPT_DIR / "face_audit_report.json"
 
 VALID_GENDERS = {"male", "female", "unknown"}
 FEMALE_CATEGORIES = {"actress", "idol"}
@@ -121,6 +122,18 @@ def load_json_if_exists(path: Path) -> dict:
         return json.load(f)
 
 
+def load_face_audit_entries(path: Path) -> dict[str, dict]:
+    data = load_json_if_exists(path)
+    entries = data.get("entries")
+    if not isinstance(entries, list):
+        return {}
+    return {
+        entry["name"]: entry
+        for entry in entries
+        if isinstance(entry, dict) and isinstance(entry.get("name"), str)
+    }
+
+
 def calculate_age_from_birth_date(value: str | None) -> int | None:
     if not value:
         return None
@@ -192,6 +205,7 @@ with open(DATA_DIR / "celebrities.json", "r", encoding="utf-8") as f:
 # Load metadata sources
 meta_backup = load_json_if_exists(META_FILE)
 meta_wikidata = load_json_if_exists(WIKIDATA_META_FILE)
+face_audit_entries = load_face_audit_entries(FACE_AUDIT_FILE)
 
 updated = 0
 for cel in celebrities:
@@ -229,6 +243,25 @@ for cel in celebrities:
         category=cel.get("category", ""),
         existing_gender=normalize_gender(cel.get("gender")),
     )
+
+    audit_entry = face_audit_entries.get(name)
+    if audit_entry:
+        reason = audit_entry.get("reason", "unknown")
+        if audit_entry.get("status") == "accepted":
+            cel["faceValidationStatus"] = "accepted"
+            cel.pop("faceValidationReason", None)
+        elif reason == "no_face_detected":
+            cel["faceValidationStatus"] = "undetected"
+            cel["faceValidationReason"] = reason
+        else:
+            cel["faceValidationStatus"] = "rejected"
+            cel["faceValidationReason"] = reason
+
+        source = audit_entry.get("source")
+        if source:
+            cel["faceValidationSource"] = source
+        else:
+            cel.pop("faceValidationSource", None)
 
     # Recalculate score variants
     score = cel["score"]
