@@ -172,12 +172,12 @@ export default function DiagnosePage() {
 
       <div className="mt-8 p-4 bg-slate-800/50 rounded-lg text-sm text-slate-500 space-y-2">
         <p>
-          ※ 数値は顔の比率ベースの目安です。
+          ※ 数値は参考スコアです。
         </p>
         <p>
-          ※ 画像はブラウザ内だけで処理します。
+          ※ 画像はブラウザ内だけで処理。
         </p>
-        <p>※ 左右対称は正面に近い写真のときだけ見ます。</p>
+        <p>※ 左右対称は正面寄りの写真向き。</p>
       </div>
     </div>
   );

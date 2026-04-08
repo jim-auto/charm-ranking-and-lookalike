@@ -379,11 +379,11 @@ export default function RankingPage() {
 
       {rankingScope === 'recommended' && recommendedExcludedCount > 0 && (
         <div className="mb-3 rounded-lg border border-amber-900/60 bg-amber-950/30 px-3 py-2 text-xs text-amber-200">
-          写真違いやカテゴリの偏りを避けるため、{recommendedExcludedCount} 件はこの表示から外しています。「全カテゴリ」で全部見られます。
+          {recommendedExcludedCount}件をこの表示から外しています。「全カテゴリ」で全件表示。
           {usesStrictReferenceRecommendedFilter &&
-            ' 参考値タブでは、クセの強いカテゴリをもう少し絞っています。'}
+            ' 参考値タブはさらに絞っています。'}
           {usesSymmetryOverall &&
-            ' 左右対称ありは、算出できた人だけが対象です。'}
+            ' 左右対称ありは算出できた人だけ。'}
         </div>
       )}
 
@@ -444,14 +444,14 @@ export default function RankingPage() {
       <div className="mb-2 rounded-lg border border-slate-800 bg-slate-900/70 px-3 py-2 text-xs text-slate-400">
         {usesOverallScore ? (
           <>
-            総合は偏差値順です。左右対称は初期設定では入れていません。ON にすると、算出できた人だけ少し反映します。肌は全員同点なので外しています。
+            総合は偏差値順。左右対称は初期OFF。ONで少し反映。肌は対象外。
           </>
         ) : (
           <>
-            このタブは「{getRankingMetricLabel(rankingMetric)}」の生点順です。カードには偏差値も併記しています。年齢補正とSNS補正は使いません。
+            このタブは「{getRankingMetricLabel(rankingMetric)}」の生点順。カード下に偏差値も表示。年齢補正とSNS補正なし。
             {selectedMetric.isReference &&
-              ' 鼻・輪郭・左右対称は写真の影響が強めです。'}
-            {' '}肌は全員同点なので外しています。
+              ' 鼻・輪郭・左右対称は写真差が出やすめ。'}
+            {' '}肌は対象外。
           </>
         )}
       </div>

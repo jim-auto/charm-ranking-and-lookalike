@@ -49,40 +49,28 @@ export const rankingMetricOptions: RankingMetricOption[] = [
 
 const metricDistributionGuides: Record<DetailRankingMetric, MetricDistributionGuide> = {
   golden_ratio: {
-    cause:
-      'いくつかの比率をまとめているので、中間に集まりやすいです。',
-    readingHint:
-      '細かい点差より、上位と下位の差を見ます。',
+    cause: '複数比率の合成で中間に集まりやすい',
+    readingHint: '細かい点差より帯で見る',
   },
   eyes: {
-    cause:
-      '表情、前髪、影で動きやすい指標です。',
-    readingHint:
-      '笑顔や伏し目も混ざるので、そのつもりで見ます。',
+    cause: '表情、前髪、影で動きやすい',
+    readingHint: '笑顔や伏し目も混ざる',
   },
   nose: {
-    cause:
-      '角度と光で見え方が変わりやすいです。',
-    readingHint:
-      '単独順位より、だいたいの傾向を見る指標です。',
+    cause: '角度と光で見え方が変わる',
+    readingHint: '単独順位より傾向を見る',
   },
   mouth: {
-    cause:
-      '真顔か笑顔かでかなり動きます。',
-    readingHint:
-      '真顔と笑顔が混ざるので、そのつもりで見ます。',
+    cause: '真顔か笑顔かでかなり動く',
+    readingHint: '真顔と笑顔が混ざる',
   },
   contour: {
-    cause:
-      '骨格そのものではなく、写真に写った下顔面を見ています。',
-    readingHint:
-      '単独順位より、目安として見るのが合っています。',
+    cause: '骨格そのものではなく下顔面の写りを見る',
+    readingHint: '単独順位より目安向き',
   },
   symmetry: {
-    cause:
-      '正面度と表情の影響がかなり大きいです。',
-    readingHint:
-      '正面写真向けの参考値です。',
+    cause: '正面度と表情の影響が大きい',
+    readingHint: '正面写真向けの参考値',
   },
 };
 

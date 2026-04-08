@@ -92,7 +92,7 @@ export default function MetricDistributionPanel({ distributions }: Props) {
       <div className="mb-4">
         <h3 className="text-sm font-semibold text-white sm:text-base">各指標の分布</h3>
         <p className="mt-1 text-xs text-slate-400 sm:text-sm">
-          今の表示条件での生点分布です。細かい比較は偏差値のほうが見やすいです。
+          今の表示条件での生点分布。細かい比較は偏差値向き。
         </p>
       </div>
 
