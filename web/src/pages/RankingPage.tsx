@@ -75,7 +75,7 @@ export default function RankingPage() {
   const [rankingScope, setRankingScope] = useState<RankingScope>('recommended');
   const [genderFilter, setGenderFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
-  const [useAge, setUseAge] = useState(false);
+  const [useAge, setUseAge] = useState(true);
   const [useSns, setUseSns] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);

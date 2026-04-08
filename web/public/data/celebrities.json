@@ -1483,9 +1483,12 @@
       "faceSns": 53.6,
       "faceAgeSns": 49.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-09-08"
+    "birthDate": "1994-09-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_43be9905",
@@ -1510,9 +1513,12 @@
       "faceSns": 53.6,
       "faceAgeSns": 22.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 54,
-    "birthDate": "1971-10-08"
+    "birthDate": "1971-10-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c2e1fedf",
@@ -1568,9 +1574,12 @@
       "faceSns": 53.6,
       "faceAgeSns": 15.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 60,
-    "birthDate": "1965-05-13"
+    "birthDate": "1965-05-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b46d27e1",
@@ -1595,9 +1604,12 @@
       "faceSns": 53.5,
       "faceAgeSns": 37.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1984-01-29"
+    "birthDate": "1984-01-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_66c887b0",
@@ -1649,9 +1661,12 @@
       "faceSns": 53.4,
       "faceAgeSns": 19.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 57,
-    "birthDate": "1968-10-29"
+    "birthDate": "1968-10-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f5d16040",
@@ -1676,9 +1691,12 @@
       "faceSns": 53.4,
       "faceAgeSns": -1.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 74,
-    "birthDate": "1951-12-03"
+    "birthDate": "1951-12-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c62f821e",
@@ -1703,9 +1721,12 @@
       "faceSns": 53.2,
       "faceAgeSns": 12.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1963-05-11"
+    "birthDate": "1963-05-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_211afab2",
@@ -1762,9 +1783,12 @@
       "faceSns": 53.2,
       "faceAgeSns": 28.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 49,
-    "birthDate": "1977-02-02"
+    "birthDate": "1977-02-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_710cb7f2",
@@ -1843,9 +1867,12 @@
       "faceSns": 53.1,
       "faceAgeSns": 22.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 54,
-    "birthDate": "1972-02-14"
+    "birthDate": "1972-02-14",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6df4c94b",
@@ -1870,9 +1897,12 @@
       "faceSns": 53.1,
       "faceAgeSns": 25.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1974-06-18"
+    "birthDate": "1974-06-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_cec17988",
@@ -1929,9 +1959,12 @@
       "faceSns": 53.0,
       "faceAgeSns": 30.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1978-06-24"
+    "birthDate": "1978-06-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_dcf7f3fc",
@@ -1956,9 +1989,12 @@
       "faceSns": 53.0,
       "faceAgeSns": 23.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-07-16"
+    "birthDate": "1972-07-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d88c205c",
@@ -1983,9 +2019,12 @@
       "faceSns": 53.0,
       "faceAgeSns": 4.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 69,
-    "birthDate": "1956-08-25"
+    "birthDate": "1956-08-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6d979c26",
@@ -2072,9 +2111,12 @@
       "faceSns": 53.0,
       "faceAgeSns": 18.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 57,
-    "birthDate": "1968-08-23"
+    "birthDate": "1968-08-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_820e672f",
@@ -2126,9 +2168,12 @@
       "faceSns": 53.0,
       "faceAgeSns": 50.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1996-10-08"
+    "birthDate": "1996-10-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f5977b60",
@@ -2211,9 +2256,12 @@
       "faceSns": 52.8,
       "faceAgeSns": 24.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1974-03-30"
+    "birthDate": "1974-03-30",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_3ba08e03",
@@ -2327,9 +2375,12 @@
       "faceSns": 52.8,
       "faceAgeSns": 34.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 44,
-    "birthDate": "1981-12-29"
+    "birthDate": "1981-12-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4f811f29",
@@ -2385,9 +2436,12 @@
       "faceSns": 52.7,
       "faceAgeSns": 17.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 58,
-    "birthDate": "1967-09-23"
+    "birthDate": "1967-09-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_fbf39237",
@@ -2412,9 +2466,12 @@
       "faceSns": 52.7,
       "faceAgeSns": 25.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1974-10-08"
+    "birthDate": "1974-10-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_28026792",
@@ -2439,9 +2496,12 @@
       "faceSns": 52.7,
       "faceAgeSns": 33.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 44,
-    "birthDate": "1982-01-05"
+    "birthDate": "1982-01-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_dbb05ca6",
@@ -2466,9 +2526,12 @@
       "faceSns": 52.6,
       "faceAgeSns": 2.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 70,
-    "birthDate": "1955-04-13"
+    "birthDate": "1955-04-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_34c4561b",
@@ -2551,9 +2614,12 @@
       "faceSns": 52.5,
       "faceAgeSns": 48.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-11-10"
+    "birthDate": "1994-11-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_babcad9f",
@@ -2578,9 +2644,12 @@
       "faceSns": 52.4,
       "faceAgeSns": 24.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-06-27"
+    "birthDate": "1973-06-27",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d9e3f630",
@@ -2667,9 +2736,12 @@
       "faceSns": 52.3,
       "faceAgeSns": 35.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1984-01-18"
+    "birthDate": "1984-01-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_932743cd",
@@ -2694,9 +2766,12 @@
       "faceSns": 52.2,
       "faceAgeSns": 25.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1975-04-03"
+    "birthDate": "1975-04-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e245d548",
@@ -2721,9 +2796,12 @@
       "faceSns": 52.2,
       "faceAgeSns": 45.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-07-20"
+    "birthDate": "1991-07-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_26b24f55",
@@ -2748,9 +2826,12 @@
       "faceSns": 52.2,
       "faceAgeSns": 22.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-09-29"
+    "birthDate": "1972-09-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b9317c7d",
@@ -2775,9 +2856,12 @@
       "faceSns": 52.1,
       "faceAgeSns": 18.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 56,
-    "birthDate": "1969-04-26"
+    "birthDate": "1969-04-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e7588c0f",
@@ -2833,9 +2917,12 @@
       "faceSns": 51.9,
       "faceAgeSns": 23.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-12-04"
+    "birthDate": "1973-12-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_267dfe9a",
@@ -2860,9 +2947,12 @@
       "faceSns": 51.8,
       "faceAgeSns": 55.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 24,
-    "birthDate": "2001-08-25"
+    "birthDate": "2001-08-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8ffa8614",
@@ -2887,9 +2977,12 @@
       "faceSns": 51.8,
       "faceAgeSns": 9.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 64,
-    "birthDate": "1962-02-01"
+    "birthDate": "1962-02-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1278ef8f",
@@ -2914,9 +3007,12 @@
       "faceSns": 51.8,
       "faceAgeSns": 5.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 67,
-    "birthDate": "1958-05-02"
+    "birthDate": "1958-05-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5b4eb7b4",
@@ -2941,9 +3037,12 @@
       "faceSns": 51.8,
       "faceAgeSns": 35.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1983-05-09"
+    "birthDate": "1983-05-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_aecfb502",
@@ -2968,9 +3067,12 @@
       "faceSns": 51.8,
       "faceAgeSns": 24.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1975-02-10"
+    "birthDate": "1975-02-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ff08aeb3",
@@ -2995,9 +3097,12 @@
       "faceSns": 51.7,
       "faceAgeSns": 50.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-05-20"
+    "birthDate": "1997-05-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_fe932ed3",
@@ -3022,9 +3127,12 @@
       "faceSns": 51.7,
       "faceAgeSns": 55.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 24,
-    "birthDate": "2001-08-07"
+    "birthDate": "2001-08-07",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_96872d3c",
@@ -3079,9 +3187,12 @@
       "faceSns": 51.6,
       "faceAgeSns": 20.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 54,
-    "birthDate": "1971-06-14"
+    "birthDate": "1971-06-14",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e2c9e678",
@@ -3106,9 +3217,12 @@
       "faceSns": 51.6,
       "faceAgeSns": 40.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 38,
-    "birthDate": "1987-05-12"
+    "birthDate": "1987-05-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d45b0ee1",
@@ -3191,9 +3305,12 @@
       "faceSns": 51.6,
       "faceAgeSns": 19.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 55,
-    "birthDate": "1970-05-15"
+    "birthDate": "1970-05-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_559a1270",
@@ -3218,9 +3335,12 @@
       "faceSns": 51.6,
       "faceAgeSns": 48.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 30,
-    "birthDate": "1995-11-07"
+    "birthDate": "1995-11-07",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_51f05250",
@@ -3276,9 +3396,12 @@
       "faceSns": 51.4,
       "faceAgeSns": 46.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-09-01"
+    "birthDate": "1993-09-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_90d4aec0",
@@ -3335,9 +3458,12 @@
       "faceSns": 51.3,
       "faceAgeSns": 4.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 67,
-    "birthDate": "1958-07-22"
+    "birthDate": "1958-07-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4abd01c6",
@@ -3362,9 +3488,12 @@
       "faceSns": 51.3,
       "faceAgeSns": 10.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1963-05-05"
+    "birthDate": "1963-05-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_39b9baef",
@@ -3418,9 +3547,12 @@
       "faceSns": 51.2,
       "faceAgeSns": 20.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 54,
-    "birthDate": "1971-10-23"
+    "birthDate": "1971-10-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8ed3c9ef",
@@ -3445,9 +3577,12 @@
       "faceSns": 51.2,
       "faceAgeSns": 54.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2001-01-01"
+    "birthDate": "2001-01-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_febd48a6",
@@ -3472,9 +3607,12 @@
       "faceSns": 51.0,
       "faceAgeSns": 32.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 44,
-    "birthDate": "1982-03-15"
+    "birthDate": "1982-03-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ebf0e695",
@@ -3499,9 +3637,12 @@
       "faceSns": 51.0,
       "faceAgeSns": 32.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 44,
-    "birthDate": "1982-03-15"
+    "birthDate": "1982-03-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b882082b",
@@ -3526,9 +3667,12 @@
       "faceSns": 51.0,
       "faceAgeSns": 38.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-05-26"
+    "birthDate": "1986-05-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5cd2c24c",
@@ -3553,9 +3697,12 @@
       "faceSns": 51.0,
       "faceAgeSns": 28.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1979-03-10"
+    "birthDate": "1979-03-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d1524fda",
@@ -3580,9 +3727,12 @@
       "faceSns": 50.9,
       "faceAgeSns": 23.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1974-12-25"
+    "birthDate": "1974-12-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5f2d3df0",
@@ -3671,9 +3821,12 @@
       "faceSns": 50.8,
       "faceAgeSns": 30.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 45,
-    "birthDate": "1980-04-15"
+    "birthDate": "1980-04-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ea94fbff",
@@ -3731,9 +3884,12 @@
       "faceSns": 50.8,
       "faceAgeSns": 48.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1996-08-24"
+    "birthDate": "1996-08-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7e883dd6",
@@ -3877,9 +4033,12 @@
       "faceSns": 50.7,
       "faceAgeSns": 49.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-10-20"
+    "birthDate": "1997-10-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_df5afd63",
@@ -3904,9 +4063,12 @@
       "faceSns": 50.7,
       "faceAgeSns": 37.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-06-13"
+    "birthDate": "1986-06-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7faa8bee",
@@ -3931,9 +4093,12 @@
       "faceSns": 50.7,
       "faceAgeSns": 42.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-04-12"
+    "birthDate": "1990-04-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_3d3c0a3f",
@@ -3958,9 +4123,12 @@
       "faceSns": 50.6,
       "faceAgeSns": 22.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-07-04"
+    "birthDate": "1973-07-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b63824dd",
@@ -3985,9 +4153,12 @@
       "faceSns": 50.6,
       "faceAgeSns": 29.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 46,
-    "birthDate": "1979-11-10"
+    "birthDate": "1979-11-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a347c13c",
@@ -4012,9 +4183,12 @@
       "faceSns": 50.6,
       "faceAgeSns": 17.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 56,
-    "birthDate": "1970-03-31"
+    "birthDate": "1970-03-31",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_732cfdc9",
@@ -4039,9 +4213,12 @@
       "faceSns": 50.6,
       "faceAgeSns": -23.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 90,
-    "birthDate": "1935-06-29"
+    "birthDate": "1935-06-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_69e73e58",
@@ -4097,9 +4274,12 @@
       "faceSns": 50.4,
       "faceAgeSns": 28.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1979-02-09"
+    "birthDate": "1979-02-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_21e7e113",
@@ -4124,9 +4304,12 @@
       "faceSns": 50.4,
       "faceAgeSns": -0.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 71,
-    "birthDate": "1955-01-26"
+    "birthDate": "1955-01-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_3d1e3626",
@@ -4151,9 +4334,12 @@
       "faceSns": 50.4,
       "faceAgeSns": 54.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 24,
-    "birthDate": "2001-08-21"
+    "birthDate": "2001-08-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_52f3ac8c",
@@ -4236,9 +4422,12 @@
       "faceSns": 50.3,
       "faceAgeSns": 41.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 36,
-    "birthDate": "1990-01-24"
+    "birthDate": "1990-01-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_279e22d3",
@@ -4263,9 +4452,12 @@
       "faceSns": 50.3,
       "faceAgeSns": 43.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-07-29"
+    "birthDate": "1991-07-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_62dc0df1",
@@ -4290,9 +4482,12 @@
       "faceSns": 50.2,
       "faceAgeSns": 35.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 41,
-    "birthDate": "1985-03-28"
+    "birthDate": "1985-03-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a0f20d41",
@@ -4317,9 +4512,12 @@
       "faceSns": 50.2,
       "faceAgeSns": 27.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1979-02-03"
+    "birthDate": "1979-02-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ccecfe2c",
@@ -4344,9 +4542,12 @@
       "faceSns": 50.1,
       "faceAgeSns": 42.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-11-01"
+    "birthDate": "1990-11-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a15357f2",
@@ -4371,9 +4572,12 @@
       "faceSns": 50.1,
       "faceAgeSns": 9.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1963-09-08"
+    "birthDate": "1963-09-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_019d01ca",
@@ -4398,9 +4602,12 @@
       "faceSns": 50.1,
       "faceAgeSns": 43.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-05-09"
+    "birthDate": "1991-05-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_edeae298",
@@ -4425,9 +4632,12 @@
       "faceSns": 50.1,
       "faceAgeSns": 43.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-11-23"
+    "birthDate": "1991-11-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7614912c",
@@ -4452,9 +4662,12 @@
       "faceSns": 50.1,
       "faceAgeSns": 20.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-08-12"
+    "birthDate": "1972-08-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a477ab4e",
@@ -4506,9 +4719,12 @@
       "faceSns": 50.0,
       "faceAgeSns": 8.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 63,
-    "birthDate": "1962-06-06"
+    "birthDate": "1962-06-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_87212365",
@@ -4533,9 +4749,12 @@
       "faceSns": 50.0,
       "faceAgeSns": 36.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 40,
-    "birthDate": "1986-01-12"
+    "birthDate": "1986-01-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9058631c",
@@ -4560,9 +4779,12 @@
       "faceSns": 50.0,
       "faceAgeSns": 21.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-12-13"
+    "birthDate": "1973-12-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_81ac4847",
@@ -4674,9 +4896,12 @@
       "faceSns": 49.8,
       "faceAgeSns": 44.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1993-03-09"
+    "birthDate": "1993-03-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ff51d05d",
@@ -4701,9 +4926,12 @@
       "faceSns": 49.8,
       "faceAgeSns": 52.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2001-01-01"
+    "birthDate": "2001-01-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1dbbe00c",
@@ -4728,9 +4956,12 @@
       "faceSns": 49.8,
       "faceAgeSns": 34.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 41,
-    "birthDate": "1984-11-05"
+    "birthDate": "1984-11-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_90db6e29",
@@ -4755,9 +4986,12 @@
       "faceSns": 49.8,
       "faceAgeSns": 40.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 36,
-    "birthDate": "1989-06-09"
+    "birthDate": "1989-06-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f07f5d9e",
@@ -4782,9 +5016,12 @@
       "faceSns": 49.8,
       "faceAgeSns": 39.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-11-01"
+    "birthDate": "1988-11-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_991b93e0",
@@ -4809,9 +5046,12 @@
       "faceSns": 49.7,
       "faceAgeSns": 35.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 40,
-    "birthDate": "1986-01-09"
+    "birthDate": "1986-01-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5ebe34be",
@@ -4836,9 +5076,12 @@
       "faceSns": 49.7,
       "faceAgeSns": -8.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 77,
-    "birthDate": "1948-08-19"
+    "birthDate": "1948-08-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d04d3faa",
@@ -4863,9 +5106,12 @@
       "faceSns": 49.6,
       "faceAgeSns": 52.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2000-10-21"
+    "birthDate": "2000-10-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9735df76",
@@ -4890,9 +5136,12 @@
       "faceSns": 49.6,
       "faceAgeSns": 26.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 48,
-    "birthDate": "1977-04-14"
+    "birthDate": "1977-04-14",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_823e1d4c",
@@ -4976,9 +5225,12 @@
       "faceSns": 49.5,
       "faceAgeSns": 7.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 63,
-    "birthDate": "1962-12-23"
+    "birthDate": "1962-12-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5fb19187",
@@ -5003,9 +5255,12 @@
       "faceSns": 49.4,
       "faceAgeSns": 43.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1993-03-18"
+    "birthDate": "1993-03-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c493e8ad",
@@ -5030,9 +5285,12 @@
       "faceSns": 49.4,
       "faceAgeSns": 54.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 23,
-    "birthDate": "2002-08-21"
+    "birthDate": "2002-08-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_059f9821",
@@ -5089,9 +5347,12 @@
       "faceSns": 49.3,
       "faceAgeSns": 28.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 46,
-    "birthDate": "1979-09-27"
+    "birthDate": "1979-09-27",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e9ce073c",
@@ -5147,9 +5408,12 @@
       "faceSns": 49.3,
       "faceAgeSns": 44.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-08-09"
+    "birthDate": "1993-08-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ac7524e2",
@@ -5201,9 +5465,12 @@
       "faceSns": 49.2,
       "faceAgeSns": 8.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1964-02-13"
+    "birthDate": "1964-02-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_66726759",
@@ -5228,9 +5495,12 @@
       "faceSns": 49.2,
       "faceAgeSns": 44.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-08-30"
+    "birthDate": "1993-08-30",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_63486bf4",
@@ -5255,9 +5525,12 @@
       "faceSns": 49.1,
       "faceAgeSns": 32.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1983-05-06"
+    "birthDate": "1983-05-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9475748b",
@@ -5282,9 +5555,12 @@
       "faceSns": 48.9,
       "faceAgeSns": 31.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 43,
-    "birthDate": "1982-09-22"
+    "birthDate": "1982-09-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1104276d",
@@ -5309,9 +5585,12 @@
       "faceSns": 48.8,
       "faceAgeSns": 19.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-04-26"
+    "birthDate": "1972-04-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ffd3013a",
@@ -5336,9 +5615,12 @@
       "faceSns": 48.8,
       "faceAgeSns": 46.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1996-06-30"
+    "birthDate": "1996-06-30",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6f7fd76c",
@@ -5391,9 +5673,12 @@
       "faceSns": 48.7,
       "faceAgeSns": -1.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 70,
-    "birthDate": "1956-03-24"
+    "birthDate": "1956-03-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5394f67c",
@@ -5418,9 +5703,12 @@
       "faceSns": 48.6,
       "faceAgeSns": 37.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 38,
-    "birthDate": "1987-11-08"
+    "birthDate": "1987-11-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_db711d1c",
@@ -5445,9 +5733,12 @@
       "faceSns": 48.6,
       "faceAgeSns": 19.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-07-04"
+    "birthDate": "1972-07-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7cee5860",
@@ -5472,9 +5763,12 @@
       "faceSns": 48.6,
       "faceAgeSns": 33.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 41,
-    "birthDate": "1984-10-15"
+    "birthDate": "1984-10-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1fbd93fe",
@@ -5499,9 +5793,12 @@
       "faceSns": 48.6,
       "faceAgeSns": 52.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 24,
-    "birthDate": "2001-06-04"
+    "birthDate": "2001-06-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_da152d88",
@@ -5526,9 +5823,12 @@
       "faceSns": 48.6,
       "faceAgeSns": 16.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 55,
-    "birthDate": "1970-08-06"
+    "birthDate": "1970-08-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b378ed24",
@@ -5553,9 +5853,12 @@
       "faceSns": 48.6,
       "faceAgeSns": 40.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-08-11"
+    "birthDate": "1990-08-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b540e278",
@@ -5580,9 +5883,12 @@
       "faceSns": 48.4,
       "faceAgeSns": -20.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 86,
-    "birthDate": "1940-02-06"
+    "birthDate": "1940-02-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_00573e3e",
@@ -5607,9 +5913,12 @@
       "faceSns": 48.4,
       "faceAgeSns": 46.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-12-17"
+    "birthDate": "1997-12-17",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f3ef5479",
@@ -5634,9 +5943,12 @@
       "faceSns": 48.4,
       "faceAgeSns": -4.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 72,
-    "birthDate": "1953-12-28"
+    "birthDate": "1953-12-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5e0f9f69",
@@ -5661,9 +5973,12 @@
       "faceSns": 48.4,
       "faceAgeSns": 41.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-07-15"
+    "birthDate": "1991-07-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_afed590f",
@@ -5749,9 +6064,12 @@
       "faceSns": 48.0,
       "faceAgeSns": 40.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-10-12"
+    "birthDate": "1990-10-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_51472794",
@@ -5776,9 +6094,12 @@
       "faceSns": 48.0,
       "faceAgeSns": 44.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 30,
-    "birthDate": "1995-05-10"
+    "birthDate": "1995-05-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_45ee45d4",
@@ -5803,9 +6124,12 @@
       "faceSns": 48.0,
       "faceAgeSns": 6.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 63,
-    "birthDate": "1963-02-02"
+    "birthDate": "1963-02-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_03461ce3",
@@ -5830,9 +6154,12 @@
       "faceSns": 47.9,
       "faceAgeSns": 23.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 49,
-    "birthDate": "1976-06-06"
+    "birthDate": "1976-06-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b611ec1d",
@@ -5857,9 +6184,12 @@
       "faceSns": 47.8,
       "faceAgeSns": 17.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 54,
-    "birthDate": "1972-01-19"
+    "birthDate": "1972-01-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_03d21e14",
@@ -5942,9 +6272,12 @@
       "faceSns": 47.8,
       "faceAgeSns": 3.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 65,
-    "birthDate": "1960-07-06"
+    "birthDate": "1960-07-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ce12edd4",
@@ -5969,9 +6302,12 @@
       "faceSns": 47.8,
       "faceAgeSns": 42.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1992-08-06"
+    "birthDate": "1992-08-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6ea0542d",
@@ -5996,9 +6332,12 @@
       "faceSns": 47.7,
       "faceAgeSns": 49.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 26,
-    "birthDate": "1999-09-04"
+    "birthDate": "1999-09-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9df49b86",
@@ -6023,9 +6362,12 @@
       "faceSns": 47.7,
       "faceAgeSns": 42.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1993-02-23"
+    "birthDate": "1993-02-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b59422ac",
@@ -6077,9 +6419,12 @@
       "faceSns": 47.7,
       "faceAgeSns": -7.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 74,
-    "birthDate": "1951-12-23"
+    "birthDate": "1951-12-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a2948e70",
@@ -6104,9 +6449,12 @@
       "faceSns": 47.6,
       "faceAgeSns": -6.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 73,
-    "birthDate": "1953-04-01"
+    "birthDate": "1953-04-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b259d958",
@@ -6190,9 +6538,12 @@
       "faceSns": 47.6,
       "faceAgeSns": 39.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-09-25"
+    "birthDate": "1990-09-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8a939d4b",
@@ -6247,9 +6598,12 @@
       "faceSns": 47.5,
       "faceAgeSns": 31.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1983-10-05"
+    "birthDate": "1983-10-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_42b5c774",
@@ -6305,9 +6659,12 @@
       "faceSns": 47.4,
       "faceAgeSns": 45.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1998-03-16"
+    "birthDate": "1998-03-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_86a3749d",
@@ -6332,9 +6689,12 @@
       "faceSns": 47.4,
       "faceAgeSns": 17.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-09-16"
+    "birthDate": "1972-09-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6eb00b9d",
@@ -6390,9 +6750,12 @@
       "faceSns": 47.4,
       "faceAgeSns": 41.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1992-05-28"
+    "birthDate": "1992-05-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ea5ea927",
@@ -6447,9 +6810,12 @@
       "faceSns": 47.3,
       "faceAgeSns": 32.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 41,
-    "birthDate": "1984-06-13"
+    "birthDate": "1984-06-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_942645d6",
@@ -6474,9 +6840,12 @@
       "faceSns": 47.3,
       "faceAgeSns": 34.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-08-22"
+    "birthDate": "1986-08-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_79de5e14",
@@ -6501,9 +6870,12 @@
       "faceSns": 47.3,
       "faceAgeSns": 43.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-10-13"
+    "birthDate": "1994-10-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_618284cd",
@@ -6528,9 +6900,12 @@
       "faceSns": 47.3,
       "faceAgeSns": 26.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 46,
-    "birthDate": "1979-06-21"
+    "birthDate": "1979-06-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f7b19298",
@@ -6586,9 +6961,12 @@
       "faceSns": 47.2,
       "faceAgeSns": 43.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1995-01-16"
+    "birthDate": "1995-01-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5edc166e",
@@ -6641,9 +7019,12 @@
       "faceSns": 47.2,
       "faceAgeSns": 42.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-07-30"
+    "birthDate": "1993-07-30",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_06f73f76",
@@ -6728,9 +7109,12 @@
       "faceSns": 47.1,
       "faceAgeSns": 17.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-05-06"
+    "birthDate": "1972-05-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ef17039b",
@@ -6755,9 +7139,12 @@
       "faceSns": 47.0,
       "faceAgeSns": 46.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-09-02"
+    "birthDate": "1998-09-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_07bafcfd",
@@ -6782,9 +7169,12 @@
       "faceSns": 47.0,
       "faceAgeSns": 39.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-05-18"
+    "birthDate": "1990-05-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_55e7d430",
@@ -6809,9 +7199,12 @@
       "faceSns": 47.0,
       "faceAgeSns": 41.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1993-02-09"
+    "birthDate": "1993-02-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6b68664d",
@@ -6836,9 +7229,12 @@
       "faceSns": 46.9,
       "faceAgeSns": 25.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 46,
-    "birthDate": "1980-01-28"
+    "birthDate": "1980-01-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_367a801d",
@@ -6863,9 +7259,12 @@
       "faceSns": 46.8,
       "faceAgeSns": 36.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1989-01-06"
+    "birthDate": "1989-01-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_13324160",
@@ -6890,9 +7289,12 @@
       "faceSns": 46.8,
       "faceAgeSns": 11.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 58,
-    "birthDate": "1967-09-19"
+    "birthDate": "1967-09-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c2bfad08",
@@ -6917,9 +7319,12 @@
       "faceSns": 46.8,
       "faceAgeSns": 25.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 46,
-    "birthDate": "1980-01-28"
+    "birthDate": "1980-01-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5d64a1bc",
@@ -6944,9 +7349,12 @@
       "faceSns": 46.8,
       "faceAgeSns": 44.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1996-08-05"
+    "birthDate": "1996-08-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_207654ff",
@@ -6971,9 +7379,12 @@
       "faceSns": 46.7,
       "faceAgeSns": 48.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 26,
-    "birthDate": "1999-05-12"
+    "birthDate": "1999-05-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5d448f34",
@@ -6998,9 +7409,12 @@
       "faceSns": 46.6,
       "faceAgeSns": -56.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 114,
-    "birthDate": "1912-02-09"
+    "birthDate": "1912-02-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6078eafb",
@@ -7025,9 +7439,12 @@
       "faceSns": 46.6,
       "faceAgeSns": 42.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1995-01-17"
+    "birthDate": "1995-01-17",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5ed737d9",
@@ -7084,9 +7501,12 @@
       "faceSns": 46.5,
       "faceAgeSns": 42.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-11-07"
+    "birthDate": "1994-11-07",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1a37ab4a",
@@ -7111,9 +7531,12 @@
       "faceSns": 46.5,
       "faceAgeSns": 42.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-10-24"
+    "birthDate": "1994-10-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_72d8d22d",
@@ -7138,9 +7561,12 @@
       "faceSns": 46.5,
       "faceAgeSns": 33.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-09-12"
+    "birthDate": "1986-09-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1dd830b0",
@@ -7192,9 +7618,12 @@
       "faceSns": 46.4,
       "faceAgeSns": 40.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1992-07-15"
+    "birthDate": "1992-07-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_49db2096",
@@ -7219,9 +7648,12 @@
       "faceSns": 46.4,
       "faceAgeSns": 36.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-04-16"
+    "birthDate": "1988-04-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_fa7bc9b7",
@@ -7246,9 +7678,12 @@
       "faceSns": 46.4,
       "faceAgeSns": -20.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 84,
-    "birthDate": "1941-05-07"
+    "birthDate": "1941-05-07",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b54011ee",
@@ -7273,9 +7708,12 @@
       "faceSns": 46.4,
       "faceAgeSns": -27.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 90,
-    "birthDate": "1936-02-20"
+    "birthDate": "1936-02-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_3f99f4f9",
@@ -7327,9 +7765,12 @@
       "faceSns": 46.3,
       "faceAgeSns": 50.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 22,
-    "birthDate": "2003-06-27"
+    "birthDate": "2003-06-27",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_2783f349",
@@ -7354,9 +7795,12 @@
       "faceSns": 46.3,
       "faceAgeSns": 41.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-10-14"
+    "birthDate": "1993-10-14",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_77d4c4da",
@@ -7410,9 +7854,12 @@
       "faceSns": 46.1,
       "faceAgeSns": 17.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-12-26"
+    "birthDate": "1973-12-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d5ed8178",
@@ -7437,9 +7884,12 @@
       "faceSns": 46.0,
       "faceAgeSns": 22.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 48,
-    "birthDate": "1978-01-11"
+    "birthDate": "1978-01-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_85b14d12",
@@ -7464,9 +7914,12 @@
       "faceSns": 46.0,
       "faceAgeSns": 32.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 40,
-    "birthDate": "1985-07-29"
+    "birthDate": "1985-07-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_3dbe559b",
@@ -7522,9 +7975,12 @@
       "faceSns": 45.8,
       "faceAgeSns": 35.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1989-03-03"
+    "birthDate": "1989-03-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7f4bad0e",
@@ -7549,9 +8005,12 @@
       "faceSns": 45.6,
       "faceAgeSns": -6.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 72,
-    "birthDate": "1953-05-16"
+    "birthDate": "1953-05-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_94cd0899",
@@ -7576,9 +8035,12 @@
       "faceSns": 45.6,
       "faceAgeSns": 11.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 57,
-    "birthDate": "1968-04-24"
+    "birthDate": "1968-04-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9f1cbcdf",
@@ -7603,9 +8065,12 @@
       "faceSns": 45.6,
       "faceAgeSns": 37.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-10-17"
+    "birthDate": "1990-10-17",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_98636319",
@@ -7630,9 +8095,12 @@
       "faceSns": 45.5,
       "faceAgeSns": 44.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-06-27"
+    "birthDate": "1998-06-27",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_255fb357",
@@ -7657,9 +8125,12 @@
       "faceSns": 45.4,
       "faceAgeSns": 13.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 55,
-    "birthDate": "1971-03-30"
+    "birthDate": "1971-03-30",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8798b78a",
@@ -7684,9 +8155,12 @@
       "faceSns": 45.4,
       "faceAgeSns": -4.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 70,
-    "birthDate": "1955-06-01"
+    "birthDate": "1955-06-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0bb271b9",
@@ -7743,9 +8217,12 @@
       "faceSns": 45.4,
       "faceAgeSns": 15.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-06-06"
+    "birthDate": "1972-06-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b554f29d",
@@ -7770,9 +8247,12 @@
       "faceSns": 45.3,
       "faceAgeSns": 43.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-10-16"
+    "birthDate": "1997-10-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f1490cc6",
@@ -7797,9 +8277,12 @@
       "faceSns": 45.2,
       "faceAgeSns": 34.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-06-02"
+    "birthDate": "1988-06-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_952d9a6b",
@@ -7824,9 +8307,12 @@
       "faceSns": 45.2,
       "faceAgeSns": 22.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1978-09-22"
+    "birthDate": "1978-09-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_93aeea8d",
@@ -7882,9 +8368,12 @@
       "faceSns": 45.2,
       "faceAgeSns": -7.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 72,
-    "birthDate": "1953-12-09"
+    "birthDate": "1953-12-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b79964f2",
@@ -7939,9 +8428,12 @@
       "faceSns": 45.1,
       "faceAgeSns": 21.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 48,
-    "birthDate": "1977-07-28"
+    "birthDate": "1977-07-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e6388a21",
@@ -7966,9 +8458,12 @@
       "faceSns": 45.0,
       "faceAgeSns": 17.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1974-11-10"
+    "birthDate": "1974-11-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_39005004",
@@ -7993,9 +8488,12 @@
       "faceSns": 45.0,
       "faceAgeSns": -12.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 76,
-    "birthDate": "1950-02-20"
+    "birthDate": "1950-02-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_72bdf24e",
@@ -8020,9 +8518,12 @@
       "faceSns": 45.0,
       "faceAgeSns": 29.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 41,
-    "birthDate": "1984-11-16"
+    "birthDate": "1984-11-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0605fdd5",
@@ -8047,9 +8548,12 @@
       "faceSns": 45.0,
       "faceAgeSns": 41.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-08-18"
+    "birthDate": "1994-08-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_70717d55",
@@ -8101,9 +8605,12 @@
       "faceSns": 44.9,
       "faceAgeSns": 46.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 26,
-    "birthDate": "1999-05-22"
+    "birthDate": "1999-05-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_57f329f0",
@@ -8128,9 +8635,12 @@
       "faceSns": 44.9,
       "faceAgeSns": 30.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 40,
-    "birthDate": "1986-04-06"
+    "birthDate": "1986-04-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_77650e94",
@@ -8155,9 +8665,12 @@
       "faceSns": 44.9,
       "faceAgeSns": 40.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-05-04"
+    "birthDate": "1994-05-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_704a9262",
@@ -8182,9 +8695,12 @@
       "faceSns": 44.8,
       "faceAgeSns": 44.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-08-28"
+    "birthDate": "1998-08-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_80faf70b",
@@ -8209,9 +8725,12 @@
       "faceSns": 44.8,
       "faceAgeSns": 0.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 65,
-    "birthDate": "1960-05-22"
+    "birthDate": "1960-05-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_48a6fc56",
@@ -8236,9 +8755,12 @@
       "faceSns": 44.6,
       "faceAgeSns": 25.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 44,
-    "birthDate": "1982-03-19"
+    "birthDate": "1982-03-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c57c40c8",
@@ -8263,9 +8785,12 @@
       "faceSns": 44.6,
       "faceAgeSns": 31.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1987-02-23"
+    "birthDate": "1987-02-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d3709fe1",
@@ -8321,9 +8846,12 @@
       "faceSns": 44.5,
       "faceAgeSns": 31.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1987-03-09"
+    "birthDate": "1987-03-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_348fba4a",
@@ -8377,9 +8905,12 @@
       "faceSns": 44.4,
       "faceAgeSns": 43.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1999-03-13"
+    "birthDate": "1999-03-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9244cc06",
@@ -8435,9 +8966,12 @@
       "faceSns": 44.3,
       "faceAgeSns": 41.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1997-01-29"
+    "birthDate": "1997-01-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4b3b4015",
@@ -8462,9 +8996,12 @@
       "faceSns": 44.2,
       "faceAgeSns": 39.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1994-03-01"
+    "birthDate": "1994-03-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_440ab0ee",
@@ -8489,9 +9026,12 @@
       "faceSns": 44.1,
       "faceAgeSns": 42.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-04-09"
+    "birthDate": "1997-04-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_86612318",
@@ -8545,9 +9085,12 @@
       "faceSns": 44.0,
       "faceAgeSns": 6.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 60,
-    "birthDate": "1965-11-20"
+    "birthDate": "1965-11-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a6a7558e",
@@ -8603,9 +9146,12 @@
       "faceSns": 43.9,
       "faceAgeSns": 46.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2000-04-09"
+    "birthDate": "2000-04-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9d78d26e",
@@ -8630,9 +9176,12 @@
       "faceSns": 43.8,
       "faceAgeSns": 27.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1983-09-03"
+    "birthDate": "1983-09-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_56c2f4d9",
@@ -8684,9 +9233,12 @@
       "faceSns": 43.8,
       "faceAgeSns": 42.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-11-21"
+    "birthDate": "1997-11-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d299c6ba",
@@ -8711,9 +9263,12 @@
       "faceSns": 43.8,
       "faceAgeSns": 35.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1991-04-02"
+    "birthDate": "1991-04-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1a834022",
@@ -8738,9 +9293,12 @@
       "faceSns": 43.8,
       "faceAgeSns": 39.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-10-05"
+    "birthDate": "1993-10-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_bf14a0ea",
@@ -8765,9 +9323,12 @@
       "faceSns": 43.7,
       "faceAgeSns": 42.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-11-05"
+    "birthDate": "1998-11-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a0d9aa25",
@@ -8792,9 +9353,12 @@
       "faceSns": 43.6,
       "faceAgeSns": 24.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 44,
-    "birthDate": "1981-10-09"
+    "birthDate": "1981-10-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e9dd0ad7",
@@ -8819,9 +9383,12 @@
       "faceSns": 43.6,
       "faceAgeSns": 39.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-12-07"
+    "birthDate": "1994-12-07",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d9960803",
@@ -8846,9 +9413,12 @@
       "faceSns": 43.6,
       "faceAgeSns": 30.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-07-18"
+    "birthDate": "1986-07-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f8425f32",
@@ -8873,9 +9443,12 @@
       "faceSns": 43.5,
       "faceAgeSns": 3.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1963-11-04"
+    "birthDate": "1963-11-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_45712eae",
@@ -8900,9 +9473,12 @@
       "faceSns": 43.5,
       "faceAgeSns": 40.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 30,
-    "birthDate": "1995-12-15"
+    "birthDate": "1995-12-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4f321bae",
@@ -8927,9 +9503,12 @@
       "faceSns": 43.5,
       "faceAgeSns": 17.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 50,
-    "birthDate": "1975-07-29"
+    "birthDate": "1975-07-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1dbc59d5",
@@ -8954,9 +9533,12 @@
       "faceSns": 43.5,
       "faceAgeSns": 35.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-11-10"
+    "birthDate": "1990-11-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_14f44b42",
@@ -9010,9 +9592,12 @@
       "faceSns": 43.4,
       "faceAgeSns": 33.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-08-09"
+    "birthDate": "1988-08-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b30d70a3",
@@ -9037,9 +9622,12 @@
       "faceSns": 43.3,
       "faceAgeSns": 39.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-10-10"
+    "birthDate": "1994-10-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_abf4a056",
@@ -9094,9 +9682,12 @@
       "faceSns": 43.2,
       "faceAgeSns": 16.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1974-09-13"
+    "birthDate": "1974-09-13",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_dff994bc",
@@ -9121,9 +9712,12 @@
       "faceSns": 43.0,
       "faceAgeSns": 30.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-11-28"
+    "birthDate": "1986-11-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_08fa3955",
@@ -9179,9 +9773,12 @@
       "faceSns": 43.0,
       "faceAgeSns": -1.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 65,
-    "birthDate": "1961-03-27"
+    "birthDate": "1961-03-27",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_25241b7c",
@@ -9206,9 +9803,12 @@
       "faceSns": 43.0,
       "faceAgeSns": 14.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1974-02-26"
+    "birthDate": "1974-02-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0518b155",
@@ -9233,9 +9833,12 @@
       "faceSns": 43.0,
       "faceAgeSns": 13.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-09-23"
+    "birthDate": "1972-09-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5f3ff983",
@@ -9260,9 +9863,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 30.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-10-22"
+    "birthDate": "1986-10-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e2014d4e",
@@ -9287,9 +9893,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 2.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1963-12-08"
+    "birthDate": "1963-12-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4634a03e",
@@ -9314,9 +9923,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 18.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 49,
-    "birthDate": "1976-11-09"
+    "birthDate": "1976-11-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0bd5ba07",
@@ -9341,9 +9953,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 30.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-06-21"
+    "birthDate": "1986-06-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_31e9dcef",
@@ -9368,9 +9983,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 42.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1999-03-02"
+    "birthDate": "1999-03-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8580af3e",
@@ -9395,9 +10013,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 40.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1997-02-25"
+    "birthDate": "1997-02-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8751c58a",
@@ -9422,9 +10043,12 @@
       "faceSns": 42.8,
       "faceAgeSns": 45.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2000-06-28"
+    "birthDate": "2000-06-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_86977554",
@@ -9476,9 +10100,12 @@
       "faceSns": 42.6,
       "faceAgeSns": 21.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 46,
-    "birthDate": "1980-03-01"
+    "birthDate": "1980-03-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c14f326c",
@@ -9503,9 +10130,12 @@
       "faceSns": 42.6,
       "faceAgeSns": 14.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-09-11"
+    "birthDate": "1973-09-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e5a4571e",
@@ -9557,9 +10187,12 @@
       "faceSns": 42.5,
       "faceAgeSns": 17.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 49,
-    "birthDate": "1976-07-10"
+    "birthDate": "1976-07-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_bb0cc261",
@@ -9584,9 +10217,12 @@
       "faceSns": 42.3,
       "faceAgeSns": 31.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-04-11"
+    "birthDate": "1988-04-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e0521573",
@@ -9611,9 +10247,12 @@
       "faceSns": 42.2,
       "faceAgeSns": 1.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 62,
-    "birthDate": "1963-06-22"
+    "birthDate": "1963-06-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b4809349",
@@ -9638,9 +10277,12 @@
       "faceSns": 42.2,
       "faceAgeSns": 18.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 48,
-    "birthDate": "1977-09-15"
+    "birthDate": "1977-09-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ad40f3ba",
@@ -9665,9 +10307,12 @@
       "faceSns": 42.2,
       "faceAgeSns": 46.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 24,
-    "birthDate": "2001-11-03"
+    "birthDate": "2001-11-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_492325bc",
@@ -9692,9 +10337,12 @@
       "faceSns": 42.0,
       "faceAgeSns": 19.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1978-05-15"
+    "birthDate": "1978-05-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7e249402",
@@ -9719,9 +10367,12 @@
       "faceSns": 42.0,
       "faceAgeSns": 44.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 26,
-    "birthDate": "2000-02-02"
+    "birthDate": "2000-02-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_37fbcbe3",
@@ -9746,9 +10397,12 @@
       "faceSns": 42.0,
       "faceAgeSns": 25.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1983-06-26"
+    "birthDate": "1983-06-26",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_478a0fcd",
@@ -9773,9 +10427,12 @@
       "faceSns": 41.6,
       "faceAgeSns": 33.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-08-11"
+    "birthDate": "1990-08-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_375eb4ac",
@@ -9800,9 +10457,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 37.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-10-17"
+    "birthDate": "1994-10-17",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e56806ae",
@@ -9827,9 +10487,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 43.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 26,
-    "birthDate": "1999-04-09"
+    "birthDate": "1999-04-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a86f6d4b",
@@ -9854,9 +10517,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 21.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 45,
-    "birthDate": "1980-11-16"
+    "birthDate": "1980-11-16",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8862ff63",
@@ -9881,9 +10547,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 45.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 24,
-    "birthDate": "2001-05-02"
+    "birthDate": "2001-05-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_30d4d2e7",
@@ -9908,9 +10577,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 35.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1992-04-24"
+    "birthDate": "1992-04-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8d3c8c0c",
@@ -9935,9 +10607,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 33.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-10-19"
+    "birthDate": "1990-10-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c724b1b4",
@@ -9962,9 +10637,12 @@
       "faceSns": 41.4,
       "faceAgeSns": 39.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1996-07-22"
+    "birthDate": "1996-07-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5310b684",
@@ -9989,9 +10667,12 @@
       "faceSns": 41.2,
       "faceAgeSns": 21.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 45,
-    "birthDate": "1980-08-28"
+    "birthDate": "1980-08-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d048f7be",
@@ -10016,9 +10697,12 @@
       "faceSns": 41.2,
       "faceAgeSns": 16.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 49,
-    "birthDate": "1976-04-11"
+    "birthDate": "1976-04-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_af52eb32",
@@ -10043,9 +10727,12 @@
       "faceSns": 41.1,
       "faceAgeSns": 40.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-08-18"
+    "birthDate": "1998-08-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_deb24806",
@@ -10070,9 +10757,12 @@
       "faceSns": 40.7,
       "faceAgeSns": 32.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-08-25"
+    "birthDate": "1990-08-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_343a5326",
@@ -10097,9 +10787,12 @@
       "faceSns": 40.6,
       "faceAgeSns": 39.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-08-08"
+    "birthDate": "1997-08-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c5b713ef",
@@ -10124,9 +10817,12 @@
       "faceSns": 40.6,
       "faceAgeSns": 39.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-11-19"
+    "birthDate": "1997-11-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_62072a2d",
@@ -10151,9 +10847,12 @@
       "faceSns": 40.5,
       "faceAgeSns": 43.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2000-07-07"
+    "birthDate": "2000-07-07",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_388d73fe",
@@ -10178,9 +10877,12 @@
       "faceSns": 40.4,
       "faceAgeSns": 36.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-05-04"
+    "birthDate": "1994-05-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_cff3b39b",
@@ -10205,9 +10907,12 @@
       "faceSns": 40.2,
       "faceAgeSns": 14.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 50,
-    "birthDate": "1975-06-17"
+    "birthDate": "1975-06-17",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_38af7091",
@@ -10232,9 +10937,12 @@
       "faceSns": 40.2,
       "faceAgeSns": 14.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 50,
-    "birthDate": "1975-09-06"
+    "birthDate": "1975-09-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_e056c42f",
@@ -10259,9 +10967,12 @@
       "faceSns": 40.2,
       "faceAgeSns": 17.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1979-03-20"
+    "birthDate": "1979-03-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7b553a12",
@@ -10286,9 +10997,12 @@
       "faceSns": 40.1,
       "faceAgeSns": 22.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 43,
-    "birthDate": "1982-10-05"
+    "birthDate": "1982-10-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_1e06a224",
@@ -10313,9 +11027,12 @@
       "faceSns": 40.0,
       "faceAgeSns": 11.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-07-05"
+    "birthDate": "1973-07-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0171a423",
@@ -10340,9 +11057,12 @@
       "faceSns": 40.0,
       "faceAgeSns": 23.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1984-01-09"
+    "birthDate": "1984-01-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6d9f436e",
@@ -10367,9 +11087,12 @@
       "faceSns": 39.7,
       "faceAgeSns": 17.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 47,
-    "birthDate": "1978-04-15"
+    "birthDate": "1978-04-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f059fc5d",
@@ -10394,9 +11117,12 @@
       "faceSns": 39.2,
       "faceAgeSns": 42.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 25,
-    "birthDate": "2000-04-14"
+    "birthDate": "2000-04-14",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_5420fbe2",
@@ -10421,9 +11147,12 @@
       "faceSns": 39.2,
       "faceAgeSns": 3.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 58,
-    "birthDate": "1968-02-17"
+    "birthDate": "1968-02-17",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_2e00e8e6",
@@ -10448,9 +11177,12 @@
       "faceSns": 38.8,
       "faceAgeSns": 33.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1992-10-11"
+    "birthDate": "1992-10-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_ecb23943",
@@ -10475,9 +11207,12 @@
       "faceSns": 38.8,
       "faceAgeSns": 26.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-12-18"
+    "birthDate": "1986-12-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_3807068b",
@@ -10502,9 +11237,12 @@
       "faceSns": 38.6,
       "faceAgeSns": 28.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-11-14"
+    "birthDate": "1988-11-14",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_8d3be736",
@@ -10529,9 +11267,12 @@
       "faceSns": 38.4,
       "faceAgeSns": 32.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 33,
-    "birthDate": "1993-01-30"
+    "birthDate": "1993-01-30",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_fb0e9003",
@@ -10556,9 +11297,12 @@
       "faceSns": 38.4,
       "faceAgeSns": 28.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 37,
-    "birthDate": "1988-06-06"
+    "birthDate": "1988-06-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_fdce1bd9",
@@ -10583,9 +11327,12 @@
       "faceSns": 38.4,
       "faceAgeSns": 26.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 38,
-    "birthDate": "1987-12-18"
+    "birthDate": "1987-12-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6f5ef28c",
@@ -10610,9 +11357,12 @@
       "faceSns": 38.1,
       "faceAgeSns": -3.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 63,
-    "birthDate": "1962-06-18"
+    "birthDate": "1962-06-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_81887b90",
@@ -10637,9 +11387,12 @@
       "faceSns": 37.9,
       "faceAgeSns": 29.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 35,
-    "birthDate": "1990-07-10"
+    "birthDate": "1990-07-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_614b0acb",
@@ -10664,9 +11417,12 @@
       "faceSns": 37.8,
       "faceAgeSns": 8.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 53,
-    "birthDate": "1972-08-03"
+    "birthDate": "1972-08-03",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_cfccbcf1",
@@ -10691,9 +11447,12 @@
       "faceSns": 37.8,
       "faceAgeSns": -23.0
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 79,
-    "birthDate": "1947-01-18"
+    "birthDate": "1947-01-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_38f27583",
@@ -10718,9 +11477,12 @@
       "faceSns": 37.8,
       "faceAgeSns": 36.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 28,
-    "birthDate": "1997-06-24"
+    "birthDate": "1997-06-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d64e0fd0",
@@ -10745,9 +11507,12 @@
       "faceSns": 37.8,
       "faceAgeSns": 28.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 36,
-    "birthDate": "1990-02-28"
+    "birthDate": "1990-02-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_db1dd352",
@@ -10772,9 +11537,12 @@
       "faceSns": 37.7,
       "faceAgeSns": -30.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 85,
-    "birthDate": "1940-05-29"
+    "birthDate": "1940-05-29",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_d7707c7b",
@@ -10799,9 +11567,12 @@
       "faceSns": 37.7,
       "faceAgeSns": 36.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-11-15"
+    "birthDate": "1998-11-15",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_4c61d395",
@@ -10826,9 +11597,12 @@
       "faceSns": 37.3,
       "faceAgeSns": 8.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1974-03-21"
+    "birthDate": "1974-03-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c56489c7",
@@ -10853,9 +11627,12 @@
       "faceSns": 37.2,
       "faceAgeSns": 30.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-11-05"
+    "birthDate": "1991-11-05",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_9e880113",
@@ -10880,9 +11657,12 @@
       "faceSns": 37.2,
       "faceAgeSns": 24.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 39,
-    "birthDate": "1986-06-19"
+    "birthDate": "1986-06-19",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_80f9b882",
@@ -10907,9 +11687,12 @@
       "faceSns": 37.1,
       "faceAgeSns": 20.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1984-02-24"
+    "birthDate": "1984-02-24",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_29dedd36",
@@ -10934,9 +11717,12 @@
       "faceSns": 36.8,
       "faceAgeSns": 27.6
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 36,
-    "birthDate": "1989-06-11"
+    "birthDate": "1989-06-11",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b7e756ac",
@@ -10961,9 +11747,12 @@
       "faceSns": 36.6,
       "faceAgeSns": 9.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 51,
-    "birthDate": "1974-06-10"
+    "birthDate": "1974-06-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_b8d4f4cc",
@@ -10988,9 +11777,12 @@
       "faceSns": 36.4,
       "faceAgeSns": 18.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 43,
-    "birthDate": "1982-06-22"
+    "birthDate": "1982-06-22",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_63a03d75",
@@ -11015,9 +11807,12 @@
       "faceSns": 36.4,
       "faceAgeSns": 32.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-08-28"
+    "birthDate": "1994-08-28",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0507b90a",
@@ -11042,9 +11837,12 @@
       "faceSns": 36.3,
       "faceAgeSns": 11.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 49,
-    "birthDate": "1976-05-12"
+    "birthDate": "1976-05-12",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_7d9f8ed1",
@@ -11069,9 +11867,12 @@
       "faceSns": 35.7,
       "faceAgeSns": -22.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 77,
-    "birthDate": "1948-11-10"
+    "birthDate": "1948-11-10",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_58f675db",
@@ -11096,9 +11897,12 @@
       "faceSns": 35.3,
       "faceAgeSns": 31.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 31,
-    "birthDate": "1994-09-01"
+    "birthDate": "1994-09-01",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_0309b455",
@@ -11123,9 +11927,12 @@
       "faceSns": 35.2,
       "faceAgeSns": 34.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 27,
-    "birthDate": "1998-04-21"
+    "birthDate": "1998-04-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_265b40f4",
@@ -11150,9 +11957,12 @@
       "faceSns": 34.9,
       "faceAgeSns": -22.3
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 76,
-    "birthDate": "1950-02-02"
+    "birthDate": "1950-02-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_57bcf34b",
@@ -11177,9 +11987,12 @@
       "faceSns": 34.9,
       "faceAgeSns": 30.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 32,
-    "birthDate": "1993-05-06"
+    "birthDate": "1993-05-06",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_c24ea848",
@@ -11204,9 +12017,12 @@
       "faceSns": 34.7,
       "faceAgeSns": 1.5
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 56,
-    "birthDate": "1970-01-25"
+    "birthDate": "1970-01-25",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_838a399a",
@@ -11231,9 +12047,12 @@
       "faceSns": 34.6,
       "faceAgeSns": 27.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 34,
-    "birthDate": "1991-11-20"
+    "birthDate": "1991-11-20",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_414eee3a",
@@ -11285,9 +12104,12 @@
       "faceSns": 34.4,
       "faceAgeSns": -4.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 61,
-    "birthDate": "1964-09-23"
+    "birthDate": "1964-09-23",
+    "rankingExclusionReasons": [
+      "おすすめ表示では cultural カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_a9ef87f9",
@@ -11312,9 +12134,12 @@
       "faceSns": 34.0,
       "faceAgeSns": -0.4
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 57,
-    "birthDate": "1968-06-08"
+    "birthDate": "1968-06-08",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_696f51ce",
@@ -11339,9 +12164,12 @@
       "faceSns": 33.9,
       "faceAgeSns": 38.9
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 23,
-    "birthDate": "2002-07-21"
+    "birthDate": "2002-07-21",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_6453e632",
@@ -11366,9 +12194,12 @@
       "faceSns": 32.6,
       "faceAgeSns": 30.2
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 29,
-    "birthDate": "1996-07-04"
+    "birthDate": "1996-07-04",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_62e5564f",
@@ -11393,9 +12224,12 @@
       "faceSns": 32.1,
       "faceAgeSns": 15.7
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 42,
-    "birthDate": "1984-02-09"
+    "birthDate": "1984-02-09",
+    "rankingExclusionReasons": [
+      "おすすめ表示では sumo カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_f8bbbc4e",
@@ -11420,9 +12254,12 @@
       "faceSns": 29.7,
       "faceAgeSns": 18.1
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 38,
-    "birthDate": "1987-12-18"
+    "birthDate": "1987-12-18",
+    "rankingExclusionReasons": [
+      "おすすめ表示では athlete カテゴリを除外"
+    ]
   },
   {
     "id": "celeb_efe22d22",
@@ -11447,8 +12284,11 @@
       "faceSns": 26.6,
       "faceAgeSns": -1.8
     },
-    "rankingEligible": true,
+    "rankingEligible": false,
     "age": 52,
-    "birthDate": "1973-08-02"
+    "birthDate": "1973-08-02",
+    "rankingExclusionReasons": [
+      "おすすめ表示では comedian カテゴリを除外"
+    ]
   }
 ]
