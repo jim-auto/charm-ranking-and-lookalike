@@ -1,4 +1,5 @@
 import {
+  getMetricDistributionGuide,
   getRankingMetricLabel,
   type DetailRankingMetric,
 } from '../lib/rankingMetrics';
@@ -20,6 +21,7 @@ const metricOrder: DetailRankingMetric[] = [
 function describeDistribution(distribution: MetricDistribution): {
   label: string;
   tone: string;
+  summary: string;
 } {
   const lowBucketShare =
     distribution.count > 0 ? distribution.histogram[0].count / distribution.count : 0;
@@ -29,6 +31,7 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: '低得点側に偏り',
       tone: 'border-amber-800/70 bg-amber-950/30 text-amber-200',
+      summary: '低得点帯が厚く、撮影条件が悪い写真や崩れた表情の影響を受けやすい分布です。',
     };
   }
 
@@ -36,6 +39,7 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: 'レンジ圧縮',
       tone: 'border-orange-800/70 bg-orange-950/30 text-orange-200',
+      summary: '多くの顔が近い点数に集まっていて、raw だけでは差がつきにくい分布です。',
     };
   }
 
@@ -43,6 +47,7 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: '高得点側に裾',
       tone: 'border-emerald-800/70 bg-emerald-950/30 text-emerald-200',
+      summary: '一部の写真条件で伸びた高得点が尾を引いていて、少数の突出値が混ざっています。',
     };
   }
 
@@ -50,12 +55,14 @@ function describeDistribution(distribution: MetricDistribution): {
     return {
       label: '低得点側に裾',
       tone: 'border-sky-800/70 bg-sky-950/30 text-sky-200',
+      summary: '低得点側に外れ値があり、斜め顔や表情差の影響が少し残っている分布です。',
     };
   }
 
   return {
     label: '比較的安定',
     tone: 'border-slate-700 bg-slate-900/80 text-slate-300',
+    summary: '大きな偏りは比較的小さく、中間帯で見比べやすい分布です。',
   };
 }
 
@@ -85,13 +92,14 @@ export default function MetricDistributionPanel({ distributions }: Props) {
       <div className="mb-4">
         <h3 className="text-sm font-semibold text-white sm:text-base">各指標の分布</h3>
         <p className="mt-1 text-xs text-slate-400 sm:text-sm">
-          現在の表示条件に絞った raw スコア分布です。raw の平均は 50 に揃えていないので、比較は偏差値ベースで見る前提です。
+          現在の表示条件に絞った raw スコア分布です。単写真の 2D 特徴量なので一部の歪みは残ります。raw の平均は 50 に揃えていないので、比較は偏差値ベースで見る前提です。
         </p>
       </div>
 
       <div className="grid gap-3 lg:grid-cols-2 xl:grid-cols-3">
         {metrics.map(({ metric, distribution }) => {
           const status = describeDistribution(distribution);
+          const guide = getMetricDistributionGuide(metric);
           const maxCount = Math.max(...distribution.histogram.map((bin) => bin.count), 1);
 
           return (
@@ -141,6 +149,15 @@ export default function MetricDistributionPanel({ distributions }: Props) {
                     {formatValue(distribution.skew)}
                   </div>
                 </div>
+              </div>
+
+              <div className="mb-3 rounded-lg border border-slate-800 bg-slate-900/80 p-2.5 text-[11px] leading-5 text-slate-300">
+                <div className="font-medium text-slate-100">今回の見え方</div>
+                <div className="mt-0.5 text-slate-400">{status.summary}</div>
+                <div className="mt-2 font-medium text-slate-100">主な原因</div>
+                <div className="mt-0.5 text-slate-400">{guide.cause}</div>
+                <div className="mt-2 font-medium text-slate-100">読み方</div>
+                <div className="mt-0.5 text-slate-400">{guide.readingHint}</div>
               </div>
 
               <div className="space-y-1.5">
