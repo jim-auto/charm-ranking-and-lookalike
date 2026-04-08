@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
-import { createDeviationConverter } from '../lib/faceScoring';
 import {
   type DetailRankingMetric,
   getRankingMetricLabel,
@@ -10,7 +9,13 @@ import {
   type RankingMetric,
 } from '../lib/rankingMetrics';
 import CelebrityCard from '../components/CelebrityCard';
+import MetricDistributionPanel from '../components/MetricDistributionPanel';
 import ScoreBreakdown from '../components/ScoreBreakdown';
+import {
+  calculateMetricDeviation,
+  calculateMetricDistributions,
+  createCelebrityScoreDeviationConverter,
+} from '../lib/metricDistribution';
 
 const genderFilters = [
   { value: '', label: 'すべて' },
@@ -63,22 +68,6 @@ function median(values: number[]): number | null {
   return (ordered[middle - 1] + ordered[middle]) / 2;
 }
 
-function createValueDeviationConverter(values: number[]): (rawValue: number) => number {
-  const validValues = values.filter((value) => Number.isFinite(value));
-  const count = validValues.length;
-  if (count === 0) return () => 50;
-
-  const mean = validValues.reduce((sum, value) => sum + value, 0) / count;
-  const variance =
-    validValues.reduce((sum, value) => sum + (value - mean) ** 2, 0) / count;
-  const standardDeviation = Math.sqrt(variance);
-
-  if (standardDeviation === 0) return () => 50;
-
-  return (rawValue: number) =>
-    Math.round((50 + 10 * (rawValue - mean) / standardDeviation) * 10) / 10;
-}
-
 function formatFollowers(n: number): string {
   if (n >= 10_000_000) return `${(n / 10_000_000).toFixed(1)}千万`;
   if (n >= 10_000) return `${Math.round(n / 10_000)}万`;
@@ -126,10 +115,10 @@ export default function RankingPage() {
 
   const toDeviation = useMemo(() => {
     if (celebrities.length === 0) return (_score: number, _age: boolean, _sns: boolean) => 0;
-    const convFace = createDeviationConverter(celebrities, 'face');
-    const convFaceAge = createDeviationConverter(celebrities, 'faceAge');
-    const convFaceSns = createDeviationConverter(celebrities, 'faceSns');
-    const convFaceAgeSns = createDeviationConverter(celebrities, 'faceAgeSns');
+    const convFace = createCelebrityScoreDeviationConverter(celebrities, 'face');
+    const convFaceAge = createCelebrityScoreDeviationConverter(celebrities, 'faceAge');
+    const convFaceSns = createCelebrityScoreDeviationConverter(celebrities, 'faceSns');
+    const convFaceAgeSns = createCelebrityScoreDeviationConverter(celebrities, 'faceAgeSns');
     return (score: number, age: boolean, sns: boolean) => {
       if (age && sns) return convFaceAgeSns(score);
       if (age) return convFaceAge(score);
@@ -138,26 +127,15 @@ export default function RankingPage() {
     };
   }, [celebrities]);
 
+  const allMetricDistributions = useMemo(
+    () => calculateMetricDistributions(celebrities),
+    [celebrities]
+  );
+
   const toMetricDeviation = useMemo(() => {
-    const converters: Partial<Record<DetailRankingMetric, (rawValue: number) => number>> = {};
-    const detailMetricOptions = rankingMetricOptions.filter(
-      (
-        metricOption
-      ): metricOption is (typeof rankingMetricOptions)[number] & { value: DetailRankingMetric } =>
-        metricOption.value !== 'overall'
-    );
-
-    detailMetricOptions.forEach((metricOption) => {
-      const values = celebrities
-        .map((celebrity) => celebrity.details?.[metricOption.value])
-        .filter((value): value is number => typeof value === 'number');
-
-      converters[metricOption.value] = createValueDeviationConverter(values);
-    });
-
     return (metric: DetailRankingMetric, rawValue: number) =>
-      converters[metric]?.(rawValue) ?? null;
-  }, [celebrities]);
+      calculateMetricDeviation(rawValue, allMetricDistributions[metric]);
+  }, [allMetricDistributions]);
 
   const categoryFilters = useMemo(() => {
     const values = Array.from(new Set(celebrities.map((c) => c.category).filter(Boolean))).sort(sortCategoryValues);
@@ -218,6 +196,11 @@ export default function RankingPage() {
       medianAge: median(ages),
     };
   }, [sorted]);
+
+  const filteredMetricDistributions = useMemo(
+    () => calculateMetricDistributions(sorted),
+    [sorted]
+  );
 
   const totalPages = Math.ceil(sorted.length / perPage);
   const paged = sorted.slice((page - 1) * perPage, page * perPage);
@@ -404,6 +387,8 @@ export default function RankingPage() {
           <div className="text-xs text-slate-500">中央値</div>
         </div>
       </div>
+
+      <MetricDistributionPanel distributions={filteredMetricDistributions} />
 
       {loading ? (
         <div className="py-12 text-center text-slate-400">読み込み中...</div>

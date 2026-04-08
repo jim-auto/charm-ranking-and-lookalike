@@ -28,6 +28,7 @@ from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision
 
 from face_validation import validate_human_face_landmarks
+from metric_distribution import apply_distribution_adjusted_scores
 
 # ---------------------------------------------------------------------------
 # MediaPipe 478 -> dlib 68 landmark mapping
@@ -200,7 +201,7 @@ def calculate_golden_ratio(lm: List[Point]) -> float:
     right_eye = midpoint(lm[42], lm[45])
     eye_distance = dist(left_eye, right_eye)
     eye_ratio = eye_distance / face_width if face_width > 0 else 0
-    score1 = ratio_score(face_ratio, GOLDEN_RATIO)
+    score1 = ratio_score(face_ratio, 1.46)
     score2 = ratio_score(eye_ratio, 1 / GOLDEN_RATIO)
     return (score1 + score2) / 2
 
@@ -540,6 +541,7 @@ def main() -> None:
         print("Nothing new to process.")
         # Still re-save without ヒカル
         if len(existing) > 0:
+            apply_distribution_adjusted_scores(existing)
             existing.sort(key=lambda c: c["score"], reverse=True)
             for rank, cel in enumerate(existing, start=1):
                 cel["rank"] = rank
@@ -579,6 +581,7 @@ def main() -> None:
     processed_names = {c["name"] for c in new_celebrities}
     existing = [c for c in existing if c["name"] not in processed_names]
     all_celebrities = existing + new_celebrities
+    apply_distribution_adjusted_scores(all_celebrities)
     all_celebrities.sort(key=lambda c: c["score"], reverse=True)
     for rank, cel in enumerate(all_celebrities, start=1):
         cel["rank"] = rank

@@ -9,6 +9,7 @@ import sys
 from datetime import date, datetime
 from pathlib import Path
 
+from metric_distribution import apply_distribution_adjusted_scores
 from ranking_policy import build_ranking_policy, deviation
 from score_policy import age_adjusted_score, round_score
 
@@ -263,14 +264,13 @@ for cel in celebrities:
         else:
             cel.pop("faceValidationSource", None)
 
-    # Recalculate score variants
+metric_stats = apply_distribution_adjusted_scores(celebrities)
+
+for cel in celebrities:
     score = cel["score"]
     cel["scores"] = {"face": score}
-
-    # Age adjustment
     cel["scores"]["faceAge"] = age_adjusted_score(score, cel.get("age"))
 
-    # SNS adjustment
     if "totalFollowers" in cel and cel["totalFollowers"] > 0:
         sns_score = min(100, math.log10(max(1, cel["totalFollowers"])) * 10)
         cel["scores"]["faceSns"] = round_score(score * 0.7 + sns_score * 0.3)
@@ -302,6 +302,12 @@ with open(DATA_DIR / "celebrities.json", "w", encoding="utf-8") as f:
 print(f"Updated {updated} entries with existing metadata")
 print(f"Total: {len(celebrities)} celebrities")
 print(f"Recommended ranking exclusions: {excluded_count}")
+print("\nMetric distributions:")
+for metric, stat in metric_stats.items():
+    print(
+        f"  {metric}: mean={stat['mean']:.1f} median={stat['median']:.1f} "
+        f"p10={stat['p10']:.1f} p90={stat['p90']:.1f} stdev={stat['stdev']:.1f}"
+    )
 
 # Print distribution
 scores = [c["score"] for c in celebrities]

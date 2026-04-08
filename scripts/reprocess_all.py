@@ -25,6 +25,7 @@ from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision
 
 from face_validation import validate_human_face_landmarks
+from metric_distribution import apply_distribution_adjusted_scores
 from ranking_policy import build_ranking_policy, deviation
 from score_policy import age_adjusted_score, round_score
 
@@ -399,7 +400,7 @@ def main():
 
         accepted_sources[best_candidate.get("source", "unknown")] += 1
 
-        score, details = compute_score(best_candidate["landmarks"])
+        _, details = compute_score(best_candidate["landmarks"])
 
         # Generate thumbnail
         fx, fy, fw, fh = best_candidate["bbox"]
@@ -424,7 +425,7 @@ def main():
             "name": name,
             "category": category,
             "gender": gender,
-            "score": score,
+            "score": 0.0,
             "details": details,
             "thumbnail": f"data/thumbnails/{celeb_id}.jpg",
         }
@@ -444,22 +445,6 @@ def main():
         else:
             entry["embedding"] = [0.0] * 128
 
-        # Compute score variants
-        entry["scores"] = {"face": score}
-        entry["scores"]["faceAge"] = age_adjusted_score(score, entry.get("age"))
-
-        if "totalFollowers" in entry and entry["totalFollowers"] > 0:
-            import math as m
-            sns_score = min(100, m.log10(max(1, entry["totalFollowers"])) * 10)
-            entry["scores"]["faceSns"] = round_score(score * 0.7 + sns_score * 0.3)
-        else:
-            entry["scores"]["faceSns"] = round_score(score)
-
-        if "totalFollowers" in entry and entry["totalFollowers"] > 0:
-            entry["scores"]["faceAgeSns"] = round_score(entry["scores"]["faceAge"] * 0.7 + sns_score * 0.3)
-        else:
-            entry["scores"]["faceAgeSns"] = entry["scores"]["faceAge"]
-
         results.append(entry)
         audit_entries.append(
             {
@@ -468,7 +453,6 @@ def main():
                 "status": "accepted",
                 "reason": "ok",
                 "source": best_candidate.get("source", "unknown"),
-                "score": score,
                 "imageCount": len(img_files),
             }
         )
@@ -508,6 +492,20 @@ def main():
             for source, count in accepted_sources.most_common():
                 print(f"  {source}: {count}")
         return
+
+    metric_stats = apply_distribution_adjusted_scores(results)
+    for entry in results:
+        score = entry["score"]
+        entry["scores"] = {"face": score}
+        entry["scores"]["faceAge"] = age_adjusted_score(score, entry.get("age"))
+
+        if "totalFollowers" in entry and entry["totalFollowers"] > 0:
+            sns_score = min(100, math.log10(max(1, entry["totalFollowers"])) * 10)
+            entry["scores"]["faceSns"] = round_score(score * 0.7 + sns_score * 0.3)
+            entry["scores"]["faceAgeSns"] = round_score(entry["scores"]["faceAge"] * 0.7 + sns_score * 0.3)
+        else:
+            entry["scores"]["faceSns"] = round_score(score)
+            entry["scores"]["faceAgeSns"] = entry["scores"]["faceAge"]
 
     policy_by_name, stats = build_ranking_policy(results)
     excluded_count = 0
@@ -559,6 +557,12 @@ def main():
     mean = stats["mean"] if scores else 0.0
     stdev = stats["stdev"] if scores else 0.0
     print(f"\nStats: n={len(results)}, mean={mean:.1f}, stdev={stdev:.1f}")
+    print("Metric distributions:")
+    for metric, stat in metric_stats.items():
+        print(
+            f"  {metric}: mean={stat['mean']:.1f} median={stat['median']:.1f} "
+            f"p10={stat['p10']:.1f} p90={stat['p90']:.1f} stdev={stat['stdev']:.1f}"
+        )
     print(f"Top 5:")
     for c in results[:5]:
         dev = 50 + 10 * (c["score"] - mean) / stdev

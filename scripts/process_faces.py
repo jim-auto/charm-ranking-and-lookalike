@@ -28,6 +28,7 @@ import numpy as np
 from PIL import Image
 
 from face_validation import validate_human_face_landmarks
+from metric_distribution import apply_distribution_adjusted_scores
 
 # ---------------------------------------------------------------------------
 # Geometry helpers (mirrors web/src/lib/faceScoring.ts)
@@ -89,7 +90,7 @@ def calculate_golden_ratio(lm: List[Point]) -> float:
     eye_distance = dist(left_eye, right_eye)
     eye_ratio = eye_distance / face_width if face_width > 0 else 0
 
-    score1 = ratio_score(face_ratio, GOLDEN_RATIO)
+    score1 = ratio_score(face_ratio, 1.46)
     score2 = ratio_score(eye_ratio, 1 / GOLDEN_RATIO)
     return (score1 + score2) / 2
 
@@ -414,6 +415,8 @@ def main() -> None:
             result["category"] = category_map[name]
 
         celebrities.append(result)
+
+    apply_distribution_adjusted_scores(celebrities)
 
     # Sort by score descending
     celebrities.sort(key=lambda c: c["score"], reverse=True)

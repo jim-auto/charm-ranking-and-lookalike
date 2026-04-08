@@ -1,11 +1,16 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Celebrity } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
-import { calculateFaceScore, totalScore, createDeviationConverter } from '../lib/faceScoring';
+import { calculateFaceDetails } from '../lib/faceMetricCalculator';
 import { findSimilarCelebrities, loadEmbeddingStore } from '../lib/embedding';
 import ImageUploader from '../components/ImageUploader';
 import LookalikeResult from '../components/LookalikeResult';
 import type { ScoreDetails } from '../types/celebrity';
+import {
+  calculateAdjustedOverallScore,
+  calculateMetricDistributions,
+  createCelebrityScoreDeviationConverter,
+} from '../lib/metricDistribution';
 
 interface DiagnoseResult {
   score: number;
@@ -22,6 +27,15 @@ export default function DiagnosePage() {
   const [error, setError] = useState<string | null>(null);
   const [gender, setGender] = useState<'male' | 'female'>('male');
   const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  const metricDistributions = useMemo(
+    () => calculateMetricDistributions(celebrities),
+    [celebrities]
+  );
+  const toDeviation = useMemo(
+    () => createCelebrityScoreDeviationConverter(celebrities, 'face'),
+    [celebrities]
+  );
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL;
@@ -59,9 +73,8 @@ export default function DiagnosePage() {
           return;
         }
 
-        const details = calculateFaceScore(detection.landmarks);
-        const rawScore = totalScore(details);
-        const toDeviation = createDeviationConverter(celebrities, 'face');
+        const details = calculateFaceDetails(detection.landmarks);
+        const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
         const score = toDeviation(rawScore);
 
         const filtered = celebrities.filter((c) => c.gender === gender);
@@ -80,7 +93,7 @@ export default function DiagnosePage() {
         setProcessing(false);
       }
     },
-    [modelsReady, celebrities, gender],
+    [modelsReady, celebrities, gender, metricDistributions, toDeviation],
   );
 
   return (
