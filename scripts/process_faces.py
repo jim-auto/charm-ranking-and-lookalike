@@ -161,13 +161,11 @@ def calculate_face_score(lm: List[Point]) -> dict:
 
 def total_score(details: dict) -> float:
     s = (
-        details["symmetry"] * 0.2
-        + details["golden_ratio"] * 0.25
+        details["golden_ratio"] * 0.35
         + details["eyes"] * 0.15
-        + details["nose"] * 0.1
-        + details["mouth"] * 0.1
-        + details["contour"] * 0.1
-        + details["skin"] * 0.1
+        + details["nose"] * 0.15
+        + details["mouth"] * 0.15
+        + details["contour"] * 0.20
     )
     return round(s * 10) / 10
 
