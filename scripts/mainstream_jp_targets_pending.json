@@ -1,0 +1,371 @@
+[
+  {
+    "name": "中川大志",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": false,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "高橋文哉",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "佐野勇斗",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "板垣李光人",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "杉野遥亮",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "宮世琉弥",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "鈴鹿央士",
+    "category": "actor",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "福原遥",
+    "category": "actress",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "桜田ひより",
+    "category": "actress",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "永瀬廉",
+    "category": "idol",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "高橋海人",
+    "category": "idol",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "ラウール",
+    "category": "idol",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": false,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "阿部亮平",
+    "category": "idol",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": false,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "菊池風磨",
+    "category": "idol",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "梅澤美波",
+    "category": "idol",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "森田ひかる",
+    "category": "idol",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "Ado",
+    "category": "artist",
+    "gender": "female",
+    "query": "Ado singer Japan",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "Aimer",
+    "category": "artist",
+    "gender": "female",
+    "query": "Aimer singer Japan",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "米津玄師",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "藤井風",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "あいみょん",
+    "category": "artist",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "milet",
+    "category": "artist",
+    "gender": "female",
+    "query": "milet singer Japan",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": false,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "LiSA",
+    "category": "artist",
+    "gender": "female",
+    "query": "LiSA singer Japan",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "西野カナ",
+    "category": "artist",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "優里",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "Taka(ONE OK ROCK)",
+    "category": "artist",
+    "gender": "male",
+    "query": "Taka ONE OK ROCK singer",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "清水依与吏",
+    "category": "artist",
+    "gender": "male",
+    "query": "Shimizu Iyori back number singer",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": false,
+    "status": "pending_stub"
+  },
+  {
+    "name": "常田大希",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": false,
+    "hasMetadata": true,
+    "status": "pending_stub"
+  },
+  {
+    "name": "野田洋次郎",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "秦基博",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "藤井フミヤ",
+    "category": "artist",
+    "gender": "male",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "家入レオ",
+    "category": "artist",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "JUJU",
+    "category": "artist",
+    "gender": "female",
+    "query": "JUJU singer Japan",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "HIKAKIN",
+    "category": "youtuber",
+    "gender": "male",
+    "query": "HIKAKIN YouTuber",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "藤田ニコル",
+    "category": "influencer",
+    "gender": "female",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": true,
+    "status": "pending_with_photo"
+  },
+  {
+    "name": "コムドットやまと",
+    "category": "youtuber",
+    "gender": "male",
+    "query": "Comdot Yamato YouTuber",
+    "inPublic": false,
+    "hasInputDir": true,
+    "hasPhoto": true,
+    "hasMetadata": false,
+    "status": "pending_with_photo"
+  }
+]
