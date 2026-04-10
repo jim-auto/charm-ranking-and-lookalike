@@ -12,13 +12,14 @@ interface Props {
   rank: number;
   metric?: RankingMetric;
   metricDeviation?: number | null;
+  overallScoreOverride?: number;
   useSns?: boolean;
   formatFollowers?: (n: number) => string;
   toDeviation?: (score: number, sns: boolean) => number;
 }
 
 const categoryLabel: Record<string, string> = {
-  actor: '男優',
+  actor: '俳優',
   actress: '女優',
   idol: 'アイドル',
   influencer: 'インフルエンサー',
@@ -48,21 +49,24 @@ export default function CelebrityCard({
   rank,
   metric = 'overall',
   metricDeviation = null,
+  overallScoreOverride,
   useSns = false,
   formatFollowers,
   toDeviation,
 }: Props) {
-  const rawScore = getRankingMetricValue(celebrity, metric, false, useSns);
+  const rawMetricScore = getRankingMetricValue(celebrity, metric, false, useSns);
+  const effectiveOverallScore =
+    isOverallMetric(metric) && typeof overallScoreOverride === 'number'
+      ? overallScoreOverride
+      : rawMetricScore;
   const displayScore = isOverallMetric(metric)
     ? toDeviation
-      ? toDeviation(rawScore, useSns)
-      : rawScore
-    : rawScore;
-  const scoreLabel = isOverallMetric(metric)
-    ? '一般偏差値'
-    : `${getRankingMetricLabel(metric)}スコア`;
+      ? toDeviation(effectiveOverallScore, useSns)
+      : effectiveOverallScore
+    : rawMetricScore;
+  const scoreLabel = isOverallMetric(metric) ? '一般偏差値' : `${getRankingMetricLabel(metric)}スコア`;
   const scoreSubLabel = isOverallMetric(metric)
-    ? `スコア ${formatScoreValue(rawScore)}`
+    ? `スコア ${formatScoreValue(effectiveOverallScore)}`
     : metricDeviation != null
       ? `偏差値 ${metricDeviation.toFixed(1)}`
       : null;
@@ -70,7 +74,9 @@ export default function CelebrityCard({
   return (
     <div className="rounded-xl bg-slate-800 px-3 py-2.5 sm:px-3.5 sm:py-3">
       <div className="flex items-center gap-2.5 sm:gap-3">
-        <div className={`w-7 shrink-0 text-center text-lg font-bold sm:w-8 sm:text-xl ${medalColor(rank)}`}>
+        <div
+          className={`w-7 shrink-0 text-center text-lg font-bold sm:w-8 sm:text-xl ${medalColor(rank)}`}
+        >
           {rank}
         </div>
 
@@ -96,7 +102,7 @@ export default function CelebrityCard({
                 </span>
                 {useSns && (celebrity.totalFollowers ?? 0) > 0 && formatFollowers && (
                   <span className="text-[11px] text-emerald-400 sm:text-xs">
-                    SNS {formatFollowers(celebrity.totalFollowers!)}
+                    SNS {formatFollowers(celebrity.totalFollowers ?? 0)}
                   </span>
                 )}
               </div>

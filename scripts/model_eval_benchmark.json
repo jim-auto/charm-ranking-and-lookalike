@@ -1,0 +1,194 @@
+{
+  "pairwise": [
+    {
+      "label": "male_core_01",
+      "segment": "male_core",
+      "higher": "吉沢亮",
+      "lower": "コムドットやまと",
+      "weight": 2.0,
+      "min_margin": 1.0,
+      "reason": "公開男性上位ではトップ俳優が youtuber を明確に上回ってほしい"
+    },
+    {
+      "label": "male_core_02",
+      "segment": "male_core",
+      "higher": "成田凌",
+      "lower": "コムドットやまと",
+      "weight": 2.0,
+      "min_margin": 1.0,
+      "reason": "公開男性上位では主要俳優が youtuber を明確に上回ってほしい"
+    },
+    {
+      "label": "male_core_03",
+      "segment": "male_core",
+      "higher": "山崎賢人",
+      "lower": "コムドットやまと",
+      "weight": 2.0,
+      "min_margin": 0.0,
+      "reason": "主要俳優が youtuber を下回るのは違和感が強い"
+    },
+    {
+      "label": "male_core_04",
+      "segment": "male_core",
+      "higher": "山田裕貴",
+      "lower": "コムドットやまと",
+      "weight": 2.0,
+      "min_margin": 0.0,
+      "reason": "主要俳優が youtuber を下回るのは違和感が強い"
+    },
+    {
+      "label": "male_core_05",
+      "segment": "male_core",
+      "higher": "松坂桃李",
+      "lower": "コムドットやまと",
+      "weight": 1.5,
+      "min_margin": 0.0,
+      "reason": "公開男性上位で俳優が creator leakage に負けすぎないこと"
+    },
+    {
+      "label": "male_core_06",
+      "segment": "male_core",
+      "higher": "神木隆之介",
+      "lower": "コムドットやまと",
+      "weight": 1.5,
+      "min_margin": 0.0,
+      "reason": "公開男性上位で俳優が creator leakage に負けすぎないこと"
+    },
+    {
+      "label": "artist_vs_youtuber_01",
+      "segment": "artist_vs_creator",
+      "higher": "米津玄師",
+      "lower": "コムドットやまと",
+      "weight": 1.5,
+      "min_margin": 0.0,
+      "reason": "男性総合ではトップ artist が youtuber を下回りにくい"
+    },
+    {
+      "label": "artist_vs_youtuber_02",
+      "segment": "artist_vs_creator",
+      "higher": "藤井風",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 2.0,
+      "reason": "artist と youtuber の gap が小さすぎないこと"
+    },
+    {
+      "label": "female_core_01",
+      "segment": "female_core",
+      "higher": "永野芽郁",
+      "lower": "藤田ニコル",
+      "weight": 1.5,
+      "min_margin": 4.0,
+      "reason": "公開女性上位では主要 actress が influencer を明確に上回ってほしい"
+    },
+    {
+      "label": "female_core_02",
+      "segment": "female_core",
+      "higher": "石原さとみ",
+      "lower": "やす子",
+      "weight": 1.0,
+      "min_margin": 10.0,
+      "reason": "公開女性上位で comedian leakage を抑えたい"
+    },
+    {
+      "label": "female_core_03",
+      "segment": "female_core",
+      "higher": "橋本環奈",
+      "lower": "ゆりやんレトリィバァ",
+      "weight": 1.0,
+      "min_margin": 6.0,
+      "reason": "公開女性上位で comedian leakage を抑えたい"
+    },
+    {
+      "label": "female_core_04",
+      "segment": "female_core",
+      "higher": "齋藤飛鳥",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 3.0,
+      "reason": "女性上位は idol / actress が influencer を上回ってほしい"
+    },
+    {
+      "label": "female_core_05",
+      "segment": "female_core",
+      "higher": "森七菜",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 2.0,
+      "reason": "女性上位は actress が influencer を上回ってほしい"
+    },
+    {
+      "label": "female_core_06",
+      "segment": "female_core",
+      "higher": "あいみょん",
+      "lower": "ゆきりぬ",
+      "weight": 1.0,
+      "min_margin": 4.0,
+      "reason": "女性 artist が influencer を十分上回ること"
+    },
+    {
+      "label": "female_core_07",
+      "segment": "female_core",
+      "higher": "梅澤美波",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 3.0,
+      "reason": "女性上位は idol が influencer を上回ってほしい"
+    },
+    {
+      "label": "male_core_07",
+      "segment": "male_core",
+      "higher": "佐野勇斗",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 4.0,
+      "reason": "公開男性上位で actor と youtuber の gap を保ちたい"
+    }
+  ],
+  "topk": [
+    {
+      "label": "male_top10_no_creator_leakage",
+      "gender": "male",
+      "top_n": 10,
+      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "reason": "公開男性 top10 に creator leakage を入れたくない"
+    },
+    {
+      "label": "female_top10_no_creator_leakage",
+      "gender": "female",
+      "top_n": 10,
+      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "reason": "公開女性 top10 に creator leakage を入れたくない"
+    },
+    {
+      "label": "overall_top20_no_creator_leakage",
+      "top_n": 20,
+      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "reason": "公開総合 top20 では俳優・女優・idol・artist 中心を維持したい"
+    },
+    {
+      "label": "male_top10_has_enough_core_actors",
+      "gender": "male",
+      "top_n": 10,
+      "must_include": ["吉沢亮", "成田凌", "山崎賢人", "山田裕貴", "松坂桃李", "神木隆之介"],
+      "min_hits": 4,
+      "reason": "男性上位が actor 主体から外れすぎないこと"
+    },
+    {
+      "label": "female_top10_has_enough_core_actresses",
+      "gender": "female",
+      "top_n": 10,
+      "must_include": ["永野芽郁", "森七菜", "石原さとみ", "橋本環奈", "生見愛瑠"],
+      "min_hits": 4,
+      "reason": "女性上位に actress の芯を残したい"
+    },
+    {
+      "label": "artist_top8_stays_artist_like",
+      "categories": ["artist"],
+      "top_n": 8,
+      "must_include": ["米津玄師", "あいみょん", "藤井風", "西野カナ", "LiSA"],
+      "min_hits": 4,
+      "reason": "artist slice が妥当な顔ぶれを維持すること"
+    }
+  ]
+}

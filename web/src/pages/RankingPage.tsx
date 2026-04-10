@@ -13,9 +13,12 @@ import ScoreBreakdown from '../components/ScoreBreakdown';
 import {
   calculateMetricDeviation,
   calculateMetricDistributions,
-  createGeneralScoreDeviationConverter,
 } from '../lib/metricDistribution';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
+import {
+  createPublicGeneralScoreDeviationConverter,
+  getPublicOverallScore,
+} from '../lib/publicRanking';
 
 const genderFilters = [
   { value: '', label: 'すべて' },
@@ -119,10 +122,9 @@ export default function RankingPage() {
 
   const toDeviation = useMemo(() => {
     if (visibleCelebrities.length === 0) return (_score: number, _sns: boolean) => 0;
-    const convFace = createGeneralScoreDeviationConverter(visibleCelebrities, 'face');
-    const convFaceSns = createGeneralScoreDeviationConverter(visibleCelebrities, 'faceSns');
-    return (score: number, sns: boolean) => (sns ? convFaceSns(score) : convFace(score));
-  }, [visibleCelebrities]);
+    const converter = createPublicGeneralScoreDeviationConverter(visibleCelebrities, useSns);
+    return (score: number, _sns: boolean) => converter(score);
+  }, [visibleCelebrities, useSns]);
 
   const toMetricDeviation = useMemo(
     () => (metric: DetailRankingMetric, rawValue: number) =>
@@ -169,8 +171,12 @@ export default function RankingPage() {
     }
 
     list.sort((a, b) => {
-      const aValue = getRankingMetricValue(a, rankingMetric, false, useSns);
-      const bValue = getRankingMetricValue(b, rankingMetric, false, useSns);
+      const aValue = usesOverallScore
+        ? getPublicOverallScore(a, useSns)
+        : getRankingMetricValue(a, rankingMetric, false, useSns);
+      const bValue = usesOverallScore
+        ? getPublicOverallScore(b, useSns)
+        : getRankingMetricValue(b, rankingMetric, false, useSns);
       return bValue - aValue;
     });
 
@@ -342,6 +348,9 @@ export default function RankingPage() {
                 celebrity={celebrity}
                 rank={rankOffset + index + 1}
                 metric={rankingMetric}
+                overallScoreOverride={
+                  isOverallMetric(rankingMetric) ? getPublicOverallScore(celebrity, useSns) : undefined
+                }
                 metricDeviation={
                   isOverallMetric(rankingMetric)
                     ? null
