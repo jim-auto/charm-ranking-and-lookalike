@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Ado",
+    "category": "artist",
+    "gender": "female",
+    "query": "Ado singer Japan",
+    "excluded": true,
+    "reason": "face_not_public",
+    "note": "Public-facing imagery is character art or concealed; no usable real-face portrait should be collected."
+  },
+  {
+    "name": "野田洋次郎",
+    "category": "artist",
+    "gender": "male",
+    "excluded": true,
+    "reason": "consistent_upper_face_occlusion",
+    "note": "Available portraits consistently hide the upper face or eyes, making landmark-based scoring unreliable."
+  }
+]

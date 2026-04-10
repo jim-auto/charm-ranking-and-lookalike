@@ -43,25 +43,52 @@ def main() -> int:
         default="scripts/meta_wikidata.json",
         help="Path to Wikidata metadata cache",
     )
+    parser.add_argument(
+        "--exclusions",
+        default="scripts/mainstream_jp_target_exclusions.json",
+        help="Optional JSON file listing targets to exclude from the active growth queue",
+    )
     args = parser.parse_args()
 
     manifest_path = Path(args.manifest)
     public_path = Path(args.public_data)
     input_dir = Path(args.input_dir)
     meta_path = Path(args.meta_cache)
+    exclusions_path = Path(args.exclusions)
 
     targets = load_json(manifest_path)
     public = load_json(public_path)
     meta = load_json(meta_path) if meta_path.exists() else {}
+    exclusions = load_json(exclusions_path) if exclusions_path.exists() else []
 
     public_names = {entry["name"] for entry in public}
     duplicates = [name for name, count in Counter(t["name"] for t in targets).items() if count > 1]
     if duplicates:
       raise SystemExit(f"duplicate target names: {', '.join(sorted(duplicates))}")
 
+    exclusion_by_name = {}
+    for entry in exclusions:
+        if not isinstance(entry, dict):
+            continue
+        name = entry.get("name")
+        if isinstance(name, str) and name:
+            exclusion_by_name[name] = entry
+
+    active_targets = [target for target in targets if target["name"] not in exclusion_by_name]
+    excluded_rows = [
+        {
+            **target,
+            "excluded": True,
+            "reason": exclusion_by_name[target["name"]].get("reason", "excluded"),
+            "note": exclusion_by_name[target["name"]].get("note"),
+        }
+        for target in targets
+        if target["name"] in exclusion_by_name
+    ]
+
     rows = []
     by_category = defaultdict(lambda: Counter())
-    for target in targets:
+    for target in active_targets:
         name = target["name"]
         category = target["category"]
         person_dir = input_dir / name
@@ -94,6 +121,8 @@ def main() -> int:
 
     summary = Counter(row["status"] for row in rows)
     summary["total"] = len(rows)
+    summary["manifest_total"] = len(targets)
+    summary["excluded"] = len(excluded_rows)
     summary["metadata_ready"] = sum(1 for row in rows if row["hasMetadata"])
 
     stem = manifest_path.stem
@@ -102,13 +131,17 @@ def main() -> int:
     pending_txt_path = manifest_path.with_name(f"{stem}_pending.txt")
     pending_photo_json_path = manifest_path.with_name(f"{stem}_pending_with_photo.json")
     pending_photo_txt_path = manifest_path.with_name(f"{stem}_pending_with_photo.txt")
+    excluded_json_path = manifest_path.with_name(f"{stem}_excluded.json")
+    excluded_txt_path = manifest_path.with_name(f"{stem}_excluded.txt")
     names_txt_path = manifest_path.with_name(f"{stem}.txt")
 
     report = {
         "manifest": str(manifest_path),
+        "exclusions": str(exclusions_path) if exclusions_path.exists() else None,
         "summary": summary,
         "byCategory": {key: dict(value) for key, value in sorted(by_category.items())},
         "targets": rows,
+        "excludedTargets": excluded_rows,
     }
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -133,6 +166,15 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    excluded_json_path.write_text(
+        json.dumps(excluded_rows, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    excluded_txt_path.write_text(
+        "\n".join(row["name"] for row in excluded_rows) + ("\n" if excluded_rows else ""),
+        encoding="utf-8",
+    )
+
     names_txt_path.write_text(
         "\n".join(row["name"] for row in rows) + ("\n" if rows else ""),
         encoding="utf-8",
@@ -140,6 +182,7 @@ def main() -> int:
 
     print(f"manifest: {manifest_path}")
     print(f"targets: {summary['total']}")
+    print(f"excluded: {summary['excluded']}")
     print(f"public: {summary['public']}")
     print(f"pending_with_photo: {summary['pending_with_photo']}")
     print(f"pending_stub: {summary['pending_stub']}")
@@ -157,6 +200,8 @@ def main() -> int:
     print(f"wrote: {pending_txt_path}")
     print(f"wrote: {pending_photo_json_path}")
     print(f"wrote: {pending_photo_txt_path}")
+    print(f"wrote: {excluded_json_path}")
+    print(f"wrote: {excluded_txt_path}")
     print(f"wrote: {names_txt_path}")
     return 0
 

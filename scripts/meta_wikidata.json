@@ -2906,5 +2906,52 @@
     "wikidataId": "Q847386",
     "wikipediaTitle": "槇原敬之",
     "gender": "male"
+  },
+  "????": {
+    "wikidataId": "Q11657733",
+    "wikipediaTitle": "???? (????)",
+    "gender": "male",
+    "birthDate": "1993-11-27",
+    "age": 32
+  },
+  "milet": {
+    "wikidataId": "Q61989561",
+    "wikipediaTitle": "Milet",
+    "gender": "female"
+  },
+  "?????": {
+    "wikidataId": "Q17159515",
+    "wikipediaTitle": "?????",
+    "gender": "male",
+    "birthDate": "1984-07-09",
+    "age": 41
+  },
+  "中川大志": {
+    "wikidataId": "Q6912627",
+    "wikipediaTitle": "中川大志 (俳優)",
+    "gender": "male",
+    "birthDate": "1998-06-14",
+    "age": 27
+  },
+  "ラウール": {
+    "wikidataId": "Q66828598",
+    "wikipediaTitle": "ラウール (アイドル)",
+    "gender": "male",
+    "birthDate": "2003-06-27",
+    "age": 22
+  },
+  "阿部亮平": {
+    "wikidataId": "Q11657733",
+    "wikipediaTitle": "阿部亮平 (アイドル)",
+    "gender": "male",
+    "birthDate": "1993-11-27",
+    "age": 32
+  },
+  "清水依与吏": {
+    "wikidataId": "Q17159515",
+    "wikipediaTitle": "清水依与吏",
+    "gender": "male",
+    "birthDate": "1984-07-09",
+    "age": 41
   }
 }

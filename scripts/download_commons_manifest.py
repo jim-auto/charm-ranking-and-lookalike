@@ -13,6 +13,9 @@ import urllib.request
 import unicodedata
 from pathlib import Path
 
+import cv2
+import numpy as np
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
@@ -27,6 +30,14 @@ ROLE_HINTS = {
     "comedian": "comedian",
     "athlete": "athlete",
 }
+
+CASCADE_NAMES = [
+    "haarcascade_frontalface_default.xml",
+    "haarcascade_frontalface_alt.xml",
+    "haarcascade_frontalface_alt2.xml",
+    "haarcascade_frontalface_alt_tree.xml",
+    "haarcascade_profileface.xml",
+]
 
 
 def load_json(path: Path):
@@ -52,6 +63,24 @@ def build_title_needles(entry: dict) -> list[str]:
             if len(compact_token) >= 4 and compact_token not in needles:
                 needles.append(compact_token)
     return needles
+
+
+def is_ambiguous_latin_alias(value: str) -> bool:
+    stripped = re.sub(r"\([^)]*\)|（[^）]*）", " ", value or "")
+    stripped = " ".join(stripped.split())
+    if not stripped or " " in stripped:
+        return False
+    if re.search(r"[ぁ-んァ-ヶ一-龯]", stripped):
+        return False
+    compact = normalize_match_text(stripped)
+    return compact.isascii() and compact.isalpha() and 2 <= len(compact) <= 10
+
+
+def allow_search_fallback(entry: dict) -> bool:
+    return not any(
+        is_ambiguous_latin_alias(entry.get(field, ""))
+        for field in ("name", "wikipediaTitle")
+    )
 
 
 def title_looks_relevant(entry: dict, title: str) -> bool:
@@ -100,6 +129,74 @@ def fetch_commons_file_info(title: str) -> dict | None:
     return None
 
 
+def load_image(path: Path):
+    data = np.fromfile(path, dtype=np.uint8)
+    if data.size == 0:
+        return None
+    return cv2.imdecode(data, cv2.IMREAD_COLOR)
+
+
+def has_face_candidate(path: Path) -> bool:
+    image = load_image(path)
+    if image is None:
+        return False
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    for cascade_name in CASCADE_NAMES:
+        cascade = cv2.CascadeClassifier(cv2.data.haarcascades + cascade_name)
+        if cascade.empty():
+            continue
+        faces = cascade.detectMultiScale(
+            gray,
+            scaleFactor=1.05,
+            minNeighbors=3,
+            minSize=(24, 24),
+        )
+        if len(faces):
+            return True
+    return False
+
+
+def fetch_commons_category_candidates(category_title: str) -> list[dict]:
+    normalized = category_title
+    if not normalized.startswith("Category:"):
+        normalized = f"Category:{normalized}"
+
+    params = {
+        "action": "query",
+        "list": "categorymembers",
+        "cmtitle": normalized,
+        "cmnamespace": "6",
+        "cmlimit": "20",
+        "format": "json",
+    }
+    url = f"https://commons.wikimedia.org/w/api.php?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"User-Agent": "FaceRankingBot/1.0"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+
+    results: list[dict] = []
+    for item in data.get("query", {}).get("categorymembers", []):
+        title = item.get("title")
+        if not isinstance(title, str):
+            continue
+        info = fetch_commons_file_info(title)
+        if not info:
+            continue
+        info["source"] = "commons-category"
+        results.append(info)
+
+    results.sort(
+        key=lambda item: (
+            1 if item["height"] > item["width"] * 0.82 else 0,
+            1 if item["height"] >= 520 else 0,
+            item["size"],
+        ),
+        reverse=True,
+    )
+    return results
+
+
 def fetch_wikipedia_page_image(title: str, language: str = "ja") -> dict | None:
     params = {
         "action": "query",
@@ -133,6 +230,33 @@ def fetch_wikipedia_page_image(title: str, language: str = "ja") -> dict | None:
             "source": f"{language}wiki-pageimage",
         }
     return None
+
+
+def fetch_wikidata_entity(wikidata_id: str, props: str = "claims|sitelinks") -> dict:
+    params = {
+        "action": "wbgetentities",
+        "ids": wikidata_id,
+        "props": props,
+        "format": "json",
+    }
+    url = f"https://www.wikidata.org/w/api.php?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"User-Agent": "FaceRankingBot/1.0"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    return data.get("entities", {}).get(wikidata_id, {})
+
+
+def fetch_wikidata_wikipedia_titles(wikidata_id: str) -> list[tuple[str, str]]:
+    entity = fetch_wikidata_entity(wikidata_id, props="sitelinks")
+    sitelinks = entity.get("sitelinks", {})
+    titles: list[tuple[str, str]] = []
+    for site, language in (("jawiki", "ja"), ("enwiki", "en")):
+        title = sitelinks.get(site, {}).get("title")
+        if isinstance(title, str) and title:
+            pair = (language, title)
+            if pair not in titles:
+                titles.append(pair)
+    return titles
 
 
 def search_commons(query: str) -> list[dict]:
@@ -193,18 +317,7 @@ def search_commons(query: str) -> list[dict]:
 
 
 def fetch_wikidata_media_candidates(wikidata_id: str) -> list[dict]:
-    params = {
-        "action": "wbgetentities",
-        "ids": wikidata_id,
-        "props": "claims",
-        "format": "json",
-    }
-    url = f"https://www.wikidata.org/w/api.php?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "FaceRankingBot/1.0"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-
-    entity = data.get("entities", {}).get(wikidata_id, {})
+    entity = fetch_wikidata_entity(wikidata_id, props="claims|sitelinks")
     claims = entity.get("claims", {})
     p18_claims = claims.get("P18", [])
     candidates: list[dict] = []
@@ -220,6 +333,25 @@ def fetch_wikidata_media_candidates(wikidata_id: str) -> list[dict]:
         if info:
             info["source"] = "wikidata-p18"
             candidates.append(info)
+
+    commons_category = None
+    commons_site = entity.get("sitelinks", {}).get("commonswiki", {}).get("title")
+    if isinstance(commons_site, str) and commons_site:
+        commons_category = commons_site
+    if not commons_category:
+        commons_category = (
+            claims.get("P373", [{}])[0]
+            .get("mainsnak", {})
+            .get("datavalue", {})
+            .get("value")
+        )
+
+    if isinstance(commons_category, str) and commons_category:
+        try:
+            category_candidates = fetch_commons_category_candidates(commons_category)
+        except Exception:
+            category_candidates = []
+        candidates.extend(category_candidates)
     return candidates
 
 
@@ -359,10 +491,22 @@ def main() -> int:
         print(f"[{index}/{len(entries)}] {entry['name']}")
         results = []
         last_error = None
+        wiki_titles: list[tuple[str, str]] = []
         if entry.get("wikipediaTitle"):
-            for language in ("ja", "en"):
+            wiki_titles.append(("ja", entry["wikipediaTitle"]))
+        if entry.get("wikidataId"):
+            try:
+                for pair in fetch_wikidata_wikipedia_titles(entry["wikidataId"]):
+                    if pair not in wiki_titles:
+                        wiki_titles.append(pair)
+            except Exception as exc:  # noqa: BLE001
+                last_error = exc
+                print(f"  wikidata sitelinks error: {exc}")
+
+        if wiki_titles:
+            for language, title in wiki_titles:
                 try:
-                    page_image = fetch_wikipedia_page_image(entry["wikipediaTitle"], language=language)
+                    page_image = fetch_wikipedia_page_image(title, language=language)
                 except Exception as exc:  # noqa: BLE001
                     last_error = exc
                     print(f"  pageimage error ({language}): {exc}")
@@ -390,7 +534,7 @@ def main() -> int:
                     )
                     results = wikidata_results
 
-        if not results:
+        if not results and allow_search_fallback(entry):
             for query in candidate_queries(entry):
                 print(f"  query: {query}")
                 try:
@@ -405,6 +549,8 @@ def main() -> int:
                     continue
                 if results:
                     break
+        elif not results:
+            print("  search fallback skipped (ambiguous latin alias)")
 
         if not results:
             if last_error:
@@ -424,6 +570,10 @@ def main() -> int:
             try:
                 tmp_path = photo_path.with_suffix(".tmp")
                 download_image(candidate["url"], tmp_path)
+                if not has_face_candidate(tmp_path):
+                    tmp_path.unlink(missing_ok=True)
+                    print("  reject: no face candidate")
+                    continue
                 size_kb = tmp_path.stat().st_size // 1024
                 tmp_path.replace(photo_path)
                 print(f"  downloaded: {size_kb}KB")

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Ado",
+    "reason": "face_not_public",
+    "note": "Public-facing imagery is character art or concealed; no usable real-face portrait should be collected."
+  },
+  {
+    "name": "野田洋次郎",
+    "reason": "consistent_upper_face_occlusion",
+    "note": "Available portraits consistently hide the upper face or eyes, making landmark-based scoring unreliable."
+  }
+]
