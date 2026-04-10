@@ -39,7 +39,7 @@ export default function LookalikeResult({
     <div className="space-y-6">
       <div className="bg-slate-800 rounded-xl p-6">
         <div className="text-center">
-          <h3 className="mb-2 text-lg text-slate-300">診断スコア</h3>
+          <h3 className="mb-2 text-lg text-slate-300">一般偏差値</h3>
           <div className="mb-4 text-5xl font-bold text-indigo-400">{score}</div>
           <div className="flex justify-center">
             <ScoreRadar details={details} size="md" />
@@ -80,7 +80,7 @@ export default function LookalikeResult({
                 <div className="flex-1">
                   <div className="font-medium">{celebrity.name}</div>
                   <div className="text-sm text-slate-400">
-                    偏差値:{' '}
+                    一般偏差値:{' '}
                     {toDeviation
                       ? toDeviation(celebrity.scores?.face ?? celebrity.score)
                       : celebrity.score}

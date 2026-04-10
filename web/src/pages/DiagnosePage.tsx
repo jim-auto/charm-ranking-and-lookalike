@@ -10,8 +10,9 @@ import type { ScoreDetails } from '../types/celebrity';
 import {
   calculateAdjustedOverallScore,
   calculateMetricDistributions,
-  createCelebrityScoreDeviationConverter,
+  createGeneralScoreDeviationConverter,
 } from '../lib/metricDistribution';
+import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
 
 interface DiagnoseResult {
   score: number;
@@ -32,7 +33,7 @@ export default function DiagnosePage() {
 
   const scoringCelebrities = useMemo(
     () =>
-      celebrities.filter(
+      filterPublicSiteCelebrities(celebrities).filter(
         (celebrity) =>
           celebrity.gender === gender && celebrity.faceValidationStatus !== 'rejected'
       ),
@@ -43,7 +44,7 @@ export default function DiagnosePage() {
     [scoringCelebrities]
   );
   const toDeviation = useMemo(
-    () => createCelebrityScoreDeviationConverter(scoringCelebrities, 'face'),
+    () => createGeneralScoreDeviationConverter(scoringCelebrities, 'face'),
     [scoringCelebrities]
   );
 

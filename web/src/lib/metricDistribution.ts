@@ -21,6 +21,11 @@ export interface MetricDistribution {
 
 type ScoreKey = 'face' | 'faceAge' | 'faceSns' | 'faceAgeSns';
 
+const GENERAL_DEVIATION_BASE = 55;
+const GENERAL_DEVIATION_STRETCH = 1.3;
+const GENERAL_DEVIATION_MIN = 35;
+const GENERAL_DEVIATION_MAX = 99;
+
 const DETAIL_METRICS: DetailRankingMetric[] = [
   'golden_ratio',
   'eyes',
@@ -86,6 +91,14 @@ function createDeviationConverter(values: number[]): (rawValue: number) => numbe
   return (rawValue: number) => round1(50 + 10 * ((rawValue - mean) / stdev));
 }
 
+export function convertCelebrityDeviationToGeneralDeviation(
+  celebrityDeviation: number,
+): number {
+  const lifted =
+    GENERAL_DEVIATION_BASE + (celebrityDeviation - 50) * GENERAL_DEVIATION_STRETCH;
+  return round1(clamp(lifted, GENERAL_DEVIATION_MIN, GENERAL_DEVIATION_MAX));
+}
+
 export function createDeviationConverterFromValues(
   values: number[],
 ): (rawValue: number) => number {
@@ -115,6 +128,15 @@ export function createCelebrityScoreDeviationConverter(
 ): (rawScore: number) => number {
   const values = celebrities.map((celebrity) => celebrity.scores?.[key] ?? celebrity.score ?? 0);
   return createDeviationConverter(values);
+}
+
+export function createGeneralScoreDeviationConverter(
+  celebrities: Celebrity[],
+  key: ScoreKey,
+): (rawScore: number) => number {
+  const celebrityConverter = createCelebrityScoreDeviationConverter(celebrities, key);
+  return (rawScore: number) =>
+    convertCelebrityDeviationToGeneralDeviation(celebrityConverter(rawScore));
 }
 
 export function calculateMetricDistributions(

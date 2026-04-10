@@ -50,9 +50,9 @@ export default function ScoreBreakdown() {
           </section>
 
           <section>
-            <h3 className="mb-2 font-semibold text-white">ランキング条件</h3>
+            <h3 className="mb-2 font-semibold text-white">一般偏差値</h3>
             <p className="text-slate-400">
-              デフォルトはU40です。全年代は切替で見られます。
+              画面の偏差値は芸能人データの相対値を、そのままより少し広げて一般向けに換算しています。
             </p>
           </section>
 

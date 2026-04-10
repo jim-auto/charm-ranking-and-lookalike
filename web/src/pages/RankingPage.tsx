@@ -13,8 +13,9 @@ import ScoreBreakdown from '../components/ScoreBreakdown';
 import {
   calculateMetricDeviation,
   calculateMetricDistributions,
-  createCelebrityScoreDeviationConverter,
+  createGeneralScoreDeviationConverter,
 } from '../lib/metricDistribution';
+import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
 
 const genderFilters = [
   { value: '', label: 'すべて' },
@@ -25,11 +26,6 @@ const genderFilters = [
 const rankingScopes = [
   { value: 'recommended', label: 'おすすめ表示' },
   { value: 'all', label: '全カテゴリ' },
-] as const;
-
-const ageRanges = [
-  { value: 'u40', label: 'U40' },
-  { value: 'all', label: '全年代' },
 ] as const;
 
 const categoryLabels: Record<string, string> = {
@@ -63,7 +59,6 @@ const categoryOrder = [
 ];
 
 type RankingScope = (typeof rankingScopes)[number]['value'];
-type AgeRange = (typeof ageRanges)[number]['value'];
 
 function filterRecommendedEntries(celebrities: Celebrity[]): Celebrity[] {
   let list = celebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
@@ -105,7 +100,6 @@ export default function RankingPage() {
   const [rankingMetric, setRankingMetric] = useState<RankingMetric>('overall');
   const [genderFilter, setGenderFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
-  const [ageRange, setAgeRange] = useState<AgeRange>('u40');
   const [useSns, setUseSns] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
@@ -122,22 +116,27 @@ export default function RankingPage() {
 
   useEffect(() => {
     setPage(1);
-  }, [rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, ageRange, useSns]);
+  }, [rankingScope, rankingMetric, genderFilter, categoryFilter, searchQuery, useSns]);
 
-  const allMetricDistributions = useMemo(
-    () => calculateMetricDistributions(celebrities),
+  const siteCelebrities = useMemo(
+    () => filterPublicSiteCelebrities(celebrities),
     [celebrities]
   );
 
+  const allMetricDistributions = useMemo(
+    () => calculateMetricDistributions(siteCelebrities),
+    [siteCelebrities]
+  );
+
   const toDeviation = useMemo(() => {
-    if (celebrities.length === 0) return (_score: number, _sns: boolean) => 0;
-    const convFace = createCelebrityScoreDeviationConverter(celebrities, 'face');
-    const convFaceSns = createCelebrityScoreDeviationConverter(celebrities, 'faceSns');
+    if (siteCelebrities.length === 0) return (_score: number, _sns: boolean) => 0;
+    const convFace = createGeneralScoreDeviationConverter(siteCelebrities, 'face');
+    const convFaceSns = createGeneralScoreDeviationConverter(siteCelebrities, 'faceSns');
     return (score: number, sns: boolean) => {
       if (sns) return convFaceSns(score);
       return convFace(score);
     };
-  }, [celebrities]);
+  }, [siteCelebrities]);
 
   const toMetricDeviation = useMemo(() => {
     return (metric: DetailRankingMetric, rawValue: number) =>
@@ -145,7 +144,7 @@ export default function RankingPage() {
   }, [allMetricDistributions]);
 
   const categoryFilters = useMemo(() => {
-    const values = Array.from(new Set(celebrities.map((c) => c.category).filter(Boolean))).sort(sortCategoryValues);
+    const values = Array.from(new Set(siteCelebrities.map((c) => c.category).filter(Boolean))).sort(sortCategoryValues);
     return [
       { value: '', label: 'すべて' },
       ...values.map((value) => ({
@@ -153,7 +152,7 @@ export default function RankingPage() {
         label: categoryLabels[value] ?? value,
       })),
     ];
-  }, [celebrities]);
+  }, [siteCelebrities]);
 
   const selectedMetric = useMemo(
     () => rankingMetricOptions.find((option) => option.value === rankingMetric) ?? rankingMetricOptions[0],
@@ -162,10 +161,10 @@ export default function RankingPage() {
   const usesOverallScore = isOverallMetric(rankingMetric);
 
   const sorted = useMemo(() => {
-    let list =
+      let list =
       rankingScope === 'recommended'
-        ? filterRecommendedEntries(celebrities)
-        : celebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
+        ? filterRecommendedEntries(siteCelebrities)
+        : siteCelebrities.filter((celebrity) => celebrity.faceValidationStatus !== 'rejected');
     if (genderFilter) list = list.filter((c) => c.gender === genderFilter);
     if (categoryFilter) list = list.filter((c) => c.category === categoryFilter);
     if (searchQuery) {
@@ -174,9 +173,6 @@ export default function RankingPage() {
         c.name.toLowerCase().includes(q) ||
         (c.group && c.group.toLowerCase().includes(q))
       );
-    }
-    if (ageRange === 'u40') {
-      list = list.filter((celebrity) => typeof celebrity.age === 'number' && celebrity.age <= 39);
     }
     if (!usesOverallScore) {
       list = list.filter((celebrity) => typeof celebrity.details?.[rankingMetric] === 'number');
@@ -188,13 +184,12 @@ export default function RankingPage() {
     });
     return list;
   }, [
-    celebrities,
+    siteCelebrities,
     rankingScope,
     rankingMetric,
     genderFilter,
     categoryFilter,
     searchQuery,
-    ageRange,
     useSns,
   ]);
 
@@ -286,23 +281,6 @@ export default function RankingPage() {
       </div>
 
       <div className="mb-3 flex flex-wrap items-center gap-2">
-        <span className="mr-1 text-sm text-slate-400">年代:</span>
-        {ageRanges.map((range) => (
-          <button
-            key={range.value}
-            onClick={() => setAgeRange(range.value)}
-            className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
-              ageRange === range.value
-                ? 'bg-indigo-600 text-white'
-                : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-            }`}
-          >
-            {range.label}
-          </button>
-        ))}
-      </div>
-
-      <div className="mb-3 flex flex-wrap items-center gap-2">
         <span className="mr-1 text-sm text-slate-400">指標:</span>
         {rankingMetricOptions.map((metric) => (
           <button
@@ -346,10 +324,8 @@ export default function RankingPage() {
 
         <span className="text-xs text-slate-500">
           {!usesOverallScore && `${selectedMetric.label}の単体ランキング`}
-          {usesOverallScore && ageRange === 'u40' && !useSns && 'U40 / 4指標'}
-          {usesOverallScore && ageRange === 'all' && !useSns && '全年代 / 4指標'}
-          {usesOverallScore && ageRange === 'u40' && useSns && 'U40 / 4指標 70% + SNS 30%'}
-          {usesOverallScore && ageRange === 'all' && useSns && '全年代 / 4指標 70% + SNS 30%'}
+          {usesOverallScore && !useSns && '4指標'}
+          {usesOverallScore && useSns && '4指標 70% + SNS 30%'}
         </span>
       </div>
 

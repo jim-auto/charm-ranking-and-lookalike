@@ -59,7 +59,7 @@ export default function CelebrityCard({
       : rawScore
     : rawScore;
   const scoreLabel = isOverallMetric(metric)
-    ? '偏差値'
+    ? '一般偏差値'
     : `${getRankingMetricLabel(metric)}スコア`;
   const scoreSubLabel = isOverallMetric(metric)
     ? `スコア ${formatScoreValue(rawScore)}`
