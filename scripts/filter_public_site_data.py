@@ -16,7 +16,11 @@ EMBEDDING_DIM = 128
 
 def is_visible(entry: dict) -> bool:
     age = entry.get("age")
-    return isinstance(age, int) and age <= MAX_PUBLIC_AGE
+    return (
+        isinstance(age, int)
+        and age <= MAX_PUBLIC_AGE
+        and entry.get("rankingEligible", True) is not False
+    )
 
 
 def load_json(path: Path):

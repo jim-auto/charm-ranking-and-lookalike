@@ -1,17 +1,16 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { Celebrity } from '../types/celebrity';
+import type { Celebrity, ScoreDetails } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
 import { calculateFaceDetails } from '../lib/faceMetricCalculator';
 import { calculatePhotoQuality, type PhotoQualityAssessment } from '../lib/photoQuality';
-import { findSimilarCelebrities, loadEmbeddingStore } from '../lib/embedding';
 import ImageUploader from '../components/ImageUploader';
 import LookalikeResult from '../components/LookalikeResult';
-import type { ScoreDetails } from '../types/celebrity';
 import {
   calculateAdjustedOverallScore,
   calculateMetricDistributions,
   createGeneralScoreDeviationConverter,
 } from '../lib/metricDistribution';
+import { findSimilarCelebritiesByDetails } from '../lib/lookalike';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
 
 interface DiagnoseResult {
@@ -22,10 +21,27 @@ interface DiagnoseResult {
   toDeviation: (rawScore: number) => number;
 }
 
+type ProcessingStage = 'idle' | 'loading' | 'detecting' | 'scoring' | 'matching';
+
+const PROCESSING_LABELS: Record<Exclude<ProcessingStage, 'idle'>, string> = {
+  loading: '画像を準備中...',
+  detecting: '顔を検出中...',
+  scoring: 'スコアを計算中...',
+  matching: '似てる芸能人を探し中...',
+};
+
+function nextPaint(): Promise<void> {
+  return new Promise((resolve) => {
+    requestAnimationFrame(() => resolve());
+  });
+}
+
 export default function DiagnosePage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [modelsReady, setModelsReady] = useState(false);
   const [processing, setProcessing] = useState(false);
+  const [processingStage, setProcessingStage] = useState<ProcessingStage>('idle');
+  const [uploadedImageSrc, setUploadedImageSrc] = useState<string | null>(null);
   const [result, setResult] = useState<DiagnoseResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [gender, setGender] = useState<'male' | 'female'>('male');
@@ -35,18 +51,20 @@ export default function DiagnosePage() {
     () =>
       filterPublicSiteCelebrities(celebrities).filter(
         (celebrity) =>
-          celebrity.gender === gender && celebrity.faceValidationStatus !== 'rejected'
+          celebrity.gender === gender && celebrity.faceValidationStatus !== 'rejected',
       ),
-    [celebrities, gender]
+    [celebrities, gender],
   );
   const metricDistributions = useMemo(
     () => calculateMetricDistributions(scoringCelebrities),
-    [scoringCelebrities]
+    [scoringCelebrities],
   );
   const toDeviation = useMemo(
     () => createGeneralScoreDeviationConverter(scoringCelebrities, 'face'),
-    [scoringCelebrities]
+    [scoringCelebrities],
   );
+  const processingLabel =
+    processingStage === 'idle' ? null : PROCESSING_LABELS[processingStage];
 
   useEffect(() => {
     const base = import.meta.env.BASE_URL;
@@ -60,16 +78,20 @@ export default function DiagnosePage() {
       })
       .catch((err) => {
         console.error(err);
-        setError('モデルの読み込みに失敗しました。ページをリロードしてください。');
+        setError('モデルの読み込みに失敗しました。ページを再読み込みしてください。');
       });
   }, []);
 
   const handleImage = useCallback(
     async (img: HTMLImageElement) => {
       if (!modelsReady) return;
+
+      setUploadedImageSrc(img.src);
       setProcessing(true);
+      setProcessingStage('loading');
       setError(null);
       setResult(null);
+      await nextPaint();
 
       try {
         const canvas = canvasRef.current!;
@@ -78,12 +100,16 @@ export default function DiagnosePage() {
         const ctx = canvas.getContext('2d')!;
         ctx.drawImage(img, 0, 0);
 
+        setProcessingStage('detecting');
+        await nextPaint();
         const detection = await detectFace(canvas);
         if (!detection) {
-          setError('顔を検出できませんでした。正面からの顔写真をお試しください。');
+          setError('顔を検出できませんでした。正面寄りの顔写真で試してください。');
           return;
         }
 
+        setProcessingStage('scoring');
+        await nextPaint();
         const baseDetails = calculateFaceDetails(detection.landmarks);
         const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
         const details = {
@@ -93,12 +119,13 @@ export default function DiagnosePage() {
         const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
         const score = toDeviation(rawScore);
 
-        const embeddingStore = await loadEmbeddingStore(`${import.meta.env.BASE_URL}data`);
-        const similar = findSimilarCelebrities(
-          detection.embedding,
+        setProcessingStage('matching');
+        await nextPaint();
+        const similar = findSimilarCelebritiesByDetails(
+          details,
+          rawScore,
           scoringCelebrities,
-          embeddingStore,
-          5
+          5,
         );
         const lookalikes = similar.map(({ index, similarity }) => ({
           celebrity: scoringCelebrities[index],
@@ -108,31 +135,35 @@ export default function DiagnosePage() {
         setResult({ score, details, photoQuality, lookalikes, toDeviation });
       } catch (err) {
         console.error(err);
-        setError('処理中にエラーが発生しました。');
+        setError('診断中にエラーが発生しました。');
       } finally {
         setProcessing(false);
+        setProcessingStage('idle');
       }
     },
     [modelsReady, metricDistributions, scoringCelebrities, toDeviation],
   );
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="mx-auto max-w-2xl">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold mb-2">AIスト値診断</h2>
+        <h2 className="mb-2 text-2xl font-bold">AI顔診断</h2>
         <p className="text-slate-400">
-          写真からスコアを出して、近い芸能人を探します。
+          顔写真からスコアと似てる芸能人を表示します。
         </p>
       </div>
 
-      <div className="flex items-center gap-3 mb-6">
+      <div className="mb-6 flex items-center gap-3">
         <span className="text-sm text-slate-400">性別:</span>
-        {([['male', '男性'], ['female', '女性']] as const).map(([val, label]) => (
+        {([
+          ['male', '男性'],
+          ['female', '女性'],
+        ] as const).map(([value, label]) => (
           <button
-            key={val}
-            onClick={() => setGender(val)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-              gender === val
+            key={value}
+            onClick={() => setGender(value)}
+            className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              gender === value
                 ? 'bg-indigo-600 text-white'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
@@ -143,16 +174,45 @@ export default function DiagnosePage() {
       </div>
 
       {!modelsReady && !error && (
-        <div className="text-center py-12 text-slate-400">
-          <div className="animate-spin w-8 h-8 border-2 border-indigo-400 border-t-transparent rounded-full mx-auto mb-3" />
+        <div className="py-12 text-center text-slate-400">
+          <div className="mx-auto mb-3 h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
           診断モデルを読み込み中...
         </div>
       )}
 
-      {modelsReady && <ImageUploader onImageSelected={handleImage} isProcessing={processing} />}
+      {modelsReady && (
+        <ImageUploader
+          onImageSelected={handleImage}
+          isProcessing={processing}
+          processingLabel={processingLabel ?? undefined}
+        />
+      )}
+
+      {uploadedImageSrc && (
+        <div className="mt-4 rounded-xl border border-slate-800 bg-slate-900/70 p-4">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <div>
+              <div className="text-sm text-slate-400">診断した写真</div>
+              <div className="mt-1 text-sm text-slate-200">
+                {processingLabel ?? (result ? '診断完了' : '画像を読み込みました')}
+              </div>
+            </div>
+            {processingLabel && (
+              <span className="rounded-full bg-indigo-950 px-3 py-1 text-xs font-medium text-indigo-200">
+                {processingLabel}
+              </span>
+            )}
+          </div>
+          <img
+            src={uploadedImageSrc}
+            alt="診断した写真"
+            className="max-h-[420px] w-full rounded-lg bg-slate-950 object-contain"
+          />
+        </div>
+      )}
 
       {error && (
-        <div className="mt-4 p-4 bg-red-900/50 border border-red-700 rounded-lg text-red-300">
+        <div className="mt-4 rounded-lg border border-red-700 bg-red-900/50 p-4 text-red-300">
           {error}
         </div>
       )}

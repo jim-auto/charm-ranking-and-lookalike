@@ -28,6 +28,10 @@ function QualityMetric({
   );
 }
 
+function formatScore(value: number): string {
+  return Number.isInteger(value) ? String(value) : value.toFixed(1);
+}
+
 export default function LookalikeResult({
   score,
   details,
@@ -37,37 +41,30 @@ export default function LookalikeResult({
 }: Props) {
   return (
     <div className="space-y-6">
-      <div className="bg-slate-800 rounded-xl p-6">
+      <div className="rounded-xl bg-slate-800 p-6">
         <div className="text-center">
           <h3 className="mb-2 text-lg text-slate-300">一般偏差値</h3>
-          <div className="mb-4 text-5xl font-bold text-indigo-400">{score}</div>
+          <div className="mb-4 text-5xl font-bold text-indigo-400">
+            {formatScore(score)}
+          </div>
           <div className="flex justify-center">
             <ScoreRadar details={details} size="md" />
           </div>
         </div>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-3">
-          <QualityMetric label="写真品質" value={photoQuality.overallScore} hint="この写真の安定度" />
-          <QualityMetric label="正面度" value={photoQuality.frontalScore} hint="正面寄りほど安定" />
-          <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ピント" />
-          <QualityMetric label="顔の収まり" value={photoQuality.cropScore} hint="顔の収まり具合" />
+          <QualityMetric label="写真品質" value={photoQuality.overallScore} hint="全体の見やすさ" />
+          <QualityMetric label="正面度" value={photoQuality.frontalScore} hint="正面に近いほど高め" />
+          <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ピントの強さ" />
+          <QualityMetric label="顔の収まり" value={photoQuality.cropScore} hint="切れすぎを確認" />
           <QualityMetric label="傾き" value={`${photoQuality.rollDegrees}°`} hint="0°に近いほど安定" />
-          <QualityMetric label="横向き耐性" value={photoQuality.yawScore} hint="正面寄りほど安定" />
-        </div>
-
-        <div className="mt-4 rounded-lg border border-slate-700 bg-slate-900/40 p-4">
-          <div className="text-sm font-medium text-slate-200">写真チェック</div>
-          <ul className="mt-2 space-y-2 text-sm text-slate-300">
-            {photoQuality.notes.map((note) => (
-              <li key={note}>{note}</li>
-            ))}
-          </ul>
+          <QualityMetric label="横向き度" value={photoQuality.yawScore} hint="正面に近いほど高め" />
         </div>
       </div>
 
       {lookalikes.length > 0 && (
-        <div className="bg-slate-800 rounded-xl p-6">
-          <h3 className="mb-4 text-lg font-semibold">似ている芸能人 Top {lookalikes.length}</h3>
+        <div className="rounded-xl bg-slate-800 p-6">
+          <h3 className="mb-4 text-lg font-semibold">似てる芸能人 Top {lookalikes.length}</h3>
           <div className="space-y-3">
             {lookalikes.map(({ celebrity, similarity }, index) => (
               <div key={celebrity.id} className="flex items-center gap-3">
@@ -82,11 +79,13 @@ export default function LookalikeResult({
                   <div className="text-sm text-slate-400">
                     一般偏差値:{' '}
                     {toDeviation
-                      ? toDeviation(celebrity.scores?.face ?? celebrity.score)
-                      : celebrity.score}
+                      ? formatScore(toDeviation(celebrity.scores?.face ?? celebrity.score))
+                      : formatScore(celebrity.score)}
                   </div>
                 </div>
-                <div className="font-bold text-indigo-400">{Math.round(similarity * 100)}% 一致</div>
+                <div className="font-bold text-indigo-400">
+                  {Math.round(similarity)}% 似てる
+                </div>
               </div>
             ))}
           </div>
