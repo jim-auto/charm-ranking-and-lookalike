@@ -12,10 +12,9 @@ interface Props {
   rank: number;
   metric?: RankingMetric;
   metricDeviation?: number | null;
-  useAge?: boolean;
   useSns?: boolean;
   formatFollowers?: (n: number) => string;
-  toDeviation?: (score: number, age: boolean, sns: boolean) => number;
+  toDeviation?: (score: number, sns: boolean) => number;
 }
 
 const categoryLabel: Record<string, string> = {
@@ -49,15 +48,14 @@ export default function CelebrityCard({
   rank,
   metric = 'overall',
   metricDeviation = null,
-  useAge = false,
   useSns = false,
   formatFollowers,
   toDeviation,
 }: Props) {
-  const rawScore = getRankingMetricValue(celebrity, metric, useAge, useSns);
+  const rawScore = getRankingMetricValue(celebrity, metric, false, useSns);
   const displayScore = isOverallMetric(metric)
     ? toDeviation
-      ? toDeviation(rawScore, useAge, useSns)
+      ? toDeviation(rawScore, useSns)
       : rawScore
     : rawScore;
   const scoreLabel = isOverallMetric(metric)

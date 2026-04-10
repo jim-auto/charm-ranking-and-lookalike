@@ -50,9 +50,9 @@ export default function ScoreBreakdown() {
           </section>
 
           <section>
-            <h3 className="mb-2 font-semibold text-white">年齢補正 ON</h3>
+            <h3 className="mb-2 font-semibold text-white">ランキング条件</h3>
             <p className="text-slate-400">
-              23歳付近を山にして、離れるほど少し下がります。
+              デフォルトはU40です。全年代は切替で見られます。
             </p>
           </section>
 
