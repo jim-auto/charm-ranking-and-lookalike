@@ -20,10 +20,13 @@ export interface PhotoQualityAssessment {
   yawScore: number;
   pitchScore: number;
   rollDegrees: number;
+  diagnosisReady: boolean;
+  retryRecommended: boolean;
   symmetryReliable: boolean;
   contourReliable: boolean;
   symmetryConfidence: ConfidenceLevel;
   contourConfidence: ConfidenceLevel;
+  blockingReasons: string[];
   notes: string[];
 }
 
@@ -240,6 +243,31 @@ export function calculatePhotoQuality(
     cropScore >= 35;
   const contourReliable = frontalScore >= 58 && cropScore >= 30;
 
+  const blockingReasons: string[] = [];
+  if (yawScore < 40 || frontalScore < 42) {
+    blockingReasons.push('横向きが強く、顔の中心位置を安定して取りにくいです。');
+  }
+  if (pitchScore < 34) {
+    blockingReasons.push('顎の上げ下げが大きく、縦バランスが崩れています。');
+  }
+  if (Math.abs(rollDegrees) > 18) {
+    blockingReasons.push('顔の傾きが大きすぎます。');
+  }
+  if (cropScore < 18) {
+    blockingReasons.push('顔が小さすぎるか、輪郭が切れています。');
+  }
+  if (sharpnessScore < 10) {
+    blockingReasons.push('写真がぼけすぎています。');
+  }
+
+  const diagnosisReady = blockingReasons.length === 0;
+  const retryRecommended =
+    !diagnosisReady ||
+    overallScore < 55 ||
+    frontalScore < 60 ||
+    cropScore < 30 ||
+    sharpnessScore < 20;
+
   const notes: string[] = [];
   if (yawScore < 68) notes.push('横向きが強めです。正面の写真だと左右対称を見やすくなります。');
   if (pitchScore < 58) notes.push('顎の上げ下げが強めです。目線の高さで撮ると安定します。');
@@ -256,10 +284,13 @@ export function calculatePhotoQuality(
     yawScore,
     pitchScore,
     rollDegrees,
+    diagnosisReady,
+    retryRecommended,
     symmetryReliable,
     contourReliable,
     symmetryConfidence: getConfidenceLevel(symmetrySupport),
     contourConfidence: getConfidenceLevel(contourSupport),
+    blockingReasons,
     notes,
   };
 }

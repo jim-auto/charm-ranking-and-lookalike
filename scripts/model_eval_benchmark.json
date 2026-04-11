@@ -55,6 +55,69 @@
       "reason": "公開男性上位で俳優が creator leakage に負けすぎないこと"
     },
     {
+      "label": "male_core_07",
+      "segment": "male_core",
+      "higher": "佐野勇斗",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 4.0,
+      "reason": "公開男性上位で actor と youtuber の gap を保ちたい"
+    },
+    {
+      "label": "male_core_08",
+      "segment": "male_core",
+      "higher": "宮世琉弥",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 4.0,
+      "reason": "若手 actor は低位 youtuber より上に残したい"
+    },
+    {
+      "label": "male_core_09",
+      "segment": "male_core",
+      "higher": "板垣李光人",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 4.0,
+      "reason": "若手 actor は低位 youtuber より上に残したい"
+    },
+    {
+      "label": "male_core_10",
+      "segment": "male_core",
+      "higher": "ラウール",
+      "lower": "kemio",
+      "weight": 1.0,
+      "min_margin": 3.0,
+      "reason": "男性上位の idol が influencer に食われすぎないこと"
+    },
+    {
+      "label": "male_core_11",
+      "segment": "male_core",
+      "higher": "永瀬廉",
+      "lower": "kemio",
+      "weight": 1.0,
+      "min_margin": 3.0,
+      "reason": "男性上位の idol が influencer に食われすぎないこと"
+    },
+    {
+      "label": "male_core_12",
+      "segment": "male_core",
+      "higher": "森本慎太郎",
+      "lower": "kemio",
+      "weight": 1.0,
+      "min_margin": 5.0,
+      "reason": "男性 top 層の idol は influencer より明確に上にいたい"
+    },
+    {
+      "label": "male_core_13",
+      "segment": "male_core",
+      "higher": "西畑大吾",
+      "lower": "kemio",
+      "weight": 1.0,
+      "min_margin": 4.0,
+      "reason": "男性 top 層の idol は influencer より明確に上にいたい"
+    },
+    {
       "label": "artist_vs_youtuber_01",
       "segment": "artist_vs_creator",
       "higher": "米津玄師",
@@ -71,6 +134,24 @@
       "weight": 1.0,
       "min_margin": 2.0,
       "reason": "artist と youtuber の gap が小さすぎないこと"
+    },
+    {
+      "label": "artist_vs_youtuber_03",
+      "segment": "artist_vs_creator",
+      "higher": "優里",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 3.0,
+      "reason": "artist は低位 youtuber より十分上に残したい"
+    },
+    {
+      "label": "artist_vs_youtuber_04",
+      "segment": "artist_vs_creator",
+      "higher": "常田大希",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 3.0,
+      "reason": "artist は低位 youtuber より十分上に残したい"
     },
     {
       "label": "female_core_01",
@@ -136,13 +217,49 @@
       "reason": "女性上位は idol が influencer を上回ってほしい"
     },
     {
-      "label": "male_core_07",
-      "segment": "male_core",
-      "higher": "佐野勇斗",
-      "lower": "HIKAKIN",
+      "label": "female_core_08",
+      "segment": "female_core",
+      "higher": "生見愛瑠",
+      "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 4.0,
-      "reason": "公開男性上位で actor と youtuber の gap を保ちたい"
+      "min_margin": 2.0,
+      "reason": "女性上位の actress は influencer を安定して上回りたい"
+    },
+    {
+      "label": "female_core_09",
+      "segment": "female_core",
+      "higher": "桜田ひより",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 2.0,
+      "reason": "女性上位の actress は influencer を安定して上回りたい"
+    },
+    {
+      "label": "female_core_10",
+      "segment": "female_core",
+      "higher": "白石麻衣",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 1.0,
+      "reason": "女性上位の idol は influencer より上に残したい"
+    },
+    {
+      "label": "female_core_11",
+      "segment": "female_core",
+      "higher": "森田ひかる",
+      "lower": "ゆりやんレトリィバァ",
+      "weight": 1.0,
+      "min_margin": 5.0,
+      "reason": "女性 top 層の idol は comedian より明確に上にいたい"
+    },
+    {
+      "label": "female_core_12",
+      "segment": "female_core",
+      "higher": "梅澤美波",
+      "lower": "やす子",
+      "weight": 1.0,
+      "min_margin": 10.0,
+      "reason": "女性 top 層の idol は comedian より明確に上にいたい"
     }
   ],
   "topk": [
@@ -154,11 +271,25 @@
       "reason": "公開男性 top10 に creator leakage を入れたくない"
     },
     {
+      "label": "male_top15_no_creator_leakage",
+      "gender": "male",
+      "top_n": 15,
+      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "reason": "公開男性 top15 までは creator leakage を抑えたい"
+    },
+    {
       "label": "female_top10_no_creator_leakage",
       "gender": "female",
       "top_n": 10,
       "forbidden_categories": ["youtuber", "comedian", "influencer"],
       "reason": "公開女性 top10 に creator leakage を入れたくない"
+    },
+    {
+      "label": "female_top15_no_creator_leakage",
+      "gender": "female",
+      "top_n": 15,
+      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "reason": "公開女性 top15 までは creator leakage を抑えたい"
     },
     {
       "label": "overall_top20_no_creator_leakage",
@@ -175,12 +306,36 @@
       "reason": "男性上位が actor 主体から外れすぎないこと"
     },
     {
+      "label": "male_top20_has_enough_core_actors",
+      "gender": "male",
+      "top_n": 20,
+      "must_include": ["吉沢亮", "成田凌", "山崎賢人", "山田裕貴", "松坂桃李", "窪田正孝", "神木隆之介", "佐野勇斗", "宮世琉弥"],
+      "min_hits": 7,
+      "reason": "男性 top20 に actor の芯を十分残したい"
+    },
+    {
       "label": "female_top10_has_enough_core_actresses",
       "gender": "female",
       "top_n": 10,
       "must_include": ["永野芽郁", "森七菜", "石原さとみ", "橋本環奈", "生見愛瑠"],
       "min_hits": 4,
       "reason": "女性上位に actress の芯を残したい"
+    },
+    {
+      "label": "actress_top10_stays_actress_like",
+      "categories": ["actress"],
+      "top_n": 10,
+      "must_include": ["永野芽郁", "森七菜", "石原さとみ", "橋本環奈", "生見愛瑠", "桜田ひより"],
+      "min_hits": 5,
+      "reason": "actress slice が妥当な顔ぶれを維持すること"
+    },
+    {
+      "label": "idol_top10_stays_idol_like",
+      "categories": ["idol"],
+      "top_n": 10,
+      "must_include": ["森本慎太郎", "大園玲", "齋藤飛鳥", "西畑大吾", "梅澤美波", "ラウール", "永瀬廉"],
+      "min_hits": 5,
+      "reason": "idol slice が妥当な顔ぶれを維持すること"
     },
     {
       "label": "artist_top8_stays_artist_like",

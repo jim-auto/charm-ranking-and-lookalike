@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Suspense, lazy, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Celebrity, ScoreDetails } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
 import {
@@ -10,7 +10,6 @@ import { calculateFaceDetails } from '../lib/faceMetricCalculator';
 import { calibrateDiagnoseDetails } from '../lib/diagnoseCalibration';
 import { calculatePhotoQuality, type PhotoQualityAssessment } from '../lib/photoQuality';
 import ImageUploader from '../components/ImageUploader';
-import LookalikeResult from '../components/LookalikeResult';
 import {
   calculateAdjustedOverallScore,
   calculateMetricDistributions,
@@ -21,6 +20,8 @@ import {
   findSimilarCelebritiesByDetails,
 } from '../lib/lookalike';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
+
+const LookalikeResult = lazy(() => import('../components/LookalikeResult'));
 
 interface DiagnoseResult {
   score: number;
@@ -45,6 +46,19 @@ function nextPaint(): Promise<void> {
   });
 }
 
+function ResultFallback() {
+  return (
+    <div className="rounded-xl bg-slate-800 p-6 text-center text-slate-400">
+      結果を読み込み中...
+    </div>
+  );
+}
+
+function buildPhotoQualityError(photoQuality: PhotoQualityAssessment): string {
+  const reasons = photoQuality.blockingReasons.slice(0, 2).join(' ');
+  return `この写真は診断に向きません。${reasons} 正面寄りで、顔が大きめに写った明るい写真で試してください。`;
+}
+
 export default function DiagnosePage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [modelsReady, setModelsReady] = useState(false);
@@ -52,10 +66,12 @@ export default function DiagnosePage() {
   const [processing, setProcessing] = useState(false);
   const [processingStage, setProcessingStage] = useState<ProcessingStage>('idle');
   const [uploadedImageSrc, setUploadedImageSrc] = useState<string | null>(null);
+  const [photoQuality, setPhotoQuality] = useState<PhotoQualityAssessment | null>(null);
   const [result, setResult] = useState<DiagnoseResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [gender, setGender] = useState<'male' | 'female'>('male');
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const embeddingStorePromiseRef = useRef<Promise<EmbeddingStore | null> | null>(null);
 
   const scoringCelebrities = useMemo(
     () =>
@@ -75,28 +91,43 @@ export default function DiagnosePage() {
   );
   const processingLabel =
     processingStage === 'idle' ? null : PROCESSING_LABELS[processingStage];
+  const modelBaseUrl = `${import.meta.env.BASE_URL}models`;
+  const dataBaseUrl = `${import.meta.env.BASE_URL}data`;
 
   useEffect(() => {
-    const base = import.meta.env.BASE_URL;
     Promise.all([
-      loadModels(`${base}models`),
-      fetch(`${base}data/celebrities.json`).then((r) => r.json()),
+      loadModels(modelBaseUrl),
+      fetch(`${dataBaseUrl}/celebrities.json`).then((r) => r.json()),
     ])
       .then(([, data]) => {
         setCelebrities(data as Celebrity[]);
         setModelsReady(true);
-        loadEmbeddingStore(`${base}data`)
-          .then(setEmbeddingStore)
-          .catch((embeddingError) => {
-            console.warn('Failed to load embedding store', embeddingError);
-            setEmbeddingStore(null);
-          });
       })
       .catch((err) => {
         console.error(err);
         setError('モデルの読み込みに失敗しました。ページを再読み込みしてください。');
       });
-  }, []);
+  }, [dataBaseUrl, modelBaseUrl]);
+
+  const ensureEmbeddingStore = useCallback(async (): Promise<EmbeddingStore | null> => {
+    if (embeddingStore) {
+      return embeddingStore;
+    }
+
+    if (!embeddingStorePromiseRef.current) {
+      embeddingStorePromiseRef.current = loadEmbeddingStore(dataBaseUrl)
+        .then((store) => {
+          setEmbeddingStore(store);
+          return store;
+        })
+        .catch((embeddingError) => {
+          console.warn('Failed to load embedding store', embeddingError);
+          return null;
+        });
+    }
+
+    return embeddingStorePromiseRef.current;
+  }, [dataBaseUrl, embeddingStore]);
 
   const handleImage = useCallback(
     async (img: HTMLImageElement) => {
@@ -106,6 +137,7 @@ export default function DiagnosePage() {
       setProcessing(true);
       setProcessingStage('loading');
       setError(null);
+      setPhotoQuality(null);
       setResult(null);
       await nextPaint();
 
@@ -128,6 +160,11 @@ export default function DiagnosePage() {
         await nextPaint();
         const baseDetails = calculateFaceDetails(detection.landmarks);
         const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
+        setPhotoQuality(photoQuality);
+        if (!photoQuality.diagnosisReady) {
+          setError(buildPhotoQualityError(photoQuality));
+          return;
+        }
         const filteredDetails = {
           ...baseDetails,
           symmetry: photoQuality.symmetryReliable ? baseDetails.symmetry : undefined,
@@ -143,9 +180,15 @@ export default function DiagnosePage() {
         setProcessingStage('matching');
         await nextPaint();
         const userHasEmbedding = detection.embedding.some((value) => value !== 0);
+        const activeEmbeddingStore = userHasEmbedding ? await ensureEmbeddingStore() : null;
         const embeddingMatches =
-          embeddingStore && userHasEmbedding
-            ? findSimilarCelebrities(detection.embedding, scoringCelebrities, embeddingStore, 12)
+          activeEmbeddingStore && userHasEmbedding
+            ? findSimilarCelebrities(
+                detection.embedding,
+                scoringCelebrities,
+                activeEmbeddingStore,
+                12,
+              )
             : [];
 
         const lookalikes =
@@ -181,7 +224,7 @@ export default function DiagnosePage() {
         setProcessingStage('idle');
       }
     },
-    [embeddingStore, modelsReady, metricDistributions, scoringCelebrities, toDeviation],
+    [ensureEmbeddingStore, modelsReady, metricDistributions, scoringCelebrities, toDeviation],
   );
 
   return (
@@ -248,6 +291,33 @@ export default function DiagnosePage() {
             alt="診断した写真"
             className="max-h-[420px] w-full rounded-lg bg-slate-950 object-contain"
           />
+          {photoQuality && !processing && (
+            <div
+              className={`mt-3 rounded-lg border px-4 py-3 text-sm ${
+                photoQuality.diagnosisReady
+                  ? photoQuality.retryRecommended
+                    ? 'border-amber-800 bg-amber-950/40 text-amber-100'
+                    : 'border-emerald-800 bg-emerald-950/40 text-emerald-100'
+                  : 'border-red-800 bg-red-950/40 text-red-100'
+              }`}
+            >
+              <div className="font-medium">
+                {photoQuality.diagnosisReady
+                  ? photoQuality.retryRecommended
+                    ? '診断はできましたが、撮り直すと安定します'
+                    : 'この写真は診断向きです'
+                  : 'この写真は診断に向きません'}
+              </div>
+              <div className="mt-2 space-y-1 text-xs">
+                {(photoQuality.diagnosisReady
+                  ? photoQuality.notes
+                  : photoQuality.blockingReasons
+                ).slice(0, 3).map((note) => (
+                  <div key={note}>{note}</div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
 
@@ -259,13 +329,15 @@ export default function DiagnosePage() {
 
       {result && (
         <div className="mt-6">
-          <LookalikeResult
-            score={result.score}
-            details={result.details}
-            photoQuality={result.photoQuality}
-            lookalikes={result.lookalikes}
-            toDeviation={result.toDeviation}
-          />
+          <Suspense fallback={<ResultFallback />}>
+            <LookalikeResult
+              score={result.score}
+              details={result.details}
+              photoQuality={result.photoQuality}
+              lookalikes={result.lookalikes}
+              toDeviation={result.toDeviation}
+            />
+          </Suspense>
         </div>
       )}
 

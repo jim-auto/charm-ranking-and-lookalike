@@ -60,6 +60,17 @@ export default function LookalikeResult({
           <QualityMetric label="傾き" value={`${photoQuality.rollDegrees}°`} hint="0°に近いほど安定" />
           <QualityMetric label="横向き度" value={photoQuality.yawScore} hint="正面に近いほど高め" />
         </div>
+
+        {photoQuality.retryRecommended && (
+          <div className="mt-4 rounded-lg border border-amber-800 bg-amber-950/30 p-4 text-left">
+            <div className="text-sm font-medium text-amber-100">撮り直すと結果が安定しやすいです</div>
+            <div className="mt-2 space-y-1 text-xs text-amber-200">
+              {photoQuality.notes.slice(0, 3).map((note) => (
+                <div key={note}>{note}</div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {lookalikes.length > 0 && (

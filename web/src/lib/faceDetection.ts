@@ -1,10 +1,17 @@
-import * as faceapi from 'face-api.js';
-
 let modelsLoaded = false;
+let faceApiPromise: Promise<typeof import('face-api.js')> | null = null;
+
+async function loadFaceApi() {
+  if (!faceApiPromise) {
+    faceApiPromise = import('face-api.js');
+  }
+  return faceApiPromise;
+}
 
 export async function loadModels(modelPath: string): Promise<void> {
   if (modelsLoaded) return;
 
+  const faceapi = await loadFaceApi();
   await Promise.all([
     faceapi.nets.ssdMobilenetv1.loadFromUri(modelPath),
     faceapi.nets.faceLandmark68Net.loadFromUri(modelPath),
@@ -23,6 +30,7 @@ export interface DetectionResult {
 export async function detectFace(
   input: HTMLImageElement | HTMLCanvasElement,
 ): Promise<DetectionResult | null> {
+  const faceapi = await loadFaceApi();
   const detection = await faceapi
     .detectSingleFace(input)
     .withFaceLandmarks()
