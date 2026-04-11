@@ -1,25 +1,32 @@
-import { HashRouter, Routes, Route, NavLink } from 'react-router-dom';
-import RankingPage from './pages/RankingPage';
-import DiagnosePage from './pages/DiagnosePage';
+import { Suspense, lazy } from 'react';
+import { HashRouter, NavLink, Route, Routes } from 'react-router-dom';
+
+const RankingPage = lazy(() => import('./pages/RankingPage'));
+const DiagnosePage = lazy(() => import('./pages/DiagnosePage'));
+
+function PageFallback() {
+  return (
+    <div className="py-12 text-center text-slate-400">
+      <div className="mx-auto mb-3 h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
+      読み込み中...
+    </div>
+  );
+}
 
 export default function App() {
   return (
     <HashRouter>
       <div className="min-h-screen">
         <header className="border-b border-slate-800">
-          <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-            <h1 className="text-base sm:text-xl font-bold text-white">
-              スト値ランキング
-            </h1>
+          <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
+            <h1 className="text-base font-bold text-white sm:text-xl">顔面ランキング</h1>
             <nav className="flex gap-1">
               <NavLink
                 to="/"
                 end
                 className={({ isActive }) =>
-                  `px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    isActive
-                      ? 'bg-indigo-600 text-white'
-                      : 'text-slate-300 hover:bg-slate-800'
+                  `rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
+                    isActive ? 'bg-indigo-600 text-white' : 'text-slate-300 hover:bg-slate-800'
                   }`
                 }
               >
@@ -28,24 +35,24 @@ export default function App() {
               <NavLink
                 to="/diagnose"
                 className={({ isActive }) =>
-                  `px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    isActive
-                      ? 'bg-indigo-600 text-white'
-                      : 'text-slate-300 hover:bg-slate-800'
+                  `rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
+                    isActive ? 'bg-indigo-600 text-white' : 'text-slate-300 hover:bg-slate-800'
                   }`
                 }
               >
-                AIスト値診断
+                AI顔面診断
               </NavLink>
             </nav>
           </div>
         </header>
 
-        <main className="max-w-4xl mx-auto px-4 py-8">
-          <Routes>
-            <Route path="/" element={<RankingPage />} />
-            <Route path="/diagnose" element={<DiagnosePage />} />
-          </Routes>
+        <main className="mx-auto max-w-4xl px-4 py-8">
+          <Suspense fallback={<PageFallback />}>
+            <Routes>
+              <Route path="/" element={<RankingPage />} />
+              <Route path="/diagnose" element={<DiagnosePage />} />
+            </Routes>
+          </Suspense>
         </main>
       </div>
     </HashRouter>
