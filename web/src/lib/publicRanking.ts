@@ -11,13 +11,20 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
   artist: 3.5,
 };
 
+/** Editorial score adjustments for celebrities whose algorithmic score
+ *  significantly diverges from public perception of attractiveness. */
+const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
+  橋本環奈: 2.0,
+  石原さとみ: 1.5,
+};
+
 export function getPublicRankingCategoryPenalty(category?: string): number {
   if (!category) return 0;
   return PUBLIC_CATEGORY_PENALTIES[category] ?? 0;
 }
 
 export function getPublicOverallScore(
-  celebrity: Pick<Celebrity, 'category' | 'scores' | 'score'>,
+  celebrity: Pick<Celebrity, 'name' | 'category' | 'scores' | 'score'>,
   useSns: boolean,
 ): number {
   const baseScore = celebrity.scores
@@ -25,11 +32,12 @@ export function getPublicOverallScore(
       ? celebrity.scores.faceSns
       : celebrity.scores.face
     : celebrity.score ?? 0;
-  return baseScore - getPublicRankingCategoryPenalty(celebrity.category);
+  const adjust = PUBLIC_SCORE_ADJUSTMENTS[celebrity.name] ?? 0;
+  return baseScore + adjust - getPublicRankingCategoryPenalty(celebrity.category);
 }
 
 export function createPublicGeneralScoreDeviationConverter(
-  celebrities: Array<Pick<Celebrity, 'category' | 'scores' | 'score'>>,
+  celebrities: Array<Pick<Celebrity, 'name' | 'category' | 'scores' | 'score'>>,
   useSns: boolean,
 ): (rawScore: number) => number {
   const values = celebrities.map((celebrity) => getPublicOverallScore(celebrity, useSns));

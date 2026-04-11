@@ -19,7 +19,12 @@ PUBLIC_CATEGORY_PENALTIES = {
     "youtuber": 7.0,
     "influencer": 3.0,
     "comedian": 4.0,
-    "artist": 1.5,
+    "artist": 3.5,
+}
+
+PUBLIC_SCORE_ADJUSTMENTS = {
+    "橋本環奈": 2.0,
+    "石原さとみ": 1.5,
 }
 
 
@@ -35,14 +40,23 @@ def get_public_category_penalty(entry: dict[str, Any]) -> float:
     return float(PUBLIC_CATEGORY_PENALTIES.get(category, 0.0))
 
 
+def get_public_score_adjustment(entry: dict[str, Any]) -> float:
+    name = entry.get("name", "")
+    return float(PUBLIC_SCORE_ADJUSTMENTS.get(name, 0.0))
+
+
 def get_metric_value(entry: dict[str, Any], metric: ScoreMetric) -> float | None:
     if metric == "publicFace":
         base_value = get_metric_value(entry, "face")
-        return None if base_value is None else base_value - get_public_category_penalty(entry)
+        if base_value is None:
+            return None
+        return base_value + get_public_score_adjustment(entry) - get_public_category_penalty(entry)
 
     if metric == "publicFaceSns":
         base_value = get_metric_value(entry, "faceSns")
-        return None if base_value is None else base_value - get_public_category_penalty(entry)
+        if base_value is None:
+            return None
+        return base_value + get_public_score_adjustment(entry) - get_public_category_penalty(entry)
 
     if metric == "score":
         return float(entry.get("score", 0.0))
