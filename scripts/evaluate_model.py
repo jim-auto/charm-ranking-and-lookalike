@@ -19,6 +19,7 @@ PUBLIC_CATEGORY_PENALTIES = {
     "youtuber": 7.0,
     "influencer": 3.0,
     "comedian": 4.0,
+    "artist": 1.5,
 }
 
 

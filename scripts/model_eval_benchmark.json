@@ -181,6 +181,33 @@
       "reason": "artist は低位 youtuber より十分上に残したい"
     },
     {
+      "label": "artist_balance_01",
+      "segment": "artist_balance",
+      "higher": "山崎賢人",
+      "lower": "米津玄師",
+      "weight": 1.0,
+      "min_margin": 0.0,
+      "reason": "公開男性上位では core actor が artist を少し上回るくらいが自然"
+    },
+    {
+      "label": "artist_balance_02",
+      "segment": "artist_balance",
+      "higher": "山田裕貴",
+      "lower": "米津玄師",
+      "weight": 1.0,
+      "min_margin": 0.0,
+      "reason": "公開男性上位では core actor が artist を少し上回るくらいが自然"
+    },
+    {
+      "label": "artist_balance_03",
+      "segment": "artist_balance",
+      "higher": "松坂桃李",
+      "lower": "藤井風",
+      "weight": 1.0,
+      "min_margin": 0.0,
+      "reason": "公開男性上位では actor と artist のバランスを取りたい"
+    },
+    {
       "label": "female_core_01",
       "segment": "female_core",
       "higher": "永野芽郁",
@@ -412,6 +439,14 @@
       "must_include": ["米津玄師", "あいみょん", "藤井風", "西野カナ", "LiSA"],
       "min_hits": 4,
       "reason": "artist slice が妥当な顔ぶれを維持すること"
+    },
+    {
+      "label": "male_top5_has_actor_or_idol_core",
+      "gender": "male",
+      "top_n": 5,
+      "must_include": ["吉沢亮", "成田凌", "森本慎太郎", "山崎賢人", "西畑大吾"],
+      "min_hits": 4,
+      "reason": "公開男性 top5 は actor / idol 主体を維持したい"
     }
   ]
 }

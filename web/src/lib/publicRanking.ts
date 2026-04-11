@@ -8,6 +8,7 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
   youtuber: 7.0,
   influencer: 3.0,
   comedian: 4.0,
+  artist: 1.5,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {
