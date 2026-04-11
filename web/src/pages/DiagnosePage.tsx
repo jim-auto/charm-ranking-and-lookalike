@@ -1,6 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Celebrity, ScoreDetails } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
+import {
+  type EmbeddingStore,
+  findSimilarCelebrities,
+  loadEmbeddingStore,
+} from '../lib/embedding';
 import { calculateFaceDetails } from '../lib/faceMetricCalculator';
 import { calculatePhotoQuality, type PhotoQualityAssessment } from '../lib/photoQuality';
 import ImageUploader from '../components/ImageUploader';
@@ -10,7 +15,10 @@ import {
   calculateMetricDistributions,
   createGeneralScoreDeviationConverter,
 } from '../lib/metricDistribution';
-import { findSimilarCelebritiesByDetails } from '../lib/lookalike';
+import {
+  calculateHybridLookalikeSimilarity,
+  findSimilarCelebritiesByDetails,
+} from '../lib/lookalike';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
 
 interface DiagnoseResult {
@@ -39,6 +47,7 @@ function nextPaint(): Promise<void> {
 export default function DiagnosePage() {
   const [celebrities, setCelebrities] = useState<Celebrity[]>([]);
   const [modelsReady, setModelsReady] = useState(false);
+  const [embeddingStore, setEmbeddingStore] = useState<EmbeddingStore | null>(null);
   const [processing, setProcessing] = useState(false);
   const [processingStage, setProcessingStage] = useState<ProcessingStage>('idle');
   const [uploadedImageSrc, setUploadedImageSrc] = useState<string | null>(null);
@@ -75,6 +84,12 @@ export default function DiagnosePage() {
       .then(([, data]) => {
         setCelebrities(data as Celebrity[]);
         setModelsReady(true);
+        loadEmbeddingStore(`${base}data`)
+          .then(setEmbeddingStore)
+          .catch((embeddingError) => {
+            console.warn('Failed to load embedding store', embeddingError);
+            setEmbeddingStore(null);
+          });
       })
       .catch((err) => {
         console.error(err);
@@ -121,16 +136,35 @@ export default function DiagnosePage() {
 
         setProcessingStage('matching');
         await nextPaint();
-        const similar = findSimilarCelebritiesByDetails(
-          details,
-          rawScore,
-          scoringCelebrities,
-          5,
-        );
-        const lookalikes = similar.map(({ index, similarity }) => ({
-          celebrity: scoringCelebrities[index],
-          similarity,
-        }));
+        const userHasEmbedding = detection.embedding.some((value) => value !== 0);
+        const embeddingMatches =
+          embeddingStore && userHasEmbedding
+            ? findSimilarCelebrities(detection.embedding, scoringCelebrities, embeddingStore, 12)
+            : [];
+
+        const lookalikes =
+          embeddingMatches.length > 0
+            ? embeddingMatches
+                .map(({ index, similarity }) => {
+                  const celebrity = scoringCelebrities[index];
+                  return {
+                    celebrity,
+                    similarity: calculateHybridLookalikeSimilarity(
+                      details,
+                      rawScore,
+                      celebrity,
+                      similarity,
+                    ),
+                  };
+                })
+                .sort((a, b) => b.similarity - a.similarity)
+                .slice(0, 5)
+            : findSimilarCelebritiesByDetails(details, rawScore, scoringCelebrities, 5).map(
+                ({ index, similarity }) => ({
+                  celebrity: scoringCelebrities[index],
+                  similarity,
+                }),
+              );
 
         setResult({ score, details, photoQuality, lookalikes, toDeviation });
       } catch (err) {
@@ -141,7 +175,7 @@ export default function DiagnosePage() {
         setProcessingStage('idle');
       }
     },
-    [modelsReady, metricDistributions, scoringCelebrities, toDeviation],
+    [embeddingStore, modelsReady, metricDistributions, scoringCelebrities, toDeviation],
   );
 
   return (

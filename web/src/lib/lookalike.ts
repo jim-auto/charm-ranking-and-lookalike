@@ -37,6 +37,25 @@ export function calculateLookalikeSimilarity(
   return round1(detailSimilarity * 0.8 + scoreSimilarity * 0.2);
 }
 
+export function cosineToSimilarityPercent(cosineSimilarity: number): number {
+  return round1(clamp((cosineSimilarity + 1) * 50));
+}
+
+export function calculateHybridLookalikeSimilarity(
+  userDetails: ScoreDetails,
+  userScore: number,
+  celebrity: Pick<Celebrity, 'details' | 'scores' | 'score'>,
+  embeddingCosineSimilarity?: number | null,
+): number {
+  const detailSimilarity = calculateLookalikeSimilarity(userDetails, userScore, celebrity);
+  if (embeddingCosineSimilarity == null) {
+    return detailSimilarity;
+  }
+
+  const embeddingSimilarity = cosineToSimilarityPercent(embeddingCosineSimilarity);
+  return round1(embeddingSimilarity * 0.7 + detailSimilarity * 0.3);
+}
+
 export function findSimilarCelebritiesByDetails(
   userDetails: ScoreDetails,
   userScore: number,

@@ -15,7 +15,7 @@ const EMBEDDINGS_INDEX = path.join(DATA_DIR, 'embeddings_index.json');
 const REPORT_JSON = path.join(__dirname, 'embedding_rebuild_report.json');
 const DIM = 128;
 
-const { Canvas, Image, ImageData, loadImage, createCanvas } = canvas;
+const { Canvas, Image, ImageData, loadImage } = canvas;
 faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 
 function loadCelebrities() {
@@ -53,25 +53,17 @@ function writeEmbeddingIndex(celebrities) {
   fs.writeFileSync(EMBEDDINGS_INDEX, JSON.stringify(index, null, 2), 'utf-8');
 }
 
-async function detectDescriptor(thumbnailPath) {
+async function computeDescriptor(thumbnailPath) {
   const img = await loadImage(thumbnailPath);
-  const cvs = createCanvas(img.width, img.height);
-  const ctx = cvs.getContext('2d');
-  ctx.drawImage(img, 0, 0);
-
-  const detection = await faceapi
-    .detectSingleFace(cvs)
-    .withFaceLandmarks()
-    .withFaceDescriptor();
-
-  if (!detection) return null;
-  return Array.from(detection.descriptor);
+  const descriptor = await faceapi.computeFaceDescriptor(img);
+  if (!(descriptor instanceof Float32Array) || descriptor.length !== DIM) {
+    return null;
+  }
+  return Array.from(descriptor);
 }
 
 async function main() {
   console.log('Loading face-api.js models...');
-  await faceapi.nets.ssdMobilenetv1.loadFromDisk(MODEL_DIR);
-  await faceapi.nets.faceLandmark68Net.loadFromDisk(MODEL_DIR);
   await faceapi.nets.faceRecognitionNet.loadFromDisk(MODEL_DIR);
 
   const celebrities = loadCelebrities();
@@ -83,16 +75,16 @@ async function main() {
     process.stdout.write(`[${index + 1}/${celebrities.length}] ${celebrity.name} ... `);
 
     try {
-      const descriptor = await detectDescriptor(thumbPath);
+      const descriptor = await computeDescriptor(thumbPath);
       if (!descriptor) {
         failures.push({
           name: celebrity.name,
           id: celebrity.id,
           thumbnail: celebrity.thumbnail,
-          reason: 'no_face_detected',
+          reason: 'invalid_descriptor',
         });
         embeddings.push(new Array(DIM).fill(0));
-        console.log('no face');
+        console.log('invalid');
         continue;
       }
 
