@@ -17,6 +17,7 @@ export interface PhotoQualityAssessment {
   frontalScore: number;
   sharpnessScore: number;
   cropScore: number;
+  faceAreaRatio: number;
   yawScore: number;
   pitchScore: number;
   rollDegrees: number;
@@ -231,6 +232,9 @@ export function calculatePhotoQuality(
   const frontalScore = round1(rollScore * 0.2 + yawScore * 0.5 + pitchScore * 0.3);
   const cropScore = calculateCropScore(box, canvas);
   const sharpnessScore = calculateSharpnessScore(box, canvas);
+  const faceAreaRatio = round1(
+    ((box.width * box.height) / Math.max(canvas.width * canvas.height, 1)) * 100,
+  );
   const overallScore = round1(frontalScore * 0.55 + sharpnessScore * 0.25 + cropScore * 0.2);
 
   const symmetrySupport = round1(frontalScore * 0.7 + sharpnessScore * 0.15 + cropScore * 0.15);
@@ -253,6 +257,9 @@ export function calculatePhotoQuality(
   if (Math.abs(rollDegrees) > 18) {
     blockingReasons.push('顔の傾きが大きすぎます。');
   }
+  if (faceAreaRatio < 6) {
+    blockingReasons.push('顔が小さすぎて、細部を安定して取りにくいです。');
+  }
   if (cropScore < 18) {
     blockingReasons.push('顔が小さすぎるか、輪郭が切れています。');
   }
@@ -273,6 +280,7 @@ export function calculatePhotoQuality(
   if (pitchScore < 58) notes.push('顎の上げ下げが強めです。目線の高さで撮ると安定します。');
   if (Math.abs(rollDegrees) > 9) notes.push('顔の傾きが大きめです。まっすぐに近い写真だと見やすいです。');
   if (cropScore < 35) notes.push('顔まわりが詰まり気味で、輪郭が取りにくいです。');
+  if (faceAreaRatio < 10) notes.push('顔がやや小さめです。もう少し近い写真だと安定します。');
   if (sharpnessScore < 22) notes.push('少しぼけています。明るい場所だと安定します。');
   if (notes.length === 0) notes.push('この写真ならかなり見やすいです。');
 
@@ -281,6 +289,7 @@ export function calculatePhotoQuality(
     frontalScore,
     sharpnessScore,
     cropScore,
+    faceAreaRatio,
     yawScore,
     pitchScore,
     rollDegrees,

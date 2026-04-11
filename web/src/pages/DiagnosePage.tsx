@@ -46,6 +46,11 @@ function nextPaint(): Promise<void> {
   });
 }
 
+function getLookalikeDetailWeight(photoQuality: PhotoQualityAssessment): number {
+  const baseWeight = 0.15 + ((photoQuality.overallScore - 40) / 60) * 0.2;
+  return Math.max(0.15, Math.min(0.35, baseWeight));
+}
+
 function ResultFallback() {
   return (
     <div className="rounded-xl bg-slate-800 p-6 text-center text-slate-400">
@@ -181,6 +186,7 @@ export default function DiagnosePage() {
         await nextPaint();
         const userHasEmbedding = detection.embedding.some((value) => value !== 0);
         const activeEmbeddingStore = userHasEmbedding ? await ensureEmbeddingStore() : null;
+        const lookalikeDetailWeight = getLookalikeDetailWeight(photoQuality);
         const embeddingMatches =
           activeEmbeddingStore && userHasEmbedding
             ? findSimilarCelebrities(
@@ -203,6 +209,7 @@ export default function DiagnosePage() {
                       rawScore,
                       celebrity,
                       similarity,
+                      lookalikeDetailWeight,
                     ),
                   };
                 })

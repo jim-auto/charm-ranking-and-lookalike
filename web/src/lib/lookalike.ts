@@ -46,6 +46,7 @@ export function calculateHybridLookalikeSimilarity(
   userScore: number,
   celebrity: Pick<Celebrity, 'details' | 'scores' | 'score'>,
   embeddingCosineSimilarity?: number | null,
+  detailWeight = 0.3,
 ): number {
   const detailSimilarity = calculateLookalikeSimilarity(userDetails, userScore, celebrity);
   if (embeddingCosineSimilarity == null) {
@@ -53,7 +54,8 @@ export function calculateHybridLookalikeSimilarity(
   }
 
   const embeddingSimilarity = cosineToSimilarityPercent(embeddingCosineSimilarity);
-  return round1(embeddingSimilarity * 0.7 + detailSimilarity * 0.3);
+  const safeDetailWeight = clamp(detailWeight, 0.1, 0.5);
+  return round1(embeddingSimilarity * (1 - safeDetailWeight) + detailSimilarity * safeDetailWeight);
 }
 
 export function findSimilarCelebritiesByDetails(

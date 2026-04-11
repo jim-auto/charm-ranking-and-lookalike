@@ -5,9 +5,9 @@ import {
 } from './metricDistribution';
 
 const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
-  youtuber: 4.5,
-  influencer: 2.0,
-  comedian: 3.0,
+  youtuber: 7.0,
+  influencer: 3.0,
+  comedian: 4.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {

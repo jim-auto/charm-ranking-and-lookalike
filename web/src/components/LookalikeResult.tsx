@@ -57,6 +57,7 @@ export default function LookalikeResult({
           <QualityMetric label="正面度" value={photoQuality.frontalScore} hint="正面に近いほど高め" />
           <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ピントの強さ" />
           <QualityMetric label="顔の収まり" value={photoQuality.cropScore} hint="切れすぎを確認" />
+          <QualityMetric label="顔の大きさ" value={`${photoQuality.faceAreaRatio}%`} hint="顔が大きいほど安定" />
           <QualityMetric label="傾き" value={`${photoQuality.rollDegrees}°`} hint="0°に近いほど安定" />
           <QualityMetric label="横向き度" value={photoQuality.yawScore} hint="正面に近いほど高め" />
         </div>

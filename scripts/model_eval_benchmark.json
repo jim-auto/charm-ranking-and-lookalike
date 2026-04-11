@@ -118,6 +118,33 @@
       "reason": "男性 top 層の idol は influencer より明確に上にいたい"
     },
     {
+      "label": "male_core_14",
+      "segment": "male_core",
+      "higher": "高橋海人",
+      "lower": "kemio",
+      "weight": 1.0,
+      "min_margin": 1.0,
+      "reason": "男性 top20 圏の idol は influencer を下回りすぎないこと"
+    },
+    {
+      "label": "male_core_15",
+      "segment": "male_core",
+      "higher": "福士蒼汰",
+      "lower": "kemio",
+      "weight": 1.0,
+      "min_margin": 1.0,
+      "reason": "男性 top20 圏の actor は influencer を下回りすぎないこと"
+    },
+    {
+      "label": "male_core_16",
+      "segment": "male_core",
+      "higher": "松下洸平",
+      "lower": "HIKAKIN",
+      "weight": 1.0,
+      "min_margin": 5.0,
+      "reason": "男性 top25 圏の actor は低位 youtuber を十分上回りたい"
+    },
+    {
       "label": "artist_vs_youtuber_01",
       "segment": "artist_vs_creator",
       "higher": "米津玄師",
@@ -260,6 +287,33 @@
       "weight": 1.0,
       "min_margin": 10.0,
       "reason": "女性 top 層の idol は comedian より明確に上にいたい"
+    },
+    {
+      "label": "female_core_13",
+      "segment": "female_core",
+      "higher": "福原遥",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 1.0,
+      "reason": "女性 top20 圏の actress は influencer を下回りすぎないこと"
+    },
+    {
+      "label": "female_core_14",
+      "segment": "female_core",
+      "higher": "芦田愛菜",
+      "lower": "藤田ニコル",
+      "weight": 1.0,
+      "min_margin": 1.0,
+      "reason": "女性 top25 圏の actress は influencer を下回りすぎないこと"
+    },
+    {
+      "label": "female_core_15",
+      "segment": "female_core",
+      "higher": "南沙良",
+      "lower": "やす子",
+      "weight": 1.0,
+      "min_margin": 6.0,
+      "reason": "女性 top25 圏の actress は comedian を十分上回りたい"
     }
   ],
   "topk": [
@@ -278,6 +332,13 @@
       "reason": "公開男性 top15 までは creator leakage を抑えたい"
     },
     {
+      "label": "male_top20_no_youtuber_leakage",
+      "gender": "male",
+      "top_n": 20,
+      "forbidden_categories": ["youtuber"],
+      "reason": "公開男性 top20 に youtuber を入れたくない"
+    },
+    {
       "label": "female_top10_no_creator_leakage",
       "gender": "female",
       "top_n": 10,
@@ -290,6 +351,13 @@
       "top_n": 15,
       "forbidden_categories": ["youtuber", "comedian", "influencer"],
       "reason": "公開女性 top15 までは creator leakage を抑えたい"
+    },
+    {
+      "label": "female_top20_no_creator_leakage",
+      "gender": "female",
+      "top_n": 20,
+      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "reason": "公開女性 top20 に creator leakage を入れたくない"
     },
     {
       "label": "overall_top20_no_creator_leakage",
