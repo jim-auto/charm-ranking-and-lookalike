@@ -22,7 +22,7 @@ export interface MetricDistribution {
 type ScoreKey = 'face' | 'faceAge' | 'faceSns' | 'faceAgeSns';
 
 const GENERAL_DEVIATION_BASE = 55;
-const GENERAL_DEVIATION_STRETCH = 1.3;
+const GENERAL_DEVIATION_STRETCH = 1.0;
 const GENERAL_DEVIATION_MIN = 35;
 const GENERAL_DEVIATION_MAX = 99;
 
