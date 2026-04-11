@@ -7,6 +7,7 @@ import {
   loadEmbeddingStore,
 } from '../lib/embedding';
 import { calculateFaceDetails } from '../lib/faceMetricCalculator';
+import { calibrateDiagnoseDetails } from '../lib/diagnoseCalibration';
 import { calculatePhotoQuality, type PhotoQualityAssessment } from '../lib/photoQuality';
 import ImageUploader from '../components/ImageUploader';
 import LookalikeResult from '../components/LookalikeResult';
@@ -127,10 +128,15 @@ export default function DiagnosePage() {
         await nextPaint();
         const baseDetails = calculateFaceDetails(detection.landmarks);
         const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
-        const details = {
+        const filteredDetails = {
           ...baseDetails,
           symmetry: photoQuality.symmetryReliable ? baseDetails.symmetry : undefined,
         };
+        const { details } = calibrateDiagnoseDetails(
+          filteredDetails,
+          photoQuality,
+          metricDistributions,
+        );
         const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
         const score = toDeviation(rawScore);
 
