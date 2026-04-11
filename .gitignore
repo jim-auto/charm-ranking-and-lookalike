@@ -34,6 +34,9 @@ scripts/face_landmarker.task
 
 # Temp processing files
 scripts/meta_backup.json
+scripts/diagnose_benchmark_fixtures/
+scripts/diagnose_benchmark_latest.json
+scripts/model_eval_latest.json
 
 # face-api.js models (large files - download separately)
 # web/public/models/

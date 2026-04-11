@@ -248,14 +248,17 @@ export function calculatePhotoQuality(
   const contourReliable = frontalScore >= 58 && cropScore >= 30;
 
   const blockingReasons: string[] = [];
-  if (yawScore < 40 || frontalScore < 42) {
-    blockingReasons.push('横向きが強く、顔の中心位置を安定して取りにくいです。');
-  }
-  if (pitchScore < 34) {
+  if (pitchScore < 18) {
     blockingReasons.push('顎の上げ下げが大きく、縦バランスが崩れています。');
   }
-  if (Math.abs(rollDegrees) > 18) {
+  if (Math.abs(rollDegrees) > 22) {
     blockingReasons.push('顔の傾きが大きすぎます。');
+  }
+  if (yawScore < 5 && faceAreaRatio < 10) {
+    blockingReasons.push('横向きが強く、顔の中心位置を安定して取りにくいです。');
+  }
+  if (frontalScore < 20 && cropScore < 40) {
+    blockingReasons.push('正面度が足りず、安定して診断しにくいです。');
   }
   if (faceAreaRatio < 6) {
     blockingReasons.push('顔が小さすぎて、細部を安定して取りにくいです。');
@@ -272,6 +275,8 @@ export function calculatePhotoQuality(
     !diagnosisReady ||
     overallScore < 55 ||
     frontalScore < 60 ||
+    yawScore < 45 ||
+    pitchScore < 35 ||
     cropScore < 30 ||
     sharpnessScore < 20;
 

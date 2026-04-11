@@ -1,0 +1,113 @@
+{
+  "cases": [
+    {
+      "label": "borderline_yoshizawa",
+      "kind": "retry",
+      "targetId": "celeb_befa0b6e",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "borderline_nagano",
+      "kind": "retry",
+      "targetId": "celeb_dc2a13db",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "borderline_narita",
+      "kind": "retry",
+      "targetId": "celeb_ce7b5054",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "good_hashimoto",
+      "kind": "accept",
+      "targetId": "celeb_04bb2177",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "borderline_morimoto",
+      "kind": "retry",
+      "targetId": "celeb_aef1352c",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "good_yonezu",
+      "kind": "accept",
+      "targetId": "celeb_72addd07",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "borderline_aimyon",
+      "kind": "retry",
+      "targetId": "celeb_99aeae22",
+      "variant": "original",
+      "maxTargetRank": 1
+    },
+    {
+      "label": "reject_blur_yoshizawa",
+      "kind": "reject",
+      "targetId": "celeb_befa0b6e",
+      "variant": "soft_blur"
+    },
+    {
+      "label": "reject_blur_nagano",
+      "kind": "reject",
+      "targetId": "celeb_dc2a13db",
+      "variant": "soft_blur"
+    },
+    {
+      "label": "reject_rotate_hashimoto",
+      "kind": "reject",
+      "targetId": "celeb_04bb2177",
+      "variant": "rotate_12"
+    },
+    {
+      "label": "reject_rotate_yonezu",
+      "kind": "reject",
+      "targetId": "celeb_72addd07",
+      "variant": "rotate_12"
+    },
+    {
+      "label": "retry_small_aimyon",
+      "kind": "retry",
+      "targetId": "celeb_99aeae22",
+      "variant": "small_face",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "reject_tiny_yoshizawa",
+      "kind": "reject",
+      "targetId": "celeb_befa0b6e",
+      "variant": "tiny_face"
+    },
+    {
+      "label": "reject_tiny_nagano",
+      "kind": "reject",
+      "targetId": "celeb_dc2a13db",
+      "variant": "tiny_face"
+    },
+    {
+      "label": "reject_crop_hashimoto",
+      "kind": "reject",
+      "targetId": "celeb_04bb2177",
+      "variant": "half_crop"
+    },
+    {
+      "label": "reject_crop_yonezu",
+      "kind": "reject",
+      "targetId": "celeb_72addd07",
+      "variant": "half_crop"
+    },
+    {
+      "label": "reject_blank",
+      "kind": "reject",
+      "variant": "blank"
+    }
+  ]
+}
