@@ -195,7 +195,7 @@ function calculateSharpnessScore(box, canvasElement) {
   }
 
   const meanEdge = count > 0 ? total / count : 0;
-  return round1(clamp(((meanEdge - 6) / 18) * 100));
+  return round1(clamp(((meanEdge - 3) / 21) * 100));
 }
 
 function calculatePhotoQuality(landmarks, box, canvasElement) {

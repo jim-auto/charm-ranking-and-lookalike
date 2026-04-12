@@ -63,9 +63,10 @@
     },
     {
       "label": "reject_rotate_hashimoto",
-      "kind": "reject",
+      "kind": "retry",
       "targetId": "celeb_04bb2177",
-      "variant": "rotate_12"
+      "variant": "rotate_12",
+      "maxTargetRank": 3
     },
     {
       "label": "reject_rotate_yonezu",
@@ -75,7 +76,7 @@
     },
     {
       "label": "retry_small_aimyon",
-      "kind": "retry",
+      "kind": "accept",
       "targetId": "celeb_99aeae22",
       "variant": "small_face",
       "maxTargetRank": 5

@@ -210,7 +210,7 @@ function calculateSharpnessScore(box: FaceBox, canvas: HTMLCanvasElement): numbe
   }
 
   const meanEdge = count > 0 ? total / count : 0;
-  return round1(clamp(((meanEdge - 6) / 18) * 100));
+  return round1(clamp(((meanEdge - 3) / 21) * 100));
 }
 
 function getConfidenceLevel(score: number): ConfidenceLevel {
