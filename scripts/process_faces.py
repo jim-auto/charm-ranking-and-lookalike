@@ -368,6 +368,16 @@ def find_images(directory: Path) -> List[Path]:
     return images
 
 
+def average_embeddings(embeddings: List[List[float]]) -> List[float]:
+    """Average multiple 128-dim embeddings and L2-normalize."""
+    arr = np.array(embeddings, dtype=np.float64)
+    mean = np.mean(arr, axis=0)
+    norm = np.linalg.norm(mean)
+    if norm > 0:
+        mean = mean / norm
+    return mean.tolist()
+
+
 def process_person(
     name: str,
     image_paths: List[Path],
@@ -375,9 +385,14 @@ def process_person(
     thumb_size: int,
     model: str,
 ) -> dict | None:
-    """Process all images for one person and return the best result."""
+    """Process all images for one person and return the best result.
+
+    When multiple images yield valid faces, embeddings are averaged
+    (L2-normalized) for a more stable representation.
+    """
     best_result = None
     best_face_area = 0
+    all_embeddings: List[List[float]] = []
 
     for img_path in image_paths:
         print(f"  Processing {img_path.name} ...", end=" ")
@@ -426,6 +441,7 @@ def process_person(
 
             image_has_valid_face = True
             embedding = encodings[0].tolist()
+            all_embeddings.append(embedding)
             t, r, b, l = loc
             area = (b - t) * (r - l)
             if area > best_face_area:
@@ -434,17 +450,23 @@ def process_person(
                     "bgr": bgr,
                     "loc": loc,
                     "landmarks": landmarks,
-                    "embedding": embedding,
                 }
 
         if not image_has_valid_face:
             print("SKIP (no human-like face geometry)")
             continue
 
-        print("OK (best so far)")
+        print(f"OK ({len(all_embeddings)} embedding(s) total)")
 
-    if best_result is None:
+    if best_result is None or not all_embeddings:
         return None
+
+    # Average embeddings from all valid photos for stability
+    if len(all_embeddings) > 1:
+        print(f"  Averaging {len(all_embeddings)} embeddings")
+        final_embedding = average_embeddings(all_embeddings)
+    else:
+        final_embedding = all_embeddings[0]
 
     person_id = name_to_id(name)
     details = calculate_face_score(best_result["landmarks"])
@@ -461,11 +483,12 @@ def process_person(
         "category": guess_category(name),
         "score": score,
         "details": details,
-        "embedding": best_result["embedding"],
+        "embedding": final_embedding,
         "thumbnail": f"data/thumbnails/{person_id}.jpg",
         "faceValidationStatus": "accepted",
         "faceValidationReason": "ok",
         "faceValidationSource": "face_recognition",
+        "embeddingCount": len(all_embeddings),
     }
 
 
