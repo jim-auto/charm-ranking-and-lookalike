@@ -215,11 +215,11 @@ function calculatePhotoQuality(landmarks, box, canvasElement) {
   const blockingReasons = [];
   if (pitchScore < 18) blockingReasons.push('pitch');
   if (Math.abs(rollDegrees) > 22) blockingReasons.push('roll');
-  if (yawScore < 5 && faceAreaRatio < 10) blockingReasons.push('yaw_small_face');
+  if (yawScore < 5 && faceAreaRatio < 5) blockingReasons.push('yaw_small_face');
   if (frontalScore < 20 && cropScore < 40) blockingReasons.push('frontal_and_crop');
-  if (faceAreaRatio < 6) blockingReasons.push('face_too_small');
+  if (faceAreaRatio < 4) blockingReasons.push('face_too_small');
   if (cropScore < 18) blockingReasons.push('crop');
-  if (sharpnessScore < 10) blockingReasons.push('blur');
+  if (sharpnessScore < 5) blockingReasons.push('blur');
 
   const diagnosisReady = blockingReasons.length === 0;
   const retryRecommended =

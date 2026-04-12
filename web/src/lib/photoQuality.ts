@@ -254,19 +254,19 @@ export function calculatePhotoQuality(
   if (Math.abs(rollDegrees) > 22) {
     blockingReasons.push('顔の傾きが大きすぎます。');
   }
-  if (yawScore < 5 && faceAreaRatio < 10) {
+  if (yawScore < 5 && faceAreaRatio < 5) {
     blockingReasons.push('横向きが強く、顔の中心位置を安定して取りにくいです。');
   }
   if (frontalScore < 20 && cropScore < 40) {
     blockingReasons.push('正面度が足りず、安定して診断しにくいです。');
   }
-  if (faceAreaRatio < 6) {
+  if (faceAreaRatio < 4) {
     blockingReasons.push('顔が小さすぎて、細部を安定して取りにくいです。');
   }
   if (cropScore < 18) {
     blockingReasons.push('顔が小さすぎるか、輪郭が切れています。');
   }
-  if (sharpnessScore < 10) {
+  if (sharpnessScore < 5) {
     blockingReasons.push('写真がぼけすぎています。');
   }
 
