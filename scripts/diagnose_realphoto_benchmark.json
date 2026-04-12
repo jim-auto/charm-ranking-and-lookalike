@@ -1,0 +1,724 @@
+{
+  "cases": [
+    {
+      "label": "real_befa0b6e_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_befa0b6e",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_befa0b6e_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_befa0b6e",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_befa0b6e_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_befa0b6e",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_dc2a13db_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_dc2a13db",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_dc2a13db_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_dc2a13db",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_dc2a13db_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_dc2a13db",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_ce7b5054_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_ce7b5054",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_ce7b5054_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_ce7b5054",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_ce7b5054_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_ce7b5054",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_04bb2177_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_04bb2177",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_04bb2177_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_04bb2177",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_04bb2177_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_04bb2177",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_059f9821_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_059f9821",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_059f9821_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_059f9821",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_059f9821_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_059f9821",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_0b82b226_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_0b82b226",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_0b82b226_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_0b82b226",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_0b82b226_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_0b82b226",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_5e359ece_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_5e359ece",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_5e359ece_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_5e359ece",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_5e359ece_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_5e359ece",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_4bfeb158_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4bfeb158",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_4bfeb158_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4bfeb158",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_4bfeb158_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4bfeb158",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_72addd07_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_72addd07",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_72addd07_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_72addd07",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_72addd07_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_72addd07",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_99aeae22_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_99aeae22",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_99aeae22_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_99aeae22",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_99aeae22_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_99aeae22",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_e78f15a0_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_e78f15a0",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_e78f15a0_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_e78f15a0",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_e78f15a0_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_e78f15a0",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_aef1352c_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_aef1352c",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_aef1352c_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_aef1352c",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_aef1352c_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_aef1352c",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_4bbce411_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4bbce411",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_4bbce411_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4bbce411",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_4bbce411_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4bbce411",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_c94134d7_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c94134d7",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_c94134d7_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c94134d7",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_c94134d7_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c94134d7",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_17e16a2a_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_17e16a2a",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_17e16a2a_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_17e16a2a",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_17e16a2a_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_17e16a2a",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_3ba68a6e_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_3ba68a6e",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_3ba68a6e_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_3ba68a6e",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_3ba68a6e_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_3ba68a6e",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_d93f669f_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_d93f669f",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_d93f669f_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_d93f669f",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_d93f669f_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_d93f669f",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_841e6457_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_841e6457",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_841e6457_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_841e6457",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_841e6457_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_841e6457",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_8313fffb_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_8313fffb",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_8313fffb_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_8313fffb",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_8313fffb_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_8313fffb",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_c2d54cab_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c2d54cab",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_c2d54cab_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c2d54cab",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_c2d54cab_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c2d54cab",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_4a5fd453_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4a5fd453",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_4a5fd453_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4a5fd453",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_4a5fd453_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_4a5fd453",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_16986e04_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_16986e04",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_16986e04_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_16986e04",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_16986e04_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_16986e04",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_7dfa2df4_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_7dfa2df4",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_7dfa2df4_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_7dfa2df4",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_7dfa2df4_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_7dfa2df4",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_1c82bee3_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_1c82bee3",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_1c82bee3_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_1c82bee3",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_1c82bee3_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_1c82bee3",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_5d470597_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_5d470597",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_5d470597_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_5d470597",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_5d470597_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_5d470597",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_c79cbbd1_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c79cbbd1",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_c79cbbd1_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c79cbbd1",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_c79cbbd1_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_c79cbbd1",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_ef17039b_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_ef17039b",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_ef17039b_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_ef17039b",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_ef17039b_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_ef17039b",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_d1e9ea37_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_d1e9ea37",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_d1e9ea37_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_d1e9ea37",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_d1e9ea37_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_d1e9ea37",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_1b300c1e_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_1b300c1e",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_1b300c1e_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_1b300c1e",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_1b300c1e_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_1b300c1e",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_36eae98d_original",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_36eae98d",
+      "source": "input_photo",
+      "variant": "original",
+      "maxTargetRank": 3
+    },
+    {
+      "label": "real_36eae98d_jpeg50",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_36eae98d",
+      "source": "input_photo",
+      "variant": "jpeg_low",
+      "maxTargetRank": 5
+    },
+    {
+      "label": "real_36eae98d_phone",
+      "kind": "accept_or_retry",
+      "targetId": "celeb_36eae98d",
+      "source": "input_photo",
+      "variant": "resize_phone",
+      "maxTargetRank": 3
+    }
+  ]
+}

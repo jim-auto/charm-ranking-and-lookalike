@@ -13,6 +13,7 @@ const MODEL_DIR = path.join(PUBLIC_DIR, 'models');
 const FIXTURE_DIR = path.join(__dirname, 'diagnose_benchmark_fixtures');
 const DEFAULT_BENCHMARK_PATH = path.join(__dirname, 'diagnose_benchmark.json');
 const DEFAULT_JSON_OUT = path.join(__dirname, 'diagnose_benchmark_latest.json');
+const INPUT_IMAGES_DIR = path.join(__dirname, 'input_images');
 const DIMENSION = 128;
 const MAX_PUBLIC_AGE = 39;
 const SOFT_BLUR_RADIUS = 1.35;
@@ -320,9 +321,14 @@ async function ensureFixture(caseDef, celebritiesById) {
     throw new Error(`Unknown targetId: ${caseDef.targetId}`);
   }
 
-  const sourcePath = path.join(PUBLIC_DIR, celebrity.thumbnail);
+  let sourcePath;
+  if (caseDef.source === 'input_photo') {
+    sourcePath = path.join(INPUT_IMAGES_DIR, celebrity.name, 'photo.jpg');
+  } else {
+    sourcePath = path.join(PUBLIC_DIR, celebrity.thumbnail);
+  }
   if (!fs.existsSync(sourcePath)) {
-    throw new Error(`Missing source thumbnail: ${sourcePath}`);
+    throw new Error(`Missing source: ${sourcePath}`);
   }
 
   const source = sharp(sourcePath);
@@ -332,6 +338,19 @@ async function ensureFixture(caseDef, celebritiesById) {
 
   if (caseDef.variant === 'original') {
     await source.jpeg({ quality: 90 }).toFile(fixturePath);
+    return fixturePath;
+  }
+
+  if (caseDef.variant === 'jpeg_low') {
+    await source.jpeg({ quality: 50 }).toFile(fixturePath);
+    return fixturePath;
+  }
+
+  if (caseDef.variant === 'resize_phone') {
+    await source
+      .resize(640, 640, { fit: 'inside', withoutEnlargement: true })
+      .jpeg({ quality: 85 })
+      .toFile(fixturePath);
     return fixturePath;
   }
 
@@ -500,6 +519,10 @@ function evaluateCase(caseDef, actual) {
     return actual.photoQuality.retryRecommended && actual.targetRank != null && actual.targetRank <= caseDef.maxTargetRank;
   }
 
+  if (caseDef.kind === 'accept_or_retry') {
+    return actual.targetRank != null && actual.targetRank <= caseDef.maxTargetRank;
+  }
+
   return false;
 }
 
@@ -575,7 +598,7 @@ async function main() {
       failed: results.length - passed,
       accuracy: results.length ? round1((passed / results.length) * 100) : 0,
     },
-    byKind: ['accept', 'retry', 'reject'].map((kind) => {
+    byKind: ['accept', 'retry', 'reject', 'accept_or_retry'].filter((kind) => results.some((r) => r.kind === kind)).map((kind) => {
       const subset = results.filter((result) => result.kind === kind);
       const subsetPassed = subset.filter((result) => result.passed).length;
       return {
