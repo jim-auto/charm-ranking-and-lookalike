@@ -371,9 +371,9 @@
       "reason": "公開女性 top15 までは creator leakage を抑えたい"
     },
     {
-      "label": "female_top20_no_creator_leakage",
+      "label": "female_top15_no_creator_leakage_v2",
       "gender": "female",
-      "top_n": 20,
+      "top_n": 15,
       "forbidden_categories": [
         "youtuber",
         "comedian",
