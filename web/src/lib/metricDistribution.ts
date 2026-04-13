@@ -122,12 +122,15 @@ function getMetricValues(
     .map((value) => Number(value));
 }
 
+const CELEBRITY_DEVIATION_MEAN = 47.0;
+const CELEBRITY_DEVIATION_STDEV = 6.0;
+
 export function createCelebrityScoreDeviationConverter(
-  celebrities: Celebrity[],
-  key: ScoreKey,
+  _celebrities: Celebrity[],
+  _key: ScoreKey,
 ): (rawScore: number) => number {
-  const values = celebrities.map((celebrity) => celebrity.scores?.[key] ?? celebrity.score ?? 0);
-  return createDeviationConverter(values);
+  return (rawScore: number) =>
+    round1(50 + 10 * ((rawScore - CELEBRITY_DEVIATION_MEAN) / CELEBRITY_DEVIATION_STDEV));
 }
 
 export function createGeneralScoreDeviationConverter(

@@ -1,7 +1,6 @@
 import type { Celebrity } from '../types/celebrity';
 import {
   convertCelebrityDeviationToGeneralDeviation,
-  createDeviationConverterFromValues,
 } from './metricDistribution';
 
 const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
@@ -53,11 +52,11 @@ export function getPublicOverallScore(
 }
 
 export function createPublicGeneralScoreDeviationConverter(
-  celebrities: Array<Pick<Celebrity, 'name' | 'category' | 'scores' | 'score'>>,
-  useSns: boolean,
+  _celebrities: Array<Pick<Celebrity, 'name' | 'category' | 'scores' | 'score'>>,
+  _useSns: boolean,
 ): (rawScore: number) => number {
-  const values = celebrities.map((celebrity) => getPublicOverallScore(celebrity, useSns));
-  const celebrityDeviation = createDeviationConverterFromValues(values);
-  return (rawScore: number) =>
-    convertCelebrityDeviationToGeneralDeviation(celebrityDeviation(rawScore));
+  return (rawScore: number) => {
+    const celebrityDeviation = 50 + 10 * ((rawScore - 47.0) / 6.0);
+    return convertCelebrityDeviationToGeneralDeviation(celebrityDeviation);
+  };
 }
