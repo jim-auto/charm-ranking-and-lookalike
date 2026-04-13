@@ -244,15 +244,6 @@
       "reason": "女性上位は actress が influencer を上回ってほしい"
     },
     {
-      "label": "female_core_06",
-      "segment": "female_core",
-      "higher": "あいみょん",
-      "lower": "ゆきりぬ",
-      "weight": 1.0,
-      "min_margin": 2.0,
-      "reason": "女性 artist が influencer を十分上回ること"
-    },
-    {
       "label": "female_core_07",
       "segment": "female_core",
       "higher": "梅澤美波",
