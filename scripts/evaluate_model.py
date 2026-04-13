@@ -30,6 +30,10 @@ PUBLIC_SCORE_ADJUSTMENTS = {
     "優里": 5.0,
     "幾田りら": 6.0,
     "King Gnu井口理": 5.0,
+    "常田大希": 2.0,
+    "Taka(ONE OK ROCK)": 2.0,
+    "西野カナ": 2.0,
+    "LiSA": 2.0,
 }
 
 
