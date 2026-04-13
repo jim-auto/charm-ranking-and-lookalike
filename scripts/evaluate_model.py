@@ -34,6 +34,7 @@ PUBLIC_SCORE_ADJUSTMENTS = {
     "Taka(ONE OK ROCK)": 2.0,
     "西野カナ": 2.0,
     "LiSA": 2.0,
+    "大森元貴": 7.0,
 }
 
 

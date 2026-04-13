@@ -25,6 +25,7 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   'Taka(ONE OK ROCK)': 2.0,
   西野カナ: 2.0,
   LiSA: 2.0,
+  大森元貴: 7.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {
