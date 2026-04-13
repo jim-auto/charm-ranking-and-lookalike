@@ -34,6 +34,37 @@ function formatScore(value: number): string {
   return Number.isInteger(value) ? String(value) : value.toFixed(1);
 }
 
+function ShareButtons({ score, celebrityScore, topMatch }: { score: number; celebrityScore: number; topMatch?: string }) {
+  const siteUrl = 'https://jim-auto.github.io/charm-ranking-and-lookalike/';
+  const text = topMatch
+    ? `AI顔診断の結果！\n一般偏差値: ${formatScore(score)}\n芸能人偏差値: ${formatScore(celebrityScore)}\n似てる芸能人: ${topMatch}`
+    : `AI顔診断の結果！\n一般偏差値: ${formatScore(score)}\n芸能人偏差値: ${formatScore(celebrityScore)}`;
+
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(siteUrl)}`;
+  const lineUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(siteUrl)}&text=${encodeURIComponent(text)}`;
+
+  return (
+    <div className="flex justify-center gap-3">
+      <a
+        href={twitterUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-lg bg-slate-700 px-4 py-2 text-sm font-medium text-slate-200 transition-colors hover:bg-slate-600"
+      >
+        Xでシェア
+      </a>
+      <a
+        href={lineUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-lg bg-[#06C755] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#05b04c]"
+      >
+        LINEでシェア
+      </a>
+    </div>
+  );
+}
+
 export default function LookalikeResult({
   score,
   celebrityScore,
@@ -46,16 +77,16 @@ export default function LookalikeResult({
   return (
     <div className="space-y-6">
       <div className="rounded-xl bg-slate-800 p-6">
-        <div className="flex justify-center gap-6">
-          <div className="text-center">
-            <h3 className="mb-2 text-sm text-slate-400">一般偏差値</h3>
-            <div className="text-5xl font-bold text-indigo-400">
+        <div className="flex justify-center gap-4 sm:gap-8">
+          <div className="rounded-xl border border-indigo-800 bg-indigo-950/30 px-5 py-4 text-center sm:px-8">
+            <h3 className="mb-1 text-xs text-indigo-300">一般偏差値</h3>
+            <div className="text-4xl font-bold text-indigo-400 sm:text-5xl">
               {formatScore(score)}
             </div>
           </div>
-          <div className="text-center">
-            <h3 className="mb-2 text-sm text-slate-400">芸能人偏差値</h3>
-            <div className="text-5xl font-bold text-emerald-400">
+          <div className="rounded-xl border border-emerald-800 bg-emerald-950/30 px-5 py-4 text-center sm:px-8">
+            <h3 className="mb-1 text-xs text-emerald-300">芸能人偏差値</h3>
+            <div className="text-4xl font-bold text-emerald-400 sm:text-5xl">
               {formatScore(celebrityScore)}
             </div>
           </div>
@@ -64,7 +95,15 @@ export default function LookalikeResult({
           <ScoreRadar details={details} size="md" />
         </div>
 
-        <div className="mt-6 grid gap-3 sm:grid-cols-3">
+        <div className="mt-5">
+          <ShareButtons
+            score={score}
+            celebrityScore={celebrityScore}
+            topMatch={lookalikes[0]?.celebrity.name}
+          />
+        </div>
+
+        <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
           <QualityMetric label="写真品質" value={photoQuality.overallScore} hint="全体の見やすさ" />
           <QualityMetric label="正面度" value={photoQuality.frontalScore} hint="正面に近いほど高め" />
           <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ピントの強さ" />

@@ -16,6 +16,7 @@ interface Props {
   useSns?: boolean;
   formatFollowers?: (n: number) => string;
   toDeviation?: (score: number, sns: boolean) => number;
+  toCelebrityDeviation?: (score: number) => number;
 }
 
 const categoryLabel: Record<string, string> = {
@@ -53,6 +54,7 @@ export default function CelebrityCard({
   useSns = false,
   formatFollowers,
   toDeviation,
+  toCelebrityDeviation,
 }: Props) {
   const rawMetricScore = getRankingMetricValue(celebrity, metric, false, useSns);
   const effectiveOverallScore =
@@ -65,8 +67,14 @@ export default function CelebrityCard({
       : effectiveOverallScore
     : rawMetricScore;
   const scoreLabel = isOverallMetric(metric) ? '一般偏差値' : `${getRankingMetricLabel(metric)}スコア`;
+  const celebDevScore =
+    isOverallMetric(metric) && toCelebrityDeviation
+      ? toCelebrityDeviation(effectiveOverallScore)
+      : null;
   const scoreSubLabel = isOverallMetric(metric)
-    ? `スコア ${formatScoreValue(effectiveOverallScore)}`
+    ? celebDevScore != null
+      ? `芸能人偏差値 ${formatScoreValue(celebDevScore)}`
+      : `スコア ${formatScoreValue(effectiveOverallScore)}`
     : metricDeviation != null
       ? `偏差値 ${metricDeviation.toFixed(1)}`
       : null;
@@ -116,7 +124,7 @@ export default function CelebrityCard({
                 {displayScore}
               </div>
               {scoreSubLabel && (
-                <div className="mt-1 text-[10px] leading-none text-slate-500 sm:text-[11px]">
+                <div className={`mt-1 text-[10px] leading-none sm:text-[11px] ${celebDevScore != null ? 'text-emerald-500' : 'text-slate-500'}`}>
                   {scoreSubLabel}
                 </div>
               )}

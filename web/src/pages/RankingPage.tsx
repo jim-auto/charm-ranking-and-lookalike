@@ -13,6 +13,7 @@ import ScoreBreakdown from '../components/ScoreBreakdown';
 import {
   calculateMetricDeviation,
   calculateMetricDistributions,
+  createDeviationConverterFromValues,
 } from '../lib/metricDistribution';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
 import {
@@ -124,6 +125,12 @@ export default function RankingPage() {
     if (visibleCelebrities.length === 0) return (_score: number, _sns: boolean) => 0;
     const converter = createPublicGeneralScoreDeviationConverter(visibleCelebrities, useSns);
     return (score: number, _sns: boolean) => converter(score);
+  }, [visibleCelebrities, useSns]);
+
+  const toCelebrityDeviation = useMemo(() => {
+    if (visibleCelebrities.length === 0) return (_score: number) => 0;
+    const values = visibleCelebrities.map((c) => getPublicOverallScore(c, useSns));
+    return createDeviationConverterFromValues(values);
   }, [visibleCelebrities, useSns]);
 
   const toMetricDeviation = useMemo(
@@ -362,6 +369,7 @@ export default function RankingPage() {
                 useSns={useSns}
                 formatFollowers={formatFollowers}
                 toDeviation={toDeviation}
+                toCelebrityDeviation={isOverallMetric(rankingMetric) ? toCelebrityDeviation : undefined}
               />
             ))}
           </div>
