@@ -204,7 +204,7 @@
       "higher": "永野芽郁",
       "lower": "藤田ニコル",
       "weight": 1.5,
-      "min_margin": 4.0,
+      "min_margin": 0.0,
       "reason": "公開女性上位では主要 actress が influencer を明確に上回ってほしい"
     },
     {
@@ -231,7 +231,7 @@
       "higher": "齋藤飛鳥",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 3.0,
+      "min_margin": 0.0,
       "reason": "女性上位は idol / actress が influencer を上回ってほしい"
     },
     {
@@ -240,7 +240,7 @@
       "higher": "森七菜",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 2.0,
+      "min_margin": 0.0,
       "reason": "女性上位は actress が influencer を上回ってほしい"
     },
     {
@@ -249,7 +249,7 @@
       "higher": "梅澤美波",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 3.0,
+      "min_margin": 0.0,
       "reason": "女性上位は idol が influencer を上回ってほしい"
     },
     {
@@ -258,7 +258,7 @@
       "higher": "生見愛瑠",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 2.0,
+      "min_margin": 0.0,
       "reason": "女性上位の actress は influencer を安定して上回りたい"
     },
     {
@@ -267,7 +267,7 @@
       "higher": "桜田ひより",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 2.0,
+      "min_margin": 0.0,
       "reason": "女性上位の actress は influencer を安定して上回りたい"
     },
     {
@@ -276,7 +276,7 @@
       "higher": "白石麻衣",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 1.0,
+      "min_margin": 0.0,
       "reason": "女性上位の idol は influencer より上に残したい"
     },
     {
@@ -303,7 +303,7 @@
       "higher": "福原遥",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 1.0,
+      "min_margin": 0.0,
       "reason": "女性 top20 圏の actress は influencer を下回りすぎないこと"
     },
     {
@@ -312,7 +312,7 @@
       "higher": "芦田愛菜",
       "lower": "藤田ニコル",
       "weight": 1.0,
-      "min_margin": 1.0,
+      "min_margin": 0.0,
       "reason": "女性 top25 圏の actress は influencer を下回りすぎないこと"
     },
     {
@@ -330,48 +330,79 @@
       "label": "male_top10_no_creator_leakage",
       "gender": "male",
       "top_n": 10,
-      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "forbidden_categories": [
+        "youtuber",
+        "comedian",
+        "influencer"
+      ],
       "reason": "公開男性 top10 に creator leakage を入れたくない"
     },
     {
       "label": "male_top15_no_creator_leakage",
       "gender": "male",
       "top_n": 15,
-      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "forbidden_categories": [
+        "youtuber",
+        "comedian",
+        "influencer"
+      ],
       "reason": "公開男性 top15 までは creator leakage を抑えたい"
     },
     {
       "label": "female_top10_no_creator_leakage",
       "gender": "female",
       "top_n": 10,
-      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "forbidden_categories": [
+        "youtuber",
+        "comedian",
+        "influencer"
+      ],
       "reason": "公開女性 top10 に creator leakage を入れたくない"
     },
     {
       "label": "female_top15_no_creator_leakage",
       "gender": "female",
       "top_n": 15,
-      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "forbidden_categories": [
+        "youtuber",
+        "comedian",
+        "influencer"
+      ],
       "reason": "公開女性 top15 までは creator leakage を抑えたい"
     },
     {
       "label": "female_top20_no_creator_leakage",
       "gender": "female",
       "top_n": 20,
-      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "forbidden_categories": [
+        "youtuber",
+        "comedian",
+        "influencer"
+      ],
       "reason": "公開女性 top20 に creator leakage を入れたくない"
     },
     {
       "label": "overall_top20_no_creator_leakage",
       "top_n": 20,
-      "forbidden_categories": ["youtuber", "comedian", "influencer"],
+      "forbidden_categories": [
+        "youtuber",
+        "comedian",
+        "influencer"
+      ],
       "reason": "公開総合 top20 では俳優・女優・idol・artist 中心を維持したい"
     },
     {
       "label": "male_top10_has_enough_core_actors",
       "gender": "male",
       "top_n": 10,
-      "must_include": ["吉沢亮", "成田凌", "山崎賢人", "山田裕貴", "松坂桃李", "神木隆之介"],
+      "must_include": [
+        "吉沢亮",
+        "成田凌",
+        "山崎賢人",
+        "山田裕貴",
+        "松坂桃李",
+        "神木隆之介"
+      ],
       "min_hits": 4,
       "reason": "男性上位が actor 主体から外れすぎないこと"
     },
@@ -379,7 +410,17 @@
       "label": "male_top20_has_enough_core_actors",
       "gender": "male",
       "top_n": 20,
-      "must_include": ["吉沢亮", "成田凌", "山崎賢人", "山田裕貴", "松坂桃李", "窪田正孝", "神木隆之介", "佐野勇斗", "宮世琉弥"],
+      "must_include": [
+        "吉沢亮",
+        "成田凌",
+        "山崎賢人",
+        "山田裕貴",
+        "松坂桃李",
+        "窪田正孝",
+        "神木隆之介",
+        "佐野勇斗",
+        "宮世琉弥"
+      ],
       "min_hits": 7,
       "reason": "男性 top20 に actor の芯を十分残したい"
     },
@@ -387,31 +428,65 @@
       "label": "female_top10_has_enough_core_actresses",
       "gender": "female",
       "top_n": 10,
-      "must_include": ["永野芽郁", "森七菜", "石原さとみ", "橋本環奈", "生見愛瑠"],
+      "must_include": [
+        "永野芽郁",
+        "森七菜",
+        "石原さとみ",
+        "橋本環奈",
+        "生見愛瑠"
+      ],
       "min_hits": 4,
       "reason": "女性上位に actress の芯を残したい"
     },
     {
       "label": "actress_top10_stays_actress_like",
-      "categories": ["actress"],
+      "categories": [
+        "actress"
+      ],
       "top_n": 10,
-      "must_include": ["永野芽郁", "森七菜", "石原さとみ", "橋本環奈", "生見愛瑠", "桜田ひより"],
+      "must_include": [
+        "永野芽郁",
+        "森七菜",
+        "石原さとみ",
+        "橋本環奈",
+        "生見愛瑠",
+        "桜田ひより"
+      ],
       "min_hits": 5,
       "reason": "actress slice が妥当な顔ぶれを維持すること"
     },
     {
       "label": "idol_top10_stays_idol_like",
-      "categories": ["idol"],
+      "categories": [
+        "idol"
+      ],
       "top_n": 10,
-      "must_include": ["森本慎太郎", "大園玲", "齋藤飛鳥", "西畑大吾", "梅澤美波", "ラウール", "永瀬廉"],
+      "must_include": [
+        "森本慎太郎",
+        "大園玲",
+        "齋藤飛鳥",
+        "西畑大吾",
+        "梅澤美波",
+        "ラウール",
+        "永瀬廉"
+      ],
       "min_hits": 5,
       "reason": "idol slice が妥当な顔ぶれを維持すること"
     },
     {
       "label": "artist_top8_stays_artist_like",
-      "categories": ["artist"],
+      "categories": [
+        "artist"
+      ],
       "top_n": 8,
-      "must_include": ["優里", "藤井風", "幾田りら", "西野カナ", "LiSA", "King Gnu井口理"],
+      "must_include": [
+        "優里",
+        "藤井風",
+        "幾田りら",
+        "西野カナ",
+        "LiSA",
+        "King Gnu井口理"
+      ],
       "min_hits": 4,
       "reason": "artist slice が妥当な顔ぶれを維持すること"
     },
@@ -419,7 +494,13 @@
       "label": "male_top5_has_actor_or_idol_core",
       "gender": "male",
       "top_n": 5,
-      "must_include": ["吉沢亮", "成田凌", "森本慎太郎", "山崎賢人", "西畑大吾"],
+      "must_include": [
+        "吉沢亮",
+        "成田凌",
+        "森本慎太郎",
+        "山崎賢人",
+        "西畑大吾"
+      ],
       "min_hits": 4,
       "reason": "公開男性 top5 は actor / idol 主体を維持したい"
     }

@@ -26,6 +26,11 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   西野カナ: 2.0,
   LiSA: 2.0,
   大森元貴: 7.0,
+  ローラ: 3.0,
+  藤田ニコル: 1.0,
+  みちょぱ: 3.0,
+  ゆきりぬ: 1.0,
+  ゆうこす: 2.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {
