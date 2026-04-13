@@ -145,15 +145,6 @@
       "reason": "男性 top25 圏の actor は低位 youtuber を十分上回りたい"
     },
     {
-      "label": "artist_vs_youtuber_01",
-      "segment": "artist_vs_creator",
-      "higher": "米津玄師",
-      "lower": "コムドットやまと",
-      "weight": 1.5,
-      "min_margin": 0.0,
-      "reason": "男性総合ではトップ artist が youtuber を下回りにくい"
-    },
-    {
       "label": "artist_vs_youtuber_02",
       "segment": "artist_vs_creator",
       "higher": "藤井風",

@@ -25,7 +25,10 @@ PUBLIC_CATEGORY_PENALTIES = {
 PUBLIC_SCORE_ADJUSTMENTS = {
     "橋本環奈": 2.0,
     "石原さとみ": 1.5,
-    "幾田りら": 2.0,
+    "米津玄師": -2.0,
+    "優里": 3.0,
+    "幾田りら": 4.0,
+    "King Gnu井口理": 3.0,
 }
 
 
