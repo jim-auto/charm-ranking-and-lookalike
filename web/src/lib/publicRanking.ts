@@ -16,10 +16,10 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
 const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   橋本環奈: 2.0,
   石原さとみ: 1.5,
-  米津玄師: -2.0,
-  優里: 3.0,
-  幾田りら: 4.0,
-  'King Gnu井口理': 3.0,
+  米津玄師: -4.0,
+  優里: 5.0,
+  幾田りら: 6.0,
+  'King Gnu井口理': 5.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {
