@@ -31,6 +31,7 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   ゆきりぬ: 1.0,
   ゆうこす: 2.0,
   中島健人: 15.0,
+  Vaundy: -3.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {
