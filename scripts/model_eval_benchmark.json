@@ -411,7 +411,7 @@
       "label": "artist_top8_stays_artist_like",
       "categories": ["artist"],
       "top_n": 8,
-      "must_include": ["米津玄師", "あいみょん", "藤井風", "西野カナ", "LiSA"],
+      "must_include": ["優里", "藤井風", "幾田りら", "西野カナ", "LiSA", "King Gnu井口理"],
       "min_hits": 4,
       "reason": "artist slice が妥当な顔ぶれを維持すること"
     },
