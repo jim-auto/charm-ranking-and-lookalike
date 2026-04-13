@@ -4,10 +4,12 @@ import ScoreRadar from './ScoreRadar';
 
 interface Props {
   score: number;
+  celebrityScore: number;
   details: ScoreDetails;
   photoQuality: PhotoQualityAssessment;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
   toDeviation?: (rawScore: number) => number;
+  toCelebrityDeviation?: (rawScore: number) => number;
 }
 
 function QualityMetric({
@@ -34,22 +36,32 @@ function formatScore(value: number): string {
 
 export default function LookalikeResult({
   score,
+  celebrityScore,
   details,
   photoQuality,
   lookalikes,
   toDeviation,
+  toCelebrityDeviation,
 }: Props) {
   return (
     <div className="space-y-6">
       <div className="rounded-xl bg-slate-800 p-6">
-        <div className="text-center">
-          <h3 className="mb-2 text-lg text-slate-300">一般偏差値</h3>
-          <div className="mb-4 text-5xl font-bold text-indigo-400">
-            {formatScore(score)}
+        <div className="flex justify-center gap-6">
+          <div className="text-center">
+            <h3 className="mb-2 text-sm text-slate-400">一般偏差値</h3>
+            <div className="text-5xl font-bold text-indigo-400">
+              {formatScore(score)}
+            </div>
           </div>
-          <div className="flex justify-center">
-            <ScoreRadar details={details} size="md" />
+          <div className="text-center">
+            <h3 className="mb-2 text-sm text-slate-400">芸能人偏差値</h3>
+            <div className="text-5xl font-bold text-emerald-400">
+              {formatScore(celebrityScore)}
+            </div>
           </div>
+        </div>
+        <div className="mt-4 flex justify-center">
+          <ScoreRadar details={details} size="md" />
         </div>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-3">
@@ -88,11 +100,23 @@ export default function LookalikeResult({
                 />
                 <div className="flex-1">
                   <div className="font-medium">{celebrity.name}</div>
-                  <div className="text-sm text-slate-400">
-                    一般偏差値:{' '}
-                    {toDeviation
-                      ? formatScore(toDeviation(celebrity.scores?.face ?? celebrity.score))
-                      : formatScore(celebrity.score)}
+                  <div className="flex gap-3 text-sm text-slate-400">
+                    <span>
+                      一般{' '}
+                      <span className="text-indigo-400">
+                        {toDeviation
+                          ? formatScore(toDeviation(celebrity.scores?.face ?? celebrity.score))
+                          : formatScore(celebrity.score)}
+                      </span>
+                    </span>
+                    {toCelebrityDeviation && (
+                      <span>
+                        芸能人{' '}
+                        <span className="text-emerald-400">
+                          {formatScore(toCelebrityDeviation(celebrity.scores?.face ?? celebrity.score))}
+                        </span>
+                      </span>
+                    )}
                   </div>
                 </div>
                 <div className="font-bold text-indigo-400">

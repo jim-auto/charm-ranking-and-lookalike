@@ -13,6 +13,7 @@ import ImageUploader from '../components/ImageUploader';
 import {
   calculateAdjustedOverallScore,
   calculateMetricDistributions,
+  createCelebrityScoreDeviationConverter,
   createGeneralScoreDeviationConverter,
 } from '../lib/metricDistribution';
 import {
@@ -25,10 +26,12 @@ const LookalikeResult = lazy(() => import('../components/LookalikeResult'));
 
 interface DiagnoseResult {
   score: number;
+  celebrityScore: number;
   details: ScoreDetails;
   photoQuality: PhotoQualityAssessment;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
   toDeviation: (rawScore: number) => number;
+  toCelebrityDeviation: (rawScore: number) => number;
 }
 
 type ProcessingStage = 'idle' | 'loading' | 'detecting' | 'scoring' | 'matching';
@@ -92,6 +95,10 @@ export default function DiagnosePage() {
   );
   const toDeviation = useMemo(
     () => createGeneralScoreDeviationConverter(scoringCelebrities, 'face'),
+    [scoringCelebrities],
+  );
+  const toCelebrityDeviation = useMemo(
+    () => createCelebrityScoreDeviationConverter(scoringCelebrities, 'face'),
     [scoringCelebrities],
   );
   const processingLabel =
@@ -181,6 +188,7 @@ export default function DiagnosePage() {
         );
         const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
         const score = toDeviation(rawScore);
+        const celebrityScore = toCelebrityDeviation(rawScore);
 
         setProcessingStage('matching');
         await nextPaint();
@@ -222,7 +230,7 @@ export default function DiagnosePage() {
                 }),
               );
 
-        setResult({ score, details, photoQuality, lookalikes, toDeviation });
+        setResult({ score, celebrityScore, details, photoQuality, lookalikes, toDeviation, toCelebrityDeviation });
       } catch (err) {
         console.error(err);
         setError('診断中にエラーが発生しました。');
@@ -339,10 +347,12 @@ export default function DiagnosePage() {
           <Suspense fallback={<ResultFallback />}>
             <LookalikeResult
               score={result.score}
+              celebrityScore={result.celebrityScore}
               details={result.details}
               photoQuality={result.photoQuality}
               lookalikes={result.lookalikes}
               toDeviation={result.toDeviation}
+              toCelebrityDeviation={result.toCelebrityDeviation}
             />
           </Suspense>
         </div>
