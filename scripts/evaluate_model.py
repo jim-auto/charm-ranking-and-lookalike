@@ -25,6 +25,7 @@ PUBLIC_CATEGORY_PENALTIES = {
 PUBLIC_SCORE_ADJUSTMENTS = {
     "橋本環奈": 2.0,
     "石原さとみ": 1.5,
+    "幾田りら": 2.0,
 }
 
 

@@ -16,6 +16,7 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
 const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   橋本環奈: 2.0,
   石原さとみ: 1.5,
+  幾田りら: 2.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {
