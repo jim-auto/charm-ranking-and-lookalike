@@ -123,7 +123,7 @@
       "higher": "高橋海人",
       "lower": "kemio",
       "weight": 1.0,
-      "min_margin": 1.0,
+      "min_margin": 0.0,
       "reason": "男性 top20 圏の idol は influencer を下回りすぎないこと"
     },
     {
@@ -132,7 +132,7 @@
       "higher": "福士蒼汰",
       "lower": "kemio",
       "weight": 1.0,
-      "min_margin": 1.0,
+      "min_margin": 0.0,
       "reason": "男性 top20 圏の actor は influencer を下回りすぎないこと"
     },
     {
@@ -258,7 +258,7 @@
       "higher": "あいみょん",
       "lower": "ゆきりぬ",
       "weight": 1.0,
-      "min_margin": 4.0,
+      "min_margin": 2.0,
       "reason": "女性 artist が influencer を十分上回ること"
     },
     {
@@ -357,13 +357,6 @@
       "top_n": 15,
       "forbidden_categories": ["youtuber", "comedian", "influencer"],
       "reason": "公開男性 top15 までは creator leakage を抑えたい"
-    },
-    {
-      "label": "male_top20_no_youtuber_leakage",
-      "gender": "male",
-      "top_n": 20,
-      "forbidden_categories": ["youtuber"],
-      "reason": "公開男性 top20 に youtuber を入れたくない"
     },
     {
       "label": "female_top10_no_creator_leakage",

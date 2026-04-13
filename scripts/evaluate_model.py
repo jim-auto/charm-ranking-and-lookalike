@@ -16,9 +16,9 @@ from typing import Any
 ScoreMetric = str
 
 PUBLIC_CATEGORY_PENALTIES = {
-    "youtuber": 7.0,
-    "influencer": 3.0,
-    "comedian": 4.0,
+    "youtuber": 5.0,
+    "influencer": 1.0,
+    "comedian": 2.0,
     "artist": 3.5,
 }
 
