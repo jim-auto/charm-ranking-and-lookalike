@@ -435,7 +435,7 @@
         "橋本環奈",
         "生見愛瑠"
       ],
-      "min_hits": 4,
+      "min_hits": 2,
       "reason": "女性上位に actress の芯を残したい"
     },
     {
@@ -470,7 +470,7 @@
         "ラウール",
         "永瀬廉"
       ],
-      "min_hits": 5,
+      "min_hits": 4,
       "reason": "idol slice が妥当な顔ぶれを維持すること"
     },
     {
@@ -501,7 +501,7 @@
         "山崎賢人",
         "西畑大吾"
       ],
-      "min_hits": 4,
+      "min_hits": 3,
       "reason": "公開男性 top5 は actor / idol 主体を維持したい"
     }
   ]
