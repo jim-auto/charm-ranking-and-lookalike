@@ -6,8 +6,12 @@ import {
 const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
   youtuber: 5.0,
   influencer: 1.0,
-  comedian: 2.0,
+  comedian: 6.0,
   artist: 3.5,
+  cultural: 8.0,
+  prowrestler: 6.0,
+  musician: 4.0,
+  athlete: 3.0,
 };
 
 /** Editorial score adjustments for celebrities whose algorithmic score

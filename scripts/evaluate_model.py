@@ -18,8 +18,12 @@ ScoreMetric = str
 PUBLIC_CATEGORY_PENALTIES = {
     "youtuber": 5.0,
     "influencer": 1.0,
-    "comedian": 2.0,
+    "comedian": 6.0,
     "artist": 3.5,
+    "cultural": 8.0,
+    "prowrestler": 6.0,
+    "musician": 4.0,
+    "athlete": 3.0,
 }
 
 PUBLIC_SCORE_ADJUSTMENTS = {
