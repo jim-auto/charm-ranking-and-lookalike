@@ -102,6 +102,11 @@
   { "name": "JUJU", "category": "artist", "gender": "female", "query": "JUJU singer Japan" },
 
   { "name": "HIKAKIN", "category": "youtuber", "gender": "male", "query": "HIKAKIN YouTuber" },
+  { "name": "はじめしゃちょー", "category": "youtuber", "gender": "male", "query": "Hajime Syacho YouTuber" },
+  { "name": "フワちゃん", "category": "youtuber", "gender": "female", "query": "Fuwachan YouTuber Japan" },
+  { "name": "東海オンエア てつや", "category": "youtuber", "gender": "male", "query": "Tokai On Air Tetsuya YouTuber" },
+  { "name": "水溜りボンド カンタ", "category": "youtuber", "gender": "male", "query": "Mizutamari Bond Kanta YouTuber" },
+  { "name": "ゆきりぬ", "category": "youtuber", "gender": "female", "query": "Yukirinu YouTuber" },
   { "name": "藤田ニコル", "category": "influencer", "gender": "female" },
   { "name": "池田美優", "category": "influencer", "gender": "female", "query": "Ikeda Miyu model" },
   { "name": "kemio", "category": "influencer", "gender": "male", "query": "kemio influencer" },

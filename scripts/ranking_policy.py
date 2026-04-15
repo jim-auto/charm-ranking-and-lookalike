@@ -7,7 +7,7 @@ UNWANTED_RECOMMENDED_CATEGORIES = {"athlete", "sumo", "prowrestler"}
 LOW_DEVIATION_CATEGORIES = {"actor", "actress", "idol"}
 LOW_DEVIATION_THRESHOLD = 40.0
 FACE_VALIDATION_EXCLUSION_REASON = "invalid face geometry"
-PUBLIC_EXCLUDED_NAMES = {"はじめしゃちょー"}
+PUBLIC_EXCLUDED_NAMES: set[str] = set()
 
 
 def filter_public_entries(entries: list[dict]) -> list[dict]:
