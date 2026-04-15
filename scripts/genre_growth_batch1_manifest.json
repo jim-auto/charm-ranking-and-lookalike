@@ -1,0 +1,36 @@
+[
+  { "name": "SEIKIN", "category": "youtuber", "gender": "male" },
+  { "name": "カジサック", "category": "youtuber", "gender": "male" },
+  { "name": "ラファエル", "category": "youtuber", "gender": "male" },
+  { "name": "コレコレ", "category": "youtuber", "gender": "male" },
+  { "name": "タケヤキ翔", "category": "youtuber", "gender": "male" },
+
+  { "name": "古川優香", "category": "influencer", "gender": "female" },
+  { "name": "エミリン", "category": "influencer", "gender": "female" },
+  { "name": "中町綾", "category": "influencer", "gender": "female" },
+  { "name": "とうあ", "category": "influencer", "gender": "male" },
+  { "name": "ゆうこす", "category": "influencer", "gender": "female" },
+
+  { "name": "花澤香菜", "category": "voiceactor", "gender": "female" },
+  { "name": "佐倉綾音", "category": "voiceactor", "gender": "female" },
+  { "name": "水瀬いのり", "category": "voiceactor", "gender": "female" },
+  { "name": "高橋李依", "category": "voiceactor", "gender": "female" },
+  { "name": "小倉唯", "category": "voiceactor", "gender": "female" },
+  { "name": "伊藤美来", "category": "voiceactor", "gender": "female" },
+  { "name": "花江夏樹", "category": "voiceactor", "gender": "male" },
+  { "name": "岡本信彦", "category": "voiceactor", "gender": "male" },
+
+  { "name": "新木優子", "category": "model", "gender": "female" },
+  { "name": "滝沢カレン", "category": "model", "gender": "female" },
+  { "name": "森星", "category": "model", "gender": "female" },
+  { "name": "八木アリサ", "category": "model", "gender": "female" },
+  { "name": "emma", "category": "model", "gender": "female" },
+  { "name": "朝比奈彩", "category": "model", "gender": "female" },
+
+  { "name": "ゆりやんレトリィバァ", "category": "comedian", "gender": "female" },
+  { "name": "福田麻貴", "category": "comedian", "gender": "female" },
+  { "name": "かなで", "category": "comedian", "gender": "female" },
+  { "name": "誠子", "category": "comedian", "gender": "female" },
+  { "name": "シュウペイ", "category": "comedian", "gender": "male" },
+  { "name": "岡部大", "category": "comedian", "gender": "male" }
+]

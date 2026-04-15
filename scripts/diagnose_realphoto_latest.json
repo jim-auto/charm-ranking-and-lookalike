@@ -52,19 +52,19 @@
           "similarity": 97.7
         },
         {
+          "id": "celeb_8bf4bef0",
+          "name": "花江夏樹",
+          "similarity": 97.1
+        },
+        {
           "id": "celeb_600a360e",
           "name": "岡田将生",
           "similarity": 97
         },
         {
-          "id": "celeb_d93f669f",
-          "name": "西畑大吾",
+          "id": "celeb_e75952a9",
+          "name": "板垣李光人",
           "similarity": 96.9
-        },
-        {
-          "id": "celeb_b0ddee67",
-          "name": "志尊淳",
-          "similarity": 97.1
         }
       ]
     },
@@ -104,9 +104,9 @@
           "similarity": 97.7
         },
         {
-          "id": "celeb_b0ddee67",
-          "name": "志尊淳",
-          "similarity": 97.1
+          "id": "celeb_8bf4bef0",
+          "name": "花江夏樹",
+          "similarity": 97
         },
         {
           "id": "celeb_3f198e69",
@@ -148,7 +148,7 @@
         {
           "id": "celeb_befa0b6e",
           "name": "吉沢亮",
-          "similarity": 98.1
+          "similarity": 98
         },
         {
           "id": "celeb_7facecc0",
@@ -161,14 +161,14 @@
           "similarity": 97.2
         },
         {
-          "id": "celeb_b0ddee67",
-          "name": "志尊淳",
+          "id": "celeb_8bf4bef0",
+          "name": "花江夏樹",
           "similarity": 97.1
         },
         {
-          "id": "celeb_e75952a9",
-          "name": "板垣李光人",
-          "similarity": 97
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 97.1
         }
       ]
     },
@@ -839,7 +839,7 @@
         {
           "id": "celeb_e514d1fd",
           "name": "丹生明里",
-          "similarity": 95.2
+          "similarity": 95.1
         },
         {
           "id": "celeb_4e17f725",
@@ -1042,7 +1042,7 @@
         {
           "id": "celeb_4e17f725",
           "name": "黒木華",
-          "similarity": 98
+          "similarity": 97.9
         },
         {
           "id": "celeb_1b300c1e",
@@ -1139,13 +1139,13 @@
           "similarity": 98.7
         },
         {
-          "id": "celeb_e06ee534",
-          "name": "森星",
-          "similarity": 98.2
-        },
-        {
           "id": "celeb_50ce2b09",
           "name": "てんちむ",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_e06ee534",
+          "name": "森星",
           "similarity": 98.1
         },
         {
@@ -1364,7 +1364,7 @@
         {
           "id": "celeb_d1e9ea37",
           "name": "窪田正孝",
-          "similarity": 97
+          "similarity": 96.9
         }
       ]
     },
@@ -1867,6 +1867,11 @@
           "similarity": 98.6
         },
         {
+          "id": "celeb_873b6485",
+          "name": "京本大我",
+          "similarity": 97.3
+        },
+        {
           "id": "celeb_c59800ea",
           "name": "神尾楓珠",
           "similarity": 97.3
@@ -1879,11 +1884,6 @@
         {
           "id": "celeb_44de8430",
           "name": "菊池風磨",
-          "similarity": 97.2
-        },
-        {
-          "id": "celeb_873b6485",
-          "name": "京本大我",
           "similarity": 97.2
         }
       ]
@@ -1926,12 +1926,12 @@
         {
           "id": "celeb_1ce9dcd1",
           "name": "鈴鹿央士",
-          "similarity": 96.4
+          "similarity": 96.5
         },
         {
           "id": "celeb_f9c9af55",
           "name": "Nissy西島隆弘",
-          "similarity": 96.1
+          "similarity": 96.2
         },
         {
           "id": "celeb_600a360e",
@@ -2241,13 +2241,13 @@
           "similarity": 97.9
         },
         {
-          "id": "celeb_e49755d7",
-          "name": "玉城ティナ",
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
           "similarity": 97.6
         },
         {
-          "id": "celeb_7dfa2df4",
-          "name": "浜辺美波",
+          "id": "celeb_67595c9c",
+          "name": "川口春奈",
           "similarity": 97.6
         }
       ]
@@ -2345,13 +2345,13 @@
           "similarity": 97.9
         },
         {
-          "id": "celeb_50ce2b09",
-          "name": "てんちむ",
-          "similarity": 97.8
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.9
         },
         {
-          "id": "celeb_67595c9c",
-          "name": "川口春奈",
+          "id": "celeb_50ce2b09",
+          "name": "てんちむ",
           "similarity": 97.8
         }
       ]
@@ -2545,7 +2545,7 @@
         {
           "id": "celeb_d93f669f",
           "name": "西畑大吾",
-          "similarity": 96.1
+          "similarity": 96
         },
         {
           "id": "celeb_f9c9af55",
@@ -2597,12 +2597,12 @@
         {
           "id": "celeb_44de8430",
           "name": "菊池風磨",
-          "similarity": 96.6
+          "similarity": 96.7
         },
         {
           "id": "celeb_d93f669f",
           "name": "西畑大吾",
-          "similarity": 96.2
+          "similarity": 96.1
         },
         {
           "id": "celeb_aef1352c",
@@ -2644,7 +2644,7 @@
         {
           "id": "celeb_f9c9af55",
           "name": "Nissy西島隆弘",
-          "similarity": 97.4
+          "similarity": 97.5
         },
         {
           "id": "celeb_44de8430",
@@ -3021,14 +3021,14 @@
           "similarity": 96.1
         },
         {
-          "id": "celeb_69e73e58",
-          "name": "菅田将暉",
-          "similarity": 95.6
+          "id": "celeb_02c8696d",
+          "name": "SEIKIN",
+          "similarity": 95.8
         },
         {
-          "id": "celeb_9475f8e7",
-          "name": "コレコレ",
-          "similarity": 95.6
+          "id": "celeb_69e73e58",
+          "name": "菅田将暉",
+          "similarity": 95.7
         }
       ]
     },
@@ -3078,8 +3078,8 @@
           "similarity": 95.7
         },
         {
-          "id": "celeb_80363576",
-          "name": "兼近大樹",
+          "id": "celeb_02c8696d",
+          "name": "SEIKIN",
           "similarity": 95.6
         }
       ]
@@ -3130,9 +3130,9 @@
           "similarity": 95.7
         },
         {
-          "id": "celeb_f9c9af55",
-          "name": "Nissy西島隆弘",
-          "similarity": 95.5
+          "id": "celeb_02c8696d",
+          "name": "SEIKIN",
+          "similarity": 95.6
         }
       ]
     },
@@ -3588,11 +3588,6 @@
           "similarity": 97.8
         },
         {
-          "id": "celeb_38127b4e",
-          "name": "新垣結衣",
-          "similarity": 97
-        },
-        {
           "id": "celeb_4ff5e7f3",
           "name": "柏木由紀",
           "similarity": 97
@@ -3600,6 +3595,11 @@
         {
           "id": "celeb_1c82bee3",
           "name": "白石麻衣",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
           "similarity": 96.9
         }
       ]
@@ -3632,7 +3632,7 @@
         {
           "id": "celeb_1c82bee3",
           "name": "白石麻衣",
-          "similarity": 97.5
+          "similarity": 97.4
         },
         {
           "id": "celeb_7dfa2df4",
@@ -3650,9 +3650,9 @@
           "similarity": 96.7
         },
         {
-          "id": "celeb_50ce2b09",
-          "name": "てんちむ",
-          "similarity": 96.5
+          "id": "celeb_90560502",
+          "name": "谷まりあ",
+          "similarity": 96.6
         }
       ]
     },
@@ -3692,11 +3692,6 @@
           "similarity": 96.8
         },
         {
-          "id": "celeb_9ac4f835",
-          "name": "ねお",
-          "similarity": 96.8
-        },
-        {
           "id": "celeb_67595c9c",
           "name": "川口春奈",
           "similarity": 96.6
@@ -3705,6 +3700,11 @@
           "id": "celeb_8c89a925",
           "name": "音嶋莉沙",
           "similarity": 96.6
+        },
+        {
+          "id": "celeb_50ce2b09",
+          "name": "てんちむ",
+          "similarity": 96.5
         }
       ]
     },
@@ -3952,6 +3952,11 @@
           "similarity": 97
         },
         {
+          "id": "celeb_90560502",
+          "name": "谷まりあ",
+          "similarity": 96.7
+        },
+        {
           "id": "celeb_38127b4e",
           "name": "新垣結衣",
           "similarity": 96.3
@@ -3960,11 +3965,6 @@
           "id": "celeb_f59368b4",
           "name": "吉高由里子",
           "similarity": 96.2
-        },
-        {
-          "id": "celeb_b5f58ce0",
-          "name": "上坂すみれ",
-          "similarity": 96.1
         }
       ]
     },
@@ -4001,7 +4001,7 @@
         {
           "id": "celeb_40796ce8",
           "name": "山本美月",
-          "similarity": 97.2
+          "similarity": 97.3
         },
         {
           "id": "celeb_f59368b4",
@@ -4056,9 +4056,9 @@
           "similarity": 97
         },
         {
-          "id": "celeb_2b65c102",
-          "name": "出口夏希",
-          "similarity": 96.5
+          "id": "celeb_90560502",
+          "name": "谷まりあ",
+          "similarity": 96.6
         },
         {
           "id": "celeb_f59368b4",
@@ -4162,7 +4162,7 @@
         {
           "id": "celeb_f125dd4c",
           "name": "ゆきぽよ",
-          "similarity": 96.7
+          "similarity": 96.6
         },
         {
           "id": "celeb_b5a64b6d",
@@ -4363,11 +4363,6 @@
           "similarity": 98.8
         },
         {
-          "id": "celeb_72addd07",
-          "name": "米津玄師",
-          "similarity": 97.5
-        },
-        {
           "id": "celeb_34c4561b",
           "name": "岩田剛典",
           "similarity": 97.5
@@ -4375,6 +4370,11 @@
         {
           "id": "celeb_c59800ea",
           "name": "神尾楓珠",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
           "similarity": 97.4
         },
         {
@@ -4427,7 +4427,7 @@
         {
           "id": "celeb_3dac69ca",
           "name": "花澤香菜",
-          "similarity": 96.7
+          "similarity": 96.6
         },
         {
           "id": "celeb_3ae66c7e",
@@ -4576,6 +4576,11 @@
           "similarity": 97.3
         },
         {
+          "id": "celeb_90560502",
+          "name": "谷まりあ",
+          "similarity": 97.1
+        },
+        {
           "id": "celeb_caed0870",
           "name": "井上和",
           "similarity": 97
@@ -4583,11 +4588,6 @@
         {
           "id": "celeb_8c89a925",
           "name": "音嶋莉沙",
-          "similarity": 97
-        },
-        {
-          "id": "celeb_d9e3f630",
-          "name": "みちょぱ",
           "similarity": 97
         }
       ]
@@ -4628,6 +4628,11 @@
           "similarity": 97.2
         },
         {
+          "id": "celeb_90560502",
+          "name": "谷まりあ",
+          "similarity": 97.2
+        },
+        {
           "id": "celeb_caed0870",
           "name": "井上和",
           "similarity": 97
@@ -4635,11 +4640,6 @@
         {
           "id": "celeb_d9e3f630",
           "name": "みちょぱ",
-          "similarity": 97
-        },
-        {
-          "id": "celeb_8d2ec519",
-          "name": "雨宮天",
           "similarity": 97
         }
       ]
@@ -4680,6 +4680,11 @@
           "similarity": 97.3
         },
         {
+          "id": "celeb_90560502",
+          "name": "谷まりあ",
+          "similarity": 97.1
+        },
+        {
           "id": "celeb_d9e3f630",
           "name": "みちょぱ",
           "similarity": 97.1
@@ -4687,11 +4692,6 @@
         {
           "id": "celeb_caed0870",
           "name": "井上和",
-          "similarity": 97
-        },
-        {
-          "id": "celeb_8c89a925",
-          "name": "音嶋莉沙",
           "similarity": 97
         }
       ]

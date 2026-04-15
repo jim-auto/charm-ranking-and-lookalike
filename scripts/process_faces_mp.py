@@ -815,10 +815,6 @@ def main() -> None:
         existing_names = {c["name"] for c in existing}
         print(f"Loaded {len(existing)} existing celebrities")
 
-    # Remove ヒカル if present
-    existing = [c for c in existing if c["name"] != "ヒカル"]
-    existing_names.discard("ヒカル")
-
     # Find new person directories
     person_dirs = sorted(
         [d for d in input_dir.iterdir() if d.is_dir()],
@@ -857,7 +853,6 @@ def main() -> None:
 
     if not new_dirs and not args.force_all:
         print("Nothing new to process.")
-        # Still re-save without ヒカル
         if len(existing) > 0:
             apply_distribution_adjusted_scores(existing)
             existing.sort(key=lambda c: c["score"], reverse=True)
@@ -865,7 +860,7 @@ def main() -> None:
                 cel["rank"] = rank
             with open(celebrities_json, "w", encoding="utf-8") as f:
                 json.dump(existing, f, ensure_ascii=False, indent=2)
-            print(f"Re-saved {len(existing)} celebrities (removed ヒカル)")
+            print(f"Re-saved {len(existing)} celebrities")
         return
 
     # Initialize MediaPipe

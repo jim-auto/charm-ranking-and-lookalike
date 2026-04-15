@@ -1,0 +1,36 @@
+[
+  { "name": "三上悠亜", "category": "influencer", "gender": "female" },
+  { "name": "谷まりあ", "category": "influencer", "gender": "female" },
+  { "name": "紗栄子", "category": "influencer", "gender": "female" },
+
+  { "name": "河北麻友子", "category": "model", "gender": "female" },
+  { "name": "トリンドル玲奈", "category": "model", "gender": "female" },
+  { "name": "泉里香", "category": "model", "gender": "female" },
+  { "name": "マギー", "category": "model", "gender": "female" },
+  { "name": "中村アン", "category": "model", "gender": "female" },
+
+  { "name": "木村昴", "category": "voiceactor", "gender": "male" },
+  { "name": "戸松遥", "category": "voiceactor", "gender": "female" },
+  { "name": "内田雄馬", "category": "voiceactor", "gender": "male" },
+  { "name": "小野賢章", "category": "voiceactor", "gender": "male" },
+  { "name": "花守ゆみり", "category": "voiceactor", "gender": "female" },
+  { "name": "富田美憂", "category": "voiceactor", "gender": "female" },
+
+  { "name": "福田麻貴", "category": "comedian", "gender": "female", "query": "福田麻貴 3時のヒロイン" },
+  { "name": "ゆめっち", "category": "comedian", "gender": "female", "query": "ゆめっち 3時のヒロイン" },
+  { "name": "草薙航基", "category": "comedian", "gender": "male", "query": "草薙航基 宮下草薙" },
+  { "name": "宮下兼史鷹", "category": "comedian", "gender": "male", "query": "宮下兼史鷹 宮下草薙" },
+  { "name": "後藤拓実", "category": "comedian", "gender": "male", "query": "後藤拓実 四千頭身" },
+  { "name": "高岸宏行", "category": "comedian", "gender": "male" },
+  { "name": "ワタリ119", "category": "comedian", "gender": "male" },
+
+  { "name": "森香澄", "category": "announcer", "gender": "female" },
+  { "name": "鷲見玲奈", "category": "announcer", "gender": "female" },
+  { "name": "佐久間みなみ", "category": "announcer", "gender": "female" },
+  { "name": "田村真子", "category": "announcer", "gender": "female" },
+  { "name": "井上清華", "category": "announcer", "gender": "female" },
+
+  { "name": "伊藤匠", "category": "shogi", "gender": "male" },
+  { "name": "西山朋佳", "category": "shogi", "gender": "female" },
+  { "name": "福間香奈", "category": "shogi", "gender": "female" }
+]
