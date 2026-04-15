@@ -16,6 +16,12 @@ from typing import Any
 ScoreMetric = str
 
 PUBLIC_CATEGORY_PENALTIES = {
+    "announcer": 0.0,
+    "voiceactor": 2.0,
+    "model": 0.0,
+    "business": 8.0,
+    "politician": 8.0,
+    "shogi": 6.0,
     "youtuber": 5.0,
     "influencer": 1.0,
     "comedian": 6.0,
@@ -27,7 +33,7 @@ PUBLIC_CATEGORY_PENALTIES = {
 }
 
 PUBLIC_SCORE_ADJUSTMENTS = {
-    "橋本環奈": 2.0,
+    "橋本環奈": 5.0,
     "石原さとみ": 1.5,
     "米津玄師": -4.0,
     "あいみょん": -4.0,
@@ -36,7 +42,7 @@ PUBLIC_SCORE_ADJUSTMENTS = {
     "King Gnu井口理": 9.0,
     "常田大希": 2.0,
     "Taka(ONE OK ROCK)": 4.0,
-    "西野カナ": 2.0,
+    "西野カナ": 3.0,
     "LiSA": 2.0,
     "大森元貴": 7.0,
     "ローラ": 5.0,
@@ -47,6 +53,15 @@ PUBLIC_SCORE_ADJUSTMENTS = {
     "中島健人": 15.0,
     "Vaundy": -3.0,
     "EXIT りんたろー。": -5.0,
+    "back number清水依与吏": -3.0,
+    "向井康二": -3.0,
+    "佐藤勝利": -3.0,
+    "生見愛瑠": 3.0,
+    "松坂桃李": 2.0,
+    "神木隆之介": 2.0,
+    "窪田正孝": 2.0,
+    "佐野勇斗": 2.0,
+    "宮世琉弥": 2.5,
 }
 
 

@@ -13,6 +13,7 @@ const USER_AGENT = 'face-ranking-and-lookalike/1.0 (metadata refresh)';
 const ENTITY_BATCH_SIZE = 50;
 const RETRY_DELAY_MS = 1500;
 const TITLE_ALIASES = {
+  '\u7530\u4e2d\u77b3': ['\u7530\u4e2d\u77b3 (\u30a2\u30ca\u30a6\u30f3\u30b5\u30fc)'],
   '安村': ['とにかく明るい安村'],
   '見取り図盛山': ['盛山晋太郎'],
   'ウエストランド井口': ['井口浩之'],

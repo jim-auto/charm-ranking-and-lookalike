@@ -233,10 +233,10 @@ def load_public_names() -> set:
         return {c["name"] for c in json.load(f)}
 
 
-def get_all_celebrity_folders() -> List[tuple]:
+def get_all_celebrity_folders(input_dir: Path) -> List[tuple]:
     """Get all celebrity folders with metadata."""
     results = []
-    for folder in sorted(INPUT_DIR.iterdir()):
+    for folder in sorted(input_dir.iterdir()):
         if not folder.is_dir():
             continue
         cat_file = folder / "category.txt"
@@ -255,6 +255,17 @@ def get_all_celebrity_folders() -> List[tuple]:
 def main():
     parser = argparse.ArgumentParser(description="Collect celebrity photos automatically")
     parser.add_argument("--names", nargs="+", help="Specific celebrity names to collect")
+    parser.add_argument(
+        "--names-file",
+        type=Path,
+        help="UTF-8 text file with one celebrity name per line",
+    )
+    parser.add_argument(
+        "--input-dir",
+        type=Path,
+        default=INPUT_DIR,
+        help=f"Input image root directory (default: {INPUT_DIR})",
+    )
     parser.add_argument(
         "--max-photos", type=int, default=3, help="Max new photos per celebrity"
     )
@@ -275,15 +286,26 @@ def main():
     )
     args = parser.parse_args()
 
+    input_dir = args.input_dir.resolve()
     public_names = load_public_names()
 
-    if args.names:
+    cli_names = list(args.names or [])
+    if args.names_file:
+        cli_names.extend(
+            [
+                line.strip()
+                for line in args.names_file.read_text(encoding="utf-8-sig").splitlines()
+                if line.strip()
+            ]
+        )
+
+    if cli_names:
         targets = []
-        for name in args.names:
-            folder = INPUT_DIR / name
+        for name in cli_names:
+            folder = input_dir / name
             targets.append((name, folder))
     else:
-        all_folders = get_all_celebrity_folders()
+        all_folders = get_all_celebrity_folders(input_dir)
         targets = [(name, folder) for name, folder, _, _ in all_folders]
 
     if args.new_only:

@@ -24,6 +24,12 @@ ROLE_HINTS = {
     "actress": "actress",
     "idol": "idol",
     "artist": "singer",
+    "announcer": "announcer",
+    "voiceactor": "voice actor",
+    "model": "model",
+    "business": "entrepreneur",
+    "politician": "politician",
+    "shogi": "shogi player",
     "musician": "musician",
     "influencer": "model",
     "youtuber": "YouTuber",
@@ -393,6 +399,28 @@ def write_seed_files(person_dir: Path, entry: dict) -> None:
         (person_dir / "gender.txt").write_text(entry["gender"], encoding="utf-8")
 
 
+def try_download_candidates(photo_path: Path, candidates: list[dict], *, limit: int = 5) -> bool:
+    for candidate in candidates[:limit]:
+        print(
+            f"  try: {candidate['width']}x{candidate['height']} "
+            f"{candidate['title']}"
+        )
+        try:
+            tmp_path = photo_path.with_suffix(".tmp")
+            download_image(candidate["url"], tmp_path)
+            if not has_face_candidate(tmp_path):
+                tmp_path.unlink(missing_ok=True)
+                print("  reject: no face candidate")
+                continue
+            size_kb = tmp_path.stat().st_size // 1024
+            tmp_path.replace(photo_path)
+            print(f"  downloaded: {size_kb}KB")
+            return True
+        except Exception as exc:  # noqa: BLE001
+            print(f"  download error: {exc}")
+    return False
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -561,26 +589,31 @@ def main() -> int:
             time.sleep(args.sleep_sec)
             continue
 
-        downloaded = False
-        for candidate in results[:5]:
-            print(
-                f"  try: {candidate['width']}x{candidate['height']} "
-                f"{candidate['title']}"
-            )
-            try:
-                tmp_path = photo_path.with_suffix(".tmp")
-                download_image(candidate["url"], tmp_path)
-                if not has_face_candidate(tmp_path):
-                    tmp_path.unlink(missing_ok=True)
-                    print("  reject: no face candidate")
+        downloaded = try_download_candidates(photo_path, results)
+
+        if (
+            not downloaded
+            and results
+            and allow_search_fallback(entry)
+            and all(candidate.get("source") != "commons-search" for candidate in results)
+        ):
+            print("  fallback search after rejected candidates")
+            for query in candidate_queries(entry):
+                print(f"  query: {query}")
+                try:
+                    fallback_results = [
+                        candidate
+                        for candidate in search_commons(query)
+                        if title_looks_relevant(entry, candidate["title"])
+                    ]
+                except Exception as exc:  # noqa: BLE001
+                    print(f"  search error: {exc}")
                     continue
-                size_kb = tmp_path.stat().st_size // 1024
-                tmp_path.replace(photo_path)
-                print(f"  downloaded: {size_kb}KB")
-                downloaded = True
-                break
-            except Exception as exc:  # noqa: BLE001
-                print(f"  download error: {exc}")
+                if not fallback_results:
+                    continue
+                downloaded = try_download_candidates(photo_path, fallback_results)
+                if downloaded:
+                    break
 
         if downloaded:
             success += 1

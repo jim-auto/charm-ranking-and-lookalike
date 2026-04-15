@@ -68,6 +68,12 @@ function shapeRatioScore(actual: number, ideal: number, factor = 2): number {
   return clamp((1 - deviation * factor) * 100);
 }
 
+function marginBalanceScore(a: number, b: number): number {
+  const total = a + b;
+  if (total <= 0) return 0;
+  return clamp((1 - Math.abs(a - b) / total) * 100);
+}
+
 function rotatePoint(point: Point, origin: Point, angle: number): Point {
   const sin = Math.sin(angle);
   const cos = Math.cos(angle);
@@ -164,8 +170,16 @@ function calculateCropScore(box: FaceBox, canvas: HTMLCanvasElement): number {
 
   const areaRatio = (box.width * box.height) / Math.max(canvas.width * canvas.height, 1);
   const sizeScore = shapeRatioScore(areaRatio, 0.18, 0.9);
+  const baseScore = marginScore * 0.7 + sizeScore * 0.3;
 
-  return round1(marginScore * 0.7 + sizeScore * 0.3);
+  const closeupAreaScore = clamp(((areaRatio - 0.32) / 0.28) * 100);
+  const centerednessScore = Math.min(
+    marginBalanceScore(leftMargin, rightMargin),
+    marginBalanceScore(topMargin, bottomMargin),
+  );
+  const closeupScore = closeupAreaScore * 0.45 + centerednessScore * 0.55;
+
+  return round1(Math.max(baseScore, closeupScore));
 }
 
 function calculateSharpnessScore(box: FaceBox, canvas: HTMLCanvasElement): number {
@@ -254,31 +268,31 @@ export function calculatePhotoQuality(
   if (Math.abs(rollDegrees) > 22) {
     blockingReasons.push('顔の傾きが大きすぎます。');
   }
-  if (yawScore < 5 && faceAreaRatio < 5) {
+  if (yawScore < 5 && faceAreaRatio < 3) {
     blockingReasons.push('横向きが強く、顔の中心位置を安定して取りにくいです。');
   }
-  if (frontalScore < 20 && cropScore < 40) {
+  if (frontalScore < 12 && cropScore < 20) {
     blockingReasons.push('正面度が足りず、安定して診断しにくいです。');
   }
-  if (faceAreaRatio < 4) {
+  if (faceAreaRatio < 2) {
     blockingReasons.push('顔が小さすぎて、細部を安定して取りにくいです。');
   }
   if (cropScore < 18) {
     blockingReasons.push('顔が小さすぎるか、輪郭が切れています。');
   }
-  if (sharpnessScore < 5) {
+  if (sharpnessScore < 0.7) {
     blockingReasons.push('写真がぼけすぎています。');
   }
 
   const diagnosisReady = blockingReasons.length === 0;
   const retryRecommended =
     !diagnosisReady ||
-    overallScore < 55 ||
     frontalScore < 60 ||
     yawScore < 45 ||
     pitchScore < 35 ||
     cropScore < 30 ||
-    sharpnessScore < 20;
+    sharpnessScore < 20 ||
+    (pitchScore < 56 && cropScore < 45 && faceAreaRatio > 20);
 
   const notes: string[] = [];
   if (yawScore < 68) notes.push('横向きが強めです。正面の写真だと左右対称を見やすくなります。');

@@ -1,0 +1,4700 @@
+{
+  "benchmarkPath": "scripts/diagnose_realphoto_benchmark.json",
+  "summary": {
+    "cases": 90,
+    "passed": 90,
+    "failed": 0,
+    "accuracy": 100
+  },
+  "byKind": [
+    {
+      "kind": "accept_or_retry",
+      "cases": 90,
+      "passed": 90,
+      "accuracy": 100
+    }
+  ],
+  "failures": [],
+  "results": [
+    {
+      "label": "real_befa0b6e_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_befa0b6e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_befa0b6e_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 45.6,
+        "frontalScore": 32,
+        "sharpnessScore": 45.3,
+        "cropScore": 83.6,
+        "faceAreaRatio": 7.1,
+        "yawScore": 0,
+        "pitchScore": 41.6,
+        "rollDegrees": -0.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_befa0b6e",
+          "name": "吉沢亮",
+          "similarity": 98.3
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_befa0b6e_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_befa0b6e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_befa0b6e_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 46.3,
+        "frontalScore": 32.3,
+        "sharpnessScore": 47.3,
+        "cropScore": 83.7,
+        "faceAreaRatio": 7.1,
+        "yawScore": 0,
+        "pitchScore": 41.9,
+        "rollDegrees": -0.2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_befa0b6e",
+          "name": "吉沢亮",
+          "similarity": 98.3
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 96.9
+        }
+      ]
+    },
+    {
+      "label": "real_befa0b6e_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_befa0b6e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_befa0b6e_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 48.8,
+        "frontalScore": 31.7,
+        "sharpnessScore": 58.6,
+        "cropScore": 83.7,
+        "faceAreaRatio": 7.1,
+        "yawScore": 0,
+        "pitchScore": 41.8,
+        "rollDegrees": -0.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_befa0b6e",
+          "name": "吉沢亮",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_dc2a13db_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_dc2a13db",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_dc2a13db_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 58.4,
+        "frontalScore": 42.4,
+        "sharpnessScore": 74.1,
+        "cropScore": 82.6,
+        "faceAreaRatio": 6.4,
+        "yawScore": 18.2,
+        "pitchScore": 68.4,
+        "rollDegrees": -5.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_dc2a13db",
+          "name": "永野芽郁",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 97
+        }
+      ]
+    },
+    {
+      "label": "real_dc2a13db_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_dc2a13db",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_dc2a13db_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 56.9,
+        "frontalScore": 42.1,
+        "sharpnessScore": 68.8,
+        "cropScore": 82.5,
+        "faceAreaRatio": 6.4,
+        "yawScore": 18,
+        "pitchScore": 68.1,
+        "rollDegrees": -5.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_dc2a13db",
+          "name": "永野芽郁",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_37e98952",
+          "name": "桜井日奈子",
+          "similarity": 97
+        }
+      ]
+    },
+    {
+      "label": "real_dc2a13db_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_dc2a13db",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_dc2a13db_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 57.5,
+        "frontalScore": 41.9,
+        "sharpnessScore": 71.5,
+        "cropScore": 82.7,
+        "faceAreaRatio": 6.4,
+        "yawScore": 17,
+        "pitchScore": 70.2,
+        "rollDegrees": -6.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_dc2a13db",
+          "name": "永野芽郁",
+          "similarity": 98.4
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_37e98952",
+          "name": "桜井日奈子",
+          "similarity": 97
+        }
+      ]
+    },
+    {
+      "label": "real_ce7b5054_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_ce7b5054",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_ce7b5054_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 52,
+        "frontalScore": 28.1,
+        "sharpnessScore": 76.8,
+        "cropScore": 86.6,
+        "faceAreaRatio": 9.1,
+        "yawScore": 0,
+        "pitchScore": 51.6,
+        "rollDegrees": -5.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_ce7b5054",
+          "name": "成田凌",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_c0f256a1",
+          "name": "Official髭男dism藤原聡",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_ce7b5054_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_ce7b5054",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_ce7b5054_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 50,
+        "frontalScore": 28.1,
+        "sharpnessScore": 68.8,
+        "cropScore": 86.7,
+        "faceAreaRatio": 9.1,
+        "yawScore": 0,
+        "pitchScore": 50.8,
+        "rollDegrees": -5.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_ce7b5054",
+          "name": "成田凌",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_c0f256a1",
+          "name": "Official髭男dism藤原聡",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_ce7b5054_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_ce7b5054",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_ce7b5054_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 44.9,
+        "frontalScore": 28.3,
+        "sharpnessScore": 47.9,
+        "cropScore": 86.7,
+        "faceAreaRatio": 9.1,
+        "yawScore": 0,
+        "pitchScore": 51.5,
+        "rollDegrees": -5.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_ce7b5054",
+          "name": "成田凌",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_c0f256a1",
+          "name": "Official髭男dism藤原聡",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_04bb2177_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_04bb2177",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_04bb2177_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 80.4,
+        "frontalScore": 73.7,
+        "sharpnessScore": 85.4,
+        "cropScore": 92.7,
+        "faceAreaRatio": 13.1,
+        "yawScore": 84.1,
+        "pitchScore": 50.2,
+        "rollDegrees": -2.7,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_04bb2177",
+          "name": "橋本環奈",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_f7b19298",
+          "name": "上白石萌歌",
+          "similarity": 96.2
+        }
+      ]
+    },
+    {
+      "label": "real_04bb2177_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_04bb2177",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_04bb2177_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 79.7,
+        "frontalScore": 73.7,
+        "sharpnessScore": 82.5,
+        "cropScore": 92.5,
+        "faceAreaRatio": 13,
+        "yawScore": 83.6,
+        "pitchScore": 52.9,
+        "rollDegrees": -3.2,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_04bb2177",
+          "name": "橋本環奈",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 96.3
+        },
+        {
+          "id": "celeb_f7b19298",
+          "name": "上白石萌歌",
+          "similarity": 96.2
+        }
+      ]
+    },
+    {
+      "label": "real_04bb2177_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_04bb2177",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_04bb2177_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 77.3,
+        "frontalScore": 74.5,
+        "sharpnessScore": 71.1,
+        "cropScore": 92.7,
+        "faceAreaRatio": 13.1,
+        "yawScore": 86,
+        "pitchScore": 48.8,
+        "rollDegrees": -2.5,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_04bb2177",
+          "name": "橋本環奈",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_f7b19298",
+          "name": "上白石萌歌",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_059f9821_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_059f9821",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_059f9821_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 47.8,
+        "frontalScore": 38,
+        "sharpnessScore": 41.8,
+        "cropScore": 82.2,
+        "faceAreaRatio": 6.1,
+        "yawScore": 0,
+        "pitchScore": 78.4,
+        "rollDegrees": -4.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_059f9821",
+          "name": "齋藤飛鳥",
+          "similarity": 99.1
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.8
+        }
+      ]
+    },
+    {
+      "label": "real_059f9821_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_059f9821",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_059f9821_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 50,
+        "frontalScore": 41,
+        "sharpnessScore": 44.2,
+        "cropScore": 82,
+        "faceAreaRatio": 6,
+        "yawScore": 4.9,
+        "pitchScore": 82.6,
+        "rollDegrees": -5,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_059f9821",
+          "name": "齋藤飛鳥",
+          "similarity": 99
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_3dac69ca",
+          "name": "花澤香菜",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.8
+        }
+      ]
+    },
+    {
+      "label": "real_059f9821_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_059f9821",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_059f9821_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 49.7,
+        "frontalScore": 39.7,
+        "sharpnessScore": 45.7,
+        "cropScore": 82.1,
+        "faceAreaRatio": 6,
+        "yawScore": 2.1,
+        "pitchScore": 82.1,
+        "rollDegrees": -4.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_059f9821",
+          "name": "齋藤飛鳥",
+          "similarity": 99.1
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 98.4
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_3dac69ca",
+          "name": "花澤香菜",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.8
+        }
+      ]
+    },
+    {
+      "label": "real_0b82b226_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_0b82b226",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_0b82b226_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 81.2,
+        "frontalScore": 75.7,
+        "sharpnessScore": 80.6,
+        "cropScore": 97.2,
+        "faceAreaRatio": 19.9,
+        "yawScore": 93.9,
+        "pitchScore": 47.8,
+        "rollDegrees": 4.5,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 94.4
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 94.9
+        },
+        {
+          "id": "celeb_ef17039b",
+          "name": "やす子",
+          "similarity": 94.8
+        },
+        {
+          "id": "celeb_4e17f725",
+          "name": "黒木華",
+          "similarity": 94.4
+        },
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 94.3
+        }
+      ]
+    },
+    {
+      "label": "real_0b82b226_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_0b82b226",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_0b82b226_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 65.3,
+        "frontalScore": 76.2,
+        "sharpnessScore": 15.3,
+        "cropScore": 97.6,
+        "faceAreaRatio": 19.6,
+        "yawScore": 94.1,
+        "pitchScore": 48.8,
+        "rollDegrees": 4.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 95.7
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 95.9
+        },
+        {
+          "id": "celeb_a477ab4e",
+          "name": "高畑充希",
+          "similarity": 95.5
+        },
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 95.4
+        }
+      ]
+    },
+    {
+      "label": "real_0b82b226_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_0b82b226",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_0b82b226_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 67.5,
+        "frontalScore": 74.2,
+        "sharpnessScore": 28.6,
+        "cropScore": 97.6,
+        "faceAreaRatio": 19.6,
+        "yawScore": 91.7,
+        "pitchScore": 46.5,
+        "rollDegrees": 4.5,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 95.5
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 95.7
+        },
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 95.3
+        },
+        {
+          "id": "celeb_d9e3f630",
+          "name": "みちょぱ",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_5e359ece_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_5e359ece",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_5e359ece_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 2,
+      "photoQuality": {
+        "overallScore": 48.5,
+        "frontalScore": 50.2,
+        "sharpnessScore": 14,
+        "cropScore": 87.1,
+        "faceAreaRatio": 9.4,
+        "yawScore": 27,
+        "pitchScore": 62.7,
+        "rollDegrees": 1.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_5e359ece",
+          "name": "森七菜",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.6
+        }
+      ]
+    },
+    {
+      "label": "real_5e359ece_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_5e359ece",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_5e359ece_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 48,
+        "frontalScore": 49.5,
+        "sharpnessScore": 13.3,
+        "cropScore": 87.2,
+        "faceAreaRatio": 9.5,
+        "yawScore": 26,
+        "pitchScore": 63,
+        "rollDegrees": 1.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5e359ece",
+          "name": "森七菜",
+          "similarity": 98.3
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.9
+        }
+      ]
+    },
+    {
+      "label": "real_5e359ece_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_5e359ece",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_5e359ece_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 52.1,
+        "frontalScore": 49.3,
+        "sharpnessScore": 30.2,
+        "cropScore": 87,
+        "faceAreaRatio": 9.3,
+        "yawScore": 25.1,
+        "pitchScore": 63.3,
+        "rollDegrees": 1.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5e359ece",
+          "name": "森七菜",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.8
+        }
+      ]
+    },
+    {
+      "label": "real_4bfeb158_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_4bfeb158",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4bfeb158_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 58.1,
+        "frontalScore": 61.2,
+        "sharpnessScore": 34.4,
+        "cropScore": 79.3,
+        "faceAreaRatio": 4.2,
+        "yawScore": 77.6,
+        "pitchScore": 48.3,
+        "rollDegrees": -9.7,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4bfeb158",
+          "name": "大園玲",
+          "similarity": 98.7
+        },
+        {
+          "id": "celeb_e06ee534",
+          "name": "森星",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_04bb2177",
+          "name": "橋本環奈",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.9
+        }
+      ]
+    },
+    {
+      "label": "real_4bfeb158_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_4bfeb158",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4bfeb158_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 56.6,
+        "frontalScore": 60.3,
+        "sharpnessScore": 30.4,
+        "cropScore": 79.4,
+        "faceAreaRatio": 4.3,
+        "yawScore": 75.8,
+        "pitchScore": 48,
+        "rollDegrees": -9.6,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4bfeb158",
+          "name": "大園玲",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_04bb2177",
+          "name": "橋本環奈",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_e06ee534",
+          "name": "森星",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.9
+        }
+      ]
+    },
+    {
+      "label": "real_4bfeb158_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_4bfeb158",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4bfeb158_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 60.4,
+        "frontalScore": 62.5,
+        "sharpnessScore": 40.5,
+        "cropScore": 79.4,
+        "faceAreaRatio": 4.3,
+        "yawScore": 79.9,
+        "pitchScore": 49.4,
+        "rollDegrees": -9.8,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4bfeb158",
+          "name": "大園玲",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_04bb2177",
+          "name": "橋本環奈",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_e06ee534",
+          "name": "森星",
+          "similarity": 97.9
+        }
+      ]
+    },
+    {
+      "label": "real_72addd07_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_72addd07",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_72addd07_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 54.6,
+        "frontalScore": 61.7,
+        "sharpnessScore": 21.8,
+        "cropScore": 76.3,
+        "faceAreaRatio": 2.2,
+        "yawScore": 40.6,
+        "pitchScore": 73.3,
+        "rollDegrees": -0.5,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_d1e9ea37",
+          "name": "窪田正孝",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_90d4aec0",
+          "name": "大森元貴",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_7facecc0",
+          "name": "大西流星",
+          "similarity": 97
+        }
+      ]
+    },
+    {
+      "label": "real_72addd07_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_72addd07",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_72addd07_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 52.4,
+        "frontalScore": 62.2,
+        "sharpnessScore": 11.8,
+        "cropScore": 76.4,
+        "faceAreaRatio": 2.3,
+        "yawScore": 43.2,
+        "pitchScore": 72.4,
+        "rollDegrees": -0.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_7facecc0",
+          "name": "大西流星",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_90d4aec0",
+          "name": "大森元貴",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_d1e9ea37",
+          "name": "窪田正孝",
+          "similarity": 97
+        }
+      ]
+    },
+    {
+      "label": "real_72addd07_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_72addd07",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_72addd07_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 57,
+        "frontalScore": 58.6,
+        "sharpnessScore": 38.1,
+        "cropScore": 76.3,
+        "faceAreaRatio": 2.2,
+        "yawScore": 33.8,
+        "pitchScore": 73.9,
+        "rollDegrees": -0.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_90d4aec0",
+          "name": "大森元貴",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_34c4561b",
+          "name": "岩田剛典",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_d1e9ea37",
+          "name": "窪田正孝",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_99aeae22_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_99aeae22",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_99aeae22_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 67.7,
+        "frontalScore": 74.5,
+        "sharpnessScore": 39,
+        "cropScore": 84.9,
+        "faceAreaRatio": 8,
+        "yawScore": 86.2,
+        "pitchScore": 49.6,
+        "rollDegrees": 2.8,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_99aeae22",
+          "name": "あいみょん",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_6eb00b9d",
+          "name": "有村架純",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_4ff5e7f3",
+          "name": "柏木由紀",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.3
+        }
+      ]
+    },
+    {
+      "label": "real_99aeae22_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_99aeae22",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_99aeae22_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 62,
+        "frontalScore": 73.5,
+        "sharpnessScore": 18.3,
+        "cropScore": 84.9,
+        "faceAreaRatio": 7.9,
+        "yawScore": 84.8,
+        "pitchScore": 49.9,
+        "rollDegrees": 3.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_99aeae22",
+          "name": "あいみょん",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_6eb00b9d",
+          "name": "有村架純",
+          "similarity": 98.2
+        },
+        {
+          "id": "celeb_4ff5e7f3",
+          "name": "柏木由紀",
+          "similarity": 98.2
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 98
+        }
+      ]
+    },
+    {
+      "label": "real_99aeae22_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_99aeae22",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_99aeae22_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 68.4,
+        "frontalScore": 73.4,
+        "sharpnessScore": 44.3,
+        "cropScore": 84.8,
+        "faceAreaRatio": 7.9,
+        "yawScore": 86.6,
+        "pitchScore": 46,
+        "rollDegrees": 3,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_99aeae22",
+          "name": "あいみょん",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_6eb00b9d",
+          "name": "有村架純",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_4ff5e7f3",
+          "name": "柏木由紀",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 98
+        }
+      ]
+    },
+    {
+      "label": "real_e78f15a0_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_e78f15a0",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_e78f15a0_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 70.4,
+        "frontalScore": 57.4,
+        "sharpnessScore": 79.3,
+        "cropScore": 94.9,
+        "faceAreaRatio": 21.4,
+        "yawScore": 43.3,
+        "pitchScore": 57.1,
+        "rollDegrees": 1.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_e78f15a0",
+          "name": "山崎賢人",
+          "similarity": 95.9
+        },
+        {
+          "id": "celeb_90d4aec0",
+          "name": "大森元貴",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_3b910309",
+          "name": "竹内涼真",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_69e73e58",
+          "name": "菅田将暉",
+          "similarity": 96.1
+        }
+      ]
+    },
+    {
+      "label": "real_e78f15a0_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_e78f15a0",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_e78f15a0_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 68.1,
+        "frontalScore": 57.1,
+        "sharpnessScore": 70.6,
+        "cropScore": 95.4,
+        "faceAreaRatio": 21.1,
+        "yawScore": 41.8,
+        "pitchScore": 57.6,
+        "rollDegrees": 0.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_e78f15a0",
+          "name": "山崎賢人",
+          "similarity": 96
+        },
+        {
+          "id": "celeb_90d4aec0",
+          "name": "大森元貴",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_3b910309",
+          "name": "竹内涼真",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_69e73e58",
+          "name": "菅田将暉",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_e78f15a0_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_e78f15a0",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_e78f15a0_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 70.1,
+        "frontalScore": 56.9,
+        "sharpnessScore": 79.3,
+        "cropScore": 95.1,
+        "faceAreaRatio": 21.3,
+        "yawScore": 42.8,
+        "pitchScore": 56.2,
+        "rollDegrees": 1.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_e78f15a0",
+          "name": "山崎賢人",
+          "similarity": 95.8
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_69e73e58",
+          "name": "菅田将暉",
+          "similarity": 96.3
+        },
+        {
+          "id": "celeb_7f25755c",
+          "name": "新田真剣佑",
+          "similarity": 95.4
+        },
+        {
+          "id": "celeb_3d61c629",
+          "name": "松下洸平",
+          "similarity": 94.8
+        }
+      ]
+    },
+    {
+      "label": "real_aef1352c_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_aef1352c",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_aef1352c_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 57.4,
+        "frontalScore": 28.4,
+        "sharpnessScore": 100,
+        "cropScore": 83.7,
+        "faceAreaRatio": 7.1,
+        "yawScore": 21.3,
+        "pitchScore": 50,
+        "rollDegrees": -13.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_aef1352c",
+          "name": "森本慎太郎",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_2733c4b5",
+          "name": "目黒蓮",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_873b6485",
+          "name": "京本大我",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_85e297b5",
+          "name": "阿部亮平",
+          "similarity": 97.2
+        }
+      ]
+    },
+    {
+      "label": "real_aef1352c_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_aef1352c",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_aef1352c_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 54.9,
+        "frontalScore": 27.3,
+        "sharpnessScore": 92.4,
+        "cropScore": 83.8,
+        "faceAreaRatio": 7.2,
+        "yawScore": 18.7,
+        "pitchScore": 50.2,
+        "rollDegrees": -13.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_aef1352c",
+          "name": "森本慎太郎",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_2733c4b5",
+          "name": "目黒蓮",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_873b6485",
+          "name": "京本大我",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_85e297b5",
+          "name": "阿部亮平",
+          "similarity": 97.2
+        }
+      ]
+    },
+    {
+      "label": "real_aef1352c_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_aef1352c",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_aef1352c_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 57.3,
+        "frontalScore": 28.2,
+        "sharpnessScore": 100,
+        "cropScore": 83.7,
+        "faceAreaRatio": 7.2,
+        "yawScore": 19.7,
+        "pitchScore": 52,
+        "rollDegrees": -13.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_aef1352c",
+          "name": "森本慎太郎",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_2733c4b5",
+          "name": "目黒蓮",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_873b6485",
+          "name": "京本大我",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_85e297b5",
+          "name": "阿部亮平",
+          "similarity": 97.3
+        }
+      ]
+    },
+    {
+      "label": "real_4bbce411_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_4bbce411",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4bbce411_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 61.5,
+        "frontalScore": 53.6,
+        "sharpnessScore": 54.4,
+        "cropScore": 92.3,
+        "faceAreaRatio": 12.8,
+        "yawScore": 35.4,
+        "pitchScore": 59.9,
+        "rollDegrees": -1.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4bbce411",
+          "name": "ラウール",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_c59800ea",
+          "name": "神尾楓珠",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_1ce9dcd1",
+          "name": "鈴鹿央士",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_34c4561b",
+          "name": "岩田剛典",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_0677d652",
+          "name": "福士蒼汰",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_4bbce411_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_4bbce411",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4bbce411_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 51,
+        "frontalScore": 49.9,
+        "sharpnessScore": 20.7,
+        "cropScore": 92.1,
+        "faceAreaRatio": 12.7,
+        "yawScore": 28.8,
+        "pitchScore": 59.6,
+        "rollDegrees": -1.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4bbce411",
+          "name": "ラウール",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_c59800ea",
+          "name": "神尾楓珠",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_1ce9dcd1",
+          "name": "鈴鹿央士",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_34c4561b",
+          "name": "岩田剛典",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_0677d652",
+          "name": "福士蒼汰",
+          "similarity": 96.9
+        }
+      ]
+    },
+    {
+      "label": "real_4bbce411_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_4bbce411",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4bbce411_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 55,
+        "frontalScore": 49.3,
+        "sharpnessScore": 37.6,
+        "cropScore": 92.2,
+        "faceAreaRatio": 12.8,
+        "yawScore": 26.6,
+        "pitchScore": 60.4,
+        "rollDegrees": -1.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4bbce411",
+          "name": "ラウール",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_c59800ea",
+          "name": "神尾楓珠",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_34c4561b",
+          "name": "岩田剛典",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_1ce9dcd1",
+          "name": "鈴鹿央士",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_0677d652",
+          "name": "福士蒼汰",
+          "similarity": 96.7
+        }
+      ]
+    },
+    {
+      "label": "real_c94134d7_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_c94134d7",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c94134d7_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 44.2,
+        "frontalScore": 35.6,
+        "sharpnessScore": 34.2,
+        "cropScore": 80.4,
+        "faceAreaRatio": 4.9,
+        "yawScore": 0,
+        "pitchScore": 78.1,
+        "rollDegrees": -6.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c94134d7",
+          "name": "山田裕貴",
+          "similarity": 98.4
+        },
+        {
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_a869747e",
+          "name": "藤井聡太",
+          "similarity": 96.7
+        }
+      ]
+    },
+    {
+      "label": "real_c94134d7_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_c94134d7",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c94134d7_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 45.7,
+        "frontalScore": 37.1,
+        "sharpnessScore": 36.8,
+        "cropScore": 80.4,
+        "faceAreaRatio": 4.9,
+        "yawScore": 0,
+        "pitchScore": 82.3,
+        "rollDegrees": -6.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c94134d7",
+          "name": "山田裕貴",
+          "similarity": 98.3
+        },
+        {
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_a869747e",
+          "name": "藤井聡太",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_befa0b6e",
+          "name": "吉沢亮",
+          "similarity": 96.2
+        }
+      ]
+    },
+    {
+      "label": "real_c94134d7_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_c94134d7",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c94134d7_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 44.4,
+        "frontalScore": 36.1,
+        "sharpnessScore": 33.7,
+        "cropScore": 80.5,
+        "faceAreaRatio": 5,
+        "yawScore": 0,
+        "pitchScore": 79.1,
+        "rollDegrees": -6.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c94134d7",
+          "name": "山田裕貴",
+          "similarity": 98.4
+        },
+        {
+          "id": "celeb_b0ddee67",
+          "name": "志尊淳",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_a869747e",
+          "name": "藤井聡太",
+          "similarity": 96.6
+        }
+      ]
+    },
+    {
+      "label": "real_17e16a2a_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_17e16a2a",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_17e16a2a_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 53.7,
+        "frontalScore": 57.4,
+        "sharpnessScore": 24,
+        "cropScore": 80.8,
+        "faceAreaRatio": 5.2,
+        "yawScore": 33.1,
+        "pitchScore": 81.8,
+        "rollDegrees": 3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_17e16a2a",
+          "name": "梅澤美波",
+          "similarity": 98.9
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 98.3
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_823e1d4c",
+          "name": "田中美久",
+          "similarity": 97.4
+        }
+      ]
+    },
+    {
+      "label": "real_17e16a2a_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_17e16a2a",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_17e16a2a_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 53.2,
+        "frontalScore": 57.8,
+        "sharpnessScore": 21,
+        "cropScore": 80.9,
+        "faceAreaRatio": 5.2,
+        "yawScore": 34.1,
+        "pitchScore": 82.5,
+        "rollDegrees": 3.2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_17e16a2a",
+          "name": "梅澤美波",
+          "similarity": 98.9
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 98.4
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_823e1d4c",
+          "name": "田中美久",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_5e987191",
+          "name": "池田エライザ",
+          "similarity": 97.5
+        }
+      ]
+    },
+    {
+      "label": "real_17e16a2a_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_17e16a2a",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_17e16a2a_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 68.4,
+        "frontalScore": 58.8,
+        "sharpnessScore": 79.4,
+        "cropScore": 81,
+        "faceAreaRatio": 5.3,
+        "yawScore": 34.3,
+        "pitchScore": 84.6,
+        "rollDegrees": 3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_17e16a2a",
+          "name": "梅澤美波",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 98.4
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_5e987191",
+          "name": "池田エライザ",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.7
+        }
+      ]
+    },
+    {
+      "label": "real_3ba68a6e_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_3ba68a6e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_3ba68a6e_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 64.7,
+        "frontalScore": 60.3,
+        "sharpnessScore": 61.4,
+        "cropScore": 81,
+        "faceAreaRatio": 5.3,
+        "yawScore": 88.9,
+        "pitchScore": 52.9,
+        "rollDegrees": -20.5,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_3ba68a6e",
+          "name": "藤井風",
+          "similarity": 99.1
+        },
+        {
+          "id": "celeb_afed590f",
+          "name": "佐藤健",
+          "similarity": 96.1
+        },
+        {
+          "id": "celeb_f9c9af55",
+          "name": "Nissy西島隆弘",
+          "similarity": 96
+        },
+        {
+          "id": "celeb_841e6457",
+          "name": "渡辺翔太",
+          "similarity": 95.8
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 95.6
+        }
+      ]
+    },
+    {
+      "label": "real_3ba68a6e_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_3ba68a6e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_3ba68a6e_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 60.2,
+        "frontalScore": 62,
+        "sharpnessScore": 39.4,
+        "cropScore": 81.2,
+        "faceAreaRatio": 5.5,
+        "yawScore": 90.9,
+        "pitchScore": 55.2,
+        "rollDegrees": -20.6,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_3ba68a6e",
+          "name": "藤井風",
+          "similarity": 99.1
+        },
+        {
+          "id": "celeb_afed590f",
+          "name": "佐藤健",
+          "similarity": 96.1
+        },
+        {
+          "id": "celeb_841e6457",
+          "name": "渡辺翔太",
+          "similarity": 96
+        },
+        {
+          "id": "celeb_f9c9af55",
+          "name": "Nissy西島隆弘",
+          "similarity": 95.9
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 95.7
+        }
+      ]
+    },
+    {
+      "label": "real_3ba68a6e_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_3ba68a6e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_3ba68a6e_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 63.6,
+        "frontalScore": 56.6,
+        "sharpnessScore": 65.2,
+        "cropScore": 80.9,
+        "faceAreaRatio": 5.3,
+        "yawScore": 80.9,
+        "pitchScore": 53.8,
+        "rollDegrees": -19.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_3ba68a6e",
+          "name": "藤井風",
+          "similarity": 99.1
+        },
+        {
+          "id": "celeb_afed590f",
+          "name": "佐藤健",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_841e6457",
+          "name": "渡辺翔太",
+          "similarity": 96.2
+        },
+        {
+          "id": "celeb_f9c9af55",
+          "name": "Nissy西島隆弘",
+          "similarity": 95.8
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 95.8
+        }
+      ]
+    },
+    {
+      "label": "real_d93f669f_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_d93f669f",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_d93f669f_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 50,
+        "frontalScore": 52.1,
+        "sharpnessScore": 6.5,
+        "cropScore": 98.5,
+        "faceAreaRatio": 19,
+        "yawScore": 38.1,
+        "pitchScore": 51.5,
+        "rollDegrees": 1.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_d93f669f",
+          "name": "西畑大吾",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_0677d652",
+          "name": "福士蒼汰",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_85e297b5",
+          "name": "阿部亮平",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_2733c4b5",
+          "name": "目黒蓮",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_d93f669f_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_d93f669f",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_d93f669f_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 46.7,
+        "frontalScore": 48.7,
+        "sharpnessScore": 0.8,
+        "cropScore": 98.8,
+        "faceAreaRatio": 18.8,
+        "yawScore": 32.3,
+        "pitchScore": 53.8,
+        "rollDegrees": 2.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_d93f669f",
+          "name": "西畑大吾",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_0677d652",
+          "name": "福士蒼汰",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_85e297b5",
+          "name": "阿部亮平",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_d93f669f_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_d93f669f",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_d93f669f_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 48.7,
+        "frontalScore": 48.5,
+        "sharpnessScore": 9.1,
+        "cropScore": 98.9,
+        "faceAreaRatio": 18.7,
+        "yawScore": 30.1,
+        "pitchScore": 54.4,
+        "rollDegrees": 2.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_d93f669f",
+          "name": "西畑大吾",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_0677d652",
+          "name": "福士蒼汰",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_85e297b5",
+          "name": "阿部亮平",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_2733c4b5",
+          "name": "目黒蓮",
+          "similarity": 96.4
+        }
+      ]
+    },
+    {
+      "label": "real_841e6457_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_841e6457",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_841e6457_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 42.6,
+        "frontalScore": 22.9,
+        "sharpnessScore": 44.9,
+        "cropScore": 93.7,
+        "faceAreaRatio": 13.8,
+        "yawScore": 0,
+        "pitchScore": 56.8,
+        "rollDegrees": 11.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_841e6457",
+          "name": "渡辺翔太",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_dff994bc",
+          "name": "マヂカルラブリー野田クリスタル",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_afed590f",
+          "name": "佐藤健",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_841e6457_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_841e6457",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_841e6457_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 36.4,
+        "frontalScore": 22.5,
+        "sharpnessScore": 20.7,
+        "cropScore": 94.1,
+        "faceAreaRatio": 14,
+        "yawScore": 0,
+        "pitchScore": 56.4,
+        "rollDegrees": 11.5,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_841e6457",
+          "name": "渡辺翔太",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_dff994bc",
+          "name": "マヂカルラブリー野田クリスタル",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_afed590f",
+          "name": "佐藤健",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 96.4
+        }
+      ]
+    },
+    {
+      "label": "real_841e6457_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_841e6457",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_841e6457_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 40.9,
+        "frontalScore": 22.8,
+        "sharpnessScore": 38.5,
+        "cropScore": 93.8,
+        "faceAreaRatio": 13.9,
+        "yawScore": 0,
+        "pitchScore": 56.8,
+        "rollDegrees": 11.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_841e6457",
+          "name": "渡辺翔太",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_3f99f4f9",
+          "name": "坂口健太郎",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_dff994bc",
+          "name": "マヂカルラブリー野田クリスタル",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_600a360e",
+          "name": "岡田将生",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_afed590f",
+          "name": "佐藤健",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_8313fffb_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_8313fffb",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_8313fffb_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 39.6,
+        "frontalScore": 31.7,
+        "sharpnessScore": 15.9,
+        "cropScore": 91.1,
+        "faceAreaRatio": 12,
+        "yawScore": 0,
+        "pitchScore": 58.5,
+        "rollDegrees": -4.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_44de8430",
+          "name": "菊池風磨",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_7e883dd6",
+          "name": "道枝駿佑",
+          "similarity": 96.7
+        }
+      ]
+    },
+    {
+      "label": "real_8313fffb_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_8313fffb",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_8313fffb_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 40.7,
+        "frontalScore": 32.1,
+        "sharpnessScore": 19.5,
+        "cropScore": 91,
+        "faceAreaRatio": 12,
+        "yawScore": 0,
+        "pitchScore": 58.3,
+        "rollDegrees": -4.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_44de8430",
+          "name": "菊池風磨",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_7e883dd6",
+          "name": "道枝駿佑",
+          "similarity": 96.7
+        }
+      ]
+    },
+    {
+      "label": "real_8313fffb_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_8313fffb",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_8313fffb_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 52.9,
+        "frontalScore": 32.1,
+        "sharpnessScore": 67.9,
+        "cropScore": 91.2,
+        "faceAreaRatio": 12.1,
+        "yawScore": 0,
+        "pitchScore": 58.6,
+        "rollDegrees": -4.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_8313fffb",
+          "name": "コムドットやまと",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_4acf74c6",
+          "name": "長尾謙杜",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_3b55dfe9",
+          "name": "高杉真宙",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_44de8430",
+          "name": "菊池風磨",
+          "similarity": 96.3
+        },
+        {
+          "id": "celeb_7e883dd6",
+          "name": "道枝駿佑",
+          "similarity": 96.2
+        }
+      ]
+    },
+    {
+      "label": "real_c2d54cab_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_c2d54cab",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c2d54cab_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 77.6,
+        "frontalScore": 73.9,
+        "sharpnessScore": 80.1,
+        "cropScore": 84.4,
+        "faceAreaRatio": 7.6,
+        "yawScore": 91.7,
+        "pitchScore": 46.1,
+        "rollDegrees": 4.6,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c2d54cab",
+          "name": "HIKAKIN",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_c96c2edf",
+          "name": "りゅうちぇる",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_f1cb34dd",
+          "name": "中川大志",
+          "similarity": 95.9
+        },
+        {
+          "id": "celeb_da15ac21",
+          "name": "Vaundy",
+          "similarity": 95.6
+        },
+        {
+          "id": "celeb_b79964f2",
+          "name": "眞栄田郷敦",
+          "similarity": 95.6
+        }
+      ]
+    },
+    {
+      "label": "real_c2d54cab_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_c2d54cab",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c2d54cab_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 67.2,
+        "frontalScore": 72.7,
+        "sharpnessScore": 41.4,
+        "cropScore": 84.5,
+        "faceAreaRatio": 7.7,
+        "yawScore": 90.1,
+        "pitchScore": 44.1,
+        "rollDegrees": 4.5,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c2d54cab",
+          "name": "HIKAKIN",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_c96c2edf",
+          "name": "りゅうちぇる",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_f1cb34dd",
+          "name": "中川大志",
+          "similarity": 95.9
+        },
+        {
+          "id": "celeb_da15ac21",
+          "name": "Vaundy",
+          "similarity": 95.6
+        },
+        {
+          "id": "celeb_b79964f2",
+          "name": "眞栄田郷敦",
+          "similarity": 95.6
+        }
+      ]
+    },
+    {
+      "label": "real_c2d54cab_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_c2d54cab",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c2d54cab_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 75.3,
+        "frontalScore": 73.1,
+        "sharpnessScore": 72.8,
+        "cropScore": 84.4,
+        "faceAreaRatio": 7.6,
+        "yawScore": 89.3,
+        "pitchScore": 46,
+        "rollDegrees": 4.3,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c2d54cab",
+          "name": "HIKAKIN",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_c96c2edf",
+          "name": "りゅうちぇる",
+          "similarity": 96.2
+        },
+        {
+          "id": "celeb_f1cb34dd",
+          "name": "中川大志",
+          "similarity": 95.8
+        },
+        {
+          "id": "celeb_da15ac21",
+          "name": "Vaundy",
+          "similarity": 95.5
+        },
+        {
+          "id": "celeb_b79964f2",
+          "name": "眞栄田郷敦",
+          "similarity": 95.5
+        }
+      ]
+    },
+    {
+      "label": "real_4a5fd453_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_4a5fd453",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4a5fd453_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 51.9,
+        "frontalScore": 37.8,
+        "sharpnessScore": 53.8,
+        "cropScore": 88.3,
+        "faceAreaRatio": 15.8,
+        "yawScore": 17.8,
+        "pitchScore": 65.2,
+        "rollDegrees": -8.5,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4a5fd453",
+          "name": "森田ひかる",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_6eb00b9d",
+          "name": "有村架純",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_4ff5e7f3",
+          "name": "柏木由紀",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_b2f42853",
+          "name": "幾田りら",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_179d0e1c",
+          "name": "浅香鈴花",
+          "similarity": 96.6
+        }
+      ]
+    },
+    {
+      "label": "real_4a5fd453_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_4a5fd453",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4a5fd453_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 46.8,
+        "frontalScore": 36.2,
+        "sharpnessScore": 35.8,
+        "cropScore": 89.7,
+        "faceAreaRatio": 16,
+        "yawScore": 13.8,
+        "pitchScore": 64.4,
+        "rollDegrees": -8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4a5fd453",
+          "name": "森田ひかる",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_4ff5e7f3",
+          "name": "柏木由紀",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_6eb00b9d",
+          "name": "有村架純",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_179d0e1c",
+          "name": "浅香鈴花",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_b2f42853",
+          "name": "幾田りら",
+          "similarity": 97
+        }
+      ]
+    },
+    {
+      "label": "real_4a5fd453_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_4a5fd453",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_4a5fd453_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 53.1,
+        "frontalScore": 38.3,
+        "sharpnessScore": 55.8,
+        "cropScore": 90.5,
+        "faceAreaRatio": 15.9,
+        "yawScore": 19.5,
+        "pitchScore": 63.9,
+        "rollDegrees": -8.5,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_4a5fd453",
+          "name": "森田ひかる",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_6eb00b9d",
+          "name": "有村架純",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_4ff5e7f3",
+          "name": "柏木由紀",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_b2f42853",
+          "name": "幾田りら",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_179d0e1c",
+          "name": "浅香鈴花",
+          "similarity": 96.7
+        }
+      ]
+    },
+    {
+      "label": "real_16986e04_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_16986e04",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_16986e04_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 3,
+      "photoQuality": {
+        "overallScore": 43.6,
+        "frontalScore": 43.9,
+        "sharpnessScore": 16.6,
+        "cropScore": 76.5,
+        "faceAreaRatio": 2.3,
+        "yawScore": 23,
+        "pitchScore": 48.7,
+        "rollDegrees": 1.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5d470597",
+          "name": "生見愛瑠",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_64356f7b",
+          "name": "新木優子",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_16986e04",
+          "name": "小坂菜緒",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_6913fdac",
+          "name": "鬼頭明里",
+          "similarity": 97.1
+        }
+      ]
+    },
+    {
+      "label": "real_16986e04_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_16986e04",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_16986e04_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 3,
+      "photoQuality": {
+        "overallScore": 43.9,
+        "frontalScore": 43.1,
+        "sharpnessScore": 19.6,
+        "cropScore": 76.5,
+        "faceAreaRatio": 2.4,
+        "yawScore": 22.1,
+        "pitchScore": 48.4,
+        "rollDegrees": 2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5d470597",
+          "name": "生見愛瑠",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_64356f7b",
+          "name": "新木優子",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_16986e04",
+          "name": "小坂菜緒",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_6913fdac",
+          "name": "鬼頭明里",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 97.1
+        }
+      ]
+    },
+    {
+      "label": "real_16986e04_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_16986e04",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_16986e04_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 3,
+      "photoQuality": {
+        "overallScore": 55.8,
+        "frontalScore": 44.4,
+        "sharpnessScore": 64.3,
+        "cropScore": 76.6,
+        "faceAreaRatio": 2.4,
+        "yawScore": 22.9,
+        "pitchScore": 48.5,
+        "rollDegrees": 1.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5d470597",
+          "name": "生見愛瑠",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_64356f7b",
+          "name": "新木優子",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_16986e04",
+          "name": "小坂菜緒",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_6913fdac",
+          "name": "鬼頭明里",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.9
+        }
+      ]
+    },
+    {
+      "label": "real_7dfa2df4_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_7dfa2df4",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_7dfa2df4_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 55.8,
+        "frontalScore": 55.9,
+        "sharpnessScore": 28.1,
+        "cropScore": 90,
+        "faceAreaRatio": 11.3,
+        "yawScore": 50.1,
+        "pitchScore": 51.1,
+        "rollDegrees": 3.6,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_e564607e",
+          "name": "松本かれん",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.3
+        }
+      ]
+    },
+    {
+      "label": "real_7dfa2df4_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_7dfa2df4",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_7dfa2df4_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 55.6,
+        "frontalScore": 55.9,
+        "sharpnessScore": 27.6,
+        "cropScore": 89.9,
+        "faceAreaRatio": 11.2,
+        "yawScore": 50.2,
+        "pitchScore": 51.4,
+        "rollDegrees": 3.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 98.6
+        },
+        {
+          "id": "celeb_e564607e",
+          "name": "松本かれん",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.4
+        }
+      ]
+    },
+    {
+      "label": "real_7dfa2df4_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_7dfa2df4",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_7dfa2df4_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 57.5,
+        "frontalScore": 55.4,
+        "sharpnessScore": 36.3,
+        "cropScore": 90,
+        "faceAreaRatio": 11.4,
+        "yawScore": 49.2,
+        "pitchScore": 51.4,
+        "rollDegrees": 3.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 98.5
+        },
+        {
+          "id": "celeb_e564607e",
+          "name": "松本かれん",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.4
+        }
+      ]
+    },
+    {
+      "label": "real_1c82bee3_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_1c82bee3",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_1c82bee3_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 74.3,
+        "frontalScore": 79.7,
+        "sharpnessScore": 47.6,
+        "cropScore": 92.9,
+        "faceAreaRatio": 13.3,
+        "yawScore": 89.3,
+        "pitchScore": 50.6,
+        "rollDegrees": -0.1,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_da0ace5e",
+          "name": "水卜麻美",
+          "similarity": 95.6
+        }
+      ]
+    },
+    {
+      "label": "real_1c82bee3_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_1c82bee3",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_1c82bee3_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 71.8,
+        "frontalScore": 79.6,
+        "sharpnessScore": 37.7,
+        "cropScore": 92.8,
+        "faceAreaRatio": 13.2,
+        "yawScore": 89.5,
+        "pitchScore": 50.4,
+        "rollDegrees": -0.2,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_da0ace5e",
+          "name": "水卜麻美",
+          "similarity": 95.6
+        },
+        {
+          "id": "celeb_17e16a2a",
+          "name": "梅澤美波",
+          "similarity": 94.9
+        }
+      ]
+    },
+    {
+      "label": "real_1c82bee3_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_1c82bee3",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_1c82bee3_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 71.3,
+        "frontalScore": 80.2,
+        "sharpnessScore": 34.5,
+        "cropScore": 92.8,
+        "faceAreaRatio": 13.2,
+        "yawScore": 90.1,
+        "pitchScore": 51.7,
+        "rollDegrees": -0.3,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_1c82bee3",
+          "name": "白石麻衣",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_da0ace5e",
+          "name": "水卜麻美",
+          "similarity": 95.5
+        },
+        {
+          "id": "celeb_17e16a2a",
+          "name": "梅澤美波",
+          "similarity": 94.8
+        }
+      ]
+    },
+    {
+      "label": "real_5d470597_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_5d470597",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_5d470597_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 62.3,
+        "frontalScore": 36.4,
+        "sharpnessScore": 93.5,
+        "cropScore": 94.4,
+        "faceAreaRatio": 21.7,
+        "yawScore": 0.2,
+        "pitchScore": 56.1,
+        "rollDegrees": 0.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5d470597",
+          "name": "生見愛瑠",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_16986e04",
+          "name": "小坂菜緒",
+          "similarity": 97.6
+        },
+        {
+          "id": "celeb_4f811f29",
+          "name": "齊藤なぎさ",
+          "similarity": 96.1
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.1
+        },
+        {
+          "id": "celeb_823e1d4c",
+          "name": "田中美久",
+          "similarity": 96
+        }
+      ]
+    },
+    {
+      "label": "real_5d470597_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_5d470597",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_5d470597_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 54.3,
+        "frontalScore": 36.6,
+        "sharpnessScore": 61.1,
+        "cropScore": 94.4,
+        "faceAreaRatio": 21.8,
+        "yawScore": 0.1,
+        "pitchScore": 56.9,
+        "rollDegrees": 0.4,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5d470597",
+          "name": "生見愛瑠",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_16986e04",
+          "name": "小坂菜緒",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_64356f7b",
+          "name": "新木優子",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_4f811f29",
+          "name": "齊藤なぎさ",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.4
+        }
+      ]
+    },
+    {
+      "label": "real_5d470597_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_5d470597",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_5d470597_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 57.8,
+        "frontalScore": 37,
+        "sharpnessScore": 74,
+        "cropScore": 94.6,
+        "faceAreaRatio": 21.6,
+        "yawScore": 0.4,
+        "pitchScore": 56.7,
+        "rollDegrees": 0.2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_5d470597",
+          "name": "生見愛瑠",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_16986e04",
+          "name": "小坂菜緒",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_7dfa2df4",
+          "name": "浜辺美波",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_4f811f29",
+          "name": "齊藤なぎさ",
+          "similarity": 96.3
+        },
+        {
+          "id": "celeb_823e1d4c",
+          "name": "田中美久",
+          "similarity": 96.3
+        }
+      ]
+    },
+    {
+      "label": "real_c79cbbd1_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_c79cbbd1",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c79cbbd1_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 3,
+      "photoQuality": {
+        "overallScore": 66.2,
+        "frontalScore": 73.5,
+        "sharpnessScore": 35.8,
+        "cropScore": 84.3,
+        "faceAreaRatio": 28.4,
+        "yawScore": 85.3,
+        "pitchScore": 54.8,
+        "rollDegrees": -4.5,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_caed0870",
+          "name": "井上和",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_c79cbbd1",
+          "name": "藤田ニコル",
+          "similarity": 96.3
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 96.4
+        }
+      ]
+    },
+    {
+      "label": "real_c79cbbd1_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_c79cbbd1",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c79cbbd1_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 60.3,
+        "frontalScore": 73.6,
+        "sharpnessScore": 11.8,
+        "cropScore": 84.3,
+        "faceAreaRatio": 28.5,
+        "yawScore": 84.2,
+        "pitchScore": 58,
+        "rollDegrees": -4.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_c79cbbd1",
+          "name": "藤田ニコル",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_caed0870",
+          "name": "井上和",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_38127b4e",
+          "name": "新垣結衣",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_8a939d4b",
+          "name": "長澤まさみ",
+          "similarity": 96.6
+        }
+      ]
+    },
+    {
+      "label": "real_c79cbbd1_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_c79cbbd1",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_c79cbbd1_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": false,
+      "targetRank": 3,
+      "photoQuality": {
+        "overallScore": 62.9,
+        "frontalScore": 73.5,
+        "sharpnessScore": 23.1,
+        "cropScore": 83.7,
+        "faceAreaRatio": 28.9,
+        "yawScore": 86.1,
+        "pitchScore": 54.4,
+        "rollDegrees": -4.7,
+        "diagnosisReady": true,
+        "retryRecommended": false,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_caed0870",
+          "name": "井上和",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_c79cbbd1",
+          "name": "藤田ニコル",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_d6b00c96",
+          "name": "佐々木舞香",
+          "similarity": 96.5
+        }
+      ]
+    },
+    {
+      "label": "real_ef17039b_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_ef17039b",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_ef17039b_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 46.1,
+        "frontalScore": 50.1,
+        "sharpnessScore": 7.1,
+        "cropScore": 83.8,
+        "faceAreaRatio": 7.2,
+        "yawScore": 72.9,
+        "pitchScore": 45.4,
+        "rollDegrees": 17.2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_ef17039b",
+          "name": "やす子",
+          "similarity": 96.7
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_46587505",
+          "name": "田村保乃",
+          "similarity": 96.2
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 96.1
+        }
+      ]
+    },
+    {
+      "label": "real_ef17039b_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_ef17039b",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_ef17039b_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 45.6,
+        "frontalScore": 48,
+        "sharpnessScore": 10,
+        "cropScore": 83.4,
+        "faceAreaRatio": 6.9,
+        "yawScore": 65.5,
+        "pitchScore": 50.9,
+        "rollDegrees": 17.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_ef17039b",
+          "name": "やす子",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.6
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 96.2
+        },
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 96.2
+        }
+      ]
+    },
+    {
+      "label": "real_ef17039b_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_ef17039b",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_ef17039b_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 47.1,
+        "frontalScore": 50.2,
+        "sharpnessScore": 11,
+        "cropScore": 83.7,
+        "faceAreaRatio": 7.1,
+        "yawScore": 72.3,
+        "pitchScore": 46.8,
+        "rollDegrees": 16.8,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_ef17039b",
+          "name": "やす子",
+          "similarity": 96.8
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 96.5
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.4
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 96.1
+        },
+        {
+          "id": "celeb_46587505",
+          "name": "田村保乃",
+          "similarity": 96.1
+        }
+      ]
+    },
+    {
+      "label": "real_d1e9ea37_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_d1e9ea37",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_d1e9ea37_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 56.1,
+        "frontalScore": 50.9,
+        "sharpnessScore": 46.6,
+        "cropScore": 82.5,
+        "faceAreaRatio": 6.3,
+        "yawScore": 60.5,
+        "pitchScore": 52.9,
+        "rollDegrees": 12.2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_d1e9ea37",
+          "name": "窪田正孝",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_11400fa0",
+          "name": "赤楚衛二",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
+          "similarity": 97.3
+        },
+        {
+          "id": "celeb_c59800ea",
+          "name": "神尾楓珠",
+          "similarity": 97.3
+        }
+      ]
+    },
+    {
+      "label": "real_d1e9ea37_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_d1e9ea37",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_d1e9ea37_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 56.7,
+        "frontalScore": 50.8,
+        "sharpnessScore": 49.1,
+        "cropScore": 82.5,
+        "faceAreaRatio": 6.3,
+        "yawScore": 61.1,
+        "pitchScore": 51.1,
+        "rollDegrees": 12.1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_d1e9ea37",
+          "name": "窪田正孝",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_11400fa0",
+          "name": "赤楚衛二",
+          "similarity": 97.4
+        },
+        {
+          "id": "celeb_c59800ea",
+          "name": "神尾楓珠",
+          "similarity": 97.4
+        }
+      ]
+    },
+    {
+      "label": "real_d1e9ea37_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_d1e9ea37",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_d1e9ea37_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 58.4,
+        "frontalScore": 50.1,
+        "sharpnessScore": 57.1,
+        "cropScore": 82.7,
+        "faceAreaRatio": 6.5,
+        "yawScore": 60.1,
+        "pitchScore": 52.1,
+        "rollDegrees": 12.5,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_d1e9ea37",
+          "name": "窪田正孝",
+          "similarity": 98.8
+        },
+        {
+          "id": "celeb_f547a8c5",
+          "name": "コムドット やまと",
+          "similarity": 98
+        },
+        {
+          "id": "celeb_72addd07",
+          "name": "米津玄師",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_11400fa0",
+          "name": "赤楚衛二",
+          "similarity": 97.5
+        },
+        {
+          "id": "celeb_c59800ea",
+          "name": "神尾楓珠",
+          "similarity": 97.4
+        }
+      ]
+    },
+    {
+      "label": "real_1b300c1e_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_1b300c1e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_1b300c1e_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 61.6,
+        "frontalScore": 52.5,
+        "sharpnessScore": 52.7,
+        "cropScore": 97.5,
+        "faceAreaRatio": 16.3,
+        "yawScore": 27.7,
+        "pitchScore": 66.3,
+        "rollDegrees": -1,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.8
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 98.2
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 96.6
+        }
+      ]
+    },
+    {
+      "label": "real_1b300c1e_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_1b300c1e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_1b300c1e_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 62.8,
+        "frontalScore": 52.2,
+        "sharpnessScore": 58.4,
+        "cropScore": 97.3,
+        "faceAreaRatio": 16.2,
+        "yawScore": 27.3,
+        "pitchScore": 65.6,
+        "rollDegrees": -0.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.7
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 98.1
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_a07f8182",
+          "name": "加藤史帆",
+          "similarity": 96.6
+        }
+      ]
+    },
+    {
+      "label": "real_1b300c1e_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_1b300c1e",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_1b300c1e_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 59.9,
+        "frontalScore": 51.2,
+        "sharpnessScore": 49,
+        "cropScore": 97.3,
+        "faceAreaRatio": 16.2,
+        "yawScore": 23.3,
+        "pitchScore": 70.6,
+        "rollDegrees": -1.3,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_1b300c1e",
+          "name": "芦田愛菜",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_4c2cdfa5",
+          "name": "久慈暁子",
+          "similarity": 97.9
+        },
+        {
+          "id": "celeb_40796ce8",
+          "name": "山本美月",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_8c89a925",
+          "name": "音嶋莉沙",
+          "similarity": 96.9
+        },
+        {
+          "id": "celeb_e514d1fd",
+          "name": "丹生明里",
+          "similarity": 96.9
+        }
+      ]
+    },
+    {
+      "label": "real_36eae98d_original",
+      "kind": "accept_or_retry",
+      "variant": "original",
+      "targetId": "celeb_36eae98d",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_36eae98d_original.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 55,
+        "frontalScore": 47.7,
+        "sharpnessScore": 47.4,
+        "cropScore": 84.8,
+        "faceAreaRatio": 7.9,
+        "yawScore": 38.5,
+        "pitchScore": 47.7,
+        "rollDegrees": -4.7,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 99
+        },
+        {
+          "id": "celeb_4e17f725",
+          "name": "黒木華",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_d9e3f630",
+          "name": "みちょぱ",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_c2e1fedf",
+          "name": "山本舞香",
+          "similarity": 96.9
+        }
+      ]
+    },
+    {
+      "label": "real_36eae98d_jpeg50",
+      "kind": "accept_or_retry",
+      "variant": "jpeg_low",
+      "targetId": "celeb_36eae98d",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_36eae98d_jpeg50.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 52.2,
+        "frontalScore": 47.1,
+        "sharpnessScore": 37.1,
+        "cropScore": 85.2,
+        "faceAreaRatio": 8.2,
+        "yawScore": 40.2,
+        "pitchScore": 45,
+        "rollDegrees": -5.2,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 98.9
+        },
+        {
+          "id": "celeb_d9e3f630",
+          "name": "みちょぱ",
+          "similarity": 97.1
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_4e17f725",
+          "name": "黒木華",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_a477ab4e",
+          "name": "高畑充希",
+          "similarity": 96.8
+        }
+      ]
+    },
+    {
+      "label": "real_36eae98d_phone",
+      "kind": "accept_or_retry",
+      "variant": "resize_phone",
+      "targetId": "celeb_36eae98d",
+      "fixturePath": "scripts/diagnose_benchmark_fixtures/real_36eae98d_phone.jpg",
+      "passed": true,
+      "detected": true,
+      "diagnosisReady": true,
+      "retryRecommended": true,
+      "targetRank": 1,
+      "photoQuality": {
+        "overallScore": 52.5,
+        "frontalScore": 48.8,
+        "sharpnessScore": 34.6,
+        "cropScore": 84.8,
+        "faceAreaRatio": 7.9,
+        "yawScore": 41.8,
+        "pitchScore": 46.8,
+        "rollDegrees": -4.9,
+        "diagnosisReady": true,
+        "retryRecommended": true,
+        "blockingReasons": []
+      },
+      "top5": [
+        {
+          "id": "celeb_36eae98d",
+          "name": "広瀬すず",
+          "similarity": 98.9
+        },
+        {
+          "id": "celeb_4e17f725",
+          "name": "黒木華",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_d9e3f630",
+          "name": "みちょぱ",
+          "similarity": 97.2
+        },
+        {
+          "id": "celeb_0b82b226",
+          "name": "石原さとみ",
+          "similarity": 97
+        },
+        {
+          "id": "celeb_c2e1fedf",
+          "name": "山本舞香",
+          "similarity": 96.9
+        }
+      ]
+    }
+  ]
+}

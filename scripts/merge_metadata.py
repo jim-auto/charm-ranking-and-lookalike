@@ -4,6 +4,7 @@ Also reads category.txt from input_images for new entries."""
 
 import json
 import math
+import re
 import statistics
 import sys
 from datetime import date, datetime
@@ -16,11 +17,16 @@ from score_policy import age_adjusted_score, round_score
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-INPUT_DIR = SCRIPT_DIR / "input_images"
+INPUT_DIRS = [
+    SCRIPT_DIR / "input_images_new_genres",
+    SCRIPT_DIR / "input_images",
+]
 DATA_DIR = SCRIPT_DIR.parent / "web" / "public" / "data"
 META_FILE = SCRIPT_DIR / "meta_backup.json"
 WIKIDATA_META_FILE = SCRIPT_DIR / "meta_wikidata.json"
 FACE_AUDIT_FILE = SCRIPT_DIR / "face_audit_report.json"
+MAINSTREAM_TARGETS_FILE = SCRIPT_DIR / "mainstream_jp_targets.json"
+MERGE_ALL_FILE = SCRIPT_DIR / "merge_all.mjs"
 
 VALID_GENDERS = {"male", "female", "unknown"}
 FEMALE_CATEGORIES = {"actress", "idol"}
@@ -108,6 +114,13 @@ MALE_NAME_SUFFIXES = (
     "ロー",
 )
 
+MERGE_ALL_META_PATTERN = re.compile(
+    r"'(?P<name>[^']+)': \{ age: (?P<age>\d+), gender: '(?P<gender>[^']+)'"
+    r"(?:, sns: \{(?P<sns>[^}]*)\})?, totalFollowers: (?P<total_followers>\d+)"
+    r"(?:, group: '(?P<group>[^']+)')? \}"
+)
+SNS_VALUE_PATTERN = re.compile(r"(?P<key>[A-Za-z0-9_]+): (?P<value>\d+)")
+
 
 def read_text_if_exists(path: Path) -> str | None:
     if not path.is_file():
@@ -116,11 +129,132 @@ def read_text_if_exists(path: Path) -> str | None:
     return value or None
 
 
+def read_input_metadata(name: str, filename: str) -> str | None:
+    for input_dir in INPUT_DIRS:
+        value = read_text_if_exists(input_dir / name / filename)
+        if value:
+            return value
+    return None
+
+
 def load_json_if_exists(path: Path) -> dict:
     if not path.is_file():
         return {}
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_mainstream_targets(path: Path) -> dict[str, dict]:
+    if not path.is_file():
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        return {}
+
+    targets: dict[str, dict] = {}
+    for entry in data:
+        if not isinstance(entry, dict):
+            continue
+        name = entry.get("name")
+        if not isinstance(name, str) or not name:
+            continue
+
+        target: dict[str, str] = {}
+        category = entry.get("category")
+        if isinstance(category, str) and category:
+            target["category"] = category
+
+        gender = normalize_gender(entry.get("gender"))
+        if gender:
+            target["gender"] = gender
+
+        if target:
+            targets[name] = target
+
+    return targets
+
+
+def parse_sns_values(raw: str | None) -> dict[str, int]:
+    if not raw:
+        return {}
+    values: dict[str, int] = {}
+    for match in SNS_VALUE_PATTERN.finditer(raw):
+        values[match.group("key")] = int(match.group("value"))
+    return values
+
+
+def load_merge_all_metadata(path: Path) -> dict[str, dict]:
+    if not path.is_file():
+        return {}
+
+    text = path.read_text(encoding="utf-8")
+    metadata: dict[str, dict] = {}
+    for match in MERGE_ALL_META_PATTERN.finditer(text):
+        name = match.group("name")
+        entry: dict[str, object] = {
+            "age": int(match.group("age")),
+            "gender": match.group("gender"),
+            "totalFollowers": int(match.group("total_followers")),
+        }
+
+        sns = parse_sns_values(match.group("sns"))
+        if sns:
+            entry["sns"] = sns
+
+        group = match.group("group")
+        if group:
+            entry["group"] = group
+
+        metadata[name] = entry
+
+    return metadata
+
+
+def apply_metadata_entry(cel: dict, meta: dict) -> bool:
+    changed = False
+
+    category = meta.get("category")
+    if isinstance(category, str) and category and (
+        not cel.get("category") or cel.get("category") == "actor"
+    ):
+        cel["category"] = category
+        changed = True
+
+    gender = normalize_gender(meta.get("gender"))
+    if gender and normalize_gender(cel.get("gender")) != gender:
+        cel["gender"] = gender
+        changed = True
+
+    birth_date = meta.get("birthDate")
+    if isinstance(birth_date, str) and birth_date and not cel.get("birthDate"):
+        cel["birthDate"] = birth_date
+        changed = True
+
+    age = meta.get("age")
+    if isinstance(age, int) and cel.get("age") is None:
+        cel["age"] = age
+        changed = True
+
+    sns = meta.get("sns")
+    if isinstance(sns, dict) and sns and not cel.get("sns"):
+        cel["sns"] = sns
+        changed = True
+
+    total_followers = meta.get("totalFollowers")
+    if isinstance(total_followers, int) and (
+        not isinstance(cel.get("totalFollowers"), int) or cel.get("totalFollowers", 0) <= 0
+    ):
+        cel["totalFollowers"] = total_followers
+        changed = True
+
+    group = meta.get("group")
+    if isinstance(group, str) and group and not cel.get("group"):
+        cel["group"] = group
+        changed = True
+
+    return changed
 
 
 def load_face_audit_entries(path: Path) -> dict[str, dict]:
@@ -204,6 +338,8 @@ with open(DATA_DIR / "celebrities.json", "r", encoding="utf-8") as f:
     celebrities = json.load(f)
 
 # Load metadata sources
+mainstream_targets = load_mainstream_targets(MAINSTREAM_TARGETS_FILE)
+merge_all_meta = load_merge_all_metadata(MERGE_ALL_FILE)
 meta_backup = load_json_if_exists(META_FILE)
 meta_wikidata = load_json_if_exists(WIKIDATA_META_FILE)
 face_audit_entries = load_face_audit_entries(FACE_AUDIT_FILE)
@@ -211,23 +347,20 @@ face_audit_entries = load_face_audit_entries(FACE_AUDIT_FILE)
 updated = 0
 for cel in celebrities:
     name = cel["name"]
-    category_from_file = read_text_if_exists(INPUT_DIR / name / "category.txt")
-    gender_from_file = normalize_gender(read_text_if_exists(INPUT_DIR / name / "gender.txt"))
+    category_from_file = read_input_metadata(name, "category.txt")
+    gender_from_file = normalize_gender(read_input_metadata(name, "gender.txt"))
 
-    # Apply saved metadata
-    merged_meta = {}
-    if name in meta_wikidata:
-        merged_meta.update(meta_wikidata[name])
-    if name in meta_backup:
-        merged_meta.update(meta_backup[name])
-
-    if merged_meta:
-        m = merged_meta
-        for key in ("category", "age", "gender", "sns", "totalFollowers", "group"):
-            if key in m and (key not in cel or (key == "category" and cel.get("category") == "actor")):
-                cel[key] = m[key]
-        if "birthDate" in m and "birthDate" not in cel:
-            cel["birthDate"] = m["birthDate"]
+    # Apply saved metadata from least to most trusted.
+    applied = False
+    for source in (
+        merge_all_meta.get(name),
+        mainstream_targets.get(name),
+        meta_wikidata.get(name),
+        meta_backup.get(name),
+    ):
+        if isinstance(source, dict):
+            applied = apply_metadata_entry(cel, source) or applied
+    if applied:
         updated += 1
 
     if category_from_file:

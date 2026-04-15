@@ -10,6 +10,7 @@ const PROJECT_ROOT = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(PROJECT_ROOT, 'web', 'public');
 const DATA_DIR = path.join(PUBLIC_DIR, 'data');
 const MODEL_DIR = path.join(PUBLIC_DIR, 'models');
+const EMBEDDING_VARIANTS_JSON = path.join(DATA_DIR, 'embedding_variants.json');
 const FIXTURE_DIR = path.join(__dirname, 'diagnose_benchmark_fixtures');
 const DEFAULT_BENCHMARK_PATH = path.join(__dirname, 'diagnose_benchmark.json');
 const DEFAULT_JSON_OUT = path.join(__dirname, 'diagnose_benchmark_latest.json');
@@ -20,11 +21,19 @@ const SOFT_BLUR_RADIUS = 1.35;
 const ROTATE_RETRY_DEGREES = 10;
 const SMALL_FACE_SIZE = 240;
 const SMALL_FACE_PADDING = 110;
+const DETAIL_WEIGHTS = {
+  golden_ratio: 0.4,
+  eyes: 0.2,
+  nose: 0.2,
+  mouth: 0.2,
+};
 
 const { Canvas, Image, ImageData, loadImage } = canvas;
 faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 const NORMALIZED_EMBEDDING_SIZE = 200;
 const EMBEDDING_PADDING_RATIO = 0.3;
+const SMALL_FACE_ALTERNATE_AREA_THRESHOLD = 12;
+const SMALL_FACE_ALTERNATE_MIN_BOX = 130;
 
 function clamp(value, min = 0, max = 100) {
   return Math.max(min, Math.min(max, value));
@@ -57,6 +66,17 @@ function shapeRatioScore(actual, ideal, factor = 2) {
   if (actual <= 0 || ideal <= 0) return 0;
   const deviation = Math.abs(actual - ideal) / ideal;
   return clamp((1 - deviation * factor) * 100);
+}
+
+function ratioScore(actual, ideal) {
+  const deviation = Math.abs(actual - ideal) / ideal;
+  return clamp((1 - deviation * 2) * 100);
+}
+
+function marginBalanceScore(a, b) {
+  const total = a + b;
+  if (total <= 0) return 0;
+  return clamp((1 - Math.abs(a - b) / total) * 100);
 }
 
 function rotatePoint(point, origin, angle) {
@@ -153,7 +173,16 @@ function calculateCropScore(box, canvasElement) {
 
   const areaRatio = (box.width * box.height) / Math.max(canvasElement.width * canvasElement.height, 1);
   const sizeScore = shapeRatioScore(areaRatio, 0.18, 0.9);
-  return round1(marginScore * 0.7 + sizeScore * 0.3);
+  const baseScore = marginScore * 0.7 + sizeScore * 0.3;
+
+  const closeupAreaScore = clamp(((areaRatio - 0.32) / 0.28) * 100);
+  const centerednessScore = Math.min(
+    marginBalanceScore(leftMargin, rightMargin),
+    marginBalanceScore(topMargin, bottomMargin),
+  );
+  const closeupScore = closeupAreaScore * 0.45 + centerednessScore * 0.55;
+
+  return round1(Math.max(baseScore, closeupScore));
 }
 
 function calculateSharpnessScore(box, canvasElement) {
@@ -215,21 +244,21 @@ function calculatePhotoQuality(landmarks, box, canvasElement) {
   const blockingReasons = [];
   if (pitchScore < 18) blockingReasons.push('pitch');
   if (Math.abs(rollDegrees) > 22) blockingReasons.push('roll');
-  if (yawScore < 5 && faceAreaRatio < 5) blockingReasons.push('yaw_small_face');
-  if (frontalScore < 20 && cropScore < 40) blockingReasons.push('frontal_and_crop');
-  if (faceAreaRatio < 4) blockingReasons.push('face_too_small');
+  if (yawScore < 5 && faceAreaRatio < 3) blockingReasons.push('yaw_small_face');
+  if (frontalScore < 12 && cropScore < 20) blockingReasons.push('frontal_and_crop');
+  if (faceAreaRatio < 2) blockingReasons.push('face_too_small');
   if (cropScore < 18) blockingReasons.push('crop');
-  if (sharpnessScore < 5) blockingReasons.push('blur');
+  if (sharpnessScore < 0.7) blockingReasons.push('blur');
 
   const diagnosisReady = blockingReasons.length === 0;
   const retryRecommended =
     !diagnosisReady ||
-    overallScore < 55 ||
     frontalScore < 60 ||
     yawScore < 45 ||
     pitchScore < 35 ||
     cropScore < 30 ||
-    sharpnessScore < 20;
+    sharpnessScore < 20 ||
+    (pitchScore < 56 && cropScore < 45 && faceAreaRatio > 20);
 
   return {
     overallScore,
@@ -244,6 +273,254 @@ function calculatePhotoQuality(landmarks, box, canvasElement) {
     retryRecommended,
     blockingReasons,
   };
+}
+
+function calculateGoldenRatio(landmarks) {
+  const jawLeft = landmarks[0];
+  const jawRight = landmarks[16];
+  const chin = landmarks[8];
+  const foreheadApprox = landmarks[27];
+
+  const faceWidth = distance(jawLeft, jawRight);
+  const faceHeight = distance(foreheadApprox, chin) * 1.3;
+  const faceRatio = faceWidth > 0 ? faceHeight / faceWidth : 0;
+
+  const leftEye = midpoint(landmarks[36], landmarks[39]);
+  const rightEye = midpoint(landmarks[42], landmarks[45]);
+  const eyeDistance = distance(leftEye, rightEye);
+  const eyeRatio = faceWidth > 0 ? eyeDistance / faceWidth : 0;
+
+  return (ratioScore(faceRatio, 1.46) + ratioScore(eyeRatio, 1 / 1.618)) / 2;
+}
+
+function calculateEyeScore(landmarks) {
+  const leftEyeWidth = distance(landmarks[36], landmarks[39]);
+  const leftEyeHeight = distance(landmarks[37], landmarks[41]);
+  const rightEyeWidth = distance(landmarks[42], landmarks[45]);
+  const rightEyeHeight = distance(landmarks[43], landmarks[47]);
+
+  const leftRatio = leftEyeWidth > 0 ? leftEyeHeight / leftEyeWidth : 0;
+  const rightRatio = rightEyeWidth > 0 ? rightEyeHeight / rightEyeWidth : 0;
+  const avgRatio = (leftRatio + rightRatio) / 2;
+
+  const avgWidth = (leftEyeWidth + rightEyeWidth) / 2;
+  const sizeBalance =
+    avgWidth > 0 ? 1 - Math.abs(leftEyeWidth - rightEyeWidth) / avgWidth : 0;
+  const shapeScore = ratioScore(avgRatio, 0.33);
+
+  return clamp(shapeScore * 0.6 + sizeBalance * 100 * 0.4);
+}
+
+function calculateNoseScore(landmarks) {
+  const faceWidth = distance(landmarks[0], landmarks[16]);
+  const noseWidth = distance(landmarks[31], landmarks[35]);
+  const noseLength = distance(landmarks[27], landmarks[30]);
+  const faceHeight = distance(landmarks[27], landmarks[8]) * 1.3;
+
+  const widthRatio = faceWidth > 0 ? ratioScore(noseWidth / faceWidth, 0.26) : 0;
+  const lengthRatio = faceHeight > 0 ? ratioScore(noseLength / faceHeight, 0.33) : 0;
+  return (widthRatio + lengthRatio) / 2;
+}
+
+function calculateMouthScore(landmarks) {
+  const mouthWidth = distance(landmarks[48], landmarks[54]);
+  const noseWidth = distance(landmarks[31], landmarks[35]);
+  const upperLipHeight = distance(landmarks[51], landmarks[62]);
+  const lowerLipHeight = distance(landmarks[57], landmarks[66]);
+
+  const widthRatio = noseWidth > 0 ? ratioScore(mouthWidth / noseWidth, 1.5) : 0;
+  const lipRatio = lowerLipHeight > 0 ? ratioScore(upperLipHeight / lowerLipHeight, 0.8) : 0;
+  return (widthRatio + lipRatio) / 2;
+}
+
+function calculateFaceDetails(landmarks) {
+  return {
+    golden_ratio: Math.round(calculateGoldenRatio(landmarks)),
+    eyes: Math.round(calculateEyeScore(landmarks)),
+    nose: Math.round(calculateNoseScore(landmarks)),
+    mouth: Math.round(calculateMouthScore(landmarks)),
+  };
+}
+
+function percentile(sortedValues, ratio) {
+  if (sortedValues.length === 0) return 0;
+  if (sortedValues.length === 1) return sortedValues[0];
+  const index = (sortedValues.length - 1) * ratio;
+  const lower = Math.floor(index);
+  const upper = Math.ceil(index);
+  if (lower === upper) return sortedValues[lower];
+  const lowerWeight = upper - index;
+  const upperWeight = index - lower;
+  return sortedValues[lower] * lowerWeight + sortedValues[upper] * upperWeight;
+}
+
+function roundMetric(value) {
+  return Math.round(value * 10) / 10;
+}
+
+function calculateMetricDistributions(celebrities) {
+  const metrics = ['golden_ratio', 'eyes', 'nose', 'mouth'];
+  const distributions = {};
+  for (const metric of metrics) {
+    const values = celebrities
+      .map((celebrity) => celebrity.details?.[metric])
+      .filter((value) => typeof value === 'number')
+      .map(Number);
+    if (values.length === 0) continue;
+    const sortedValues = [...values].sort((a, b) => a - b);
+    const mean = values.reduce((sum, value) => sum + value, 0) / values.length;
+    const variance =
+      values.reduce((sum, value) => sum + (value - mean) ** 2, 0) / values.length;
+    distributions[metric] = {
+      mean: roundMetric(mean),
+      stdev: roundMetric(Math.sqrt(variance)),
+      median: roundMetric(percentile(sortedValues, 0.5)),
+    };
+  }
+  return distributions;
+}
+
+function calculateMetricDeviation(rawValue, distribution) {
+  if (!distribution) return 50;
+  if (distribution.stdev === 0) return 50;
+  return round1(clamp(50 + 10 * ((rawValue - distribution.mean) / distribution.stdev), 20, 80));
+}
+
+function calculateAdjustedOverallScore(details, distributions) {
+  return round1(
+    calculateMetricDeviation(details.golden_ratio, distributions.golden_ratio) * 0.4 +
+      calculateMetricDeviation(details.eyes, distributions.eyes) * 0.2 +
+      calculateMetricDeviation(details.nose, distributions.nose) * 0.2 +
+      calculateMetricDeviation(details.mouth, distributions.mouth) * 0.2,
+  );
+}
+
+function toReliability(score) {
+  return round1(Math.max(0, Math.min(1, (score - 40) / 60)));
+}
+
+function blendTowardMean(rawValue, meanValue, reliability) {
+  const preserveShare = 0.25 + reliability * 0.75;
+  return round1(clamp(meanValue + (rawValue - meanValue) * preserveShare));
+}
+
+function calibrateDiagnoseDetails(details, photoQuality, distributions) {
+  const supportScores = {
+    golden_ratio:
+      photoQuality.frontalScore * 0.5 +
+      photoQuality.cropScore * 0.35 +
+      photoQuality.sharpnessScore * 0.15,
+    eyes:
+      photoQuality.frontalScore * 0.35 +
+      photoQuality.sharpnessScore * 0.45 +
+      photoQuality.cropScore * 0.2,
+    nose:
+      photoQuality.frontalScore * 0.55 +
+      photoQuality.cropScore * 0.25 +
+      photoQuality.sharpnessScore * 0.2,
+    mouth:
+      photoQuality.frontalScore * 0.45 +
+      photoQuality.cropScore * 0.35 +
+      photoQuality.sharpnessScore * 0.2,
+  };
+
+  const reliability = {
+    golden_ratio: toReliability(supportScores.golden_ratio),
+    eyes: toReliability(supportScores.eyes),
+    nose: toReliability(supportScores.nose),
+    mouth: toReliability(supportScores.mouth),
+  };
+
+  return {
+    golden_ratio: blendTowardMean(
+      details.golden_ratio,
+      distributions.golden_ratio?.mean ?? 50,
+      reliability.golden_ratio,
+    ),
+    eyes: blendTowardMean(
+      details.eyes,
+      distributions.eyes?.mean ?? 50,
+      reliability.eyes,
+    ),
+    nose: blendTowardMean(
+      details.nose,
+      distributions.nose?.mean ?? 50,
+      reliability.nose,
+    ),
+    mouth: blendTowardMean(
+      details.mouth,
+      distributions.mouth?.mean ?? 50,
+      reliability.mouth,
+    ),
+  };
+}
+
+function calculateLookalikeSimilarity(userDetails, userScore, celebrity) {
+  const detailSimilarity = Object.entries(DETAIL_WEIGHTS).reduce((sum, [key, weight]) => {
+    const userValue = userDetails[key];
+    const celebrityValue = celebrity.details?.[key];
+    if (typeof userValue !== 'number' || typeof celebrityValue !== 'number') {
+      return sum;
+    }
+    const closeness = clamp(100 - Math.abs(userValue - celebrityValue));
+    return sum + closeness * weight;
+  }, 0);
+
+  const celebrityScore = celebrity.scores?.face ?? celebrity.score ?? 0;
+  const scoreSimilarity = clamp(100 - Math.abs(userScore - celebrityScore) * 1.5);
+  return round1(detailSimilarity * 0.8 + scoreSimilarity * 0.2);
+}
+
+function cosineToSimilarityPercent(cosineSimilarityValue) {
+  return round1(clamp((cosineSimilarityValue + 1) * 50));
+}
+
+function calculateHybridLookalikeSimilarity(
+  userDetails,
+  userScore,
+  celebrity,
+  embeddingCosineSimilarity = null,
+  detailWeight = 0.3,
+) {
+  const detailSimilarity = calculateLookalikeSimilarity(userDetails, userScore, celebrity);
+  if (embeddingCosineSimilarity == null) {
+    return detailSimilarity;
+  }
+  const embeddingSimilarity = cosineToSimilarityPercent(embeddingCosineSimilarity);
+  const safeDetailWeight = clamp(detailWeight, 0.1, 0.5);
+  return round1(embeddingSimilarity * (1 - safeDetailWeight) + detailSimilarity * safeDetailWeight);
+}
+
+function getLookalikeDetailWeight(photoQuality) {
+  if (photoQuality.faceAreaRatio < 8) return 0.03;
+  if (
+    photoQuality.retryRecommended &&
+    photoQuality.faceAreaRatio < 12 &&
+    photoQuality.frontalScore < 50
+  ) {
+    return 0.06;
+  }
+  const baseWeight = 0.15 + ((photoQuality.overallScore - 40) / 60) * 0.2;
+  return Math.max(0.15, Math.min(0.35, baseWeight));
+}
+
+function getLookalikeCandidateCount(photoQuality) {
+  if (photoQuality.faceAreaRatio < 8) return 24;
+  if (
+    photoQuality.retryRecommended &&
+    photoQuality.faceAreaRatio < 12 &&
+    photoQuality.frontalScore < 50
+  ) {
+    return 18;
+  }
+  return 12;
+}
+
+function getLookalikeEmbeddingGapThreshold(photoQuality) {
+  if (photoQuality.faceAreaRatio > 35 && photoQuality.sharpnessScore < 8) {
+    return 0;
+  }
+  return 0.015;
 }
 
 function cosineSimilarity(a, b) {
@@ -271,13 +548,33 @@ function loadBenchmark(benchmarkPath) {
 function loadEmbeddingStore() {
   const index = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'embeddings_index.json'), 'utf-8'));
   const buffer = fs.readFileSync(path.join(DATA_DIR, 'embeddings.bin'));
+  const variantEntries = fs.existsSync(EMBEDDING_VARIANTS_JSON)
+    ? JSON.parse(fs.readFileSync(EMBEDDING_VARIANTS_JSON, 'utf-8'))
+    : {};
   const count = buffer.readUInt32LE(0);
   const dimension = buffer.readUInt32LE(4);
   const values = new Float32Array(count * dimension);
   for (let i = 0; i < count * dimension; i++) {
     values[i] = buffer.readFloatLE(8 + i * 4);
   }
-  return { count, dimension, index, values };
+  return {
+    count,
+    dimension,
+    index,
+    values,
+    variantEmbeddingsById: Object.fromEntries(
+      Object.entries(variantEntries).map(([celebrityId, entries]) => [
+        celebrityId,
+        (Array.isArray(entries) ? entries : [])
+          .map((entry) =>
+            Array.isArray(entry?.embedding) && entry.embedding.length === dimension
+              ? entry.embedding
+              : null,
+          )
+          .filter(Boolean),
+      ]),
+    ),
+  };
 }
 
 function getEmbedding(store, celebrityId) {
@@ -286,6 +583,12 @@ function getEmbedding(store, celebrityId) {
   const start = entry.index * store.dimension;
   const end = start + store.dimension;
   return store.values.subarray(start, end);
+}
+
+function getEmbeddings(store, celebrityId) {
+  const mainEmbedding = getEmbedding(store, celebrityId);
+  const variantEmbeddings = store.variantEmbeddingsById[celebrityId] ?? [];
+  return mainEmbedding ? [mainEmbedding, ...variantEmbeddings] : variantEmbeddings;
 }
 
 function filterPublicCelebrities(celebrities) {
@@ -456,41 +759,232 @@ function extractNormalizedFaceCanvas(image, box) {
   return output;
 }
 
+function buildDetectionAttempts(image) {
+  const attempts = [{ source: image, scale: 1, offsetX: 0, offsetY: 0 }];
+  const minDimension = Math.min(image.width, image.height);
+  if (minDimension > 240) {
+    return attempts;
+  }
+
+  const scale = minDimension <= 160 ? 3 : 2;
+  const enlarged = canvas.createCanvas(image.width * scale, image.height * scale);
+  const enlargedCtx = enlarged.getContext('2d');
+  enlargedCtx.drawImage(image, 0, 0, enlarged.width, enlarged.height);
+  attempts.push({ source: enlarged, scale, offsetX: 0, offsetY: 0 });
+
+  const padX = Math.round(enlarged.width * 0.18);
+  const padY = Math.round(enlarged.height * 0.18);
+  const padded = canvas.createCanvas(enlarged.width + padX * 2, enlarged.height + padY * 2);
+  const paddedCtx = padded.getContext('2d');
+  paddedCtx.fillStyle = '#18181c';
+  paddedCtx.fillRect(0, 0, padded.width, padded.height);
+  paddedCtx.drawImage(enlarged, padX, padY);
+  attempts.push({ source: padded, scale, offsetX: padX, offsetY: padY });
+
+  return attempts;
+}
+
+function calculateFaceAreaRatio(image, box) {
+  return ((box.width * box.height) / Math.max(image.width * image.height, 1)) * 100;
+}
+
+async function computeDescriptorFromBox(image, box) {
+  const normalizedFace = extractNormalizedFaceCanvas(image, box);
+  const descriptor = await faceapi.computeFaceDescriptor(normalizedFace);
+  return Array.from(descriptor);
+}
+
+function blendEmbeddings(embeddings) {
+  if (embeddings.length === 0) return null;
+  const dimension = embeddings[0]?.length ?? 0;
+  if (dimension === 0 || embeddings.some((embedding) => embedding.length !== dimension)) {
+    return null;
+  }
+
+  const blended = new Array(dimension).fill(0);
+  for (const embedding of embeddings) {
+    for (let i = 0; i < dimension; i++) {
+      blended[i] += embedding[i];
+    }
+  }
+
+  let norm = 0;
+  for (let i = 0; i < dimension; i++) {
+    blended[i] /= embeddings.length;
+    norm += blended[i] * blended[i];
+  }
+
+  const safeNorm = Math.sqrt(norm);
+  if (safeNorm === 0) return null;
+
+  for (let i = 0; i < dimension; i++) {
+    blended[i] /= safeNorm;
+  }
+
+  return blended;
+}
+
+async function detectMappedFace(source, scale = 1, offsetX = 0, offsetY = 0) {
+  const detection = await faceapi.detectSingleFace(source).withFaceLandmarks();
+  if (!detection) return null;
+
+  return {
+    landmarks: detection.landmarks.positions.map((point) => ({
+      x: (point.x - offsetX) / scale,
+      y: (point.y - offsetY) / scale,
+    })),
+    box: {
+      x: (detection.detection.box.x - offsetX) / scale,
+      y: (detection.detection.box.y - offsetY) / scale,
+      width: detection.detection.box.width / scale,
+      height: detection.detection.box.height / scale,
+    },
+  };
+}
+
+async function buildAlternateEmbeddings(image, primaryBox) {
+  if (calculateFaceAreaRatio(image, primaryBox) > SMALL_FACE_ALTERNATE_AREA_THRESHOLD) {
+    return [];
+  }
+
+  const alternateScale =
+    Math.min(primaryBox.width, primaryBox.height) < SMALL_FACE_ALTERNATE_MIN_BOX ? 3 : 2;
+  const scaledCanvas = canvas.createCanvas(image.width * alternateScale, image.height * alternateScale);
+  const scaledCtx = scaledCanvas.getContext('2d');
+  scaledCtx.drawImage(image, 0, 0, scaledCanvas.width, scaledCanvas.height);
+
+  const offsetX = Math.round(scaledCanvas.width * 0.18);
+  const offsetY = Math.round(scaledCanvas.height * 0.18);
+  const paddedCanvas = canvas.createCanvas(
+    scaledCanvas.width + offsetX * 2,
+    scaledCanvas.height + offsetY * 2,
+  );
+  const paddedCtx = paddedCanvas.getContext('2d');
+  paddedCtx.fillStyle = '#18181c';
+  paddedCtx.fillRect(0, 0, paddedCanvas.width, paddedCanvas.height);
+  paddedCtx.drawImage(scaledCanvas, offsetX, offsetY);
+
+  const alternateDetection = await detectMappedFace(
+    paddedCanvas,
+    alternateScale,
+    offsetX,
+    offsetY,
+  );
+  if (!alternateDetection) {
+    return [];
+  }
+
+  return [await computeDescriptorFromBox(image, alternateDetection.box)];
+}
+
 async function detectFixture(fixturePath) {
   const img = await loadImage(fixturePath);
-  const detection = await faceapi.detectSingleFace(img).withFaceLandmarks();
+  let detection = null;
+  let scale = 1;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  for (const attempt of buildDetectionAttempts(img)) {
+    detection = await detectMappedFace(
+      attempt.source,
+      attempt.scale,
+      attempt.offsetX,
+      attempt.offsetY,
+    );
+    if (detection) {
+      scale = attempt.scale;
+      offsetX = attempt.offsetX;
+      offsetY = attempt.offsetY;
+      break;
+    }
+  }
+
   if (!detection) return null;
 
   const cvs = canvas.createCanvas(img.width, img.height);
   const ctx = cvs.getContext('2d');
   ctx.drawImage(img, 0, 0);
-  const box = {
-    x: detection.detection.box.x,
-    y: detection.detection.box.y,
-    width: detection.detection.box.width,
-    height: detection.detection.box.height,
-  };
-  const normalizedFace = extractNormalizedFaceCanvas(img, box);
-  const descriptor = await faceapi.computeFaceDescriptor(normalizedFace);
+  const descriptor = await computeDescriptorFromBox(img, detection.box);
+  const alternateEmbeddings =
+    scale === 1 && offsetX === 0 && offsetY === 0
+      ? await buildAlternateEmbeddings(img, detection.box)
+      : [];
+  const blendedEmbedding =
+    alternateEmbeddings.length > 0 ? blendEmbeddings([descriptor, ...alternateEmbeddings]) : null;
+  const queryAlternates = blendedEmbedding
+    ? [...alternateEmbeddings, blendedEmbedding]
+    : alternateEmbeddings;
 
   return {
     canvas: cvs,
-    landmarks: detection.landmarks.positions.map((point) => ({ x: point.x, y: point.y })),
-    embedding: Array.from(descriptor),
-    box,
+    landmarks: detection.landmarks,
+    embedding: descriptor,
+    alternateEmbeddings: queryAlternates,
+    box: detection.box,
   };
 }
 
-function findTargetRank(targetId, targetGender, detectionEmbedding, celebrities, embeddings) {
+function findTargetRank(
+  targetId,
+  targetGender,
+  detectionEmbeddings,
+  userDetails,
+  userScore,
+  photoQuality,
+  celebrities,
+  embeddings,
+) {
   const candidates = filterPublicCelebrities(celebrities).filter(
     (celebrity) => celebrity.gender === targetGender,
   );
-  const ranked = candidates
-    .map((celebrity) => ({
-      celebrity,
-      similarity: cosineSimilarity(detectionEmbedding, getEmbedding(embeddings, celebrity.id)),
+  const detailWeight = getLookalikeDetailWeight(photoQuality);
+  const candidateCount = getLookalikeCandidateCount(photoQuality);
+  const embeddingGapThreshold = getLookalikeEmbeddingGapThreshold(photoQuality);
+  const embeddingRanked = candidates
+    .map((celebrity) => {
+      let embeddingSimilarity = null;
+      const candidateEmbeddings = getEmbeddings(embeddings, celebrity.id);
+      if (candidateEmbeddings.length > 0) {
+        for (const detectionEmbedding of detectionEmbeddings) {
+          for (const embedding of candidateEmbeddings) {
+            if (embedding.length !== detectionEmbedding.length) {
+              continue;
+            }
+            const candidateSimilarity = cosineSimilarity(detectionEmbedding, embedding);
+            embeddingSimilarity =
+              embeddingSimilarity == null
+                ? candidateSimilarity
+                : Math.max(embeddingSimilarity, candidateSimilarity);
+          }
+        }
+      }
+      return {
+        celebrity,
+        embeddingSimilarity,
+      };
+    })
+    .sort((a, b) => (b.embeddingSimilarity ?? -Infinity) - (a.embeddingSimilarity ?? -Infinity))
+    .slice(0, candidateCount);
+
+  const ranked = embeddingRanked
+    .map((row) => ({
+      celebrity: row.celebrity,
+      embeddingSimilarity: row.embeddingSimilarity,
+      similarity: calculateHybridLookalikeSimilarity(
+        userDetails,
+        userScore,
+        row.celebrity,
+        row.embeddingSimilarity,
+        detailWeight,
+      ),
     }))
-    .sort((a, b) => b.similarity - a.similarity);
+    .sort((a, b) => {
+      const embeddingGap = (b.embeddingSimilarity ?? -Infinity) - (a.embeddingSimilarity ?? -Infinity);
+      if (Math.abs(embeddingGap) > embeddingGapThreshold) {
+        return embeddingGap;
+      }
+      return b.similarity - a.similarity;
+    });
 
   const targetIndex = ranked.findIndex((row) => row.celebrity.id === targetId);
   return {
@@ -498,7 +992,7 @@ function findTargetRank(targetId, targetGender, detectionEmbedding, celebrities,
     top5: ranked.slice(0, 5).map((row) => ({
       id: row.celebrity.id,
       name: row.celebrity.name,
-      similarity: round1(((row.similarity + 1) / 2) * 100),
+      similarity: round1(row.similarity),
     })),
   };
 }
@@ -538,6 +1032,15 @@ async function main() {
   const celebrities = loadCelebrities();
   const celebritiesById = new Map(celebrities.map((celebrity) => [celebrity.id, celebrity]));
   const embeddings = loadEmbeddingStore();
+  const publicCelebrities = filterPublicCelebrities(celebrities);
+  const metricDistributionsByGender = {
+    male: calculateMetricDistributions(
+      publicCelebrities.filter((celebrity) => celebrity.gender === 'male'),
+    ),
+    female: calculateMetricDistributions(
+      publicCelebrities.filter((celebrity) => celebrity.gender === 'female'),
+    ),
+  };
   const results = [];
 
   for (const caseDef of benchmark.cases) {
@@ -545,6 +1048,8 @@ async function main() {
     const detection = await detectFixture(fixturePath);
 
     let photoQuality = null;
+    let userDetails = null;
+    let userScore = null;
     let targetRank = null;
     let top5 = [];
 
@@ -553,10 +1058,17 @@ async function main() {
       if (caseDef.targetId) {
         const targetCelebrity = celebritiesById.get(caseDef.targetId);
         if (targetCelebrity) {
+          const baseDetails = calculateFaceDetails(detection.landmarks);
+          const distributions = metricDistributionsByGender[targetCelebrity.gender] ?? {};
+          userDetails = calibrateDiagnoseDetails(baseDetails, photoQuality, distributions);
+          userScore = calculateAdjustedOverallScore(userDetails, distributions);
           const rankInfo = findTargetRank(
             caseDef.targetId,
             targetCelebrity.gender,
-            detection.embedding,
+            [detection.embedding, ...(detection.alternateEmbeddings ?? [])],
+            userDetails,
+            userScore,
+            photoQuality,
             celebrities,
             embeddings,
           );

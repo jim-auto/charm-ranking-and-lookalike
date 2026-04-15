@@ -3,11 +3,17 @@ export interface EmbeddingIndexEntry {
   name: string;
 }
 
+export interface EmbeddingVariantEntry {
+  source?: string;
+  embedding: number[];
+}
+
 export interface EmbeddingStore {
   count: number;
   dimension: number;
   indexById: Record<string, EmbeddingIndexEntry>;
   values: Float32Array;
+  variantEmbeddingsById: Record<string, ArrayLike<number>[]>;
 }
 
 let embeddingStorePromise: Promise<EmbeddingStore> | null = null;
@@ -39,11 +45,39 @@ async function fetchJson<T>(url: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+async function fetchOptionalJson<T>(url: string, fallback: T): Promise<T> {
+  const response = await fetch(url);
+  if (response.status === 404) {
+    return fallback;
+  }
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+  }
+  return response.json() as Promise<T>;
+}
+
+function toVariantEmbeddings(
+  variantEntries: Record<string, EmbeddingVariantEntry[]>,
+  dimension: number,
+): Record<string, ArrayLike<number>[]> {
+  return Object.fromEntries(
+    Object.entries(variantEntries).map(([celebrityId, entries]) => {
+      const embeddings: ArrayLike<number>[] = [];
+      for (const entry of entries) {
+        if (Array.isArray(entry?.embedding) && entry.embedding.length === dimension) {
+          embeddings.push(new Float32Array(entry.embedding));
+        }
+      }
+      return [celebrityId, embeddings];
+    }),
+  );
+}
+
 export async function loadEmbeddingStore(dataBaseUrl: string): Promise<EmbeddingStore> {
   if (!embeddingStorePromise) {
     embeddingStorePromise = (async () => {
       const baseUrl = dataBaseUrl.endsWith('/') ? dataBaseUrl : `${dataBaseUrl}/`;
-      const [indexById, buffer] = await Promise.all([
+      const [indexById, buffer, variantEntries] = await Promise.all([
         fetchJson<Record<string, EmbeddingIndexEntry>>(`${baseUrl}embeddings_index.json`),
         fetch(`${baseUrl}embeddings.bin`).then(async (response) => {
           if (!response.ok) {
@@ -51,6 +85,10 @@ export async function loadEmbeddingStore(dataBaseUrl: string): Promise<Embedding
           }
           return response.arrayBuffer();
         }),
+        fetchOptionalJson<Record<string, EmbeddingVariantEntry[]>>(
+          `${baseUrl}embedding_variants.json`,
+          {},
+        ),
       ]);
 
       if (buffer.byteLength < 8) {
@@ -73,6 +111,7 @@ export async function loadEmbeddingStore(dataBaseUrl: string): Promise<Embedding
         dimension,
         indexById,
         values: new Float32Array(buffer, 8, count * dimension),
+        variantEmbeddingsById: toVariantEmbeddings(variantEntries, dimension),
       };
     })().catch((error) => {
       embeddingStorePromise = null;
@@ -80,7 +119,7 @@ export async function loadEmbeddingStore(dataBaseUrl: string): Promise<Embedding
     });
   }
 
-  return embeddingStorePromise;
+  return embeddingStorePromise!;
 }
 
 export function getCelebrityEmbedding(
@@ -100,6 +139,15 @@ export function getCelebrityEmbedding(
   return store.values.subarray(start, end);
 }
 
+export function getCelebrityEmbeddings(
+  store: EmbeddingStore,
+  celebrityId: string,
+): ArrayLike<number>[] {
+  const mainEmbedding = getCelebrityEmbedding(store, celebrityId);
+  const variantEmbeddings = store.variantEmbeddingsById[celebrityId] ?? [];
+  return mainEmbedding ? [mainEmbedding, ...variantEmbeddings] : variantEmbeddings;
+}
+
 export function findSimilarCelebrities(
   userEmbedding: ArrayLike<number>,
   celebrities: { id: string }[],
@@ -109,14 +157,64 @@ export function findSimilarCelebrities(
   const similarities: { index: number; similarity: number }[] = [];
 
   celebrities.forEach((celebrity, index) => {
-    const embedding = getCelebrityEmbedding(store, celebrity.id);
-    if (!embedding || embedding.length !== userEmbedding.length) {
+    const candidateEmbeddings = getCelebrityEmbeddings(store, celebrity.id);
+    if (candidateEmbeddings.length === 0) {
+      return;
+    }
+
+    let bestSimilarity = -Infinity;
+    for (const embedding of candidateEmbeddings) {
+      if (embedding.length !== userEmbedding.length) {
+        continue;
+      }
+      bestSimilarity = Math.max(bestSimilarity, cosineSimilarity(userEmbedding, embedding));
+    }
+
+    if (!Number.isFinite(bestSimilarity)) {
       return;
     }
 
     similarities.push({
       index,
-      similarity: cosineSimilarity(userEmbedding, embedding),
+      similarity: bestSimilarity,
+    });
+  });
+
+  similarities.sort((a, b) => b.similarity - a.similarity);
+  return similarities.slice(0, topN);
+}
+
+export function findSimilarCelebritiesByAnyEmbedding(
+  userEmbeddings: ArrayLike<number>[],
+  celebrities: { id: string }[],
+  store: EmbeddingStore,
+  topN = 5,
+): { index: number; similarity: number }[] {
+  const similarities: { index: number; similarity: number }[] = [];
+
+  celebrities.forEach((celebrity, index) => {
+    const candidateEmbeddings = getCelebrityEmbeddings(store, celebrity.id);
+    if (candidateEmbeddings.length === 0) {
+      return;
+    }
+
+    let bestSimilarity = -Infinity;
+    for (const userEmbedding of userEmbeddings) {
+      for (const embedding of candidateEmbeddings) {
+        if (embedding.length !== userEmbedding.length) {
+          continue;
+        }
+        bestSimilarity = Math.max(bestSimilarity, cosineSimilarity(userEmbedding, embedding));
+      }
+    }
+
+    if (!Number.isFinite(bestSimilarity)) {
+      return;
+    }
+
+    similarities.push({
+      index,
+      similarity: bestSimilarity,
     });
   });
 

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "弘中綾香",
+    "category": "announcer",
+    "gender": "female"
+  },
+  {
+    "name": "水卜麻美",
+    "category": "announcer",
+    "gender": "female"
+  },
+  {
+    "name": "加藤綾子",
+    "category": "announcer",
+    "gender": "female"
+  },
+  {
+    "name": "宇垣美里",
+    "category": "announcer",
+    "gender": "female"
+  },
+  {
+    "name": "田中瞳",
+    "category": "announcer",
+    "gender": "female"
+  },
+  {
+    "name": "久慈暁子",
+    "category": "announcer",
+    "gender": "female"
+  },
+  {
+    "name": "花澤香菜",
+    "category": "voiceactor",
+    "gender": "female"
+  },
+  {
+    "name": "鬼頭明里",
+    "category": "voiceactor",
+    "gender": "female"
+  },
+  {
+    "name": "内田真礼",
+    "category": "voiceactor",
+    "gender": "female"
+  },
+  {
+    "name": "佐倉綾音",
+    "category": "voiceactor",
+    "gender": "female"
+  },
+  {
+    "name": "水瀬いのり",
+    "category": "voiceactor",
+    "gender": "female"
+  },
+  {
+    "name": "梶裕貴",
+    "category": "voiceactor",
+    "gender": "male"
+  },
+  {
+    "name": "下野紘",
+    "category": "voiceactor",
+    "gender": "male"
+  },
+  {
+    "name": "冨永愛",
+    "category": "model",
+    "gender": "female"
+  },
+  {
+    "name": "森星",
+    "category": "model",
+    "gender": "female"
+  },
+  {
+    "name": "中条あやみ",
+    "category": "model",
+    "gender": "female"
+  },
+  {
+    "name": "新木優子",
+    "category": "model",
+    "gender": "female"
+  },
+  {
+    "name": "小松菜奈",
+    "category": "model",
+    "gender": "female"
+  },
+  {
+    "name": "前澤友作",
+    "category": "business",
+    "gender": "male"
+  },
+  {
+    "name": "堀江貴文",
+    "category": "business",
+    "gender": "male"
+  },
+  {
+    "name": "小泉進次郎",
+    "category": "politician",
+    "gender": "male"
+  },
+  {
+    "name": "蓮舫",
+    "category": "politician",
+    "gender": "female"
+  },
+  {
+    "name": "まふまふ",
+    "category": "artist",
+    "gender": "male"
+  },
+  {
+    "name": "藤井聡太",
+    "category": "shogi",
+    "gender": "male"
+  }
+]

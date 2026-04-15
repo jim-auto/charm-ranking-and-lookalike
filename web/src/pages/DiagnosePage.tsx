@@ -3,7 +3,7 @@ import type { Celebrity, ScoreDetails } from '../types/celebrity';
 import { loadModels, detectFace } from '../lib/faceDetection';
 import {
   type EmbeddingStore,
-  findSimilarCelebrities,
+  findSimilarCelebritiesByAnyEmbedding,
   loadEmbeddingStore,
 } from '../lib/embedding';
 import { calculateFaceDetails } from '../lib/faceMetricCalculator';
@@ -50,8 +50,35 @@ function nextPaint(): Promise<void> {
 }
 
 function getLookalikeDetailWeight(photoQuality: PhotoQualityAssessment): number {
+  if (photoQuality.faceAreaRatio < 8) return 0.03;
+  if (
+    photoQuality.retryRecommended &&
+    photoQuality.faceAreaRatio < 12 &&
+    photoQuality.frontalScore < 50
+  ) {
+    return 0.06;
+  }
   const baseWeight = 0.15 + ((photoQuality.overallScore - 40) / 60) * 0.2;
   return Math.max(0.15, Math.min(0.35, baseWeight));
+}
+
+function getLookalikeCandidateCount(photoQuality: PhotoQualityAssessment): number {
+  if (photoQuality.faceAreaRatio < 8) return 24;
+  if (
+    photoQuality.retryRecommended &&
+    photoQuality.faceAreaRatio < 12 &&
+    photoQuality.frontalScore < 50
+  ) {
+    return 18;
+  }
+  return 12;
+}
+
+function getLookalikeEmbeddingGapThreshold(photoQuality: PhotoQualityAssessment): number {
+  if (photoQuality.faceAreaRatio > 35 && photoQuality.sharpnessScore < 8) {
+    return 0;
+  }
+  return 0.015;
 }
 
 function ResultFallback() {
@@ -192,16 +219,21 @@ export default function DiagnosePage() {
 
         setProcessingStage('matching');
         await nextPaint();
-        const userHasEmbedding = detection.embedding.some((value) => value !== 0);
-        const activeEmbeddingStore = userHasEmbedding ? await ensureEmbeddingStore() : null;
+        const queryEmbeddings = [
+          detection.embedding,
+          ...(detection.alternateEmbeddings ?? []),
+        ].filter((embedding) => embedding.some((value) => value !== 0));
+        const activeEmbeddingStore = queryEmbeddings.length > 0 ? await ensureEmbeddingStore() : null;
         const lookalikeDetailWeight = getLookalikeDetailWeight(photoQuality);
+        const lookalikeCandidateCount = getLookalikeCandidateCount(photoQuality);
+        const embeddingGapThreshold = getLookalikeEmbeddingGapThreshold(photoQuality);
         const embeddingMatches =
-          activeEmbeddingStore && userHasEmbedding
-            ? findSimilarCelebrities(
-                detection.embedding,
+          activeEmbeddingStore && queryEmbeddings.length > 0
+            ? findSimilarCelebritiesByAnyEmbedding(
+                queryEmbeddings,
                 scoringCelebrities,
                 activeEmbeddingStore,
-                12,
+                lookalikeCandidateCount,
               )
             : [];
 
@@ -212,6 +244,7 @@ export default function DiagnosePage() {
                   const celebrity = scoringCelebrities[index];
                   return {
                     celebrity,
+                    embeddingSimilarity: similarity,
                     similarity: calculateHybridLookalikeSimilarity(
                       details,
                       rawScore,
@@ -221,7 +254,13 @@ export default function DiagnosePage() {
                     ),
                   };
                 })
-                .sort((a, b) => b.similarity - a.similarity)
+                .sort((a, b) => {
+                  const embeddingGap = b.embeddingSimilarity - a.embeddingSimilarity;
+                  if (Math.abs(embeddingGap) > embeddingGapThreshold) {
+                    return embeddingGap;
+                  }
+                  return b.similarity - a.similarity;
+                })
                 .slice(0, 5)
             : findSimilarCelebritiesByDetails(details, rawScore, scoringCelebrities, 5).map(
                 ({ index, similarity }) => ({

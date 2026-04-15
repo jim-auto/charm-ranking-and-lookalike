@@ -1,0 +1,19 @@
+{
+  "count": 432,
+  "success": 432,
+  "failed": 0,
+  "partial": true,
+  "selectedCount": 3,
+  "modeCounts": {
+    "normalized_thumbnail_crop": 3,
+    "full_thumbnail": 0,
+    "reused_existing": 429
+  },
+  "variantCount": 20,
+  "variantModeCounts": {
+    "normalized_input_photo_crop": 3,
+    "full_input_photo": 0,
+    "reused_existing": 17
+  },
+  "failures": []
+}
