@@ -1,0 +1,12 @@
+[
+  { "name": "東海オンエア りょう", "category": "youtuber", "gender": "male", "query": "Tokai On Air Ryo YouTuber" },
+  { "name": "東海オンエア 虫眼鏡", "category": "youtuber", "gender": "male", "query": "Tokai On Air Mushimegane YouTuber" },
+  { "name": "東海オンエア としみつ", "category": "youtuber", "gender": "male", "query": "Tokai On Air Toshimitsu YouTuber" },
+  { "name": "東海オンエア ゆめまる", "category": "youtuber", "gender": "male", "query": "Tokai On Air Yumemaru YouTuber" },
+  { "name": "東海オンエア しばゆー", "category": "youtuber", "gender": "male", "query": "Tokai On Air Shibayu YouTuber" },
+  { "name": "コムドット ひゅうが", "category": "youtuber", "gender": "male", "query": "Comdot Hyuga YouTuber" },
+  { "name": "コムドット ゆうた", "category": "youtuber", "gender": "male", "query": "Comdot Yuta YouTuber" },
+  { "name": "コムドット あむぎり", "category": "youtuber", "gender": "male", "query": "Comdot Amugiri YouTuber" },
+  { "name": "まあたそ", "category": "youtuber", "gender": "female", "query": "Maataso YouTuber Japan" },
+  { "name": "かす", "category": "youtuber", "gender": "female", "query": "Kasu YouTuber Japan" }
+]
