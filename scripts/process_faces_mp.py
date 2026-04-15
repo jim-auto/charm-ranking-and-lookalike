@@ -430,7 +430,17 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 
 def name_to_id(name: str) -> str:
-    return f"celeb_{hashlib.md5(name.encode('utf-8')).hexdigest()[:8]}"
+    canonical_name = canonicalize_name(name)
+    return f"celeb_{hashlib.md5(canonical_name.encode('utf-8')).hexdigest()[:8]}"
+
+
+CANONICAL_NAME_ALIASES = {
+    "\u30b3\u30e0\u30c9\u30c3\u30c8 \u3084\u307e\u3068": "\u30b3\u30e0\u30c9\u30c3\u30c8\u3084\u307e\u3068",
+}
+
+
+def canonicalize_name(name: str) -> str:
+    return CANONICAL_NAME_ALIASES.get(name, name)
 
 
 def find_images(directory: Path) -> List[Path]:
@@ -812,7 +822,7 @@ def main() -> None:
         with open(celebrities_json, "r", encoding="utf-8") as f:
             existing = json.load(f)
         inflate_existing_embeddings(output_dir, existing)
-        existing_names = {c["name"] for c in existing}
+        existing_names = {canonicalize_name(c["name"]) for c in existing}
         print(f"Loaded {len(existing)} existing celebrities")
 
     # Find new person directories
@@ -824,22 +834,22 @@ def main() -> None:
     selected_names = None
     if args.names:
         selected_names = {
-            name.strip()
+            canonicalize_name(name.strip())
             for name in args.names.split(",")
             if name.strip()
         }
     if args.names_file:
         with open(args.names_file, "r", encoding="utf-8-sig") as f:
-            file_names = {line.strip() for line in f if line.strip()}
+            file_names = {canonicalize_name(line.strip()) for line in f if line.strip()}
         selected_names = (selected_names or set()) | file_names
     if selected_names:
-        person_dirs = [d for d in person_dirs if d.name in selected_names]
+        person_dirs = [d for d in person_dirs if canonicalize_name(d.name) in selected_names]
 
     new_dirs = []
     for d in person_dirs:
         should_process = (
             args.force_all
-            or d.name not in existing_names
+            or canonicalize_name(d.name) not in existing_names
             or args.overwrite_existing
         )
         if not should_process:
@@ -871,7 +881,7 @@ def main() -> None:
     failed: List[str] = []
 
     for i, person_dir in enumerate(new_dirs):
-        name = person_dir.name
+        name = canonicalize_name(person_dir.name)
         images = find_images(person_dir)
         print(f"[{i+1}/{len(new_dirs)}] {name} ({len(images)} image(s))")
 

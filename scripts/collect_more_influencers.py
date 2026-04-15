@@ -8,7 +8,7 @@ CELEBRITIES = [
     # インフルエンサー (現在7人 → 10人以上に)
     ("渡辺直美", "influencer", "Naomi Watanabe comedian entertainer"),
     ("フワちゃん", "influencer", "Fuwachan YouTuber Japan"),
-    ("コムドット やまと", "influencer", "Comudotto Yamato YouTuber"),
+    ("コムドットやまと", "influencer", "Comudotto Yamato YouTuber"),
     ("東海オンエア てつや", "influencer", "Tokai On Air Tetsuya YouTuber"),
     ("水溜りボンド カンタ", "influencer", "Mizutamari Bond Kanta YouTuber"),
     ("ヒカル", "influencer", "Hikaru YouTuber Japan"),

@@ -19,6 +19,7 @@ PUBLIC_CATEGORY_PENALTIES = {
     "announcer": 0.0,
     "voiceactor": 2.0,
     "model": 0.0,
+    "idol": 0.5,
     "business": 8.0,
     "politician": 8.0,
     "shogi": 6.0,

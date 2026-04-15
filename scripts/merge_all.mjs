@@ -294,7 +294,7 @@ const META = {
   // インフルエンサー追加
   '渡辺直美': { age: 38, gender: 'female', sns: { instagram: 9500000, youtube: 1500000, twitter: 2000000 }, totalFollowers: 13000000 },
   'フワちゃん': { age: 31, gender: 'female', sns: { instagram: 1500000, twitter: 1000000, youtube: 1200000 }, totalFollowers: 3700000 },
-  'コムドット やまと': { age: 28, gender: 'male', sns: { youtube: 4000000, instagram: 2000000 }, totalFollowers: 6000000 },
+  'コムドットやまと': { age: 28, gender: 'male', sns: { youtube: 4000000, instagram: 2000000 }, totalFollowers: 6000000 },
   '東海オンエア てつや': { age: 33, gender: 'male', sns: { youtube: 7000000, twitter: 2000000 }, totalFollowers: 9000000 },
   '水溜りボンド カンタ': { age: 32, gender: 'male', sns: { youtube: 4000000 }, totalFollowers: 4000000 },
   'ヒカル': { age: 33, gender: 'male', sns: { youtube: 5000000, twitter: 2000000, instagram: 1500000 }, totalFollowers: 8500000 },
