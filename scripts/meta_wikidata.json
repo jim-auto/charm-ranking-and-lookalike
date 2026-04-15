@@ -1,4 +1,18 @@
 {
+  "????": {
+    "wikidataId": "Q11657733",
+    "wikipediaTitle": "???? (????)",
+    "gender": "male",
+    "birthDate": "1993-11-27",
+    "age": 32
+  },
+  "?????": {
+    "wikidataId": "Q17159515",
+    "wikipediaTitle": "?????",
+    "gender": "male",
+    "birthDate": "1984-07-09",
+    "age": 41
+  },
   "Ado": {
     "age": 23,
     "birthDate": "2002-10-24",
@@ -62,6 +76,11 @@
     "wikipediaTitle": "LiSA",
     "gender": "female"
   },
+  "milet": {
+    "wikidataId": "Q61989561",
+    "wikipediaTitle": "Milet",
+    "gender": "female"
+  },
   "NON STYLE井上": {
     "age": 46,
     "birthDate": "1980-03-01",
@@ -115,6 +134,13 @@
     "wikipediaTitle": "オカダ・カズチカ",
     "gender": "male"
   },
+  "カジサック": {
+    "age": 45,
+    "birthDate": "1980-08-07",
+    "wikidataId": "Q11538848",
+    "wikipediaTitle": "梶原雄太",
+    "gender": "male"
+  },
   "カンニング竹山": {
     "age": 55,
     "birthDate": "1971-03-30",
@@ -127,6 +153,13 @@
     "birthDate": "1972-07-04",
     "wikidataId": "Q8978885",
     "wikipediaTitle": "ケンドーコバヤシ",
+    "gender": "male"
+  },
+  "コレコレ": {
+    "age": 36,
+    "birthDate": "1989-08-12",
+    "wikidataId": "Q97456323",
+    "wikipediaTitle": "コレコレ",
     "gender": "male"
   },
   "ザッケローニ": {
@@ -185,6 +218,20 @@
     "wikipediaTitle": "デヴィ・スカルノ",
     "gender": "female"
   },
+  "デカキン": {
+    "age": 40,
+    "birthDate": "1985-06-04",
+    "wikidataId": "Q107727491",
+    "wikipediaTitle": "デカキン",
+    "gender": "male"
+  },
+  "てんちむ": {
+    "age": 32,
+    "birthDate": "1993-11-19",
+    "wikidataId": "Q11121896",
+    "wikipediaTitle": "橋本甜歌",
+    "gender": "female"
+  },
   "とにかく明るい安村": {
     "age": 44,
     "birthDate": "1982-03-15",
@@ -198,6 +245,13 @@
     "wikidataId": "Q995432",
     "wikipediaTitle": "矢部浩之",
     "gender": "male"
+  },
+  "なえなの": {
+    "age": 25,
+    "birthDate": "2001-01-14",
+    "wikidataId": "Q96756282",
+    "wikipediaTitle": "なえなの",
+    "gender": "female"
   },
   "バイきんぐ小峠": {
     "age": 49,
@@ -246,6 +300,13 @@
     "wikipediaTitle": "野田クリスタル",
     "gender": "male"
   },
+  "まふまふ": {
+    "age": 34,
+    "birthDate": "1991-10-18",
+    "wikidataId": "Q28690194",
+    "wikipediaTitle": "まふまふ",
+    "gender": "male"
+  },
   "やす子": {
     "age": 27,
     "birthDate": "1998-09-02",
@@ -259,6 +320,13 @@
     "wikidataId": "Q17209132",
     "wikipediaTitle": "ゆりやんレトリィバァ",
     "gender": "female"
+  },
+  "ラウール": {
+    "wikidataId": "Q66828598",
+    "wikipediaTitle": "ラウール (アイドル)",
+    "gender": "male",
+    "birthDate": "2003-06-27",
+    "age": 22
   },
   "リリー・フランキー": {
     "age": 62,
@@ -301,6 +369,13 @@
     "wikidataId": "Q845316",
     "wikipediaTitle": "阿部慎之助",
     "gender": "male"
+  },
+  "阿部亮平": {
+    "wikidataId": "Q11657733",
+    "wikipediaTitle": "阿部亮平 (アイドル)",
+    "gender": "male",
+    "birthDate": "1993-11-27",
+    "age": 32
   },
   "旭秀鵬滉規": {
     "age": 37,
@@ -439,6 +514,13 @@
     "wikipediaTitle": "隠岐の海歩",
     "gender": "male"
   },
+  "宇垣美里": {
+    "age": 34,
+    "birthDate": "1991-04-16",
+    "wikidataId": "Q18225706",
+    "wikipediaTitle": "宇垣美里",
+    "gender": "female"
+  },
   "宇多田ヒカル": {
     "age": 43,
     "birthDate": "1983-01-19",
@@ -550,6 +632,20 @@
     "wikipediaTitle": "岡本和真",
     "gender": "male"
   },
+  "下野紘": {
+    "age": 45,
+    "birthDate": "1980-04-21",
+    "wikidataId": "Q1192799",
+    "wikipediaTitle": "下野紘",
+    "gender": "male"
+  },
+  "加藤綾子": {
+    "age": 40,
+    "birthDate": "1985-04-23",
+    "wikidataId": "Q8977663",
+    "wikipediaTitle": "加藤綾子",
+    "gender": "female"
+  },
   "加藤浩次": {
     "age": 56,
     "birthDate": "1969-04-26",
@@ -578,6 +674,13 @@
     "wikipediaTitle": "河村勇輝",
     "gender": "male"
   },
+  "花澤香菜": {
+    "age": 37,
+    "birthDate": "1989-02-25",
+    "wikidataId": "Q49524",
+    "wikipediaTitle": "花澤香菜",
+    "gender": "female"
+  },
   "臥牙丸勝": {
     "age": 39,
     "birthDate": "1987-02-23",
@@ -605,6 +708,13 @@
     "wikidataId": "Q27917959",
     "wikipediaTitle": "角田夏実",
     "gender": "female"
+  },
+  "梶裕貴": {
+    "age": 40,
+    "birthDate": "1985-09-03",
+    "wikidataId": "Q1369257",
+    "wikipediaTitle": "梶裕貴",
+    "gender": "male"
   },
   "葛西紀明": {
     "age": 53,
@@ -676,6 +786,13 @@
     "wikipediaTitle": "貴乃花光司",
     "gender": "male"
   },
+  "鬼頭明里": {
+    "age": 31,
+    "birthDate": "1994-10-16",
+    "wikidataId": "Q20039636",
+    "wikipediaTitle": "鬼頭明里",
+    "gender": "female"
+  },
   "亀田大毅": {
     "age": 37,
     "birthDate": "1989-01-06",
@@ -723,6 +840,13 @@
     "birthDate": "1982-10-05",
     "wikidataId": "Q230985",
     "wikipediaTitle": "吉田沙保里",
+    "gender": "female"
+  },
+  "久慈暁子": {
+    "age": 31,
+    "birthDate": "1994-07-13",
+    "wikidataId": "Q17129821",
+    "wikipediaTitle": "久慈暁子",
     "gender": "female"
   },
   "久保建英": {
@@ -959,6 +1083,13 @@
     "wikipediaTitle": "広瀬すず",
     "gender": "female"
   },
+  "弘中綾香": {
+    "age": 35,
+    "birthDate": "1991-02-12",
+    "wikidataId": "Q14755044",
+    "wikipediaTitle": "弘中綾香",
+    "gender": "female"
+  },
   "荒川静香": {
     "age": 44,
     "birthDate": "1981-12-29",
@@ -1070,6 +1201,13 @@
     "wikidataId": "Q20040262",
     "wikipediaTitle": "佐久間大介",
     "gender": "male"
+  },
+  "佐倉綾音": {
+    "age": 32,
+    "birthDate": "1994-01-29",
+    "wikidataId": "Q871452",
+    "wikipediaTitle": "佐倉綾音",
+    "gender": "female"
   },
   "佐藤輝明": {
     "age": 27,
@@ -1392,11 +1530,25 @@
     "wikipediaTitle": "小芝風花",
     "gender": "female"
   },
+  "小松菜奈": {
+    "age": 30,
+    "birthDate": "1996-02-16",
+    "wikidataId": "Q11461244",
+    "wikipediaTitle": "小松菜奈",
+    "gender": "female"
+  },
   "小川航基": {
     "age": 28,
     "birthDate": "1997-08-08",
     "wikidataId": "Q22127681",
     "wikipediaTitle": "小川航基",
+    "gender": "male"
+  },
+  "小泉進次郎": {
+    "age": 45,
+    "birthDate": "1981-04-14",
+    "wikidataId": "Q661410",
+    "wikipediaTitle": "小泉進次郎",
     "gender": "male"
   },
   "小島よしお": {
@@ -1567,11 +1719,25 @@
     "wikipediaTitle": "新垣結衣",
     "gender": "female"
   },
+  "新木優子": {
+    "age": 32,
+    "birthDate": "1993-12-15",
+    "wikidataId": "Q11502513",
+    "wikipediaTitle": "新木優子",
+    "gender": "female"
+  },
   "森七菜": {
     "age": 24,
     "birthDate": "2001-08-31",
     "wikidataId": "Q30937368",
     "wikipediaTitle": "森七菜",
+    "gender": "female"
+  },
+  "森星": {
+    "age": 33,
+    "birthDate": "1992-04-22",
+    "wikidataId": "Q11539730",
+    "wikipediaTitle": "森星",
     "gender": "female"
   },
   "森田ひかる": {
@@ -1616,12 +1782,26 @@
     "wikipediaTitle": "秦基博",
     "gender": "male"
   },
+  "水瀬いのり": {
+    "age": 30,
+    "birthDate": "1995-12-02",
+    "wikidataId": "Q11548933",
+    "wikipediaTitle": "水瀬いのり",
+    "gender": "female"
+  },
   "水谷隼": {
     "age": 36,
     "birthDate": "1989-06-09",
     "wikidataId": "Q1332747",
     "wikipediaTitle": "水谷隼",
     "gender": "male"
+  },
+  "水卜麻美": {
+    "age": 39,
+    "birthDate": "1987-04-10",
+    "wikidataId": "Q9007552",
+    "wikipediaTitle": "水卜麻美",
+    "gender": "female"
   },
   "杉野遥亮": {
     "age": 30,
@@ -1678,6 +1858,13 @@
     "wikidataId": "Q20040660",
     "wikipediaTitle": "正代直也",
     "gender": "male"
+  },
+  "清水依与吏": {
+    "wikidataId": "Q17159515",
+    "wikipediaTitle": "清水依与吏",
+    "gender": "male",
+    "birthDate": "1984-07-09",
+    "age": 41
   },
   "生見愛瑠": {
     "age": 24,
@@ -1887,6 +2074,13 @@
     "birthDate": "1971-06-14",
     "wikidataId": "Q845592",
     "wikipediaTitle": "前田智徳",
+    "gender": "male"
+  },
+  "前澤友作": {
+    "age": 50,
+    "birthDate": "1975-11-22",
+    "wikidataId": "Q8061829",
+    "wikipediaTitle": "前澤友作",
     "gender": "male"
   },
   "双葉山定次": {
@@ -2104,12 +2298,26 @@
     "wikipediaTitle": "中山雅史",
     "gender": "male"
   },
+  "中条あやみ": {
+    "age": 29,
+    "birthDate": "1997-02-04",
+    "wikidataId": "Q11366131",
+    "wikipediaTitle": "中条あやみ",
+    "gender": "female"
+  },
   "中川家礼二": {
     "age": 54,
     "birthDate": "1972-01-19",
     "wikidataId": "Q11364917",
     "wikipediaTitle": "礼二",
     "gender": "male"
+  },
+  "中川大志": {
+    "wikidataId": "Q6912627",
+    "wikipediaTitle": "中川大志 (俳優)",
+    "gender": "male",
+    "birthDate": "1998-06-14",
+    "age": 27
   },
   "中村俊輔": {
     "age": 47,
@@ -2250,6 +2458,13 @@
     "wikipediaTitle": "田中樹",
     "gender": "male"
   },
+  "田中瞳": {
+    "age": 29,
+    "birthDate": "1996-09-16",
+    "wikidataId": "Q55524802",
+    "wikipediaTitle": "田中瞳 (アナウンサー)",
+    "gender": "female"
+  },
   "渡部建": {
     "age": 53,
     "birthDate": "1972-09-23",
@@ -2324,6 +2539,13 @@
     "birthDate": "1962-07-11",
     "wikidataId": "Q2407643",
     "wikipediaTitle": "藤井フミヤ",
+    "gender": "male"
+  },
+  "藤井聡太": {
+    "age": 23,
+    "birthDate": "2002-07-19",
+    "wikidataId": "Q27150862",
+    "wikipediaTitle": "藤井聡太",
     "gender": "male"
   },
   "藤井風": {
@@ -2402,6 +2624,13 @@
     "wikidataId": "Q24040",
     "wikipediaTitle": "内山高志",
     "gender": "male"
+  },
+  "内田真礼": {
+    "age": 36,
+    "birthDate": "1989-12-27",
+    "wikidataId": "Q44552",
+    "wikipediaTitle": "内田真礼",
+    "gender": "female"
   },
   "内藤哲也": {
     "age": 43,
@@ -2535,6 +2764,13 @@
     "wikidataId": "Q21286402",
     "wikipediaTitle": "冨安健洋",
     "gender": "male"
+  },
+  "冨永愛": {
+    "age": 43,
+    "birthDate": "1982-08-01",
+    "wikidataId": "Q1638484",
+    "wikipediaTitle": "冨永愛",
+    "gender": "female"
   },
   "布袋寅泰": {
     "age": 64,
@@ -2695,6 +2931,13 @@
     "birthDate": "1990-10-12",
     "wikidataId": "Q6451952",
     "wikipediaTitle": "堀口恭司",
+    "gender": "male"
+  },
+  "堀江貴文": {
+    "age": 53,
+    "birthDate": "1972-10-29",
+    "wikidataId": "Q1193093",
+    "wikipediaTitle": "堀江貴文",
     "gender": "male"
   },
   "本田圭佑": {
@@ -2858,6 +3101,13 @@
     "wikipediaTitle": "鈴木亮平 (俳優)",
     "gender": "male"
   },
+  "蓮舫": {
+    "age": 58,
+    "birthDate": "1967-11-28",
+    "wikidataId": "Q465290",
+    "wikipediaTitle": "蓮舫",
+    "gender": "female"
+  },
   "狼雅外喜義": {
     "age": 27,
     "birthDate": "1999-03-02",
@@ -2906,52 +3156,5 @@
     "wikidataId": "Q847386",
     "wikipediaTitle": "槇原敬之",
     "gender": "male"
-  },
-  "????": {
-    "wikidataId": "Q11657733",
-    "wikipediaTitle": "???? (????)",
-    "gender": "male",
-    "birthDate": "1993-11-27",
-    "age": 32
-  },
-  "milet": {
-    "wikidataId": "Q61989561",
-    "wikipediaTitle": "Milet",
-    "gender": "female"
-  },
-  "?????": {
-    "wikidataId": "Q17159515",
-    "wikipediaTitle": "?????",
-    "gender": "male",
-    "birthDate": "1984-07-09",
-    "age": 41
-  },
-  "中川大志": {
-    "wikidataId": "Q6912627",
-    "wikipediaTitle": "中川大志 (俳優)",
-    "gender": "male",
-    "birthDate": "1998-06-14",
-    "age": 27
-  },
-  "ラウール": {
-    "wikidataId": "Q66828598",
-    "wikipediaTitle": "ラウール (アイドル)",
-    "gender": "male",
-    "birthDate": "2003-06-27",
-    "age": 22
-  },
-  "阿部亮平": {
-    "wikidataId": "Q11657733",
-    "wikipediaTitle": "阿部亮平 (アイドル)",
-    "gender": "male",
-    "birthDate": "1993-11-27",
-    "age": 32
-  },
-  "清水依与吏": {
-    "wikidataId": "Q17159515",
-    "wikipediaTitle": "清水依与吏",
-    "gender": "male",
-    "birthDate": "1984-07-09",
-    "age": 41
   }
 }

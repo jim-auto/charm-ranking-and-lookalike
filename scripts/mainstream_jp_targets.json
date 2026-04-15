@@ -103,12 +103,18 @@
 
   { "name": "HIKAKIN", "category": "youtuber", "gender": "male", "query": "HIKAKIN YouTuber" },
   { "name": "はじめしゃちょー", "category": "youtuber", "gender": "male", "query": "Hajime Syacho YouTuber" },
+  { "name": "ヒカル", "category": "youtuber", "gender": "male", "query": "Hikaru YouTuber Japan" },
+  { "name": "カジサック", "category": "youtuber", "gender": "male", "query": "Kajisac comedian YouTuber" },
+  { "name": "てんちむ", "category": "youtuber", "gender": "female", "query": "Tenchim YouTuber" },
+  { "name": "なえなの", "category": "youtuber", "gender": "female", "query": "Naenano YouTuber" },
   { "name": "フワちゃん", "category": "youtuber", "gender": "female", "query": "Fuwachan YouTuber Japan" },
   { "name": "東海オンエア てつや", "category": "youtuber", "gender": "male", "query": "Tokai On Air Tetsuya YouTuber" },
   { "name": "水溜りボンド カンタ", "category": "youtuber", "gender": "male", "query": "Mizutamari Bond Kanta YouTuber" },
   { "name": "ゆきりぬ", "category": "youtuber", "gender": "female", "query": "Yukirinu YouTuber" },
+  { "name": "コレコレ", "category": "youtuber", "gender": "male", "query": "Korekore YouTuber" },
+  { "name": "デカキン", "category": "youtuber", "gender": "male", "query": "Dekakin YouTuber" },
   { "name": "藤田ニコル", "category": "influencer", "gender": "female" },
   { "name": "池田美優", "category": "influencer", "gender": "female", "query": "Ikeda Miyu model" },
-  { "name": "kemio", "category": "influencer", "gender": "male", "query": "kemio influencer" },
+  { "name": "kemio", "category": "youtuber", "gender": "male", "query": "kemio YouTuber Japan" },
   { "name": "コムドットやまと", "category": "youtuber", "gender": "male", "query": "Comdot Yamato YouTuber" }
 ]

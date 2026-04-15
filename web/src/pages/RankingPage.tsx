@@ -151,15 +151,21 @@ export default function RankingPage() {
     [allMetricDistributions],
   );
 
-  const categoryFilters = useMemo(() => {
+  const categoryFilters = useMemo<Array<{ value: string; label: string; count: number }>>(() => {
+    const counts = visibleCelebrities.reduce<Record<string, number>>((acc, celebrity) => {
+      if (!celebrity.category) return acc;
+      acc[celebrity.category] = (acc[celebrity.category] ?? 0) + 1;
+      return acc;
+    }, {});
     const values = Array.from(
       new Set(visibleCelebrities.map((c) => c.category).filter(Boolean)),
     ).sort(sortCategoryValues);
     return [
-      { value: '', label: 'すべて' },
+      { value: '', label: 'すべて', count: visibleCelebrities.length },
       ...values.map((value) => ({
         value,
         label: categoryLabels[value] ?? value,
+        count: counts[value] ?? 0,
       })),
     ];
   }, [visibleCelebrities]);
@@ -265,7 +271,7 @@ export default function RankingPage() {
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
-            {filter.label}
+            {filter.label} ({filter.count})
           </button>
         ))}
       </div>
