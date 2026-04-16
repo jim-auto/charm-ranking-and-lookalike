@@ -34,37 +34,6 @@ function formatScore(value: number): string {
   return Number.isInteger(value) ? String(value) : value.toFixed(1);
 }
 
-function ShareButtons({ score, celebrityScore, topMatch }: { score: number; celebrityScore: number; topMatch?: string }) {
-  const siteUrl = 'https://jim-auto.github.io/charm-ranking-and-lookalike/';
-  const text = topMatch
-    ? `AI顔診断の結果！\n一般偏差値: ${formatScore(score)}\n芸能人偏差値: ${formatScore(celebrityScore)}\n似てる芸能人: ${topMatch}`
-    : `AI顔診断の結果！\n一般偏差値: ${formatScore(score)}\n芸能人偏差値: ${formatScore(celebrityScore)}`;
-
-  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(siteUrl)}`;
-  const lineUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(siteUrl)}&text=${encodeURIComponent(text)}`;
-
-  return (
-    <div className="flex justify-center gap-3">
-      <a
-        href={twitterUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="rounded-lg bg-slate-700 px-4 py-2 text-sm font-medium text-slate-200 transition-colors hover:bg-slate-600"
-      >
-        Xでシェア
-      </a>
-      <a
-        href={lineUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="rounded-lg bg-[#06C755] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#05b04c]"
-      >
-        LINEでシェア
-      </a>
-    </div>
-  );
-}
-
 export default function LookalikeResult({
   score,
   celebrityScore,
@@ -93,14 +62,6 @@ export default function LookalikeResult({
         </div>
         <div className="mt-4 flex justify-center">
           <ScoreRadar details={details} size="md" />
-        </div>
-
-        <div className="mt-5">
-          <ShareButtons
-            score={score}
-            celebrityScore={celebrityScore}
-            topMatch={lookalikes[0]?.celebrity.name}
-          />
         </div>
 
         <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-4">
