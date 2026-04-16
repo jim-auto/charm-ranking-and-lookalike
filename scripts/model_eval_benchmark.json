@@ -329,6 +329,7 @@
     {
       "label": "male_top10_no_creator_leakage",
       "gender": "male",
+      "max_age": 39,
       "top_n": 10,
       "forbidden_categories": [
         "youtuber",
@@ -340,6 +341,7 @@
     {
       "label": "male_top15_no_creator_leakage",
       "gender": "male",
+      "max_age": 39,
       "top_n": 15,
       "forbidden_categories": [
         "youtuber",
@@ -351,6 +353,7 @@
     {
       "label": "female_top10_no_creator_leakage",
       "gender": "female",
+      "max_age": 39,
       "top_n": 10,
       "forbidden_categories": [
         "youtuber",
@@ -362,6 +365,7 @@
     {
       "label": "female_top15_no_creator_leakage",
       "gender": "female",
+      "max_age": 39,
       "top_n": 15,
       "forbidden_categories": [
         "youtuber",
@@ -373,6 +377,7 @@
     {
       "label": "female_top15_no_creator_leakage_v2",
       "gender": "female",
+      "max_age": 39,
       "top_n": 15,
       "forbidden_categories": [
         "youtuber",
@@ -383,6 +388,7 @@
     },
     {
       "label": "overall_top20_no_creator_leakage",
+      "max_age": 39,
       "top_n": 20,
       "forbidden_categories": [
         "youtuber",
@@ -394,6 +400,7 @@
     {
       "label": "male_top10_has_enough_core_actors",
       "gender": "male",
+      "max_age": 39,
       "top_n": 10,
       "must_include": [
         "吉沢亮",
@@ -409,6 +416,7 @@
     {
       "label": "male_top20_has_enough_core_actors",
       "gender": "male",
+      "max_age": 39,
       "top_n": 20,
       "must_include": [
         "吉沢亮",
@@ -427,6 +435,7 @@
     {
       "label": "female_top10_has_enough_core_actresses",
       "gender": "female",
+      "max_age": 39,
       "top_n": 10,
       "must_include": [
         "永野芽郁",
@@ -440,6 +449,7 @@
     },
     {
       "label": "actress_top10_stays_actress_like",
+      "max_age": 39,
       "categories": [
         "actress"
       ],
@@ -457,6 +467,7 @@
     },
     {
       "label": "idol_top10_stays_idol_like",
+      "max_age": 39,
       "categories": [
         "idol"
       ],
@@ -475,6 +486,7 @@
     },
     {
       "label": "artist_top8_stays_artist_like",
+      "max_age": 39,
       "categories": [
         "artist"
       ],
@@ -493,6 +505,7 @@
     {
       "label": "male_top5_has_actor_or_idol_core",
       "gender": "male",
+      "max_age": 39,
       "top_n": 5,
       "must_include": [
         "吉沢亮",
