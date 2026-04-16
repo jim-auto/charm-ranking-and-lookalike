@@ -36,6 +36,7 @@ PUBLIC_CATEGORY_PENALTIES = {
 PUBLIC_SCORE_ADJUSTMENTS = {
     "橋本環奈": 6.5,
     "石原さとみ": 2.5,
+    "渡邉理佐": -2.5,
     "米津玄師": -4.0,
     "あいみょん": -4.0,
     "優里": 8.0,

@@ -26,6 +26,7 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
 const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   橋本環奈: 6.5,
   石原さとみ: 2.5,
+  渡邉理佐: -2.5,
   米津玄師: -4.0,
   あいみょん: -4.0,
   優里: 8.0,
