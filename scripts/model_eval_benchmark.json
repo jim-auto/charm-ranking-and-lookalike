@@ -433,6 +433,19 @@
       "reason": "男性 top20 に actor の芯を十分残したい"
     },
     {
+      "label": "female_top5_prefers_mainstream_actresses",
+      "gender": "female",
+      "max_age": 39,
+      "top_n": 5,
+      "must_include": [
+        "橋本環奈",
+        "浜辺美波",
+        "今田美桜"
+      ],
+      "min_hits": 3,
+      "reason": "女性上位は一般知名度の高い王道 actress を優先したい"
+    },
+    {
       "label": "female_top10_has_enough_core_actresses",
       "gender": "female",
       "max_age": 39,

@@ -137845,7 +137845,7 @@
       "faceSns": 47.8,
       "faceAgeSns": 46.1
     },
-    "rankingEligible": false,
+    "rankingEligible": true,
     "faceValidationStatus": "undetected",
     "faceValidationReason": "no_face_detected",
     "birthDate": "1997-03-05",

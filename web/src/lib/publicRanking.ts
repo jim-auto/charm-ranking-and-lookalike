@@ -24,7 +24,9 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
 /** Editorial score adjustments for celebrities whose algorithmic score
  *  significantly diverges from public perception of attractiveness. */
 const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
-  橋本環奈: 6.5,
+  橋本環奈: 8.5,
+  浜辺美波: 12.0,
+  今田美桜: 23.0,
   石原さとみ: 2.5,
   渡邉理佐: -2.5,
   米津玄師: -4.0,
