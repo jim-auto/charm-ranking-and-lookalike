@@ -18,7 +18,7 @@ const PUBLIC_CATEGORY_PENALTIES: Record<string, number> = {
   cultural: 8.0,
   prowrestler: 6.0,
   musician: 4.0,
-  athlete: 3.0,
+  athlete: 4.0,
 };
 
 /** Editorial score adjustments for celebrities whose algorithmic score

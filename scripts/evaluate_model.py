@@ -30,7 +30,7 @@ PUBLIC_CATEGORY_PENALTIES = {
     "cultural": 8.0,
     "prowrestler": 6.0,
     "musician": 4.0,
-    "athlete": 3.0,
+    "athlete": 4.0,
 }
 
 PUBLIC_SCORE_ADJUSTMENTS = {

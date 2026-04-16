@@ -1,13 +1,13 @@
 {
-  "count": 565,
-  "success": 565,
+  "count": 607,
+  "success": 607,
   "failed": 0,
   "partial": true,
-  "selectedCount": 40,
+  "selectedCount": 42,
   "modeCounts": {
-    "normalized_thumbnail_crop": 30,
-    "full_thumbnail": 6,
-    "reused_existing": 529
+    "normalized_thumbnail_crop": 42,
+    "full_thumbnail": 0,
+    "reused_existing": 565
   },
   "variantCount": 21,
   "variantModeCounts": {
