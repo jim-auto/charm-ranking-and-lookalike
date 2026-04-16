@@ -137821,13 +137821,14 @@
     "id": "celeb_a6a7558e",
     "name": "今田美桜",
     "category": "actress",
-    "score": 39.1,
+    "score": 61.3,
     "details": {
-      "golden_ratio": 31,
-      "eyes": 66,
-      "nose": 47,
-      "mouth": 43,
-      "contour": 49,
+      "symmetry": 67,
+      "golden_ratio": 57,
+      "eyes": 91,
+      "nose": 38,
+      "mouth": 86,
+      "contour": 47,
       "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_a6a7558e.jpg",
@@ -137840,14 +137841,14 @@
     },
     "totalFollowers": 6500000,
     "scores": {
-      "face": 39.1,
-      "faceAge": 36.7,
-      "faceSns": 47.8,
-      "faceAgeSns": 46.1
+      "face": 61.3,
+      "faceAge": 60.1,
+      "faceSns": 63.3,
+      "faceAgeSns": 62.5
     },
     "rankingEligible": true,
-    "faceValidationStatus": "undetected",
-    "faceValidationReason": "no_face_detected",
+    "faceValidationStatus": "accepted",
+    "faceValidationReason": "ok",
     "birthDate": "1997-03-05",
     "embedding": [
       -0.04699474573135376,
@@ -137981,7 +137982,9 @@
     ],
     "rankingExclusionReasons": [
       "おすすめ表示では偏差値 30.0 が低いため除外"
-    ]
+    ],
+    "faceValidationSource": "face_recognition",
+    "embeddingCount": 3
   },
   {
     "id": "celeb_18dcaf87",
