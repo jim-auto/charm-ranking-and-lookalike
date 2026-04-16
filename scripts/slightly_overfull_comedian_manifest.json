@@ -1,0 +1,38 @@
+[
+  {
+    "name": "令和ロマン 高比良くるま",
+    "category": "comedian",
+    "gender": "male",
+    "query": "令和ロマン 高比良くるま 芸人"
+  },
+  {
+    "name": "令和ロマン 松井ケムリ",
+    "category": "comedian",
+    "gender": "male",
+    "query": "令和ロマン 松井ケムリ 芸人"
+  },
+  {
+    "name": "真空ジェシカ ガク",
+    "category": "comedian",
+    "gender": "male",
+    "query": "真空ジェシカ ガク 芸人"
+  },
+  {
+    "name": "真空ジェシカ 川北茂澄",
+    "category": "comedian",
+    "gender": "male",
+    "query": "真空ジェシカ 川北茂澄 芸人"
+  },
+  {
+    "name": "3時のヒロイン 福田麻貴",
+    "category": "comedian",
+    "gender": "female",
+    "query": "3時のヒロイン 福田麻貴 芸人"
+  },
+  {
+    "name": "ぼる塾 あんり",
+    "category": "comedian",
+    "gender": "female",
+    "query": "ぼる塾 あんり 芸人"
+  }
+]

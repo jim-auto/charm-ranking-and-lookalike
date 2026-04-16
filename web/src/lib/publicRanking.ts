@@ -53,6 +53,7 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   窪田正孝: 2.0,
   佐野勇斗: 2.0,
   宮世琉弥: 2.5,
+  ['稲葉浩志']: -2.0,
 };
 
 export function getPublicRankingCategoryPenalty(category?: string): number {

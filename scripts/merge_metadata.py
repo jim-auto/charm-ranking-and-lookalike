@@ -24,6 +24,7 @@ INPUT_DIRS = [
 DATA_DIR = SCRIPT_DIR.parent / "web" / "public" / "data"
 META_FILE = SCRIPT_DIR / "meta_backup.json"
 WIKIDATA_META_FILE = SCRIPT_DIR / "meta_wikidata.json"
+MANUAL_META_FILE = SCRIPT_DIR / "meta_manual_overrides.json"
 FACE_AUDIT_FILE = SCRIPT_DIR / "face_audit_report.json"
 MAINSTREAM_TARGETS_FILE = SCRIPT_DIR / "mainstream_jp_targets.json"
 MERGE_ALL_FILE = SCRIPT_DIR / "merge_all.mjs"
@@ -212,45 +213,47 @@ def load_merge_all_metadata(path: Path) -> dict[str, dict]:
     return metadata
 
 
-def apply_metadata_entry(cel: dict, meta: dict) -> bool:
+def apply_metadata_entry(cel: dict, meta: dict, *, overwrite: bool = False) -> bool:
     changed = False
 
     category = meta.get("category")
     if isinstance(category, str) and category and (
-        not cel.get("category") or cel.get("category") == "actor"
+        overwrite or not cel.get("category") or cel.get("category") == "actor"
     ):
         cel["category"] = category
         changed = True
 
     gender = normalize_gender(meta.get("gender"))
-    if gender and normalize_gender(cel.get("gender")) != gender:
+    if gender and (overwrite or normalize_gender(cel.get("gender")) != gender):
         cel["gender"] = gender
         changed = True
 
     birth_date = meta.get("birthDate")
-    if isinstance(birth_date, str) and birth_date and not cel.get("birthDate"):
+    if isinstance(birth_date, str) and birth_date and (overwrite or not cel.get("birthDate")):
         cel["birthDate"] = birth_date
         changed = True
 
     age = meta.get("age")
-    if isinstance(age, int) and cel.get("age") is None:
+    if isinstance(age, int) and (overwrite or cel.get("age") is None):
         cel["age"] = age
         changed = True
 
     sns = meta.get("sns")
-    if isinstance(sns, dict) and sns and not cel.get("sns"):
+    if isinstance(sns, dict) and sns and (overwrite or not cel.get("sns")):
         cel["sns"] = sns
         changed = True
 
     total_followers = meta.get("totalFollowers")
     if isinstance(total_followers, int) and (
-        not isinstance(cel.get("totalFollowers"), int) or cel.get("totalFollowers", 0) <= 0
+        overwrite
+        or not isinstance(cel.get("totalFollowers"), int)
+        or cel.get("totalFollowers", 0) <= 0
     ):
         cel["totalFollowers"] = total_followers
         changed = True
 
     group = meta.get("group")
-    if isinstance(group, str) and group and not cel.get("group"):
+    if isinstance(group, str) and group and (overwrite or not cel.get("group")):
         cel["group"] = group
         changed = True
 
@@ -342,6 +345,7 @@ mainstream_targets = load_mainstream_targets(MAINSTREAM_TARGETS_FILE)
 merge_all_meta = load_merge_all_metadata(MERGE_ALL_FILE)
 meta_backup = load_json_if_exists(META_FILE)
 meta_wikidata = load_json_if_exists(WIKIDATA_META_FILE)
+manual_meta = load_json_if_exists(MANUAL_META_FILE)
 face_audit_entries = load_face_audit_entries(FACE_AUDIT_FILE)
 
 updated = 0
@@ -360,6 +364,9 @@ for cel in celebrities:
     ):
         if isinstance(source, dict):
             applied = apply_metadata_entry(cel, source) or applied
+    manual_source = manual_meta.get(name)
+    if isinstance(manual_source, dict):
+        applied = apply_metadata_entry(cel, manual_source, overwrite=True) or applied
     if applied:
         updated += 1
 

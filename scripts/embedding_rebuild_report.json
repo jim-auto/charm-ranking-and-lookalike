@@ -1,19 +1,19 @@
 {
-  "count": 432,
-  "success": 432,
+  "count": 565,
+  "success": 565,
   "failed": 0,
   "partial": true,
-  "selectedCount": 3,
+  "selectedCount": 40,
   "modeCounts": {
-    "normalized_thumbnail_crop": 3,
-    "full_thumbnail": 0,
-    "reused_existing": 429
+    "normalized_thumbnail_crop": 30,
+    "full_thumbnail": 6,
+    "reused_existing": 529
   },
-  "variantCount": 20,
+  "variantCount": 21,
   "variantModeCounts": {
-    "normalized_input_photo_crop": 3,
+    "normalized_input_photo_crop": 0,
     "full_input_photo": 0,
-    "reused_existing": 17
+    "reused_existing": 40
   },
   "failures": []
 }

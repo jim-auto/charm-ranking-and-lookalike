@@ -27,6 +27,26 @@
     "wikipediaTitle": "EXILE TAKAHIRO",
     "gender": "male"
   },
+  "Fischer's シルクロード": {
+    "age": 31,
+    "birthDate": "1994-08-19",
+    "gender": "male"
+  },
+  "Fischer's マサイ": {
+    "age": 31,
+    "birthDate": "1995-01-12",
+    "gender": "male"
+  },
+  "Fischer's モトキ": {
+    "age": 31,
+    "birthDate": "1994-09-03",
+    "gender": "male"
+  },
+  "Fischer's ンダホ": {
+    "age": 31,
+    "birthDate": "1994-08-04",
+    "gender": "male"
+  },
   "GACKT": {
     "age": 52,
     "birthDate": "1973-07-04",
@@ -40,66 +60,6 @@
     "wikidataId": "Q11222605",
     "wikipediaTitle": "HIKAKIN",
     "gender": "male"
-  },
-  "Fischer's シルクロード": {
-    "age": 31,
-    "birthDate": "1994-08-19",
-    "gender": "male"
-  },
-  "Fischer's ンダホ": {
-    "age": 31,
-    "birthDate": "1994-08-04",
-    "gender": "male"
-  },
-  "Fischer's モトキ": {
-    "age": 31,
-    "birthDate": "1994-09-03",
-    "gender": "male"
-  },
-  "Fischer's マサイ": {
-    "age": 31,
-    "birthDate": "1995-01-12",
-    "gender": "male"
-  },
-  "スカイピース テオくん": {
-    "age": 30,
-    "birthDate": "1995-07-24",
-    "gender": "male"
-  },
-  "スカイピース ☆イニ☆": {
-    "age": 30,
-    "birthDate": "1995-10-27",
-    "gender": "male"
-  },
-  "平成フラミンゴ NICO": {
-    "age": 31,
-    "birthDate": "1995-02-05",
-    "gender": "female"
-  },
-  "平成フラミンゴ RIHO": {
-    "age": 32,
-    "birthDate": "1994-04-13",
-    "gender": "female"
-  },
-  "ばんばんざい ぎし": {
-    "age": 27,
-    "birthDate": "1998-10-22",
-    "gender": "male"
-  },
-  "ばんばんざい みゆ": {
-    "age": 27,
-    "birthDate": "1999-03-30",
-    "gender": "female"
-  },
-  "ばんばんざい るな": {
-    "age": 24,
-    "birthDate": "2002-02-11",
-    "gender": "female"
-  },
-  "きりたんぽ": {
-    "age": 27,
-    "birthDate": "1998-08-16",
-    "gender": "female"
   },
   "JUJU": {
     "age": 50,
@@ -125,6 +85,13 @@
   "milet": {
     "wikidataId": "Q61989561",
     "wikipediaTitle": "Milet",
+    "gender": "female"
+  },
+  "MINAMI": {
+    "age": 51,
+    "birthDate": "1974-11-08",
+    "wikidataId": "Q11231605",
+    "wikipediaTitle": "MINAMI",
     "gender": "female"
   },
   "NON STYLE井上": {
@@ -208,6 +175,11 @@
     "wikipediaTitle": "カンニング竹山",
     "gender": "male"
   },
+  "きりたんぽ": {
+    "age": 27,
+    "birthDate": "1998-08-16",
+    "gender": "female"
+  },
   "ケンドーコバヤシ": {
     "age": 53,
     "birthDate": "1972-07-04",
@@ -248,6 +220,16 @@
     "birthDate": "1987-07-16",
     "wikidataId": "Q97216365",
     "wikipediaTitle": "シュウペイ",
+    "gender": "male"
+  },
+  "スカイピース ☆イニ☆": {
+    "age": 30,
+    "birthDate": "1995-10-27",
+    "gender": "male"
+  },
+  "スカイピース テオくん": {
+    "age": 30,
+    "birthDate": "1995-07-24",
     "gender": "male"
   },
   "せいや": {
@@ -354,6 +336,21 @@
     "wikipediaTitle": "小峠英二",
     "gender": "male"
   },
+  "ばんばんざい ぎし": {
+    "age": 27,
+    "birthDate": "1998-10-22",
+    "gender": "male"
+  },
+  "ばんばんざい みゆ": {
+    "age": 27,
+    "birthDate": "1999-03-30",
+    "gender": "female"
+  },
+  "ばんばんざい るな": {
+    "age": 24,
+    "birthDate": "2002-02-11",
+    "gender": "female"
+  },
   "ヒコロヒー": {
     "age": 36,
     "birthDate": "1989-10-15",
@@ -388,6 +385,13 @@
     "wikidataId": "Q8979315",
     "wikipediaTitle": "小杉竜一",
     "gender": "male"
+  },
+  "まあたそ": {
+    "age": 30,
+    "birthDate": "1995-09-01",
+    "wikidataId": "Q81783506",
+    "wikipediaTitle": "まあたそ",
+    "gender": "female"
   },
   "マヂカルラブリー村上": {
     "age": 41,
@@ -485,6 +489,13 @@
     "wikidataId": "Q16264648",
     "wikipediaTitle": "阿武咲奎也",
     "gender": "male"
+  },
+  "阿部華也子": {
+    "age": 29,
+    "birthDate": "1996-06-18",
+    "wikidataId": "Q23947987",
+    "wikipediaTitle": "阿部華也子",
+    "gender": "female"
   },
   "阿部寛": {
     "age": 61,
@@ -762,6 +773,13 @@
     "wikipediaTitle": "遠藤保仁",
     "gender": "male"
   },
+  "横田真悠": {
+    "age": 26,
+    "birthDate": "1999-06-30",
+    "wikidataId": "Q26044122",
+    "wikipediaTitle": "横田真悠",
+    "gender": "female"
+  },
   "欧勝馬出気": {
     "age": 28,
     "birthDate": "1997-04-09",
@@ -803,6 +821,13 @@
     "wikidataId": "Q1192799",
     "wikipediaTitle": "下野紘",
     "gender": "male"
+  },
+  "加藤ナナ": {
+    "age": 28,
+    "birthDate": "1998-04-15",
+    "wikidataId": "Q28068049",
+    "wikipediaTitle": "加藤ナナ",
+    "gender": "female"
   },
   "加藤綾子": {
     "age": 40,
@@ -970,6 +995,13 @@
     "birthDate": "2002-07-21",
     "wikidataId": "Q27000376",
     "wikipediaTitle": "紀平梨花",
+    "gender": "female"
+  },
+  "貴島明日香": {
+    "age": 30,
+    "birthDate": "1996-02-15",
+    "wikidataId": "Q30924990",
+    "wikipediaTitle": "貴島明日香",
     "gender": "female"
   },
   "貴乃花光司": {
@@ -1332,12 +1364,26 @@
     "wikipediaTitle": "荒川静香",
     "gender": "female"
   },
+  "香音": {
+    "age": 24,
+    "birthDate": "2001-04-20",
+    "wikidataId": "Q11667778",
+    "wikipediaTitle": "香音",
+    "gender": "female"
+  },
   "香取慎吾": {
     "age": 49,
     "birthDate": "1977-01-31",
     "wikidataId": "Q1377821",
     "wikipediaTitle": "香取慎吾",
     "gender": "male"
+  },
+  "香川愛生": {
+    "age": 32,
+    "birthDate": "1993-04-16",
+    "wikidataId": "Q11667294",
+    "wikipediaTitle": "香川愛生",
+    "gender": "female"
   },
   "高安晃": {
     "age": 36,
@@ -2254,6 +2300,13 @@
     "wikidataId": "Q262311",
     "wikipediaTitle": "石川佳純",
     "gender": "female"
+  },
+  "石川界人": {
+    "age": 32,
+    "birthDate": "1993-10-13",
+    "wikidataId": "Q1964086",
+    "wikipediaTitle": "石川界人",
+    "gender": "male"
   },
   "赤楚衛二": {
     "age": 32,
@@ -3236,6 +3289,16 @@
     "birthDate": "1998-08-28",
     "wikidataId": "Q4687588",
     "wikipediaTitle": "福原遥",
+    "gender": "female"
+  },
+  "平成フラミンゴ NICO": {
+    "age": 31,
+    "birthDate": "1995-02-05",
+    "gender": "female"
+  },
+  "平成フラミンゴ RIHO": {
+    "age": 32,
+    "birthDate": "1994-04-13",
     "gender": "female"
   },
   "平本蓮": {

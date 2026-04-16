@@ -1,0 +1,22 @@
+[
+  { "name": "ラファエル", "category": "youtuber", "gender": "male", "query": "ラファエル YouTuber" },
+  { "name": "Fischer's ダーマ", "category": "youtuber", "gender": "male", "query": "Fischer's ダーマ YouTuber" },
+  { "name": "Fischer's ザカオ", "category": "youtuber", "gender": "male", "query": "Fischer's ザカオ YouTuber" },
+  { "name": "コムドット ゆうま", "category": "youtuber", "gender": "male", "query": "コムドット ゆうま YouTuber" },
+  { "name": "ジュキヤ", "category": "youtuber", "gender": "male", "query": "ジュキヤ YouTuber" },
+  { "name": "ボンボンTV よっち", "category": "youtuber", "gender": "male", "query": "ボンボンTV よっち YouTuber" },
+  { "name": "ふくれな", "category": "youtuber", "gender": "female", "query": "ふくれな YouTuber" },
+  { "name": "むくえな えなぴ", "category": "youtuber", "gender": "female", "query": "むくえな えなぴ YouTuber" },
+  { "name": "むくえな むく", "category": "youtuber", "gender": "female", "query": "むくえな むく YouTuber" },
+  { "name": "夜のひと笑い いちえ", "category": "youtuber", "gender": "female", "query": "夜のひと笑い いちえ YouTuber" },
+  { "name": "夜のひと笑い こう", "category": "youtuber", "gender": "male", "query": "夜のひと笑い こう YouTuber" },
+  { "name": "パパラピーズ じんじん", "category": "youtuber", "gender": "male", "query": "パパラピーズ じんじん YouTuber" },
+  { "name": "パパラピーズ タナカガ", "category": "youtuber", "gender": "female", "query": "パパラピーズ タナカガ YouTuber" },
+  { "name": "フォーエイト48 こたつ", "category": "youtuber", "gender": "male", "query": "フォーエイト48 こたつ YouTuber" },
+  { "name": "フォーエイト48 あみか", "category": "youtuber", "gender": "female", "query": "フォーエイト48 あみか YouTuber" },
+  { "name": "フォーエイト48 enn", "category": "youtuber", "gender": "female", "query": "フォーエイト48 enn YouTuber" },
+  { "name": "フォーエイト48 わかゔぁ", "category": "youtuber", "gender": "male", "query": "フォーエイト48 わかゔぁ YouTuber" },
+  { "name": "くれいじーまぐねっと 浅見めい", "category": "youtuber", "gender": "female", "query": "くれいじーまぐねっと 浅見めい YouTuber" },
+  { "name": "くれいじーまぐねっと UraN", "category": "youtuber", "gender": "female", "query": "くれいじーまぐねっと UraN YouTuber" },
+  { "name": "くれいじーまぐねっと エア", "category": "youtuber", "gender": "female", "query": "くれいじーまぐねっと エア YouTuber" }
+]
