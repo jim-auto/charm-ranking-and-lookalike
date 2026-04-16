@@ -59,7 +59,7 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   真理奈: -1.0,
   吉沢亮: 1.5,
   成田凌: 1.0,
-  永野芽郁: 1.5,
+  永野芽郁: -2.5,
   山崎賢人: 2.5,
   山田裕貴: 2.5,
   森七菜: 2.5,
