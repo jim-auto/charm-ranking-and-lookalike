@@ -36,6 +36,8 @@ interface DiagnoseResult {
 
 type ProcessingStage = 'idle' | 'loading' | 'detecting' | 'scoring' | 'matching';
 
+const DIAGNOSE_RAW_OFFSET = 3.2;
+
 const PROCESSING_LABELS: Record<Exclude<ProcessingStage, 'idle'>, string> = {
   loading: '画像を準備中...',
   detecting: '顔を検出中...',
@@ -213,7 +215,7 @@ export default function DiagnosePage() {
           photoQuality,
           metricDistributions,
         );
-        const rawScore = calculateAdjustedOverallScore(details, metricDistributions);
+        const rawScore = calculateAdjustedOverallScore(details, metricDistributions) + DIAGNOSE_RAW_OFFSET;
         const score = toDeviation(rawScore);
         const celebrityScore = toCelebrityDeviation(rawScore);
 
