@@ -55,6 +55,7 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   河口夏音: -2.5,
   鉢嶺杏奈: -2.0,
   喜多村英梨: -1.0,
+  早見沙織: -3.0,
   和泉崇司: -2.5,
   細田善彦: -1.0,
   田中瞳: -0.5,
