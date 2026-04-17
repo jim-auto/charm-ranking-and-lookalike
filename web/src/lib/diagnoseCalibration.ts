@@ -28,7 +28,7 @@ function getMetricMean(
 }
 
 function blendTowardMean(rawValue: number, meanValue: number, reliability: number): number {
-  const preserveShare = 0.25 + reliability * 0.75;
+  const preserveShare = 0.4 + reliability * 0.6;
   return round1(clamp(meanValue + (rawValue - meanValue) * preserveShare));
 }
 
