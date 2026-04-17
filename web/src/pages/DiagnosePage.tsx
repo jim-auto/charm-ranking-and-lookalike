@@ -282,118 +282,122 @@ export default function DiagnosePage() {
   );
 
   return (
-    <div className="mx-auto max-w-2xl">
-      <div className="mb-6">
-        <h2 className="mb-2 text-2xl font-bold">AI顔診断</h2>
-        <p className="text-slate-400">
-          顔写真からスコアと似てる芸能人を表示します。
-        </p>
-      </div>
-
-      <div className="mb-6 flex items-center gap-3">
-        <span className="text-sm text-slate-400">性別:</span>
-        {([
-          ['male', '男性'],
-          ['female', '女性'],
-        ] as const).map(([value, label]) => (
-          <button
-            key={value}
-            onClick={() => setGender(value)}
-            className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-              gender === value
-                ? 'bg-indigo-600 text-white'
-                : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-            }`}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
-
-      {!modelsReady && !error && (
-        <div className="py-12 text-center text-slate-400">
-          <div className="mx-auto mb-3 h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
-          診断モデルを読み込み中...
+    <div className="mx-auto max-w-5xl">
+      <div className="mx-auto max-w-2xl">
+        <div className="mb-6">
+          <h2 className="mb-2 text-2xl font-bold">AI顔診断</h2>
+          <p className="text-slate-400">
+            顔写真からスコアと似てる芸能人を表示します。
+          </p>
         </div>
-      )}
 
-      {modelsReady && (
-        <ImageUploader
-          onImageSelected={handleImage}
-          isProcessing={processing}
-          processingLabel={processingLabel ?? undefined}
-        />
-      )}
-
-      {uploadedImageSrc && (
-        <div className="mt-4 rounded-xl border border-slate-800 bg-slate-900/70 p-4">
-          <div className="mb-3 flex items-center justify-between gap-3">
-            <div>
-              <div className="text-sm text-slate-400">診断した写真</div>
-              <div className="mt-1 text-sm text-slate-200">
-                {processingLabel ?? (result ? '診断完了' : '画像を読み込みました')}
-              </div>
-            </div>
-            {processingLabel && (
-              <span className="rounded-full bg-indigo-950 px-3 py-1 text-xs font-medium text-indigo-200">
-                {processingLabel}
-              </span>
-            )}
-          </div>
-          <img
-            src={uploadedImageSrc}
-            alt="診断した写真"
-            className="max-h-[420px] w-full rounded-lg bg-slate-950 object-contain"
-          />
-          {photoQuality && !processing && (
-            <div
-              className={`mt-3 rounded-lg border px-4 py-3 text-sm ${
-                photoQuality.diagnosisReady
-                  ? photoQuality.retryRecommended
-                    ? 'border-amber-800 bg-amber-950/40 text-amber-100'
-                    : 'border-emerald-800 bg-emerald-950/40 text-emerald-100'
-                  : 'border-red-800 bg-red-950/40 text-red-100'
+        <div className="mb-6 flex items-center gap-3">
+          <span className="text-sm text-slate-400">性別:</span>
+          {([
+            ['male', '男性'],
+            ['female', '女性'],
+          ] as const).map(([value, label]) => (
+            <button
+              key={value}
+              onClick={() => setGender(value)}
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                gender === value
+                  ? 'bg-indigo-600 text-white'
+                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
-              <div className="font-medium">
-                {photoQuality.diagnosisReady
-                  ? photoQuality.retryRecommended
-                    ? '診断はできましたが、撮り直すと安定します'
-                    : 'この写真は診断向きです'
-                  : 'この写真は診断に向きません'}
+              {label}
+            </button>
+          ))}
+        </div>
+
+        {!modelsReady && !error && (
+          <div className="py-12 text-center text-slate-400">
+            <div className="mx-auto mb-3 h-8 w-8 animate-spin rounded-full border-2 border-indigo-400 border-t-transparent" />
+            診断モデルを読み込み中...
+          </div>
+        )}
+
+        {modelsReady && (
+          <ImageUploader
+            onImageSelected={handleImage}
+            isProcessing={processing}
+            processingLabel={processingLabel ?? undefined}
+          />
+        )}
+
+        {error && (
+          <div className="mt-4 rounded-lg border border-red-700 bg-red-900/50 p-4 text-red-300">
+            {error}
+          </div>
+        )}
+      </div>
+
+      {(uploadedImageSrc || result) && (
+        <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-6">
+          {uploadedImageSrc && (
+            <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-4">
+              <div className="mb-3 flex items-center justify-between gap-3">
+                <div>
+                  <div className="text-sm text-slate-400">診断した写真</div>
+                  <div className="mt-1 text-sm text-slate-200">
+                    {processingLabel ?? (result ? '診断完了' : '画像を読み込みました')}
+                  </div>
+                </div>
+                {processingLabel && (
+                  <span className="rounded-full bg-indigo-950 px-3 py-1 text-xs font-medium text-indigo-200">
+                    {processingLabel}
+                  </span>
+                )}
               </div>
-              <div className="mt-2 space-y-1 text-xs">
-                {(photoQuality.diagnosisReady
-                  ? photoQuality.notes
-                  : photoQuality.blockingReasons
-                ).slice(0, 3).map((note) => (
-                  <div key={note}>{note}</div>
-                ))}
-              </div>
+              <img
+                src={uploadedImageSrc}
+                alt="診断した写真"
+                className="max-h-[420px] w-full rounded-lg bg-slate-950 object-contain"
+              />
+              {photoQuality && !processing && (
+                <div
+                  className={`mt-3 rounded-lg border px-4 py-3 text-sm ${
+                    photoQuality.diagnosisReady
+                      ? photoQuality.retryRecommended
+                        ? 'border-amber-800 bg-amber-950/40 text-amber-100'
+                        : 'border-emerald-800 bg-emerald-950/40 text-emerald-100'
+                      : 'border-red-800 bg-red-950/40 text-red-100'
+                  }`}
+                >
+                  <div className="font-medium">
+                    {photoQuality.diagnosisReady
+                      ? photoQuality.retryRecommended
+                        ? '診断はできましたが、撮り直すと安定します'
+                        : 'この写真は診断向きです'
+                      : 'この写真は診断に向きません'}
+                  </div>
+                  <div className="mt-2 space-y-1 text-xs">
+                    {(photoQuality.diagnosisReady
+                      ? photoQuality.notes
+                      : photoQuality.blockingReasons
+                    ).slice(0, 3).map((note) => (
+                      <div key={note}>{note}</div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
-        </div>
-      )}
 
-      {error && (
-        <div className="mt-4 rounded-lg border border-red-700 bg-red-900/50 p-4 text-red-300">
-          {error}
-        </div>
-      )}
-
-      {result && (
-        <div className="mt-6">
-          <Suspense fallback={<ResultFallback />}>
-            <LookalikeResult
-              score={result.score}
-              celebrityScore={result.celebrityScore}
-              details={result.details}
-              photoQuality={result.photoQuality}
-              lookalikes={result.lookalikes}
-              toDeviation={result.toDeviation}
-              toCelebrityDeviation={result.toCelebrityDeviation}
-            />
-          </Suspense>
+          {result && (
+            <Suspense fallback={<ResultFallback />}>
+              <LookalikeResult
+                score={result.score}
+                celebrityScore={result.celebrityScore}
+                details={result.details}
+                photoQuality={result.photoQuality}
+                lookalikes={result.lookalikes}
+                toDeviation={result.toDeviation}
+                toCelebrityDeviation={result.toCelebrityDeviation}
+              />
+            </Suspense>
+          )}
         </div>
       )}
 
