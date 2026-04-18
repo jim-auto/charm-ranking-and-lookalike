@@ -10,7 +10,6 @@ const metricOrder: DetailRankingMetric[] = [
   'eyes',
   'nose',
   'mouth',
-  'body_proportion',
 ];
 
 const metricTheme: Record<
@@ -40,11 +39,6 @@ const metricTheme: Record<
     dot: 'bg-pink-400',
     bar: 'bg-pink-400',
     panel: 'from-pink-500/10',
-  },
-  body_proportion: {
-    dot: 'bg-sky-400',
-    bar: 'bg-sky-400',
-    panel: 'from-sky-500/10',
   },
 };
 

@@ -4,7 +4,6 @@ export interface ScoreDetails {
   eyes: number;
   nose: number;
   mouth: number;
-  body_proportion?: number;
   contour: number;
   skin?: number;
 }

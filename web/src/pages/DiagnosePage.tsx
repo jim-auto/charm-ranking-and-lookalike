@@ -21,10 +21,6 @@ import {
   findSimilarCelebritiesByDetails,
 } from '../lib/lookalike';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
-import {
-  estimateBodyProportion,
-  type BodyProportionEstimate,
-} from '../lib/bodyProportion';
 
 const LookalikeResult = lazy(() => import('../components/LookalikeResult'));
 
@@ -33,7 +29,6 @@ interface DiagnoseResult {
   celebrityScore: number;
   details: ScoreDetails;
   photoQuality: PhotoQualityAssessment;
-  bodyProportion?: BodyProportionEstimate | null;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
   toDeviation: (rawScore: number) => number;
   toCelebrityDeviation: (rawScore: number) => number;
@@ -206,11 +201,6 @@ export default function DiagnosePage() {
         await nextPaint();
         const baseDetails = calculateFaceDetails(detection.landmarks);
         const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
-        const bodyProportion = estimateBodyProportion(
-          detection.box,
-          detection.landmarks,
-          canvas,
-        );
         setPhotoQuality(photoQuality);
         if (!photoQuality.diagnosisReady) {
           setError(buildPhotoQualityError(photoQuality));
@@ -218,7 +208,6 @@ export default function DiagnosePage() {
         }
         const filteredDetails = {
           ...baseDetails,
-          ...(bodyProportion ? { body_proportion: bodyProportion.score } : {}),
           symmetry: photoQuality.symmetryReliable ? baseDetails.symmetry : undefined,
         };
         const { details } = calibrateDiagnoseDetails(
@@ -287,7 +276,6 @@ export default function DiagnosePage() {
           celebrityScore,
           details,
           photoQuality,
-          bodyProportion,
           lookalikes,
           toDeviation,
           toCelebrityDeviation,
@@ -309,7 +297,7 @@ export default function DiagnosePage() {
         <div className="mb-6">
           <h2 className="mb-2 text-2xl font-bold">AI外見診断</h2>
           <p className="text-slate-400">
-            写真から外見スコアと似てる芸能人を表示します。全身に近い写真なら等身も推定します。
+            写真から外見スコアと似てる芸能人を表示します。
           </p>
         </div>
 
@@ -414,7 +402,6 @@ export default function DiagnosePage() {
                 celebrityScore={result.celebrityScore}
                 details={result.details}
                 photoQuality={result.photoQuality}
-                bodyProportion={result.bodyProportion}
                 lookalikes={result.lookalikes}
                 toDeviation={result.toDeviation}
                 toCelebrityDeviation={result.toCelebrityDeviation}

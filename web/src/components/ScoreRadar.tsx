@@ -22,7 +22,6 @@ const metricEntries: Array<{ label: string; key: keyof ScoreDetails }> = [
   { label: '目', key: 'eyes' },
   { label: '鼻', key: 'nose' },
   { label: '口', key: 'mouth' },
-  { label: '等身', key: 'body_proportion' },
 ];
 
 class RadarErrorBoundary extends Component<
