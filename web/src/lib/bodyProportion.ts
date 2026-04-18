@@ -35,14 +35,14 @@ export function estimateBodyProportion(
 
   if (
     estimatedHeadHeight < 24 ||
-    lowerVisibleHeight < estimatedHeadHeight * 2.8 ||
-    ratio < 4.2
+    lowerVisibleHeight < estimatedHeadHeight * 2.0 ||
+    ratio < 3.2
   ) {
     return null;
   }
 
-  const score = clamp(100 - Math.abs(ratio - 7.5) * 12, 35, 100);
-  const confidence = lowerVisibleHeight >= estimatedHeadHeight * 4.2 ? 'medium' : 'low';
+  const score = clamp(100 - Math.abs(ratio - 7.5) * 10, 35, 100);
+  const confidence = lowerVisibleHeight >= estimatedHeadHeight * 3.5 ? 'medium' : 'low';
 
   return {
     ratio: round1(ratio),
