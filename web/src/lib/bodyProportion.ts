@@ -5,6 +5,11 @@ interface FaceBox {
   height: number;
 }
 
+interface Landmark {
+  x: number;
+  y: number;
+}
+
 export interface BodyProportionEstimate {
   ratio: number;
   score: number;
@@ -21,28 +26,36 @@ function round1(value: number): number {
 
 export function estimateBodyProportion(
   box: FaceBox,
+  landmarks: Landmark[] | undefined,
   canvas: HTMLCanvasElement,
 ): BodyProportionEstimate | null {
   if (box.width <= 0 || box.height <= 0 || canvas.height <= 0) {
     return null;
   }
 
-  const estimatedHeadHeight = box.height * 1.12;
-  const estimatedHeadTop = Math.max(0, box.y - box.height * 0.08);
-  const lowerVisibleHeight = canvas.height - (box.y + box.height);
+  const hasLandmarks = !!landmarks && landmarks.length >= 28;
+  const chinY = hasLandmarks ? landmarks![8].y : box.y + box.height;
+  const browY = hasLandmarks ? (landmarks![19].y + landmarks![24].y) / 2 : box.y;
+  const chinToBrow = Math.max(1, chinY - browY);
+
+  const estimatedHeadHeight = Math.max(box.height * 1.15, chinToBrow * 1.8);
+  const estimatedHeadTop = Math.max(0, browY - chinToBrow * 0.9);
+  const lowerVisibleHeight = canvas.height - chinY;
   const estimatedVisibleBodyHeight = canvas.height * 0.96 - estimatedHeadTop;
   const ratio = estimatedVisibleBodyHeight / estimatedHeadHeight;
 
   if (
-    estimatedHeadHeight < 24 ||
-    lowerVisibleHeight < estimatedHeadHeight * 2.0 ||
-    ratio < 3.2
+    estimatedHeadHeight < 28 ||
+    lowerVisibleHeight < estimatedHeadHeight * 1.5 ||
+    ratio < 3.0
   ) {
     return null;
   }
 
-  const score = clamp(100 - Math.abs(ratio - 7.5) * 10, 35, 100);
-  const confidence = lowerVisibleHeight >= estimatedHeadHeight * 3.5 ? 'medium' : 'low';
+  const scoringRatio = Math.min(ratio, 8.5);
+  const score = clamp(100 - Math.abs(scoringRatio - 7.5) * 10, 35, 100);
+  const confidence =
+    lowerVisibleHeight >= estimatedHeadHeight * 3.0 ? 'medium' : 'low';
 
   return {
     ratio: round1(ratio),

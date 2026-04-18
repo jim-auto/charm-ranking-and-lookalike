@@ -206,7 +206,11 @@ export default function DiagnosePage() {
         await nextPaint();
         const baseDetails = calculateFaceDetails(detection.landmarks);
         const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
-        const bodyProportion = estimateBodyProportion(detection.box, canvas);
+        const bodyProportion = estimateBodyProportion(
+          detection.box,
+          detection.landmarks,
+          canvas,
+        );
         setPhotoQuality(photoQuality);
         if (!photoQuality.diagnosisReady) {
           setError(buildPhotoQualityError(photoQuality));
