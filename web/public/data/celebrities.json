@@ -320,7 +320,7 @@
   {
     "id": "celeb_d868b84c",
     "name": "back number清水依与吏",
-    "score": 64.8,
+    "score": 64.7,
     "details": {
       "symmetry": 85,
       "golden_ratio": 59,
@@ -336,10 +336,10 @@
     "category": "artist",
     "rankingEligible": true,
     "scores": {
-      "face": 64.8,
-      "faceAge": 53.2,
-      "faceSns": 64.8,
-      "faceAgeSns": 53.2
+      "face": 64.7,
+      "faceAge": 53.1,
+      "faceSns": 64.7,
+      "faceAgeSns": 53.1
     },
     "embedding": [
       -0.09362497925758362,
@@ -958,7 +958,7 @@
   {
     "id": "celeb_257e099e",
     "name": "松たか子",
-    "score": 64.2,
+    "score": 64.1,
     "details": {
       "symmetry": 81,
       "golden_ratio": 55,
@@ -974,10 +974,10 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 64.2,
-      "faceAge": 40.6,
-      "faceSns": 64.2,
-      "faceAgeSns": 40.6
+      "face": 64.1,
+      "faceAge": 40.5,
+      "faceSns": 64.1,
+      "faceAgeSns": 40.5
     },
     "embedding": [
       -0.05329860746860504,
@@ -1277,7 +1277,7 @@
   {
     "id": "celeb_3afafb8b",
     "name": "香取慎吾",
-    "score": 63.3,
+    "score": 63.2,
     "details": {
       "symmetry": 90,
       "golden_ratio": 54,
@@ -1293,10 +1293,10 @@
     "category": "actor",
     "rankingEligible": true,
     "scores": {
-      "face": 63.3,
-      "faceAge": 38.5,
-      "faceSns": 63.3,
-      "faceAgeSns": 38.5
+      "face": 63.2,
+      "faceAge": 38.4,
+      "faceSns": 63.2,
+      "faceAgeSns": 38.4
     },
     "embedding": [
       -0.07093765586614609,
@@ -1598,12 +1598,12 @@
     "name": "いかりや長介",
     "category": "cultural",
     "gender": "male",
-    "score": 62.1,
+    "score": 62.0,
     "scores": {
-      "face": 62.1,
-      "faceAge": 62.1,
-      "faceSns": 62.1,
-      "faceAgeSns": 62.1
+      "face": 62.0,
+      "faceAge": 62.0,
+      "faceSns": 62.0,
+      "faceAgeSns": 62.0
     },
     "details": {
       "symmetry": 63,
@@ -2078,7 +2078,7 @@
   {
     "id": "celeb_248d6e7d",
     "name": "ヘラヘラ三銃士 さおりん",
-    "score": 61.9,
+    "score": 61.8,
     "details": {
       "symmetry": 53,
       "golden_ratio": 55,
@@ -2228,10 +2228,10 @@
     "birthDate": "1993-03-25",
     "age": 33,
     "scores": {
-      "face": 61.9,
-      "faceAge": 56.3,
-      "faceSns": 61.9,
-      "faceAgeSns": 56.3
+      "face": 61.8,
+      "faceAge": 56.2,
+      "faceSns": 61.8,
+      "faceAgeSns": 56.2
     },
     "rankingEligible": true
   },
@@ -2888,12 +2888,12 @@
     "name": "志村けん",
     "category": "comedian",
     "gender": "male",
-    "score": 61.4,
+    "score": 61.3,
     "scores": {
-      "face": 61.4,
-      "faceAge": 4.2,
-      "faceSns": 61.4,
-      "faceAgeSns": 4.2
+      "face": 61.3,
+      "faceAge": 4.1,
+      "faceSns": 61.3,
+      "faceAgeSns": 4.1
     },
     "details": {
       "symmetry": 87,
@@ -3205,7 +3205,7 @@
   {
     "id": "celeb_5a067d51",
     "name": "河口夏音",
-    "score": 61.3,
+    "score": 61.2,
     "details": {
       "symmetry": 87,
       "golden_ratio": 55,
@@ -3221,10 +3221,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 61.3,
-      "faceAge": 65.3,
-      "faceSns": 57.6,
-      "faceAgeSns": 60.4
+      "face": 61.2,
+      "faceAge": 65.2,
+      "faceSns": 57.5,
+      "faceAgeSns": 60.3
     },
     "embedding": [
       -0.08141319453716278,
@@ -4177,7 +4177,7 @@
   {
     "id": "celeb_070fb7bd",
     "name": "向井康二",
-    "score": 60.1,
+    "score": 60.0,
     "details": {
       "symmetry": 78,
       "golden_ratio": 54,
@@ -4193,10 +4193,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 60.1,
-      "faceAge": 56.9,
-      "faceSns": 60.1,
-      "faceAgeSns": 56.9
+      "face": 60.0,
+      "faceAge": 56.8,
+      "faceSns": 60.0,
+      "faceAgeSns": 56.8
     },
     "embedding": [
       -0.07448966056108475,
@@ -4496,7 +4496,7 @@
   {
     "id": "celeb_008a5acf",
     "name": "関根りさ",
-    "score": 59.8,
+    "score": 59.7,
     "details": {
       "symmetry": 64,
       "golden_ratio": 53,
@@ -4646,17 +4646,17 @@
     "birthDate": "1989-03-24",
     "age": 37,
     "scores": {
-      "face": 59.8,
-      "faceAge": 49.4,
-      "faceSns": 59.8,
-      "faceAgeSns": 49.4
+      "face": 59.7,
+      "faceAge": 49.3,
+      "faceSns": 59.7,
+      "faceAgeSns": 49.3
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_c1f583c6",
     "name": "森川葵",
-    "score": 59.7,
+    "score": 59.6,
     "details": {
       "symmetry": 85,
       "golden_ratio": 51,
@@ -4672,10 +4672,10 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 59.7,
-      "faceAge": 55.7,
-      "faceSns": 59.5,
-      "faceAgeSns": 56.7
+      "face": 59.6,
+      "faceAge": 55.6,
+      "faceSns": 59.4,
+      "faceAgeSns": 56.6
     },
     "embedding": [
       -0.031033985316753387,
@@ -5137,7 +5137,7 @@
   {
     "id": "celeb_8313fffb",
     "name": "コムドットやまと",
-    "score": 59.3,
+    "score": 59.2,
     "details": {
       "symmetry": 48,
       "golden_ratio": 52,
@@ -5288,10 +5288,10 @@
     "group": "コムドット",
     "birthDate": "1998-05-15",
     "scores": {
-      "face": 59.3,
-      "faceAge": 58.5,
+      "face": 59.2,
+      "faceAge": 58.4,
       "faceSns": 61.8,
-      "faceAgeSns": 61.3
+      "faceAgeSns": 61.2
     },
     "rankingEligible": true,
     "sns": {
@@ -5463,7 +5463,7 @@
   {
     "id": "celeb_42b5c774",
     "name": "松本まりか",
-    "score": 59.2,
+    "score": 59.1,
     "details": {
       "symmetry": 78,
       "golden_ratio": 48,
@@ -5479,9 +5479,9 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 59.2,
-      "faceAge": 42.8,
-      "faceSns": 60.4,
+      "face": 59.1,
+      "faceAge": 42.7,
+      "faceSns": 60.3,
       "faceAgeSns": 48.9
     },
     "embedding": [
@@ -5786,7 +5786,7 @@
   {
     "id": "celeb_e405de9e",
     "name": "田中瞳",
-    "score": 59.1,
+    "score": 59.0,
     "details": {
       "symmetry": 29,
       "golden_ratio": 53,
@@ -5936,10 +5936,10 @@
     "gender": "female",
     "birthDate": "1996-09-16",
     "scores": {
-      "face": 59.1,
-      "faceAge": 56.7,
-      "faceSns": 59.1,
-      "faceAgeSns": 56.7
+      "face": 59.0,
+      "faceAge": 56.6,
+      "faceSns": 59.0,
+      "faceAgeSns": 56.6
     },
     "rankingEligible": true
   },
@@ -6269,7 +6269,7 @@
   {
     "id": "celeb_aef1352c",
     "name": "森本慎太郎",
-    "score": 59.0,
+    "score": 58.9,
     "details": {
       "symmetry": 56,
       "golden_ratio": 51,
@@ -6289,10 +6289,10 @@
     "gender": "male",
     "birthDate": "1997-07-15",
     "scores": {
-      "face": 59.0,
-      "faceAge": 57.4,
-      "faceSns": 59.0,
-      "faceAgeSns": 57.4
+      "face": 58.9,
+      "faceAge": 57.3,
+      "faceSns": 58.9,
+      "faceAgeSns": 57.3
     },
     "rankingEligible": true,
     "embedding": [
@@ -6590,7 +6590,7 @@
     "name": "齋藤飛鳥",
     "category": "idol",
     "gender": "female",
-    "score": 58.8,
+    "score": 58.7,
     "details": {
       "symmetry": 38,
       "golden_ratio": 55,
@@ -6610,10 +6610,10 @@
     "totalFollowers": 6500000,
     "group": "乃木坂46",
     "scores": {
-      "face": 58.8,
-      "faceAge": 57.2,
-      "faceSns": 61.6,
-      "faceAgeSns": 60.5
+      "face": 58.7,
+      "faceAge": 57.1,
+      "faceSns": 61.5,
+      "faceAgeSns": 60.4
     },
     "rankingEligible": true,
     "rank": 42,
@@ -6751,7 +6751,7 @@
   {
     "id": "celeb_87ab4fa9",
     "name": "フォーエイト48 タロー社長",
-    "score": 58.8,
+    "score": 58.7,
     "details": {
       "symmetry": 69,
       "golden_ratio": 52,
@@ -6901,10 +6901,10 @@
     "birthDate": "1998-04-29",
     "age": 27,
     "scores": {
-      "face": 58.8,
-      "faceAge": 58.0,
-      "faceSns": 58.8,
-      "faceAgeSns": 58.0
+      "face": 58.7,
+      "faceAge": 57.9,
+      "faceSns": 58.7,
+      "faceAgeSns": 57.9
     },
     "rankingEligible": true
   },
@@ -7071,7 +7071,7 @@
   {
     "id": "celeb_4bfeb158",
     "name": "大園玲",
-    "score": 58.6,
+    "score": 58.5,
     "details": {
       "symmetry": 63,
       "golden_ratio": 52,
@@ -7091,10 +7091,10 @@
     "gender": "female",
     "birthDate": "2000-04-18",
     "scores": {
-      "face": 58.6,
-      "faceAge": 61.6,
-      "faceSns": 58.6,
-      "faceAgeSns": 61.6
+      "face": 58.5,
+      "faceAge": 61.5,
+      "faceSns": 58.5,
+      "faceAgeSns": 61.5
     },
     "rankingEligible": true,
     "embedding": [
@@ -8679,7 +8679,7 @@
   {
     "id": "celeb_9ad47518",
     "name": "真理奈",
-    "score": 58.2,
+    "score": 58.1,
     "details": {
       "symmetry": 61,
       "golden_ratio": 49,
@@ -8829,17 +8829,17 @@
     "birthDate": "1994-01-01",
     "age": 32,
     "scores": {
-      "face": 58.2,
-      "faceAge": 53.4,
-      "faceSns": 58.2,
-      "faceAgeSns": 53.4
+      "face": 58.1,
+      "faceAge": 53.3,
+      "faceSns": 58.1,
+      "faceAgeSns": 53.3
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_15d35155",
     "name": "霜降り明星 粗品",
-    "score": 58.1,
+    "score": 58.0,
     "details": {
       "symmetry": 68,
       "golden_ratio": 52,
@@ -8989,10 +8989,10 @@
     "birthDate": "1993-01-07",
     "age": 33,
     "scores": {
-      "face": 58.1,
-      "faceAge": 52.5,
-      "faceSns": 58.1,
-      "faceAgeSns": 52.5
+      "face": 58.0,
+      "faceAge": 52.4,
+      "faceSns": 58.0,
+      "faceAgeSns": 52.4
     },
     "rankingEligible": true
   },
@@ -9321,7 +9321,7 @@
   {
     "id": "celeb_70a3c8b8",
     "name": "東海オンエア てつや",
-    "score": 58.0,
+    "score": 57.9,
     "details": {
       "symmetry": 82,
       "golden_ratio": 51,
@@ -9337,9 +9337,9 @@
     "category": "youtuber",
     "rankingEligible": true,
     "scores": {
-      "face": 58.0,
-      "faceAge": 52.4,
-      "faceSns": 61.5,
+      "face": 57.9,
+      "faceAge": 52.3,
+      "faceSns": 61.4,
       "faceAgeSns": 57.5
     },
     "embedding": [
@@ -9484,7 +9484,7 @@
   {
     "id": "celeb_7252707b",
     "name": "山谷花純",
-    "score": 58.0,
+    "score": 57.9,
     "details": {
       "symmetry": 55,
       "golden_ratio": 52,
@@ -9634,10 +9634,10 @@
     "birthDate": "1996-12-26",
     "age": 29,
     "scores": {
-      "face": 58.0,
-      "faceAge": 55.6,
-      "faceSns": 58.0,
-      "faceAgeSns": 55.6
+      "face": 57.9,
+      "faceAge": 55.5,
+      "faceSns": 57.9,
+      "faceAgeSns": 55.5
     },
     "rankingEligible": true
   },
@@ -9808,7 +9808,7 @@
     "name": "山崎賢人",
     "category": "actor",
     "gender": "male",
-    "score": 57.9,
+    "score": 57.8,
     "details": {
       "symmetry": 64,
       "golden_ratio": 48,
@@ -9827,10 +9827,10 @@
     },
     "totalFollowers": 5800000,
     "scores": {
-      "face": 57.9,
-      "faceAge": 53.1,
+      "face": 57.8,
+      "faceAge": 53.0,
       "faceSns": 60.8,
-      "faceAgeSns": 57.5
+      "faceAgeSns": 57.4
     },
     "rankingEligible": true,
     "rank": 62,
@@ -10459,12 +10459,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 29,
-    "score": 57.8,
+    "score": 57.7,
     "scores": {
-      "face": 57.8,
-      "faceAge": 55.4,
-      "faceSns": 57.8,
-      "faceAgeSns": 55.4
+      "face": 57.7,
+      "faceAge": 55.3,
+      "faceSns": 57.7,
+      "faceAgeSns": 55.3
     },
     "details": {
       "symmetry": 87,
@@ -10618,7 +10618,7 @@
   {
     "id": "celeb_8da4d151",
     "name": "むくえな むく",
-    "score": 57.8,
+    "score": 57.7,
     "details": {
       "symmetry": 48,
       "golden_ratio": 53,
@@ -10766,10 +10766,10 @@
     "rank": 67,
     "gender": "female",
     "scores": {
-      "face": 57.8,
-      "faceAge": 60.8,
-      "faceSns": 57.8,
-      "faceAgeSns": 60.8
+      "face": 57.7,
+      "faceAge": 60.7,
+      "faceSns": 57.7,
+      "faceAgeSns": 60.7
     },
     "rankingEligible": true,
     "birthDate": "2000-05-16",
@@ -10938,7 +10938,7 @@
   {
     "id": "celeb_16737715",
     "name": "May'n",
-    "score": 57.8,
+    "score": 57.7,
     "details": {
       "symmetry": 57,
       "golden_ratio": 54,
@@ -11088,10 +11088,10 @@
     "birthDate": "1989-10-21",
     "age": 36,
     "scores": {
-      "face": 57.8,
-      "faceAge": 48.6,
-      "faceSns": 57.8,
-      "faceAgeSns": 48.6
+      "face": 57.7,
+      "faceAge": 48.5,
+      "faceSns": 57.7,
+      "faceAgeSns": 48.5
     },
     "rankingEligible": true
   },
@@ -11260,12 +11260,12 @@
     "name": "大久保佳代子",
     "category": "comedian",
     "gender": "male",
-    "score": 57.7,
+    "score": 57.6,
     "scores": {
-      "face": 57.7,
-      "faceAge": 57.7,
-      "faceSns": 57.7,
-      "faceAgeSns": 57.7
+      "face": 57.6,
+      "faceAge": 57.6,
+      "faceSns": 57.6,
+      "faceAgeSns": 57.6
     },
     "details": {
       "symmetry": 88,
@@ -11896,7 +11896,7 @@
   {
     "id": "celeb_ffac7579",
     "name": "香川愛生",
-    "score": 57.5,
+    "score": 57.4,
     "details": {
       "symmetry": 59,
       "golden_ratio": 53,
@@ -12046,10 +12046,10 @@
     "birthDate": "1993-04-16",
     "age": 33,
     "scores": {
-      "face": 57.5,
-      "faceAge": 51.9,
-      "faceSns": 57.5,
-      "faceAgeSns": 51.9
+      "face": 57.4,
+      "faceAge": 51.8,
+      "faceSns": 57.4,
+      "faceAgeSns": 51.8
     },
     "rankingEligible": true
   },
@@ -12215,7 +12215,7 @@
   {
     "id": "celeb_dcebbb81",
     "name": "秋山依里",
-    "score": 57.4,
+    "score": 57.3,
     "details": {
       "symmetry": 65,
       "golden_ratio": 50,
@@ -12365,10 +12365,10 @@
     "birthDate": "1989-12-26",
     "age": 36,
     "scores": {
-      "face": 57.4,
-      "faceAge": 48.2,
-      "faceSns": 57.4,
-      "faceAgeSns": 48.2
+      "face": 57.3,
+      "faceAge": 48.1,
+      "faceSns": 57.3,
+      "faceAgeSns": 48.1
     },
     "rankingEligible": true
   },
@@ -12692,7 +12692,7 @@
   {
     "id": "celeb_362f0d0f",
     "name": "宮瀬七海",
-    "score": 57.3,
+    "score": 57.2,
     "details": {
       "symmetry": 55,
       "golden_ratio": 55,
@@ -12842,17 +12842,17 @@
     "birthDate": "1994-08-07",
     "age": 31,
     "scores": {
-      "face": 57.3,
-      "faceAge": 53.3,
-      "faceSns": 57.3,
-      "faceAgeSns": 53.3
+      "face": 57.2,
+      "faceAge": 53.2,
+      "faceSns": 57.2,
+      "faceAgeSns": 53.2
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_34fbf048",
     "name": "谷崎早耶",
-    "score": 57.2,
+    "score": 57.1,
     "details": {
       "symmetry": 87,
       "golden_ratio": 52,
@@ -12868,8 +12868,8 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 57.2,
-      "faceAge": 61.2,
+      "face": 57.1,
+      "faceAge": 61.1,
       "faceSns": 54.7,
       "faceAgeSns": 57.5
     },
@@ -13178,12 +13178,12 @@
     "name": "萩本欽一",
     "category": "comedian",
     "gender": "male",
-    "score": 57.1,
+    "score": 57.0,
     "scores": {
-      "face": 57.1,
-      "faceAge": -9.7,
-      "faceSns": 57.1,
-      "faceAgeSns": -9.7
+      "face": 57.0,
+      "faceAge": -9.8,
+      "faceSns": 57.0,
+      "faceAgeSns": -9.8
     },
     "details": {
       "symmetry": 76,
@@ -13971,7 +13971,7 @@
   {
     "id": "celeb_e7c6e146",
     "name": "平野紫耀",
-    "score": 56.9,
+    "score": 56.8,
     "details": {
       "symmetry": 88,
       "golden_ratio": 42,
@@ -13987,10 +13987,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 56.9,
-      "faceAge": 54.5,
-      "faceSns": 59.5,
-      "faceAgeSns": 57.8
+      "face": 56.8,
+      "faceAge": 54.4,
+      "faceSns": 59.4,
+      "faceAgeSns": 57.7
     },
     "embedding": [
       -0.07398272305727005,
@@ -14295,7 +14295,7 @@
   {
     "id": "celeb_eb803da6",
     "name": "石原由希",
-    "score": 56.9,
+    "score": 56.8,
     "details": {
       "symmetry": 67,
       "golden_ratio": 52,
@@ -14445,10 +14445,10 @@
     "birthDate": "1995-01-01",
     "age": 31,
     "scores": {
-      "face": 56.9,
-      "faceAge": 52.9,
-      "faceSns": 56.9,
-      "faceAgeSns": 52.9
+      "face": 56.8,
+      "faceAge": 52.8,
+      "faceSns": 56.8,
+      "faceAgeSns": 52.8
     },
     "rankingEligible": true
   },
@@ -14772,7 +14772,7 @@
   {
     "id": "celeb_5f8e6cb2",
     "name": "真空ジェシカ 川北茂澄",
-    "score": 56.8,
+    "score": 56.7,
     "details": {
       "symmetry": 63,
       "golden_ratio": 52,
@@ -14922,10 +14922,10 @@
     "birthDate": "1989-05-23",
     "age": 36,
     "scores": {
-      "face": 56.8,
-      "faceAge": 47.6,
-      "faceSns": 56.8,
-      "faceAgeSns": 47.6
+      "face": 56.7,
+      "faceAge": 47.5,
+      "faceSns": 56.7,
+      "faceAgeSns": 47.5
     },
     "rankingEligible": true
   },
@@ -15094,12 +15094,12 @@
     "name": "是枝裕和",
     "category": "cultural",
     "gender": "male",
-    "score": 56.7,
+    "score": 56.6,
     "scores": {
-      "face": 56.7,
-      "faceAge": 15.1,
-      "faceSns": 56.7,
-      "faceAgeSns": 15.1
+      "face": 56.6,
+      "faceAge": 15.0,
+      "faceSns": 56.6,
+      "faceAgeSns": 15.0
     },
     "details": {
       "symmetry": 90,
@@ -15251,7 +15251,7 @@
   {
     "id": "celeb_7d89c1eb",
     "name": "村上虹郎",
-    "score": 56.6,
+    "score": 56.5,
     "details": {
       "symmetry": 55,
       "golden_ratio": 52,
@@ -15401,10 +15401,10 @@
     "birthDate": "1997-03-17",
     "age": 29,
     "scores": {
-      "face": 56.6,
-      "faceAge": 54.2,
-      "faceSns": 56.6,
-      "faceAgeSns": 54.2
+      "face": 56.5,
+      "faceAge": 54.1,
+      "faceSns": 56.5,
+      "faceAgeSns": 54.1
     },
     "rankingEligible": true
   },
@@ -15894,7 +15894,7 @@
   {
     "id": "celeb_9e7ef25c",
     "name": "蟹沢萌子",
-    "score": 56.6,
+    "score": 56.5,
     "details": {
       "symmetry": 73,
       "golden_ratio": 44,
@@ -15910,10 +15910,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 56.6,
-      "faceAge": 59.6,
-      "faceSns": 54.9,
-      "faceAgeSns": 57.0
+      "face": 56.5,
+      "faceAge": 59.5,
+      "faceSns": 54.8,
+      "faceAgeSns": 56.9
     },
     "embedding": [
       -0.05668023228645325,
@@ -16376,7 +16376,7 @@
   {
     "id": "celeb_17e16a2a",
     "name": "梅澤美波",
-    "score": 56.5,
+    "score": 56.4,
     "details": {
       "symmetry": 56,
       "golden_ratio": 46,
@@ -16396,10 +16396,10 @@
     "gender": "female",
     "birthDate": "1999-01-06",
     "scores": {
-      "face": 56.5,
-      "faceAge": 55.7,
-      "faceSns": 56.5,
-      "faceAgeSns": 55.7
+      "face": 56.4,
+      "faceAge": 55.6,
+      "faceSns": 56.4,
+      "faceAgeSns": 55.6
     },
     "rankingEligible": true,
     "embedding": [
@@ -16536,7 +16536,7 @@
   {
     "id": "celeb_51c9ce1d",
     "name": "薄幸",
-    "score": 56.4,
+    "score": 56.3,
     "details": {
       "symmetry": 48,
       "golden_ratio": 54,
@@ -16686,10 +16686,10 @@
     "birthDate": "1993-01-24",
     "age": 33,
     "scores": {
-      "face": 56.4,
-      "faceAge": 50.8,
-      "faceSns": 56.4,
-      "faceAgeSns": 50.8
+      "face": 56.3,
+      "faceAge": 50.7,
+      "faceSns": 56.3,
+      "faceAgeSns": 50.7
     },
     "rankingEligible": true
   },
@@ -17177,7 +17177,7 @@
   {
     "id": "celeb_47e4cc87",
     "name": "HARUNA",
-    "score": 56.3,
+    "score": 56.2,
     "details": {
       "symmetry": 43,
       "golden_ratio": 55,
@@ -17327,10 +17327,10 @@
     "birthDate": "1988-08-10",
     "age": 37,
     "scores": {
-      "face": 56.3,
-      "faceAge": 45.9,
-      "faceSns": 56.3,
-      "faceAgeSns": 45.9
+      "face": 56.2,
+      "faceAge": 45.8,
+      "faceSns": 56.2,
+      "faceAgeSns": 45.8
     },
     "rankingEligible": true
   },
@@ -18299,7 +18299,7 @@
   {
     "id": "celeb_1cb3d4d4",
     "name": "朝倉未来",
-    "score": 56.1,
+    "score": 56.0,
     "details": {
       "symmetry": 91,
       "golden_ratio": 44,
@@ -18315,10 +18315,10 @@
     "category": "influencer",
     "rankingEligible": true,
     "scores": {
-      "face": 56.1,
-      "faceAge": 50.5,
-      "faceSns": 59.9,
-      "faceAgeSns": 56.0
+      "face": 56.0,
+      "faceAge": 50.4,
+      "faceSns": 59.8,
+      "faceAgeSns": 55.9
     },
     "embedding": [
       -0.06823112070560455,
@@ -18463,7 +18463,7 @@
   {
     "id": "celeb_be0b0874",
     "name": "山田哲人",
-    "score": 56.1,
+    "score": 56.0,
     "details": {
       "symmetry": 9,
       "golden_ratio": 61,
@@ -18610,10 +18610,10 @@
     "rank": 116,
     "gender": "male",
     "scores": {
-      "face": 56.1,
-      "faceAge": 50.5,
-      "faceSns": 56.1,
-      "faceAgeSns": 50.5
+      "face": 56.0,
+      "faceAge": 50.4,
+      "faceSns": 56.0,
+      "faceAgeSns": 50.4
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -18625,7 +18625,7 @@
   {
     "id": "celeb_7c1b4ffd",
     "name": "菜々緒",
-    "score": 56.0,
+    "score": 55.9,
     "details": {
       "symmetry": 58,
       "golden_ratio": 51,
@@ -18775,10 +18775,10 @@
     "birthDate": "1988-10-28",
     "age": 37,
     "scores": {
-      "face": 56.0,
-      "faceAge": 45.6,
-      "faceSns": 56.0,
-      "faceAgeSns": 45.6
+      "face": 55.9,
+      "faceAge": 45.5,
+      "faceSns": 55.9,
+      "faceAgeSns": 45.5
     },
     "rankingEligible": true
   },
@@ -18787,12 +18787,12 @@
     "name": "千原ジュニア",
     "category": "comedian",
     "gender": "male",
-    "score": 56.0,
+    "score": 55.9,
     "scores": {
-      "face": 56.0,
-      "faceAge": 27.6,
-      "faceSns": 56.0,
-      "faceAgeSns": 27.6
+      "face": 55.9,
+      "faceAge": 27.5,
+      "faceSns": 55.9,
+      "faceAgeSns": 27.5
     },
     "details": {
       "symmetry": 83,
@@ -19106,7 +19106,7 @@
   {
     "id": "celeb_d6949314",
     "name": "真理杏",
-    "score": 56.0,
+    "score": 55.9,
     "details": {
       "symmetry": 68,
       "golden_ratio": 51,
@@ -19256,10 +19256,10 @@
     "birthDate": "1996-01-03",
     "age": 30,
     "scores": {
-      "face": 56.0,
-      "faceAge": 52.8,
-      "faceSns": 56.0,
-      "faceAgeSns": 52.8
+      "face": 55.9,
+      "faceAge": 52.7,
+      "faceSns": 55.9,
+      "faceAgeSns": 52.7
     },
     "rankingEligible": true
   },
@@ -19425,7 +19425,7 @@
   {
     "id": "celeb_510f6e95",
     "name": "佐藤聡美",
-    "score": 55.9,
+    "score": 55.8,
     "details": {
       "symmetry": 60,
       "golden_ratio": 51,
@@ -19575,10 +19575,10 @@
     "birthDate": "1986-05-08",
     "age": 39,
     "scores": {
-      "face": 55.9,
-      "faceAge": 43.1,
-      "faceSns": 55.9,
-      "faceAgeSns": 43.1
+      "face": 55.8,
+      "faceAge": 43.0,
+      "faceSns": 55.8,
+      "faceAgeSns": 43.0
     },
     "rankingEligible": true
   },
@@ -20392,7 +20392,7 @@
   {
     "id": "celeb_5e359ece",
     "name": "森七菜",
-    "score": 55.7,
+    "score": 55.6,
     "details": {
       "symmetry": 60,
       "golden_ratio": 53,
@@ -20412,10 +20412,10 @@
     "gender": "female",
     "birthDate": "2001-08-31",
     "scores": {
-      "face": 55.7,
-      "faceAge": 59.7,
-      "faceSns": 57.5,
-      "faceAgeSns": 60.3
+      "face": 55.6,
+      "faceAge": 59.6,
+      "faceSns": 57.4,
+      "faceAgeSns": 60.2
     },
     "rankingEligible": true,
     "embedding": [
@@ -20559,12 +20559,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 29,
-    "score": 55.7,
+    "score": 55.6,
     "scores": {
-      "face": 55.7,
-      "faceAge": 53.3,
-      "faceSns": 55.7,
-      "faceAgeSns": 53.3
+      "face": 55.6,
+      "faceAge": 53.2,
+      "faceSns": 55.6,
+      "faceAgeSns": 53.2
     },
     "details": {
       "symmetry": 87,
@@ -20879,7 +20879,7 @@
   {
     "id": "celeb_3b58042e",
     "name": "永瀬廉",
-    "score": 55.6,
+    "score": 55.5,
     "details": {
       "symmetry": 68,
       "golden_ratio": 46,
@@ -20899,10 +20899,10 @@
     "gender": "male",
     "birthDate": "1999-01-23",
     "scores": {
-      "face": 55.6,
-      "faceAge": 54.8,
-      "faceSns": 55.6,
-      "faceAgeSns": 54.8
+      "face": 55.5,
+      "faceAge": 54.7,
+      "faceSns": 55.5,
+      "faceAgeSns": 54.7
     },
     "rankingEligible": true,
     "embedding": [
@@ -22164,12 +22164,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 31,
-    "score": 55.3,
+    "score": 55.2,
     "scores": {
-      "face": 55.3,
-      "faceAge": 51.3,
-      "faceSns": 55.3,
-      "faceAgeSns": 51.3
+      "face": 55.2,
+      "faceAge": 51.2,
+      "faceSns": 55.2,
+      "faceAgeSns": 51.2
     },
     "details": {
       "symmetry": 78,
@@ -22485,7 +22485,7 @@
   {
     "id": "celeb_3ba68a6e",
     "name": "藤井風",
-    "score": 55.3,
+    "score": 55.2,
     "details": {
       "symmetry": 66,
       "golden_ratio": 45,
@@ -22505,8 +22505,8 @@
     "gender": "male",
     "birthDate": "1997-06-14",
     "scores": {
-      "face": 55.3,
-      "faceAge": 53.7,
+      "face": 55.2,
+      "faceAge": 53.6,
       "faceSns": 59.1,
       "faceAgeSns": 58.0
     },
@@ -22653,12 +22653,12 @@
     "name": "フット後藤",
     "category": "comedian",
     "gender": "male",
-    "score": 55.3,
+    "score": 55.2,
     "scores": {
-      "face": 55.3,
-      "faceAge": 28.1,
-      "faceSns": 55.3,
-      "faceAgeSns": 28.1
+      "face": 55.2,
+      "faceAge": 28.0,
+      "faceSns": 55.2,
+      "faceAgeSns": 28.0
     },
     "details": {
       "symmetry": 86,
@@ -22810,7 +22810,7 @@
   {
     "id": "celeb_1c78d232",
     "name": "アンナ・アカナ",
-    "score": 55.3,
+    "score": 55.2,
     "details": {
       "symmetry": 70,
       "golden_ratio": 46,
@@ -22960,17 +22960,17 @@
     "birthDate": "1989-08-18",
     "age": 36,
     "scores": {
-      "face": 55.3,
-      "faceAge": 46.1,
-      "faceSns": 55.3,
-      "faceAgeSns": 46.1
+      "face": 55.2,
+      "faceAge": 46.0,
+      "faceSns": 55.2,
+      "faceAgeSns": 46.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_709bbe32",
     "name": "小川紗良",
-    "score": 55.3,
+    "score": 55.2,
     "details": {
       "symmetry": 70,
       "golden_ratio": 43,
@@ -23120,10 +23120,10 @@
     "birthDate": "1996-06-08",
     "age": 29,
     "scores": {
-      "face": 55.3,
-      "faceAge": 52.9,
-      "faceSns": 55.3,
-      "faceAgeSns": 52.9
+      "face": 55.2,
+      "faceAge": 52.8,
+      "faceSns": 55.2,
+      "faceAgeSns": 52.8
     },
     "rankingEligible": true
   },
@@ -23931,7 +23931,7 @@
   {
     "id": "celeb_59fa7ac7",
     "name": "若葉竜也",
-    "score": 55.1,
+    "score": 55.0,
     "details": {
       "symmetry": 50,
       "golden_ratio": 52,
@@ -24081,10 +24081,10 @@
     "birthDate": "1989-06-10",
     "age": 36,
     "scores": {
-      "face": 55.1,
-      "faceAge": 45.9,
-      "faceSns": 55.1,
-      "faceAgeSns": 45.9
+      "face": 55.0,
+      "faceAge": 45.8,
+      "faceSns": 55.0,
+      "faceAgeSns": 45.8
     },
     "rankingEligible": true
   },
@@ -24411,7 +24411,7 @@
   {
     "id": "celeb_7864feb5",
     "name": "深田えいみ",
-    "score": 55.0,
+    "score": 54.9,
     "details": {
       "symmetry": 66,
       "golden_ratio": 46,
@@ -24561,17 +24561,17 @@
     "birthDate": "1998-03-18",
     "age": 28,
     "scores": {
-      "face": 55.0,
-      "faceAge": 53.4,
-      "faceSns": 55.0,
-      "faceAgeSns": 53.4
+      "face": 54.9,
+      "faceAge": 53.3,
+      "faceSns": 54.9,
+      "faceAgeSns": 53.3
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_791fad0c",
     "name": "紗羅マリー",
-    "score": 55.0,
+    "score": 54.9,
     "details": {
       "symmetry": 40,
       "golden_ratio": 47,
@@ -24721,10 +24721,10 @@
     "birthDate": "1986-12-12",
     "age": 39,
     "scores": {
-      "face": 55.0,
-      "faceAge": 42.2,
-      "faceSns": 55.0,
-      "faceAgeSns": 42.2
+      "face": 54.9,
+      "faceAge": 42.1,
+      "faceSns": 54.9,
+      "faceAgeSns": 42.1
     },
     "rankingEligible": true
   },
@@ -25053,7 +25053,7 @@
     "name": "神木隆之介",
     "category": "actor",
     "gender": "male",
-    "score": 54.9,
+    "score": 54.8,
     "details": {
       "symmetry": 63,
       "golden_ratio": 46,
@@ -25072,10 +25072,10 @@
     },
     "totalFollowers": 2500000,
     "scores": {
-      "face": 54.9,
-      "faceAge": 49.3,
+      "face": 54.8,
+      "faceAge": 49.2,
       "faceSns": 57.6,
-      "faceAgeSns": 53.7
+      "faceAgeSns": 53.6
     },
     "rankingEligible": true,
     "rank": 157,
@@ -25213,7 +25213,7 @@
   {
     "id": "celeb_4c2028a2",
     "name": "King Prince神宮寺勇太",
-    "score": 54.9,
+    "score": 54.8,
     "details": {
       "symmetry": 81,
       "golden_ratio": 49,
@@ -25229,10 +25229,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 54.9,
-      "faceAge": 53.3,
-      "faceSns": 54.9,
-      "faceAgeSns": 53.3
+      "face": 54.8,
+      "faceAge": 53.2,
+      "faceSns": 54.8,
+      "faceAgeSns": 53.2
     },
     "embedding": [
       -0.10641402006149292,
@@ -25372,7 +25372,7 @@
   {
     "id": "celeb_3294af89",
     "name": "まあたそ",
-    "score": 54.9,
+    "score": 54.8,
     "details": {
       "symmetry": 68,
       "golden_ratio": 51,
@@ -25522,10 +25522,10 @@
     "birthDate": "1995-09-01",
     "age": 30,
     "scores": {
-      "face": 54.9,
-      "faceAge": 51.7,
-      "faceSns": 54.9,
-      "faceAgeSns": 51.7
+      "face": 54.8,
+      "faceAge": 51.6,
+      "faceSns": 54.8,
+      "faceAgeSns": 51.6
     },
     "rankingEligible": true
   },
@@ -26488,7 +26488,7 @@
   {
     "id": "celeb_9c68fc1b",
     "name": "Fischer's ザカオ",
-    "score": 54.7,
+    "score": 54.6,
     "details": {
       "symmetry": 61,
       "golden_ratio": 49,
@@ -26636,10 +26636,10 @@
     "rank": 166,
     "gender": "male",
     "scores": {
-      "face": 54.7,
-      "faceAge": 50.7,
-      "faceSns": 54.7,
-      "faceAgeSns": 50.7
+      "face": 54.6,
+      "faceAge": 50.6,
+      "faceSns": 54.6,
+      "faceAgeSns": 50.6
     },
     "rankingEligible": true,
     "birthDate": "1994-06-03",
@@ -26648,7 +26648,7 @@
   {
     "id": "celeb_15ea1165",
     "name": "宮世琉弥",
-    "score": 54.7,
+    "score": 54.6,
     "details": {
       "symmetry": 35,
       "golden_ratio": 52,
@@ -26668,10 +26668,10 @@
     "gender": "male",
     "birthDate": "2004-01-22",
     "scores": {
-      "face": 54.7,
-      "faceAge": 58.7,
-      "faceSns": 54.7,
-      "faceAgeSns": 58.7
+      "face": 54.6,
+      "faceAge": 58.6,
+      "faceSns": 54.6,
+      "faceAgeSns": 58.6
     },
     "rankingEligible": true,
     "embedding": [
@@ -26968,7 +26968,7 @@
   {
     "id": "celeb_7417f311",
     "name": "夜のひと笑い いちえ",
-    "score": 54.6,
+    "score": 54.5,
     "details": {
       "symmetry": 62,
       "golden_ratio": 48,
@@ -27116,10 +27116,10 @@
     "rank": 169,
     "gender": "female",
     "scores": {
-      "face": 54.6,
-      "faceAge": 56.6,
-      "faceSns": 54.6,
-      "faceAgeSns": 56.6
+      "face": 54.5,
+      "faceAge": 56.5,
+      "faceSns": 54.5,
+      "faceAgeSns": 56.5
     },
     "rankingEligible": true,
     "birthDate": "1999-10-27",
@@ -27128,7 +27128,7 @@
   {
     "id": "celeb_d83611b7",
     "name": "長瀬麻美",
-    "score": 54.6,
+    "score": 54.5,
     "details": {
       "symmetry": 67,
       "golden_ratio": 52,
@@ -27278,17 +27278,17 @@
     "birthDate": "1992-06-06",
     "age": 33,
     "scores": {
-      "face": 54.6,
-      "faceAge": 49.0,
-      "faceSns": 54.6,
-      "faceAgeSns": 49.0
+      "face": 54.5,
+      "faceAge": 48.9,
+      "faceSns": 54.5,
+      "faceAgeSns": 48.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_37780a00",
     "name": "櫻井翔",
-    "score": 54.6,
+    "score": 54.5,
     "details": {
       "symmetry": 85,
       "golden_ratio": 44,
@@ -27304,10 +27304,10 @@
     "category": "actor",
     "rankingEligible": true,
     "scores": {
-      "face": 54.6,
-      "faceAge": 35.8,
-      "faceSns": 54.6,
-      "faceAgeSns": 35.8
+      "face": 54.5,
+      "faceAge": 35.7,
+      "faceSns": 54.5,
+      "faceAgeSns": 35.7
     },
     "embedding": [
       -0.01738218404352665,
@@ -27767,7 +27767,7 @@
   {
     "id": "celeb_8949a3c3",
     "name": "上矢えり奈",
-    "score": 54.5,
+    "score": 54.4,
     "details": {
       "symmetry": 42,
       "golden_ratio": 51,
@@ -27917,10 +27917,10 @@
     "birthDate": "1991-10-15",
     "age": 34,
     "scores": {
-      "face": 54.5,
-      "faceAge": 47.7,
-      "faceSns": 54.5,
-      "faceAgeSns": 47.7
+      "face": 54.4,
+      "faceAge": 47.6,
+      "faceSns": 54.4,
+      "faceAgeSns": 47.6
     },
     "rankingEligible": true
   },
@@ -28087,7 +28087,7 @@
   {
     "id": "celeb_900ee1c4",
     "name": "伊藤美来",
-    "score": 54.4,
+    "score": 54.3,
     "details": {
       "symmetry": 60,
       "golden_ratio": 47,
@@ -28237,17 +28237,17 @@
     "birthDate": "1996-10-12",
     "age": 29,
     "scores": {
-      "face": 54.4,
-      "faceAge": 52.0,
-      "faceSns": 54.4,
-      "faceAgeSns": 52.0
+      "face": 54.3,
+      "faceAge": 51.9,
+      "faceSns": 54.3,
+      "faceAgeSns": 51.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_d5d107ce",
     "name": "東雲うみ",
-    "score": 54.4,
+    "score": 54.3,
     "details": {
       "symmetry": 52,
       "golden_ratio": 48,
@@ -28397,17 +28397,17 @@
     "birthDate": "1996-09-26",
     "age": 29,
     "scores": {
-      "face": 54.4,
-      "faceAge": 52.0,
-      "faceSns": 54.4,
-      "faceAgeSns": 52.0
+      "face": 54.3,
+      "faceAge": 51.9,
+      "faceSns": 54.3,
+      "faceAgeSns": 51.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_2f5b8505",
     "name": "木村拓哉",
-    "score": 54.4,
+    "score": 54.3,
     "details": {
       "symmetry": 87,
       "golden_ratio": 48,
@@ -28423,10 +28423,10 @@
     "category": "actor",
     "rankingEligible": true,
     "scores": {
-      "face": 54.4,
-      "faceAge": 24.8,
-      "faceSns": 58.4,
-      "faceAgeSns": 37.7
+      "face": 54.3,
+      "faceAge": 24.7,
+      "faceSns": 58.3,
+      "faceAgeSns": 37.6
     },
     "embedding": [
       -0.032790929079055786,
@@ -29050,7 +29050,7 @@
   {
     "id": "celeb_52c9d5de",
     "name": "宮沢氷魚",
-    "score": 54.2,
+    "score": 54.1,
     "details": {
       "symmetry": 68,
       "golden_ratio": 46,
@@ -29200,10 +29200,10 @@
     "birthDate": "1994-04-24",
     "age": 31,
     "scores": {
-      "face": 54.2,
-      "faceAge": 50.2,
-      "faceSns": 54.2,
-      "faceAgeSns": 50.2
+      "face": 54.1,
+      "faceAge": 50.1,
+      "faceSns": 54.1,
+      "faceAgeSns": 50.1
     },
     "rankingEligible": true
   },
@@ -29693,7 +29693,7 @@
   {
     "id": "celeb_64c32528",
     "name": "渡辺麻友",
-    "score": 54.0,
+    "score": 53.9,
     "details": {
       "symmetry": 66,
       "golden_ratio": 49,
@@ -29843,10 +29843,10 @@
     "birthDate": "1994-03-26",
     "age": 32,
     "scores": {
-      "face": 54.0,
-      "faceAge": 49.2,
-      "faceSns": 54.0,
-      "faceAgeSns": 49.2
+      "face": 53.9,
+      "faceAge": 49.1,
+      "faceSns": 53.9,
+      "faceAgeSns": 49.1
     },
     "rankingEligible": true
   },
@@ -29855,7 +29855,7 @@
     "name": "橋本環奈",
     "category": "actress",
     "gender": "female",
-    "score": 54.0,
+    "score": 53.9,
     "details": {
       "symmetry": 67,
       "golden_ratio": 45,
@@ -29874,10 +29874,10 @@
     },
     "totalFollowers": 10300000,
     "scores": {
-      "face": 54.0,
-      "faceAge": 53.2,
+      "face": 53.9,
+      "faceAge": 53.1,
       "faceSns": 58.8,
-      "faceAgeSns": 58.3
+      "faceAgeSns": 58.2
     },
     "rankingEligible": true,
     "rank": 187,
@@ -30175,7 +30175,7 @@
   {
     "id": "celeb_0b82b226",
     "name": "石原さとみ",
-    "score": 53.9,
+    "score": 53.8,
     "details": {
       "symmetry": 69,
       "golden_ratio": 45,
@@ -30194,10 +30194,10 @@
     "gender": "female",
     "birthDate": "1986-12-24",
     "scores": {
-      "face": 53.9,
-      "faceAge": 41.1,
-      "faceSns": 57.2,
-      "faceAgeSns": 48.2
+      "face": 53.8,
+      "faceAge": 41.0,
+      "faceSns": 57.1,
+      "faceAgeSns": 48.1
     },
     "rankingEligible": true,
     "embedding": [
@@ -31457,7 +31457,7 @@
   {
     "id": "celeb_5f8aee04",
     "name": "鈴木真夕",
-    "score": 53.8,
+    "score": 53.7,
     "details": {
       "symmetry": 48,
       "golden_ratio": 48,
@@ -31607,10 +31607,10 @@
     "birthDate": "1994-03-16",
     "age": 32,
     "scores": {
-      "face": 53.8,
-      "faceAge": 49.0,
-      "faceSns": 53.8,
-      "faceAgeSns": 49.0
+      "face": 53.7,
+      "faceAge": 48.9,
+      "faceSns": 53.7,
+      "faceAgeSns": 48.9
     },
     "rankingEligible": true
   },
@@ -31619,12 +31619,12 @@
     "name": "ジャルジャル福徳秀介",
     "category": "comedian",
     "gender": "male",
-    "score": 53.7,
+    "score": 53.6,
     "scores": {
-      "face": 53.7,
-      "faceAge": 37.3,
-      "faceSns": 53.7,
-      "faceAgeSns": 37.3
+      "face": 53.6,
+      "faceAge": 37.2,
+      "faceSns": 53.6,
+      "faceAgeSns": 37.2
     },
     "details": {
       "symmetry": 86,
@@ -31776,7 +31776,7 @@
   {
     "id": "celeb_ac5ffa98",
     "name": "守屋麗奈",
-    "score": 53.7,
+    "score": 53.6,
     "details": {
       "symmetry": 49,
       "golden_ratio": 45,
@@ -31796,10 +31796,10 @@
     "gender": "female",
     "birthDate": "2000-01-02",
     "scores": {
-      "face": 53.7,
-      "faceAge": 55.7,
-      "faceSns": 53.7,
-      "faceAgeSns": 55.7
+      "face": 53.6,
+      "faceAge": 55.6,
+      "faceSns": 53.6,
+      "faceAgeSns": 55.6
     },
     "rankingEligible": true,
     "embedding": [
@@ -32255,7 +32255,7 @@
   {
     "id": "celeb_5fcdbe54",
     "name": "朝倉海",
-    "score": 53.6,
+    "score": 53.5,
     "details": {
       "symmetry": 79,
       "golden_ratio": 45,
@@ -32271,10 +32271,10 @@
     "category": "influencer",
     "rankingEligible": true,
     "scores": {
-      "face": 53.6,
-      "faceAge": 48.8,
+      "face": 53.5,
+      "faceAge": 48.7,
       "faceSns": 57.3,
-      "faceAgeSns": 54.0
+      "faceAgeSns": 53.9
     },
     "embedding": [
       -0.09213905781507492,
@@ -32580,7 +32580,7 @@
   {
     "id": "celeb_bf137367",
     "name": "小泉進次郎",
-    "score": 53.6,
+    "score": 53.5,
     "details": {
       "symmetry": 68,
       "golden_ratio": 46,
@@ -32730,10 +32730,10 @@
     "gender": "male",
     "birthDate": "1981-04-14",
     "scores": {
-      "face": 53.6,
-      "faceAge": 33.6,
-      "faceSns": 53.6,
-      "faceAgeSns": 33.6
+      "face": 53.5,
+      "faceAge": 33.5,
+      "faceSns": 53.5,
+      "faceAgeSns": 33.5
     },
     "rankingEligible": true
   },
@@ -33063,7 +33063,7 @@
     "id": "celeb_8393c080",
     "name": "板野友美",
     "category": "idol",
-    "score": 53.6,
+    "score": 53.5,
     "details": {
       "golden_ratio": 44,
       "eyes": 73,
@@ -33083,9 +33083,9 @@
     "totalFollowers": 3000000,
     "group": "元AKB48",
     "scores": {
-      "face": 53.6,
-      "faceAge": 48.0,
-      "faceSns": 57.0,
+      "face": 53.5,
+      "faceAge": 47.9,
+      "faceSns": 56.9,
       "faceAgeSns": 53.0
     },
     "rankingEligible": true,
@@ -33385,7 +33385,7 @@
   {
     "id": "celeb_746ef28f",
     "name": "中町JP",
-    "score": 53.5,
+    "score": 53.4,
     "details": {
       "symmetry": 67,
       "golden_ratio": 44,
@@ -33535,17 +33535,17 @@
     "birthDate": "1998-01-08",
     "age": 28,
     "scores": {
-      "face": 53.5,
-      "faceAge": 51.9,
-      "faceSns": 53.5,
-      "faceAgeSns": 51.9
+      "face": 53.4,
+      "faceAge": 51.8,
+      "faceSns": 53.4,
+      "faceAgeSns": 51.8
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_b5f58ce0",
     "name": "上坂すみれ",
-    "score": 53.5,
+    "score": 53.4,
     "details": {
       "symmetry": 57,
       "golden_ratio": 49,
@@ -33695,17 +33695,17 @@
     "birthDate": "1991-12-19",
     "age": 34,
     "scores": {
-      "face": 53.5,
-      "faceAge": 46.7,
-      "faceSns": 53.5,
-      "faceAgeSns": 46.7
+      "face": 53.4,
+      "faceAge": 46.6,
+      "faceSns": 53.4,
+      "faceAgeSns": 46.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_a6ce89fe",
     "name": "フワちゃん",
-    "score": 53.5,
+    "score": 53.4,
     "details": {
       "symmetry": 72,
       "golden_ratio": 46,
@@ -33721,10 +33721,10 @@
     "category": "youtuber",
     "rankingEligible": true,
     "scores": {
-      "face": 53.5,
-      "faceAge": 49.5,
-      "faceSns": 57.2,
-      "faceAgeSns": 54.4
+      "face": 53.4,
+      "faceAge": 49.4,
+      "faceSns": 57.1,
+      "faceAgeSns": 54.3
     },
     "embedding": [
       -0.06132722273468971,
@@ -34513,7 +34513,7 @@
     "name": "鈴木瞳美",
     "category": "idol",
     "gender": "female",
-    "score": 53.4,
+    "score": 53.3,
     "details": {
       "symmetry": 66,
       "golden_ratio": 42,
@@ -34532,10 +34532,10 @@
     "totalFollowers": 100000,
     "group": "≠ME",
     "scores": {
-      "face": 53.4,
-      "faceAge": 57.4,
-      "faceSns": 52.4,
-      "faceAgeSns": 55.2
+      "face": 53.3,
+      "faceAge": 57.3,
+      "faceSns": 52.3,
+      "faceAgeSns": 55.1
     },
     "rankingEligible": true,
     "rank": 216,
@@ -34676,12 +34676,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 29,
-    "score": 53.4,
+    "score": 53.3,
     "scores": {
-      "face": 53.4,
-      "faceAge": 51.0,
-      "faceSns": 53.4,
-      "faceAgeSns": 51.0
+      "face": 53.3,
+      "faceAge": 50.9,
+      "faceSns": 53.3,
+      "faceAgeSns": 50.9
     },
     "details": {
       "symmetry": 77,
@@ -34995,7 +34995,7 @@
   {
     "id": "celeb_20df11cc",
     "name": "堀未央奈",
-    "score": 53.3,
+    "score": 53.2,
     "details": {
       "symmetry": 69,
       "golden_ratio": 46,
@@ -35145,10 +35145,10 @@
     "birthDate": "1996-10-15",
     "age": 29,
     "scores": {
-      "face": 53.3,
-      "faceAge": 50.9,
-      "faceSns": 53.3,
-      "faceAgeSns": 50.9
+      "face": 53.2,
+      "faceAge": 50.8,
+      "faceSns": 53.2,
+      "faceAgeSns": 50.8
     },
     "rankingEligible": true
   },
@@ -35480,7 +35480,7 @@
   {
     "id": "celeb_5d470597",
     "name": "生見愛瑠",
-    "score": 53.3,
+    "score": 53.2,
     "details": {
       "symmetry": 64,
       "golden_ratio": 43,
@@ -35500,10 +35500,10 @@
     "gender": "female",
     "birthDate": "2002-03-06",
     "scores": {
-      "face": 53.3,
-      "faceAge": 57.3,
-      "faceSns": 53.3,
-      "faceAgeSns": 57.3
+      "face": 53.2,
+      "faceAge": 57.2,
+      "faceSns": 53.2,
+      "faceAgeSns": 57.2
     },
     "rankingEligible": true,
     "embedding": [
@@ -35640,7 +35640,7 @@
   {
     "id": "celeb_3bc6f858",
     "name": "杉野遥亮",
-    "score": 53.3,
+    "score": 53.2,
     "details": {
       "symmetry": 68,
       "golden_ratio": 45,
@@ -35660,10 +35660,10 @@
     "gender": "male",
     "birthDate": "1995-09-18",
     "scores": {
-      "face": 53.3,
-      "faceAge": 50.1,
-      "faceSns": 53.3,
-      "faceAgeSns": 50.1
+      "face": 53.2,
+      "faceAge": 50.0,
+      "faceSns": 53.2,
+      "faceAgeSns": 50.0
     },
     "rankingEligible": true,
     "embedding": [
@@ -35800,7 +35800,7 @@
   {
     "id": "celeb_43f97260",
     "name": "與真司郎",
-    "score": 53.3,
+    "score": 53.2,
     "details": {
       "symmetry": 45,
       "golden_ratio": 45,
@@ -35950,17 +35950,17 @@
     "birthDate": "1988-11-26",
     "age": 37,
     "scores": {
-      "face": 53.3,
-      "faceAge": 42.9,
-      "faceSns": 53.3,
-      "faceAgeSns": 42.9
+      "face": 53.2,
+      "faceAge": 42.8,
+      "faceSns": 53.2,
+      "faceAgeSns": 42.8
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_f467b1bc",
     "name": "木村有希",
-    "score": 53.3,
+    "score": 53.2,
     "details": {
       "symmetry": 57,
       "golden_ratio": 44,
@@ -36110,10 +36110,10 @@
     "birthDate": "1996-10-23",
     "age": 29,
     "scores": {
-      "face": 53.3,
-      "faceAge": 50.9,
-      "faceSns": 53.3,
-      "faceAgeSns": 50.9
+      "face": 53.2,
+      "faceAge": 50.8,
+      "faceSns": 53.2,
+      "faceAgeSns": 50.8
     },
     "rankingEligible": true
   },
@@ -36122,12 +36122,12 @@
     "name": "渡部建",
     "category": "comedian",
     "gender": "male",
-    "score": 53.3,
+    "score": 53.2,
     "scores": {
-      "face": 53.3,
-      "faceAge": 23.7,
-      "faceSns": 53.3,
-      "faceAgeSns": 23.7
+      "face": 53.2,
+      "faceAge": 23.6,
+      "faceSns": 53.2,
+      "faceAgeSns": 23.6
     },
     "details": {
       "symmetry": 74,
@@ -37088,12 +37088,12 @@
     "name": "加藤茶",
     "category": "cultural",
     "gender": "male",
-    "score": 53.2,
+    "score": 53.1,
     "scores": {
-      "face": 53.2,
-      "faceAge": 53.2,
-      "faceSns": 53.2,
-      "faceAgeSns": 53.2
+      "face": 53.1,
+      "faceAge": 53.1,
+      "faceSns": 53.1,
+      "faceAgeSns": 53.1
     },
     "details": {
       "symmetry": 79,
@@ -37243,7 +37243,7 @@
   {
     "id": "celeb_ff233df8",
     "name": "梶裕貴",
-    "score": 53.2,
+    "score": 53.1,
     "details": {
       "symmetry": 69,
       "golden_ratio": 45,
@@ -37393,10 +37393,10 @@
     "gender": "male",
     "birthDate": "1985-09-03",
     "scores": {
-      "face": 53.2,
-      "faceAge": 39.2,
-      "faceSns": 53.2,
-      "faceAgeSns": 39.2
+      "face": 53.1,
+      "faceAge": 39.1,
+      "faceSns": 53.1,
+      "faceAgeSns": 39.1
     },
     "rankingEligible": true
   },
@@ -37560,7 +37560,7 @@
   {
     "id": "celeb_3142c2a2",
     "name": "北出菜奈",
-    "score": 53.1,
+    "score": 53.0,
     "details": {
       "symmetry": 70,
       "golden_ratio": 43,
@@ -37710,10 +37710,10 @@
     "birthDate": "1987-05-02",
     "age": 38,
     "scores": {
-      "face": 53.1,
-      "faceAge": 41.5,
-      "faceSns": 53.1,
-      "faceAgeSns": 41.5
+      "face": 53.0,
+      "faceAge": 41.4,
+      "faceSns": 53.0,
+      "faceAgeSns": 41.4
     },
     "rankingEligible": true
   },
@@ -38040,7 +38040,7 @@
   {
     "id": "celeb_916a62a9",
     "name": "ヒカル",
-    "score": 53.1,
+    "score": 53.0,
     "details": {
       "symmetry": 70,
       "golden_ratio": 47,
@@ -38195,9 +38195,9 @@
     },
     "totalFollowers": 8500000,
     "scores": {
-      "face": 53.1,
-      "faceAge": 47.5,
-      "faceSns": 58.0,
+      "face": 53.0,
+      "faceAge": 47.4,
+      "faceSns": 57.9,
       "faceAgeSns": 54.0
     },
     "rankingEligible": true
@@ -38369,7 +38369,7 @@
   {
     "id": "celeb_63dbf0d5",
     "name": "石田安奈",
-    "score": 53.1,
+    "score": 53.0,
     "details": {
       "symmetry": 68,
       "golden_ratio": 47,
@@ -38519,17 +38519,17 @@
     "birthDate": "1996-05-27",
     "age": 29,
     "scores": {
-      "face": 53.1,
-      "faceAge": 50.7,
-      "faceSns": 53.1,
-      "faceAgeSns": 50.7
+      "face": 53.0,
+      "faceAge": 50.6,
+      "faceSns": 53.0,
+      "faceAgeSns": 50.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_a199a34e",
     "name": "松嶋菜々子",
-    "score": 53.1,
+    "score": 53.0,
     "details": {
       "symmetry": 91,
       "golden_ratio": 42,
@@ -38545,10 +38545,10 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 53.1,
-      "faceAge": 24.7,
-      "faceSns": 53.1,
-      "faceAgeSns": 24.7
+      "face": 53.0,
+      "faceAge": 24.6,
+      "faceSns": 53.0,
+      "faceAgeSns": 24.6
     },
     "embedding": [
       -0.027299964800477028,
@@ -38688,7 +38688,7 @@
   {
     "id": "celeb_8d7e079d",
     "name": "鈴木福",
-    "score": 53.1,
+    "score": 53.0,
     "details": {
       "symmetry": 61,
       "golden_ratio": 44,
@@ -38838,10 +38838,10 @@
     "birthDate": "2004-06-17",
     "age": 21,
     "scores": {
-      "face": 53.1,
-      "faceAge": 56.1,
-      "faceSns": 53.1,
-      "faceAgeSns": 56.1
+      "face": 53.0,
+      "faceAge": 56.0,
+      "faceSns": 53.0,
+      "faceAgeSns": 56.0
     },
     "rankingEligible": true
   },
@@ -39328,7 +39328,7 @@
   {
     "id": "celeb_a5297877",
     "name": "ゆたぼん",
-    "score": 53.0,
+    "score": 52.9,
     "details": {
       "symmetry": 59,
       "golden_ratio": 46,
@@ -39478,10 +39478,10 @@
     "birthDate": "2008-12-12",
     "age": 17,
     "scores": {
-      "face": 53.0,
-      "faceAge": 50.6,
-      "faceSns": 53.0,
-      "faceAgeSns": 50.6
+      "face": 52.9,
+      "faceAge": 50.5,
+      "faceSns": 52.9,
+      "faceAgeSns": 50.5
     },
     "rankingEligible": true
   },
@@ -39972,12 +39972,12 @@
     "name": "明石家さんま",
     "category": "comedian",
     "gender": "male",
-    "score": 52.9,
+    "score": 52.8,
     "scores": {
-      "face": 52.9,
-      "faceAge": 52.9,
-      "faceSns": 52.9,
-      "faceAgeSns": 52.9
+      "face": 52.8,
+      "faceAge": 52.8,
+      "faceSns": 52.8,
+      "faceAgeSns": 52.8
     },
     "details": {
       "symmetry": 79,
@@ -40931,7 +40931,7 @@
   {
     "id": "celeb_e3381d37",
     "name": "高橋健介",
-    "score": 52.8,
+    "score": 52.7,
     "details": {
       "symmetry": 71,
       "golden_ratio": 43,
@@ -41081,17 +41081,17 @@
     "birthDate": "1994-12-24",
     "age": 31,
     "scores": {
-      "face": 52.8,
-      "faceAge": 48.8,
-      "faceSns": 52.8,
-      "faceAgeSns": 48.8
+      "face": 52.7,
+      "faceAge": 48.7,
+      "faceSns": 52.7,
+      "faceAgeSns": 48.7
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_1933d626",
     "name": "桜田ひより",
-    "score": 52.8,
+    "score": 52.7,
     "details": {
       "symmetry": 69,
       "golden_ratio": 42,
@@ -41111,10 +41111,10 @@
     "gender": "female",
     "birthDate": "2002-12-19",
     "scores": {
-      "face": 52.8,
-      "faceAge": 57.8,
-      "faceSns": 52.8,
-      "faceAgeSns": 57.8
+      "face": 52.7,
+      "faceAge": 57.7,
+      "faceSns": 52.7,
+      "faceAgeSns": 57.7
     },
     "rankingEligible": true,
     "embedding": [
@@ -42690,7 +42690,7 @@
   {
     "id": "celeb_a4053404",
     "name": "澁谷果歩",
-    "score": 52.6,
+    "score": 52.5,
     "details": {
       "symmetry": 58,
       "golden_ratio": 46,
@@ -42840,10 +42840,10 @@
     "birthDate": "1991-05-20",
     "age": 34,
     "scores": {
-      "face": 52.6,
-      "faceAge": 45.8,
-      "faceSns": 52.6,
-      "faceAgeSns": 45.8
+      "face": 52.5,
+      "faceAge": 45.7,
+      "faceSns": 52.5,
+      "faceAgeSns": 45.7
     },
     "rankingEligible": true
   },
@@ -43171,7 +43171,7 @@
   {
     "id": "celeb_5cfebf00",
     "name": "コムドット ゆうま",
-    "score": 52.6,
+    "score": 52.5,
     "details": {
       "symmetry": 69,
       "golden_ratio": 46,
@@ -43319,10 +43319,10 @@
     "rank": 270,
     "gender": "male",
     "scores": {
-      "face": 52.6,
-      "faceAge": 51.8,
-      "faceSns": 52.6,
-      "faceAgeSns": 51.8
+      "face": 52.5,
+      "faceAge": 51.7,
+      "faceSns": 52.5,
+      "faceAgeSns": 51.7
     },
     "rankingEligible": true,
     "birthDate": "1998-12-14",
@@ -43331,7 +43331,7 @@
   {
     "id": "celeb_6f1a98f5",
     "name": "宇垣美里",
-    "score": 52.6,
+    "score": 52.5,
     "details": {
       "symmetry": 56,
       "golden_ratio": 44,
@@ -43481,17 +43481,17 @@
     "gender": "female",
     "birthDate": "1991-04-16",
     "scores": {
-      "face": 52.6,
-      "faceAge": 44.6,
-      "faceSns": 52.6,
-      "faceAgeSns": 44.6
+      "face": 52.5,
+      "faceAge": 44.5,
+      "faceSns": 52.5,
+      "faceAgeSns": 44.5
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_e6a8ab2f",
     "name": "ヴァンビ",
-    "score": 52.6,
+    "score": 52.5,
     "details": {
       "symmetry": 68,
       "golden_ratio": 44,
@@ -43639,10 +43639,10 @@
     "rank": 272,
     "gender": "male",
     "scores": {
-      "face": 52.6,
-      "faceAge": 52.6,
-      "faceSns": 52.6,
-      "faceAgeSns": 52.6
+      "face": 52.5,
+      "faceAge": 52.5,
+      "faceSns": 52.5,
+      "faceAgeSns": 52.5
     },
     "rankingEligible": true
   },
@@ -43810,7 +43810,7 @@
   {
     "id": "celeb_d54bfafc",
     "name": "3時のヒロイン 福田麻貴",
-    "score": 52.5,
+    "score": 52.4,
     "details": {
       "symmetry": 68,
       "golden_ratio": 46,
@@ -43960,17 +43960,17 @@
     "birthDate": "1988-10-10",
     "age": 37,
     "scores": {
-      "face": 52.5,
-      "faceAge": 42.1,
-      "faceSns": 52.5,
-      "faceAgeSns": 42.1
+      "face": 52.4,
+      "faceAge": 42.0,
+      "faceSns": 52.4,
+      "faceAgeSns": 42.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_92ec39fd",
     "name": "フォーエイト48 こたつ",
-    "score": 52.5,
+    "score": 52.4,
     "details": {
       "symmetry": 55,
       "golden_ratio": 44,
@@ -44118,10 +44118,10 @@
     "rank": 275,
     "gender": "male",
     "scores": {
-      "face": 52.5,
-      "faceAge": 50.1,
-      "faceSns": 52.5,
-      "faceAgeSns": 50.1
+      "face": 52.4,
+      "faceAge": 50.0,
+      "faceSns": 52.4,
+      "faceAgeSns": 50.0
     },
     "rankingEligible": true,
     "birthDate": "1996-12-30",
@@ -44130,7 +44130,7 @@
   {
     "id": "celeb_f05178ac",
     "name": "阿部純子",
-    "score": 52.5,
+    "score": 52.4,
     "details": {
       "symmetry": 63,
       "golden_ratio": 51,
@@ -44280,10 +44280,10 @@
     "birthDate": "1993-05-07",
     "age": 32,
     "scores": {
-      "face": 52.5,
-      "faceAge": 47.7,
-      "faceSns": 52.5,
-      "faceAgeSns": 47.7
+      "face": 52.4,
+      "faceAge": 47.6,
+      "faceSns": 52.4,
+      "faceAgeSns": 47.6
     },
     "rankingEligible": true
   },
@@ -45745,7 +45745,7 @@
     "name": "芦田愛菜",
     "category": "actress",
     "gender": "female",
-    "score": 52.4,
+    "score": 52.3,
     "details": {
       "symmetry": 62,
       "golden_ratio": 45,
@@ -45761,10 +45761,10 @@
     "sns": {},
     "totalFollowers": 0,
     "scores": {
-      "face": 52.4,
-      "faceAge": 55.4,
-      "faceSns": 52.4,
-      "faceAgeSns": 55.4
+      "face": 52.3,
+      "faceAge": 55.3,
+      "faceSns": 52.3,
+      "faceAgeSns": 55.3
     },
     "rankingEligible": true,
     "rank": 286,
@@ -46062,7 +46062,7 @@
   {
     "id": "celeb_bfb6c53c",
     "name": "milet",
-    "score": 52.4,
+    "score": 52.3,
     "details": {
       "symmetry": 49,
       "golden_ratio": 46,
@@ -46210,10 +46210,10 @@
     "rank": 288,
     "gender": "female",
     "scores": {
-      "face": 52.4,
-      "faceAge": 52.4,
-      "faceSns": 52.4,
-      "faceAgeSns": 52.4
+      "face": 52.3,
+      "faceAge": 52.3,
+      "faceSns": 52.3,
+      "faceAgeSns": 52.3
     },
     "rankingEligible": true
   },
@@ -46381,7 +46381,7 @@
     "name": "山田杏奈",
     "category": "actress",
     "gender": "female",
-    "score": 52.4,
+    "score": 52.3,
     "details": {
       "symmetry": 69,
       "golden_ratio": 41,
@@ -46399,10 +46399,10 @@
     },
     "totalFollowers": 300000,
     "scores": {
-      "face": 52.4,
-      "faceAge": 56.4,
-      "faceSns": 53.1,
-      "faceAgeSns": 55.9
+      "face": 52.3,
+      "faceAge": 56.3,
+      "faceSns": 53.0,
+      "faceAgeSns": 55.8
     },
     "rankingEligible": true,
     "rank": 290,
@@ -46860,7 +46860,7 @@
   {
     "id": "celeb_7cafab69",
     "name": "福原遥",
-    "score": 52.3,
+    "score": 52.2,
     "details": {
       "symmetry": 63,
       "golden_ratio": 44,
@@ -46880,10 +46880,10 @@
     "gender": "female",
     "birthDate": "1998-08-28",
     "scores": {
-      "face": 52.3,
-      "faceAge": 51.5,
-      "faceSns": 56.0,
-      "faceAgeSns": 55.4
+      "face": 52.2,
+      "faceAge": 51.4,
+      "faceSns": 55.9,
+      "faceAgeSns": 55.3
     },
     "rankingEligible": true,
     "embedding": [
@@ -47191,7 +47191,7 @@
   {
     "id": "celeb_3a5b1f67",
     "name": "波多野結衣",
-    "score": 52.3,
+    "score": 52.2,
     "details": {
       "symmetry": 70,
       "golden_ratio": 45,
@@ -47341,10 +47341,10 @@
     "birthDate": "1988-05-24",
     "age": 37,
     "scores": {
-      "face": 52.3,
-      "faceAge": 41.9,
-      "faceSns": 52.3,
-      "faceAgeSns": 41.9
+      "face": 52.2,
+      "faceAge": 41.8,
+      "faceSns": 52.2,
+      "faceAgeSns": 41.8
     },
     "rankingEligible": true
   },
@@ -47354,12 +47354,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 28,
-    "score": 52.3,
+    "score": 52.2,
     "scores": {
-      "face": 52.3,
-      "faceAge": 50.7,
-      "faceSns": 52.3,
-      "faceAgeSns": 50.7
+      "face": 52.2,
+      "faceAge": 50.6,
+      "faceSns": 52.2,
+      "faceAgeSns": 50.6
     },
     "details": {
       "symmetry": 86,
@@ -47513,7 +47513,7 @@
   {
     "id": "celeb_6aee73b7",
     "name": "戸崎奈津",
-    "score": 52.3,
+    "score": 52.2,
     "details": {
       "symmetry": 67,
       "golden_ratio": 43,
@@ -47663,10 +47663,10 @@
     "birthDate": "1987-08-27",
     "age": 38,
     "scores": {
-      "face": 52.3,
-      "faceAge": 40.7,
-      "faceSns": 52.3,
-      "faceAgeSns": 40.7
+      "face": 52.2,
+      "faceAge": 40.6,
+      "faceSns": 52.2,
+      "faceAgeSns": 40.6
     },
     "rankingEligible": true
   },
@@ -48159,7 +48159,7 @@
   {
     "id": "celeb_3c1e8838",
     "name": "楠エリサ",
-    "score": 52.2,
+    "score": 52.1,
     "details": {
       "symmetry": 61,
       "golden_ratio": 50,
@@ -48309,10 +48309,10 @@
     "birthDate": "1993-03-17",
     "age": 33,
     "scores": {
-      "face": 52.2,
-      "faceAge": 46.6,
-      "faceSns": 52.2,
-      "faceAgeSns": 46.6
+      "face": 52.1,
+      "faceAge": 46.5,
+      "faceSns": 52.1,
+      "faceAgeSns": 46.5
     },
     "rankingEligible": true
   },
@@ -48321,12 +48321,12 @@
     "name": "EXIT兼近",
     "category": "comedian",
     "gender": "male",
-    "score": 52.2,
+    "score": 52.1,
     "scores": {
-      "face": 52.2,
-      "faceAge": 52.2,
-      "faceSns": 52.2,
-      "faceAgeSns": 52.2
+      "face": 52.1,
+      "faceAge": 52.1,
+      "faceSns": 52.1,
+      "faceAgeSns": 52.1
     },
     "details": {
       "symmetry": 89,
@@ -48476,7 +48476,7 @@
   {
     "id": "celeb_06e1e34e",
     "name": "片岡かずさ",
-    "score": 52.2,
+    "score": 52.1,
     "details": {
       "symmetry": 56,
       "golden_ratio": 45,
@@ -48626,17 +48626,17 @@
     "birthDate": "1996-03-03",
     "age": 30,
     "scores": {
-      "face": 52.2,
-      "faceAge": 49.0,
-      "faceSns": 52.2,
-      "faceAgeSns": 49.0
+      "face": 52.1,
+      "faceAge": 48.9,
+      "faceSns": 52.1,
+      "faceAgeSns": 48.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_2e0f2ff8",
     "name": "ラファエル",
-    "score": 52.1,
+    "score": 52.0,
     "details": {
       "symmetry": 64,
       "golden_ratio": 48,
@@ -48784,10 +48784,10 @@
     "rank": 304,
     "gender": "male",
     "scores": {
-      "face": 52.1,
-      "faceAge": 35.7,
-      "faceSns": 52.1,
-      "faceAgeSns": 35.7
+      "face": 52.0,
+      "faceAge": 35.6,
+      "faceSns": 52.0,
+      "faceAgeSns": 35.6
     },
     "rankingEligible": true,
     "birthDate": "1983-06-25",
@@ -48796,7 +48796,7 @@
   {
     "id": "celeb_151272b5",
     "name": "高橋海人",
-    "score": 52.1,
+    "score": 52.0,
     "details": {
       "symmetry": 73,
       "golden_ratio": 42,
@@ -48816,10 +48816,10 @@
     "gender": "male",
     "birthDate": "1999-04-03",
     "scores": {
-      "face": 52.1,
-      "faceAge": 51.3,
-      "faceSns": 52.1,
-      "faceAgeSns": 51.3
+      "face": 52.0,
+      "faceAge": 51.2,
+      "faceSns": 52.0,
+      "faceAgeSns": 51.2
     },
     "rankingEligible": true,
     "embedding": [
@@ -48956,7 +48956,7 @@
   {
     "id": "celeb_47df3638",
     "name": "Taka(ONE OK ROCK)",
-    "score": 52.1,
+    "score": 52.0,
     "details": {
       "symmetry": 15,
       "golden_ratio": 52,
@@ -48975,8 +48975,8 @@
     "gender": "male",
     "birthDate": "1988-04-17",
     "scores": {
-      "face": 52.1,
-      "faceAge": 41.7,
+      "face": 52.0,
+      "faceAge": 41.6,
       "faceSns": 56.4,
       "faceAgeSns": 49.1
     },
@@ -49447,7 +49447,7 @@
   {
     "id": "celeb_c82d5185",
     "name": "蒔田真望",
-    "score": 52.0,
+    "score": 51.9,
     "details": {
       "symmetry": 47,
       "golden_ratio": 39,
@@ -49463,10 +49463,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 52.0,
-      "faceAge": 54.0,
-      "faceSns": 50.5,
-      "faceAgeSns": 51.9
+      "face": 51.9,
+      "faceAge": 53.9,
+      "faceSns": 50.4,
+      "faceAgeSns": 51.8
     },
     "embedding": [
       -0.07162244617938995,
@@ -49611,12 +49611,12 @@
     "name": "狩野英孝",
     "category": "comedian",
     "gender": "male",
-    "score": 52.0,
+    "score": 51.9,
     "scores": {
-      "face": 52.0,
-      "faceAge": 52.0,
-      "faceSns": 52.0,
-      "faceAgeSns": 52.0
+      "face": 51.9,
+      "faceAge": 51.9,
+      "faceSns": 51.9,
+      "faceAgeSns": 51.9
     },
     "details": {
       "symmetry": 72,
@@ -49766,7 +49766,7 @@
   {
     "id": "celeb_c40793a1",
     "name": "岡本信彦",
-    "score": 52.0,
+    "score": 51.9,
     "details": {
       "symmetry": 69,
       "golden_ratio": 44,
@@ -49916,10 +49916,10 @@
     "birthDate": "1986-10-24",
     "age": 39,
     "scores": {
-      "face": 52.0,
-      "faceAge": 39.2,
-      "faceSns": 52.0,
-      "faceAgeSns": 39.2
+      "face": 51.9,
+      "faceAge": 39.1,
+      "faceSns": 51.9,
+      "faceAgeSns": 39.1
     },
     "rankingEligible": true
   },
@@ -50088,7 +50088,7 @@
   {
     "id": "celeb_7adb8d6e",
     "name": "田中れいな",
-    "score": 52.0,
+    "score": 51.9,
     "details": {
       "symmetry": 62,
       "golden_ratio": 46,
@@ -50238,10 +50238,10 @@
     "birthDate": "1989-11-11",
     "age": 36,
     "scores": {
-      "face": 52.0,
-      "faceAge": 42.8,
-      "faceSns": 52.0,
-      "faceAgeSns": 42.8
+      "face": 51.9,
+      "faceAge": 42.7,
+      "faceSns": 51.9,
+      "faceAgeSns": 42.7
     },
     "rankingEligible": true
   },
@@ -50250,7 +50250,7 @@
     "name": "福士蒼汰",
     "category": "actor",
     "gender": "male",
-    "score": 52.0,
+    "score": 51.9,
     "details": {
       "symmetry": 60,
       "golden_ratio": 45,
@@ -50268,8 +50268,8 @@
     },
     "totalFollowers": 2800000,
     "scores": {
-      "face": 52.0,
-      "faceAge": 46.4,
+      "face": 51.9,
+      "faceAge": 46.3,
       "faceSns": 55.7,
       "faceAgeSns": 51.8
     },
@@ -50411,12 +50411,12 @@
     "name": "とにかく明るい安村",
     "category": "comedian",
     "gender": "male",
-    "score": 52.0,
+    "score": 51.9,
     "scores": {
-      "face": 52.0,
-      "faceAge": 33.2,
-      "faceSns": 52.0,
-      "faceAgeSns": 33.2
+      "face": 51.9,
+      "faceAge": 33.1,
+      "faceSns": 51.9,
+      "faceAgeSns": 33.1
     },
     "details": {
       "symmetry": 79,
@@ -50568,7 +50568,7 @@
   {
     "id": "celeb_c2115f43",
     "name": "宮澤佐江",
-    "score": 52.0,
+    "score": 51.9,
     "details": {
       "symmetry": 68,
       "golden_ratio": 43,
@@ -50718,10 +50718,10 @@
     "birthDate": "1990-08-13",
     "age": 35,
     "scores": {
-      "face": 52.0,
-      "faceAge": 44.0,
-      "faceSns": 52.0,
-      "faceAgeSns": 44.0
+      "face": 51.9,
+      "faceAge": 43.9,
+      "faceSns": 51.9,
+      "faceAgeSns": 43.9
     },
     "rankingEligible": true
   },
@@ -51213,7 +51213,7 @@
   {
     "id": "celeb_e7e1b967",
     "name": "常田大希",
-    "score": 51.9,
+    "score": 51.8,
     "details": {
       "symmetry": 61,
       "golden_ratio": 42,
@@ -51363,17 +51363,17 @@
     "gender": "male",
     "birthDate": "1992-05-15",
     "scores": {
-      "face": 51.9,
-      "faceAge": 46.3,
-      "faceSns": 51.9,
-      "faceAgeSns": 46.3
+      "face": 51.8,
+      "faceAge": 46.2,
+      "faceSns": 51.8,
+      "faceAgeSns": 46.2
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_5b8f985b",
     "name": "ヒコロヒー",
-    "score": 51.9,
+    "score": 51.8,
     "details": {
       "symmetry": 60,
       "golden_ratio": 44,
@@ -51523,17 +51523,17 @@
     "birthDate": "1989-10-15",
     "age": 36,
     "scores": {
-      "face": 51.9,
-      "faceAge": 42.7,
-      "faceSns": 51.9,
-      "faceAgeSns": 42.7
+      "face": 51.8,
+      "faceAge": 42.6,
+      "faceSns": 51.8,
+      "faceAgeSns": 42.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_9ab7472a",
     "name": "平成フラミンゴ RIHO",
-    "score": 51.9,
+    "score": 51.8,
     "details": {
       "symmetry": 69,
       "golden_ratio": 40,
@@ -51681,10 +51681,10 @@
     "rank": 322,
     "gender": "female",
     "scores": {
-      "face": 51.9,
-      "faceAge": 47.1,
-      "faceSns": 51.9,
-      "faceAgeSns": 47.1
+      "face": 51.8,
+      "faceAge": 47.0,
+      "faceSns": 51.8,
+      "faceAgeSns": 47.0
     },
     "rankingEligible": true,
     "birthDate": "1994-04-13",
@@ -52335,7 +52335,7 @@
   {
     "id": "celeb_ad0c6aed",
     "name": "小林ひかる",
-    "score": 51.8,
+    "score": 51.7,
     "details": {
       "symmetry": 67,
       "golden_ratio": 42,
@@ -52485,10 +52485,10 @@
     "birthDate": "1994-01-01",
     "age": 32,
     "scores": {
-      "face": 51.8,
-      "faceAge": 47.0,
-      "faceSns": 51.8,
-      "faceAgeSns": 47.0
+      "face": 51.7,
+      "faceAge": 46.9,
+      "faceSns": 51.7,
+      "faceAgeSns": 46.9
     },
     "rankingEligible": true
   },
@@ -53141,7 +53141,7 @@
     "name": "南沙良",
     "category": "actress",
     "gender": "female",
-    "score": 51.8,
+    "score": 51.7,
     "details": {
       "symmetry": 68,
       "golden_ratio": 42,
@@ -53159,10 +53159,10 @@
     },
     "totalFollowers": 500000,
     "scores": {
-      "face": 51.8,
-      "faceAge": 56.8,
-      "faceSns": 53.4,
-      "faceAgeSns": 56.9
+      "face": 51.7,
+      "faceAge": 56.7,
+      "faceSns": 53.3,
+      "faceAgeSns": 56.8
     },
     "rankingEligible": true,
     "rank": 332,
@@ -53300,7 +53300,7 @@
   {
     "id": "celeb_c26b36c4",
     "name": "景井ひな",
-    "score": 51.8,
+    "score": 51.7,
     "details": {
       "symmetry": 70,
       "golden_ratio": 43,
@@ -53450,17 +53450,17 @@
     "birthDate": "1999-02-19",
     "age": 27,
     "scores": {
-      "face": 51.8,
-      "faceAge": 51.0,
-      "faceSns": 51.8,
-      "faceAgeSns": 51.0
+      "face": 51.7,
+      "faceAge": 50.9,
+      "faceSns": 51.7,
+      "faceAgeSns": 50.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_9c8f190b",
     "name": "水瀬いのり",
-    "score": 51.8,
+    "score": 51.7,
     "details": {
       "symmetry": 60,
       "golden_ratio": 40,
@@ -53610,10 +53610,10 @@
     "gender": "female",
     "birthDate": "1995-12-02",
     "scores": {
-      "face": 51.8,
-      "faceAge": 48.6,
-      "faceSns": 51.8,
-      "faceAgeSns": 48.6
+      "face": 51.7,
+      "faceAge": 48.5,
+      "faceSns": 51.7,
+      "faceAgeSns": 48.5
     },
     "rankingEligible": true
   },
@@ -54101,7 +54101,7 @@
   {
     "id": "celeb_3e2c0c8b",
     "name": "中村倫也",
-    "score": 51.7,
+    "score": 51.6,
     "details": {
       "symmetry": 50,
       "golden_ratio": 46,
@@ -54255,17 +54255,17 @@
     },
     "totalFollowers": 3000000,
     "scores": {
-      "face": 51.7,
-      "faceAge": 38.9,
+      "face": 51.6,
+      "faceAge": 38.8,
       "faceSns": 55.6,
-      "faceAgeSns": 46.7
+      "faceAgeSns": 46.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_bde2b3e2",
     "name": "ELLY",
-    "score": 51.7,
+    "score": 51.6,
     "details": {
       "symmetry": 69,
       "golden_ratio": 42,
@@ -54415,17 +54415,17 @@
     "birthDate": "1987-09-21",
     "age": 38,
     "scores": {
-      "face": 51.7,
-      "faceAge": 40.1,
-      "faceSns": 51.7,
-      "faceAgeSns": 40.1
+      "face": 51.6,
+      "faceAge": 40.0,
+      "faceSns": 51.6,
+      "faceAgeSns": 40.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_2891b91a",
     "name": "濱正悟",
-    "score": 51.7,
+    "score": 51.6,
     "details": {
       "symmetry": 65,
       "golden_ratio": 45,
@@ -54575,10 +54575,10 @@
     "birthDate": "1994-08-22",
     "age": 31,
     "scores": {
-      "face": 51.7,
-      "faceAge": 47.7,
-      "faceSns": 51.7,
-      "faceAgeSns": 47.7
+      "face": 51.6,
+      "faceAge": 47.6,
+      "faceSns": 51.6,
+      "faceAgeSns": 47.6
     },
     "rankingEligible": true
   },
@@ -55074,12 +55074,12 @@
     "name": "ナイナイ矢部",
     "category": "comedian",
     "gender": "male",
-    "score": 51.6,
+    "score": 51.5,
     "scores": {
-      "face": 51.6,
-      "faceAge": 20.8,
-      "faceSns": 51.6,
-      "faceAgeSns": 20.8
+      "face": 51.5,
+      "faceAge": 20.7,
+      "faceSns": 51.5,
+      "faceAgeSns": 20.7
     },
     "details": {
       "symmetry": 84,
@@ -55231,7 +55231,7 @@
   {
     "id": "celeb_2d62f975",
     "name": "足立ナオミ",
-    "score": 51.6,
+    "score": 51.5,
     "details": {
       "symmetry": 71,
       "golden_ratio": 51,
@@ -55381,10 +55381,10 @@
     "birthDate": "1995-10-17",
     "age": 30,
     "scores": {
-      "face": 51.6,
-      "faceAge": 48.4,
-      "faceSns": 51.6,
-      "faceAgeSns": 48.4
+      "face": 51.5,
+      "faceAge": 48.3,
+      "faceSns": 51.5,
+      "faceAgeSns": 48.3
     },
     "rankingEligible": true
   },
@@ -55553,7 +55553,7 @@
     "name": "マヂカルラブリー野田クリスタル",
     "category": "comedian",
     "gender": "male",
-    "score": 51.5,
+    "score": 51.4,
     "details": {
       "symmetry": 43,
       "golden_ratio": 44,
@@ -55568,10 +55568,10 @@
     "age": 39,
     "birthDate": "1986-11-28",
     "scores": {
-      "face": 51.5,
-      "faceAge": 38.7,
-      "faceSns": 51.5,
-      "faceAgeSns": 38.7
+      "face": 51.4,
+      "faceAge": 38.6,
+      "faceSns": 51.4,
+      "faceAgeSns": 38.6
     },
     "rankingEligible": true,
     "rank": 347,
@@ -55871,12 +55871,12 @@
     "name": "山里亮太",
     "category": "comedian",
     "gender": "male",
-    "score": 51.5,
+    "score": 51.4,
     "scores": {
-      "face": 51.5,
-      "faceAge": 26.7,
-      "faceSns": 51.5,
-      "faceAgeSns": 26.7
+      "face": 51.4,
+      "faceAge": 26.6,
+      "faceSns": 51.4,
+      "faceAgeSns": 26.6
     },
     "details": {
       "symmetry": 75,
@@ -56028,7 +56028,7 @@
   {
     "id": "celeb_048a92d1",
     "name": "末吉秀太",
-    "score": 51.5,
+    "score": 51.4,
     "details": {
       "symmetry": 72,
       "golden_ratio": 45,
@@ -56178,17 +56178,17 @@
     "birthDate": "1986-12-11",
     "age": 39,
     "scores": {
-      "face": 51.5,
-      "faceAge": 38.7,
-      "faceSns": 51.5,
-      "faceAgeSns": 38.7
+      "face": 51.4,
+      "faceAge": 38.6,
+      "faceSns": 51.4,
+      "faceAgeSns": 38.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_c9aa3e92",
     "name": "本田翼",
-    "score": 51.5,
+    "score": 51.4,
     "details": {
       "symmetry": 89,
       "golden_ratio": 41,
@@ -56204,10 +56204,10 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 51.5,
-      "faceAge": 44.7,
+      "face": 51.4,
+      "faceAge": 44.6,
       "faceSns": 56.5,
-      "faceAgeSns": 51.8
+      "faceAgeSns": 51.7
     },
     "embedding": [
       -0.0630786120891571,
@@ -56353,12 +56353,12 @@
     "name": "劇団ひとり",
     "category": "comedian",
     "gender": "male",
-    "score": 51.4,
+    "score": 51.3,
     "scores": {
-      "face": 51.4,
-      "faceAge": 26.6,
-      "faceSns": 51.4,
-      "faceAgeSns": 26.6
+      "face": 51.3,
+      "faceAge": 26.5,
+      "faceSns": 51.3,
+      "faceAgeSns": 26.5
     },
     "details": {
       "symmetry": 73,
@@ -56512,7 +56512,7 @@
     "name": "小松菜奈",
     "category": "model",
     "gender": "female",
-    "score": 51.4,
+    "score": 51.3,
     "details": {
       "symmetry": 67,
       "golden_ratio": 44,
@@ -56530,9 +56530,9 @@
     },
     "totalFollowers": 5000000,
     "scores": {
-      "face": 51.4,
-      "faceAge": 48.2,
-      "faceSns": 56.1,
+      "face": 51.3,
+      "faceAge": 48.1,
+      "faceSns": 56.0,
       "faceAgeSns": 53.8
     },
     "rankingEligible": true,
@@ -56832,7 +56832,7 @@
   {
     "id": "celeb_60e6d6c6",
     "name": "有安杏果",
-    "score": 51.4,
+    "score": 51.3,
     "details": {
       "symmetry": 68,
       "golden_ratio": 42,
@@ -56982,10 +56982,10 @@
     "birthDate": "1995-03-15",
     "age": 31,
     "scores": {
-      "face": 51.4,
-      "faceAge": 47.4,
-      "faceSns": 51.4,
-      "faceAgeSns": 47.4
+      "face": 51.3,
+      "faceAge": 47.3,
+      "faceSns": 51.3,
+      "faceAgeSns": 47.3
     },
     "rankingEligible": true
   },
@@ -57152,7 +57152,7 @@
   {
     "id": "celeb_d6b00c96",
     "name": "佐々木舞香",
-    "score": 51.3,
+    "score": 51.2,
     "details": {
       "symmetry": 71,
       "golden_ratio": 38,
@@ -57168,8 +57168,8 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 51.3,
-      "faceAge": 54.3,
+      "face": 51.2,
+      "faceAge": 54.2,
       "faceSns": 51.4,
       "faceAgeSns": 53.5
     },
@@ -57473,7 +57473,7 @@
   {
     "id": "celeb_e77172d9",
     "name": "サラ・オレイン",
-    "score": 51.3,
+    "score": 51.2,
     "details": {
       "symmetry": 64,
       "golden_ratio": 45,
@@ -57623,17 +57623,17 @@
     "birthDate": "1986-10-08",
     "age": 39,
     "scores": {
-      "face": 51.3,
-      "faceAge": 38.5,
-      "faceSns": 51.3,
-      "faceAgeSns": 38.5
+      "face": 51.2,
+      "faceAge": 38.4,
+      "faceSns": 51.2,
+      "faceAgeSns": 38.4
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_a0febb7f",
     "name": "葉月くれあ",
-    "score": 51.3,
+    "score": 51.2,
     "details": {
       "symmetry": 58,
       "golden_ratio": 46,
@@ -57783,10 +57783,10 @@
     "birthDate": "2003-11-19",
     "age": 22,
     "scores": {
-      "face": 51.3,
-      "faceAge": 55.3,
-      "faceSns": 51.3,
-      "faceAgeSns": 55.3
+      "face": 51.2,
+      "faceAge": 55.2,
+      "faceSns": 51.2,
+      "faceAgeSns": 55.2
     },
     "rankingEligible": true
   },
@@ -57796,12 +57796,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 32,
-    "score": 51.3,
+    "score": 51.2,
     "scores": {
-      "face": 51.3,
-      "faceAge": 46.5,
-      "faceSns": 51.3,
-      "faceAgeSns": 46.5
+      "face": 51.2,
+      "faceAge": 46.4,
+      "faceSns": 51.2,
+      "faceAgeSns": 46.4
     },
     "details": {
       "symmetry": 72,
@@ -57955,7 +57955,7 @@
   {
     "id": "celeb_46587505",
     "name": "田村保乃",
-    "score": 51.3,
+    "score": 51.2,
     "details": {
       "symmetry": 50,
       "golden_ratio": 44,
@@ -57975,10 +57975,10 @@
     "gender": "female",
     "birthDate": "1998-10-21",
     "scores": {
-      "face": 51.3,
-      "faceAge": 50.5,
-      "faceSns": 51.3,
-      "faceAgeSns": 50.5
+      "face": 51.2,
+      "faceAge": 50.4,
+      "faceSns": 51.2,
+      "faceAgeSns": 50.4
     },
     "rankingEligible": true,
     "embedding": [
@@ -58437,7 +58437,7 @@
     "name": "桐谷美玲",
     "category": "actress",
     "gender": "female",
-    "score": 51.2,
+    "score": 51.1,
     "details": {
       "symmetry": 47,
       "golden_ratio": 46,
@@ -58455,9 +58455,9 @@
     },
     "totalFollowers": 3000000,
     "scores": {
-      "face": 51.2,
-      "faceAge": 42.0,
-      "faceSns": 55.3,
+      "face": 51.1,
+      "faceAge": 41.9,
+      "faceSns": 55.2,
       "faceAgeSns": 48.8
     },
     "rankingEligible": true,
@@ -58598,12 +58598,12 @@
     "name": "つんく",
     "category": "cultural",
     "gender": "male",
-    "score": 51.2,
+    "score": 51.1,
     "scores": {
-      "face": 51.2,
-      "faceAge": 16.8,
-      "faceSns": 51.2,
-      "faceAgeSns": 16.8
+      "face": 51.1,
+      "faceAge": 16.7,
+      "faceSns": 51.1,
+      "faceAgeSns": 16.7
     },
     "details": {
       "symmetry": 75,
@@ -58755,7 +58755,7 @@
   {
     "id": "celeb_b0af49ce",
     "name": "日南響子",
-    "score": 51.2,
+    "score": 51.1,
     "details": {
       "symmetry": 64,
       "golden_ratio": 46,
@@ -58905,10 +58905,10 @@
     "birthDate": "1994-02-06",
     "age": 32,
     "scores": {
-      "face": 51.2,
-      "faceAge": 46.4,
-      "faceSns": 51.2,
-      "faceAgeSns": 46.4
+      "face": 51.1,
+      "faceAge": 46.3,
+      "faceSns": 51.1,
+      "faceAgeSns": 46.3
     },
     "rankingEligible": true
   },
@@ -59076,7 +59076,7 @@
   {
     "id": "celeb_4b96c25c",
     "name": "パパラピーズ じんじん",
-    "score": 51.2,
+    "score": 51.1,
     "details": {
       "symmetry": 69,
       "golden_ratio": 42,
@@ -59224,10 +59224,10 @@
     "rank": 369,
     "gender": "male",
     "scores": {
-      "face": 51.2,
-      "faceAge": 47.2,
-      "faceSns": 51.2,
-      "faceAgeSns": 47.2
+      "face": 51.1,
+      "faceAge": 47.1,
+      "faceSns": 51.1,
+      "faceAgeSns": 47.1
     },
     "rankingEligible": true,
     "birthDate": "1994-12-05",
@@ -59879,7 +59879,7 @@
   {
     "id": "celeb_cea8b1ad",
     "name": "夜のひと笑い こう",
-    "score": 51.1,
+    "score": 51.0,
     "details": {
       "symmetry": 65,
       "golden_ratio": 42,
@@ -60027,10 +60027,10 @@
     "rank": 374,
     "gender": "male",
     "scores": {
-      "face": 51.1,
-      "faceAge": 53.1,
-      "faceSns": 51.1,
-      "faceAgeSns": 53.1
+      "face": 51.0,
+      "faceAge": 53.0,
+      "faceSns": 51.0,
+      "faceAgeSns": 53.0
     },
     "rankingEligible": true,
     "birthDate": "2000-01-17",
@@ -60042,12 +60042,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 26,
-    "score": 51.1,
+    "score": 51.0,
     "scores": {
-      "face": 51.1,
-      "faceAge": 53.1,
-      "faceSns": 51.1,
-      "faceAgeSns": 53.1
+      "face": 51.0,
+      "faceAge": 53.0,
+      "faceSns": 51.0,
+      "faceAgeSns": 53.0
     },
     "details": {
       "symmetry": 93,
@@ -62767,12 +62767,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 28,
-    "score": 50.9,
+    "score": 50.8,
     "scores": {
-      "face": 50.9,
-      "faceAge": 49.3,
-      "faceSns": 50.9,
-      "faceAgeSns": 49.3
+      "face": 50.8,
+      "faceAge": 49.2,
+      "faceSns": 50.8,
+      "faceAgeSns": 49.2
     },
     "details": {
       "symmetry": 84,
@@ -63886,7 +63886,7 @@
     "name": "三浦大知",
     "category": "artist",
     "gender": "male",
-    "score": 50.8,
+    "score": 50.7,
     "details": {
       "symmetry": 72,
       "golden_ratio": 47,
@@ -63906,10 +63906,10 @@
     },
     "totalFollowers": 1900000,
     "scores": {
-      "face": 50.8,
-      "faceAge": 39.2,
-      "faceSns": 54.4,
-      "faceAgeSns": 46.3
+      "face": 50.7,
+      "faceAge": 39.1,
+      "faceSns": 54.3,
+      "faceAgeSns": 46.2
     },
     "rankingEligible": true,
     "rank": 399,
@@ -64047,7 +64047,7 @@
   {
     "id": "celeb_3b8e096d",
     "name": "高橋文哉",
-    "score": 50.8,
+    "score": 50.7,
     "details": {
       "symmetry": 66,
       "golden_ratio": 43,
@@ -64067,10 +64067,10 @@
     "gender": "male",
     "birthDate": "2001-03-12",
     "scores": {
-      "face": 50.8,
-      "faceAge": 53.8,
-      "faceSns": 54.5,
-      "faceAgeSns": 56.6
+      "face": 50.7,
+      "faceAge": 53.7,
+      "faceSns": 54.4,
+      "faceAgeSns": 56.5
     },
     "rankingEligible": true,
     "embedding": [
@@ -64214,7 +64214,7 @@
     "name": "広瀬すず",
     "category": "actress",
     "gender": "female",
-    "score": 50.8,
+    "score": 50.7,
     "details": {
       "symmetry": 64,
       "golden_ratio": 43,
@@ -64233,10 +64233,10 @@
     },
     "totalFollowers": 5900000,
     "scores": {
-      "face": 50.8,
-      "faceAge": 50.0,
-      "faceSns": 55.9,
-      "faceAgeSns": 55.3
+      "face": 50.7,
+      "faceAge": 49.9,
+      "faceSns": 55.8,
+      "faceAgeSns": 55.2
     },
     "rankingEligible": true,
     "rank": 401,
@@ -64375,7 +64375,7 @@
   {
     "id": "celeb_2669a919",
     "name": "RISABOOO",
-    "score": 50.8,
+    "score": 50.7,
     "details": {
       "symmetry": 62,
       "golden_ratio": 46,
@@ -64525,10 +64525,10 @@
     "birthDate": "1995-12-16",
     "age": 30,
     "scores": {
-      "face": 50.8,
-      "faceAge": 47.6,
-      "faceSns": 50.8,
-      "faceAgeSns": 47.6
+      "face": 50.7,
+      "faceAge": 47.5,
+      "faceSns": 50.7,
+      "faceAgeSns": 47.5
     },
     "rankingEligible": true
   },
@@ -65015,7 +65015,7 @@
   {
     "id": "celeb_2723e180",
     "name": "上白石萌音",
-    "score": 50.7,
+    "score": 50.6,
     "details": {
       "symmetry": 39,
       "golden_ratio": 49,
@@ -65034,10 +65034,10 @@
     "gender": "female",
     "birthDate": "1998-01-27",
     "scores": {
-      "face": 50.7,
-      "faceAge": 49.1,
-      "faceSns": 53.5,
-      "faceAgeSns": 52.4
+      "face": 50.6,
+      "faceAge": 49.0,
+      "faceSns": 53.4,
+      "faceAgeSns": 52.3
     },
     "rankingEligible": true,
     "embedding": [
@@ -65499,12 +65499,12 @@
     "name": "出川哲朗",
     "category": "comedian",
     "gender": "male",
-    "score": 50.7,
+    "score": 50.6,
     "scores": {
-      "face": 50.7,
-      "faceAge": 10.3,
-      "faceSns": 50.7,
-      "faceAgeSns": 10.3
+      "face": 50.6,
+      "faceAge": 10.2,
+      "faceSns": 50.6,
+      "faceAgeSns": 10.2
     },
     "details": {
       "symmetry": 81,
@@ -65656,7 +65656,7 @@
   {
     "id": "celeb_c5d2e746",
     "name": "百々さおり",
-    "score": 50.7,
+    "score": 50.6,
     "details": {
       "symmetry": 64,
       "golden_ratio": 44,
@@ -65806,10 +65806,10 @@
     "birthDate": "1989-10-03",
     "age": 36,
     "scores": {
-      "face": 50.7,
-      "faceAge": 41.5,
-      "faceSns": 50.7,
-      "faceAgeSns": 41.5
+      "face": 50.6,
+      "faceAge": 41.4,
+      "faceSns": 50.6,
+      "faceAgeSns": 41.4
     },
     "rankingEligible": true
   },
@@ -65818,7 +65818,7 @@
     "name": "吉岡里帆",
     "category": "actress",
     "gender": "female",
-    "score": 50.7,
+    "score": 50.6,
     "details": {
       "symmetry": 67,
       "golden_ratio": 45,
@@ -65837,10 +65837,10 @@
     },
     "totalFollowers": 4000000,
     "scores": {
-      "face": 50.7,
-      "faceAge": 45.1,
-      "faceSns": 55.3,
-      "faceAgeSns": 51.4
+      "face": 50.6,
+      "faceAge": 45.0,
+      "faceSns": 55.2,
+      "faceAgeSns": 51.3
     },
     "rankingEligible": true,
     "rank": 411,
@@ -65978,7 +65978,7 @@
   {
     "id": "celeb_c104f3b5",
     "name": "内田雄馬",
-    "score": 50.7,
+    "score": 50.6,
     "details": {
       "symmetry": 52,
       "golden_ratio": 42,
@@ -66128,17 +66128,17 @@
     "birthDate": "1992-09-21",
     "age": 33,
     "scores": {
-      "face": 50.7,
-      "faceAge": 45.1,
-      "faceSns": 50.7,
-      "faceAgeSns": 45.1
+      "face": 50.6,
+      "faceAge": 45.0,
+      "faceSns": 50.6,
+      "faceAgeSns": 45.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_72d8d22d",
     "name": "長友佑都",
-    "score": 50.7,
+    "score": 50.6,
     "details": {
       "symmetry": 64,
       "golden_ratio": 45,
@@ -66287,10 +66287,10 @@
     "birthDate": "1986-09-12",
     "age": 39,
     "scores": {
-      "face": 50.7,
-      "faceAge": 37.9,
-      "faceSns": 50.7,
-      "faceAgeSns": 37.9
+      "face": 50.6,
+      "faceAge": 37.8,
+      "faceSns": 50.6,
+      "faceAgeSns": 37.8
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -66300,7 +66300,7 @@
   {
     "id": "celeb_8d52f331",
     "name": "大野智",
-    "score": 50.7,
+    "score": 50.6,
     "details": {
       "symmetry": 90,
       "golden_ratio": 34,
@@ -66316,10 +66316,10 @@
     "category": "actor",
     "rankingEligible": true,
     "scores": {
-      "face": 50.7,
-      "faceAge": 30.7,
-      "faceSns": 50.7,
-      "faceAgeSns": 30.7
+      "face": 50.6,
+      "faceAge": 30.6,
+      "faceSns": 50.6,
+      "faceAgeSns": 30.6
     },
     "embedding": [
       -0.05732475593686104,
@@ -67263,7 +67263,7 @@
     "name": "桜井日奈子",
     "category": "actress",
     "gender": "female",
-    "score": 50.5,
+    "score": 50.4,
     "details": {
       "symmetry": 74,
       "golden_ratio": 45,
@@ -67278,10 +67278,10 @@
     "age": 29,
     "birthDate": "1997-04-02",
     "scores": {
-      "face": 50.5,
-      "faceAge": 48.1,
-      "faceSns": 50.5,
-      "faceAgeSns": 48.1
+      "face": 50.4,
+      "faceAge": 48.0,
+      "faceSns": 50.4,
+      "faceAgeSns": 48.0
     },
     "rankingEligible": true,
     "rank": 420,
@@ -67419,7 +67419,7 @@
   {
     "id": "celeb_f9a3263f",
     "name": "亀井絵里",
-    "score": 50.5,
+    "score": 50.4,
     "details": {
       "symmetry": 56,
       "golden_ratio": 46,
@@ -67569,10 +67569,10 @@
     "birthDate": "1988-12-23",
     "age": 37,
     "scores": {
-      "face": 50.5,
-      "faceAge": 40.1,
-      "faceSns": 50.5,
-      "faceAgeSns": 40.1
+      "face": 50.4,
+      "faceAge": 40.0,
+      "faceSns": 50.4,
+      "faceAgeSns": 40.0
     },
     "rankingEligible": true
   },
@@ -67899,7 +67899,7 @@
   {
     "id": "celeb_70717d55",
     "name": "大竹しのぶ",
-    "score": 50.5,
+    "score": 50.4,
     "details": {
       "symmetry": 75,
       "golden_ratio": 40,
@@ -67915,10 +67915,10 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 50.5,
-      "faceAge": 2.9,
-      "faceSns": 50.5,
-      "faceAgeSns": 2.9
+      "face": 50.4,
+      "faceAge": 2.8,
+      "faceSns": 50.4,
+      "faceAgeSns": 2.8
     },
     "embedding": [
       -0.05095724016427994,
@@ -68058,7 +68058,7 @@
   {
     "id": "celeb_5e662c06",
     "name": "三浦春馬",
-    "score": 50.5,
+    "score": 50.4,
     "details": {
       "symmetry": 49,
       "golden_ratio": 42,
@@ -68209,17 +68209,17 @@
     "totalFollowers": 0,
     "birthDate": "1990-04-05",
     "scores": {
-      "face": 50.5,
-      "faceAge": 41.3,
-      "faceSns": 50.5,
-      "faceAgeSns": 41.3
+      "face": 50.4,
+      "faceAge": 41.2,
+      "faceSns": 50.4,
+      "faceAgeSns": 41.2
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_85473d49",
     "name": "久保田杏奈",
-    "score": 50.5,
+    "score": 50.4,
     "details": {
       "symmetry": 39,
       "golden_ratio": 43,
@@ -68369,10 +68369,10 @@
     "birthDate": "1992-10-19",
     "age": 33,
     "scores": {
-      "face": 50.5,
-      "faceAge": 44.9,
-      "faceSns": 50.5,
-      "faceAgeSns": 44.9
+      "face": 50.4,
+      "faceAge": 44.8,
+      "faceSns": 50.4,
+      "faceAgeSns": 44.8
     },
     "rankingEligible": true
   },
@@ -68863,7 +68863,7 @@
   {
     "id": "celeb_d311954b",
     "name": "水溜りボンド トミー",
-    "score": 50.4,
+    "score": 50.3,
     "details": {
       "symmetry": 45,
       "golden_ratio": 45,
@@ -69013,10 +69013,10 @@
     "birthDate": "1994-07-26",
     "age": 31,
     "scores": {
-      "face": 50.4,
-      "faceAge": 46.4,
-      "faceSns": 50.4,
-      "faceAgeSns": 46.4
+      "face": 50.3,
+      "faceAge": 46.3,
+      "faceSns": 50.3,
+      "faceAgeSns": 46.3
     },
     "rankingEligible": true
   },
@@ -69822,7 +69822,7 @@
   {
     "id": "celeb_a244f251",
     "name": "唐田えりか",
-    "score": 50.3,
+    "score": 50.2,
     "details": {
       "symmetry": 64,
       "golden_ratio": 44,
@@ -69972,17 +69972,17 @@
     "birthDate": "1997-09-19",
     "age": 28,
     "scores": {
-      "face": 50.3,
-      "faceAge": 48.7,
-      "faceSns": 50.3,
-      "faceAgeSns": 48.7
+      "face": 50.2,
+      "faceAge": 48.6,
+      "faceSns": 50.2,
+      "faceAgeSns": 48.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_caed0870",
     "name": "井上和",
-    "score": 50.3,
+    "score": 50.2,
     "details": {
       "symmetry": 52,
       "golden_ratio": 43,
@@ -70002,10 +70002,10 @@
     "gender": "female",
     "birthDate": "2005-02-17",
     "scores": {
-      "face": 50.3,
-      "faceAge": 53.3,
-      "faceSns": 50.3,
-      "faceAgeSns": 53.3
+      "face": 50.2,
+      "faceAge": 53.2,
+      "faceSns": 50.2,
+      "faceAgeSns": 53.2
     },
     "rankingEligible": true,
     "embedding": [
@@ -70144,12 +70144,12 @@
     "name": "村上春樹",
     "category": "cultural",
     "gender": "male",
-    "score": 50.3,
+    "score": 50.2,
     "scores": {
-      "face": 50.3,
-      "faceAge": 50.3,
-      "faceSns": 50.3,
-      "faceAgeSns": 50.3
+      "face": 50.2,
+      "faceAge": 50.2,
+      "faceSns": 50.2,
+      "faceAgeSns": 50.2
     },
     "details": {
       "symmetry": 84,
@@ -70299,7 +70299,7 @@
   {
     "id": "celeb_12bd9327",
     "name": "武井咲",
-    "score": 50.3,
+    "score": 50.2,
     "details": {
       "symmetry": 63,
       "golden_ratio": 42,
@@ -70449,10 +70449,10 @@
     "birthDate": "1993-12-25",
     "age": 32,
     "scores": {
-      "face": 50.3,
-      "faceAge": 45.5,
-      "faceSns": 50.3,
-      "faceAgeSns": 45.5
+      "face": 50.2,
+      "faceAge": 45.4,
+      "faceSns": 50.2,
+      "faceAgeSns": 45.4
     },
     "rankingEligible": true
   },
@@ -70781,7 +70781,7 @@
     "name": "浜辺美波",
     "category": "actress",
     "gender": "female",
-    "score": 50.2,
+    "score": 50.1,
     "details": {
       "symmetry": 69,
       "golden_ratio": 44,
@@ -70800,8 +70800,8 @@
     },
     "totalFollowers": 9200000,
     "scores": {
-      "face": 50.2,
-      "faceAge": 54.2,
+      "face": 50.1,
+      "faceAge": 54.1,
       "faceSns": 56.0,
       "faceAgeSns": 58.8
     },
@@ -70941,7 +70941,7 @@
   {
     "id": "celeb_90560502",
     "name": "谷まりあ",
-    "score": 50.2,
+    "score": 50.1,
     "details": {
       "symmetry": 72,
       "golden_ratio": 44,
@@ -71091,17 +71091,17 @@
     "birthDate": "1995-07-28",
     "age": 30,
     "scores": {
-      "face": 50.2,
-      "faceAge": 47.0,
-      "faceSns": 50.2,
-      "faceAgeSns": 47.0
+      "face": 50.1,
+      "faceAge": 46.9,
+      "faceSns": 50.1,
+      "faceAgeSns": 46.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_ed1d8884",
     "name": "横山ルリカ",
-    "score": 50.2,
+    "score": 50.1,
     "details": {
       "symmetry": 65,
       "golden_ratio": 42,
@@ -71251,10 +71251,10 @@
     "birthDate": "1991-09-27",
     "age": 34,
     "scores": {
-      "face": 50.2,
-      "faceAge": 43.4,
-      "faceSns": 50.2,
-      "faceAgeSns": 43.4
+      "face": 50.1,
+      "faceAge": 43.3,
+      "faceSns": 50.1,
+      "faceAgeSns": 43.3
     },
     "rankingEligible": true
   },
@@ -71423,7 +71423,7 @@
   {
     "id": "celeb_873b6485",
     "name": "京本大我",
-    "score": 50.2,
+    "score": 50.1,
     "details": {
       "symmetry": 71,
       "golden_ratio": 41,
@@ -71443,10 +71443,10 @@
     "gender": "male",
     "birthDate": "1994-12-03",
     "scores": {
-      "face": 50.2,
-      "faceAge": 46.2,
-      "faceSns": 50.2,
-      "faceAgeSns": 46.2
+      "face": 50.1,
+      "faceAge": 46.1,
+      "faceSns": 50.1,
+      "faceAgeSns": 46.1
     },
     "rankingEligible": true,
     "embedding": [
@@ -71583,7 +71583,7 @@
   {
     "id": "celeb_e49755d7",
     "name": "玉城ティナ",
-    "score": 50.2,
+    "score": 50.1,
     "details": {
       "symmetry": 66,
       "golden_ratio": 42,
@@ -71733,10 +71733,10 @@
     "birthDate": "1997-10-08",
     "age": 28,
     "scores": {
-      "face": 50.2,
-      "faceAge": 48.6,
-      "faceSns": 50.2,
-      "faceAgeSns": 48.6
+      "face": 50.1,
+      "faceAge": 48.5,
+      "faceSns": 50.1,
+      "faceAgeSns": 48.5
     },
     "rankingEligible": true
   },
@@ -71906,12 +71906,12 @@
     "category": "influencer",
     "gender": "female",
     "age": 27,
-    "score": 50.2,
+    "score": 50.1,
     "scores": {
-      "face": 50.2,
-      "faceAge": 49.4,
-      "faceSns": 50.2,
-      "faceAgeSns": 49.4
+      "face": 50.1,
+      "faceAge": 49.3,
+      "faceSns": 50.1,
+      "faceAgeSns": 49.3
     },
     "details": {
       "symmetry": 66,
@@ -72544,7 +72544,7 @@
     "name": "杉咲花",
     "category": "actress",
     "gender": "female",
-    "score": 50.1,
+    "score": 50.0,
     "details": {
       "symmetry": 66,
       "golden_ratio": 40,
@@ -72562,10 +72562,10 @@
     },
     "totalFollowers": 1200000,
     "scores": {
-      "face": 50.1,
-      "faceAge": 48.5,
-      "faceSns": 53.3,
-      "faceAgeSns": 52.2
+      "face": 50.0,
+      "faceAge": 48.4,
+      "faceSns": 53.2,
+      "faceAgeSns": 52.1
     },
     "rankingEligible": true,
     "rank": 453,
@@ -72703,7 +72703,7 @@
   {
     "id": "celeb_3b55dfe9",
     "name": "高杉真宙",
-    "score": 50.1,
+    "score": 50.0,
     "details": {
       "symmetry": 63,
       "golden_ratio": 43,
@@ -72723,10 +72723,10 @@
     "gender": "male",
     "birthDate": "1996-07-04",
     "scores": {
-      "face": 50.1,
-      "faceAge": 47.7,
-      "faceSns": 50.1,
-      "faceAgeSns": 47.7
+      "face": 50.0,
+      "faceAge": 47.6,
+      "faceSns": 50.0,
+      "faceAgeSns": 47.6
     },
     "rankingEligible": true,
     "embedding": [
@@ -72865,7 +72865,7 @@
     "name": "音嶋莉沙",
     "category": "idol",
     "gender": "female",
-    "score": 50.1,
+    "score": 50.0,
     "details": {
       "symmetry": 68,
       "golden_ratio": 43,
@@ -72884,10 +72884,10 @@
     "totalFollowers": 100000,
     "group": "=LOVE",
     "scores": {
-      "face": 50.1,
-      "faceAge": 54.1,
-      "faceSns": 50.1,
-      "faceAgeSns": 52.9
+      "face": 50.0,
+      "faceAge": 54.0,
+      "faceSns": 50.0,
+      "faceAgeSns": 52.8
     },
     "rankingEligible": true,
     "rank": 455,
@@ -73829,7 +73829,7 @@
   {
     "id": "celeb_5c4fb252",
     "name": "大谷翔平",
-    "score": 50.0,
+    "score": 49.9,
     "details": {
       "symmetry": 41,
       "golden_ratio": 46,
@@ -73976,10 +73976,10 @@
     "rank": 461,
     "gender": "male",
     "scores": {
-      "face": 50.0,
-      "faceAge": 46.0,
-      "faceSns": 50.0,
-      "faceAgeSns": 46.0
+      "face": 49.9,
+      "faceAge": 45.9,
+      "faceSns": 49.9,
+      "faceAgeSns": 45.9
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -73994,12 +73994,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 35,
-    "score": 50.0,
+    "score": 49.9,
     "scores": {
-      "face": 50.0,
-      "faceAge": 42.0,
-      "faceSns": 50.0,
-      "faceAgeSns": 42.0
+      "face": 49.9,
+      "faceAge": 41.9,
+      "faceSns": 49.9,
+      "faceAgeSns": 41.9
     },
     "details": {
       "symmetry": 88,
@@ -74313,7 +74313,7 @@
   {
     "id": "celeb_b8c8e465",
     "name": "染谷有香",
-    "score": 50.0,
+    "score": 49.9,
     "details": {
       "symmetry": 71,
       "golden_ratio": 42,
@@ -74463,10 +74463,10 @@
     "birthDate": "1992-01-17",
     "age": 34,
     "scores": {
-      "face": 50.0,
-      "faceAge": 43.2,
-      "faceSns": 50.0,
-      "faceAgeSns": 43.2
+      "face": 49.9,
+      "faceAge": 43.1,
+      "faceSns": 49.9,
+      "faceAgeSns": 43.1
     },
     "rankingEligible": true
   },
@@ -74792,7 +74792,7 @@
   {
     "id": "celeb_31154454",
     "name": "福山雅治",
-    "score": 49.9,
+    "score": 49.8,
     "details": {
       "symmetry": 72,
       "golden_ratio": 40,
@@ -74808,10 +74808,10 @@
     "category": "actor",
     "rankingEligible": true,
     "scores": {
-      "face": 49.9,
-      "faceAge": 15.5,
-      "faceSns": 54.6,
-      "faceAgeSns": 30.5
+      "face": 49.8,
+      "faceAge": 15.4,
+      "faceSns": 54.5,
+      "faceAgeSns": 30.4
     },
     "embedding": [
       -0.08775953203439713,
@@ -76725,7 +76725,7 @@
   {
     "id": "celeb_b36b36ce",
     "name": "家入レオ",
-    "score": 49.7,
+    "score": 49.6,
     "details": {
       "symmetry": 69,
       "golden_ratio": 44,
@@ -76745,8 +76745,8 @@
     "gender": "female",
     "birthDate": "1994-12-13",
     "scores": {
-      "face": 49.7,
-      "faceAge": 45.7,
+      "face": 49.6,
+      "faceAge": 45.6,
       "faceSns": 52.3,
       "faceAgeSns": 49.5
     },
@@ -76890,7 +76890,7 @@
   {
     "id": "celeb_bb1f723f",
     "name": "前澤友作",
-    "score": 49.7,
+    "score": 49.6,
     "details": {
       "symmetry": 65,
       "golden_ratio": 42,
@@ -77040,10 +77040,10 @@
     "gender": "male",
     "birthDate": "1975-11-22",
     "scores": {
-      "face": 49.7,
-      "faceAge": 23.7,
-      "faceSns": 49.7,
-      "faceAgeSns": 23.7
+      "face": 49.6,
+      "faceAge": 23.6,
+      "faceSns": 49.6,
+      "faceAgeSns": 23.6
     },
     "rankingEligible": true
   },
@@ -77690,7 +77690,7 @@
   {
     "id": "celeb_6d151c95",
     "name": "ばんばんざい るな",
-    "score": 49.6,
+    "score": 49.5,
     "details": {
       "symmetry": 65,
       "golden_ratio": 37,
@@ -77838,10 +77838,10 @@
     "rank": 485,
     "gender": "female",
     "scores": {
-      "face": 49.6,
-      "faceAge": 53.6,
-      "faceSns": 49.6,
-      "faceAgeSns": 53.6
+      "face": 49.5,
+      "faceAge": 53.5,
+      "faceSns": 49.5,
+      "faceAgeSns": 53.5
     },
     "rankingEligible": true,
     "birthDate": "2002-02-11",
@@ -77852,12 +77852,12 @@
     "name": "バイきんぐ小峠",
     "category": "comedian",
     "gender": "male",
-    "score": 49.6,
+    "score": 49.5,
     "scores": {
-      "face": 49.6,
-      "faceAge": 24.8,
-      "faceSns": 49.6,
-      "faceAgeSns": 24.8
+      "face": 49.5,
+      "faceAge": 24.7,
+      "faceSns": 49.5,
+      "faceAgeSns": 24.7
     },
     "details": {
       "symmetry": 84,
@@ -78009,7 +78009,7 @@
   {
     "id": "celeb_300fb974",
     "name": "末永みゆ",
-    "score": 49.6,
+    "score": 49.5,
     "details": {
       "symmetry": 63,
       "golden_ratio": 45,
@@ -78159,17 +78159,17 @@
     "birthDate": "1995-11-04",
     "age": 30,
     "scores": {
-      "face": 49.6,
-      "faceAge": 46.4,
-      "faceSns": 49.6,
-      "faceAgeSns": 46.4
+      "face": 49.5,
+      "faceAge": 46.3,
+      "faceSns": 49.5,
+      "faceAgeSns": 46.3
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_448470bc",
     "name": "Fischer's マサイ",
-    "score": 49.6,
+    "score": 49.5,
     "details": {
       "symmetry": 68,
       "golden_ratio": 41,
@@ -78317,10 +78317,10 @@
     "rank": 488,
     "gender": "male",
     "scores": {
-      "face": 49.6,
-      "faceAge": 45.6,
-      "faceSns": 49.6,
-      "faceAgeSns": 45.6
+      "face": 49.5,
+      "faceAge": 45.5,
+      "faceSns": 49.5,
+      "faceAgeSns": 45.5
     },
     "rankingEligible": true,
     "birthDate": "1995-01-12",
@@ -78329,7 +78329,7 @@
   {
     "id": "celeb_46b56d90",
     "name": "碓井将大",
-    "score": 49.6,
+    "score": 49.5,
     "details": {
       "symmetry": 61,
       "golden_ratio": 45,
@@ -78479,17 +78479,17 @@
     "birthDate": "1991-12-03",
     "age": 34,
     "scores": {
-      "face": 49.6,
-      "faceAge": 42.8,
-      "faceSns": 49.6,
-      "faceAgeSns": 42.8
+      "face": 49.5,
+      "faceAge": 42.7,
+      "faceSns": 49.5,
+      "faceAgeSns": 42.7
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_41b1fdad",
     "name": "前田大然",
-    "score": 49.6,
+    "score": 49.5,
     "details": {
       "symmetry": 55,
       "golden_ratio": 41,
@@ -78638,10 +78638,10 @@
     "birthDate": "1997-10-20",
     "age": 28,
     "scores": {
-      "face": 49.6,
-      "faceAge": 48.0,
-      "faceSns": 49.6,
-      "faceAgeSns": 48.0
+      "face": 49.5,
+      "faceAge": 47.9,
+      "faceSns": 49.5,
+      "faceAgeSns": 47.9
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -78654,12 +78654,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 37,
-    "score": 49.6,
+    "score": 49.5,
     "scores": {
-      "face": 49.6,
-      "faceAge": 39.2,
-      "faceSns": 49.6,
-      "faceAgeSns": 39.2
+      "face": 49.5,
+      "faceAge": 39.1,
+      "faceSns": 49.5,
+      "faceAgeSns": 39.1
     },
     "details": {
       "symmetry": 71,
@@ -79300,12 +79300,12 @@
     "name": "陣内智則",
     "category": "comedian",
     "gender": "male",
-    "score": 49.5,
+    "score": 49.4,
     "scores": {
-      "face": 49.5,
-      "faceAge": 49.5,
-      "faceSns": 49.5,
-      "faceAgeSns": 49.5
+      "face": 49.4,
+      "faceAge": 49.4,
+      "faceSns": 49.4,
+      "faceAgeSns": 49.4
     },
     "details": {
       "symmetry": 81,
@@ -79455,7 +79455,7 @@
   {
     "id": "celeb_6f6a144a",
     "name": "須賀健太",
-    "score": 49.5,
+    "score": 49.4,
     "details": {
       "symmetry": 46,
       "golden_ratio": 45,
@@ -79605,17 +79605,17 @@
     "birthDate": "1994-10-19",
     "age": 31,
     "scores": {
-      "face": 49.5,
-      "faceAge": 45.5,
-      "faceSns": 49.5,
-      "faceAgeSns": 45.5
+      "face": 49.4,
+      "faceAge": 45.4,
+      "faceSns": 49.4,
+      "faceAgeSns": 45.4
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_b1d2539d",
     "name": "飯窪春菜",
-    "score": 49.5,
+    "score": 49.4,
     "details": {
       "symmetry": 65,
       "golden_ratio": 41,
@@ -79765,10 +79765,10 @@
     "birthDate": "1994-11-07",
     "age": 31,
     "scores": {
-      "face": 49.5,
-      "faceAge": 45.5,
-      "faceSns": 49.5,
-      "faceAgeSns": 45.5
+      "face": 49.4,
+      "faceAge": 45.4,
+      "faceSns": 49.4,
+      "faceAgeSns": 45.4
     },
     "rankingEligible": true
   },
@@ -80414,7 +80414,7 @@
   {
     "id": "celeb_f125dd4c",
     "name": "ゆきぽよ",
-    "score": 49.4,
+    "score": 49.3,
     "details": {
       "symmetry": 70,
       "golden_ratio": 42,
@@ -80564,17 +80564,17 @@
     "birthDate": "1996-10-23",
     "age": 29,
     "scores": {
-      "face": 49.4,
-      "faceAge": 47.0,
-      "faceSns": 49.4,
-      "faceAgeSns": 47.0
+      "face": 49.3,
+      "faceAge": 46.9,
+      "faceSns": 49.3,
+      "faceAgeSns": 46.9
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_50be51ea",
     "name": "真田将太朗",
-    "score": 49.4,
+    "score": 49.3,
     "details": {
       "symmetry": 49,
       "golden_ratio": 53,
@@ -80724,10 +80724,10 @@
     "birthDate": "2000-12-09",
     "age": 25,
     "scores": {
-      "face": 49.4,
-      "faceAge": 52.4,
-      "faceSns": 49.4,
-      "faceAgeSns": 52.4
+      "face": 49.3,
+      "faceAge": 52.3,
+      "faceSns": 49.3,
+      "faceAgeSns": 52.3
     },
     "rankingEligible": true
   },
@@ -80894,7 +80894,7 @@
   {
     "id": "celeb_b0ddee67",
     "name": "志尊淳",
-    "score": 49.3,
+    "score": 49.2,
     "details": {
       "symmetry": 60,
       "golden_ratio": 41,
@@ -80914,10 +80914,10 @@
     "gender": "male",
     "birthDate": "1995-03-05",
     "scores": {
-      "face": 49.3,
-      "faceAge": 45.3,
-      "faceSns": 49.3,
-      "faceAgeSns": 45.3
+      "face": 49.2,
+      "faceAge": 45.2,
+      "faceSns": 49.2,
+      "faceAgeSns": 45.2
     },
     "rankingEligible": true,
     "embedding": [
@@ -81374,7 +81374,7 @@
   {
     "id": "celeb_179d0e1c",
     "name": "浅香鈴花",
-    "score": 49.3,
+    "score": 49.2,
     "details": {
       "symmetry": 63,
       "golden_ratio": 35,
@@ -81390,9 +81390,9 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 49.3,
-      "faceAge": 48.5,
-      "faceSns": 48.6,
+      "face": 49.2,
+      "faceAge": 48.4,
+      "faceSns": 48.5,
       "faceAgeSns": 48.0
     },
     "embedding": [
@@ -81536,7 +81536,7 @@
   {
     "id": "celeb_3f198e69",
     "name": "北村匠海",
-    "score": 49.3,
+    "score": 49.2,
     "details": {
       "symmetry": 61,
       "golden_ratio": 36,
@@ -81556,10 +81556,10 @@
     "gender": "male",
     "birthDate": "1997-11-03",
     "scores": {
-      "face": 49.3,
-      "faceAge": 47.7,
-      "faceSns": 53.6,
-      "faceAgeSns": 52.5
+      "face": 49.2,
+      "faceAge": 47.6,
+      "faceSns": 53.5,
+      "faceAgeSns": 52.4
     },
     "rankingEligible": true,
     "embedding": [
@@ -81701,7 +81701,7 @@
   {
     "id": "celeb_94f2943a",
     "name": "星名美津紀",
-    "score": 49.3,
+    "score": 49.2,
     "details": {
       "symmetry": 66,
       "golden_ratio": 41,
@@ -81851,10 +81851,10 @@
     "birthDate": "1996-05-14",
     "age": 29,
     "scores": {
-      "face": 49.3,
-      "faceAge": 46.9,
-      "faceSns": 49.3,
-      "faceAgeSns": 46.9
+      "face": 49.2,
+      "faceAge": 46.8,
+      "faceSns": 49.2,
+      "faceAgeSns": 46.8
     },
     "rankingEligible": true
   },
@@ -82503,7 +82503,7 @@
   {
     "id": "celeb_54841d51",
     "name": "夏帆",
-    "score": 49.2,
+    "score": 49.1,
     "details": {
       "symmetry": 62,
       "golden_ratio": 42,
@@ -82653,17 +82653,17 @@
     "birthDate": "1991-06-30",
     "age": 34,
     "scores": {
-      "face": 49.2,
-      "faceAge": 42.4,
-      "faceSns": 49.2,
-      "faceAgeSns": 42.4
+      "face": 49.1,
+      "faceAge": 42.3,
+      "faceSns": 49.1,
+      "faceAgeSns": 42.3
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_23ffcc74",
     "name": "浅田真央",
-    "score": 49.2,
+    "score": 49.1,
     "details": {
       "symmetry": 68,
       "golden_ratio": 42,
@@ -82812,10 +82812,10 @@
     "birthDate": "1990-09-25",
     "age": 35,
     "scores": {
-      "face": 49.2,
-      "faceAge": 41.2,
-      "faceSns": 49.2,
-      "faceAgeSns": 41.2
+      "face": 49.1,
+      "faceAge": 41.1,
+      "faceSns": 49.1,
+      "faceAgeSns": 41.1
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -82825,7 +82825,7 @@
   {
     "id": "celeb_c2d47be7",
     "name": "神咲詩織",
-    "score": 49.2,
+    "score": 49.1,
     "details": {
       "symmetry": 36,
       "golden_ratio": 41,
@@ -82975,10 +82975,10 @@
     "birthDate": "1990-08-25",
     "age": 35,
     "scores": {
-      "face": 49.2,
-      "faceAge": 41.2,
-      "faceSns": 49.2,
-      "faceAgeSns": 41.2
+      "face": 49.1,
+      "faceAge": 41.1,
+      "faceSns": 49.1,
+      "faceAgeSns": 41.1
     },
     "rankingEligible": true
   },
@@ -83472,12 +83472,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 24,
-    "score": 49.1,
+    "score": 49.0,
     "scores": {
-      "face": 49.1,
-      "faceAge": 53.1,
-      "faceSns": 49.1,
-      "faceAgeSns": 53.1
+      "face": 49.0,
+      "faceAge": 53.0,
+      "faceSns": 49.0,
+      "faceAgeSns": 53.0
     },
     "details": {
       "symmetry": 59,
@@ -83631,7 +83631,7 @@
   {
     "id": "celeb_64d5597c",
     "name": "香音",
-    "score": 49.1,
+    "score": 49.0,
     "details": {
       "symmetry": 46,
       "golden_ratio": 48,
@@ -83781,10 +83781,10 @@
     "birthDate": "2001-04-20",
     "age": 24,
     "scores": {
-      "face": 49.1,
-      "faceAge": 53.1,
-      "faceSns": 49.1,
-      "faceAgeSns": 53.1
+      "face": 49.0,
+      "faceAge": 53.0,
+      "faceSns": 49.0,
+      "faceAgeSns": 53.0
     },
     "rankingEligible": true
   },
@@ -83951,7 +83951,7 @@
   {
     "id": "celeb_05aeed9a",
     "name": "フォーエイト48 アマリザ",
-    "score": 49.1,
+    "score": 49.0,
     "details": {
       "symmetry": 59,
       "golden_ratio": 45,
@@ -84101,10 +84101,10 @@
     "birthDate": "1995-12-05",
     "age": 30,
     "scores": {
-      "face": 49.1,
-      "faceAge": 45.9,
-      "faceSns": 49.1,
-      "faceAgeSns": 45.9
+      "face": 49.0,
+      "faceAge": 45.8,
+      "faceSns": 49.0,
+      "faceAgeSns": 45.8
     },
     "rankingEligible": true
   },
@@ -84113,12 +84113,12 @@
     "name": "宮迫博之",
     "category": "comedian",
     "gender": "male",
-    "score": 49.1,
+    "score": 49.0,
     "scores": {
-      "face": 49.1,
-      "faceAge": 15.9,
-      "faceSns": 49.1,
-      "faceAgeSns": 15.9
+      "face": 49.0,
+      "faceAge": 15.8,
+      "faceSns": 49.0,
+      "faceAgeSns": 15.8
     },
     "details": {
       "symmetry": 53,
@@ -85236,7 +85236,7 @@
     "name": "有村架純",
     "category": "actress",
     "gender": "female",
-    "score": 49.0,
+    "score": 48.9,
     "details": {
       "symmetry": 58,
       "golden_ratio": 44,
@@ -85255,10 +85255,10 @@
     },
     "totalFollowers": 5500000,
     "scores": {
-      "face": 49.0,
-      "faceAge": 43.4,
+      "face": 48.9,
+      "faceAge": 43.3,
       "faceSns": 54.5,
-      "faceAgeSns": 50.6
+      "faceAgeSns": 50.5
     },
     "rankingEligible": true,
     "rank": 532,
@@ -85719,7 +85719,7 @@
   {
     "id": "celeb_8a7dd2d9",
     "name": "阿部華也子",
-    "score": 48.9,
+    "score": 48.8,
     "details": {
       "symmetry": 68,
       "golden_ratio": 43,
@@ -85869,10 +85869,10 @@
     "birthDate": "1996-06-18",
     "age": 29,
     "scores": {
-      "face": 48.9,
-      "faceAge": 46.5,
-      "faceSns": 48.9,
-      "faceAgeSns": 46.5
+      "face": 48.8,
+      "faceAge": 46.4,
+      "faceSns": 48.8,
+      "faceAgeSns": 46.4
     },
     "rankingEligible": true
   },
@@ -85882,12 +85882,12 @@
     "category": "cultural",
     "gender": "female",
     "age": 38,
-    "score": 48.9,
+    "score": 48.8,
     "scores": {
-      "face": 48.9,
-      "faceAge": 37.3,
-      "faceSns": 48.9,
-      "faceAgeSns": 37.3
+      "face": 48.8,
+      "faceAge": 37.2,
+      "faceSns": 48.8,
+      "faceAgeSns": 37.2
     },
     "details": {
       "symmetry": 60,
@@ -86044,12 +86044,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 33,
-    "score": 48.9,
+    "score": 48.8,
     "scores": {
-      "face": 48.9,
-      "faceAge": 43.3,
-      "faceSns": 48.9,
-      "faceAgeSns": 43.3
+      "face": 48.8,
+      "faceAge": 43.2,
+      "faceSns": 48.8,
+      "faceAgeSns": 43.2
     },
     "details": {
       "symmetry": 79,
@@ -86203,7 +86203,7 @@
   {
     "id": "celeb_aabda1e2",
     "name": "Dream Aya",
-    "score": 48.9,
+    "score": 48.8,
     "details": {
       "symmetry": 69,
       "golden_ratio": 43,
@@ -86353,10 +86353,10 @@
     "birthDate": "1987-07-16",
     "age": 38,
     "scores": {
-      "face": 48.9,
-      "faceAge": 37.3,
-      "faceSns": 48.9,
-      "faceAgeSns": 37.3
+      "face": 48.8,
+      "faceAge": 37.2,
+      "faceSns": 48.8,
+      "faceAgeSns": 37.2
     },
     "rankingEligible": true
   },
@@ -86850,12 +86850,12 @@
     "name": "ダウンタウン浜田",
     "category": "comedian",
     "gender": "male",
-    "score": 48.8,
+    "score": 48.7,
     "scores": {
-      "face": 48.8,
-      "faceAge": 8.4,
-      "faceSns": 48.8,
-      "faceAgeSns": 8.4
+      "face": 48.7,
+      "faceAge": 8.3,
+      "faceSns": 48.7,
+      "faceAgeSns": 8.3
     },
     "details": {
       "symmetry": 88,
@@ -87007,7 +87007,7 @@
   {
     "id": "celeb_5ffa7a4e",
     "name": "青木玄徳",
-    "score": 48.8,
+    "score": 48.7,
     "details": {
       "symmetry": 57,
       "golden_ratio": 43,
@@ -87157,10 +87157,10 @@
     "birthDate": "1987-10-19",
     "age": 38,
     "scores": {
-      "face": 48.8,
-      "faceAge": 37.2,
-      "faceSns": 48.8,
-      "faceAgeSns": 37.2
+      "face": 48.7,
+      "faceAge": 37.1,
+      "faceSns": 48.7,
+      "faceAgeSns": 37.1
     },
     "rankingEligible": true
   },
@@ -87327,7 +87327,7 @@
   {
     "id": "celeb_6ec879a7",
     "name": "木ノ本嶺浩",
-    "score": 48.7,
+    "score": 48.6,
     "details": {
       "symmetry": 68,
       "golden_ratio": 41,
@@ -87477,10 +87477,10 @@
     "birthDate": "1989-11-22",
     "age": 36,
     "scores": {
-      "face": 48.7,
-      "faceAge": 39.5,
-      "faceSns": 48.7,
-      "faceAgeSns": 39.5
+      "face": 48.6,
+      "faceAge": 39.4,
+      "faceSns": 48.6,
+      "faceAgeSns": 39.4
     },
     "rankingEligible": true
   },
@@ -88451,7 +88451,7 @@
     "name": "ローラ",
     "category": "influencer",
     "gender": "female",
-    "score": 48.5,
+    "score": 48.4,
     "details": {
       "symmetry": 69,
       "golden_ratio": 42,
@@ -88470,9 +88470,9 @@
     },
     "totalFollowers": 11000000,
     "scores": {
-      "face": 48.5,
-      "faceAge": 39.3,
-      "faceSns": 55.1,
+      "face": 48.4,
+      "faceAge": 39.2,
+      "faceSns": 55.0,
       "faceAgeSns": 48.6
     },
     "rankingEligible": true,
@@ -88611,7 +88611,7 @@
   {
     "id": "celeb_d872c6c0",
     "name": "くれいじーまぐねっと エア",
-    "score": 48.5,
+    "score": 48.4,
     "details": {
       "symmetry": 66,
       "golden_ratio": 43,
@@ -88759,10 +88759,10 @@
     "rank": 553,
     "gender": "female",
     "scores": {
-      "face": 48.5,
-      "faceAge": 46.9,
-      "faceSns": 48.5,
-      "faceAgeSns": 46.9
+      "face": 48.4,
+      "faceAge": 46.8,
+      "faceSns": 48.4,
+      "faceAgeSns": 46.8
     },
     "rankingEligible": true,
     "birthDate": "1997-10-18",
@@ -88772,7 +88772,7 @@
     "id": "celeb_cb723ba9",
     "name": "野口衣織",
     "category": "idol",
-    "score": 48.5,
+    "score": 48.4,
     "details": {
       "golden_ratio": 41,
       "eyes": 49,
@@ -88791,10 +88791,10 @@
     "totalFollowers": 150000,
     "group": "=LOVE",
     "scores": {
-      "face": 48.5,
-      "faceAge": 52.5,
-      "faceSns": 49.5,
-      "faceAgeSns": 52.3
+      "face": 48.4,
+      "faceAge": 52.4,
+      "faceSns": 49.4,
+      "faceAgeSns": 52.2
     },
     "rankingEligible": true,
     "faceValidationStatus": "undetected",
@@ -88933,7 +88933,7 @@
   {
     "id": "celeb_7b05af9a",
     "name": "石橋杏奈",
-    "score": 48.5,
+    "score": 48.4,
     "details": {
       "symmetry": 67,
       "golden_ratio": 41,
@@ -89083,10 +89083,10 @@
     "birthDate": "1992-07-12",
     "age": 33,
     "scores": {
-      "face": 48.5,
-      "faceAge": 42.9,
-      "faceSns": 48.5,
-      "faceAgeSns": 42.9
+      "face": 48.4,
+      "faceAge": 42.8,
+      "faceSns": 48.4,
+      "faceAgeSns": 42.8
     },
     "rankingEligible": true
   },
@@ -89096,12 +89096,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 24,
-    "score": 48.5,
+    "score": 48.4,
     "scores": {
-      "face": 48.5,
-      "faceAge": 52.5,
-      "faceSns": 48.5,
-      "faceAgeSns": 52.5
+      "face": 48.4,
+      "faceAge": 52.4,
+      "faceSns": 48.4,
+      "faceAgeSns": 52.4
     },
     "details": {
       "symmetry": 80,
@@ -89257,7 +89257,7 @@
     "name": "奈緒",
     "category": "actress",
     "gender": "female",
-    "score": 48.4,
+    "score": 48.3,
     "details": {
       "symmetry": 64,
       "golden_ratio": 43,
@@ -89275,10 +89275,10 @@
     },
     "totalFollowers": 700000,
     "scores": {
-      "face": 48.4,
-      "faceAge": 44.4,
-      "faceSns": 51.4,
-      "faceAgeSns": 48.6
+      "face": 48.3,
+      "faceAge": 44.3,
+      "faceSns": 51.3,
+      "faceAgeSns": 48.5
     },
     "rankingEligible": true,
     "rank": 557,
@@ -89579,7 +89579,7 @@
     "name": "きゃりーぱみゅぱみゅ",
     "category": "artist",
     "gender": "female",
-    "score": 48.4,
+    "score": 48.3,
     "details": {
       "symmetry": 67,
       "golden_ratio": 42,
@@ -89598,8 +89598,8 @@
     },
     "totalFollowers": 10500000,
     "scores": {
-      "face": 48.4,
-      "faceAge": 42.8,
+      "face": 48.3,
+      "faceAge": 42.7,
       "faceSns": 54.9,
       "faceAgeSns": 51.0
     },
@@ -90224,7 +90224,7 @@
   {
     "id": "celeb_d3caf19e",
     "name": "山下まみ",
-    "score": 48.3,
+    "score": 48.2,
     "details": {
       "symmetry": 64,
       "golden_ratio": 43,
@@ -90374,17 +90374,17 @@
     "birthDate": "1987-09-13",
     "age": 38,
     "scores": {
-      "face": 48.3,
-      "faceAge": 36.7,
-      "faceSns": 48.3,
-      "faceAgeSns": 36.7
+      "face": 48.2,
+      "faceAge": 36.6,
+      "faceSns": 48.2,
+      "faceAgeSns": 36.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_bc63c5b0",
     "name": "新井貴子",
-    "score": 48.3,
+    "score": 48.2,
     "details": {
       "symmetry": 54,
       "golden_ratio": 45,
@@ -90534,10 +90534,10 @@
     "birthDate": "1990-06-01",
     "age": 35,
     "scores": {
-      "face": 48.3,
-      "faceAge": 40.3,
-      "faceSns": 48.3,
-      "faceAgeSns": 40.3
+      "face": 48.2,
+      "faceAge": 40.2,
+      "faceSns": 48.2,
+      "faceAgeSns": 40.2
     },
     "rankingEligible": true
   },
@@ -90547,12 +90547,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 24,
-    "score": 48.3,
+    "score": 48.2,
     "scores": {
-      "face": 48.3,
-      "faceAge": 52.3,
-      "faceSns": 48.3,
-      "faceAgeSns": 52.3
+      "face": 48.2,
+      "faceAge": 52.2,
+      "faceSns": 48.2,
+      "faceAgeSns": 52.2
     },
     "details": {
       "symmetry": 86,
@@ -90706,7 +90706,7 @@
   {
     "id": "celeb_73b85bb4",
     "name": "なこなこカップル こーくん",
-    "score": 48.3,
+    "score": 48.2,
     "details": {
       "symmetry": 51,
       "golden_ratio": 41,
@@ -90856,17 +90856,17 @@
     "birthDate": "1997-10-18",
     "age": 28,
     "scores": {
-      "face": 48.3,
-      "faceAge": 46.7,
-      "faceSns": 48.3,
-      "faceAgeSns": 46.7
+      "face": 48.2,
+      "faceAge": 46.6,
+      "faceSns": 48.2,
+      "faceAgeSns": 46.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_20191c84",
     "name": "伊藤千晃",
-    "score": 48.3,
+    "score": 48.2,
     "details": {
       "symmetry": 63,
       "golden_ratio": 42,
@@ -91016,10 +91016,10 @@
     "birthDate": "1987-01-10",
     "age": 39,
     "scores": {
-      "face": 48.3,
-      "faceAge": 35.5,
-      "faceSns": 48.3,
-      "faceAgeSns": 35.5
+      "face": 48.2,
+      "faceAge": 35.4,
+      "faceSns": 48.2,
+      "faceAgeSns": 35.4
     },
     "rankingEligible": true
   },
@@ -91188,7 +91188,7 @@
     "name": "大谷映美里",
     "category": "idol",
     "gender": "female",
-    "score": 48.3,
+    "score": 48.2,
     "details": {
       "symmetry": 21,
       "golden_ratio": 52,
@@ -91203,10 +91203,10 @@
     "age": 28,
     "birthDate": "1998-03-15",
     "scores": {
-      "face": 48.3,
-      "faceAge": 46.7,
-      "faceSns": 49.7,
-      "faceAgeSns": 48.6
+      "face": 48.2,
+      "faceAge": 46.6,
+      "faceSns": 49.6,
+      "faceAgeSns": 48.5
     },
     "rankingEligible": true,
     "rank": 569,
@@ -91831,7 +91831,7 @@
   {
     "id": "celeb_e91fb5ab",
     "name": "なこなこカップル なごみ",
-    "score": 48.2,
+    "score": 48.1,
     "details": {
       "symmetry": 69,
       "golden_ratio": 46,
@@ -91981,10 +91981,10 @@
     "birthDate": "2000-03-02",
     "age": 26,
     "scores": {
-      "face": 48.2,
-      "faceAge": 50.2,
-      "faceSns": 48.2,
-      "faceAgeSns": 50.2
+      "face": 48.1,
+      "faceAge": 50.1,
+      "faceSns": 48.1,
+      "faceAgeSns": 50.1
     },
     "rankingEligible": true
   },
@@ -92151,7 +92151,7 @@
   {
     "id": "celeb_02c8696d",
     "name": "SEIKIN",
-    "score": 48.1,
+    "score": 48.0,
     "details": {
       "symmetry": 68,
       "golden_ratio": 42,
@@ -92301,10 +92301,10 @@
     "birthDate": "1987-07-30",
     "age": 38,
     "scores": {
-      "face": 48.1,
-      "faceAge": 36.5,
-      "faceSns": 48.1,
-      "faceAgeSns": 36.5
+      "face": 48.0,
+      "faceAge": 36.4,
+      "faceSns": 48.0,
+      "faceAgeSns": 36.4
     },
     "rankingEligible": true
   },
@@ -92314,12 +92314,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 31,
-    "score": 48.1,
+    "score": 48.0,
     "scores": {
-      "face": 48.1,
-      "faceAge": 44.1,
-      "faceSns": 48.1,
-      "faceAgeSns": 44.1
+      "face": 48.0,
+      "faceAge": 44.0,
+      "faceSns": 48.0,
+      "faceAgeSns": 44.0
     },
     "details": {
       "symmetry": 61,
@@ -93438,7 +93438,7 @@
   {
     "id": "celeb_5183d344",
     "name": "すしらーめん《りく》",
-    "score": 48.0,
+    "score": 47.9,
     "details": {
       "symmetry": 49,
       "golden_ratio": 43,
@@ -93588,10 +93588,10 @@
     "birthDate": "1999-05-30",
     "age": 26,
     "scores": {
-      "face": 48.0,
-      "faceAge": 50.0,
-      "faceSns": 48.0,
-      "faceAgeSns": 50.0
+      "face": 47.9,
+      "faceAge": 49.9,
+      "faceSns": 47.9,
+      "faceAgeSns": 49.9
     },
     "rankingEligible": true
   },
@@ -95198,7 +95198,7 @@
   {
     "id": "celeb_614e8851",
     "name": "西永彩奈",
-    "score": 47.8,
+    "score": 47.7,
     "details": {
       "symmetry": 67,
       "golden_ratio": 44,
@@ -95348,10 +95348,10 @@
     "birthDate": "1996-01-18",
     "age": 30,
     "scores": {
-      "face": 47.8,
-      "faceAge": 44.6,
-      "faceSns": 47.8,
-      "faceAgeSns": 44.6
+      "face": 47.7,
+      "faceAge": 44.5,
+      "faceSns": 47.7,
+      "faceAgeSns": 44.5
     },
     "rankingEligible": true
   },
@@ -95523,12 +95523,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 33,
-    "score": 47.8,
+    "score": 47.7,
     "scores": {
-      "face": 47.8,
-      "faceAge": 42.2,
-      "faceSns": 47.8,
-      "faceAgeSns": 42.2
+      "face": 47.7,
+      "faceAge": 42.1,
+      "faceSns": 47.7,
+      "faceAgeSns": 42.1
     },
     "details": {
       "symmetry": 64,
@@ -95682,7 +95682,7 @@
   {
     "id": "celeb_3104934b",
     "name": "高城れに",
-    "score": 47.8,
+    "score": 47.7,
     "details": {
       "symmetry": 70,
       "golden_ratio": 43,
@@ -95832,10 +95832,10 @@
     "birthDate": "1993-06-21",
     "age": 32,
     "scores": {
-      "face": 47.8,
-      "faceAge": 43.0,
-      "faceSns": 47.8,
-      "faceAgeSns": 43.0
+      "face": 47.7,
+      "faceAge": 42.9,
+      "faceSns": 47.7,
+      "faceAgeSns": 42.9
     },
     "rankingEligible": true
   },
@@ -96809,7 +96809,7 @@
   {
     "id": "celeb_64356f7b",
     "name": "新木優子",
-    "score": 47.7,
+    "score": 47.6,
     "details": {
       "symmetry": 67,
       "golden_ratio": 43,
@@ -96959,17 +96959,17 @@
     "gender": "female",
     "birthDate": "1993-12-15",
     "scores": {
-      "face": 47.7,
-      "faceAge": 42.9,
-      "faceSns": 47.7,
-      "faceAgeSns": 42.9
+      "face": 47.6,
+      "faceAge": 42.8,
+      "faceSns": 47.6,
+      "faceAgeSns": 42.8
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_e25c335c",
     "name": "沖田杏梨",
-    "score": 47.7,
+    "score": 47.6,
     "details": {
       "symmetry": 57,
       "golden_ratio": 46,
@@ -97119,10 +97119,10 @@
     "birthDate": "1986-10-28",
     "age": 39,
     "scores": {
-      "face": 47.7,
-      "faceAge": 34.9,
-      "faceSns": 47.7,
-      "faceAgeSns": 34.9
+      "face": 47.6,
+      "faceAge": 34.8,
+      "faceSns": 47.6,
+      "faceAgeSns": 34.8
     },
     "rankingEligible": true
   },
@@ -97774,7 +97774,7 @@
   {
     "id": "celeb_b2f42853",
     "name": "幾田りら",
-    "score": 47.6,
+    "score": 47.5,
     "details": {
       "symmetry": 70,
       "golden_ratio": 36,
@@ -97794,8 +97794,8 @@
     "gender": "female",
     "birthDate": "2000-09-25",
     "scores": {
-      "face": 47.6,
-      "faceAge": 50.6,
+      "face": 47.5,
+      "faceAge": 50.5,
       "faceSns": 53.2,
       "faceAgeSns": 55.3
     },
@@ -98259,7 +98259,7 @@
   {
     "id": "celeb_2995aeed",
     "name": "伊東純也",
-    "score": 47.6,
+    "score": 47.5,
     "details": {
       "symmetry": 60,
       "golden_ratio": 39,
@@ -98408,10 +98408,10 @@
     "birthDate": "1993-03-09",
     "age": 33,
     "scores": {
-      "face": 47.6,
-      "faceAge": 42.0,
-      "faceSns": 47.6,
-      "faceAgeSns": 42.0
+      "face": 47.5,
+      "faceAge": 41.9,
+      "faceSns": 47.5,
+      "faceAgeSns": 41.9
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -98423,7 +98423,7 @@
     "name": "King Gnu井口理",
     "category": "artist",
     "gender": "male",
-    "score": 47.6,
+    "score": 47.5,
     "details": {
       "symmetry": 70,
       "golden_ratio": 43,
@@ -98442,10 +98442,10 @@
     "totalFollowers": 500000,
     "group": "King Gnu",
     "scores": {
-      "face": 47.6,
-      "faceAge": 42.0,
-      "faceSns": 50.4,
-      "faceAgeSns": 46.5
+      "face": 47.5,
+      "faceAge": 41.9,
+      "faceSns": 50.3,
+      "faceAgeSns": 46.4
     },
     "rankingEligible": true,
     "rank": 614,
@@ -99063,7 +99063,7 @@
   {
     "id": "celeb_77162880",
     "name": "コムドット あむぎり",
-    "score": 47.5,
+    "score": 47.4,
     "details": {
       "symmetry": 68,
       "golden_ratio": 41,
@@ -99213,17 +99213,17 @@
     "birthDate": "1999-01-23",
     "age": 27,
     "scores": {
-      "face": 47.5,
-      "faceAge": 46.7,
-      "faceSns": 47.5,
-      "faceAgeSns": 46.7
+      "face": 47.4,
+      "faceAge": 46.6,
+      "faceSns": 47.4,
+      "faceAgeSns": 46.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_6fa490c3",
     "name": "天海祐希",
-    "score": 47.5,
+    "score": 47.4,
     "details": {
       "symmetry": 71,
       "golden_ratio": 44,
@@ -99239,10 +99239,10 @@
     "category": "actress",
     "rankingEligible": true,
     "scores": {
-      "face": 47.5,
-      "faceAge": 11.9,
-      "faceSns": 47.5,
-      "faceAgeSns": 11.9
+      "face": 47.4,
+      "faceAge": 11.8,
+      "faceSns": 47.4,
+      "faceAgeSns": 11.8
     },
     "embedding": [
       -0.10152720659971237,
@@ -99382,7 +99382,7 @@
   {
     "id": "celeb_f8507f4d",
     "name": "杉本有美",
-    "score": 47.5,
+    "score": 47.4,
     "details": {
       "symmetry": 66,
       "golden_ratio": 42,
@@ -99532,10 +99532,10 @@
     "birthDate": "1989-04-01",
     "age": 37,
     "scores": {
-      "face": 47.5,
-      "faceAge": 37.1,
-      "faceSns": 47.5,
-      "faceAgeSns": 37.1
+      "face": 47.4,
+      "faceAge": 37.0,
+      "faceSns": 47.4,
+      "faceAgeSns": 37.0
     },
     "rankingEligible": true
   },
@@ -99707,12 +99707,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 25,
-    "score": 47.4,
+    "score": 47.3,
     "scores": {
-      "face": 47.4,
-      "faceAge": 50.4,
-      "faceSns": 47.4,
-      "faceAgeSns": 50.4
+      "face": 47.3,
+      "faceAge": 50.3,
+      "faceSns": 47.3,
+      "faceAgeSns": 50.3
     },
     "details": {
       "symmetry": 81,
@@ -100185,7 +100185,7 @@
   {
     "id": "celeb_8d2ec519",
     "name": "雨宮天",
-    "score": 47.4,
+    "score": 47.3,
     "details": {
       "symmetry": 64,
       "golden_ratio": 42,
@@ -100335,10 +100335,10 @@
     "birthDate": "1993-08-28",
     "age": 32,
     "scores": {
-      "face": 47.4,
-      "faceAge": 42.6,
-      "faceSns": 47.4,
-      "faceAgeSns": 42.6
+      "face": 47.3,
+      "faceAge": 42.5,
+      "faceSns": 47.3,
+      "faceAgeSns": 42.5
     },
     "rankingEligible": true
   },
@@ -100347,7 +100347,7 @@
     "name": "月足天音",
     "category": "idol",
     "gender": "female",
-    "score": 47.4,
+    "score": 47.3,
     "details": {
       "symmetry": 60,
       "golden_ratio": 43,
@@ -100367,10 +100367,10 @@
     "totalFollowers": 800000,
     "group": "FRUITS ZIPPER",
     "scores": {
-      "face": 47.4,
-      "faceAge": 51.4,
-      "faceSns": 50.9,
-      "faceAgeSns": 53.7
+      "face": 47.3,
+      "faceAge": 51.3,
+      "faceSns": 50.8,
+      "faceAgeSns": 53.6
     },
     "rankingEligible": true,
     "rank": 626,
@@ -100508,7 +100508,7 @@
   {
     "id": "celeb_3ae66c7e",
     "name": "芳根京子",
-    "score": 47.4,
+    "score": 47.3,
     "details": {
       "symmetry": 66,
       "golden_ratio": 43,
@@ -100528,10 +100528,10 @@
     "gender": "female",
     "birthDate": "1997-02-28",
     "scores": {
-      "face": 47.4,
-      "faceAge": 45.0,
-      "faceSns": 47.4,
-      "faceAgeSns": 45.0
+      "face": 47.3,
+      "faceAge": 44.9,
+      "faceSns": 47.3,
+      "faceAgeSns": 44.9
     },
     "rankingEligible": true,
     "embedding": [
@@ -100671,12 +100671,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 37,
-    "score": 47.4,
+    "score": 47.3,
     "scores": {
-      "face": 47.4,
-      "faceAge": 37.0,
-      "faceSns": 47.4,
-      "faceAgeSns": 37.0
+      "face": 47.3,
+      "faceAge": 36.9,
+      "faceSns": 47.3,
+      "faceAgeSns": 36.9
     },
     "details": {
       "symmetry": 70,
@@ -100993,12 +100993,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 29,
-    "score": 47.3,
+    "score": 47.2,
     "scores": {
-      "face": 47.3,
-      "faceAge": 44.9,
-      "faceSns": 47.3,
-      "faceAgeSns": 44.9
+      "face": 47.2,
+      "faceAge": 44.8,
+      "faceSns": 47.2,
+      "faceAgeSns": 44.8
     },
     "details": {
       "symmetry": 66,
@@ -102438,18 +102438,19 @@
     "name": "菅田将暉",
     "category": "actor",
     "gender": "male",
-    "score": 47.1,
+    "score": 58.7,
     "details": {
-      "symmetry": 72,
-      "golden_ratio": 35,
-      "eyes": 89,
-      "nose": 39,
-      "mouth": 79,
-      "contour": 79
+      "symmetry": 89,
+      "golden_ratio": 49,
+      "eyes": 94,
+      "nose": 47,
+      "mouth": 88,
+      "contour": 48,
+      "skin": 75
     },
     "thumbnail": "data/thumbnails/celeb_69e73e58.jpg",
     "faceValidationStatus": "accepted",
-    "faceValidationSource": "mediapipe",
+    "faceValidationSource": "face_recognition",
     "age": 33,
     "sns": {
       "instagram": 5000000,
@@ -102457,144 +102458,146 @@
     },
     "totalFollowers": 7500000,
     "scores": {
-      "face": 47.1,
-      "faceAge": 41.5,
-      "faceSns": 53.6,
-      "faceAgeSns": 49.7
+      "face": 58.7,
+      "faceAge": 53.1,
+      "faceSns": 61.7,
+      "faceAgeSns": 57.8
     },
     "rankingEligible": true,
     "rank": 639,
     "birthDate": "1993-02-21",
     "embedding": [
-      -0.05361422523856163,
-      0.10058785229921341,
-      0.02067459002137184,
-      -0.020909367129206657,
-      -0.07836521416902542,
-      -0.09484565258026123,
-      -0.02636893279850483,
-      -0.10183116048574448,
-      0.15336894989013672,
-      -0.09496036171913147,
-      0.2159714251756668,
-      -0.06409997493028641,
-      -0.19297578930854797,
-      -0.1299370527267456,
-      0.010786705650389194,
-      0.16146522760391235,
-      -0.19602186977863312,
-      -0.111174076795578,
-      -0.046574193984270096,
-      0.0049817245453596115,
-      0.038461677730083466,
-      0.03033573366701603,
-      0.03207505866885185,
-      0.044607013463974,
-      -0.05769849568605423,
-      -0.3683485984802246,
-      -0.1258702278137207,
-      -0.1132676750421524,
-      0.0388852097094059,
-      0.006921493448317051,
-      -0.05198303610086441,
-      0.07551596313714981,
-      -0.1303296536207199,
-      -0.0820801705121994,
-      0.045429203659296036,
-      0.05237247794866562,
-      -0.01262729987502098,
-      -0.057640545070171356,
-      0.14833852648735046,
-      -0.021426955237984657,
-      -0.19922161102294922,
-      -0.08537094295024872,
-      0.055886369198560715,
-      0.25663110613822937,
-      0.13676464557647705,
-      0.046872466802597046,
-      0.023109568282961845,
-      -0.07500260323286057,
-      0.0979451835155487,
-      -0.1034427061676979,
-      -0.01742956042289734,
-      0.14799650013446808,
-      0.12800897657871246,
-      0.0773511528968811,
-      0.0033488119952380657,
-      -0.12627258896827698,
-      0.05037319287657738,
-      0.0854521319270134,
-      -0.17514243721961975,
-      -0.03892100229859352,
-      0.04947134107351303,
-      -0.038741789758205414,
-      -0.061642348766326904,
-      -0.08219043165445328,
-      0.3042091727256775,
-      0.0554288811981678,
-      -0.11844009906053543,
-      -0.1481545865535736,
-      0.1770375818014145,
-      -0.13522222638130188,
-      -0.07599061727523804,
-      0.024087244644761086,
-      -0.19871258735656738,
-      -0.17134641110897064,
-      -0.2510780692100525,
-      0.002872138749808073,
-      0.37154895067214966,
-      0.1138329729437828,
-      -0.15272369980812073,
-      0.05129511281847954,
-      -0.09045388549566269,
-      -0.007944711484014988,
-      0.05320967361330986,
-      0.12174689769744873,
-      -0.07026079297065735,
-      0.09132874011993408,
-      -0.09016705304384232,
-      -0.013757654465734959,
-      0.17067578434944153,
-      -0.10633852332830429,
-      -0.011375517584383488,
-      0.18910546600818634,
-      -0.013115943409502506,
-      0.08066187053918839,
-      0.02066659741103649,
-      -0.08422356098890305,
-      -0.02740812674164772,
-      0.052467651665210724,
-      -0.1504966914653778,
-      -0.020218823105096817,
-      0.08371853083372116,
-      -0.08723901212215424,
-      0.01240957248955965,
-      0.10426758229732513,
-      -0.1460121124982834,
-      0.0970902144908905,
-      0.07090368121862411,
-      0.04429996758699417,
-      0.05436256155371666,
-      0.05187171325087547,
-      -0.13227258622646332,
-      -0.1483818143606186,
-      0.1592433899641037,
-      -0.174872025847435,
-      0.19033154845237732,
-      0.1566052883863449,
-      0.08449117839336395,
-      0.13938511908054352,
-      0.0813622921705246,
-      0.13715508580207825,
-      -0.04347465932369232,
-      -0.04496828094124794,
-      -0.17435181140899658,
-      -0.012506533414125443,
-      0.1316225528717041,
-      -0.023180833086371422,
-      0.04871857538819313,
-      -5.164807953406125e-05
-    ]
+      -0.05277884006500244,
+      0.08089891821146011,
+      0.027062976732850075,
+      -0.07901831716299057,
+      -0.1162651926279068,
+      -0.016472306102514267,
+      -0.14479102194309235,
+      -0.10570919513702393,
+      0.11113563179969788,
+      -0.08105623722076416,
+      0.21449266374111176,
+      -0.05052025243639946,
+      -0.1983766108751297,
+      -0.015728410333395004,
+      -0.02045523189008236,
+      0.12944886088371277,
+      -0.11339772492647171,
+      -0.15124891698360443,
+      0.0016374140977859497,
+      0.05597621947526932,
+      0.12138541042804718,
+      0.03820112347602844,
+      0.009030189365148544,
+      0.07337267696857452,
+      -0.12321052700281143,
+      -0.30739274621009827,
+      -0.15121017396450043,
+      -0.06657333672046661,
+      0.011657292023301125,
+      -0.047775525599718094,
+      -0.10262447595596313,
+      -0.02263144589960575,
+      -0.24534714221954346,
+      -0.06162086874246597,
+      0.08751098811626434,
+      0.1520346999168396,
+      0.006240327842533588,
+      -0.04090546816587448,
+      0.12283102422952652,
+      -0.002584229689091444,
+      -0.2786063551902771,
+      0.058804262429475784,
+      0.09453100711107254,
+      0.2191801369190216,
+      0.21954350173473358,
+      0.051996245980262756,
+      0.021950777620077133,
+      -0.12463618814945221,
+      0.048684488981962204,
+      -0.15227489173412323,
+      0.12457847595214844,
+      0.15687325596809387,
+      0.08893825113773346,
+      0.07362647354602814,
+      0.004348941147327423,
+      -0.13298392295837402,
+      0.03296688571572304,
+      0.17524923384189606,
+      -0.1487690806388855,
+      0.056497130542993546,
+      0.16613809764385223,
+      -0.04292694479227066,
+      0.026147618889808655,
+      -0.062185660004615784,
+      0.2144598811864853,
+      0.05096631869673729,
+      -0.13543207943439484,
+      -0.23600345849990845,
+      0.07160641252994537,
+      -0.18486805260181427,
+      -0.07896994799375534,
+      0.1428878903388977,
+      -0.1796816736459732,
+      -0.19328844547271729,
+      -0.32674047350883484,
+      0.028637144714593887,
+      0.3908745348453522,
+      0.14043313264846802,
+      -0.1790972203016281,
+      0.08362122625112534,
+      -0.02691604383289814,
+      -0.0005689756944775581,
+      0.0970320850610733,
+      0.11204533278942108,
+      0.05896386876702309,
+      0.08688962459564209,
+      -0.12938396632671356,
+      0.060018282383680344,
+      0.2818155586719513,
+      -0.044655706733465195,
+      0.030216310173273087,
+      0.23760652542114258,
+      -0.037350986152887344,
+      0.062257736921310425,
+      0.033662691712379456,
+      0.12683819234371185,
+      -0.05886811763048172,
+      -0.03662443533539772,
+      -0.1650025099515915,
+      -0.031063491478562355,
+      -0.0507425032556057,
+      0.00026348885148763657,
+      -0.03548858314752579,
+      0.15108661353588104,
+      -0.16365332901477814,
+      0.10196453332901001,
+      -0.0385042242705822,
+      -0.005728091113269329,
+      -0.07630147784948349,
+      -0.030916927382349968,
+      -0.06913813203573227,
+      -0.06424707919359207,
+      0.14184468984603882,
+      -0.23726391792297363,
+      0.16775338351726532,
+      0.1482953429222107,
+      0.09973478317260742,
+      0.054965972900390625,
+      0.10207285732030869,
+      0.06026966869831085,
+      0.004554801620543003,
+      -0.0846153050661087,
+      -0.23551376163959503,
+      -0.021032018586993217,
+      0.03911643102765083,
+      -0.04638390243053436,
+      0.12292851507663727,
+      0.016239618882536888
+    ],
+    "faceValidationReason": "ok",
+    "embeddingCount": 1
   },
   {
     "id": "celeb_af52eb32",
@@ -103244,7 +103247,7 @@
   {
     "id": "celeb_00f453a6",
     "name": "尾木波菜",
-    "score": 47.0,
+    "score": 46.9,
     "details": {
       "symmetry": 46,
       "golden_ratio": 42,
@@ -103260,10 +103263,10 @@
     "category": "idol",
     "rankingEligible": true,
     "scores": {
-      "face": 47.0,
-      "faceAge": 50.0,
-      "faceSns": 47.6,
-      "faceAgeSns": 49.7
+      "face": 46.9,
+      "faceAge": 49.9,
+      "faceSns": 47.5,
+      "faceAgeSns": 49.6
     },
     "embedding": [
       -0.028103742748498917,
@@ -103406,7 +103409,7 @@
   {
     "id": "celeb_393470d5",
     "name": "ほのか",
-    "score": 47.0,
+    "score": 46.9,
     "details": {
       "symmetry": 69,
       "golden_ratio": 45,
@@ -103556,17 +103559,17 @@
     "birthDate": "1996-03-23",
     "age": 30,
     "scores": {
-      "face": 47.0,
-      "faceAge": 43.8,
-      "faceSns": 47.0,
-      "faceAgeSns": 43.8
+      "face": 46.9,
+      "faceAge": 43.7,
+      "faceSns": 46.9,
+      "faceAgeSns": 43.7
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_215298e7",
     "name": "Fischer's シルクロード",
-    "score": 47.0,
+    "score": 46.9,
     "details": {
       "symmetry": 68,
       "golden_ratio": 41,
@@ -103714,10 +103717,10 @@
     "rank": 646,
     "gender": "male",
     "scores": {
-      "face": 47.0,
-      "faceAge": 43.0,
-      "faceSns": 47.0,
-      "faceAgeSns": 43.0
+      "face": 46.9,
+      "faceAge": 42.9,
+      "faceSns": 46.9,
+      "faceAgeSns": 42.9
     },
     "rankingEligible": true,
     "birthDate": "1994-08-19",
@@ -103729,12 +103732,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 26,
-    "score": 47.0,
+    "score": 46.9,
     "scores": {
-      "face": 47.0,
-      "faceAge": 49.0,
-      "faceSns": 47.0,
-      "faceAgeSns": 49.0
+      "face": 46.9,
+      "faceAge": 48.9,
+      "faceSns": 46.9,
+      "faceAgeSns": 48.9
     },
     "details": {
       "symmetry": 69,
@@ -103890,12 +103893,12 @@
     "name": "笑福亭鶴瓶",
     "category": "comedian",
     "gender": "male",
-    "score": 47.0,
+    "score": 46.9,
     "scores": {
-      "face": 47.0,
-      "faceAge": -7.8,
-      "faceSns": 47.0,
-      "faceAgeSns": -7.8
+      "face": 46.9,
+      "faceAge": -7.9,
+      "faceSns": 46.9,
+      "faceAgeSns": -7.9
     },
     "details": {
       "symmetry": 81,
@@ -104047,7 +104050,7 @@
   {
     "id": "celeb_8d112bee",
     "name": "ダウンタウン浜田雅功",
-    "score": 47.0,
+    "score": 46.9,
     "details": {
       "symmetry": 19,
       "golden_ratio": 52,
@@ -104195,10 +104198,10 @@
     "rank": 649,
     "gender": "male",
     "scores": {
-      "face": 47.0,
-      "faceAge": 6.6,
-      "faceSns": 47.0,
-      "faceAgeSns": 6.6
+      "face": 46.9,
+      "faceAge": 6.5,
+      "faceSns": 46.9,
+      "faceAgeSns": 6.5
     },
     "rankingEligible": true,
     "birthDate": "1963-05-11",
@@ -104370,12 +104373,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 24,
-    "score": 46.9,
+    "score": 46.8,
     "scores": {
-      "face": 46.9,
-      "faceAge": 50.9,
-      "faceSns": 46.9,
-      "faceAgeSns": 50.9
+      "face": 46.8,
+      "faceAge": 50.8,
+      "faceSns": 46.8,
+      "faceAgeSns": 50.8
     },
     "details": {
       "symmetry": 68,
@@ -105500,12 +105503,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 26,
-    "score": 46.8,
+    "score": 46.7,
     "scores": {
-      "face": 46.8,
-      "faceAge": 48.8,
-      "faceSns": 46.8,
-      "faceAgeSns": 48.8
+      "face": 46.7,
+      "faceAge": 48.7,
+      "faceSns": 46.7,
+      "faceAgeSns": 48.7
     },
     "details": {
       "symmetry": 37,
@@ -107109,12 +107112,12 @@
     "name": "オードリー春日",
     "category": "comedian",
     "gender": "male",
-    "score": 46.5,
+    "score": 46.4,
     "scores": {
-      "face": 46.5,
-      "faceAge": 24.1,
-      "faceSns": 46.5,
-      "faceAgeSns": 24.1
+      "face": 46.4,
+      "faceAge": 24.0,
+      "faceSns": 46.4,
+      "faceAgeSns": 24.0
     },
     "details": {
       "symmetry": 67,
@@ -107748,7 +107751,7 @@
   {
     "id": "celeb_ee80c08d",
     "name": "ヨビノリたくみ",
-    "score": 46.3,
+    "score": 46.2,
     "details": {
       "symmetry": 57,
       "golden_ratio": 37,
@@ -107898,17 +107901,17 @@
     "birthDate": "1993-01-01",
     "age": 33,
     "scores": {
-      "face": 46.3,
-      "faceAge": 40.7,
-      "faceSns": 46.3,
-      "faceAgeSns": 40.7
+      "face": 46.2,
+      "faceAge": 40.6,
+      "faceSns": 46.2,
+      "faceAgeSns": 40.6
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_e7588c0f",
     "name": "宇多田ヒカル",
-    "score": 46.3,
+    "score": 46.2,
     "details": {
       "symmetry": 49,
       "golden_ratio": 32,
@@ -107924,10 +107927,10 @@
     "category": "artist",
     "rankingEligible": true,
     "scores": {
-      "face": 46.3,
-      "faceAge": 28.7,
+      "face": 46.2,
+      "faceAge": 28.6,
       "faceSns": 53.0,
-      "faceAgeSns": 40.7
+      "faceAgeSns": 40.6
     },
     "embedding": [
       -0.025073925033211708,
@@ -108232,7 +108235,7 @@
   {
     "id": "celeb_e78d0bf5",
     "name": "高岸宏行",
-    "score": 46.1,
+    "score": 46.0,
     "details": {
       "symmetry": 61,
       "golden_ratio": 32,
@@ -108382,10 +108385,10 @@
     "birthDate": "1992-10-08",
     "age": 33,
     "scores": {
-      "face": 46.1,
-      "faceAge": 40.5,
-      "faceSns": 46.1,
-      "faceAgeSns": 40.5
+      "face": 46.0,
+      "faceAge": 40.4,
+      "faceSns": 46.0,
+      "faceAgeSns": 40.4
     },
     "rankingEligible": true
   },
@@ -108714,7 +108717,7 @@
   {
     "id": "celeb_e06ee534",
     "name": "森星",
-    "score": 46.1,
+    "score": 46.0,
     "details": {
       "symmetry": 69,
       "golden_ratio": 41,
@@ -108864,10 +108867,10 @@
     "gender": "female",
     "birthDate": "1992-04-22",
     "scores": {
-      "face": 46.1,
-      "faceAge": 40.5,
-      "faceSns": 46.1,
-      "faceAgeSns": 40.5
+      "face": 46.0,
+      "faceAge": 40.4,
+      "faceSns": 46.0,
+      "faceAgeSns": 40.4
     },
     "rankingEligible": true
   },
@@ -110962,7 +110965,7 @@
   {
     "id": "celeb_65018498",
     "name": "宮脇舞依",
-    "score": 45.8,
+    "score": 45.7,
     "details": {
       "symmetry": 56,
       "golden_ratio": 41,
@@ -111112,10 +111115,10 @@
     "birthDate": "1990-07-13",
     "age": 35,
     "scores": {
-      "face": 45.8,
-      "faceAge": 37.8,
-      "faceSns": 45.8,
-      "faceAgeSns": 37.8
+      "face": 45.7,
+      "faceAge": 37.7,
+      "faceSns": 45.7,
+      "faceAgeSns": 37.7
     },
     "rankingEligible": true
   },
@@ -111441,7 +111444,7 @@
   {
     "id": "celeb_7159ed84",
     "name": "おだけい",
-    "score": 45.7,
+    "score": 45.6,
     "details": {
       "symmetry": 69,
       "golden_ratio": 35,
@@ -111591,10 +111594,10 @@
     "birthDate": "2000-11-20",
     "age": 25,
     "scores": {
-      "face": 45.7,
-      "faceAge": 48.7,
-      "faceSns": 45.7,
-      "faceAgeSns": 48.7
+      "face": 45.6,
+      "faceAge": 48.6,
+      "faceSns": 45.6,
+      "faceAgeSns": 48.6
     },
     "rankingEligible": true
   },
@@ -112890,7 +112893,7 @@
     "name": "北川景子",
     "category": "actress",
     "gender": "female",
-    "score": 45.5,
+    "score": 45.4,
     "details": {
       "symmetry": 70,
       "golden_ratio": 35,
@@ -112908,10 +112911,10 @@
     },
     "totalFollowers": 4200000,
     "scores": {
-      "face": 45.5,
-      "faceAge": 32.7,
-      "faceSns": 51.7,
-      "faceAgeSns": 42.8
+      "face": 45.4,
+      "faceAge": 32.6,
+      "faceSns": 51.6,
+      "faceAgeSns": 42.7
     },
     "rankingEligible": true,
     "rank": 704,
@@ -114177,12 +114180,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 36,
-    "score": 45.4,
+    "score": 45.3,
     "scores": {
-      "face": 45.4,
-      "faceAge": 36.2,
-      "faceSns": 45.4,
-      "faceAgeSns": 36.2
+      "face": 45.3,
+      "faceAge": 36.1,
+      "faceSns": 45.3,
+      "faceAgeSns": 36.1
     },
     "details": {
       "symmetry": 37,
@@ -114499,12 +114502,12 @@
     "category": "athlete",
     "gender": "female",
     "age": 32,
-    "score": 45.4,
+    "score": 45.3,
     "scores": {
-      "face": 45.4,
-      "faceAge": 40.6,
-      "faceSns": 45.4,
-      "faceAgeSns": 40.6
+      "face": 45.3,
+      "faceAge": 40.5,
+      "faceSns": 45.3,
+      "faceAgeSns": 40.5
     },
     "details": {
       "symmetry": 84,
@@ -114978,7 +114981,7 @@
   {
     "id": "celeb_e5a4571e",
     "name": "中島美嘉",
-    "score": 45.3,
+    "score": 45.2,
     "details": {
       "symmetry": 70,
       "golden_ratio": 32,
@@ -114994,10 +114997,10 @@
     "category": "artist",
     "rankingEligible": true,
     "scores": {
-      "face": 45.3,
-      "faceAge": 27.7,
-      "faceSns": 48.8,
-      "faceAgeSns": 36.5
+      "face": 45.2,
+      "faceAge": 27.6,
+      "faceSns": 48.7,
+      "faceAgeSns": 36.4
     },
     "embedding": [
       -0.05619937554001808,
@@ -115303,7 +115306,7 @@
     "name": "櫻井優衣",
     "category": "idol",
     "gender": "female",
-    "score": 45.3,
+    "score": 45.2,
     "details": {
       "symmetry": 61,
       "golden_ratio": 44,
@@ -115322,10 +115325,10 @@
     "totalFollowers": 200000,
     "group": "FRUITS ZIPPER",
     "scores": {
-      "face": 45.3,
-      "faceAge": 49.3,
-      "faceSns": 47.6,
-      "faceAgeSns": 50.4
+      "face": 45.2,
+      "faceAge": 49.2,
+      "faceSns": 47.5,
+      "faceAgeSns": 50.3
     },
     "rankingEligible": true,
     "rank": 719,
@@ -115463,7 +115466,7 @@
   {
     "id": "celeb_7bf507e2",
     "name": "角野隼斗",
-    "score": 45.3,
+    "score": 45.2,
     "details": {
       "symmetry": 54,
       "golden_ratio": 37,
@@ -115613,17 +115616,17 @@
     "birthDate": "1995-07-14",
     "age": 30,
     "scores": {
-      "face": 45.3,
-      "faceAge": 42.1,
-      "faceSns": 45.3,
-      "faceAgeSns": 42.1
+      "face": 45.2,
+      "faceAge": 42.0,
+      "faceSns": 45.2,
+      "faceAgeSns": 42.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_656f9fb0",
     "name": "井上正大",
-    "score": 45.3,
+    "score": 45.2,
     "details": {
       "symmetry": 70,
       "golden_ratio": 35,
@@ -115773,17 +115776,17 @@
     "birthDate": "1989-03-20",
     "age": 37,
     "scores": {
-      "face": 45.3,
-      "faceAge": 34.9,
-      "faceSns": 45.3,
-      "faceAgeSns": 34.9
+      "face": 45.2,
+      "faceAge": 34.8,
+      "faceSns": 45.2,
+      "faceAgeSns": 34.8
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_e1ed2fb1",
     "name": "豊崎愛生",
-    "score": 45.2,
+    "score": 45.1,
     "details": {
       "symmetry": 66,
       "golden_ratio": 44,
@@ -115933,17 +115936,17 @@
     "birthDate": "1986-10-28",
     "age": 39,
     "scores": {
-      "face": 45.2,
-      "faceAge": 32.4,
-      "faceSns": 45.2,
-      "faceAgeSns": 32.4
+      "face": 45.1,
+      "faceAge": 32.3,
+      "faceSns": 45.1,
+      "faceAgeSns": 32.3
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_5782f0d0",
     "name": "令和ロマン 高比良くるま",
-    "score": 45.2,
+    "score": 45.1,
     "details": {
       "symmetry": 48,
       "golden_ratio": 34,
@@ -116093,10 +116096,10 @@
     "birthDate": "1994-09-03",
     "age": 31,
     "scores": {
-      "face": 45.2,
-      "faceAge": 41.2,
-      "faceSns": 45.2,
-      "faceAgeSns": 41.2
+      "face": 45.1,
+      "faceAge": 41.1,
+      "faceSns": 45.1,
+      "faceAgeSns": 41.1
     },
     "rankingEligible": true
   },
@@ -117400,7 +117403,7 @@
   {
     "id": "celeb_0ae94ebd",
     "name": "フォーエイト48 ゑむ氏。",
-    "score": 44.9,
+    "score": 44.8,
     "details": {
       "symmetry": 7,
       "golden_ratio": 48,
@@ -117550,10 +117553,10 @@
     "birthDate": "1996-06-07",
     "age": 29,
     "scores": {
-      "face": 44.9,
-      "faceAge": 42.5,
-      "faceSns": 44.9,
-      "faceAgeSns": 42.5
+      "face": 44.8,
+      "faceAge": 42.4,
+      "faceSns": 44.8,
+      "faceAgeSns": 42.4
     },
     "rankingEligible": true
   },
@@ -117885,12 +117888,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 38,
-    "score": 44.9,
+    "score": 44.8,
     "scores": {
-      "face": 44.9,
-      "faceAge": 33.3,
-      "faceSns": 44.9,
-      "faceAgeSns": 33.3
+      "face": 44.8,
+      "faceAge": 33.2,
+      "faceSns": 44.8,
+      "faceAgeSns": 33.2
     },
     "details": {
       "symmetry": 59,
@@ -118524,7 +118527,7 @@
   {
     "id": "celeb_43138201",
     "name": "JUJU",
-    "score": 44.8,
+    "score": 44.7,
     "details": {
       "symmetry": 52,
       "golden_ratio": 37,
@@ -118540,10 +118543,10 @@
     "category": "artist",
     "rankingEligible": true,
     "scores": {
-      "face": 44.8,
-      "faceAge": 18.8,
-      "faceSns": 47.8,
-      "faceAgeSns": 29.6
+      "face": 44.7,
+      "faceAge": 18.7,
+      "faceSns": 47.7,
+      "faceAgeSns": 29.5
     },
     "embedding": [
       -0.02556309476494789,
@@ -119654,12 +119657,12 @@
     "name": "中川家礼二",
     "category": "comedian",
     "gender": "male",
-    "score": 44.7,
+    "score": 44.6,
     "scores": {
-      "face": 44.7,
-      "faceAge": 13.9,
-      "faceSns": 44.7,
-      "faceAgeSns": 13.9
+      "face": 44.6,
+      "faceAge": 13.8,
+      "faceSns": 44.6,
+      "faceAgeSns": 13.8
     },
     "details": {
       "symmetry": 84,
@@ -119811,7 +119814,7 @@
   {
     "id": "celeb_56c2f4d9",
     "name": "堺雅人",
-    "score": 44.7,
+    "score": 44.6,
     "details": {
       "symmetry": 65,
       "golden_ratio": 44,
@@ -119827,10 +119830,10 @@
     "category": "actor",
     "rankingEligible": true,
     "scores": {
-      "face": 44.7,
-      "faceAge": 16.3,
-      "faceSns": 44.7,
-      "faceAgeSns": 16.3
+      "face": 44.6,
+      "faceAge": 16.2,
+      "faceSns": 44.6,
+      "faceAgeSns": 16.2
     },
     "embedding": [
       -0.07097778469324112,
@@ -120614,7 +120617,7 @@
   {
     "id": "celeb_e9dd0ad7",
     "name": "羽生結弦",
-    "score": 44.5,
+    "score": 44.4,
     "details": {
       "symmetry": 35,
       "golden_ratio": 43,
@@ -120763,10 +120766,10 @@
     "birthDate": "1994-12-07",
     "age": 31,
     "scores": {
-      "face": 44.5,
-      "faceAge": 40.5,
-      "faceSns": 44.5,
-      "faceAgeSns": 40.5
+      "face": 44.4,
+      "faceAge": 40.4,
+      "faceSns": 44.4,
+      "faceAgeSns": 40.4
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -121577,7 +121580,7 @@
   {
     "id": "celeb_ae23d472",
     "name": "髙松瞳",
-    "score": 44.3,
+    "score": 44.2,
     "details": {
       "symmetry": 66,
       "golden_ratio": 40,
@@ -121732,8 +121735,8 @@
     "birthDate": "2001-01-19",
     "group": "=LOVE",
     "scores": {
-      "face": 44.3,
-      "faceAge": 47.3,
+      "face": 44.2,
+      "faceAge": 47.2,
       "faceSns": 46.5,
       "faceAgeSns": 48.6
     },
@@ -122229,7 +122232,7 @@
   {
     "id": "celeb_664f79c6",
     "name": "ボンボンTV なる",
-    "score": 44.2,
+    "score": 44.1,
     "details": {
       "symmetry": 70,
       "golden_ratio": 44,
@@ -122379,10 +122382,10 @@
     "birthDate": "1994-11-22",
     "age": 31,
     "scores": {
-      "face": 44.2,
-      "faceAge": 40.2,
-      "faceSns": 44.2,
-      "faceAgeSns": 40.2
+      "face": 44.1,
+      "faceAge": 40.1,
+      "faceSns": 44.1,
+      "faceAgeSns": 40.1
     },
     "rankingEligible": true
   },
@@ -123027,7 +123030,7 @@
   {
     "id": "celeb_3d56f23e",
     "name": "たかまつなな",
-    "score": 44.0,
+    "score": 43.9,
     "details": {
       "symmetry": 44,
       "golden_ratio": 46,
@@ -123177,17 +123180,17 @@
     "birthDate": "1993-07-05",
     "age": 32,
     "scores": {
-      "face": 44.0,
-      "faceAge": 39.2,
-      "faceSns": 44.0,
-      "faceAgeSns": 39.2
+      "face": 43.9,
+      "faceAge": 39.1,
+      "faceSns": 43.9,
+      "faceAgeSns": 39.1
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_be7ec2d0",
     "name": "三上悠亜",
-    "score": 43.9,
+    "score": 43.8,
     "details": {
       "symmetry": 67,
       "golden_ratio": 35,
@@ -123337,10 +123340,10 @@
     "birthDate": "1993-08-16",
     "age": 32,
     "scores": {
-      "face": 43.9,
-      "faceAge": 39.1,
-      "faceSns": 43.9,
-      "faceAgeSns": 39.1
+      "face": 43.8,
+      "faceAge": 39.0,
+      "faceSns": 43.8,
+      "faceAgeSns": 39.0
     },
     "rankingEligible": true
   },
@@ -123512,12 +123515,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 24,
-    "score": 43.9,
+    "score": 43.8,
     "scores": {
-      "face": 43.9,
-      "faceAge": 47.9,
-      "faceSns": 43.9,
-      "faceAgeSns": 47.9
+      "face": 43.8,
+      "faceAge": 47.8,
+      "faceSns": 43.8,
+      "faceAgeSns": 47.8
     },
     "details": {
       "symmetry": 70,
@@ -124151,7 +124154,7 @@
   {
     "id": "celeb_096a5890",
     "name": "田村真佑",
-    "score": 43.7,
+    "score": 43.6,
     "details": {
       "symmetry": 29,
       "golden_ratio": 35,
@@ -124301,10 +124304,10 @@
     "birthDate": "1999-01-12",
     "age": 27,
     "scores": {
-      "face": 43.7,
-      "faceAge": 42.9,
-      "faceSns": 43.7,
-      "faceAgeSns": 42.9
+      "face": 43.6,
+      "faceAge": 42.8,
+      "faceSns": 43.6,
+      "faceAgeSns": 42.8
     },
     "rankingEligible": true
   },
@@ -124313,7 +124316,7 @@
     "name": "ゆりやんレトリィバァ",
     "category": "comedian",
     "gender": "female",
-    "score": 43.7,
+    "score": 43.6,
     "details": {
       "symmetry": 55,
       "golden_ratio": 34,
@@ -124328,10 +124331,10 @@
     "age": 35,
     "birthDate": "1990-11-01",
     "scores": {
-      "face": 43.7,
-      "faceAge": 35.7,
-      "faceSns": 43.7,
-      "faceAgeSns": 35.7
+      "face": 43.6,
+      "faceAge": 35.6,
+      "faceSns": 43.6,
+      "faceAgeSns": 35.6
     },
     "rankingEligible": true,
     "rank": 775,
@@ -124632,7 +124635,7 @@
   {
     "id": "celeb_bee374b9",
     "name": "本郷奏多",
-    "score": 43.6,
+    "score": 43.5,
     "details": {
       "symmetry": 30,
       "golden_ratio": 34,
@@ -124782,10 +124785,10 @@
     "birthDate": "1990-11-15",
     "age": 35,
     "scores": {
-      "face": 43.6,
-      "faceAge": 35.6,
-      "faceSns": 43.6,
-      "faceAgeSns": 35.6
+      "face": 43.5,
+      "faceAge": 35.5,
+      "faceSns": 43.5,
+      "faceAgeSns": 35.5
     },
     "rankingEligible": true
   },
@@ -125439,7 +125442,7 @@
   {
     "id": "celeb_9dc76a6c",
     "name": "藤原竜也",
-    "score": 43.2,
+    "score": 43.1,
     "details": {
       "symmetry": 91,
       "golden_ratio": 36,
@@ -125455,10 +125458,10 @@
     "category": "actor",
     "rankingEligible": false,
     "scores": {
-      "face": 43.2,
-      "faceAge": 24.4,
-      "faceSns": 43.2,
-      "faceAgeSns": 24.4
+      "face": 43.1,
+      "faceAge": 24.3,
+      "faceSns": 43.1,
+      "faceAgeSns": 24.3
     },
     "embedding": [
       -0.07359768450260162,
@@ -125763,12 +125766,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 27,
-    "score": 43.2,
+    "score": 43.1,
     "scores": {
-      "face": 43.2,
-      "faceAge": 42.4,
-      "faceSns": 43.2,
-      "faceAgeSns": 42.4
+      "face": 43.1,
+      "faceAge": 42.3,
+      "faceSns": 43.1,
+      "faceAgeSns": 42.3
     },
     "details": {
       "symmetry": 52,
@@ -125922,7 +125925,7 @@
   {
     "id": "celeb_c6742188",
     "name": "加藤綾子",
-    "score": 43.2,
+    "score": 43.1,
     "details": {
       "symmetry": 67,
       "golden_ratio": 36,
@@ -126072,10 +126075,10 @@
     "gender": "female",
     "birthDate": "1985-04-23",
     "scores": {
-      "face": 43.2,
-      "faceAge": 29.2,
-      "faceSns": 43.2,
-      "faceAgeSns": 29.2
+      "face": 43.1,
+      "faceAge": 29.1,
+      "faceSns": 43.1,
+      "faceAgeSns": 29.1
     },
     "rankingEligible": true
   },
@@ -126084,7 +126087,7 @@
     "name": "みちょぱ",
     "category": "influencer",
     "gender": "female",
-    "score": 43.2,
+    "score": 43.1,
     "details": {
       "symmetry": 68,
       "golden_ratio": 39,
@@ -126103,9 +126106,9 @@
     },
     "totalFollowers": 3200000,
     "scores": {
-      "face": 43.2,
-      "faceAge": 41.6,
-      "faceSns": 49.8,
+      "face": 43.1,
+      "faceAge": 41.5,
+      "faceSns": 49.7,
       "faceAgeSns": 48.6
     },
     "rankingEligible": true,
@@ -126246,12 +126249,12 @@
     "name": "リリー・フランキー",
     "category": "cultural",
     "gender": "male",
-    "score": 43.2,
+    "score": 43.1,
     "scores": {
-      "face": 43.2,
-      "faceAge": 2.8,
-      "faceSns": 43.2,
-      "faceAgeSns": 2.8
+      "face": 43.1,
+      "faceAge": 2.7,
+      "faceSns": 43.1,
+      "faceAgeSns": 2.7
     },
     "details": {
       "symmetry": 80,
@@ -126403,7 +126406,7 @@
   {
     "id": "celeb_b67830e7",
     "name": "Fischer's ンダホ",
-    "score": 43.0,
+    "score": 42.9,
     "details": {
       "symmetry": 59,
       "golden_ratio": 44,
@@ -126551,10 +126554,10 @@
     "rank": 788,
     "gender": "male",
     "scores": {
-      "face": 43.0,
-      "faceAge": 39.0,
-      "faceSns": 43.0,
-      "faceAgeSns": 39.0
+      "face": 42.9,
+      "faceAge": 38.9,
+      "faceSns": 42.9,
+      "faceAgeSns": 38.9
     },
     "rankingEligible": true,
     "birthDate": "1994-08-04",
@@ -127208,12 +127211,12 @@
     "name": "バカリズム",
     "category": "comedian",
     "gender": "male",
-    "score": 42.5,
+    "score": 42.4,
     "scores": {
-      "face": 42.5,
-      "faceAge": 42.5,
-      "faceSns": 42.5,
-      "faceAgeSns": 42.5
+      "face": 42.4,
+      "faceAge": 42.4,
+      "faceSns": 42.4,
+      "faceAgeSns": 42.4
     },
     "details": {
       "symmetry": 76,
@@ -127363,7 +127366,7 @@
   {
     "id": "celeb_16c03666",
     "name": "堀内まり菜",
-    "score": 42.5,
+    "score": 42.4,
     "details": {
       "symmetry": 61,
       "golden_ratio": 37,
@@ -127379,9 +127382,9 @@
     "category": "idol",
     "rankingEligible": false,
     "scores": {
-      "face": 42.5,
-      "faceAge": 45.5,
-      "faceSns": 44.8,
+      "face": 42.4,
+      "faceAge": 45.4,
+      "faceSns": 44.7,
       "faceAgeSns": 46.8
     },
     "embedding": [
@@ -128334,7 +128337,7 @@
   {
     "id": "celeb_af4f8148",
     "name": "栗田恵美",
-    "score": 42.3,
+    "score": 42.2,
     "details": {
       "symmetry": 67,
       "golden_ratio": 32,
@@ -128484,10 +128487,10 @@
     "birthDate": "1994-06-14",
     "age": 31,
     "scores": {
-      "face": 42.3,
-      "faceAge": 38.3,
-      "faceSns": 42.3,
-      "faceAgeSns": 38.3
+      "face": 42.2,
+      "faceAge": 38.2,
+      "faceSns": 42.2,
+      "faceAgeSns": 38.2
     },
     "rankingEligible": true
   },
@@ -128654,7 +128657,7 @@
   {
     "id": "celeb_9eccf548",
     "name": "ぼる塾 あんり",
-    "score": 42.3,
+    "score": 42.2,
     "details": {
       "symmetry": 73,
       "golden_ratio": 35,
@@ -128804,17 +128807,17 @@
     "birthDate": "1994-10-07",
     "age": 31,
     "scores": {
-      "face": 42.3,
-      "faceAge": 38.3,
-      "faceSns": 42.3,
-      "faceAgeSns": 38.3
+      "face": 42.2,
+      "faceAge": 38.2,
+      "faceSns": 42.2,
+      "faceAgeSns": 38.2
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_18087fa1",
     "name": "東海オンエア としみつ",
-    "score": 42.2,
+    "score": 42.1,
     "details": {
       "symmetry": 68,
       "golden_ratio": 34,
@@ -128964,10 +128967,10 @@
     "birthDate": "1993-07-17",
     "age": 32,
     "scores": {
-      "face": 42.2,
-      "faceAge": 37.4,
-      "faceSns": 42.2,
-      "faceAgeSns": 37.4
+      "face": 42.1,
+      "faceAge": 37.3,
+      "faceSns": 42.1,
+      "faceAgeSns": 37.3
     },
     "rankingEligible": true
   },
@@ -129133,7 +129136,7 @@
   {
     "id": "celeb_c88b6503",
     "name": "南野拓実",
-    "score": 42.2,
+    "score": 42.1,
     "details": {
       "symmetry": 0,
       "golden_ratio": 43,
@@ -129282,10 +129285,10 @@
     "birthDate": "1995-01-16",
     "age": 31,
     "scores": {
-      "face": 42.2,
-      "faceAge": 38.2,
-      "faceSns": 42.2,
-      "faceAgeSns": 38.2
+      "face": 42.1,
+      "faceAge": 38.1,
+      "faceSns": 42.1,
+      "faceAgeSns": 38.1
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -129295,7 +129298,7 @@
   {
     "id": "celeb_b40a9ed3",
     "name": "玉井詩織",
-    "score": 42.2,
+    "score": 42.1,
     "details": {
       "symmetry": 68,
       "golden_ratio": 38,
@@ -129445,10 +129448,10 @@
     "birthDate": "1995-06-04",
     "age": 30,
     "scores": {
-      "face": 42.2,
-      "faceAge": 39.0,
-      "faceSns": 42.2,
-      "faceAgeSns": 39.0
+      "face": 42.1,
+      "faceAge": 38.9,
+      "faceSns": 42.1,
+      "faceAgeSns": 38.9
     },
     "rankingEligible": true
   },
@@ -129456,7 +129459,7 @@
     "id": "celeb_14f44b42",
     "name": "与田祐希",
     "category": "idol",
-    "score": 42.1,
+    "score": 42.0,
     "details": {
       "golden_ratio": 44,
       "eyes": 52,
@@ -129473,10 +129476,10 @@
     "totalFollowers": 0,
     "group": "乃木坂46",
     "scores": {
-      "face": 42.1,
-      "faceAge": 45.1,
-      "faceSns": 42.1,
-      "faceAgeSns": 45.1
+      "face": 42.0,
+      "faceAge": 45.0,
+      "faceSns": 42.0,
+      "faceAgeSns": 45.0
     },
     "rankingEligible": false,
     "faceValidationStatus": "undetected",
@@ -129622,12 +129625,12 @@
     "category": "athlete",
     "gender": "male",
     "age": 25,
-    "score": 42.1,
+    "score": 42.0,
     "scores": {
-      "face": 42.1,
-      "faceAge": 45.1,
-      "faceSns": 42.1,
-      "faceAgeSns": 45.1
+      "face": 42.0,
+      "faceAge": 45.0,
+      "faceSns": 42.0,
+      "faceAgeSns": 45.0
     },
     "details": {
       "symmetry": 46,
@@ -129784,12 +129787,12 @@
     "category": "actress",
     "gender": "female",
     "age": 37,
-    "score": 42.0,
+    "score": 41.9,
     "scores": {
-      "face": 42.0,
-      "faceAge": 31.6,
-      "faceSns": 42.0,
-      "faceAgeSns": 31.6
+      "face": 41.9,
+      "faceAge": 31.5,
+      "faceSns": 41.9,
+      "faceAgeSns": 31.5
     },
     "details": {
       "symmetry": 91,
@@ -130263,7 +130266,7 @@
   {
     "id": "celeb_14b09a31",
     "name": "ボンボンTV えっちゃん",
-    "score": 41.9,
+    "score": 41.8,
     "details": {
       "symmetry": 68,
       "golden_ratio": 35,
@@ -130413,17 +130416,17 @@
     "birthDate": "1993-11-12",
     "age": 32,
     "scores": {
-      "face": 41.9,
-      "faceAge": 37.1,
-      "faceSns": 41.9,
-      "faceAgeSns": 37.1
+      "face": 41.8,
+      "faceAge": 37.0,
+      "faceSns": 41.8,
+      "faceAgeSns": 37.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_41ff181d",
     "name": "宮崎あおい",
-    "score": 41.8,
+    "score": 41.7,
     "details": {
       "symmetry": 67,
       "golden_ratio": 30,
@@ -130439,10 +130442,10 @@
     "category": "actress",
     "rankingEligible": false,
     "scores": {
-      "face": 41.8,
-      "faceAge": 27.8,
-      "faceSns": 41.8,
-      "faceAgeSns": 27.8
+      "face": 41.7,
+      "faceAge": 27.7,
+      "faceSns": 41.7,
+      "faceAgeSns": 27.7
     },
     "embedding": [
       -0.07366403937339783,
@@ -130915,12 +130918,12 @@
     "name": "マヂカルラブリー村上",
     "category": "comedian",
     "gender": "male",
-    "score": 41.7,
+    "score": 41.6,
     "scores": {
-      "face": 41.7,
-      "faceAge": 26.5,
-      "faceSns": 41.7,
-      "faceAgeSns": 26.5
+      "face": 41.6,
+      "faceAge": 26.4,
+      "faceSns": 41.6,
+      "faceAgeSns": 26.4
     },
     "details": {
       "symmetry": 62,
@@ -132195,12 +132198,12 @@
     "name": "ブラマヨ小杉",
     "category": "comedian",
     "gender": "male",
-    "score": 41.3,
+    "score": 41.2,
     "scores": {
-      "face": 41.3,
-      "faceAge": 12.9,
-      "faceSns": 41.3,
-      "faceAgeSns": 12.9
+      "face": 41.2,
+      "faceAge": 12.8,
+      "faceSns": 41.2,
+      "faceAgeSns": 12.8
     },
     "details": {
       "symmetry": 52,
@@ -132512,7 +132515,7 @@
   {
     "id": "celeb_b8e915e6",
     "name": "ラブリ",
-    "score": 41.2,
+    "score": 41.1,
     "details": {
       "symmetry": 69,
       "golden_ratio": 33,
@@ -132662,10 +132665,10 @@
     "birthDate": "1989-11-27",
     "age": 36,
     "scores": {
-      "face": 41.2,
-      "faceAge": 32.0,
-      "faceSns": 41.2,
-      "faceAgeSns": 32.0
+      "face": 41.1,
+      "faceAge": 31.9,
+      "faceSns": 41.1,
+      "faceAgeSns": 31.9
     },
     "rankingEligible": true
   },
@@ -133153,7 +133156,7 @@
   {
     "id": "celeb_f0e2310a",
     "name": "yunocy",
-    "score": 41.1,
+    "score": 41.0,
     "details": {
       "symmetry": 61,
       "golden_ratio": 38,
@@ -133303,17 +133306,17 @@
     "birthDate": "1998-02-20",
     "age": 28,
     "scores": {
-      "face": 41.1,
-      "faceAge": 39.5,
-      "faceSns": 41.1,
-      "faceAgeSns": 39.5
+      "face": 41.0,
+      "faceAge": 39.4,
+      "faceSns": 41.0,
+      "faceAgeSns": 39.4
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_1eea1fc4",
     "name": "薬師丸ひろ子",
-    "score": 41.1,
+    "score": 41.0,
     "details": {
       "symmetry": 64,
       "golden_ratio": 34,
@@ -133328,10 +133331,10 @@
     "category": "actress",
     "rankingEligible": false,
     "scores": {
-      "face": 41.1,
-      "faceAge": 1.9,
-      "faceSns": 41.1,
-      "faceAgeSns": 1.9
+      "face": 41.0,
+      "faceAge": 1.8,
+      "faceSns": 41.0,
+      "faceAgeSns": 1.8
     },
     "embedding": [
       -0.07426368445158005,
@@ -133475,7 +133478,7 @@
   {
     "id": "celeb_9475f8e7",
     "name": "コレコレ",
-    "score": 41.0,
+    "score": 40.9,
     "details": {
       "symmetry": 65,
       "golden_ratio": 28,
@@ -133625,17 +133628,17 @@
     "birthDate": "1989-08-12",
     "age": 36,
     "scores": {
-      "face": 41.0,
-      "faceAge": 31.8,
-      "faceSns": 41.0,
-      "faceAgeSns": 31.8
+      "face": 40.9,
+      "faceAge": 31.7,
+      "faceSns": 40.9,
+      "faceAgeSns": 31.7
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_8bf4bef0",
     "name": "花江夏樹",
-    "score": 40.8,
+    "score": 40.7,
     "details": {
       "symmetry": 58,
       "golden_ratio": 35,
@@ -133785,10 +133788,10 @@
     "birthDate": "1991-06-26",
     "age": 34,
     "scores": {
-      "face": 40.8,
-      "faceAge": 34.0,
-      "faceSns": 40.8,
-      "faceAgeSns": 34.0
+      "face": 40.7,
+      "faceAge": 33.9,
+      "faceSns": 40.7,
+      "faceAgeSns": 33.9
     },
     "rankingEligible": true
   },
@@ -134283,7 +134286,7 @@
   {
     "id": "celeb_d50a177c",
     "name": "高橋恭平",
-    "score": 40.6,
+    "score": 40.5,
     "details": {
       "symmetry": 41,
       "golden_ratio": 36,
@@ -134299,10 +134302,10 @@
     "category": "idol",
     "rankingEligible": false,
     "scores": {
-      "face": 40.6,
-      "faceAge": 40.6,
-      "faceSns": 40.6,
-      "faceAgeSns": 40.6
+      "face": 40.5,
+      "faceAge": 40.5,
+      "faceSns": 40.5,
+      "faceAgeSns": 40.5
     },
     "embedding": [
       -0.06448891013860703,
@@ -134605,7 +134608,7 @@
   {
     "id": "celeb_ff2c4f1a",
     "name": "入山杏奈",
-    "score": 40.3,
+    "score": 40.2,
     "details": {
       "symmetry": 48,
       "golden_ratio": 39,
@@ -134755,10 +134758,10 @@
     "birthDate": "1995-12-03",
     "age": 30,
     "scores": {
-      "face": 40.3,
-      "faceAge": 37.1,
-      "faceSns": 40.3,
-      "faceAgeSns": 37.1
+      "face": 40.2,
+      "faceAge": 37.0,
+      "faceSns": 40.2,
+      "faceAgeSns": 37.0
     },
     "rankingEligible": true
   },
@@ -135087,7 +135090,7 @@
     "id": "celeb_ea5ea927",
     "name": "間宮祥太朗",
     "category": "actor",
-    "score": 40.2,
+    "score": 40.1,
     "details": {
       "golden_ratio": 34,
       "eyes": 89,
@@ -135105,10 +135108,10 @@
     },
     "totalFollowers": 1500000,
     "scores": {
-      "face": 40.2,
-      "faceAge": 35.4,
-      "faceSns": 46.7,
-      "faceAgeSns": 43.3
+      "face": 40.1,
+      "faceAge": 35.3,
+      "faceSns": 46.6,
+      "faceAgeSns": 43.2
     },
     "rankingEligible": false,
     "faceValidationStatus": "undetected",
@@ -135895,12 +135898,12 @@
     "name": "松本孝弘",
     "category": "cultural",
     "gender": "male",
-    "score": 40.0,
+    "score": 39.9,
     "scores": {
-      "face": 40.0,
-      "faceAge": -4.0,
-      "faceSns": 40.0,
-      "faceAgeSns": -4.0
+      "face": 39.9,
+      "faceAge": -4.1,
+      "faceSns": 39.9,
+      "faceAgeSns": -4.1
     },
     "details": {
       "symmetry": 53,
@@ -136377,7 +136380,7 @@
   {
     "id": "celeb_5b0b9e33",
     "name": "大槻ひびき",
-    "score": 39.8,
+    "score": 39.7,
     "details": {
       "symmetry": 65,
       "golden_ratio": 35,
@@ -136527,10 +136530,10 @@
     "birthDate": "1988-02-21",
     "age": 38,
     "scores": {
-      "face": 39.8,
-      "faceAge": 28.2,
-      "faceSns": 39.8,
-      "faceAgeSns": 28.2
+      "face": 39.7,
+      "faceAge": 28.1,
+      "faceSns": 39.7,
+      "faceAgeSns": 28.1
     },
     "rankingEligible": true
   },
@@ -136539,12 +136542,12 @@
     "name": "爆笑問題太田光",
     "category": "comedian",
     "gender": "male",
-    "score": 39.7,
+    "score": 39.6,
     "scores": {
-      "face": 39.7,
-      "faceAge": 1.7,
-      "faceSns": 39.7,
-      "faceAgeSns": 1.7
+      "face": 39.6,
+      "faceAge": 1.6,
+      "faceSns": 39.6,
+      "faceAgeSns": 1.6
     },
     "details": {
       "symmetry": 58,
@@ -136697,7 +136700,7 @@
     "id": "celeb_86612318",
     "name": "遠藤さくら",
     "category": "idol",
-    "score": 39.7,
+    "score": 39.6,
     "details": {
       "golden_ratio": 31,
       "eyes": 75,
@@ -136714,10 +136717,10 @@
     "totalFollowers": 0,
     "group": "乃木坂46",
     "scores": {
-      "face": 39.7,
-      "faceAge": 43.7,
-      "faceSns": 39.7,
-      "faceAgeSns": 43.7
+      "face": 39.6,
+      "faceAge": 43.6,
+      "faceSns": 39.6,
+      "faceAgeSns": 43.6
     },
     "rankingEligible": false,
     "faceValidationStatus": "undetected",
@@ -137660,7 +137663,7 @@
   {
     "id": "celeb_189c7dec",
     "name": "デカキン",
-    "score": 39.2,
+    "score": 39.1,
     "details": {
       "symmetry": 76,
       "golden_ratio": 31,
@@ -137810,10 +137813,10 @@
     "birthDate": "1985-06-04",
     "age": 40,
     "scores": {
-      "face": 39.2,
-      "faceAge": 25.2,
-      "faceSns": 39.2,
-      "faceAgeSns": 25.2
+      "face": 39.1,
+      "faceAge": 25.1,
+      "faceSns": 39.1,
+      "faceAgeSns": 25.1
     },
     "rankingEligible": true
   },
@@ -137821,7 +137824,7 @@
     "id": "celeb_a6a7558e",
     "name": "今田美桜",
     "category": "actress",
-    "score": 61.3,
+    "score": 61.2,
     "details": {
       "symmetry": 67,
       "golden_ratio": 57,
@@ -137841,10 +137844,10 @@
     },
     "totalFollowers": 6500000,
     "scores": {
-      "face": 61.3,
-      "faceAge": 60.1,
+      "face": 61.2,
+      "faceAge": 58.8,
       "faceSns": 63.3,
-      "faceAgeSns": 62.5
+      "faceAgeSns": 61.6
     },
     "rankingEligible": true,
     "faceValidationStatus": "accepted",
@@ -137989,7 +137992,7 @@
   {
     "id": "celeb_18dcaf87",
     "name": "内田彩",
-    "score": 38.9,
+    "score": 38.8,
     "details": {
       "symmetry": 34,
       "golden_ratio": 37,
@@ -138139,17 +138142,17 @@
     "birthDate": "1986-07-23",
     "age": 39,
     "scores": {
-      "face": 38.9,
-      "faceAge": 26.1,
-      "faceSns": 38.9,
-      "faceAgeSns": 26.1
+      "face": 38.8,
+      "faceAge": 26.0,
+      "faceSns": 38.8,
+      "faceAgeSns": 26.0
     },
     "rankingEligible": true
   },
   {
     "id": "celeb_ac7980be",
     "name": "岡塚敦子",
-    "score": 38.8,
+    "score": 38.7,
     "details": {
       "symmetry": 68,
       "golden_ratio": 33,
@@ -138299,10 +138302,10 @@
     "birthDate": "1988-05-27",
     "age": 37,
     "scores": {
-      "face": 38.8,
-      "faceAge": 28.4,
-      "faceSns": 38.8,
-      "faceAgeSns": 28.4
+      "face": 38.7,
+      "faceAge": 28.3,
+      "faceSns": 38.7,
+      "faceAgeSns": 28.3
     },
     "rankingEligible": true
   },
@@ -138466,7 +138469,7 @@
   {
     "id": "celeb_095b6156",
     "name": "松岡禎丞",
-    "score": 38.5,
+    "score": 38.4,
     "details": {
       "symmetry": 64,
       "golden_ratio": 33,
@@ -138616,10 +138619,10 @@
     "birthDate": "1986-09-17",
     "age": 39,
     "scores": {
-      "face": 38.5,
-      "faceAge": 25.7,
-      "faceSns": 38.5,
-      "faceAgeSns": 25.7
+      "face": 38.4,
+      "faceAge": 25.6,
+      "faceSns": 38.4,
+      "faceAgeSns": 25.6
     },
     "rankingEligible": true
   },
@@ -138788,7 +138791,7 @@
   {
     "id": "celeb_79de5e14",
     "name": "渡辺雄太",
-    "score": 38.0,
+    "score": 37.9,
     "details": {
       "symmetry": 63,
       "golden_ratio": 33,
@@ -138937,10 +138940,10 @@
     "birthDate": "1994-10-13",
     "age": 31,
     "scores": {
-      "face": 38.0,
-      "faceAge": 34.0,
-      "faceSns": 38.0,
-      "faceAgeSns": 34.0
+      "face": 37.9,
+      "faceAge": 33.9,
+      "faceSns": 37.9,
+      "faceAgeSns": 33.9
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -138950,7 +138953,7 @@
   {
     "id": "celeb_04112379",
     "name": "豊昇龍智勝",
-    "score": 38.0,
+    "score": 37.9,
     "details": {
       "symmetry": 63,
       "golden_ratio": 33,
@@ -139099,10 +139102,10 @@
     "birthDate": "1999-05-22",
     "age": 26,
     "scores": {
-      "face": 38.0,
-      "faceAge": 40.0,
-      "faceSns": 38.0,
-      "faceAgeSns": 40.0
+      "face": 37.9,
+      "faceAge": 39.9,
+      "faceSns": 37.9,
+      "faceAgeSns": 39.9
     },
     "rankingEligible": false,
     "rankingExclusionReasons": [
@@ -139757,7 +139760,7 @@
   {
     "id": "celeb_b072afdd",
     "name": "東海オンエア しばゆー",
-    "score": 36.6,
+    "score": 36.5,
     "details": {
       "symmetry": 0,
       "golden_ratio": 36,
@@ -139907,10 +139910,10 @@
     "birthDate": "1993-12-30",
     "age": 32,
     "scores": {
-      "face": 36.6,
-      "faceAge": 31.8,
-      "faceSns": 36.6,
-      "faceAgeSns": 31.8
+      "face": 36.5,
+      "faceAge": 31.7,
+      "faceSns": 36.5,
+      "faceAgeSns": 31.7
     },
     "rankingEligible": true
   },
@@ -139919,7 +139922,7 @@
     "name": "やす子",
     "category": "comedian",
     "gender": "female",
-    "score": 36.5,
+    "score": 36.4,
     "details": {
       "symmetry": 68,
       "golden_ratio": 31,
@@ -139934,10 +139937,10 @@
     "age": 27,
     "birthDate": "1998-09-02",
     "scores": {
-      "face": 36.5,
-      "faceAge": 35.7,
-      "faceSns": 36.5,
-      "faceAgeSns": 35.7
+      "face": 36.4,
+      "faceAge": 35.6,
+      "faceSns": 36.4,
+      "faceAgeSns": 35.6
     },
     "rankingEligible": true,
     "rank": 872,
@@ -140075,7 +140078,7 @@
   {
     "id": "celeb_4917be3f",
     "name": "秋元るい",
-    "score": 36.5,
+    "score": 36.4,
     "details": {
       "symmetry": 22,
       "golden_ratio": 42,
@@ -140225,10 +140228,10 @@
     "birthDate": "1993-07-27",
     "age": 32,
     "scores": {
-      "face": 36.5,
-      "faceAge": 31.7,
-      "faceSns": 36.5,
-      "faceAgeSns": 31.7
+      "face": 36.4,
+      "faceAge": 31.6,
+      "faceSns": 36.4,
+      "faceAgeSns": 31.6
     },
     "rankingEligible": true
   },
@@ -140882,12 +140885,12 @@
     "category": "idol",
     "gender": "male",
     "age": 32,
-    "score": 35.1,
+    "score": 35.0,
     "scores": {
-      "face": 35.1,
-      "faceAge": 30.3,
-      "faceSns": 43.5,
-      "faceAgeSns": 40.1
+      "face": 35.0,
+      "faceAge": 30.2,
+      "faceSns": 43.4,
+      "faceAgeSns": 40.0
     },
     "details": {
       "symmetry": 53,

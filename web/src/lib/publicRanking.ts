@@ -80,7 +80,7 @@ const PUBLIC_SCORE_ADJUSTMENTS: Record<string, number> = {
   久慈暁子: 2.0,
   丹生明里: 2.0,
   佐藤健: 7.0,
-  菅田将暉: 11.0,
+  菅田将暉: 2.0,
   竹内涼真: 12.0,
   岡田将生: 11.0,
   横浜流星: 7.0,
