@@ -1,10 +1,18 @@
 import { useState } from 'react';
 
-const weights = [
+const baseWeights = [
   { label: '黄金比', pct: 40, color: 'bg-amber-500', desc: '縦横比と配置' },
   { label: '目', pct: 20, color: 'bg-purple-500', desc: '目の形と開き' },
   { label: '鼻', pct: 20, color: 'bg-green-500', desc: '鼻の比率' },
   { label: '口', pct: 20, color: 'bg-pink-500', desc: '口元の比率' },
+];
+
+const bodyWeights = [
+  { label: '黄金比', pct: 34, color: 'bg-amber-500', desc: '縦横比と配置' },
+  { label: '目', pct: 18, color: 'bg-purple-500', desc: '目の形と開き' },
+  { label: '鼻', pct: 18, color: 'bg-green-500', desc: '鼻の比率' },
+  { label: '口', pct: 18, color: 'bg-pink-500', desc: '口元の比率' },
+  { label: '等身', pct: 12, color: 'bg-sky-500', desc: '全身写真のみ推定' },
 ];
 
 export default function ScoreBreakdown() {
@@ -25,11 +33,12 @@ export default function ScoreBreakdown() {
           <section>
             <h3 className="mb-2 font-semibold text-white">外見スコア</h3>
             <p className="mb-3 text-slate-400">
-              68点のランドマークから4指標を出しています。
+              68点のランドマークから4指標 (全身写真なら+等身の5指標) を出しています。
               総合は各指標を偏差値に直してから重みづけしています。
             </p>
+            <div className="mb-1 text-xs font-medium text-slate-400">顔のみ (4指標)</div>
             <div className="space-y-2">
-              {weights.map((weight) => (
+              {baseWeights.map((weight) => (
                 <div key={weight.label} className="flex items-center gap-3">
                   <span className="w-12 shrink-0 text-right text-slate-400">{weight.pct}%</span>
                   <div className="flex-1">
@@ -43,7 +52,30 @@ export default function ScoreBreakdown() {
               ))}
             </div>
             <div className="mt-3 flex h-3 gap-1 overflow-hidden rounded">
-              {weights.map((weight) => (
+              {baseWeights.map((weight) => (
+                <div key={weight.label} className={weight.color} style={{ width: `${weight.pct}%` }} />
+              ))}
+            </div>
+
+            <div className="mt-5 mb-1 text-xs font-medium text-slate-400">
+              全身写真 (5指標)
+            </div>
+            <div className="space-y-2">
+              {bodyWeights.map((weight) => (
+                <div key={weight.label} className="flex items-center gap-3">
+                  <span className="w-12 shrink-0 text-right text-slate-400">{weight.pct}%</span>
+                  <div className="flex-1">
+                    <div className="mb-0.5 flex items-center gap-2">
+                      <div className={`h-3 w-3 rounded-sm ${weight.color}`} />
+                      <span className="text-white">{weight.label}</span>
+                    </div>
+                    <p className="ml-5 text-xs text-slate-500">{weight.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-3 flex h-3 gap-1 overflow-hidden rounded">
+              {bodyWeights.map((weight) => (
                 <div key={weight.label} className={weight.color} style={{ width: `${weight.pct}%` }} />
               ))}
             </div>
@@ -66,7 +98,10 @@ export default function ScoreBreakdown() {
           <section>
             <h3 className="mb-2 font-semibold text-white">等身</h3>
             <p className="text-slate-400">
-              全身に近い写真で推定できた場合だけ、補助指標として総合スコアに加えます。
+              全身に近い写真 (腰から下が見える写真) で推定できた場合のみ、
+              頭部と身体の比率を 7.5頭身を理想値として 35〜100 でスコア化します。
+              ランキングでは等身データを持たないため、診断アップロード時だけ
+              レーダーと総合スコアに反映されます。
             </p>
           </section>
 

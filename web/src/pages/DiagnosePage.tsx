@@ -309,7 +309,7 @@ export default function DiagnosePage() {
         <div className="mb-6">
           <h2 className="mb-2 text-2xl font-bold">AI外見診断</h2>
           <p className="text-slate-400">
-            写真から外見スコアと似てる芸能人を表示します。
+            写真から外見スコアと似てる芸能人を表示します。全身に近い写真なら等身も推定します。
           </p>
         </div>
 
