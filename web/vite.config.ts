@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/charm-ranking-and-lookalike/',
+  base: '/appearance-ranking-and-lookalike/',
   build: {
     rollupOptions: {
       output: {

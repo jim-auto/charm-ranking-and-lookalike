@@ -2,7 +2,7 @@
 
 日本の有名人の顔をランキング表示し、ユーザーの顔写真から似ている有名人を診断するWebアプリ。
 
-本番URL: https://jim-auto.github.io/charm-ranking-and-lookalike/
+本番URL: https://jim-auto.github.io/appearance-ranking-and-lookalike/
 
 ## Tech Stack
 
@@ -56,7 +56,7 @@ cd scripts && python generate_data.py
 ## Conventions
 
 - Git author: jim-auto
-- vite base path: `/charm-ranking-and-lookalike/`
+- vite base path: `/appearance-ranking-and-lookalike/`
 - デプロイ: main push で自動 (GitHub Actions)
 - 顔解析はすべてブラウザ内完結 (サーバーに画像送信なし)
 - サムネイルは 200x200px
