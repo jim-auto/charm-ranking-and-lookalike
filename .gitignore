@@ -47,3 +47,13 @@ scripts/output/
 
 # EXIF-containing originals
 scripts/raw_images/
+
+# Debug artifacts and one-off dogfood outputs
+/screenshot*.png
+/ranking-*.png
+/output/
+.claude/
+
+# Playwright runtime outputs
+web/test-results/
+web/playwright-report/
