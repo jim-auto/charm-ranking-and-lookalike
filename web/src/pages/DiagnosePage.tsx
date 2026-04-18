@@ -21,6 +21,10 @@ import {
   findSimilarCelebritiesByDetails,
 } from '../lib/lookalike';
 import { filterPublicSiteCelebrities } from '../lib/publicVisibility';
+import {
+  estimateBodyProportion,
+  type BodyProportionEstimate,
+} from '../lib/bodyProportion';
 
 const LookalikeResult = lazy(() => import('../components/LookalikeResult'));
 
@@ -29,6 +33,7 @@ interface DiagnoseResult {
   celebrityScore: number;
   details: ScoreDetails;
   photoQuality: PhotoQualityAssessment;
+  bodyProportion?: BodyProportionEstimate | null;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
   toDeviation: (rawScore: number) => number;
   toCelebrityDeviation: (rawScore: number) => number;
@@ -40,8 +45,8 @@ const DIAGNOSE_RAW_OFFSET = 3.2;
 
 const PROCESSING_LABELS: Record<Exclude<ProcessingStage, 'idle'>, string> = {
   loading: '画像を準備中...',
-  detecting: '顔を検出中...',
-  scoring: 'スコアを計算中...',
+  detecting: '写真を解析中...',
+  scoring: '外見スコアを計算中...',
   matching: '似てる芸能人を探し中...',
 };
 
@@ -93,7 +98,7 @@ function ResultFallback() {
 
 function buildPhotoQualityError(photoQuality: PhotoQualityAssessment): string {
   const reasons = photoQuality.blockingReasons.slice(0, 2).join(' ');
-  return `この写真は診断に向きません。${reasons} 正面寄りで、顔が大きめに写った明るい写真で試してください。`;
+  return `この写真は診断に向きません。${reasons} 正面寄りで、人物がはっきり写った明るい写真で試してください。`;
 }
 
 export default function DiagnosePage() {
@@ -193,7 +198,7 @@ export default function DiagnosePage() {
         await nextPaint();
         const detection = await detectFace(canvas);
         if (!detection) {
-          setError('顔を検出できませんでした。正面寄りの顔写真で試してください。');
+          setError('診断に必要な特徴を検出できませんでした。正面寄りで1人だけ写った写真で試してください。');
           return;
         }
 
@@ -201,6 +206,7 @@ export default function DiagnosePage() {
         await nextPaint();
         const baseDetails = calculateFaceDetails(detection.landmarks);
         const photoQuality = calculatePhotoQuality(detection.landmarks, detection.box, canvas);
+        const bodyProportion = estimateBodyProportion(detection.box, canvas);
         setPhotoQuality(photoQuality);
         if (!photoQuality.diagnosisReady) {
           setError(buildPhotoQualityError(photoQuality));
@@ -208,6 +214,7 @@ export default function DiagnosePage() {
         }
         const filteredDetails = {
           ...baseDetails,
+          ...(bodyProportion ? { body_proportion: bodyProportion.score } : {}),
           symmetry: photoQuality.symmetryReliable ? baseDetails.symmetry : undefined,
         };
         const { details } = calibrateDiagnoseDetails(
@@ -271,7 +278,16 @@ export default function DiagnosePage() {
                 }),
               );
 
-        setResult({ score, celebrityScore, details, photoQuality, lookalikes, toDeviation, toCelebrityDeviation });
+        setResult({
+          score,
+          celebrityScore,
+          details,
+          photoQuality,
+          bodyProportion,
+          lookalikes,
+          toDeviation,
+          toCelebrityDeviation,
+        });
       } catch (err) {
         console.error(err);
         setError('診断中にエラーが発生しました。');
@@ -287,9 +303,9 @@ export default function DiagnosePage() {
     <div className="mx-auto max-w-5xl">
       <div className="mx-auto max-w-2xl">
         <div className="mb-6">
-          <h2 className="mb-2 text-2xl font-bold">AI顔診断</h2>
+          <h2 className="mb-2 text-2xl font-bold">AI外見診断</h2>
           <p className="text-slate-400">
-            顔写真からスコアと似てる芸能人を表示します。
+            写真から外見スコアと似てる芸能人を表示します。
           </p>
         </div>
 
@@ -394,6 +410,7 @@ export default function DiagnosePage() {
                 celebrityScore={result.celebrityScore}
                 details={result.details}
                 photoQuality={result.photoQuality}
+                bodyProportion={result.bodyProportion}
                 lookalikes={result.lookalikes}
                 toDeviation={result.toDeviation}
                 toCelebrityDeviation={result.toCelebrityDeviation}

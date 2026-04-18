@@ -75,9 +75,9 @@ export default function ImageUploader({
       ) : (
         <div className="text-slate-400">
           <div className="mb-3 text-4xl">📷</div>
-          <p className="text-lg">顔写真をドロップ または クリックして選択</p>
+          <p className="text-lg">写真をドロップ または クリックして選択</p>
           <p className="mt-2 text-sm text-slate-500">
-            正面寄りの単顔写真だと精度が安定します
+            正面寄りで1人だけ写った写真だと精度が安定します
           </p>
         </div>
       )}

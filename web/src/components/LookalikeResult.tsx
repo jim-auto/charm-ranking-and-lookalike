@@ -1,4 +1,5 @@
 import type { PhotoQualityAssessment } from '../lib/photoQuality';
+import type { BodyProportionEstimate } from '../lib/bodyProportion';
 import type { Celebrity, ScoreDetails } from '../types/celebrity';
 import ScoreRadar from './ScoreRadar';
 
@@ -7,6 +8,7 @@ interface Props {
   celebrityScore: number;
   details: ScoreDetails;
   photoQuality: PhotoQualityAssessment;
+  bodyProportion?: BodyProportionEstimate | null;
   lookalikes: { celebrity: Celebrity; similarity: number }[];
   toDeviation?: (rawScore: number) => number;
   toCelebrityDeviation?: (rawScore: number) => number;
@@ -39,6 +41,7 @@ export default function LookalikeResult({
   celebrityScore,
   details,
   photoQuality,
+  bodyProportion,
   lookalikes,
   toDeviation,
   toCelebrityDeviation,
@@ -68,8 +71,15 @@ export default function LookalikeResult({
           <QualityMetric label="写真品質" value={photoQuality.overallScore} hint="全体の見やすさ" />
           <QualityMetric label="正面度" value={photoQuality.frontalScore} hint="正面に近いほど高め" />
           <QualityMetric label="シャープさ" value={photoQuality.sharpnessScore} hint="ピントの強さ" />
-          <QualityMetric label="顔の収まり" value={photoQuality.cropScore} hint="切れすぎを確認" />
-          <QualityMetric label="顔の大きさ" value={`${photoQuality.faceAreaRatio}%`} hint="顔が大きいほど安定" />
+          <QualityMetric label="収まり" value={photoQuality.cropScore} hint="輪郭の切れすぎを確認" />
+          <QualityMetric label="写りの大きさ" value={`${photoQuality.faceAreaRatio}%`} hint="大きく写るほど安定" />
+          {bodyProportion && (
+            <QualityMetric
+              label="推定等身"
+              value={`${bodyProportion.ratio}等身`}
+              hint={`等身スコア ${formatScore(bodyProportion.score)}`}
+            />
+          )}
           <QualityMetric label="傾き" value={`${photoQuality.rollDegrees}°`} hint="0°に近いほど安定" />
           <QualityMetric label="横向き度" value={photoQuality.yawScore} hint="正面に近いほど高め" />
         </div>

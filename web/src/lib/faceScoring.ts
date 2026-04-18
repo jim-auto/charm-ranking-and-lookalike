@@ -55,7 +55,7 @@ export function calculateGoldenRatio(landmarks: Point[]): number {
   const eyeRatio = eyeDistance / faceWidth;
 
   const score1 = ratioScore(faceRatio, 1.46); // 日本人の理想比率（やや縦長）
-  const score2 = ratioScore(eyeRatio, 0.44); // 日本人の平均的な目間距離/顔幅
+  const score2 = ratioScore(eyeRatio, 0.44); // 日本人の平均的な目間距離/横幅
 
   return (score1 + score2) / 2;
 }

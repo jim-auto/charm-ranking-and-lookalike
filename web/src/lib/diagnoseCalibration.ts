@@ -54,6 +54,10 @@ export function calibrateDiagnoseDetails(
       photoQuality.frontalScore * 0.45 +
       photoQuality.cropScore * 0.35 +
       photoQuality.sharpnessScore * 0.2,
+    body_proportion:
+      photoQuality.faceAreaRatio < 10
+        ? photoQuality.cropScore * 0.7 + photoQuality.frontalScore * 0.3
+        : 40,
   };
 
   const reliability: Record<DetailRankingMetric, number> = {
@@ -61,6 +65,7 @@ export function calibrateDiagnoseDetails(
     eyes: toReliability(supportScores.eyes),
     nose: toReliability(supportScores.nose),
     mouth: toReliability(supportScores.mouth),
+    body_proportion: toReliability(supportScores.body_proportion),
   };
 
   return {

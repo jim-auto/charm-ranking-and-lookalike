@@ -5,7 +5,13 @@ interface Props {
   distributions: Partial<Record<DetailRankingMetric, MetricDistribution>>;
 }
 
-const metricOrder: DetailRankingMetric[] = ['golden_ratio', 'eyes', 'nose', 'mouth'];
+const metricOrder: DetailRankingMetric[] = [
+  'golden_ratio',
+  'eyes',
+  'nose',
+  'mouth',
+  'body_proportion',
+];
 
 const metricTheme: Record<
   DetailRankingMetric,
@@ -34,6 +40,11 @@ const metricTheme: Record<
     dot: 'bg-pink-400',
     bar: 'bg-pink-400',
     panel: 'from-pink-500/10',
+  },
+  body_proportion: {
+    dot: 'bg-sky-400',
+    bar: 'bg-sky-400',
+    panel: 'from-sky-500/10',
   },
 };
 

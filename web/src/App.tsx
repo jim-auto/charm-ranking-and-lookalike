@@ -19,7 +19,7 @@ export default function App() {
       <div className="min-h-screen">
         <header className="border-b border-slate-800">
           <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
-            <h1 className="text-base font-bold text-white sm:text-xl">顔面ランキング</h1>
+            <h1 className="text-base font-bold text-white sm:text-xl">外見ランキング</h1>
             <nav className="flex gap-1">
               <NavLink
                 to="/"
@@ -40,7 +40,7 @@ export default function App() {
                   }`
                 }
               >
-                AI顔面診断
+                AI外見診断
               </NavLink>
             </nav>
           </div>

@@ -17,8 +17,13 @@ interface Props {
   size?: 'xs' | 'sm' | 'md';
 }
 
-const labels = ['黄金比', '目', '鼻', '口'];
-const keys: (keyof ScoreDetails)[] = ['golden_ratio', 'eyes', 'nose', 'mouth'];
+const metricEntries: Array<{ label: string; key: keyof ScoreDetails }> = [
+  { label: '黄金比', key: 'golden_ratio' },
+  { label: '目', key: 'eyes' },
+  { label: '鼻', key: 'nose' },
+  { label: '口', key: 'mouth' },
+  { label: '等身', key: 'body_proportion' },
+];
 
 class RadarErrorBoundary extends Component<
   { children: ReactNode; fallback: ReactNode },
@@ -38,12 +43,15 @@ class RadarErrorBoundary extends Component<
 function RadarChart({ details, size = 'md' }: Props) {
   const isCompact = size === 'xs';
   const isSmall = size === 'sm';
+  const activeMetrics = metricEntries.filter(
+    ({ key }) => typeof details[key] === 'number',
+  );
 
   const data = {
-    labels,
+    labels: activeMetrics.map(({ label }) => label),
     datasets: [
       {
-        data: keys.map((key) => details[key]),
+        data: activeMetrics.map(({ key }) => details[key] ?? 0),
         backgroundColor: 'rgba(99, 102, 241, 0.2)',
         borderColor: 'rgba(99, 102, 241, 0.8)',
         borderWidth: 2,

@@ -88,6 +88,41 @@ function formatAgeStat(value: number | null): string {
   return `${value.toFixed(1)}歳`;
 }
 
+function getPaginationItems(currentPage: number, totalPages: number): Array<number | 'ellipsis-left' | 'ellipsis-right'> {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, i) => i + 1);
+  }
+
+  const pages = new Set<number>([1, totalPages, currentPage]);
+  if (currentPage > 1) pages.add(currentPage - 1);
+  if (currentPage < totalPages) pages.add(currentPage + 1);
+  if (currentPage <= 3) {
+    pages.add(2);
+    pages.add(3);
+    pages.add(4);
+  }
+  if (currentPage >= totalPages - 2) {
+    pages.add(totalPages - 3);
+    pages.add(totalPages - 2);
+    pages.add(totalPages - 1);
+  }
+
+  const ordered = [...pages]
+    .filter((pageNumber) => pageNumber >= 1 && pageNumber <= totalPages)
+    .sort((a, b) => a - b);
+  const items: Array<number | 'ellipsis-left' | 'ellipsis-right'> = [];
+
+  ordered.forEach((pageNumber, index) => {
+    const previous = ordered[index - 1];
+    if (previous && pageNumber - previous > 1) {
+      items.push(previous === 1 ? 'ellipsis-left' : 'ellipsis-right');
+    }
+    items.push(pageNumber);
+  });
+
+  return items;
+}
+
 function sortCategoryValues(a: string, b: string): number {
   const ai = categoryOrder.indexOf(a);
   const bi = categoryOrder.indexOf(b);
@@ -227,6 +262,7 @@ export default function RankingPage() {
   );
 
   const totalPages = Math.ceil(sorted.length / perPage);
+  const paginationItems = getPaginationItems(page, totalPages);
   const paged = sorted.slice((page - 1) * perPage, page * perPage);
   const rankOffset = (page - 1) * perPage;
 
@@ -404,22 +440,31 @@ export default function RankingPage() {
               >
                 {'<'}
               </button>
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                <button
-                  key={p}
-                  onClick={() => {
-                    setPage(p);
-                    window.scrollTo(0, 0);
-                  }}
-                  className={`h-9 w-9 rounded text-sm font-medium transition-colors ${
-                    page === p
-                      ? 'bg-indigo-600 text-white'
-                      : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-                  }`}
-                >
-                  {p}
-                </button>
-              ))}
+              {paginationItems.map((item) =>
+                typeof item === 'number' ? (
+                  <button
+                    key={item}
+                    onClick={() => {
+                      setPage(item);
+                      window.scrollTo(0, 0);
+                    }}
+                    className={`h-9 w-9 rounded text-sm font-medium transition-colors ${
+                      page === item
+                        ? 'bg-indigo-600 text-white'
+                        : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                    }`}
+                  >
+                    {item}
+                  </button>
+                ) : (
+                  <span
+                    key={item}
+                    className="flex h-9 w-6 items-center justify-center text-sm text-slate-500"
+                  >
+                    ...
+                  </span>
+                ),
+              )}
               <button
                 onClick={() => {
                   setPage((current) => Math.min(totalPages, current + 1));

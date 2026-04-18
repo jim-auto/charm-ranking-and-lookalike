@@ -266,19 +266,19 @@ export function calculatePhotoQuality(
     blockingReasons.push('顎の上げ下げが大きく、縦バランスが崩れています。');
   }
   if (Math.abs(rollDegrees) > 22) {
-    blockingReasons.push('顔の傾きが大きすぎます。');
+    blockingReasons.push('傾きが大きすぎます。');
   }
   if (yawScore < 5 && faceAreaRatio < 3) {
-    blockingReasons.push('横向きが強く、顔の中心位置を安定して取りにくいです。');
+    blockingReasons.push('横向きが強く、中心位置を安定して取りにくいです。');
   }
   if (frontalScore < 12 && cropScore < 20) {
     blockingReasons.push('正面度が足りず、安定して診断しにくいです。');
   }
-  if (faceAreaRatio < 2) {
-    blockingReasons.push('顔が小さすぎて、細部を安定して取りにくいです。');
+  if (faceAreaRatio < 0.8) {
+    blockingReasons.push('写りが小さすぎて、細部を安定して取りにくいです。');
   }
   if (cropScore < 18) {
-    blockingReasons.push('顔が小さすぎるか、輪郭が切れています。');
+    blockingReasons.push('写りが小さすぎるか、輪郭が切れています。');
   }
   if (sharpnessScore < 0.7) {
     blockingReasons.push('写真がぼけすぎています。');
@@ -297,9 +297,9 @@ export function calculatePhotoQuality(
   const notes: string[] = [];
   if (yawScore < 68) notes.push('横向きが強めです。正面の写真だと左右対称を見やすくなります。');
   if (pitchScore < 58) notes.push('顎の上げ下げが強めです。目線の高さで撮ると安定します。');
-  if (Math.abs(rollDegrees) > 9) notes.push('顔の傾きが大きめです。まっすぐに近い写真だと見やすいです。');
-  if (cropScore < 35) notes.push('顔まわりが詰まり気味で、輪郭が取りにくいです。');
-  if (faceAreaRatio < 10) notes.push('顔がやや小さめです。もう少し近い写真だと安定します。');
+  if (Math.abs(rollDegrees) > 9) notes.push('傾きが大きめです。まっすぐに近い写真だと見やすいです。');
+  if (cropScore < 35) notes.push('輪郭まわりが詰まり気味で、輪郭が取りにくいです。');
+  if (faceAreaRatio < 10) notes.push('写りがやや小さめです。もう少し近い写真だと安定します。');
   if (sharpnessScore < 22) notes.push('少しぼけています。明るい場所だと安定します。');
   if (notes.length === 0) notes.push('この写真ならかなり見やすいです。');
 

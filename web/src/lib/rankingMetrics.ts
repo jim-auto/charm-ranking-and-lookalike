@@ -1,6 +1,6 @@
 import type { Celebrity } from '../types/celebrity';
 
-export type DetailRankingMetric = 'golden_ratio' | 'eyes' | 'nose' | 'mouth';
+export type DetailRankingMetric = 'golden_ratio' | 'eyes' | 'nose' | 'mouth' | 'body_proportion';
 
 export type RankingMetric = 'overall' | DetailRankingMetric;
 
@@ -27,6 +27,7 @@ export function isReferenceMetric(_metric: RankingMetric): boolean {
 }
 
 export function getRankingMetricLabel(metric: RankingMetric): string {
+  if (metric === 'body_proportion') return '等身';
   return rankingMetricOptions.find((option) => option.value === metric)?.label ?? metric;
 }
 

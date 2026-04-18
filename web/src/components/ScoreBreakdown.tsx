@@ -23,7 +23,7 @@ export default function ScoreBreakdown() {
       {open && (
         <div className="mt-4 space-y-6 text-sm text-slate-300">
           <section>
-            <h3 className="mb-2 font-semibold text-white">顔スコア</h3>
+            <h3 className="mb-2 font-semibold text-white">外見スコア</h3>
             <p className="mb-3 text-slate-400">
               68点のランドマークから4指標を出しています。
               総合は各指標を偏差値に直してから重みづけしています。
@@ -59,16 +59,23 @@ export default function ScoreBreakdown() {
           <section>
             <h3 className="mb-2 font-semibold text-white">SNS補正 ON</h3>
             <p className="text-slate-400">
-              主要SNSのフォロワー数を対数で換算し、顔70%とSNS30%で混ぜています。
+              主要SNSのフォロワー数を対数で換算し、外見70%とSNS30%で混ぜています。
+            </p>
+          </section>
+
+          <section>
+            <h3 className="mb-2 font-semibold text-white">等身</h3>
+            <p className="text-slate-400">
+              全身に近い写真で推定できた場合だけ、補助指標として総合スコアに加えます。
             </p>
           </section>
 
           <section>
             <h3 className="mb-2 font-semibold text-white">基準比率</h3>
             <ul className="ml-4 list-disc space-y-1 text-slate-400">
-              <li>顔の縦横比: <span className="text-white">1.46</span></li>
-              <li>目の距離 / 顔幅: <span className="text-white">0.44</span></li>
-              <li>鼻幅 / 顔幅: <span className="text-white">0.26</span></li>
+              <li>縦横比: <span className="text-white">1.46</span></li>
+              <li>目の距離 / 横幅: <span className="text-white">0.44</span></li>
+              <li>鼻幅 / 横幅: <span className="text-white">0.26</span></li>
               <li>口幅 / 鼻幅: <span className="text-white">1.5</span></li>
               <li>目の縦横比: <span className="text-white">0.33</span></li>
             </ul>

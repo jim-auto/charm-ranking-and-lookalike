@@ -31,20 +31,38 @@ const DETAIL_METRICS: DetailRankingMetric[] = [
   'eyes',
   'nose',
   'mouth',
+  'body_proportion',
 ];
 
-const OVERALL_METRICS: DetailRankingMetric[] = [
+const BASE_OVERALL_METRICS: DetailRankingMetric[] = [
   'golden_ratio',
   'eyes',
   'nose',
   'mouth',
 ];
 
-const OVERALL_WEIGHTS: Record<DetailRankingMetric, number> = {
+const BODY_OVERALL_METRICS: DetailRankingMetric[] = [
+  'golden_ratio',
+  'eyes',
+  'nose',
+  'mouth',
+  'body_proportion',
+];
+
+const BASE_OVERALL_WEIGHTS: Record<DetailRankingMetric, number> = {
   golden_ratio: 0.4,
   eyes: 0.2,
   nose: 0.2,
   mouth: 0.2,
+  body_proportion: 0,
+};
+
+const BODY_OVERALL_WEIGHTS: Record<DetailRankingMetric, number> = {
+  golden_ratio: 0.34,
+  eyes: 0.18,
+  nose: 0.18,
+  mouth: 0.18,
+  body_proportion: 0.12,
 };
 
 const HISTOGRAM_BINS = [
@@ -194,12 +212,20 @@ export function calculateAdjustedOverallScore(
   distributions: Partial<Record<DetailRankingMetric, MetricDistribution>>,
 ): number {
   let total = 0;
+  let weightTotal = 0;
+  const hasBodyProportion = typeof details.body_proportion === 'number';
+  const metrics = hasBodyProportion ? BODY_OVERALL_METRICS : BASE_OVERALL_METRICS;
+  const weights = hasBodyProportion ? BODY_OVERALL_WEIGHTS : BASE_OVERALL_WEIGHTS;
 
-  OVERALL_METRICS.forEach((metric) => {
+  metrics.forEach((metric) => {
     const rawValue = details[metric];
-    const deviation = calculateMetricDeviation(rawValue, distributions[metric]) ?? 50;
-    total += deviation * OVERALL_WEIGHTS[metric];
+    if (typeof rawValue !== 'number') return;
+
+    const deviation = calculateMetricDeviation(rawValue, distributions[metric]) ?? rawValue;
+    const weight = weights[metric];
+    total += deviation * weight;
+    weightTotal += weight;
   });
 
-  return round1(total);
+  return weightTotal > 0 ? round1(total / weightTotal) : 50;
 }
