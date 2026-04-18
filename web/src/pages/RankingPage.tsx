@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import type { Celebrity } from '../types/celebrity';
 import {
   type DetailRankingMetric,
@@ -328,6 +329,13 @@ export default function RankingPage() {
             {metric.label}
           </button>
         ))}
+        <Link
+          to="/diagnose"
+          className="rounded-full border border-sky-800 bg-sky-950/40 px-3 py-1.5 text-sm font-medium text-sky-200 transition-colors hover:bg-sky-900/60"
+          title="全身写真を診断ページにアップロードすると等身も表示されます"
+        >
+          等身 (診断へ) →
+        </Link>
       </div>
 
       <div className="mb-6 flex flex-wrap items-center gap-3 rounded-lg bg-slate-800/50 p-3">
