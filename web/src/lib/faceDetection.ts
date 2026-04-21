@@ -1,5 +1,6 @@
 let modelsLoaded = false;
 let faceApiPromise: Promise<typeof import('face-api.js')> | null = null;
+let tensorBackendPromise: Promise<void> | null = null;
 const NORMALIZED_EMBEDDING_SIZE = 200;
 const EMBEDDING_PADDING_RATIO = 0.3;
 const UPSCALE_FALLBACK_THRESHOLD = 240;
@@ -11,6 +12,26 @@ async function loadFaceApi() {
     faceApiPromise = import('face-api.js');
   }
   return faceApiPromise;
+}
+
+async function ensureTensorBackend(faceapi: typeof import('face-api.js')): Promise<void> {
+  if (!tensorBackendPromise) {
+    tensorBackendPromise = (async () => {
+      const tf = faceapi.tf;
+      if (tf.getBackend() !== 'cpu') {
+        const backendReady = await tf.setBackend('cpu');
+        if (!backendReady) {
+          throw new Error('TensorFlow CPU backend is unavailable.');
+        }
+      }
+      await tf.ready();
+    })().catch((error) => {
+      tensorBackendPromise = null;
+      throw error;
+    });
+  }
+
+  return tensorBackendPromise;
 }
 
 function extractNormalizedFaceCanvas(
@@ -215,6 +236,7 @@ export async function loadModels(modelPath: string): Promise<void> {
   if (modelsLoaded) return;
 
   const faceapi = await loadFaceApi();
+  await ensureTensorBackend(faceapi);
   await Promise.all([
     faceapi.nets.ssdMobilenetv1.loadFromUri(modelPath),
     faceapi.nets.faceLandmark68Net.loadFromUri(modelPath),
@@ -235,6 +257,7 @@ export async function detectFace(
   input: HTMLImageElement | HTMLCanvasElement,
 ): Promise<DetectionResult | null> {
   const faceapi = await loadFaceApi();
+  await ensureTensorBackend(faceapi);
 
   let detection = await detectMappedFace(faceapi, input);
   let scale = 1;

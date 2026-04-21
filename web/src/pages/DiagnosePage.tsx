@@ -9,6 +9,11 @@ import {
 import { calculateFaceDetails } from '../lib/faceMetricCalculator';
 import { calibrateDiagnoseDetails } from '../lib/diagnoseCalibration';
 import { calculatePhotoQuality, type PhotoQualityAssessment } from '../lib/photoQuality';
+import {
+  assertDiagnosisBrowserSupport,
+  getDiagnosisCompatibilityMessage,
+  getDiagnosisRuntimeErrorMessage,
+} from '../lib/browserCompatibility';
 import ImageUploader from '../components/ImageUploader';
 import {
   calculateAdjustedOverallScore,
@@ -37,6 +42,8 @@ interface DiagnoseResult {
 type ProcessingStage = 'idle' | 'loading' | 'detecting' | 'scoring' | 'matching';
 
 const DIAGNOSE_RAW_OFFSET = 3.2;
+const MAX_DIAGNOSE_IMAGE_EDGE = 1800;
+const MAX_DIAGNOSE_CANVAS_PIXELS = 3_600_000;
 
 const PROCESSING_LABELS: Record<Exclude<ProcessingStage, 'idle'>, string> = {
   loading: '画像を準備中...',
@@ -49,6 +56,49 @@ function nextPaint(): Promise<void> {
   return new Promise((resolve) => {
     requestAnimationFrame(() => resolve());
   });
+}
+
+function getLoadedImageDimensions(img: HTMLImageElement): { width: number; height: number } {
+  const width = img.naturalWidth || img.width;
+  const height = img.naturalHeight || img.height;
+  if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) {
+    throw new Error('Image dimensions are unavailable.');
+  }
+  return { width, height };
+}
+
+function getDiagnosisCanvasSize(width: number, height: number): { width: number; height: number } {
+  const edgeScale = Math.min(1, MAX_DIAGNOSE_IMAGE_EDGE / Math.max(width, height));
+  const pixelScale = Math.min(
+    1,
+    Math.sqrt(MAX_DIAGNOSE_CANVAS_PIXELS / Math.max(width * height, 1)),
+  );
+  const scale = Math.min(edgeScale, pixelScale);
+  return {
+    width: Math.max(1, Math.round(width * scale)),
+    height: Math.max(1, Math.round(height * scale)),
+  };
+}
+
+function prepareDiagnosisCanvas(
+  canvas: HTMLCanvasElement,
+  img: HTMLImageElement,
+): HTMLCanvasElement {
+  const source = getLoadedImageDimensions(img);
+  const target = getDiagnosisCanvasSize(source.width, source.height);
+  canvas.width = target.width;
+  canvas.height = target.height;
+  const ctx = canvas.getContext('2d', { willReadFrequently: true });
+  if (!ctx) {
+    throw new Error('Canvas 2D context is unavailable.');
+  }
+  ctx.drawImage(img, 0, 0, target.width, target.height);
+  return canvas;
+}
+
+function buildImagePreparationError(error: unknown): string {
+  const detail = error instanceof Error ? error.message : error ? String(error) : '';
+  return `画像を診断用に準備できませんでした。SafariやiPhoneで大きい写真、iCloud上の写真、HEIC写真を使っている場合は、端末にダウンロードしてから、またはJPEG/PNGで保存し直してから試してください。${detail ? ` (${detail})` : ''}`;
 }
 
 function getLookalikeDetailWeight(photoQuality: PhotoQualityAssessment): number {
@@ -106,6 +156,7 @@ export default function DiagnosePage() {
   const [photoQuality, setPhotoQuality] = useState<PhotoQualityAssessment | null>(null);
   const [result, setResult] = useState<DiagnoseResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [compatibilityWarning, setCompatibilityWarning] = useState<string | null>(null);
   const [gender, setGender] = useState<'male' | 'female'>('male');
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const embeddingStorePromiseRef = useRef<Promise<EmbeddingStore | null> | null>(null);
@@ -137,7 +188,10 @@ export default function DiagnosePage() {
 
   useEffect(() => {
     Promise.all([
-      loadModels(modelBaseUrl),
+      (async () => {
+        assertDiagnosisBrowserSupport();
+        await loadModels(modelBaseUrl);
+      })(),
       fetch(`${dataBaseUrl}/celebrities.json`).then((r) => r.json()),
     ])
       .then(([, data]) => {
@@ -146,9 +200,21 @@ export default function DiagnosePage() {
       })
       .catch((err) => {
         console.error(err);
-        setError('モデルの読み込みに失敗しました。ページを再読み込みしてください。');
+        setError(
+          getDiagnosisRuntimeErrorMessage(err) ??
+            'モデルの読み込みに失敗しました。ページを再読み込みしてください。',
+        );
       });
   }, [dataBaseUrl, modelBaseUrl]);
+
+  useEffect(() => {
+    try {
+      assertDiagnosisBrowserSupport();
+      setCompatibilityWarning(null);
+    } catch (err) {
+      setCompatibilityWarning(getDiagnosisCompatibilityMessage(err));
+    }
+  }, []);
 
   const ensureEmbeddingStore = useCallback(async (): Promise<EmbeddingStore | null> => {
     if (embeddingStore) {
@@ -170,6 +236,15 @@ export default function DiagnosePage() {
     return embeddingStorePromiseRef.current;
   }, [dataBaseUrl, embeddingStore]);
 
+  const handleUploadError = useCallback((message: string) => {
+    setUploadedImageSrc(null);
+    setProcessing(false);
+    setProcessingStage('idle');
+    setPhotoQuality(null);
+    setResult(null);
+    setError(message);
+  }, []);
+
   const handleImage = useCallback(
     async (img: HTMLImageElement) => {
       if (!modelsReady) return;
@@ -183,11 +258,19 @@ export default function DiagnosePage() {
       await nextPaint();
 
       try {
-        const canvas = canvasRef.current!;
-        canvas.width = img.width;
-        canvas.height = img.height;
-        const ctx = canvas.getContext('2d')!;
-        ctx.drawImage(img, 0, 0);
+        assertDiagnosisBrowserSupport();
+        const canvasElement = canvasRef.current;
+        if (!canvasElement) {
+          throw new Error('Diagnosis canvas is unavailable.');
+        }
+
+        let canvas: HTMLCanvasElement;
+        try {
+          canvas = prepareDiagnosisCanvas(canvasElement, img);
+        } catch (imageError) {
+          setError(buildImagePreparationError(imageError));
+          return;
+        }
 
         setProcessingStage('detecting');
         await nextPaint();
@@ -282,13 +365,22 @@ export default function DiagnosePage() {
         });
       } catch (err) {
         console.error(err);
-        setError('診断中にエラーが発生しました。');
+        setError(
+          getDiagnosisRuntimeErrorMessage(err) ?? '診断中にエラーが発生しました。',
+        );
       } finally {
         setProcessing(false);
         setProcessingStage('idle');
       }
     },
-    [ensureEmbeddingStore, modelsReady, metricDistributions, scoringCelebrities, toDeviation],
+    [
+      ensureEmbeddingStore,
+      modelsReady,
+      metricDistributions,
+      scoringCelebrities,
+      toCelebrityDeviation,
+      toDeviation,
+    ],
   );
 
   return (
@@ -331,13 +423,23 @@ export default function DiagnosePage() {
         {modelsReady && (
           <ImageUploader
             onImageSelected={handleImage}
+            onError={handleUploadError}
             isProcessing={processing}
             processingLabel={processingLabel ?? undefined}
           />
         )}
 
+        {compatibilityWarning && !error && (
+          <div className="mt-4 rounded-lg border border-amber-700 bg-amber-950/50 p-4 text-amber-100">
+            {compatibilityWarning}
+          </div>
+        )}
+
         {error && (
-          <div className="mt-4 rounded-lg border border-red-700 bg-red-900/50 p-4 text-red-300">
+          <div
+            role="alert"
+            className="mt-4 rounded-lg border border-red-700 bg-red-900/50 p-4 text-red-300"
+          >
             {error}
           </div>
         )}
@@ -411,7 +513,7 @@ export default function DiagnosePage() {
         </div>
       )}
 
-      <canvas ref={canvasRef} className="hidden" />
+      <canvas ref={canvasRef} data-diagnosis-canvas="true" className="hidden" />
     </div>
   );
 }

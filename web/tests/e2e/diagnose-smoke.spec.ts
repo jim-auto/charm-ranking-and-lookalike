@@ -41,7 +41,6 @@ async function uploadAndWait(
 test.describe('diagnose smoke', () => {
   test.beforeEach(({ page }) => {
     page.on('pageerror', (error) => {
-      // eslint-disable-next-line no-console
       console.log(`[pageerror] ${error.message}`);
     });
   });
@@ -51,5 +50,49 @@ test.describe('diagnose smoke', () => {
     await uploadAndWait(page, CLOSE_UP_THUMB);
     // 等身 is no longer displayed anywhere in the diagnose flow.
     await expect(page.getByText('推定等身')).toHaveCount(0);
+  });
+
+  test('shows privacy guidance when canvas readback is blocked', async ({ page }) => {
+    await page.addInitScript(() => {
+      const originalGetImageData = CanvasRenderingContext2D.prototype.getImageData;
+      CanvasRenderingContext2D.prototype.getImageData = function (...args) {
+        if (this.canvas.dataset.diagnosisCompatibilityProbe === 'true') {
+          throw new DOMException('Blocked by privacy settings', 'SecurityError');
+        }
+        return originalGetImageData.apply(this, args);
+      };
+    });
+
+    await page.goto('#/diagnose');
+    const alert = page.getByRole('alert');
+    await expect(alert).toContainText('Brave Shields', { timeout: 30_000 });
+    await expect(alert).toContainText('フィンガープリント防止');
+  });
+
+  test('shows upload guidance when the selected image is empty', async ({ page }) => {
+    await waitForModelsReady(page);
+    await page.locator('input[type="file"]').setInputFiles({
+      name: 'icloud-photo.jpg',
+      mimeType: 'image/jpeg',
+      buffer: Buffer.alloc(0),
+    });
+
+    await expect(page.getByRole('alert')).toContainText('iCloud', { timeout: 30_000 });
+  });
+
+  test('shows image preparation guidance when canvas drawing fails', async ({ page }) => {
+    await page.addInitScript(() => {
+      const originalDrawImage = CanvasRenderingContext2D.prototype.drawImage;
+      CanvasRenderingContext2D.prototype.drawImage = function (...args) {
+        if (this.canvas.dataset.diagnosisCanvas === 'true') {
+          throw new DOMException('Canvas memory limit', 'InvalidStateError');
+        }
+        return Reflect.apply(originalDrawImage, this, args);
+      };
+    });
+
+    await waitForModelsReady(page);
+    await page.locator('input[type="file"]').setInputFiles(CLOSE_UP_THUMB);
+    await expect(page.getByRole('alert')).toContainText('Safari', { timeout: 30_000 });
   });
 });
