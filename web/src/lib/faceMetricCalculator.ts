@@ -198,6 +198,9 @@ function calculateNoseScore(landmarks: Point[]): number {
 }
 
 function calculateMouthScore(landmarks: Point[]): number {
+  // Must mirror scripts/reprocess_all.py:calculate_mouth_score (the production
+  // generator of celebrities.json) so the diagnosed user's mouth score is
+  // comparable to the celebrity distribution. Normalized by nose width.
   const mouthWidth = distance(landmarks[48], landmarks[54]);
   const noseWidth = distance(landmarks[31], landmarks[35]);
   const upperLipHeight = distance(landmarks[51], landmarks[62]);
