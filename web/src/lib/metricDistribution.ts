@@ -115,6 +115,19 @@ function getMetricValues(
     .map((value) => Number(value));
 }
 
+// Deliberate FIXED reference distribution for diagnosis deviation — NOT the
+// live celebrity distribution. Fixed on purpose (commit 1b7890f) so diagnosis
+// scores stay stable as the celebrity dataset grows/changes.
+//
+// These are intentionally generous: the actual scores.face distribution of
+// celebrities.json is mean ≈ 50.0, stdev ≈ 5.5 (881 entries, 2026-07). Using a
+// lower mean (47) here maps a diagnosed user onto celebrities generously — an
+// average diagnosis reads as "around a real celebrity" rather than below them.
+// Combined with DIAGNOSE_RAW_OFFSET (DiagnosePage) and the general-deviation
+// lift (GENERAL_DEVIATION_BASE below), the whole flow is tuned to feel positive.
+//
+// => Do NOT "fix" these to match the live distribution without a product
+//    decision: it would drop every user's displayed score by ~4-5 points.
 const CELEBRITY_DEVIATION_MEAN = 47.0;
 const CELEBRITY_DEVIATION_STDEV = 6.0;
 
